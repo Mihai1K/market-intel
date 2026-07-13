@@ -231,6 +231,32 @@ export function getOpportunityOfTheWeek(): { slug: string; marketName: string; o
   return best;
 }
 
+export interface GlobalOpportunity {
+  slug: string;
+  marketName: string;
+  opp: Opportunity;
+  founderFitScore: number | null;
+}
+
+/** Все возможности всех рынков — для глобального рейтинга */
+export function getGlobalOpportunities(): GlobalOpportunity[] {
+  const all: GlobalOpportunity[] = [];
+  for (const b of getAllMarkets()) {
+    for (const opp of b.opportunities?.opportunities ?? []) {
+      const ff = opp.launch_score.components.find((c) =>
+        c.name.toLowerCase().includes("founder") || c.name.toLowerCase().includes("fit")
+      );
+      all.push({
+        slug: b.slug,
+        marketName: b.market?.name ?? b.slug,
+        opp,
+        founderFitScore: ff?.score ?? null,
+      });
+    }
+  }
+  return all.sort((a, z) => z.opp.launch_score.total - a.opp.launch_score.total);
+}
+
 export function latestFact(facts?: Fact[]): Fact | null {
   if (!facts?.length) return null;
   return [...facts].sort((a, b) => (a.period < b.period ? 1 : -1))[0];

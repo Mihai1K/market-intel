@@ -1,0 +1,7 @@
+Проверка http://localhost:3000
+
+200  /  (49969 байт)
+200  /rating  (39902 байт)
+200  /pains  (116430 байт)
+200  /markets/hr-tech-rf  (281370 байт)
+200  /markets/hr-tech-rf/companies/careerspace  (44706 байт)

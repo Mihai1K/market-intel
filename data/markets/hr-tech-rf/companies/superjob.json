@@ -30,12 +30,10 @@
     { "plan": "«Базовый» — публикация 1 вакансии, регионы", "price": "~2 400–3 300 ₽", "source_url": "https://www.superjob.ru/info/price-list/", "retrieved_at": "2026-07-13" },
     { "plan": "«Максимальный» (вакансии + база резюме), вся Россия", "price": "224 590 ₽/мес … 771 912 ₽/год", "source_url": "https://www.superjob.ru/info/price-list/", "retrieved_at": "2026-07-13" }
   ],
-  "top_complaints": [
-    { "complaint": "Мало реальных откликов по сравнению с hh", "source_url": "https://otzovik.com/reviews/superjob_ru-sayt_po_poisku_raboti/" }
-  ],
   "data_gaps": [
     "Среднесписочная численность за 2021-2022",
-    "Продуктовые метрики (MAU, число вакансий) не раскрываются"
+    "Продуктовые метрики (MAU, число вакансий) не раскрываются",
+    "Отзывы пользователей — подтверждённой ссылки нет (жалоба «мало откликов» удалена 2026-07-13: источник не прошёл verify-links)"
   ],
   "sources": ["https://bo.nalog.gov.ru/organizations-card/4480128"],
   "updated_at": "2026-07-13"

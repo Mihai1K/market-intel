@@ -18,12 +18,18 @@ export default function Home() {
             Возможность недели · {otw.marketName}
           </h2>
           <OpportunityCard opp={otw.opp} />
-          <div className="mt-2 text-right">
+          <div className="mt-2 flex justify-end gap-4">
             <Link
               href={`/markets/${otw.slug}`}
               className="text-xs text-zinc-500 underline decoration-zinc-800 hover:text-zinc-300"
             >
               все возможности рынка →
+            </Link>
+            <Link
+              href="/rating"
+              className="text-xs text-emerald-500 underline decoration-emerald-900 hover:text-emerald-300"
+            >
+              глобальный рейтинг →
             </Link>
           </div>
         </section>

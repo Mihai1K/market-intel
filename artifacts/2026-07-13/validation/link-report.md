@@ -1,0 +1,239 @@
+# Отчёт проверки ссылок — 2026-07-13 11:22
+
+Всего уникальных URL: **212** · живых: **199** · антибот/закрыто: **10** · битых: **3** · таймаут: **0**
+
+## Битые — требуют замены источника (3)
+
+- [404] https://otzovik.com/review_16752318.html
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [404] https://otzovik.com/reviews/superjob_ru-sayt_po_poisku_raboti/
+  - используется в: data/markets/hr-tech-rf/companies/superjob.json
+- [ENOTFOUND] https://zine.tomoru.ru/errors-vacancies
+  - используется в: data/markets/hr-tech-rf/pains.json
+
+## Антибот/закрыто (10)
+
+> 401/403/429 или сброс соединения. Ссылка, скорее всего, живая, но сайт не пускает роботов — не считается битой.
+
+- [403] https://habr.com/ru/articles/976476/
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://investfuture.ru/articles/nikogo-net-pochemu-biznes-mesyatsami-ne-mozhet-nayti-sotrudnikov-dazhe-na-prostye-vakansii
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [403] https://iz.ru/1632333/sergei-gurianov/predpensionnyi-fond-sokhraniaetsia-li-eidzhizm-na-rynke-truda
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [TypeError] https://kontur.ru/articles/5062
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://pampadu.ru/blog/9203-chto-takoe-gosting-v-rekrutinge-i-kak-s-nim-borotsya/
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://spark.ru/startup/bizpeople-family/blog/272370/kak-iskat-sotrudnikov-bez-hr-rabochie-soveti-dlya-predprinimatelya
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [429] https://www.audit-it.ru/contragent/1177746032276_ooo-skilaz
+  - используется в: data/markets/hr-tech-rf/companies/skillaz.json
+- [429] https://www.audit-it.ru/contragent/1177746741347_ooo-potok
+  - используется в: data/markets/hr-tech-rf/companies/potok.json
+- [429] https://www.audit-it.ru/contragent/5177746185997_ooo-visivi
+  - используется в: data/markets/hr-tech-rf/companies/vcv.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.m24.ru/articles/obshchestvo/22052026/903121
+  - используется в: data/markets/hr-tech-rf/pains.json
+
+## Живые (199)
+
+- [200] http://json-schema.org/draft-07/schema#
+- [200] https://adesk.ru/blog/kadrovyi-golod-kak-malomu-biznesu-s-nim-borotsia/
+- [200] https://ai-russia.ru/library/hh
+- [200] https://allo.tochka.com/find-employee
+- [200] https://antaltalent.ru/en/news/methods-lengths-job-search-2025-q3/
+- [200] https://bgstaff.ru/news/Skorost-zakrytiya-vakansii-kak-bystro-najti-kadry-i-spat-spokojno/
+- [200] https://bo.nalog.gov.ru/organizations-card/10068764
+- [200] https://bo.nalog.gov.ru/organizations-card/10311423
+- [200] https://bo.nalog.gov.ru/organizations-card/10442709
+- [200] https://bo.nalog.gov.ru/organizations-card/10712268
+- [200] https://bo.nalog.gov.ru/organizations-card/11370313
+- [200] https://bo.nalog.gov.ru/organizations-card/11727738
+- [200] https://bo.nalog.gov.ru/organizations-card/17076
+- [200] https://bo.nalog.gov.ru/organizations-card/4480128
+- [200] https://bo.nalog.gov.ru/organizations-card/5186587
+- [200] https://bo.nalog.gov.ru/organizations-card/5205343
+- [200] https://bo.nalog.gov.ru/organizations-card/8522831
+- [200] https://bo.nalog.gov.ru/organizations-card/8985338
+- [200] https://bo.nalog.gov.ru/organizations-card/9991109
+- [200] https://career.habr.com
+- [200] https://careerspace.app
+- [200] https://careerspace.app/subscription
+- [200] https://checko.ru/company/dzhi-bot-1207700270051
+- [200] https://checko.ru/company/habr-5067746892769
+- [200] https://checko.ru/company/karernoe-prostranstvo-1217700587939
+- [200] https://checko.ru/company/superdzhob-1027700404797
+- [200] https://checko.ru/company/zarplata-ru-1147746526817
+- [200] https://companies.rbc.ru/id/1207700270051-getmatch/
+- [200] https://companies.rbc.ru/id/5147746474134-ooo-obschestvo-s-ogranichennoj-otvetstvennostyu-rdv-soft/
+- [200] https://corp.cnews.ru/news/line/2026-02-27_just_ai_i_potok_rekrutment
+- [200] https://craftum.com/blog/nejroseti-dlya-sozdaniya-rezyume/
+- [200] https://devby.io/blogs/posts/this-is-lie
+- [200] https://devby.io/news/rezume-mozhno-vykinut-v-musorku-rekrutery-ih-bolshe-ne-chitaut
+- [200] https://e-pepper.ru/blogs/news/superjob-vyvodit-na-rynok-novyy-marketpleys
+- [200] https://e-staff.ru
+- [200] https://e-staff.ru/
+- [200] https://e-staff.ru/tariffs
+- [200] https://eanews.ru/rossiya/20260128163013/rossiyane-mesyatsami-ne-mogut-nayti-rabotu-i-govoryat-o-gibeli-rynka-truda
+- [200] https://finance.mail.ru/article/kak-soiskatelyu-otlichit-testovoe-zadanie-ot-raboty-za-spasibo-69212239/
+- [200] https://finance.mail.ru/article/malyj-biznes-stal-chashe-nanimat-neidealnyh-sotrudnikov-69204649/
+- [200] https://friend.work
+- [200] https://friend.work/price
+- [200] https://getmatch.ru
+- [200] https://h.careers/
+- [200] https://h.careers/deals/karernaya-konsultaciya-nikolay-shirinkin
+- [200] https://habr.com/ru/articles/1004214/
+- [200] https://habr.com/ru/articles/1026380/
+- [200] https://habr.com/ru/articles/1054450/
+- [200] https://habr.com/ru/articles/796529/
+- [200] https://habr.com/ru/articles/841744/
+- [200] https://habr.com/ru/articles/927698/
+- [200] https://habr.com/ru/articles/945766/
+- [200] https://habr.com/ru/articles/993578/
+- [200] https://habr.com/ru/companies/agima/articles/765556/
+- [200] https://habr.com/ru/companies/beeline_cloud/articles/952526/
+- [200] https://habr.com/ru/companies/diasoft_company/articles/1012420/
+- [200] https://habr.com/ru/news/1009354/
+- [200] https://habr.com/ru/news/570864/
+- [200] https://heaad.ru/blog/skolko-stoit-podbor-personala/
+- [200] https://hh.ru
+- [200] https://hh.ru/article/2071
+- [200] https://hh.ru/article/25057
+- [200] https://hh.ru/article/27112
+- [200] https://hh.ru/article/31249
+- [200] https://hh.ru/article/31506
+- [200] https://hh.ru/article/31982
+- [200] https://hh.ru/article/32897
+- [200] https://hh.ru/article/506100
+- [200] https://hh.ru/article/api-talantix
+- [200] https://hh.ru/article/chto-umeet-ii-pomoshchnik-dlya-najma
+- [200] https://hh.ru/article/pochemu-ne-nuzhno-boyatsya-ii-pri-poiske-raboty
+- [200] https://hh.ru/article/rabotodatyeli-moshyenniki-v-tyelyegram-botakh
+- [200] https://hh.ru/article/rynok-truda-v-2025-godu-pochemu-stalo-trudnee-iskat-rabotu
+- [200] https://hh.ru/blog/pochemu-rabotodatel-ne-otvechaet-na-otklik
+- [200] https://hh.ru/price-list
+- [200] https://hh.ru/services
+- [200] https://hhgo.ru/
+- [200] https://hrtime.ru/contents/stoimost-podbora-personala-pochemu-takie-tseny/
+- [200] https://hrtime.ru/material/pochemu-kandidaty-ne-prikhodiat-na-sobesedovaniia-oshibki-rabotodateley-139335/
+- [200] https://huntflow.media/gde-zayavku-ostavlyali-tuda-i-idite/
+- [200] https://huntflow.media/huntflow-cena/
+- [200] https://huntflow.media/kak-pravilno-napisat-vakansiyu/
+- [200] https://huntflow.media/skryvat-zarplatu-v-vakansii/
+- [200] https://huntflow.ru
+- [200] https://huntflow.ru/help/knowledge-base/watcher-101/
+- [200] https://huntflow.ru/insight/article/ne-boites-vperedi-klassno
+- [200] https://investor.hh.ru
+- [200] https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf
+- [200] https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf
+- [200] https://irecommend.ru/content/lyudi-kotorye-nichego-ne-znayut-o-klientoorientirovannosti
+- [200] https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii
+- [200] https://jobturbo.ru/
+- [200] https://komkad.ru/blog/skolko-stoit-podbor-personala/
+- [200] https://konkurent.ru/article/75842
+- [200] https://kontur.ru/lp/hr-funnel/blog/55404-skrining_resume
+- [200] https://mentors.solvery.io/technical_interview
+- [200] https://motivity.ru/blog/gosting-kandidatov-5-skriptov-chtoby-ponyat-chto-on-ne-vyjdet-eshhe-na-etape-sobesedovaniya/
+- [200] https://naimee.ai/
+- [200] https://naimee.ai/hrzavtra/avtomatizatsiya-otbora-rezyume
+- [200] https://novacontact.ru/blog/kak-dovesti-do-sobesedovania
+- [200] https://novacontact.ru/blog/stoimost-podbora-personala
+- [200] https://otvet.mail.ru/question/232842661
+- [200] https://otvet.mail.ru/question/242218457
+- [200] https://otzovik.com/review_17847718.html
+- [200] https://otzovik.com/review_18218058.html
+- [200] https://otzovik.com/review_18354699.html
+- [200] https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/
+- [200] https://pikabu.ru/story/kak_ya_nedavno_iskal_rabotu_v_it_postrazdumie_13668136
+- [200] https://platforms.su/platform/15750
+- [200] https://play.google.com/store/apps/details?id=ru.hh.android&hl=en_IN
+- [200] https://pntr.io/2001-otzivi-na-prilozheniya-hh-ru-v-storah-kak-kompaniya-headhunter-stala
+- [200] https://podustal.ru/blog/avtootkliki-posle-zakrytiya-api-hh
+- [200] https://podustal.ru/blog/optimizaciya-rezyume-pod-ats-sistemy
+- [200] https://potok.io
+- [200] https://potok.io/
+- [200] https://potok.io/blog/hr-howto/nerelevantnye-otkliki/
+- [200] https://potok.io/blog/hr-howto/new_tariffs_hh/
+- [200] https://potok.io/blog/hr-overview/screening-resume/
+- [200] https://potok.io/it-holding-talenttech-obedinit-svoi-hrtech-resheniya-pod-brendom-potok/
+- [200] https://potok.io/onboarding/
+- [200] https://potok.io/potok-v-rejtinge-luchshih-hr-tech-kompanij-ot-smart-ranking-v-2023-godu/
+- [200] https://potok.io/price/
+- [200] https://pro.rabota.ru/no-show
+- [200] https://proglib.io/p/dzhuny-game-over-ili-novyy-uroven-slozhnosti-2025-04-15
+- [200] https://prorecruitment.ru/blog/luchshie-ats-sistemy-rossiya-2026
+- [200] https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley
+- [200] https://prosto.rabota.ru/post/ghost-jobs/
+- [200] https://quick-offer.ru/info/faq
+- [200] https://quick-offer.ru/news/unanswered-click
+- [200] https://ria.ru/20260424/zarplata-2088663315.html
+- [200] https://runews24.ru/society/11/06/2026/prizrachnyie-vakansii-dobivayut-ryinok-truda-pochemu-kompanii-publikuyut-obyavleniya-bez-realnogo-najma
+- [200] https://setka.ru/posts/0197186e-fcda-44f5-b557-3b09e43d241b
+- [200] https://setka.ru/posts/0197a059-adb2-42b2-8d38-308f88866432
+- [200] https://setka.ru/posts/019b1fa3-f9f1-7632-931b-15152090c400
+- [200] https://skillaz.ru
+- [200] https://sky.pro/wiki/profession/pochemu-posle-45-ne-berut-na-rabotu-6-prichin-i-kak-ih-preodolet/
+- [200] https://smartranking.ru/ru/analytics/hrtech/
+- [200] https://smartranking.ru/ru/analytics/hrtech/ejcharteh-rynok-vyros-na-9-v-i-kvartale-rost-sderzhivaetsya-stagnaciej-podbora-personala/
+- [200] https://smartranking.ru/ru/analytics/hrtech/hrtech-rynok-v-rossii-vyros-na-38/
+- [200] https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/
+- [200] https://smartranking.ru/ru/analytics/hrtech/v-i-polugodii-2025-goda-rynok-hrtech-vyros-na-12-do-406-mlrd-rublej-odnako-tempy-rosta-ostayutsya/
+- [200] https://smartranking.ru/ru/ranking/company/skillaz/
+- [200] https://solvery.io/ru/mentors/interviews
+- [200] https://soprovodai.ru/ai-interview-assistant
+- [200] https://spectrumdata.ru/blog/proverka-soiskatelya/gosting-na-rabote-pochemu-kandidaty-i-sotrudniki-ischezayut-bez-obyasneniya-prichin/
+- [200] https://stats.hh.ru/
+- [200] https://strategy.ru/news/rossijskij-rynok-korporativnogo-po-budet-rasti-v-srednem-na-24-ezhegodno-do-2030-goda-i-prevysit-700-mlrd-rublej/
+- [200] https://talantix.ru
+- [200] https://talantix.ru/promo/price
+- [200] https://thehrd.ru/articles/kak-sostavit-tekst-vakansii-chtoby-na-nee-nikto-ne-otkliknulsja/
+- [200] https://tutortop.ru/school-reviews/careerspace/
+- [200] https://u-mama.ru/forum/women/job/1004050/
+- [200] https://uprav.ru/blog/gosting-posle-sobesedovaniya/
+- [200] https://ura.news/news/1053081471
+- [200] https://vc.ru/25708-vcv-500s
+- [200] https://vc.ru/finance/102859-rossiyskiy-hr-startap-vcv-privlek-investicii-ot-byvshego-sovladelca-troyki-dialog-i-predprinimatelya-rubena-vardanyana
+- [200] https://vc.ru/finance/164092-servis-avtomatizacii-rekrutinga-friendwork-privlek-2-5-mln-ot-prytek-igorya-rybakova-i-partnerov-u-investorov-50-1
+- [200] https://vc.ru/finance/58355-headhunter-kupil-dolyu-v-servise-dlya-avtomatizacii-rekrutinga-skillaz
+- [200] https://vc.ru/growth/139674-vcv-kak-500-startups-pomog-vyyti-na-rynok-ameriki-i-zapoluchit-investorov-iz-yaponii
+- [200] https://vc.ru/hr/1911148-kak-samostoyatelno-nanimat-sotrudnikov-dlya-malogo-biznesa
+- [200] https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga
+- [200] https://vc.ru/hr/2872781-avtomatizatsiya-rekrutinga-sokraschenie-vremeni-obrabotki-rezyume
+- [200] https://vc.ru/hr/75579-testovoe-zadanie-pochemu-net
+- [200] https://vc.ru/life/1146251-testovoe-zadanie-ne-oplachivaetsya-kak-perestat-raspugivat-soiskatelei-i-sostavit-testovoe-kotoroe-budut-delat
+- [200] https://vc.ru/life/2794664-hh-ru-i-ii-skrining-kak-oboyti-avtomaticheskie-otkazy
+- [200] https://vc.ru/money/252792-headhunter-poluchil-kontrol-v-servise-dlya-avtomatizacii-rekrutinga-skillaz
+- [200] https://vc.ru/services/1608664-vsya-pravda-o-hhru-dlya-rabotodatelei-otzyvy-plyusy-i-minusy-obzor-eksperta
+- [200] https://vc.ru/services/1743493-razmeshenie-vakansii-na-hhru-rukovodstvo-po-vyboru-novogo-tarifa-dlya-rabotodatelei
+- [200] https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu
+- [200] https://vcv.ru
+- [200] https://vcv.ru/pricing/
+- [200] https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver
+- [200] https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork
+- [200] https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou
+- [200] https://www.banki.ru/news/daytheme/?id=11023520
+- [200] https://www.cnews.ru/news/line/2025-10-03_headhunter_anonsiroval_zapusk
+- [200] https://www.cnews.ru/news/top/2024-09-27_headhunter_vernulsya_na_birzhukompaniya
+- [200] https://www.cnews.ru/news/top/2024-12-10_aktsionery_headhunter_poradovali
+- [200] https://www.cnews.ru/news/top/2025-03-25_v_rossii_poyavilsya_internet-auktsion
+- [200] https://www.cnews.ru/projects/2025/Rynok_HR_Tech_2025
+- [200] https://www.cnews.ru/reviews/rynok_hr_tech/articles/top-40_krupnejshih_igrokov_v_sfere
+- [200] https://www.finversia.ru/news/markets/severgrupp-alekseya-mordashova-kupila-hr-platformu-potok-23550
+- [200] https://www.forbes.ru/svoi-biznes/521951-headhunter-polucil-kontrol-v-hrlink-za-bolee-cem-1-mlrd-rublej
+- [200] https://www.interfax.ru/business/978459
+- [200] https://www.kellyservices.ru/blog/2021/05/chto-razdrazhaiet-rossiian-pri-poiskie-raboty-riezultaty-issliedovaniia
+- [200] https://www.kommersant.ru/doc/5081541
+- [200] https://www.kommersant.ru/doc/8481423
+- [200] https://www.kommersant.ru/doc/8656247
+- [200] https://www.rabota.ru
+- [200] https://www.rusprofile.ru/id/7387955
+- [200] https://www.sostav.ru/blogs/282131/85331
+- [200] https://www.superjob.ru
+- [200] https://www.superjob.ru/info/price-list/
+- [200] https://www.superjob.ru/research/articles/115235/rossiyan/
+- [200] https://www.superjob.ru/vakansii/rekruter.html
+- [200] https://www.tadviser.ru/index.php/Статья:Российский_рынок_HR-tech
+- [200] https://www.vedomosti.ru/ideas/technologies/articles/2026/05/27/1199342-rinka-truda
+- [200] https://www.zarplata.ru
+- [200] https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT

@@ -335,9 +335,7 @@
       "saas_possible": true,
       "channel": ["web", "telegram"],
       "difficulty": 3,
-      "quotes": [
-        { "text": "Меня послала ментор после того как я начала задавать конкретные вопросы", "source_url": "https://otzovik.com/review_16752318.html" }
-      ]
+      "quotes": []
     },
     {
       "id": "irrelevant-recommendations",
@@ -512,10 +510,9 @@
       "id": "cant-write-job-descriptions",
       "statement": "Малый бизнес не умеет писать вакансии: шаблоны, «дружный коллектив», расплывчатые требования — в итоге ноль релевантных откликов",
       "role": "работодатель",
-      "mentions_found": 4,
+      "mentions_found": 3,
       "links": [
         "https://kontur.ru/articles/5062",
-        "https://zine.tomoru.ru/errors-vacancies",
         "https://thehrd.ru/articles/kak-sostavit-tekst-vakansii-chtoby-na-nee-nikto-ne-otkliknulsja/",
         "https://huntflow.media/kak-pravilno-napisat-vakansiyu/"
       ],

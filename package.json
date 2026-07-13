@@ -1,0 +1,10 @@
+{
+  "name": "market-intel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "verify-links": "node scripts/verify-links.mjs",
+    "artifacts": "node scripts/make-artifacts.mjs"
+  }
+}

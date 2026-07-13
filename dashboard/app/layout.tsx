@@ -29,6 +29,9 @@ export default function RootLayout({
             <Link href="/" className="text-sm font-semibold tracking-tight text-zinc-100">
               market<span className="text-emerald-400">·</span>intel
             </Link>
+            <Link href="/rating" className="text-sm text-zinc-400 hover:text-zinc-100">
+              Рейтинг
+            </Link>
             <Link href="/" className="text-sm text-zinc-400 hover:text-zinc-100">
               Рынки
             </Link>

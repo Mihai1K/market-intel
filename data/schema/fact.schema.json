@@ -17,7 +17,8 @@
     "confidence": { "enum": ["high", "medium", "low"] },
     "method": { "enum": ["reported", "estimated", "derived"] },
     "formula": { "type": "string", "description": "обязательна при method=derived" },
-    "note": { "type": "string" }
+    "note": { "type": "string" },
+    "superseded": { "type": "boolean", "description": "true = значение пересмотрено более новым фактом за тот же период; старый факт не удаляется — это история" }
   },
   "if": { "properties": { "method": { "const": "derived" } } },
   "then": { "required": ["formula"] }
