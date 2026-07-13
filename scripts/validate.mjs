@@ -29,6 +29,11 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const ALLOWED_NUMERIC_KEYS = new Set([
   "value", "founded", "mentions_found", "difficulty", "ease_of_purchase",
   "score", "total", "weight", "rating",
+  // Market Timeline (снимки скорингов)
+  "launch", "scale",
+  // Experiment Database — собственные данные экспериментов (first-party, источник — сам эксперимент)
+  "budget_rub", "spend_rub", "impressions", "clicks", "leads", "sales",
+  "revenue_rub", "cac_rub", "cpl_rub", "days",
 ]);
 
 function isFact(node) {
@@ -193,6 +198,50 @@ function checkOpportunities(rel, o) {
   }
 }
 
+const DECISION_STATUS = new Set(["rejected", "deferred", "testing", "accepted"]);
+const EXPERIMENT_VERDICT = new Set(["running", "confirmed", "partial", "failed"]);
+
+function checkDecisions(rel, d, knownOppIds) {
+  for (const [i, dec] of (d.decisions ?? []).entries()) {
+    const at = `decisions[${i}]`;
+    for (const k of ["date", "market", "opportunity_name", "decision", "reason", "author"]) {
+      if (dec[k] === undefined || dec[k] === "") err(rel, at, `обязательное поле "${k}" отсутствует`);
+    }
+    if (dec.decision && !DECISION_STATUS.has(dec.decision)) err(rel, at, `decision "${dec.decision}" вне {rejected,deferred,testing,accepted}`);
+    if (dec.reason && dec.reason.length < 30) err(rel, at, "reason короче 30 символов — «не зашло» не причина, причина должна быть проверяемой");
+    if (dec.date && !DATE_RE.test(dec.date)) err(rel, at, "date должна быть YYYY-MM-DD");
+    if (dec.opportunity_id && knownOppIds.size && !knownOppIds.has(`${dec.market}/${dec.opportunity_id}`)) {
+      warn(rel, at, `opportunity_id "${dec.opportunity_id}" не найден в data/markets/${dec.market}/opportunities.json`);
+    }
+  }
+}
+
+function checkExperiments(rel, e, knownOppIds) {
+  for (const [i, ex] of (e.experiments ?? []).entries()) {
+    const at = `experiments[${i}](${ex.id ?? "?"})`;
+    for (const k of ["id", "started_at", "market", "opportunity_id", "type", "channel", "verdict"]) {
+      if (ex[k] === undefined || ex[k] === "") err(rel, at, `обязательное поле "${k}" отсутствует`);
+    }
+    if (ex.verdict && !EXPERIMENT_VERDICT.has(ex.verdict)) err(rel, at, `verdict "${ex.verdict}" вне {running,confirmed,partial,failed}`);
+    if (ex.verdict && ex.verdict !== "running" && (!ex.conclusion || ex.conclusion.length < 30)) {
+      err(rel, at, "завершённый эксперимент без содержательного conclusion (≥30 символов)");
+    }
+    if (ex.opportunity_id && knownOppIds.size && !knownOppIds.has(`${ex.market}/${ex.opportunity_id}`)) {
+      warn(rel, at, `opportunity_id "${ex.opportunity_id}" не найден в opportunities.json рынка`);
+    }
+  }
+}
+
+function checkScoreHistory(rel, h) {
+  for (const [i, s] of (h.snapshots ?? []).entries()) {
+    const at = `snapshots[${i}]`;
+    if (!DATE_RE.test(s.date ?? "")) err(rel, at, "date должна быть YYYY-MM-DD");
+    if (!(s.launch >= 0 && s.launch <= 100)) err(rel, at, "launch вне 0–100");
+    if (!(s.scale >= 0 && s.scale <= 100)) err(rel, at, "scale вне 0–100");
+    if (!s.market || !s.opportunity_id) err(rel, at, "нет market/opportunity_id");
+  }
+}
+
 // ---------- обход data/ ----------
 
 if (!existsSync(join(DATA, "founder.json"))) {
@@ -236,6 +285,30 @@ for (const slug of marketSlugs) {
       checkCompany(rel, json);
     }
   }
+}
+
+// Сущности верхнего уровня: Decision Log, Experiment Database, Market Timeline
+const knownOppIds = new Set();
+for (const slug of marketSlugs) {
+  const of = join(marketsDir, slug, "opportunities.json");
+  if (existsSync(of)) {
+    const json = JSON.parse(readFileSync(of, "utf8"));
+    for (const o of json.opportunities ?? []) knownOppIds.add(`${slug}/${o.id}`);
+  }
+}
+for (const [name, checker] of [
+  ["decisions.json", (rel, j) => checkDecisions(rel, j, knownOppIds)],
+  ["experiments.json", (rel, j) => checkExperiments(rel, j, knownOppIds)],
+  ["score-history.json", checkScoreHistory],
+]) {
+  const f = join(DATA, name);
+  const rel = relative(ROOT, f);
+  if (!existsSync(f)) { warn(rel, "$", "файл отсутствует"); continue; }
+  const json = loadJson(f);
+  if (!json) continue;
+  files++;
+  walk(rel, json, "$");
+  checker(rel, json);
 }
 
 // ---------- отчёт ----------

@@ -38,6 +38,9 @@ export default function RootLayout({
             <Link href="/pains" className="text-sm text-zinc-400 hover:text-zinc-100">
               База болей
             </Link>
+            <Link href="/experiments" className="text-sm text-zinc-400 hover:text-zinc-100">
+              Эксперименты
+            </Link>
             <span className="ml-auto hidden text-[11px] text-zinc-600 sm:block">
               каждая цифра — со ссылкой на источник
             </span>

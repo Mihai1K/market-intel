@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getGlobalOpportunities, getMarketSlugs } from "@/lib/data";
+import { getGlobalOpportunities, getMarketSlugs, getLaunchTrends, getDecisions } from "@/lib/data";
 import { scoreColor, STATUS_LABEL } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
@@ -7,6 +7,10 @@ export const dynamic = "force-dynamic";
 export default function RatingPage() {
   const opps = getGlobalOpportunities();
   const marketsCount = getMarketSlugs().length;
+  const trends = getLaunchTrends();
+  const decisions = getDecisions();
+  const decisionFor = (slug: string, id: string) =>
+    decisions.find((d) => d.market === slug && d.opportunity_id === id);
 
   return (
     <div>
@@ -48,6 +52,15 @@ export default function RatingPage() {
                     {g.opp.name}
                   </Link>
                   <div className="mt-0.5 line-clamp-1 max-w-md text-xs text-zinc-500">{g.opp.what}</div>
+                  {(() => {
+                    const d = decisionFor(g.slug, g.opp.id);
+                    if (!d) return null;
+                    return (
+                      <div className="mt-1 max-w-md text-xs text-amber-400/90" title={d.reason}>
+                        решение {d.date}: {d.decision === "rejected" ? "отклонено" : d.decision === "deferred" ? "отложено" : d.decision} — {d.reason.slice(0, 90)}…
+                      </div>
+                    );
+                  })()}
                 </td>
                 <td className="px-3 py-2 text-zinc-400">
                   <Link href={`/markets/${g.slug}`} className="hover:text-zinc-200">
@@ -56,6 +69,20 @@ export default function RatingPage() {
                 </td>
                 <td className={`px-3 py-2 text-right text-base font-semibold tabular-nums ${scoreColor(g.opp.launch_score.total)}`}>
                   {g.opp.launch_score.total}
+                  {(() => {
+                    const t = trends.get(`${g.slug}/${g.opp.id}`);
+                    if (!t || t.prev === t.current) return null;
+                    const up = t.current > t.prev;
+                    return (
+                      <span
+                        className={`ml-1 text-xs ${up ? "text-emerald-400" : "text-rose-400"}`}
+                        title={`было ${t.prev} (${t.prevDate})`}
+                      >
+                        {up ? "↑" : "↓"}
+                        {Math.abs(t.current - t.prev)}
+                      </span>
+                    );
+                  })()}
                 </td>
                 <td className={`px-3 py-2 text-right tabular-nums ${scoreColor(g.opp.scale_score.total)}`}>
                   {g.opp.scale_score.total}

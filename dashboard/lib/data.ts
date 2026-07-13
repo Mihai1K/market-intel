@@ -231,6 +231,79 @@ export function getOpportunityOfTheWeek(): { slug: string; marketName: string; o
   return best;
 }
 
+export interface Decision {
+  date: string;
+  market: string;
+  opportunity_id: string | null;
+  opportunity_name: string;
+  decision: "rejected" | "deferred" | "testing" | "accepted";
+  reason: string;
+  revisit?: string;
+  author: string;
+  links?: string[];
+}
+
+export interface Experiment {
+  id: string;
+  started_at: string;
+  finished_at?: string;
+  market: string;
+  opportunity_id: string;
+  type: string;
+  channel: string;
+  budget_rub?: number;
+  spend_rub?: number;
+  impressions?: number;
+  clicks?: number;
+  leads?: number;
+  sales?: number;
+  revenue_rub?: number;
+  cac_rub?: number;
+  verdict: "running" | "confirmed" | "partial" | "failed";
+  conclusion?: string;
+  artifacts?: string[];
+}
+
+export interface ScoreSnapshot {
+  date: string;
+  market: string;
+  opportunity_id: string;
+  launch: number;
+  scale: number;
+}
+
+export function getDecisions(): Decision[] {
+  return readJson<{ decisions: Decision[] }>(path.join(DATA_DIR, "decisions.json"))?.decisions ?? [];
+}
+
+export function getExperiments(): Experiment[] {
+  return readJson<{ experiments: Experiment[] }>(path.join(DATA_DIR, "experiments.json"))?.experiments ?? [];
+}
+
+export function getScoreHistory(): ScoreSnapshot[] {
+  return readJson<{ snapshots: ScoreSnapshot[] }>(path.join(DATA_DIR, "score-history.json"))?.snapshots ?? [];
+}
+
+/** Тренд Launch: сравнение двух последних снимков возможности; null если снимок один */
+export function getLaunchTrends(): Map<string, { prev: number; prevDate: string; current: number }> {
+  const byOpp = new Map<string, ScoreSnapshot[]>();
+  for (const s of getScoreHistory()) {
+    const key = `${s.market}/${s.opportunity_id}`;
+    if (!byOpp.has(key)) byOpp.set(key, []);
+    byOpp.get(key)!.push(s);
+  }
+  const trends = new Map<string, { prev: number; prevDate: string; current: number }>();
+  for (const [key, snaps] of byOpp) {
+    const sorted = snaps.sort((a, b) => (a.date < b.date ? -1 : 1));
+    if (sorted.length >= 2) {
+      const prev = sorted[sorted.length - 2];
+      const cur = sorted[sorted.length - 1];
+      trends.set(key, { prev: prev.launch, prevDate: prev.date, current: cur.launch });
+    }
+  }
+  return trends;
+}
+
 export interface GlobalOpportunity {
   slug: string;
   marketName: string;
