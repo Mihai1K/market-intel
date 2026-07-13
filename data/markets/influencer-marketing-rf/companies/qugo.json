@@ -1,0 +1,33 @@
+{
+  "id": "qugo",
+  "name": "Qugo",
+  "legal_name": "ООО «КЬЮГО ТЕК» (владельцы — 4 физлица)",
+  "inn": "7727452605",
+  "website": "https://qugo.ru",
+  "founded": 2020,
+  "segment": "выплаты самозанятым",
+  "description": "Платформа расчётов с самозанятыми: автодокументооборот, автопроверка статуса НПД, автоудержание налога. Самый быстрорастущий в сегменте: выручка ×24 за 4 года (724 млн ₽ в 2025), маржа 31%, без внешних инвестиций.",
+  "revenue": [
+    { "value": 29.6, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 131.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 290.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 539.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 723.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +34% г/г", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 2.9, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 63.0, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 59.6, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 113.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 224.7, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 34, "unit": "чел", "period": "2025", "basis": "данные ФНС", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12741601", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Комиссия платформы (от оборота)", "price": "1-4,5% с заказчика, исполнителям бесплатно", "source_url": "https://qugo.ru/b2b/faq", "retrieved_at": "2026-07-13" }
+  ],
+  "data_gaps": ["Раунды/M&A не найдены — органический рост"],
+  "sources": ["https://www.list-org.com/company/12741601/report"],
+  "updated_at": "2026-07-13"
+}

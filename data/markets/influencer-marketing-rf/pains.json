@@ -1,0 +1,727 @@
+{
+  "market": "influencer-marketing-rf",
+  "updated_at": "2026-07-13",
+  "pains": [
+    {
+      "id": "nakrutki-i-feik-statistika",
+      "statement": "Рекламодателю сложно найти блогера без накруток: подписчиков, лайки и даже скриншоты статистики подделывают, входящие заявки часто присылают накрученные аккаунты",
+      "role": "рекламодатель",
+      "mentions_found": 5,
+      "links": [
+        "https://vc.ru/marketing/171459-kak-blogery-obmanyvayut-reklamodatelei",
+        "https://vc.ru/marketing/1482452-kak-naiti-blogerov-kotorye-ne-vypustili-reklamu-i-ne-vozvrashayut-dengi",
+        "http://lead-academy.ru/poleznye-materialy/kak-proverit-blogerov-na-nakrutki/",
+        "https://supa.ru/blog/posts/kak-provierit-bloghiera-pieried-zapuskom-rieklamy-chtoby-nie-promakhnutsia",
+        "https://partnerkin.com/blog/articles/proverka-nakrutki-inst"
+      ],
+      "search_period": "2020-2026",
+      "who_pays_now": "Рекламодатели платят сервисам аналитики: LiveDune от 1 900 ₽/мес, TGStat от 3 360 ₽/мес, Yoloco от 15 000 ₽/мес, либо агентствам за ручную проверку",
+      "why_unsolved": "Накрутки эволюционируют быстрее детекторов; у площадок нет открытого API по реальным охватам, скриншоты статистики блогер присылает сам",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Фотошоп скринов из статистики", "source_url": "https://vc.ru/marketing/171459-kak-blogery-obmanyvayut-reklamodatelei" },
+        { "text": "Часто входящие заявки присылают накрученные блогеры", "source_url": "https://vc.ru/marketing/1482452-kak-naiti-blogerov-kotorye-ne-vypustili-reklamu-i-ne-vozvrashayut-dengi" }
+      ]
+    },
+    {
+      "id": "nakrutki-dazhe-na-birzhah",
+      "statement": "Даже на биржах попадаются накрученные каналы: канал с 10 000 подписчиков собирает 100-200 просмотров, и от размещения в таком канале никто не застрахован",
+      "role": "рекламодатель",
+      "mentions_found": 3,
+      "links": [
+        "https://traffnews.com/telegram/telega-in-otzyvy/",
+        "https://101poisk.ru/resource/telega-in",
+        "https://actualtraffic.ru/site/telega-in/otzyvy/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Рекламодатель платит комиссию биржи ~12,5% и дополнительно перепроверяет каналы через Telemetr/TGStat за свой счёт",
+      "why_unsolved": "Модерация бирж выборочная и отстаёт от свежих накруток; биржа зарабатывает с оборота и не мотивирована резать каталог",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "post-ne-vyshel-bloger-propal",
+      "statement": "Блогер берёт предоплату, реклама не выходит, блогер перестаёт отвечать и не возвращает деньги; взыскать почти нереально без договора",
+      "role": "рекламодатель",
+      "mentions_found": 3,
+      "links": [
+        "https://vc.ru/marketing/1482452-kak-naiti-blogerov-kotorye-ne-vypustili-reklamu-i-ne-vozvrashayut-dengi",
+        "https://www.cossa.ru/smmashing/234012/",
+        "https://vc.ru/social/354945-kak-moshenniki-obmanyvayut-blogerov-i-kak-garant-mozhet-obezopasit-sdelki"
+      ],
+      "search_period": "2019-2026",
+      "who_pays_now": "Рекламодатели платят биржам-гарантам (комиссия Telega.in ~12,5%) или закупщикам 15-20% бюджета за безопасную сделку",
+      "why_unsolved": "Большинство сделок по-прежнему проходит в личках без договора; судиться дороже, чем потерянный бюджет одного поста",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Вы им заплатили за рекламу, а она попросту не вышла", "source_url": "https://vc.ru/marketing/1482452-kak-naiti-blogerov-kotorye-ne-vypustili-reklamu-i-ne-vozvrashayut-dengi" }
+      ]
+    },
+    {
+      "id": "neprozrachnye-ceny",
+      "statement": "Нет стандартов ценообразования: блогеры называют цены произвольно, разброс от сотен рублей до миллионов, неопытные заказчики переплачивают",
+      "role": "рекламодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://elama.ru/blog/skolko-stoit-reklama-u-blogerov/",
+        "https://dabreeze.ru/blogger/stoimost-reklamy-blogera",
+        "https://vc.ru/marketing/2848755-stoimost-reklamy-u-blogerov",
+        "https://adpass.ru/skolko-stoit-reklama-u-blogerov-na-raznyh-kanalah-prodvizheniya-v-2025-godu/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Рекламодатели платят закупщикам 15-20% бюджета за знание «реальных» цен; ориентиры дают бесплатные обзоры eLama/ADPASS",
+      "why_unsolved": "Цена — предмет личных переговоров; публичных прайсов и единой метрики CPM по нишам нет, каждый блогер сам себе прайс",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "slozhno-izmerit-effektivnost",
+      "statement": "Эффективность рекламы у блогеров трудно измерить: промокоды и UTM ловят лишь часть эффекта, единых стандартов отчётности нет, результат непредсказуем",
+      "role": "рекламодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://vc.ru/marketing/1711187-kak-pravilno-analizirovat-rezultaty-reklamy-u-blogerov",
+        "https://elama.ru/blog/kak-ocenivat-effektivnost-reklamy-u-blogerov-polnyy-gayd-po-metrikam-i-formulam/",
+        "https://seo-aspirant.ru/effektivnost-reklamy-u-blogerov",
+        "https://natiw.ru/baza-znanij/kak-izmerit-effektivnost-reklamy-u-blogerov-klyuchevye-metriki-i-instrumenty"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Рекламодатели платят за сквозную аналитику (LiveDune «Бизнес» 3 500 ₽/мес) или агентствам за отчёты в составе комиссии",
+      "why_unsolved": "Влияние блогера размазано по касаниям; площадки не отдают данные, атрибуция принципиально неполная",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 4,
+      "quotes": [
+        { "text": "деньги на размещение потрачены, посты вышли, а продаж нет", "source_url": "https://vc.ru/services/2731886-zakupshchik-reklamy-v-telegram" }
+      ]
+    },
+    {
+      "id": "strah-shtrafov-za-markirovku",
+      "statement": "Страх штрафов за маркировку: до 500 тыс ₽ за креатив для юрлица, штрафы суммируются за каждый пост; 47% предпринимателей боятся наказаний, 99% нужна помощь",
+      "role": "рекламодатель",
+      "mentions_found": 5,
+      "links": [
+        "https://elama.ru/blog/oshtrafah-iotvetstvennosti-zanesoblyudenie-zakona-omarkirovke-reklamy/",
+        "https://habr.com/ru/articles/984410/",
+        "https://vc.ru/marketing/668610-markirovka-reklamy-u-blogerov-pokazyvaem-na-skrinshotah-kak-ne-popast-na-500-000-rublei",
+        "https://www.sostav.ru/publication/markirovka-issledovanie-62879.html",
+        "https://vc.ru/marketing/2797074-markirovka-reklamy-2026-shtrafy-fas"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Рекламодатели платят ОРД (~1% бюджета кампании, минимум 5 000 ₽/мес), сервисам-посредникам (erid.agency 850-1 690 ₽/мес, eLama бесплатно для клиентов) и юристам",
+      "why_unsolved": "Границы «реклама/не реклама» размыты, практика ФАС противоречива, ошибка любого звена цепочки бьёт по рекламодателю",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 2,
+      "quotes": [
+        { "text": "Штрафы могут суммироваться за каждый выявленный эпизод", "source_url": "https://habr.com/ru/articles/984410/" },
+        { "text": "99% опрошенных нуждаются в том или ином виде помощи", "source_url": "https://www.sostav.ru/publication/markirovka-issledovanie-62879.html" }
+      ]
+    },
+    {
+      "id": "risk-nezaregistrirovannogo-blogera",
+      "statement": "С 01.01.2025 реклама у блогера 10k+, не внесённого в реестр РКН, грозит рекламодателю штрафом до 500 тыс ₽ за каждый пост — а проверять реестр приходится вручную",
+      "role": "рекламодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://axdigital.ru/blog/rkn-bloger-reestr-guide/",
+        "https://blog.promopult.ru/law/registraciya-v-rkn-i-shtrafy-dlya-blogerov-desyatitysyachnikov.html",
+        "https://help.labelup.ru/article/22890",
+        "https://elama.ru/blog/registraciya-blogerov-v-roskomnadzore-gayd-po-novomu-zakonu/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Агентства используют платформы с автопроверкой реестра (LabelUp) либо проверяют каждого блогера вручную силами менеджеров",
+      "why_unsolved": "Реестр РКН неудобен для массовых проверок, блогеры выпадают из него без уведомления, ответственность лежит на размещающем",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web", "extension", "telegram"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "zapret-instagram-poterya-kanala",
+      "statement": "С 01.09.2025 реклама в Instagram запрещена (включая бартер): рекламодатели потеряли канал с оборотом маркированной рекламы 4+ млрд ₽ и вынуждены срочно перестраивать закупку",
+      "role": "рекламодатель",
+      "mentions_found": 5,
+      "links": [
+        "https://www.forbes.ru/svoi-biznes/544859-zapret-reklamy-v-instagram-s-1-sentabra-cto-mozno-i-nel-za-publikovat",
+        "https://elama.ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025-chto-izmenitsya-i-kak-rabotat-po-novomu-zakonu/",
+        "https://elama.ru/blog/kuda-uhodit-bloger-chto-budet-s-rynkom-posle-zapreta-reklamy-instagram/",
+        "https://www.setters.media/post/instagram-zapret-reklamy-1-sentyabrya-2025",
+        "https://blog.cybermarketing.ru/reklamnyj-apokalipsis-gde-teper-auditoriya-i-kak-raspredelyatsya-40-mlrd-rublej-posle-instagram/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Рекламодатели платят агентствам за пересборку стратегии и тестовые размещения в Telegram/VK",
+      "why_unsolved": "Аудитория мигрировала не полностью, охваты на новых площадках дороже; полноценной замены Reels-инвентарю нет",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "оборот только промаркированной рекламы в Instagram в 2024 году превысил 4 млрд руб.", "source_url": "https://elama.ru/blog/kuda-uhodit-bloger-chto-budet-s-rynkom-posle-zapreta-reklamy-instagram/" }
+      ]
+    },
+    {
+      "id": "mediainflyaciya-telegram",
+      "statement": "После запрета Instagram цены на рекламу в Telegram выросли в 1,75-2,7 раза (2025), прогноз ещё +25-50% — бюджеты рекламодателей сгорают быстрее",
+      "role": "рекламодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://adpass.ru/stoimost-reklamy-v-telegram-vyrosla-v-2025/",
+        "https://bg.ru/bg/business/comm-news/29018-tg-ads",
+        "https://www.kommersant.ru/doc/8399528",
+        "https://adpass.ru/reklama-v-telegram-podorozhala-na-38-v-2025-godu/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Рекламодатель оплачивает медиаинфляцию из бюджета; частично уходит к микро- и наноблогерам, где CPM ниже",
+      "why_unsolved": "Дефицит качественного инвентаря структурный: спрос перетёк на 2-3 площадки, предложение не выросло",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        { "text": "цены выросли в 2,7 раза, с 4,5 тыс. рублей до 12 тыс. за пост", "source_url": "https://adpass.ru/stoimost-reklamy-v-telegram-vyrosla-v-2025/" }
+      ]
+    },
+    {
+      "id": "moshenniki-pod-vidom-menedzherov",
+      "statement": "Мошенники выдают себя за менеджеров известных блогеров и собирают предоплаты за рекламу, которой не будет; без гаранта сделка не защищена",
+      "role": "рекламодатель",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/social/354945-kak-moshenniki-obmanyvayut-blogerov-i-kak-garant-mozhet-obezopasit-sdelki",
+        "https://overclockers.ru/blog/Zeroblog/show/197437/Moshenniki-kradut-akkaunty-i-den-gi-blogerov-vydavaya-sebya-za-reklamnyh-menedzherov"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Рекламодатели платят комиссию гаранту/бирже за безопасную сделку",
+      "why_unsolved": "Сделки в Telegram анонимны, верифицированного «единого окна» контактов блогеров не существует",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["telegram"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "birzhi-komissii-i-payvolly",
+      "statement": "Биржи берут заметные комиссии и деньги за доступ: Epicstars — пейволл 5 000 ₽ без пробного периода и PRO 15 000 ₽/мес, Telega.in — суммарно до 55% с одной сделки по разбору на vc.ru",
+      "role": "рекламодатель",
+      "mentions_found": 3,
+      "links": [
+        "https://niksolovov.ru/services/epicstars",
+        "https://101poisk.ru/resource/telega-in",
+        "https://vc.ru/id1461594/2476683-telega-in-otzyvy-o-komissii"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Рекламодатели платят комиссии бирж и подписки — это и есть текущая монетизация «решения»",
+      "why_unsolved": "Биржи монетизируют посредничество, а не результат; качество каталога и поддержки отстаёт от роста комиссии",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "malyi-biznes-ne-znaet-gde-iskat",
+      "statement": "Малому бизнесу негде системно искать микроблогеров: поиск идёт вручную через чаты, у конкурентов и по рекомендациям, попадание в ЦА — лотерея",
+      "role": "рекламодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://kontur.ru/articles/79634-malomu_biznesu_vybirat_blogerov_dlya_reklamy",
+        "https://rizz.market/kak-najti-blogera-dlya-reklamy-luchshie-metody-i-instrumenty",
+        "https://sdelaem.agency/blog/kak-najti-blogerov-dlya-reklamy-poshagovyj-gajd-po-poisku-i-proverke/",
+        "https://perfluence.net/blog/article/blogery-dlya-malogo-i-srednego-biznesa"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Малый бизнес платит биржам комиссию с размещения или CPA-платформам процент с продаж; WOWBlogger не подходит бюджетам 5-10 тыс ₽/мес",
+      "why_unsolved": "Микроблогеры не представлены в каталогах массово, их статистика закрыта, бирж с проверенной «длинной» базой под локальные ниши нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "ruchnoi-podbor-tablica-smerti",
+      "statement": "Закупщики ведут подбор и учёт каналов в Excel/Google-таблицах: формулы ломаются, ссылки протухают, статистику по каждому каналу собирают руками из десятков вкладок",
+      "role": "агентство",
+      "mentions_found": 3,
+      "links": [
+        "https://vc.ru/services/2903550-avtomatizatsiya-zakupki-reklamy-v-telegram-s-tgterra",
+        "https://telegramot.ru/zakup-sheet/",
+        "https://pavezlo.ru/marketing/gajd-zakupka-reklamy-v-telegram/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Агентства платят за TGStat/Telemetr (от 990 ₽/мес) и новые SaaS вроде TGTerra; чаще — зарплатой закупщика за ручной труд",
+      "why_unsolved": "Данные разбросаны по площадкам и личкам, ни один сервис не покрывает весь цикл подбор-переговоры-маркировка-отчёт",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "та самая «таблица смерти» в Excel, где всё поехало, формулы сдохли", "source_url": "https://vc.ru/services/2903550-avtomatizatsiya-zakupki-reklamy-v-telegram-s-tgterra" },
+        { "text": "физически не можешь уследить, где охваты упали, где админ задрал ценник", "source_url": "https://vc.ru/services/2903550-avtomatizatsiya-zakupki-reklamy-v-telegram-s-tgterra" }
+      ]
+    },
+    {
+      "id": "peregovory-v-lichkah",
+      "statement": "Все переговоры с блогерами и админами идут в личках: админы отвечают сутками, согласование одной публикации занимает до двух дней, сделки не фиксируются",
+      "role": "агентство",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/services/2903550-avtomatizatsiya-zakupki-reklamy-v-telegram-s-tgterra",
+        "https://vc.ru/services/2731886-zakupshchik-reklamy-v-telegram"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Клиенты платят закупщику 15-20% бюджета фактически за терпение в переписках",
+      "why_unsolved": "Блогеры не сидят в CRM и не хотят менять привычный мессенджер; биржи покрывают лишь малую часть инвентаря",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["telegram"],
+      "difficulty": 4,
+      "quotes": [
+        { "text": "бесконечные переписки с админами, которые отвечают раз в год", "source_url": "https://vc.ru/services/2903550-avtomatizatsiya-zakupki-reklamy-v-telegram-s-tgterra" },
+        { "text": "на согласование одной публикации с админом уходит два дня", "source_url": "https://vc.ru/services/2731886-zakupshchik-reklamy-v-telegram" }
+      ]
+    },
+    {
+      "id": "dolgie-cikly-soglasovanii",
+      "statement": "Запуск кампании с блогерами занимает 2-3 недели: подбор 5-7 дней, согласование кандидатов с клиентом до 5 рабочих дней, контент 7+ дней — дедлайны постоянно едут",
+      "role": "агентство",
+      "mentions_found": 2,
+      "links": [
+        "https://freud-pr.ru/rabota-s-influenserami",
+        "https://www.sostav.ru/blogs/284890/84188"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Клиент оплачивает время агентства в составе fee; ускорение — только резервные блогеры и заранее подготовленные договоры",
+      "why_unsolved": "В цепочке минимум три стороны с ручными согласованиями; стандарта брифа и SLA в отрасли нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "markirovka-kreativov-vruchnuyu",
+      "statement": "Агентство маркирует каждый креатив вручную: токены, цепочки договоров и ежемесячные акты (разаллокация) в ОРД по каждому блогеру — рутина съедает часы, ошибки грозят штрафами",
+      "role": "агентство",
+      "mentions_found": 4,
+      "links": [
+        "https://ppc.world/articles/tarify-raznyh-ord-na-markirovku-reklamy-chem-otlichayutsya-i-kak-vybrat/",
+        "https://texterra.ru/blog/operatory-reklamnykh-dannykh-vse-tarify.html",
+        "https://elama.ru/blog/kak-markirovat-reklamu-u-blogerov-adminov-i-avtorov-obyasnyaem-vse/",
+        "https://blog.click.ru/markirovka-reklamy/skolko-stoyat-uslugi-ord/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Агентства платят ОРД ~1% бюджета (мин. 5 000 ₽/мес у МедиаСкаут/Первый ОРД) плюс зарплату отдельного сотрудника на маркировку; erid.agency продаёт «под ключ» за 850-1 690 ₽/мес",
+      "why_unsolved": "Получение токена — 10% работы, главная нагрузка — ежемесячная отчётность; API ОРД не интегрированы с личками, где реально идут сделки",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "dokumentooborot-s-samozanyatymi",
+      "statement": "Выплаты и документооборот с десятками самозанятых блогеров: договоры, акты, чеки, контроль лимита 2,4 млн ₽ и статуса НПД — вручную это дни работы бухгалтерии",
+      "role": "агентство",
+      "mentions_found": 4,
+      "links": [
+        "https://qugo.ru/b2b/vyplaty-samozanyatym-blogeram",
+        "https://naimix.ru/keis-gibkaya-automatizacia",
+        "https://www.solarstaff.com/pages/prostoy-i-ponyatnyy-servis-dlya-edo-s-samozanyatymi",
+        "https://www.unisender.com/ru/blog/servisy-dlya-raboty-s-samozanyatymi/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Агентства платят комиссию платформам выплат: Qugo 1-4,5%, Solar Staff 2-6%; кейс Наймикс — оформление выплат ускорилось с дней до 15-20 минут",
+      "why_unsolved": "Платформы закрывают выплаты, но не связаны с закупкой и маркировкой; блогеры теряют статус НПД и превышают лимиты внезапно",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "otchetnost-klientu-ruchnaya",
+      "statement": "Отчёты клиенту собираются руками: скриншоты охватов от блогеров, сведение метрик из разных площадок; единых стандартов отчётности в инфлюенс-маркетинге нет",
+      "role": "агентство",
+      "mentions_found": 3,
+      "links": [
+        "https://natiw.ru/baza-znanij/kak-izmerit-effektivnost-reklamy-u-blogerov-klyuchevye-metriki-i-instrumenty",
+        "https://vc.ru/marketing/1711187-kak-pravilno-analizirovat-rezultaty-reklamy-u-blogerov",
+        "https://freud-pr.ru/rabota-s-influenserami"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Клиент оплачивает часы аккаунт-менеджеров в составе агентской комиссии; частично закрывается подписками на LiveDune/TGStat",
+      "why_unsolved": "Площадки не отдают статистику третьим лицам по API, у каждого клиента свой шаблон отчёта",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "nevyhody-postov-riski",
+      "statement": "Блогеры срывают сроки и не выпускают согласованные посты, а перед клиентом за дедлайн и бюджет отвечает агентство — приходится держать резервных блогеров",
+      "role": "агентство",
+      "mentions_found": 3,
+      "links": [
+        "https://adpass.ru/top-7-oshibok-v-rabote-s-blogerami/",
+        "https://vc.ru/marketing/336720-top-7-oshibok-v-rabote-s-blogerami",
+        "https://marketolog.mts.ru/blog/top-8-oshibok-v-integratsiyah-s-blogerami-i-kak-ih-izbezhat"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Агентства закладывают риск в комиссию; часть уходит на биржи с гарантией выхода поста",
+      "why_unsolved": "Санкции против блогера в договоре плохо работают: суммы малы, репутационных механизмов на рынке нет",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["telegram", "web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "net-zashchity-ot-nedobrosovestnyh",
+      "statement": "Защита от недобросовестных блогеров и агентств держится на неформальных «чёрных списках»: АБА ведёт blacklist-бот, но он покрывает лишь часть рынка",
+      "role": "агентство",
+      "mentions_found": 3,
+      "links": [
+        "https://www.likeni.ru/events/assotsiatsiya-blogerov-i-agentstv-rasshirila-chernyy-spisok-igrokov-inflyuens-marketinga/",
+        "https://www.forbes.ru/forbeslife/486861-associacia-blogerov-i-agentstv-sozdali-cernyj-spisok-influenserov",
+        "https://aba-media.ru/researches.html"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Чёрный список АБА бесплатен, реальную проверку контрагентов агентства делают своими силами",
+      "why_unsolved": "Саморегулирование добровольное, санкций кроме репутационных нет, данные о срывах сделок не централизованы",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["telegram", "web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "markirovka-strashna-blogeru",
+      "statement": "Для блогера маркировка — сложный и пугающий ритуал: непонятно, что считать рекламой (даже бесплатное упоминание бренда могут признать рекламой), 56% рынка относятся к закону отрицательно",
+      "role": "блогер",
+      "mentions_found": 4,
+      "links": [
+        "https://www.sostav.ru/publication/opros-61377.html",
+        "https://habr.com/ru/articles/984410/",
+        "https://elama.ru/blog/kak-markirovat-reklamu-u-blogerov-adminov-i-avtorov-obyasnyaem-vse/",
+        "https://vc.ru/id5657117/2772540-markirovka-internet-reklamy-2026"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Блогеры платят юристам и курсам по маркировке, либо перекладывают маркировку на рекламодателя/биржу",
+      "why_unsolved": "Критерии рекламы оценочные, практика ФАС меняется; для одиночного блогера расходы на комплаенс несоразмерны доходу",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["telegram", "web"],
+      "difficulty": 2,
+      "quotes": [
+        { "text": "свыше половины респондентов относятся к закону о маркировке «отрицательно»", "source_url": "https://www.sostav.ru/publication/opros-61377.html" }
+      ]
+    },
+    {
+      "id": "reestr-rkn-otkazy",
+      "statement": "Регистрация в реестре РКН (10k+ подписчиков) массово заканчивается отказами: из 250 тыс. заявок ~100 тыс. отказов, 60% — из-за того, что номер заявки не размещён в описании канала",
+      "role": "блогер",
+      "mentions_found": 4,
+      "links": [
+        "https://www.sostav.ru/blogs/282243/66848",
+        "https://elama.ru/blog/registraciya-blogerov-v-roskomnadzore-gayd-po-novomu-zakonu/",
+        "https://runetlex.ru/knowledge/gosudarstvo/reestr-blogerov-osobennosti-problemy-i-rekomendacii",
+        "https://awwwake.ru/journal/registracija_blogerov_v_rkn"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Блогеры платят посредникам и юристам за «регистрацию под ключ»; без реестра нельзя легально брать рекламу",
+      "why_unsolved": "Процедура через Госуслуги многошаговая и хрупкая (3 дня на подтверждение), обратной связи по причинам отказа мало",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["telegram", "web"],
+      "difficulty": 1,
+      "quotes": [
+        { "text": "на регистрацию подали более 250 тыс блогеров, из них 100 тыс получили отказ", "source_url": "https://www.sostav.ru/blogs/282243/66848" }
+      ]
+    },
+    {
+      "id": "zapret-insta-poterya-dohoda",
+      "statement": "После запрета рекламы в Instagram блогеры, жившие с этой площадки, теряют до 50-70% дохода; рекламные интеграции давали им 80-85% заработка",
+      "role": "блогер",
+      "mentions_found": 4,
+      "links": [
+        "https://hi-tech.mail.ru/review/129303-rynok-stanet-menee-prozrachnym/",
+        "https://elama.ru/blog/kuda-uhodit-bloger-chto-budet-s-rynkom-posle-zapreta-reklamy-instagram/",
+        "https://incrussia.ru/understand/bloggers_u/",
+        "https://www.forbes.ru/svoi-biznes/544859-zapret-reklamy-v-instagram-s-1-sentabra-cto-mozno-i-nel-za-publikovat"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Блогеры за свой счёт заново растят аудиторию в Telegram/VK; продюсерские агентства продают «переезд» как услугу",
+      "why_unsolved": "Аудитория и алгоритмические охваты не переносятся между площадками; у VK/Дзена другая механика дистрибуции",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "рост скрытой рекламы через бартер и неочевидные коллаборации", "source_url": "https://hi-tech.mail.ru/review/129303-rynok-stanet-menee-prozrachnym/" }
+      ]
+    },
+    {
+      "id": "zaderzhki-nevyplaty-platform",
+      "statement": "Платформы задерживают или замораживают выплаты блогерам: задержки 1-2 недели и «выплаты в обработке» месяцами у Perfluence, заморозка выплат VK AdBlogger после остановки программы Ozon",
+      "role": "блогер",
+      "mentions_found": 5,
+      "links": [
+        "https://otzovik.com/reviews/agentstvo_perfluence/",
+        "https://otzovik.com/review_17887216.html",
+        "https://vc.ru/marketing/2194295-moshennichestvo-oo-vk-vk-adblogger-obmanul-avtorov",
+        "https://irecommend.ru/content/durov-verni-stenu-vk-adblogger-otdai-dengi-moya-popytka-dostuchatsya-do-ii-i-beg-po-krugu",
+        "https://otzovik.com/review_15468335.html"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Никто не продаёт решение — блогеры фактически бесплатно кредитуют платформы; альтернатива — прямые сделки с предоплатой, недоступные новичкам",
+      "why_unsolved": "Блогер — слабая сторона договора-оферты платформы; юридически взыскивать мелкие суммы невыгодно",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        { "text": "деньги перестали выплачивать, мотивируя это проблемами на стороне их банка", "source_url": "https://otzovik.com/reviews/agentstvo_perfluence/" }
+      ]
+    },
+    {
+      "id": "cpa-ne-zaschityvaet-rezultaty",
+      "statement": "В CPA-модели блогер не может проверить, сколько лидов ему реально засчитали: «после кучи переходов результаты не засчитывают», заработок микроблогера копеечный",
+      "role": "блогер",
+      "mentions_found": 3,
+      "links": [
+        "https://otzovik.com/reviews/agentstvo_perfluence/",
+        "https://otzovik.com/review_14130335.html",
+        "https://otzovik.com/review_15848621.html"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Решения нет: трекинг полностью на стороне платформы/рекламодателя, независимого аудита блогер купить не может",
+      "why_unsolved": "Асимметрия данных: у блогера нет доступа к постбекам и антифрод-логике рекламодателя",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        { "text": "после кучи переходов результаты тупо не засчитывают", "source_url": "https://otzovik.com/reviews/agentstvo_perfluence/" }
+      ]
+    },
+    {
+      "id": "nalogi-strah-fns",
+      "statement": "Налоги пугают блогеров: громкие дела о дроблении (Блиновская — 918 млн ₽, Чекалины — 311 млн, Митрошина — 120 млн) создали страх, что ФНС придёт за каждым; правила режимов запутанны",
+      "role": "блогер",
+      "mentions_found": 4,
+      "links": [
+        "https://www.rbc.ru/economics/09/08/2023/64d0fae89a794743eaf201e5",
+        "https://pravo.ru/story/246333/",
+        "https://altapress.ru/ekonomika/story/uklon-vpravo-uklon-vlevo-pod-sud-kak-izvestnie-blogeri-drobyat-moyut-i-prosto-tratyat-millioni-chtobi-ne-platit-nalogi-342023",
+        "https://www.banki.ru/news/daytheme/?id=10990910"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Блогеры платят бухгалтерам и налоговым консультантам (специализированные конторы вроде Монолит Учёт)",
+      "why_unsolved": "Доходы блогера многоканальны (реклама, донаты, курсы, бартер) и плохо ложатся на существующие налоговые режимы",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "nds-dlya-srednih-blogerov",
+      "statement": "С 2026 порог освобождения от НДС на УСН упал с 60 до 20 млн ₽ в год — НДС коснулся уже средних блогеров и агентств, съедая маржу и заставляя поднимать цены",
+      "role": "блогер",
+      "mentions_found": 4,
+      "links": [
+        "https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html",
+        "https://www.kontur-extern.ru/info/81877-usn_i_nds",
+        "https://monuchet.ru/spravochnik/nalogi-dlya-blogerov-i-infobiznesa-2026/",
+        "https://www.moedelo.org/club/nalogovyj-uchet/usn-bez-nds-2026-limit"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Блогеры платят бухгалтерам за перестройку учёта и выбор ставки (5%/7%/20%); часть нагрузки перекладывают в цены на рекламу",
+      "why_unsolved": "Регуляторный тренд с дальнейшим снижением порога до 15 и 10 млн — обойти нельзя, можно только администрировать",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "В 26-м году введение НДС коснется и средних блогеров", "source_url": "https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html" }
+      ]
+    },
+    {
+      "id": "brify-menyayut-posle-soglasovaniya",
+      "statement": "Рекламодатели меняют бриф после согласования и требуют бесконечные правки, в том числе по части, отданной на креатив блогера; условия правок заранее не фиксируются",
+      "role": "блогер",
+      "mentions_found": 3,
+      "links": [
+        "https://elama.ru/blog/kak-vystroit-dolgosrochnoe-sotrudnichestvo-s-blogerami-17-sovetov-reklamodatelyam/",
+        "https://adpass.ru/top-7-oshibok-v-rabote-s-blogerami/",
+        "https://www.sostav.ru/blogs/284890/84188"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Блогеры закладывают правки в цену или теряют время бесплатно; юристы продают шаблоны договоров с лимитом правок",
+      "why_unsolved": "Стандарта брифа и отраслевого шаблона договора нет; переговорная сила у платящей стороны",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["telegram"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "padenie-dohodov-i-demping",
+      "statement": "В 2025 рынок сжался: 63,6% участников отметили сокращение бюджетов, сильнее всего пострадали блогеры и talent-агентства; конкуренция за меньшие бюджеты давит цены микроблогеров вниз",
+      "role": "блогер",
+      "mentions_found": 4,
+      "links": [
+        "https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html",
+        "https://incrussia.ru/understand/bloggers_u/",
+        "https://www.kommersant.ru/doc/8080328",
+        "https://adpass.ru/influence-marketing-uhodit-v-minus/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Блогеры платят продюсерам и менеджерам за поиск заказов (10-30% с интеграции) и диверсифицируют доход",
+      "why_unsolved": "Причины макроэкономические и регуляторные — блогер на них не влияет",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        { "text": "63,6% опрошенных отметили сокращение рекламных бюджетов", "source_url": "https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html" }
+      ]
+    },
+    {
+      "id": "vzlom-akkauntov-fishing",
+      "statement": "Мошенники под видом рекламных менеджеров присылают блогерам «брифы» с фишингом и вредоносными файлами — крадут аккаунты и деньги; атаки на русскоязычных авторов растут",
+      "role": "блогер",
+      "mentions_found": 1,
+      "links": [
+        "https://overclockers.ru/blog/Zeroblog/show/197437/Moshenniki-kradut-akkaunty-i-den-gi-blogerov-vydavaya-sebya-za-reklamnyh-menedzherov"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Блогеры платят за антивирусы и менеджеров, фильтрующих входящие; специализированного решения для верификации рекламодателей нет",
+      "why_unsolved": "Входящие предложения приходят в открытые лички, механизма верификации контрагента в мессенджерах нет",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["telegram"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "seryi-rynok-posle-zapretov",
+      "statement": "После запрета рекламы в Instagram рынок уходит в серые схемы: «экспертные обзоры», бартер и скрытые коллаборации вместо маркированной рекламы — рынок становится менее прозрачным и опаснее для всех сторон",
+      "role": "рекламодатель",
+      "mentions_found": 2,
+      "links": [
+        "https://hi-tech.mail.ru/review/129303-rynok-stanet-menee-prozrachnym/",
+        "https://adpass.ru/influence-marketing-uhodit-v-minus/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Стороны платят юристам за оценку рисков «нативных» форматов; штрафной риск несут обе стороны сделки",
+      "why_unsolved": "Спрос на инстаграмную аудиторию сохранился, а легального способа его монетизировать не осталось — экономика толкает в тень. Серые схемы мы не рассматриваем как возможность",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        { "text": "Вместо прямых продаж возникнут «экспертные обзоры»", "source_url": "https://hi-tech.mail.ru/review/129303-rynok-stanet-menee-prozrachnym/" }
+      ]
+    }
+  ],
+  "surveys": [
+    {
+      "finding": "56% игроков рекламного рынка относятся к закону о маркировке отрицательно, положительно — лишь 7%",
+      "source_name": "Опрос АРИР/АКАР/РАМУ (Sostav)",
+      "source_url": "https://www.sostav.ru/publication/opros-61377.html",
+      "period": "2023"
+    },
+    {
+      "finding": "99% предпринимателей нужна помощь с маркировкой рекламы, 47% боятся наказаний, 44% не знают, как избежать штрафов",
+      "source_name": "Исследование Kokos Group (Sostav)",
+      "source_url": "https://www.sostav.ru/publication/markirovka-issledovanie-62879.html",
+      "period": "2023"
+    },
+    {
+      "finding": "Консенсус-прогноз объёма рынка на 2025 — около 55 млрд ₽ (разброс 42-60 млрд), рост 2026 — 12-13%, медиаинфляция ~20%",
+      "source_name": "АРИР Трендбук Influencer Marketing 2025 (E-pepper)",
+      "source_url": "https://www.e-pepper.ru/news/naperegonki-s-mediainflyatsiey-mozhno-li-govorit-pro-rost-rynka-inflyuens-marketinga-v-12-15.html",
+      "period": "ноябрь 2025"
+    },
+    {
+      "finding": "63,6% участников рынка отметили сокращение рекламных бюджетов в 2025; доля Instagram в бюджетах упала с ~20% до 4%",
+      "source_name": "Итоговый опрос участников рынка (Sostav)",
+      "source_url": "https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html",
+      "period": "декабрь 2025"
+    },
+    {
+      "finding": "В реестр блогеров РКН подано 250+ тыс. заявок, ~100 тыс. отказов; 60% отказов — номер заявки не размещён в описании канала",
+      "source_name": "Данные РКН (Sostav, блог)",
+      "source_url": "https://www.sostav.ru/blogs/282243/66848",
+      "period": "сентябрь 2025"
+    },
+    {
+      "finding": "Цены на рекламу в Telegram-каналах лайфстайл-тематик выросли в среднем в 2,5 раза за апрель-май 2025",
+      "source_name": "Данные Telega.in (ADPASS)",
+      "source_url": "https://adpass.ru/stoimost-reklamy-v-telegram-vyrosla-v-2025/",
+      "period": "июнь 2025"
+    },
+    {
+      "finding": "Бюджеты на рекламу в телеграм-каналах блогеров выросли на 54% в первом полугодии 2025",
+      "source_name": "Большой город",
+      "source_url": "https://bg.ru/bg/business/comm-news/29018-tg-ads",
+      "period": "1П 2025"
+    },
+    {
+      "finding": "Оборот только промаркированной рекламы в Instagram в 2024 превысил 4 млрд ₽ — этот инвентарь выпал с рынка с 01.09.2025",
+      "source_name": "eLama по данным ЕРИР",
+      "source_url": "https://elama.ru/blog/kuda-uhodit-bloger-chto-budet-s-rynkom-posle-zapreta-reklamy-instagram/",
+      "period": "2024-2025"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "wowblogger",
+  "name": "WOWBlogger",
+  "legal_name": "ООО «ИНФЛЮ» (СПб)",
+  "inn": "7805807150",
+  "website": "https://wowblogger.ru",
+  "founded": 2023,
+  "segment": "биржа размещений (мультиплатформенная)",
+  "description": "Биржа блогеров: 55 000 проверенных каналов, ИИ-подбор, автомаркировка через Первый ОРД, выплаты через Консоль.Про. GMV 900 млн ₽ (2025) при выручке юрлица 162 млн — комиссионная модель. 2025 — убыток при падении выручки.",
+  "revenue": [
+    { "value": 116.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ (комиссия, не GMV)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12208642", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 217.3, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12208642", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 161.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −26% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12208642", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 24.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12208642", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 26.2, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12208642", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -51.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12208642", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 7, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/inflyu-1237800073961", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "disclosed_metrics": [
+    { "metric": "Инвестиции клиентов в блогеров (GMV)", "value": 900, "unit": "млн руб", "period": "2025", "source_name": "сайт WOWBlogger", "source_url": "https://wowblogger.ru/", "retrieved_at": "2026-07-13", "confidence": "low", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Start (самостоятельный подбор)", "price": "от 10 000 ₽", "source_url": "https://wowblogger.ru/blog/gajd_po_tarifam", "retrieved_at": "2026-07-13" },
+    { "plan": "Pro (подбор + согласование контента)", "price": "от 150 000 ₽", "source_url": "https://wowblogger.ru/blog/gajd_po_tarifam", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "Наценка до 60% для покупателей против цены канала напрямую", "source_url": "https://vseotzyvy.ru/item/108741/review/445281/wowblogger-reklama-u-blogerov-v-sotssetyah" },
+    { "complaint": "Не подходит микробизнесу с бюджетом 5-10 тыс ₽/мес", "source_url": "https://otzyvmarketing.ru/wowblogger/" }
+  ],
+  "data_gaps": ["Комиссия платформы не раскрывается", "Год запуска платформы до создания юрлица (2023) не подтверждён"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/12208642"],
+  "updated_at": "2026-07-13"
+}

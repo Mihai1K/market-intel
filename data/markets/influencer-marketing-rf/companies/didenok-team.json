@@ -1,0 +1,31 @@
+{
+  "id": "didenok-team",
+  "name": "Didenok Team",
+  "legal_name": "ООО «ДИДЕНОК СТАР» (51% у VK с 2023; старое юрлицо ООО «Диденок Тим» операционно пустое)",
+  "inn": "9701237766",
+  "website": "https://didenokteam.com",
+  "founded": 2019,
+  "segment": "агентство инфлюенс-маркетинга (лидер)",
+  "description": "Крупнейшее агентство инфлюенс-маркетинга (клиенты: Сбербанк, Яндекс, VK, ВТБ). VK владеет контрольным пакетом с 2023. Выручка 2,5 млрд ₽ (2025, агентская — включает бюджеты кампаний), команда выросла до 112 человек.",
+  "revenue": [
+    { "value": 1022.1, "unit": "млн руб", "period": "2023", "basis": "РСБУ (агентская, включает бюджеты)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12085230", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 2280.5, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12085230", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 2516.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12085230", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 148.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12085230", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 266.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12085230", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 75.7, "unit": "млн руб", "period": "2025", "basis": "РСБУ (маржа сжалась втрое)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12085230", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 31, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/didenok-star-1237700054503", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 90, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/didenok-star-1237700054503", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 112, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/didenok-star-1237700054503", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "VK купила контрольный пакет Didenok Team (51% в ООО «Диденок Стар»)", "date": "2023-03", "source_url": "https://www.forbes.ru/tekhnologii/485882-vk-kupila-kontrol-nyj-paket-kompanii-influens-marketinga-didenok-team" }
+  ],
+  "data_gaps": ["Сумма сделки с VK не раскрыта", "История до 2023 — в старом юрлице ООО «Диденок Тим» (выручка 193-247 млн в 2021-2023)"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/12085230"],
+  "updated_at": "2026-07-13"
+}

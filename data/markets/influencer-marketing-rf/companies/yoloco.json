@@ -1,0 +1,36 @@
+{
+  "id": "yoloco",
+  "name": "Yoloco",
+  "legal_name": "ООО «ЙОЛОКО» (резидент Сколково)",
+  "inn": "7720486764",
+  "website": "https://yoloco.io",
+  "founded": 2019,
+  "segment": "AI-аналитика блогеров",
+  "description": "AI-сервис поиска и проверки блогеров (его данными пользуется даже АКАР для оценки рынка). Микрокоманда 5 человек, выручка ~40 млн ₽. Главная жалоба клиентов — цена: от 15 000 ₽/мес.",
+  "revenue": [
+    { "value": 29.97, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 22.1, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 25.25, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 43.68, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 39.37, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -9.91, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 11.34, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 0.4, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 6.86, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/12474087/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 5, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/yoloko-1197746671231", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Стандарт (100 кредитов)", "price": "15 000 ₽/мес", "source_url": "https://yoloco.io/ru/pricing", "retrieved_at": "2026-07-13" },
+    { "plan": "Корпоративный (API, white-label)", "price": "95 000 ₽/мес", "source_url": "https://yoloco.io/ru/pricing", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "Цена: отчёты платные, полнота зависит от тарифа", "source_url": "https://otzyvmarketing.ru/yoloco/" }
+  ],
+  "data_gaps": ["Раунды инвестиций не найдены"],
+  "sources": ["https://www.list-org.com/company/12474087/report"],
+  "updated_at": "2026-07-13"
+}

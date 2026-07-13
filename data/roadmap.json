@@ -1,0 +1,20 @@
+{
+  "description": "Очередь рынков для Coverage Dashboard. Статус: done | in-progress | todo. Счётчики компаний/болей/возможностей дашборд считает сам из data/markets/.",
+  "queue": [
+    { "name": "HR-tech и поиск работы", "slug": "hr-tech-rf", "status": "done" },
+    { "name": "Influencer marketing и реклама у блогеров", "slug": "influencer-marketing-rf", "status": "done" },
+    { "name": "Рекламные агентства и performance-маркетинг", "slug": null, "status": "todo" },
+    { "name": "Автосервисы и авторемонт", "slug": null, "status": "todo" },
+    { "name": "Юридические услуги (вкл. банкротство физлиц)", "slug": null, "status": "todo" },
+    { "name": "Салоны красоты и бьюти-услуги", "slug": null, "status": "todo" },
+    { "name": "Общепит: кафе и доставка", "slug": null, "status": "todo" },
+    { "name": "Онлайн-образование и EdTech", "slug": null, "status": "todo" },
+    { "name": "Логистика последней мили и грузоперевозки", "slug": null, "status": "todo" },
+    { "name": "Недвижимость: агенты и аренда", "slug": null, "status": "todo" },
+    { "name": "Строительство и ремонт квартир", "slug": null, "status": "todo" },
+    { "name": "Фитнес-клубы и студии", "slug": null, "status": "todo" },
+    { "name": "Бухгалтерия и налоги для СМБ", "slug": null, "status": "todo" },
+    { "name": "Туризм и путешествия внутри РФ", "slug": null, "status": "todo" },
+    { "name": "Автозаправки и придорожный сервис", "slug": null, "status": "todo" }
+  ]
+}

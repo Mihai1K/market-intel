@@ -1,0 +1,36 @@
+{
+  "id": "livedune",
+  "name": "LiveDune",
+  "legal_name": "ООО «Дюна» (Краснодар; основатель 65,8% + структуры ФРИИ 24%)",
+  "inn": "2311243031",
+  "website": "https://livedune.com",
+  "founded": 2017,
+  "segment": "аналитика соцсетей и блогеров",
+  "description": "Аналитика соцсетей + проверка блогеров на накрутки. Выручка растёт (181 млн ₽, +16% в 2025), но 2025 — первый убыточный год (−54,5 млн). Слух о покупке СберМаркетингом НЕ подтвердился (проверено по ЕГРЮЛ).",
+  "revenue": [
+    { "value": 152.5, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 99.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 102.8, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 156.6, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 181.2, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 98.6, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 35.1, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": -7.86, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 1.21, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": -54.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/9868088/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 54, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/dyuna-1172375067424", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Блогер / Бизнес / Агентство", "price": "1 900 / 3 500 / 12 900 ₽/мес (проверки блогеров лимитированы тарифом)", "source_url": "https://livedune.com/pricing/", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "В капитале структуры ФРИИ (24,09%)", "date": "2025-11", "source_url": "https://checko.ru/company/dyuna-1172375067424" }
+  ],
+  "data_gaps": ["Покупка СберМаркетингом НЕ подтверждена — слух опровергнут данными ЕГРЮЛ"],
+  "sources": ["https://www.list-org.com/company/9868088/report"],
+  "updated_at": "2026-07-13"
+}

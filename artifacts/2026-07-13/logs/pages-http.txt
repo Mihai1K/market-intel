@@ -1,7 +1,9 @@
-Проверка http://localhost:3000
+Проверка http://localhost:51996
 
-200  /  (49969 байт)
-200  /rating  (39902 байт)
-200  /pains  (116430 байт)
-200  /markets/hr-tech-rf  (281370 байт)
-200  /markets/hr-tech-rf/companies/careerspace  (44706 байт)
+200  /  (80530 байт)
+200  /rating  (59992 байт)
+200  /pains  (233747 байт)
+200  /markets/hr-tech-rf  (281493 байт)
+200  /markets/influencer-marketing-rf  (261415 байт)
+200  /markets/hr-tech-rf/companies/careerspace  (45009 байт)
+200  /markets/influencer-marketing-rf/companies/brand-analytics  (38918 байт)

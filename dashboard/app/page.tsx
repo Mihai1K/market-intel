@@ -1,14 +1,21 @@
 import Link from "next/link";
-import { getAllMarkets, getOpportunityOfTheWeek, sizeRange, latestFact } from "@/lib/data";
+import { getAllMarkets, getOpportunityOfTheWeek, getCoverage, sizeRange, latestFact } from "@/lib/data";
 import { fmtNum, scoreColor } from "@/lib/format";
 import { OpportunityCard } from "@/components/OpportunityCard";
 import { FactValue } from "@/components/FactValue";
 
 export const dynamic = "force-dynamic";
 
+const COVERAGE_STATUS: Record<string, { icon: string; label: string; cls: string }> = {
+  done: { icon: "✅", label: "завершён", cls: "text-emerald-300" },
+  "in-progress": { icon: "⏳", label: "в работе", cls: "text-amber-300" },
+  todo: { icon: "⬜", label: "не начат", cls: "text-zinc-500" },
+};
+
 export default function Home() {
   const markets = getAllMarkets();
   const otw = getOpportunityOfTheWeek();
+  const coverage = getCoverage();
 
   return (
     <div className="space-y-10">
@@ -36,6 +43,54 @@ export default function Home() {
       )}
 
       <section>
+        <div className="mb-3 flex flex-wrap items-baseline gap-3">
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-zinc-500">Покрытие рынков</h2>
+          <span className="text-[11px] text-zinc-600">
+            исследовано {coverage.totals.markets} из {coverage.rows.length} · {coverage.totals.companies} компаний ·{" "}
+            {coverage.totals.pains} болей · {coverage.totals.opportunities} возможностей · {coverage.totals.experiments} экспериментов
+          </span>
+          <span className="ml-auto text-[11px] text-zinc-600">KPI к 2026-08-13: 10 рынков</span>
+        </div>
+        <div className="mb-8 overflow-x-auto rounded-xl border border-zinc-800">
+          <table className="w-full min-w-[680px] text-sm">
+            <thead className="bg-zinc-900/80 text-left text-xs uppercase tracking-wide text-zinc-500">
+              <tr>
+                <th className="px-3 py-2">Рынок</th>
+                <th className="px-3 py-2 text-right">Компаний</th>
+                <th className="px-3 py-2 text-right">Болей</th>
+                <th className="px-3 py-2 text-right">Возможностей</th>
+                <th className="px-3 py-2 text-right">Экспериментов</th>
+                <th className="px-3 py-2">Статус</th>
+              </tr>
+            </thead>
+            <tbody>
+              {coverage.rows.map((r) => {
+                const st = COVERAGE_STATUS[r.status];
+                return (
+                  <tr key={r.name} className="border-t border-zinc-800/70">
+                    <td className="px-3 py-1.5">
+                      {r.slug && r.status !== "todo" ? (
+                        <Link href={`/markets/${r.slug}`} className="text-zinc-200 hover:text-emerald-300">
+                          {r.name}
+                        </Link>
+                      ) : (
+                        <span className="text-zinc-500">{r.name}</span>
+                      )}
+                    </td>
+                    <td className="px-3 py-1.5 text-right tabular-nums text-zinc-400">{r.companies || "—"}</td>
+                    <td className="px-3 py-1.5 text-right tabular-nums text-zinc-400">{r.pains || "—"}</td>
+                    <td className="px-3 py-1.5 text-right tabular-nums text-zinc-400">{r.opportunities || "—"}</td>
+                    <td className="px-3 py-1.5 text-right tabular-nums text-zinc-400">{r.experiments || "—"}</td>
+                    <td className={`px-3 py-1.5 text-xs ${st.cls}`}>
+                      {st.icon} {st.label}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+
         <h2 className="mb-3 text-xs font-semibold uppercase tracking-widest text-zinc-500">Рынки</h2>
         {markets.length === 0 && (
           <p className="text-sm text-zinc-500">Рынков пока нет. Запусти исследование первого рынка.</p>

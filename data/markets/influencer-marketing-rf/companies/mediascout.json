@@ -1,0 +1,30 @@
+{
+  "id": "mediascout",
+  "name": "МедиаСкаут (ОРД)",
+  "legal_name": "ООО «МедиаСкаут» (100% у АО «МТС Рекламные технологии»)",
+  "inn": "9725079621",
+  "website": "https://mediascout.ru",
+  "founded": 2022,
+  "segment": "оператор рекламных данных (маркировка)",
+  "description": "ОРД от МТС — бенчмарк экономики обязательной маркировки: выручка выросла с 137 млн (2023) до 641 млн ₽ (2025), прибыль 2025 — 387 млн. Регуляторный слой рынка сам стал крупным бизнесом.",
+  "revenue": [
+    { "value": 137.2, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/13346495/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 326.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/13346495/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 640.7, "unit": "млн руб", "period": "2025", "basis": "РСБУ (агрегатор)", "source_name": "Checko", "source_url": "https://checko.ru/company/mediaskaut-1227700185646", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 39.6, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/13346495/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": -12.0, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/13346495/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 387.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ (агрегатор)", "source_name": "Checko", "source_url": "https://checko.ru/company/mediaskaut-1227700185646", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 23, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/mediaskaut-1227700185646", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Загрузка креативов", "price": "1% от стоимости акта (мин. тарифы, публикация 2023)", "source_url": "https://adindex.ru/news/digital/2023/05/31/312963.phtml", "retrieved_at": "2026-07-13" },
+    { "plan": "Разаллокация актов", "price": "0,1% (макс. 5 000 ₽)", "source_url": "https://adindex.ru/news/digital/2023/05/31/312963.phtml", "retrieved_at": "2026-07-13" }
+  ],
+  "data_gaps": ["Актуальная тарифная страница недоступна (404) — тарифы по публикации AdIndex 2023"],
+  "sources": ["https://www.list-org.com/company/13346495/report"],
+  "updated_at": "2026-07-13"
+}

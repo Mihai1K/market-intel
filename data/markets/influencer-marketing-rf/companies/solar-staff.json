@@ -1,0 +1,35 @@
+{
+  "id": "solar-staff",
+  "name": "Solar Staff",
+  "legal_name": "ООО «Солар Стафф Рус» (100% у АО «Солар Стафф»)",
+  "inn": "7733228841",
+  "website": "https://solarstaff.com",
+  "founded": 2015,
+  "segment": "выплаты и документооборот с исполнителями",
+  "description": "Крупнейший сервис выплат фрилансерам и блогерам. Выручка 9,26 млрд ₽ (2025) — агентская модель: через юрлицо проходят обороты выплат, маржа низкая (прибыль 33-110 млн). Оценка Smart Ranking 10,9 млрд не подтвердилась (проверено: 9,2 млрд).",
+  "revenue": [
+    { "value": 5881.5, "unit": "млн руб", "period": "2021", "basis": "РСБУ (обороты выплат, агентская модель)", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 7055.6, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 9049.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 9205.5, "unit": "млн руб", "period": "2024", "basis": "РСБУ (совпадает с профилем Smart Ranking: 9,2 млрд)", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 9257.2, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 54.0, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 89.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 110.0, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 32.8, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/8138564/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 26, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/solar-staff-rus-1157746300964", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Комиссия заказчика", "price": "2-6% + НДС; вывод исполнителям 2-3,5%", "source_url": "https://www.solarstaff.com/en/pricing", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "Непрозрачная итоговая нагрузка: чтобы выплатить 100 000 ₽, вносишь 127 200 ₽", "source_url": "https://vc.ru/id1377271/937429-2026-kak-rossiyaninu-rabotat-s-solar-staff-4dev-i-arbonum-priem-platezhei-iz-za-rubezha-vyvod-sredstv-i-nalogi-dlya-frilansa" }
+  ],
+  "data_gaps": ["Точный процент комиссии публично не фиксирован (калькулятор)"],
+  "sources": ["https://www.list-org.com/company/8138564/report"],
+  "updated_at": "2026-07-13"
+}

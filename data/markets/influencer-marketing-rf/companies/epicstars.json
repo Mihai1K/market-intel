@@ -1,0 +1,45 @@
+{
+  "id": "epicstars",
+  "name": "Epicstars",
+  "legal_name": "ООО «Эпикстарс» (15% у Mitgo Group, экс-Admitad)",
+  "inn": "9701197390",
+  "website": "https://ru.epicstars.com",
+  "founded": 2016,
+  "segment": "биржа размещений (сжимается)",
+  "description": "Биржа блогеров с гарантом сделок. Бизнес сжимается: выручка 2025 упала на 56% до 57 млн ₽, убытки два года подряд, отрицательный капитал, 2 сотрудника. Показательный кейс: биржа старой модели проигрывает Telega.in и WOWBlogger.",
+  "revenue": [
+    { "value": 84.1, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 141.9, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 130.0, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 57.4, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −56% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 3.2, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 14.0, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -12.5, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -14.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11781864", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 2, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/ehpikstars-1227700088351", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Комиссия с исполнителя за сделку", "price": "10%; PRO-подписка 15 000 ₽/мес; пейволл поиска 5 000 ₽", "source_url": "https://otzyvmarketing.ru/epicstars/", "retrieved_at": "2026-07-13" }
+  ],
+  "review_rating": {
+    "rating": 2.7,
+    "scale": "из 5",
+    "count_note": "33 отзыва на otzyvmarketing",
+    "source_url": "https://otzyvmarketing.ru/epicstars/",
+    "retrieved_at": "2026-07-13"
+  },
+  "top_complaints": [
+    { "complaint": "Задержки вывода на недели, молчащая техподдержка", "source_url": "https://otzyvmarketing.ru/epicstars/" },
+    { "complaint": "Фейковые каналы с накрученными подписчиками в каталоге", "source_url": "https://otzyvmarketing.ru/epicstars/" }
+  ],
+  "funding": [
+    { "event": "Admitad Invest: ~$150 тыс (2016) + 100 млн руб (2018)", "date": "2016-2018", "source_url": "https://vc.ru/finance/26637-admitad-epicstars-100m" }
+  ],
+  "data_gaps": ["Тарифы подписки — только в закрытом кабинете", "2021 — данные только по ликвидированному юрлицу"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/11781864"],
+  "updated_at": "2026-07-13"
+}

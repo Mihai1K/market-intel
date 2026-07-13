@@ -1,0 +1,40 @@
+{
+  "id": "telega-in",
+  "name": "Telega.in",
+  "legal_name": "ООО «ТЕЛЕКОТ» (100% у АО «Телехолдинг», куплена Ultimate Capital в 2024)",
+  "inn": "9707003203",
+  "website": "https://telega.in",
+  "founded": 2016,
+  "segment": "биржа размещений (Telegram)",
+  "description": "Крупнейшая биржа рекламы в Telegram: 30 000+ каналов, ИИ-подбор, автомаркировка, закрывающие документы. Выручка юрлица — комиссия, не GMV. Главный бенефициар запрета Instagram: выручка ×4 за 2024.",
+  "revenue": [
+    { "value": 140.8, "unit": "млн руб", "period": "2023", "basis": "РСБУ (комиссия, не GMV)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12218277", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 593.3, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12218277", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 677.1, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12218277", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -8.0, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12218277", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 330.0, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12218277", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 185.4, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/12218277", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 82, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/telekot-1237700464671", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "disclosed_metrics": [
+    { "metric": "GMV платформы за 1П2024", "value": 650, "unit": "млн руб (свыше)", "period": "1П2024", "source_name": "CNews (пресс-релиз Ultimate Capital)", "source_url": "https://www.cnews.ru/news/line/2024-07-16_investitsionnaya_kompaniya", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Комиссия с владельцев каналов", "price": "12,5% от размещения", "source_url": "https://telega.in/faq", "retrieved_at": "2026-07-13" },
+    { "plan": "Пакет «Лайт» (управляемые кампании)", "price": "от 200 000 ₽", "source_url": "https://telega.in/", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "Суммарные комиссии до ~55% с одной сделки (наценка клиенту + комиссия каналу)", "source_url": "https://vc.ru/id1461594/2476683-telega-in-otzyvy-o-komissii" },
+    { "complaint": "Накрученные каналы встречаются даже в каталоге биржи", "source_url": "https://traffnews.com/telegram/telega-in-otzyvy/" }
+  ],
+  "funding": [
+    { "event": "Ultimate Capital купила Telega.in (оценка сделки 1-1,6 млрд руб, не раскрыта)", "date": "2024-07", "source_url": "https://www.cnews.ru/news/line/2024-07-16_investitsionnaya_kompaniya" }
+  ],
+  "data_gaps": ["Финансы за 2021-2022 (текущее юрлицо создано в 2023)", "Точная комиссия для рекламодателей не раскрывается"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/12218277"],
+  "updated_at": "2026-07-13"
+}

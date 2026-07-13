@@ -1,0 +1,41 @@
+{
+  "id": "getblogger",
+  "name": "Getblogger",
+  "legal_name": "ООО «ГЕТБЛОГГЕР» (100% у АО «МТС Рекламные технологии» с 12.2024)",
+  "inn": "7709975183",
+  "website": "https://getblogger.ru",
+  "founded": 2016,
+  "segment": "CPA-платформа (куплена МТС)",
+  "description": "Платформа подбора блогеров с CPA/CPP-моделью, 112k+ блогеров. Куплена МТС за ~1,6 млрд ₽ (12.2024) — вошла в МТС AdTech. Выручка растёт кратно (включает проходящие бюджеты), команда выросла до 134 человек.",
+  "revenue": [
+    { "value": 166.0, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает проходящие бюджеты)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 204.0, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 965.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 1440.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 2374.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +65% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 98.1, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 68.3, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 116.9, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 222.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 231.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9933030", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 66, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/getblogger-1167746911837", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 84, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/getblogger-1167746911837", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 134, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/getblogger-1167746911837", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "CPA/CPP; мин. бюджет при умном подборе", "price": "от 15 000 ₽; процессинг 2,25%; по обзорам общая комиссия ~20%", "source_url": "https://aff1.ru/ad-networks/getblogger/", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "«Заумная система тарификации» — клиенты не понимают, как считается бюджет", "source_url": "https://otzyvmarketing.ru/getblogger/" }
+  ],
+  "funding": [
+    { "event": "МТС купила Getblogger за ~1,6 млрд руб", "date": "2024-12", "source_url": "https://adindex.ru/news/marketing/2024/12/10/328259.phtml" }
+  ],
+  "data_gaps": ["Тарифная сетка для рекламодателей публично не раскрыта"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/9933030"],
+  "updated_at": "2026-07-13"
+}

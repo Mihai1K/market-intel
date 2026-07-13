@@ -231,6 +231,53 @@ export function getOpportunityOfTheWeek(): { slug: string; marketName: string; o
   return best;
 }
 
+export interface RoadmapEntry {
+  name: string;
+  slug: string | null;
+  status: "done" | "in-progress" | "todo";
+}
+
+export function getRoadmap(): RoadmapEntry[] {
+  return readJson<{ queue: RoadmapEntry[] }>(path.join(DATA_DIR, "roadmap.json"))?.queue ?? [];
+}
+
+export interface CoverageRow {
+  name: string;
+  slug: string | null;
+  status: "done" | "in-progress" | "todo";
+  companies: number;
+  pains: number;
+  opportunities: number;
+  experiments: number;
+}
+
+/** Market Coverage Dashboard: очередь рынков + реальные счётчики из data/ */
+export function getCoverage(): { rows: CoverageRow[]; totals: Omit<CoverageRow, "name" | "slug" | "status"> & { markets: number } } {
+  const experiments = getExperiments();
+  const rows: CoverageRow[] = getRoadmap().map((r) => {
+    if (!r.slug) return { ...r, companies: 0, pains: 0, opportunities: 0, experiments: 0 };
+    const b = getMarketBundle(r.slug);
+    return {
+      ...r,
+      companies: b.companies.length,
+      pains: b.pains?.pains.length ?? 0,
+      opportunities: b.opportunities?.opportunities.length ?? 0,
+      experiments: experiments.filter((e) => e.market === r.slug).length,
+    };
+  });
+  const totals = rows.reduce(
+    (t, r) => ({
+      markets: t.markets + (r.status === "done" ? 1 : 0),
+      companies: t.companies + r.companies,
+      pains: t.pains + r.pains,
+      opportunities: t.opportunities + r.opportunities,
+      experiments: t.experiments + r.experiments,
+    }),
+    { markets: 0, companies: 0, pains: 0, opportunities: 0, experiments: 0 }
+  );
+  return { rows, totals };
+}
+
 export interface Decision {
   date: string;
   market: string;

@@ -1,0 +1,35 @@
+{
+  "id": "perfluence",
+  "name": "Perfluence",
+  "legal_name": "ООО «Перфлюенс» (в реорганизации с 2026)",
+  "inn": "7725380313",
+  "website": "https://perfluence.net",
+  "founded": 2017,
+  "segment": "CPA-платформа (оплата за результат)",
+  "description": "CPA-маркетинг с блогерами: 295k+ блогеров, оплата за действия. Выручка юрлица близка к обороту бюджетов. 2024 — убыток 171 млн ₽ после пика 2023; с 2026 компания в реорганизации. Массовые жалобы блогеров на задержки выплат.",
+  "revenue": [
+    { "value": 1643.5, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает проходящие бюджеты)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10270959", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 1960.9, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10270959", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 4122.2, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10270959", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 3868.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ (через агрегатор — в ГИР БО не опубликована)", "source_name": "List-Org", "source_url": "https://www.list-org.com/company/9813057", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 197.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10270959", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 302.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10270959", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 607.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10270959", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -171.2, "unit": "млн руб", "period": "2024", "basis": "РСБУ (через агрегатор)", "source_name": "List-Org", "source_url": "https://www.list-org.com/company/9813057", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 52, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/perflyuens-1177746601757", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "CPA для рекламодателей, вход для блогера от 500 подписчиков", "price": "комиссия индивидуальная, публично не раскрыта", "source_url": "https://perfluence.net/", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "Задержки и заморозки выплат блогерам («выплаты в обработке» месяцами)", "source_url": "https://otzovik.com/reviews/agentstvo_perfluence/" },
+    { "complaint": "Непрозрачный CPA-трекинг: «после кучи переходов результаты не засчитывают»", "source_url": "https://otzovik.com/reviews/agentstvo_perfluence/" }
+  ],
+  "data_gaps": ["Отчётность за 2025 не опубликована", "К кому идёт присоединение при реорганизации — не найдено", "Комиссия платформы не раскрывается"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10270959"],
+  "updated_at": "2026-07-13"
+}

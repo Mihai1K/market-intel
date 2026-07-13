@@ -1,0 +1,33 @@
+{
+  "id": "players-team",
+  "name": "Players Team",
+  "legal_name": "ООО «ПЛЕЕРС» (85% у А. Шокурова, совладельца Kokoc Group, с 10.2024)",
+  "inn": "7708250836",
+  "website": "https://playersagency.ru",
+  "founded": 2014,
+  "segment": "агентство инфлюенс-маркетинга",
+  "description": "Блогерское агентство (Влад А4, Руслан Усачев и др.). Куплено совладельцем Kokoc Group в 2024. В 2025 — убыток 85 млн ₽ при выручке 309 млн: агентский бизнес пострадал от сжатия рынка.",
+  "revenue": [
+    { "value": 515.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 116.9, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 173.1, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 298.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 309.3, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 46.8, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -38.5, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -6.0, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 3.4, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -85.3, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9139947", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 29, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/pleers-1157746232401", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "85% куплено А. Шокуровым (Kokoc Group), у основателя В. Ящука осталось 13,75%", "date": "2024-10", "source_url": "https://kokocgroup.ru/blog/sovladelets-kokoc-group-kupil-85-blogerskogo-agentstva-players-teamntstva-players-team" }
+  ],
+  "data_gaps": ["Сумма сделки не раскрыта", "Тарифы не публикуются"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/9139947"],
+  "updated_at": "2026-07-13"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "jump-finance",
+  "name": "Jump.Finance",
+  "legal_name": "ООО «Джаст Лук» (98% у ООО «ТКС» — группа Т-Банка)",
+  "inn": "5406678646",
+  "website": "https://jump.finance",
+  "founded": 2011,
+  "segment": "выплаты самозанятым",
+  "description": "Массовые выплаты самозанятым/физлицам в группе Т-Банка: выплата за 1 минуту, автогенерация актов, интеграции 1С. Рекордный 2025: выручка 868 млн ₽, чистая прибыль 557 млн — эталон юнит-экономики сегмента.",
+  "revenue": [
+    { "value": 190.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 360.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 708.6, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 662.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 868.4, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 93.9, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 302.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 191.0, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 556.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ, маржа 64%", "source_name": "list-org", "source_url": "https://www.list-org.com/company/6739783/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 79, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/dzhast-luk-1115476092687", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "SaaS, индивидуальный расчёт", "price": "по запросу (публичных тарифов нет)", "source_url": "https://jump.finance/", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "«Тинькофф» приобрёл 51% (сейчас 98% у ООО «ТКС»)", "date": "2021-11", "source_url": "https://www.kommersant.ru/doc/5098050" }
+  ],
+  "data_gaps": ["Публичных тарифов нет"],
+  "sources": ["https://www.list-org.com/company/6739783/report"],
+  "updated_at": "2026-07-13"
+}

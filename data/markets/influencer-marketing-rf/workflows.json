@@ -1,0 +1,39 @@
+{
+  "market": "influencer-marketing-rf",
+  "updated_at": "2026-07-13",
+  "workflows": [
+    {
+      "id": "buyer",
+      "name": "Закупка рекламы у блогеров (агентство/закупщик)",
+      "actor": "агентство",
+      "steps": [
+        { "name": "Бриф клиента", "status": "manual", "evidence": "Бриф заполняется вручную, затем дебрифинг-созвон; инфлюенс-менеджер «работает со сметами, согласованием брифов»", "evidence_url": "https://blog.socialjet.pro/kak-sostavit-idealnyj-brif-dlya-reklamnoj-kampanii-i-izbezhat-poloviny-problem/", "can_ai": true, "can_bot": true },
+        { "name": "Подбор блогеров", "status": "semi", "evidence": "В вакансии: «поиск целевых блогеров и каналов» — вручную пул из 20 кандидатов занимает 4-8 часов; биржи дают ИИ-подбор внутри своих каталогов", "evidence_url": "https://t4ka.ru/vacancy-influence-manager", "can_ai": true, "can_bot": true, "time_cost": "4-8 часов на пул из 20 блогеров вручную; ~30 минут с ИИ-промптами", "time_cost_url": "https://vc.ru/id5970775/2959843-poisk-blogerov-dlya-reklamy-s-pomoshchyu-ii" },
+        { "name": "Проверка на накрутки", "status": "semi", "evidence": "В вакансии: «аналитика каналов, проверка на накрутки» — человек с сервисами (trendHERO, LiveDune, TGStat), финальное решение ручное", "evidence_url": "https://t4ka.ru/vacancy-influence-manager", "can_ai": true, "can_bot": true },
+        { "name": "Аутрич и переговоры", "status": "manual", "evidence": "«Переговоры с инфлюенсерами, построение долгосрочных отношений»; кейс: аутрич ~20 писем в день на сотрудника", "evidence_url": "https://vc.ru/marketing/718045-kak-ya-zapustil-rabotu-s-blogerami-v-startape-pod-klyuch-za-3-dnya-gotovoe-reshenie-bez-agregatorov-agentstv-i-posrednikov", "can_ai": true, "can_bot": true, "time_cost": "~20 писем/день вручную, до 50 с автоматизацией рассылок", "time_cost_url": "https://vc.ru/marketing/718045-kak-ya-zapustil-rabotu-s-blogerami-v-startape-pod-klyuch-za-3-dnya-gotovoe-reshenie-bez-agregatorov-agentstv-i-posrednikov" },
+        { "name": "Согласование цены и креатива", "status": "manual", "evidence": "«Написание рекламных текстов и ТЗ»; агентство проверяет контент блогера на соответствие брифу и передаёт клиенту — всё руками", "evidence_url": "https://t4ka.ru/vacancy-influence-manager", "can_ai": true, "can_bot": false },
+        { "name": "Договор и оплата (самозанятый/ИП)", "status": "semi", "evidence": "«Без договора ни в одном ОРД не выдадут токен»; Solar Staff/Qugo/Jump.Finance автоматизируют договоры, чеки и выплаты", "evidence_url": "https://konsol.pro/blog/reklama-u-blogerov-ord", "can_ai": true, "can_bot": true },
+        { "name": "Маркировка (ОРД, erid)", "status": "semi", "evidence": "Вручную: регистрация договора в ОРД, креатив, erid, ежемесячный отчёт; на биржах автоматизировано только внутри платформы", "evidence_url": "https://konsol.pro/blog/reklama-u-blogerov-ord", "can_ai": true, "can_bot": true, "time_cost": "erid.agency заявляет экономию 70% времени против прямой работы с ОРД", "time_cost_url": "https://erid.agency/" },
+        { "name": "Контроль выхода публикации", "status": "manual", "evidence": "«Контроль выхода размещений и соблюдения сроков» — ручная обязанность менеджера; автоматический статус — только внутри бирж", "evidence_url": "https://t4ka.ru/vacancy-influence-manager", "can_ai": true, "can_bot": true },
+        { "name": "Сбор статистики", "status": "manual", "evidence": "Формат — скриншоты статистики от блогера (можно подделать); рекомендуют видео или гостевой доступ — сбор ручной", "evidence_url": "https://elama.ru/blog/kak-ocenivat-effektivnost-reklamy-u-blogerov-polnyy-gayd-po-metrikam-i-formulam/", "can_ai": true, "can_bot": true },
+        { "name": "Отчёт клиенту", "status": "manual", "evidence": "«Подготовка отчётов об эффективности, прогнозирование ROI» — вручную; единого стандарта отчётности нет", "evidence_url": "https://t4ka.ru/vacancy-influence-manager", "can_ai": true, "can_bot": true },
+        { "name": "Закрывающие документы", "status": "semi", "evidence": "Акт обязателен; автоматизируют Telega.in, Jump.Finance (генерация актов), Qugo — вне платформ вручную", "evidence_url": "https://konsol.pro/blog/reklama-u-blogerov-ord", "can_ai": true, "can_bot": true }
+      ]
+    },
+    {
+      "id": "blogger",
+      "name": "Процесс блогера (исполнитель)",
+      "actor": "блогер",
+      "steps": [
+        { "name": "Входящие заявки", "status": "semi", "evidence": "Напрямую — в личные сообщения вручную; на биржах — уведомления через Telegram-бота", "evidence_url": "https://wowblogger.ru/for-bloggers", "can_ai": true, "can_bot": true },
+        { "name": "Согласование условий", "status": "manual", "evidence": "Переговоры о цене/формате/сроках ведутся вручную в переписке", "evidence_url": "https://t4ka.ru/vacancy-influence-manager", "can_ai": true, "can_bot": false },
+        { "name": "Создание креатива", "status": "manual", "evidence": "Контент остаётся за блогером даже на автоматизированных биржах; AI-генерация текстов — вспомогательный инструмент", "evidence_url": "https://wowblogger.ru/for-bloggers", "can_ai": true, "can_bot": false },
+        { "name": "Маркировка рекламы", "status": "semi", "evidence": "Самостоятельно: ОРД, договор, erid по инструкции; через платформы — автоматически", "evidence_url": "https://habr.com/ru/articles/804379/", "can_ai": true, "can_bot": true },
+        { "name": "Публикация", "status": "manual", "evidence": "Блогер сам публикует пост с пометкой «Реклама», данными заказчика и erid", "evidence_url": "https://konsol.pro/blog/reklama-u-blogerov-ord", "can_ai": false, "can_bot": true },
+        { "name": "Предоставление статистики", "status": "manual", "evidence": "Скриншоты/видео статистики отправляются рекламодателю вручную; посты смотрят через неделю, сторис — через сутки", "evidence_url": "https://elama.ru/blog/kak-ocenivat-effektivnost-reklamy-u-blogerov-polnyy-gayd-po-metrikam-i-formulam/", "can_ai": true, "can_bot": true },
+        { "name": "Получение оплаты", "status": "semi", "evidence": "Напрямую — перевод по договору; на биржах автоматизировано (вывод через Консоль.Про, выплаты по расписанию)", "evidence_url": "https://wowblogger.ru/for-bloggers", "can_ai": false, "can_bot": true },
+        { "name": "Отчётность по налогам", "status": "semi", "evidence": "Чек в «Мой налог» вручную после каждой оплаты; с 01.04.2025 — ещё сбор 3% с доходов от рекламы ежеквартально", "evidence_url": "https://vc.ru/marketing/2759549-nalogi-dlya-blogerov-v-2026-godu", "can_ai": true, "can_bot": true }
+      ]
+    }
+  ]
+}

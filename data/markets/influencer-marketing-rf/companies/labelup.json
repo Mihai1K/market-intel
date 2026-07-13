@@ -1,0 +1,29 @@
+{
+  "id": "labelup",
+  "name": "LabelUp",
+  "legal_name": "ООО «АГЕНТСТВО ЛЕЙБЛ АП» (100% у ООО «ТАК»)",
+  "inn": "7708323900",
+  "website": "https://labelup.ru",
+  "founded": 2014,
+  "segment": "платформа + агентство",
+  "description": "Платформа и агентство инфлюенс-маркетинга с эксклюзивными контрактами. Взрывной рост: выручка ×7,7 за 2023-2025 до 8,6 млрд ₽ (агентская модель — через юрлицо проходят бюджеты), прибыль 888 млн ₽ (2025). Крупнейшее юрлицо рынка.",
+  "revenue": [
+    { "value": 451.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает проходящие бюджеты)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 379.7, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 1114.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 3837.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 8606.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +124% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 2.0, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 12.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 349.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 888.4, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10333323", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 103, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/agentstvo-leybl-ap-1177746860334", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Комиссия/тарифы не публикуются", "Конечный бенефициар ООО «ТАК» не установлен", "Численность за 2021-2024"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10333323"],
+  "updated_at": "2026-07-13"
+}

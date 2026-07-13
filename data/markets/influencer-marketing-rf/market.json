@@ -1,0 +1,185 @@
+{
+  "id": "influencer-marketing-rf",
+  "name": "Influencer marketing и реклама у блогеров в России",
+  "description": "Экосистема рекламы у блогеров: биржи и платформы размещений, поиск и аналитика блогеров, агентства, маркировка (ОРД/ЕРИР) и документооборот, выплаты блогерам, AI-инструменты. Рынок в турбулентности: запрет рекламы в Instagram с 01.09.2025, реестр блогеров РКН, сбор 3% с интернет-рекламы.",
+  "scope_assumptions": [
+    "Оценки объёма несопоставимы между собой: АБА — опросы участников, АРИР — расширенная методика (включая продакшн и амбассадорство), АКАР — модель CPU/CPV по данным WhoIsBlogger/Yoloco",
+    "Данные ЕРИР — нижняя граница: только маркированная реклама, по оценкам рынка 25-50% размещений не маркируется",
+    "Консенсусной цифры за 2025 ещё нет — только оценка АБА 40-45 млрд ₽ с учётом запрета Instagram"
+  ],
+  "segments": [
+    {
+      "id": "exchanges",
+      "name": "Биржи и платформы размещений",
+      "description": "Telega.in, WOWBlogger (каталог 55 000+ блогеров), Perfluence (CPA-модель, 295k+ блогеров), Getblogger, Epicstars. Комиссии публично не раскрываются."
+    },
+    {
+      "id": "analytics",
+      "name": "Поиск, аналитика и проверка накруток",
+      "description": "Yoloco (AI), trendHERO, LiveDune, TGStat, AdSpoiler, Popsters, Brand Analytics. Тарифы от 400 ₽/мес до $100/мес."
+    },
+    {
+      "id": "agencies",
+      "name": "Агентства инфлюенс-маркетинга",
+      "description": "Didenok Team и другие; 80% бюджетов рынка — топ-500 брендов через агентства, 20% — СМБ (АКАР, 2024)."
+    },
+    {
+      "id": "labeling-docs",
+      "name": "Маркировка, документооборот, отчётность",
+      "description": "ОРД/ЕРИР (erid-токены), закрывающие документы, отчёты. Штрафы за креатив без маркировки: до 500 тыс ₽ юрлицам. Обязательный слой для каждого размещения с 2022."
+    },
+    {
+      "id": "payments",
+      "name": "Выплаты блогерам и самозанятым",
+      "description": "Solar Staff, Jump.Finance, Qugo — массовые выплаты, чеки самозанятых, налоги."
+    },
+    {
+      "id": "ai-tools",
+      "name": "AI-инструменты",
+      "description": "AI-подбор блогеров, AI-медиапланы, AI-анализ эффективности — формирующийся сегмент."
+    },
+    {
+      "id": "platform-mix",
+      "name": "Структура по площадкам",
+      "description": "2024 (АКАР): YouTube 47,9%, Instagram 20%, Telegram 19,8%, VK 11,2%. После запрета 01.09.2025 (АБА): Telegram 46,3%, YouTube 21,2%, VK 12,7%, TikTok 6,7%, Instagram ~4%. Деньги перетекли в Telegram (+67% интеграций) с ростом цен ~50%."
+    }
+  ],
+  "market_size_rf": {
+    "estimates": [
+      {
+        "value": 44,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "опросы рекламодателей и участников рынка, +37% к 2023",
+        "source_name": "АБА + eLama (Sostav)",
+        "source_url": "https://www.sostav.ru/publication/rynok-inflyuens-marketinga-v-2025-godu-vyrastet-do-57-mlrd-rublej-73682.html",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      },
+      {
+        "value": 58,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "модель CPU/CPV по 6 платформам без TikTok (официально «57-60 млрд»), данные WhoIsBlogger и Yoloco + опрос агентств",
+        "source_name": "Комитет инфлюенс-маркетинга АКАР",
+        "source_url": "https://akarussia.ru/news/novosti-akar/rynok-blogerov-v-rossii-ocenili-v-60-mlrd-rublej/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      },
+      {
+        "value": 47,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "расширенная методика 2024: прямые интеграции + продакшн + аналитика + амбассадорство (поэтому «+161%» к 2023 несопоставим)",
+        "source_name": "АРИР",
+        "source_url": "https://interactivead.ru/news/arir-obem-rossijskogo-rynka-reklamy-i-prodvizheniya-v-internete-v-2024-godu-vyros-na-53-do-1236-trln-rublej/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      },
+      {
+        "value": 48.5,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "нижняя граница: только МАРКИРОВАННАЯ реклама у 268 тыс. блогов по данным ЕРИР; 25-50% размещений не маркируется",
+        "source_name": "Роскомнадзор / ЕРИР",
+        "source_url": "https://adpass.ru/858-mlrd-rublej-potracheno-na-internet-reklamu-v-2024-godu/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "high",
+        "method": "reported"
+      },
+      {
+        "value": 42.5,
+        "unit": "млрд руб",
+        "period": "2025",
+        "scope": "вилка 40-45 млрд: оценка исполнительного директора АБА по факту, с учётом запрета Instagram — рынок сжался или стагнировал",
+        "source_name": "АБА (Inc. Russia)",
+        "source_url": "https://incrussia.ru/understand/bloggers_u/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "low",
+        "method": "estimated"
+      }
+    ],
+    "range_note": "Вилка за 2024: 44-58 млрд ₽ в зависимости от методики (опросы АБА / CPV-модель АКАР / расширенный скоуп АРИР); маркированная часть по ЕРИР — 48,5 млрд. 2025 — стагнация или падение до 40-45 млрд из-за запрета Instagram (была ~20% бюджетов). Прогнозы игроков на 2025 расходились от −15% до +15%."
+  },
+  "growth": [
+    {
+      "value": 37,
+      "unit": "% г/г",
+      "period": "2024",
+      "scope": "по методике АБА (44 млрд против 31,8 млрд в 2023)",
+      "source_name": "АБА (ADPASS/Sostav)",
+      "source_url": "https://www.sostav.ru/publication/rynok-inflyuens-marketinga-v-2025-godu-vyrastet-do-57-mlrd-rublej-73682.html",
+      "retrieved_at": "2026-07-13",
+      "confidence": "medium",
+      "method": "estimated"
+    },
+    {
+      "value": -3,
+      "unit": "% г/г (середина вилки)",
+      "period": "2025",
+      "scope": "оценка АБА 40-45 млрд против 44 млрд в 2024: от −9% до +2% — фактическая стагнация после запрета Instagram",
+      "source_name": "АБА (Inc. Russia)",
+      "source_url": "https://incrussia.ru/understand/bloggers_u/",
+      "retrieved_at": "2026-07-13",
+      "confidence": "low",
+      "method": "derived",
+      "formula": "((40+45)/2 − 44) / 44 × 100 ≈ −3%"
+    }
+  ],
+  "buying_power": [
+    {
+      "segment": "Малый бизнес и рекламодатели напрямую (self-serve биржи)",
+      "typical_budget": "пост от 205 ₽ (Telega.in) до 40 тыс ₽ у каналов до 100k; микроканалы ~17 тыс ₽/пост; вход на биржи без минимума или от 30 тыс ₽ (WOWBlogger ручная биржа)",
+      "deal_cycle": "часы-дни, самообслуживание",
+      "ease_of_purchase": 5,
+      "evidence": [
+        { "note": "цены размещений через Telega.in и WOWBlogger", "source_url": "https://elama.ru/blog/reklama-vtelegram-kanalah-kak-razmestit-iskolko-stoit/" },
+        { "note": "исследование цен постов в 200+ TG-каналах", "source_url": "https://ppc.world/news/cena-odnogo-reklamnogo-posta-v-telegram-kanale-mozhet-dostigat-15-mln-rubley-issledovanie/" }
+      ]
+    },
+    {
+      "segment": "Бренды и агентства (закупка через пакеты)",
+      "typical_budget": "пакеты «под ключ» 100 тыс — 1 млн ₽; пост в новостных TG-каналах в среднем 273 тыс ₽; крупные блогеры до 1,5 млн ₽/пост",
+      "deal_cycle": "недели, тендеры у крупных брендов",
+      "ease_of_purchase": 3,
+      "evidence": [
+        { "note": "пакеты и вилки цен", "source_url": "https://elama.ru/blog/reklama-vtelegram-kanalah-kak-razmestit-iskolko-stoit/" },
+        { "note": "средняя цена в новостных каналах, +45% за год", "source_url": "https://www.vedomosti.ru/media/articles/2025/03/13/1097667-stoimost-reklami-v-novostnih-telegram-kanalah-virosla" }
+      ]
+    },
+    {
+      "segment": "Агентства и закупщики (SaaS-инструменты)",
+      "typical_budget": "аналитика: LiveDune от 400 до 8 000 ₽/мес, Yoloco ~5 160 ₽/мес, trendHERO $10-100/мес",
+      "deal_cycle": "дни, подписка",
+      "ease_of_purchase": 4,
+      "evidence": [
+        { "note": "тарифы LiveDune", "source_url": "https://maxfaq.ru/livedune-obzor-servisa-tarify-i-tseny" },
+        { "note": "тарифы trendHERO", "source_url": "https://trendhero.io/ru/pricing/" },
+        { "note": "обзор цен сервисов проверки блогеров", "source_url": "https://fireseo.ru/blog/12-servisov-dlya-poiska-i-proverki-blogerov/" }
+      ]
+    }
+  ],
+  "events": [
+    { "date": "2024-07", "event": "Замедление YouTube в РФ: к концу 2024 трафик ~20% от обычного — миграция блогеров в VK Video, Rutube, Telegram", "source_url": "https://www.forbes.ru/tekhnologii/528210-truba-zamedlennogo-dejstvia-cto-slucilos-s-youtube-v-rossii-i-cto-budet-dal-se" },
+    { "date": "2024-11-01", "event": "Реестр блогеров РКН: каналы 10k+ обязаны регистрироваться (ФЗ № 303-ФЗ); с 01.01.2025 реклама в незарегистрированных каналах запрещена, штраф до 500 тыс ₽", "source_url": "https://elama.ru/blog/registraciya-blogerov-v-roskomnadzore-gayd-po-novomu-zakonu/" },
+    { "date": "2025-03", "event": "Блогеры получили официальные коды ОКВЭД (70.21.1, 73.11.1 и др.) — легализация отрасли", "source_url": "https://www.rbc.ru/society/22/03/2025/67dec0799a7947133346125d" },
+    { "date": "2025-04-01", "event": "Сбор 3% с доходов от интернет-рекламы (ФЗ № 479-ФЗ) — платят площадки, агентства и блогеры", "source_url": "https://buh.ru/articles/novyy-sbor-s-dokhodov-ot-reklamy-s-1-aprelya-2025-goda-kto-i-v-kakom-razmere-budet-platit.html" },
+    { "date": "2025-04-07", "event": "Подписан ФЗ № 72-ФЗ: с 01.09.2025 запрет рекламы на ресурсах запрещённых организаций (Instagram/Facebook)", "source_url": "https://mosdigitals.ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025-goda-razbor-yurista" },
+    { "date": "2025-06", "event": "Реестр блогеров РКН: подано 264 тыс. заявлений, одобрено 149 тыс.", "source_url": "https://www.fontanka.ru/2025/06/27/75649559/" },
+    { "date": "2025-09-01", "event": "Запрет рекламы в Instagram вступил в силу; 03.09 — первое дело УФАС против блогера; доля Instagram упала с 20% до ~4% бюджетов", "source_url": "https://www.forbes.ru/svoi-biznes/550372-stalo-sloznee-i-doroze-cto-proishodit-na-rynke-posle-zapreta-reklamy-v-instagram" },
+    { "date": "2025-09", "event": "Перераспределение бюджетов (Didenok Team): Telegram +67%, YouTube +40%, VK +18%; CPV на замещающих площадках вырос ~50%", "source_url": "https://www.forbes.ru/svoi-biznes/550372-stalo-sloznee-i-doroze-cto-proishodit-na-rynke-posle-zapreta-reklamy-v-instagram" },
+    { "date": "2023-11", "event": "Первый штраф за отсутствие маркировки блогеру: 300 тыс ₽ («Лиса рулит») за 3 поста", "source_url": "https://www.rbc.ru/technology_and_media/30/11/2023/656733669a794740fd8a3188" },
+    { "date": "2025-06-20", "event": "ЕРИР за 2024: 858,6 млрд ₽ маркированной интернет-рекламы (+35%), 3,48 млрд креативов; по блогерам — 48,5 млрд ₽ у 268 тыс. блогов", "source_url": "https://adpass.ru/858-mlrd-rublej-potracheno-na-internet-reklamu-v-2024-godu/" }
+  ],
+  "sources": [
+    "https://akarussia.ru/news/novosti-akar/rynok-blogerov-v-rossii-ocenili-v-60-mlrd-rublej/",
+    "https://www.sostav.ru/publication/rynok-inflyuens-marketinga-v-2025-godu-vyrastet-do-57-mlrd-rublej-73682.html",
+    "https://adpass.ru/influence-marketing-uhodit-v-minus/",
+    "https://adpass.ru/858-mlrd-rublej-potracheno-na-internet-reklamu-v-2024-godu/",
+    "https://www.forbes.ru/svoi-biznes/550372-stalo-sloznee-i-doroze-cto-proishodit-na-rynke-posle-zapreta-reklamy-v-instagram"
+  ],
+  "updated_at": "2026-07-13"
+}

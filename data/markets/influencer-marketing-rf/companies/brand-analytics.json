@@ -1,0 +1,31 @@
+{
+  "id": "brand-analytics",
+  "name": "Brand Analytics",
+  "legal_name": "ООО «ПалитрумЛаб»",
+  "inn": "7727796050",
+  "website": "https://brandanalytics.ru",
+  "founded": 2013,
+  "segment": "мониторинг соцмедиа (enterprise)",
+  "description": "Лидер мониторинга соцмедиа: выручка 1,14 млрд ₽ (2024, +41%), маржа чистой прибыли 43%. Ценовой якорь enterprise-сегмента аналитики: от 35 000 ₽/мес.",
+  "revenue": [
+    { "value": 450.1, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 685.1, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 809.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 1137.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ, +41% г/г", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 178.1, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 375.9, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 375.0, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 493.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/7363386/report", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 89, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/palitrumlab-1137746018156", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Стартовый → Премиум", "price": "35 000 → от 260 000 ₽/мес", "source_url": "https://brandanalytics.ru/price/", "retrieved_at": "2026-07-13" }
+  ],
+  "data_gaps": ["Отчётность за 2025 не опубликована на момент проверки"],
+  "sources": ["https://www.list-org.com/company/7363386/report"],
+  "updated_at": "2026-07-13"
+}

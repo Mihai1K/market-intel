@@ -1,20 +1,22 @@
-# Отчёт проверки ссылок — 2026-07-13 11:22
+# Отчёт проверки ссылок — 2026-07-13 14:53
 
-Всего уникальных URL: **212** · живых: **199** · антибот/закрыто: **10** · битых: **3** · таймаут: **0**
+Всего уникальных URL: **399** · живых: **372** · антибот/закрыто: **25** · битых: **2** · таймаут: **0**
 
-## Битые — требуют замены источника (3)
+## Битые — требуют замены источника (2)
 
-- [404] https://otzovik.com/review_16752318.html
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [404] https://otzovik.com/reviews/superjob_ru-sayt_po_poisku_raboti/
-  - используется в: data/markets/hr-tech-rf/companies/superjob.json
-- [ENOTFOUND] https://zine.tomoru.ru/errors-vacancies
-  - используется в: data/markets/hr-tech-rf/pains.json
+- [404] https://www.kaspersky.ru/blog/videobloggers-fund-scam/33550/
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [ENOTFOUND] https://www.zarplata.ru
+  - используется в: data/markets/hr-tech-rf/companies/zarplata-ru.json
 
-## Антибот/закрыто (10)
+## Антибот/закрыто (25)
 
 > 401/403/429 или сброс соединения. Ссылка, скорее всего, живая, но сайт не пускает роботов — не считается битой.
 
+- [UND_ERR_CONNECT_TIMEOUT] https://actualtraffic.ru/site/telega-in/otzyvy/
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [403] https://aff1.ru/ad-networks/getblogger/
+  - используется в: data/markets/influencer-marketing-rf/companies/getblogger.json
 - [403] https://habr.com/ru/articles/976476/
   - используется в: data/markets/hr-tech-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://investfuture.ru/articles/nikogo-net-pochemu-biznes-mesyatsami-ne-mozhet-nayti-sotrudnikov-dazhe-na-prostye-vakansii
@@ -23,63 +25,149 @@
   - используется в: data/markets/hr-tech-rf/pains.json
 - [TypeError] https://kontur.ru/articles/5062
   - используется в: data/markets/hr-tech-rf/pains.json
+- [TypeError] https://kontur.ru/articles/79634-malomu_biznesu_vybirat_blogerov_dlya_reklamy
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [401] https://marketolog.mts.ru/blog/top-8-oshibok-v-integratsiyah-s-blogerami-i-kak-ih-izbezhat
+  - используется в: data/markets/influencer-marketing-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://pampadu.ru/blog/9203-chto-takoe-gosting-v-rekrutinge-i-kak-s-nim-borotsya/
   - используется в: data/markets/hr-tech-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://partnerkin.com/blog/articles/proverka-nakrutki-inst
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://perfluence.net
+  - используется в: data/markets/influencer-marketing-rf/companies/perfluence.json
+- [UND_ERR_CONNECT_TIMEOUT] https://perfluence.net/
+  - используется в: data/markets/influencer-marketing-rf/companies/perfluence.json
+- [UND_ERR_CONNECT_TIMEOUT] https://perfluence.net/blog/article/blogery-dlya-malogo-i-srednego-biznesa
+  - используется в: data/markets/influencer-marketing-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://spark.ru/startup/bizpeople-family/blog/272370/kak-iskat-sotrudnikov-bez-hr-rabochie-soveti-dlya-predprinimatelya
   - используется в: data/markets/hr-tech-rf/pains.json
-- [429] https://www.audit-it.ru/contragent/1177746032276_ooo-skilaz
+- [403] https://tgstat.ru/p/prices
+  - используется в: data/markets/influencer-marketing-rf/opportunities.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver
+  - используется в: data/markets/hr-tech-rf/companies/e-staff.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork
+  - используется в: data/markets/hr-tech-rf/companies/friendwork.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1177746032276_ooo-skilaz
   - используется в: data/markets/hr-tech-rf/companies/skillaz.json
-- [429] https://www.audit-it.ru/contragent/1177746741347_ooo-potok
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1177746741347_ooo-potok
   - используется в: data/markets/hr-tech-rf/companies/potok.json
-- [429] https://www.audit-it.ru/contragent/5177746185997_ooo-visivi
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou
+  - используется в: data/markets/hr-tech-rf/companies/huntflow.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/5177746185997_ooo-visivi
   - используется в: data/markets/hr-tech-rf/companies/vcv.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.m24.ru/articles/obshchestvo/22052026/903121
   - используется в: data/markets/hr-tech-rf/pains.json
+- [401] https://www.rbc.ru/economics/09/08/2023/64d0fae89a794743eaf201e5
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [401] https://www.rbc.ru/society/22/03/2025/67dec0799a7947133346125d
+  - используется в: data/markets/influencer-marketing-rf/market.json
+- [401] https://www.rbc.ru/technology_and_media/30/11/2023/656733669a794740fd8a3188
+  - используется в: data/markets/influencer-marketing-rf/market.json
 
-## Живые (199)
+## Живые (372)
 
 - [200] http://json-schema.org/draft-07/schema#
+- [200] http://lead-academy.ru/poleznye-materialy/kak-proverit-blogerov-na-nakrutki/
+- [200] https://101poisk.ru/resource/telega-in
+- [200] https://aba-media.ru/researches.html
 - [200] https://adesk.ru/blog/kadrovyi-golod-kak-malomu-biznesu-s-nim-borotsia/
+- [200] https://adindex.ru/news/digital/2023/05/31/312963.phtml
+- [200] https://adindex.ru/news/marketing/2024/12/10/328259.phtml
+- [200] https://adpass.ru/858-mlrd-rublej-potracheno-na-internet-reklamu-v-2024-godu/
+- [200] https://adpass.ru/influence-marketing-uhodit-v-minus/
+- [200] https://adpass.ru/reklama-v-telegram-podorozhala-na-38-v-2025-godu/
+- [200] https://adpass.ru/skolko-stoit-reklama-u-blogerov-na-raznyh-kanalah-prodvizheniya-v-2025-godu/
+- [200] https://adpass.ru/stoimost-reklamy-v-telegram-vyrosla-v-2025/
+- [200] https://adpass.ru/top-7-oshibok-v-rabote-s-blogerami/
 - [200] https://ai-russia.ru/library/hh
+- [200] https://akarussia.ru/news/novosti-akar/rynok-blogerov-v-rossii-ocenili-v-60-mlrd-rublej/
 - [200] https://allo.tochka.com/find-employee
+- [200] https://altapress.ru/ekonomika/story/uklon-vpravo-uklon-vlevo-pod-sud-kak-izvestnie-blogeri-drobyat-moyut-i-prosto-tratyat-millioni-chtobi-ne-platit-nalogi-342023
 - [200] https://antaltalent.ru/en/news/methods-lengths-job-search-2025-q3/
+- [200] https://awwwake.ru/journal/registracija_blogerov_v_rkn
+- [200] https://axdigital.ru/blog/rkn-bloger-reestr-guide/
+- [200] https://bg.ru/bg/business/comm-news/29018-tg-ads
 - [200] https://bgstaff.ru/news/Skorost-zakrytiya-vakansii-kak-bystro-najti-kadry-i-spat-spokojno/
+- [200] https://blog.click.ru/markirovka-reklamy/skolko-stoyat-uslugi-ord/
+- [200] https://blog.cybermarketing.ru/reklamnyj-apokalipsis-gde-teper-auditoriya-i-kak-raspredelyatsya-40-mlrd-rublej-posle-instagram/
+- [200] https://blog.promopult.ru/law/registraciya-v-rkn-i-shtrafy-dlya-blogerov-desyatitysyachnikov.html
+- [200] https://blog.socialjet.pro/kak-sostavit-idealnyj-brif-dlya-reklamnoj-kampanii-i-izbezhat-poloviny-problem/
 - [200] https://bo.nalog.gov.ru/organizations-card/10068764
+- [200] https://bo.nalog.gov.ru/organizations-card/10270959
 - [200] https://bo.nalog.gov.ru/organizations-card/10311423
+- [200] https://bo.nalog.gov.ru/organizations-card/10333323
 - [200] https://bo.nalog.gov.ru/organizations-card/10442709
 - [200] https://bo.nalog.gov.ru/organizations-card/10712268
 - [200] https://bo.nalog.gov.ru/organizations-card/11370313
 - [200] https://bo.nalog.gov.ru/organizations-card/11727738
+- [200] https://bo.nalog.gov.ru/organizations-card/11781864
+- [200] https://bo.nalog.gov.ru/organizations-card/12085230
+- [200] https://bo.nalog.gov.ru/organizations-card/12208642
+- [200] https://bo.nalog.gov.ru/organizations-card/12218277
 - [200] https://bo.nalog.gov.ru/organizations-card/17076
 - [200] https://bo.nalog.gov.ru/organizations-card/4480128
 - [200] https://bo.nalog.gov.ru/organizations-card/5186587
 - [200] https://bo.nalog.gov.ru/organizations-card/5205343
 - [200] https://bo.nalog.gov.ru/organizations-card/8522831
 - [200] https://bo.nalog.gov.ru/organizations-card/8985338
+- [200] https://bo.nalog.gov.ru/organizations-card/9139947
+- [200] https://bo.nalog.gov.ru/organizations-card/9933030
 - [200] https://bo.nalog.gov.ru/organizations-card/9991109
+- [200] https://brandanalytics.ru
+- [200] https://brandanalytics.ru/price/
+- [200] https://buh.ru/articles/novyy-sbor-s-dokhodov-ot-reklamy-s-1-aprelya-2025-goda-kto-i-v-kakom-razmere-budet-platit.html
 - [200] https://career.habr.com
 - [200] https://careerspace.app
 - [200] https://careerspace.app/subscription
+- [200] https://checko.ru/company/agentstvo-leybl-ap-1177746860334
+- [200] https://checko.ru/company/didenok-star-1237700054503
+- [200] https://checko.ru/company/dyuna-1172375067424
+- [200] https://checko.ru/company/dzhast-luk-1115476092687
 - [200] https://checko.ru/company/dzhi-bot-1207700270051
+- [200] https://checko.ru/company/ehpikstars-1227700088351
+- [200] https://checko.ru/company/getblogger-1167746911837
 - [200] https://checko.ru/company/habr-5067746892769
+- [200] https://checko.ru/company/inflyu-1237800073961
 - [200] https://checko.ru/company/karernoe-prostranstvo-1217700587939
+- [200] https://checko.ru/company/mediaskaut-1227700185646
+- [200] https://checko.ru/company/palitrumlab-1137746018156
+- [200] https://checko.ru/company/perflyuens-1177746601757
+- [200] https://checko.ru/company/pleers-1157746232401
+- [200] https://checko.ru/company/solar-staff-rus-1157746300964
 - [200] https://checko.ru/company/superdzhob-1027700404797
+- [200] https://checko.ru/company/telekot-1237700464671
+- [200] https://checko.ru/company/yoloko-1197746671231
 - [200] https://checko.ru/company/zarplata-ru-1147746526817
 - [200] https://companies.rbc.ru/id/1207700270051-getmatch/
 - [200] https://companies.rbc.ru/id/5147746474134-ooo-obschestvo-s-ogranichennoj-otvetstvennostyu-rdv-soft/
 - [200] https://corp.cnews.ru/news/line/2026-02-27_just_ai_i_potok_rekrutment
 - [200] https://craftum.com/blog/nejroseti-dlya-sozdaniya-rezyume/
+- [200] https://dabreeze.ru/blogger/stoimost-reklamy-blogera
 - [200] https://devby.io/blogs/posts/this-is-lie
 - [200] https://devby.io/news/rezume-mozhno-vykinut-v-musorku-rekrutery-ih-bolshe-ne-chitaut
+- [200] https://didenokteam.com
 - [200] https://e-pepper.ru/blogs/news/superjob-vyvodit-na-rynok-novyy-marketpleys
 - [200] https://e-staff.ru
 - [200] https://e-staff.ru/
 - [200] https://e-staff.ru/tariffs
 - [200] https://eanews.ru/rossiya/20260128163013/rossiyane-mesyatsami-ne-mogut-nayti-rabotu-i-govoryat-o-gibeli-rynka-truda
+- [200] https://elama.ru/blog/kak-markirovat-reklamu-u-blogerov-adminov-i-avtorov-obyasnyaem-vse/
+- [200] https://elama.ru/blog/kak-ocenivat-effektivnost-reklamy-u-blogerov-polnyy-gayd-po-metrikam-i-formulam/
+- [200] https://elama.ru/blog/kak-vystroit-dolgosrochnoe-sotrudnichestvo-s-blogerami-17-sovetov-reklamodatelyam/
+- [200] https://elama.ru/blog/kuda-uhodit-bloger-chto-budet-s-rynkom-posle-zapreta-reklamy-instagram/
+- [200] https://elama.ru/blog/oshtrafah-iotvetstvennosti-zanesoblyudenie-zakona-omarkirovke-reklamy/
+- [200] https://elama.ru/blog/registraciya-blogerov-v-roskomnadzore-gayd-po-novomu-zakonu/
+- [200] https://elama.ru/blog/reklama-vtelegram-kanalah-kak-razmestit-iskolko-stoit/
+- [200] https://elama.ru/blog/skolko-stoit-reklama-u-blogerov/
+- [200] https://elama.ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025-chto-izmenitsya-i-kak-rabotat-po-novomu-zakonu/
+- [200] https://erid.agency/
 - [200] https://finance.mail.ru/article/kak-soiskatelyu-otlichit-testovoe-zadanie-ot-raboty-za-spasibo-69212239/
 - [200] https://finance.mail.ru/article/malyj-biznes-stal-chashe-nanimat-neidealnyh-sotrudnikov-69204649/
+- [200] https://fireseo.ru/blog/12-servisov-dlya-poiska-i-proverki-blogerov/
+- [200] https://freud-pr.ru/rabota-s-influenserami
 - [200] https://friend.work
 - [200] https://friend.work/price
+- [200] https://getblogger.ru
 - [200] https://getmatch.ru
 - [200] https://h.careers/
 - [200] https://h.careers/deals/karernaya-konsultaciya-nikolay-shirinkin
@@ -87,9 +175,11 @@
 - [200] https://habr.com/ru/articles/1026380/
 - [200] https://habr.com/ru/articles/1054450/
 - [200] https://habr.com/ru/articles/796529/
+- [200] https://habr.com/ru/articles/804379/
 - [200] https://habr.com/ru/articles/841744/
 - [200] https://habr.com/ru/articles/927698/
 - [200] https://habr.com/ru/articles/945766/
+- [200] https://habr.com/ru/articles/984410/
 - [200] https://habr.com/ru/articles/993578/
 - [200] https://habr.com/ru/companies/agima/articles/765556/
 - [200] https://habr.com/ru/companies/beeline_cloud/articles/952526/
@@ -97,6 +187,7 @@
 - [200] https://habr.com/ru/news/1009354/
 - [200] https://habr.com/ru/news/570864/
 - [200] https://heaad.ru/blog/skolko-stoit-podbor-personala/
+- [200] https://help.labelup.ru/article/22890
 - [200] https://hh.ru
 - [200] https://hh.ru/article/2071
 - [200] https://hh.ru/article/25057
@@ -115,6 +206,7 @@
 - [200] https://hh.ru/price-list
 - [200] https://hh.ru/services
 - [200] https://hhgo.ru/
+- [200] https://hi-tech.mail.ru/review/129303-rynok-stanet-menee-prozrachnym/
 - [200] https://hrtime.ru/contents/stoimost-podbora-personala-pochemu-takie-tseny/
 - [200] https://hrtime.ru/material/pochemu-kandidaty-ne-prikhodiat-na-sobesedovaniia-oshibki-rabotodateley-139335/
 - [200] https://huntflow.media/gde-zayavku-ostavlyali-tuda-i-idite/
@@ -124,30 +216,59 @@
 - [200] https://huntflow.ru
 - [200] https://huntflow.ru/help/knowledge-base/watcher-101/
 - [200] https://huntflow.ru/insight/article/ne-boites-vperedi-klassno
+- [200] https://incrussia.ru/understand/bloggers_u/
+- [200] https://interactivead.ru/news/arir-obem-rossijskogo-rynka-reklamy-i-prodvizheniya-v-internete-v-2024-godu-vyros-na-53-do-1236-trln-rublej/
 - [200] https://investor.hh.ru
 - [200] https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf
 - [200] https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf
+- [200] https://irecommend.ru/content/durov-verni-stenu-vk-adblogger-otdai-dengi-moya-popytka-dostuchatsya-do-ii-i-beg-po-krugu
 - [200] https://irecommend.ru/content/lyudi-kotorye-nichego-ne-znayut-o-klientoorientirovannosti
 - [200] https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii
 - [200] https://jobturbo.ru/
+- [200] https://jump.finance
+- [200] https://jump.finance/
+- [200] https://kokocgroup.ru/blog/sovladelets-kokoc-group-kupil-85-blogerskogo-agentstva-players-teamntstva-players-team
 - [200] https://komkad.ru/blog/skolko-stoit-podbor-personala/
 - [200] https://konkurent.ru/article/75842
+- [200] https://konsol.pro/blog/reklama-u-blogerov-ord
 - [200] https://kontur.ru/lp/hr-funnel/blog/55404-skrining_resume
+- [200] https://labelup.ru
+- [200] https://livedune.com
+- [200] https://livedune.com/pricing/
+- [200] https://maxfaq.ru/livedune-obzor-servisa-tarify-i-tseny
+- [200] https://mediascout.ru
 - [200] https://mentors.solvery.io/technical_interview
+- [200] https://monuchet.ru/spravochnik/nalogi-dlya-blogerov-i-infobiznesa-2026/
+- [200] https://mosdigitals.ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025-goda-razbor-yurista
 - [200] https://motivity.ru/blog/gosting-kandidatov-5-skriptov-chtoby-ponyat-chto-on-ne-vyjdet-eshhe-na-etape-sobesedovaniya/
 - [200] https://naimee.ai/
 - [200] https://naimee.ai/hrzavtra/avtomatizatsiya-otbora-rezyume
+- [200] https://naimix.ru/keis-gibkaya-automatizacia
+- [200] https://natiw.ru/baza-znanij/kak-izmerit-effektivnost-reklamy-u-blogerov-klyuchevye-metriki-i-instrumenty
+- [200] https://niksolovov.ru/services/epicstars
 - [200] https://novacontact.ru/blog/kak-dovesti-do-sobesedovania
 - [200] https://novacontact.ru/blog/stoimost-podbora-personala
 - [200] https://otvet.mail.ru/question/232842661
 - [200] https://otvet.mail.ru/question/242218457
+- [200] https://otzovik.com/review_14130335.html
+- [200] https://otzovik.com/review_15468335.html
+- [200] https://otzovik.com/review_15848621.html
 - [200] https://otzovik.com/review_17847718.html
+- [200] https://otzovik.com/review_17887216.html
 - [200] https://otzovik.com/review_18218058.html
 - [200] https://otzovik.com/review_18354699.html
+- [200] https://otzovik.com/reviews/agentstvo_perfluence/
 - [200] https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/
+- [200] https://otzyvmarketing.ru/epicstars/
+- [200] https://otzyvmarketing.ru/getblogger/
+- [200] https://otzyvmarketing.ru/wowblogger/
+- [200] https://otzyvmarketing.ru/yoloco/
+- [200] https://overclockers.ru/blog/Zeroblog/show/197437/Moshenniki-kradut-akkaunty-i-den-gi-blogerov-vydavaya-sebya-za-reklamnyh-menedzherov
+- [200] https://pavezlo.ru/marketing/gajd-zakupka-reklamy-v-telegram/
 - [200] https://pikabu.ru/story/kak_ya_nedavno_iskal_rabotu_v_it_postrazdumie_13668136
 - [200] https://platforms.su/platform/15750
 - [200] https://play.google.com/store/apps/details?id=ru.hh.android&hl=en_IN
+- [200] https://playersagency.ru
 - [200] https://pntr.io/2001-otzivi-na-prilozheniya-hh-ru-v-storah-kak-kompaniya-headhunter-stala
 - [200] https://podustal.ru/blog/avtootkliki-posle-zakrytiya-api-hh
 - [200] https://podustal.ru/blog/optimizaciya-rezyume-pod-ats-sistemy
@@ -160,15 +281,26 @@
 - [200] https://potok.io/onboarding/
 - [200] https://potok.io/potok-v-rejtinge-luchshih-hr-tech-kompanij-ot-smart-ranking-v-2023-godu/
 - [200] https://potok.io/price/
+- [200] https://ppc.world/articles/tarify-raznyh-ord-na-markirovku-reklamy-chem-otlichayutsya-i-kak-vybrat/
+- [200] https://ppc.world/news/cena-odnogo-reklamnogo-posta-v-telegram-kanale-mozhet-dostigat-15-mln-rubley-issledovanie/
+- [200] https://pravo.ru/story/246333/
 - [200] https://pro.rabota.ru/no-show
 - [200] https://proglib.io/p/dzhuny-game-over-ili-novyy-uroven-slozhnosti-2025-04-15
 - [200] https://prorecruitment.ru/blog/luchshie-ats-sistemy-rossiya-2026
 - [200] https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley
 - [200] https://prosto.rabota.ru/post/ghost-jobs/
+- [200] https://qugo.ru
+- [200] https://qugo.ru/b2b/faq
+- [200] https://qugo.ru/b2b/vyplaty-samozanyatym-blogeram
 - [200] https://quick-offer.ru/info/faq
 - [200] https://quick-offer.ru/news/unanswered-click
 - [200] https://ria.ru/20260424/zarplata-2088663315.html
+- [200] https://rizz.market/kak-najti-blogera-dlya-reklamy-luchshie-metody-i-instrumenty
+- [200] https://ru.epicstars.com
+- [200] https://runetlex.ru/knowledge/gosudarstvo/reestr-blogerov-osobennosti-problemy-i-rekomendacii
 - [200] https://runews24.ru/society/11/06/2026/prizrachnyie-vakansii-dobivayut-ryinok-truda-pochemu-kompanii-publikuyut-obyavleniya-bez-realnogo-najma
+- [200] https://sdelaem.agency/blog/kak-najti-blogerov-dlya-reklamy-poshagovyj-gajd-po-poisku-i-proverke/
+- [200] https://seo-aspirant.ru/effektivnost-reklamy-u-blogerov
 - [200] https://setka.ru/posts/0197186e-fcda-44f5-b557-3b09e43d241b
 - [200] https://setka.ru/posts/0197a059-adb2-42b2-8d38-308f88866432
 - [200] https://setka.ru/posts/019b1fa3-f9f1-7632-931b-15152090c400
@@ -180,14 +312,25 @@
 - [200] https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/
 - [200] https://smartranking.ru/ru/analytics/hrtech/v-i-polugodii-2025-goda-rynok-hrtech-vyros-na-12-do-406-mlrd-rublej-odnako-tempy-rosta-ostayutsya/
 - [200] https://smartranking.ru/ru/ranking/company/skillaz/
+- [200] https://solarstaff.com
 - [200] https://solvery.io/ru/mentors/interviews
 - [200] https://soprovodai.ru/ai-interview-assistant
 - [200] https://spectrumdata.ru/blog/proverka-soiskatelya/gosting-na-rabote-pochemu-kandidaty-i-sotrudniki-ischezayut-bez-obyasneniya-prichin/
 - [200] https://stats.hh.ru/
 - [200] https://strategy.ru/news/rossijskij-rynok-korporativnogo-po-budet-rasti-v-srednem-na-24-ezhegodno-do-2030-goda-i-prevysit-700-mlrd-rublej/
+- [200] https://supa.ru/blog/posts/kak-provierit-bloghiera-pieried-zapuskom-rieklamy-chtoby-nie-promakhnutsia
+- [200] https://t4ka.ru/vacancy-influence-manager
 - [200] https://talantix.ru
 - [200] https://talantix.ru/promo/price
+- [200] https://telega.in
+- [200] https://telega.in/
+- [200] https://telega.in/faq
+- [200] https://telegramot.ru/zakup-sheet/
+- [200] https://texterra.ru/blog/operatory-reklamnykh-dannykh-vse-tarify.html
 - [200] https://thehrd.ru/articles/kak-sostavit-tekst-vakansii-chtoby-na-nee-nikto-ne-otkliknulsja/
+- [200] https://traffnews.com/telegram/telega-in-otzyvy/
+- [200] https://trendhero.io/
+- [200] https://trendhero.io/ru/pricing/
 - [200] https://tutortop.ru/school-reviews/careerspace/
 - [200] https://u-mama.ru/forum/women/job/1004050/
 - [200] https://uprav.ru/blog/gosting-posle-sobesedovaniya/
@@ -195,45 +338,103 @@
 - [200] https://vc.ru/25708-vcv-500s
 - [200] https://vc.ru/finance/102859-rossiyskiy-hr-startap-vcv-privlek-investicii-ot-byvshego-sovladelca-troyki-dialog-i-predprinimatelya-rubena-vardanyana
 - [200] https://vc.ru/finance/164092-servis-avtomatizacii-rekrutinga-friendwork-privlek-2-5-mln-ot-prytek-igorya-rybakova-i-partnerov-u-investorov-50-1
+- [200] https://vc.ru/finance/26637-admitad-epicstars-100m
 - [200] https://vc.ru/finance/58355-headhunter-kupil-dolyu-v-servise-dlya-avtomatizacii-rekrutinga-skillaz
 - [200] https://vc.ru/growth/139674-vcv-kak-500-startups-pomog-vyyti-na-rynok-ameriki-i-zapoluchit-investorov-iz-yaponii
 - [200] https://vc.ru/hr/1911148-kak-samostoyatelno-nanimat-sotrudnikov-dlya-malogo-biznesa
 - [200] https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga
 - [200] https://vc.ru/hr/2872781-avtomatizatsiya-rekrutinga-sokraschenie-vremeni-obrabotki-rezyume
 - [200] https://vc.ru/hr/75579-testovoe-zadanie-pochemu-net
+- [200] https://vc.ru/id1377271/937429-2026-kak-rossiyaninu-rabotat-s-solar-staff-4dev-i-arbonum-priem-platezhei-iz-za-rubezha-vyvod-sredstv-i-nalogi-dlya-frilansa
+- [200] https://vc.ru/id1461594/2476683-telega-in-otzyvy-o-komissii
+- [200] https://vc.ru/id5657117/2772540-markirovka-internet-reklamy-2026
+- [200] https://vc.ru/id5970775/2959843-poisk-blogerov-dlya-reklamy-s-pomoshchyu-ii
 - [200] https://vc.ru/life/1146251-testovoe-zadanie-ne-oplachivaetsya-kak-perestat-raspugivat-soiskatelei-i-sostavit-testovoe-kotoroe-budut-delat
 - [200] https://vc.ru/life/2794664-hh-ru-i-ii-skrining-kak-oboyti-avtomaticheskie-otkazy
+- [200] https://vc.ru/marketing/1482452-kak-naiti-blogerov-kotorye-ne-vypustili-reklamu-i-ne-vozvrashayut-dengi
+- [200] https://vc.ru/marketing/1711187-kak-pravilno-analizirovat-rezultaty-reklamy-u-blogerov
+- [200] https://vc.ru/marketing/171459-kak-blogery-obmanyvayut-reklamodatelei
+- [200] https://vc.ru/marketing/2194295-moshennichestvo-oo-vk-vk-adblogger-obmanul-avtorov
+- [200] https://vc.ru/marketing/2759549-nalogi-dlya-blogerov-v-2026-godu
+- [200] https://vc.ru/marketing/2797074-markirovka-reklamy-2026-shtrafy-fas
+- [200] https://vc.ru/marketing/2848755-stoimost-reklamy-u-blogerov
+- [200] https://vc.ru/marketing/336720-top-7-oshibok-v-rabote-s-blogerami
+- [200] https://vc.ru/marketing/668610-markirovka-reklamy-u-blogerov-pokazyvaem-na-skrinshotah-kak-ne-popast-na-500-000-rublei
+- [200] https://vc.ru/marketing/718045-kak-ya-zapustil-rabotu-s-blogerami-v-startape-pod-klyuch-za-3-dnya-gotovoe-reshenie-bez-agregatorov-agentstv-i-posrednikov
 - [200] https://vc.ru/money/252792-headhunter-poluchil-kontrol-v-servise-dlya-avtomatizacii-rekrutinga-skillaz
 - [200] https://vc.ru/services/1608664-vsya-pravda-o-hhru-dlya-rabotodatelei-otzyvy-plyusy-i-minusy-obzor-eksperta
 - [200] https://vc.ru/services/1743493-razmeshenie-vakansii-na-hhru-rukovodstvo-po-vyboru-novogo-tarifa-dlya-rabotodatelei
+- [200] https://vc.ru/services/203022-16-crm-dlya-digital-agentstv
+- [200] https://vc.ru/services/2731886-zakupshchik-reklamy-v-telegram
+- [200] https://vc.ru/services/2903550-avtomatizatsiya-zakupki-reklamy-v-telegram-s-tgterra
+- [200] https://vc.ru/social/354945-kak-moshenniki-obmanyvayut-blogerov-i-kak-garant-mozhet-obezopasit-sdelki
 - [200] https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu
 - [200] https://vcv.ru
 - [200] https://vcv.ru/pricing/
-- [200] https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver
-- [200] https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork
-- [200] https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou
+- [200] https://vseotzyvy.ru/item/108741/review/445281/wowblogger-reklama-u-blogerov-v-sotssetyah
+- [200] https://wowblogger.ru
+- [200] https://wowblogger.ru/
+- [200] https://wowblogger.ru/blog/gajd_po_tarifam
+- [200] https://wowblogger.ru/for-bloggers
+- [200] https://www.banki.ru/news/daytheme/?id=10990910
 - [200] https://www.banki.ru/news/daytheme/?id=11023520
+- [200] https://www.cnews.ru/news/line/2024-07-16_investitsionnaya_kompaniya
 - [200] https://www.cnews.ru/news/line/2025-10-03_headhunter_anonsiroval_zapusk
 - [200] https://www.cnews.ru/news/top/2024-09-27_headhunter_vernulsya_na_birzhukompaniya
 - [200] https://www.cnews.ru/news/top/2024-12-10_aktsionery_headhunter_poradovali
 - [200] https://www.cnews.ru/news/top/2025-03-25_v_rossii_poyavilsya_internet-auktsion
 - [200] https://www.cnews.ru/projects/2025/Rynok_HR_Tech_2025
 - [200] https://www.cnews.ru/reviews/rynok_hr_tech/articles/top-40_krupnejshih_igrokov_v_sfere
+- [200] https://www.cossa.ru/smmashing/234012/
+- [200] https://www.e-pepper.ru/news/naperegonki-s-mediainflyatsiey-mozhno-li-govorit-pro-rost-rynka-inflyuens-marketinga-v-12-15.html
 - [200] https://www.finversia.ru/news/markets/severgrupp-alekseya-mordashova-kupila-hr-platformu-potok-23550
+- [200] https://www.fontanka.ru/2025/06/27/75649559/
+- [200] https://www.forbes.ru/forbeslife/486861-associacia-blogerov-i-agentstv-sozdali-cernyj-spisok-influenserov
 - [200] https://www.forbes.ru/svoi-biznes/521951-headhunter-polucil-kontrol-v-hrlink-za-bolee-cem-1-mlrd-rublej
+- [200] https://www.forbes.ru/svoi-biznes/544859-zapret-reklamy-v-instagram-s-1-sentabra-cto-mozno-i-nel-za-publikovat
+- [200] https://www.forbes.ru/svoi-biznes/550372-stalo-sloznee-i-doroze-cto-proishodit-na-rynke-posle-zapreta-reklamy-v-instagram
+- [200] https://www.forbes.ru/tekhnologii/485882-vk-kupila-kontrol-nyj-paket-kompanii-influens-marketinga-didenok-team
+- [200] https://www.forbes.ru/tekhnologii/528210-truba-zamedlennogo-dejstvia-cto-slucilos-s-youtube-v-rossii-i-cto-budet-dal-se
 - [200] https://www.interfax.ru/business/978459
 - [200] https://www.kellyservices.ru/blog/2021/05/chto-razdrazhaiet-rossiian-pri-poiskie-raboty-riezultaty-issliedovaniia
 - [200] https://www.kommersant.ru/doc/5081541
+- [200] https://www.kommersant.ru/doc/5098050
+- [200] https://www.kommersant.ru/doc/8080328
+- [200] https://www.kommersant.ru/doc/8399528
 - [200] https://www.kommersant.ru/doc/8481423
 - [200] https://www.kommersant.ru/doc/8656247
+- [200] https://www.kontur-extern.ru/info/81877-usn_i_nds
+- [200] https://www.likeni.ru/events/assotsiatsiya-blogerov-i-agentstv-rasshirila-chernyy-spisok-igrokov-inflyuens-marketinga/
+- [200] https://www.list-org.com/company/12474087/report
+- [200] https://www.list-org.com/company/12741601
+- [200] https://www.list-org.com/company/12741601/report
+- [200] https://www.list-org.com/company/13346495/report
+- [200] https://www.list-org.com/company/6739783/report
+- [200] https://www.list-org.com/company/7363386/report
+- [200] https://www.list-org.com/company/8138564/report
+- [200] https://www.list-org.com/company/9813057
+- [200] https://www.list-org.com/company/9868088/report
+- [200] https://www.moedelo.org/club/nalogovyj-uchet/usn-bez-nds-2026-limit
 - [200] https://www.rabota.ru
 - [200] https://www.rusprofile.ru/id/7387955
+- [200] https://www.setters.media/post/instagram-zapret-reklamy-1-sentyabrya-2025
+- [200] https://www.solarstaff.com/en/pricing
+- [200] https://www.solarstaff.com/pages/prostoy-i-ponyatnyy-servis-dlya-edo-s-samozanyatymi
 - [200] https://www.sostav.ru/blogs/282131/85331
+- [200] https://www.sostav.ru/blogs/282243/66848
+- [200] https://www.sostav.ru/blogs/284890/84188
+- [200] https://www.sostav.ru/publication/markirovka-issledovanie-62879.html
+- [200] https://www.sostav.ru/publication/opros-61377.html
+- [200] https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html
+- [200] https://www.sostav.ru/publication/rynok-inflyuens-marketinga-v-2025-godu-vyrastet-do-57-mlrd-rublej-73682.html
 - [200] https://www.superjob.ru
 - [200] https://www.superjob.ru/info/price-list/
 - [200] https://www.superjob.ru/research/articles/115235/rossiyan/
 - [200] https://www.superjob.ru/vakansii/rekruter.html
 - [200] https://www.tadviser.ru/index.php/Статья:Российский_рынок_HR-tech
+- [200] https://www.unisender.com/ru/blog/servisy-dlya-raboty-s-samozanyatymi/
 - [200] https://www.vedomosti.ru/ideas/technologies/articles/2026/05/27/1199342-rinka-truda
-- [200] https://www.zarplata.ru
+- [200] https://www.vedomosti.ru/media/articles/2025/03/13/1097667-stoimost-reklami-v-novostnih-telegram-kanalah-virosla
+- [200] https://yoloco.io
+- [200] https://yoloco.io/ru/pricing
 - [200] https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT
