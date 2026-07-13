@@ -1,0 +1,42 @@
+{
+  "id": "superjob",
+  "name": "SuperJob",
+  "legal_name": "ООО «СуперДжоб»",
+  "inn": "7702319337",
+  "website": "https://www.superjob.ru",
+  "founded": 2000,
+  "segment": "джоб-борд",
+  "description": "Джоб-борд №3 в РФ. Выручка в 2025 упала на 34,7%. Экспериментирует с новыми моделями: «аукционы» за соискателей (2025), маркетплейс ИИ-агентов (2026).",
+  "revenue": [
+    { "value": 1181.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 749.2, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 783.8, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 893.3, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 583.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −34,7% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 21.7, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -65.0, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 54.7, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -42.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 7.65, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4480128", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 216, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/superdzhob-1027700404797", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 242, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/superdzhob-1027700404797", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 190, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/superdzhob-1027700404797", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "«Базовый» — публикация 1 вакансии, регионы", "price": "~2 400–3 300 ₽", "source_url": "https://www.superjob.ru/info/price-list/", "retrieved_at": "2026-07-13" },
+    { "plan": "«Максимальный» (вакансии + база резюме), вся Россия", "price": "224 590 ₽/мес … 771 912 ₽/год", "source_url": "https://www.superjob.ru/info/price-list/", "retrieved_at": "2026-07-13" }
+  ],
+  "top_complaints": [
+    { "complaint": "Мало реальных откликов по сравнению с hh", "source_url": "https://otzovik.com/reviews/superjob_ru-sayt_po_poisku_raboti/" }
+  ],
+  "data_gaps": [
+    "Среднесписочная численность за 2021-2022",
+    "Продуктовые метрики (MAU, число вакансий) не раскрываются"
+  ],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/4480128"],
+  "updated_at": "2026-07-13"
+}

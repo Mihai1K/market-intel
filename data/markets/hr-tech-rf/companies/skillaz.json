@@ -1,0 +1,39 @@
+{
+  "id": "skillaz",
+  "name": "Skillaz",
+  "legal_name": "ООО «Скилаз» (90,7% у ООО «Хэдхантер»)",
+  "inn": "7722388120",
+  "website": "https://skillaz.ru",
+  "founded": 2017,
+  "segment": "ATS (enterprise)",
+  "description": "Enterprise-платформа автоматизации найма, поглощена HeadHunter поэтапно в 2019-2024. Выручка растёт медленно, 2025 — глубокий убыток (−335 млн) и отрицательные чистые активы.",
+  "revenue": [
+    { "value": 337.9, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 402.4, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 722.8, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 796.5, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС; сверено с audit-it", "source_url": "https://www.audit-it.ru/contragent/1177746032276_ooo-skilaz", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 845.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС; также профиль Smart Ranking", "source_url": "https://smartranking.ru/ru/ranking/company/skillaz/", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -106.7, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -108.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 105.1, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -35.2, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -335.2, "unit": "млн руб", "period": "2025", "basis": "РСБУ; отрицательные чистые активы −119 млн на 31.12.2025", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10068764", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 191, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1177746032276_ooo-skilaz", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 245, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1177746032276_ooo-skilaz", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Enterprise", "price": "от 1,5 млн ₽/год (по обзору ATS); публичного прайса нет", "source_url": "https://prorecruitment.ru/blog/luchshie-ats-sistemy-rossiya-2026", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "HeadHunter купил 25% за 232 млн руб", "date": "2019-02", "source_url": "https://vc.ru/finance/58355-headhunter-kupil-dolyu-v-servise-dlya-avtomatizacii-rekrutinga-skillaz" },
+    { "event": "HeadHunter довёл долю до 65%", "date": "2021", "source_url": "https://vc.ru/money/252792-headhunter-poluchil-kontrol-v-servise-dlya-avtomatizacii-rekrutinga-skillaz" },
+    { "event": "HeadHunter довёл долю до ~90%", "date": "2024-08", "source_url": "https://www.interfax.ru/business/978459" }
+  ],
+  "data_gaps": ["Численность за 2021-2023", "Число клиентов не раскрывается"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10068764"],
+  "updated_at": "2026-07-13"
+}

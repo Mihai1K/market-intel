@@ -1,0 +1,252 @@
+{
+  "id": "hr-tech-rf",
+  "name": "HR-tech и сервисы поиска работы в России",
+  "description": "Джоб-борды, подбор и автоматизация найма (ATS), AI-скрининг, сервисы для соискателей (резюме, отклики, карьерные консультации), аналитика рынка вакансий. Фокус: продукты для соискателей и для работодателей/рекрутеров.",
+  "scope_assumptions": [
+    "В скоуп входят: джоб-борды, ATS/автоматизация найма, AI-инструменты подбора, сервисы для соискателей, карьерные консультации",
+    "Смежные сегменты HR-tech (КЭДО, обучение, оценка персонала) учитываются в объёме рынка, но не в фокусе анализа возможностей",
+    "Оценки объёма различаются в ~5 раз из-за скоупа: Smart Ranking включает выручку hh.ru и платформ занятости, TAdviser считает только ПО и услуги внедрения"
+  ],
+  "segments": [
+    {
+      "id": "recruiting",
+      "name": "Подбор персонала (джоб-борды + рекрутмент)",
+      "description": "Крупнейший сегмент: hh.ru, Авито Работа, SuperJob, Работа.ру + ATS. Рост почти остановился в 2025 (+2,7%) — рынок стагнирует после бума 2023-2024.",
+      "size": {
+        "value": 57.6,
+        "unit": "млрд руб",
+        "period": "2025",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      }
+    },
+    {
+      "id": "hrm",
+      "name": "Комплексные HRM-решения",
+      "description": "Платформы управления персоналом.",
+      "size": {
+        "value": 9.66,
+        "unit": "млрд руб",
+        "period": "2025",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      }
+    },
+    {
+      "id": "alt-employment",
+      "name": "Альтернативная занятость",
+      "description": "E2E-платформы работы с самозанятыми и подработкой (Solar Staff, Авито Подработка). Быстрорастущий сегмент.",
+      "size": {
+        "value": 7.0,
+        "unit": "млрд руб (выручка платформ)",
+        "period": "2025",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      }
+    },
+    {
+      "id": "kedo",
+      "name": "КЭДО (кадровый электронный документооборот)",
+      "description": "Самый быстрорастущий сегмент (+40% в 2025): HRlink (контроль у hh), Directum и др.",
+      "size": {
+        "value": 5.3,
+        "unit": "млрд руб",
+        "period": "2025",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      }
+    },
+    {
+      "id": "assessment-learning",
+      "name": "Оценка и обучение сотрудников",
+      "description": "Оценка (1,9 млрд за 1П2025, +31%) и обучение (2,5 млрд за 1П2025, +11%).",
+      "size": {
+        "value": 4.4,
+        "unit": "млрд руб",
+        "period": "1 полугодие 2025",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/v-i-polugodii-2025-goda-rynok-hrtech-vyros-na-12-do-406-mlrd-rublej-odnako-tempy-rosta-ostayutsya/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "derived",
+        "formula": "оценка 1,9 + обучение 2,5 млрд руб за 1П2025 по данным Smart Ranking"
+      }
+    },
+    {
+      "id": "jobseeker-services",
+      "name": "Сервисы для соискателей (B2C)",
+      "description": "Автоотклики, AI-резюме, тренажёры собеседований, карьерные консультации (Careerspace, Эйч, Solvery, Quick Offer, HH Go). Отдельной рыночной оценки сегмента нет — фрагментированный хвост из десятков мелких сервисов."
+    }
+  ],
+  "market_size_rf": {
+    "estimates": [
+      {
+        "value": 99.3,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "весь HR-tech РФ: суммарная выручка топ-80 компаний, включая hh.ru",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/hrtech-rynok-v-rossii-vyros-na-38/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "high",
+        "method": "estimated"
+      },
+      {
+        "value": 94,
+        "unit": "млрд руб",
+        "period": "2025",
+        "scope": "весь HR-tech РФ по методике Smart Ranking; база 2024 пересчитана в 85,8 млрд (изменился состав рейтинга), поэтому ряд не непрерывен",
+        "source_name": "Smart Ranking",
+        "source_url": "https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/",
+        "retrieved_at": "2026-07-13",
+        "confidence": "high",
+        "method": "estimated"
+      },
+      {
+        "value": 21,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "узкий скоуп: HRM/HCM-системы, автоматизация подбора/оценки/развития, КЭДО, услуги внедрения — БЕЗ выручки джоб-бордов",
+        "source_name": "TAdviser",
+        "source_url": "https://www.tadviser.ru/index.php/Статья:Российский_рынок_HR-tech",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      },
+      {
+        "value": 22.5,
+        "unit": "млрд руб",
+        "period": "2023",
+        "scope": "суммарная выручка топ-40 игроков HR Tech по версии CNews, без hh.ru как джоб-борда",
+        "source_name": "CNews Analytics",
+        "source_url": "https://www.cnews.ru/reviews/rynok_hr_tech/articles/top-40_krupnejshih_igrokov_v_sfere",
+        "retrieved_at": "2026-07-13",
+        "confidence": "medium",
+        "method": "estimated"
+      }
+    ],
+    "range_note": "Вилка 21–99 млрд руб объясняется скоупом: Smart Ranking считает весь HR-tech с hh.ru и платформами занятости, TAdviser/CNews — только ПО и услуги. Для оценки ниш важнее сегменты: подбор ~57,6 млрд (стагнация +2,7%), КЭДО +40%, альтернативная занятость +36%."
+  },
+  "growth": [
+    {
+      "value": 38,
+      "unit": "% г/г",
+      "period": "2024",
+      "scope": "весь HR-tech РФ",
+      "source_name": "Smart Ranking",
+      "source_url": "https://smartranking.ru/ru/analytics/hrtech/hrtech-rynok-v-rossii-vyros-na-38/",
+      "retrieved_at": "2026-07-13",
+      "confidence": "high",
+      "method": "estimated"
+    },
+    {
+      "value": 9.3,
+      "unit": "% г/г",
+      "period": "2025",
+      "scope": "весь HR-tech РФ, сопоставимая база 85,8 млрд — рост резко замедлился",
+      "source_name": "Smart Ranking",
+      "source_url": "https://smartranking.ru/ru/analytics/hrtech/optimizaciya-avtomatizaciya-ekosistemy-kak-kompanii-na-rynke-hrtech-zavershili-2025-god/",
+      "retrieved_at": "2026-07-13",
+      "confidence": "high",
+      "method": "estimated"
+    },
+    {
+      "value": 9,
+      "unit": "% г/г",
+      "period": "Q1 2026",
+      "scope": "рост сдерживается стагнацией сегмента подбора персонала",
+      "source_name": "Smart Ranking",
+      "source_url": "https://smartranking.ru/ru/analytics/hrtech/ejcharteh-rynok-vyros-na-9-v-i-kvartale-rost-sderzhivaetsya-stagnaciej-podbora-personala/",
+      "retrieved_at": "2026-07-13",
+      "confidence": "high",
+      "method": "estimated"
+    },
+    {
+      "value": 34,
+      "unit": "% CAGR (прогноз)",
+      "period": "2025-2030",
+      "scope": "прогноз для сегмента HR-tech ПО (до 109 млрд руб к 2030)",
+      "source_name": "Strategy Partners",
+      "source_url": "https://strategy.ru/news/rossijskij-rynok-korporativnogo-po-budet-rasti-v-srednem-na-24-ezhegodno-do-2030-goda-i-prevysit-700-mlrd-rublej/",
+      "retrieved_at": "2026-07-13",
+      "confidence": "low",
+      "method": "estimated"
+    }
+  ],
+  "buying_power": [
+    {
+      "segment": "Соискатели (B2C)",
+      "typical_budget": "199–499 ₽/мес за автоотклики (HH Go), 299–999 ₽ за JobTurbo, 1 500–5 000 ₽ за консультацию/мок-интервью, 7 990–160 000 ₽ за карьерное сопровождение (Careerspace)",
+      "deal_cycle": "импульсная покупка, часы",
+      "ease_of_purchase": 5,
+      "evidence": [
+        { "note": "тарифы HH Go: PRO 499 ₽/мес", "source_url": "https://hhgo.ru/" },
+        { "note": "JobTurbo: 299 ₽/7 дней, 399 ₽/мес", "source_url": "https://jobturbo.ru/" },
+        { "note": "Careerspace: тарифы 7 990–160 000 ₽", "source_url": "https://careerspace.app/subscription" },
+        { "note": "Эйч: консультация 60 мин — 5 000 ₽", "source_url": "https://h.careers/deals/karernaya-konsultaciya-nikolay-shirinkin" }
+      ]
+    },
+    {
+      "segment": "Малый бизнес (эпизодический найм, без HR)",
+      "typical_budget": "публикация вакансии 2 800–6 000 ₽ (Москва), контакты 120–300 ₽/шт; найм одного сотрудника — 4 700–25 000 ₽; кейс кофеен: 78 400 ₽/мес",
+      "deal_cycle": "дни, решение принимает владелец",
+      "ease_of_purchase": 4,
+      "evidence": [
+        { "note": "тарифы hh.ru для работодателей (обзор, май 2026)", "source_url": "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley" },
+        { "note": "обзор hh.ru для работодателей с кейсами затрат", "source_url": "https://vc.ru/services/1608664-vsya-pravda-o-hhru-dlya-rabotodatelei-otzyvy-plyusy-i-minusy-obzor-eksperta" }
+      ]
+    },
+    {
+      "segment": "СМБ с постоянным наймом / рекрутинговые агентства",
+      "typical_budget": "ATS 4 000–8 250 ₽/мес за рекрутера (Talantix, Huntflow), база резюме hh 25 000–35 000 ₽/мес за регион, фриланс-рекрутеры от нескольких тысяч ₽ за задачу",
+      "deal_cycle": "недели",
+      "ease_of_purchase": 3,
+      "evidence": [
+        { "note": "обзор тарифов ATS-систем РФ 2026", "source_url": "https://prorecruitment.ru/blog/luchshie-ats-sistemy-rossiya-2026" },
+        { "note": "тарифы доступа к базе резюме hh", "source_url": "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley" }
+      ]
+    },
+    {
+      "segment": "Enterprise HR",
+      "typical_budget": "Skillaz от 1,5 млн ₽/год, Sever.AI от 50 000 ₽/мес (в составе Потока 95 700 ₽/год за рекрутера), кадровые агентства 10-25% годовой зарплаты кандидата",
+      "deal_cycle": "месяцы, тендеры и пилоты",
+      "ease_of_purchase": 2,
+      "evidence": [
+        { "note": "цены Skillaz и Потока в обзоре ATS", "source_url": "https://prorecruitment.ru/blog/luchshie-ats-sistemy-rossiya-2026" },
+        { "note": "цены Sever.AI", "source_url": "https://platforms.su/platform/15750" },
+        { "note": "стоимость услуг кадровых агентств", "source_url": "https://heaad.ru/blog/skolko-stoit-podbor-personala/" }
+      ]
+    }
+  ],
+  "events": [
+    { "date": "2024-09", "event": "МКПАО «Хэдхантер» вернулась к торгам на Мосбирже после редомициляции; buyback до 10 млрд руб", "source_url": "https://www.cnews.ru/news/top/2024-09-27_headhunter_vernulsya_na_birzhukompaniya" },
+    { "date": "2024-10", "event": "HeadHunter увеличил долю в КЭДО-сервисе HRlink с 9% до 60% (сделка оценена в 1–1,5 млрд руб)", "source_url": "https://www.forbes.ru/svoi-biznes/521951-headhunter-polucil-kontrol-v-hrlink-za-bolee-cem-1-mlrd-rublej" },
+    { "date": "2024-12", "event": "HeadHunter выплатил рекордный спецдивиденд ~40 млрд руб; после отсечки акции упали на ~25%", "source_url": "https://www.cnews.ru/news/top/2024-12-10_aktsionery_headhunter_poradovali" },
+    { "date": "2025-03", "event": "SuperJob запустил «аукционы», где работодатели торгуются за соискателей зарплатой", "source_url": "https://www.cnews.ru/news/top/2025-03-25_v_rossii_poyavilsya_internet-auktsion" },
+    { "date": "2025-10", "event": "hh.ru анонсировал ИИ-помощника для найма (генерация вакансий, сортировка откликов); масштабирование на всех клиентов с начала 2026", "source_url": "https://www.cnews.ru/news/line/2025-10-03_headhunter_anonsiroval_zapusk" },
+    { "date": "2025-12", "event": "hh.ru закрыл публичный API резюме (15.12.2025) — сервисы автооткликов умерли или ушли в серую зону эмуляции браузера", "source_url": "https://habr.com/ru/articles/1004214/" },
+    { "date": "2026-03", "event": "Итоги 2025 HeadHunter: выручка 41,2 млрд руб (+4%), чистая прибыль 18,0 млрд (−24,7%); рекрутинг стагнирует (+0,9%), сегмент HRTech удвоился до 2,53 млрд", "source_url": "https://www.kommersant.ru/doc/8481423" },
+    { "date": "2026-04", "event": "SuperJob запустил маркетплейс ИИ-агентов — джоб-борд для цифровых исполнителей", "source_url": "https://e-pepper.ru/blogs/news/superjob-vyvodit-na-rynok-novyy-marketpleys" },
+    { "date": "2026-05", "event": "Совет директоров HeadHunter одобрил buyback до 15 млрд руб на фоне падения выручки Q1 2026 на 1,5%", "source_url": "https://www.kommersant.ru/doc/8656247" },
+    { "date": "2026-05", "event": "Авито Работа запустила сервис мониторинга рынка труда в реальном времени для работодателей", "source_url": "https://www.vedomosti.ru/ideas/technologies/articles/2026/05/27/1199342-rinka-truda" }
+  ],
+  "sources": [
+    "https://smartranking.ru/ru/analytics/hrtech/",
+    "https://www.tadviser.ru/index.php/Статья:Российский_рынок_HR-tech",
+    "https://www.cnews.ru/projects/2025/Rynok_HR_Tech_2025",
+    "https://hh.ru/article/rynok-truda-v-2025-godu-pochemu-stalo-trudnee-iskat-rabotu"
+  ],
+  "updated_at": "2026-07-13"
+}

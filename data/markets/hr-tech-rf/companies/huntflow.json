@@ -1,0 +1,38 @@
+{
+  "id": "huntflow",
+  "name": "Хантфлоу (Huntflow)",
+  "legal_name": "ООО «Хантфлоу»",
+  "inn": "9715317940",
+  "website": "https://huntflow.ru",
+  "founded": 2015,
+  "segment": "ATS (лидер среди независимых)",
+  "description": "Стандарт де-факто среди российских ATS. На самоокупаемости с 2017, владельцы — два основателя. Выручка ~900 млн ₽ (2025), прибыльна.",
+  "revenue": [
+    { "value": 359.2, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 422.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 618.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ (первичная; в отчёте за 2024 сравнительная база пересмотрена до 333,5 млн — вероятно, сменилась политика признания подписочной выручки)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 766.3, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС; сверено с audit-it", "source_url": "https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 897.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 130.2, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 102.9, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 105.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ (первичная; пересмотрена в отчёте 2024 до −179,2 млн)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 226.4, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 222.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10712268", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 117, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 132, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Профессиональный", "price": "6 250 ₽/мес за рекрутера (при оплате за год)", "source_url": "https://huntflow.media/huntflow-cena/", "retrieved_at": "2026-07-13" },
+    { "plan": "Максимальный", "price": "8 250 ₽/мес за рекрутера", "source_url": "https://huntflow.media/huntflow-cena/", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "С апреля 2017 — на самоокупаемости, без внешних раундов (самораскрытие основателей)", "date": "2017", "source_url": "https://huntflow.ru/insight/article/ne-boites-vperedi-klassno" }
+  ],
+  "data_gaps": ["Число клиентов не раскрывается", "Численность за 2021-2023"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10712268"],
+  "updated_at": "2026-07-13"
+}

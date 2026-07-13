@@ -1,0 +1,62 @@
+{
+  "id": "hh",
+  "name": "HeadHunter (hh.ru)",
+  "legal_name": "МКПАО «Хэдхантер» (MOEX: HEAD); основное юрлицо — ООО «Хэдхантер»",
+  "inn": "7718620740",
+  "website": "https://hh.ru",
+  "founded": 2000,
+  "segment": "джоб-борд (лидер рынка)",
+  "description": "Крупнейший джоб-борд России. Публичная компания. Группа включает Зарплату.ру, Skillaz, HRlink, Talantix. Рекрутинговый сегмент стагнирует (+0,9% в 2025), направление HRTech удвоилось.",
+  "revenue": [
+    { "value": 14801, "unit": "млн руб", "period": "2021", "basis": "РСБУ (ООО «Хэдхантер»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5205343", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 16332, "unit": "млн руб", "period": "2022", "basis": "РСБУ (ООО «Хэдхантер»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5205343", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 29449, "unit": "млн руб", "period": "2023", "basis": "МСФО (группа)", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 39619, "unit": "млн руб", "period": "2024", "basis": "МСФО (группа)", "source_name": "Пресс-релиз МКПАО «Хэдхантер», 05.03.2025", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 41203, "unit": "млн руб", "period": "2025", "basis": "МСФО (группа)", "source_name": "Пресс-релиз МКПАО «Хэдхантер», 06.03.2026", "source_url": "https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 7090, "unit": "млн руб", "period": "2021", "basis": "РСБУ (ООО «Хэдхантер»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5205343", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 6369, "unit": "млн руб", "period": "2022", "basis": "РСБУ (ООО «Хэдхантер»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5205343", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 12394, "unit": "млн руб", "period": "2023", "basis": "МСФО (группа)", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 23882, "unit": "млн руб", "period": "2024", "basis": "МСФО (группа)", "source_name": "Пресс-релиз МКПАО «Хэдхантер», 05.03.2025", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 17990, "unit": "млн руб", "period": "2025", "basis": "МСФО (группа), −24,7% г/г", "source_name": "Коммерсантъ по отчётности группы", "source_url": "https://www.kommersant.ru/doc/8481423", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [],
+  "disclosed_metrics": [
+    { "metric": "Платящие клиенты группы", "value": 623176, "unit": "клиентов", "period": "2024", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "metric": "Платящие клиенты группы (−15% г/г)", "value": 529838, "unit": "клиентов", "period": "2025", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "metric": "MAU платформы (+19% г/г)", "value": 28.9, "unit": "млн пользователей", "period": "2024", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "metric": "Скорректированная EBITDA группы (58,6% выручки)", "value": 23229, "unit": "млн руб", "period": "2024", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "metric": "Выручка HR-tech направления (+59% г/г)", "value": 1900, "unit": "млн руб", "period": "2024", "source_name": "Пресс-релиз МКПАО «Хэдхантер»", "source_url": "https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Публикация вакансии «Стандарт», Москва, 30 дней", "price": "2 800–6 000 ₽ (массовые/ИТ)", "source_url": "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley", "retrieved_at": "2026-07-13" },
+    { "plan": "Публикация «Премиум», Москва", "price": "6 800–10 800 ₽", "source_url": "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley", "retrieved_at": "2026-07-13" },
+    { "plan": "Доступ к базе резюме, 1 регион", "price": "25 000–35 000 ₽/мес; контакты 120–300 ₽/шт", "source_url": "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley", "retrieved_at": "2026-07-13" }
+  ],
+  "review_rating": {
+    "rating": 3.1,
+    "scale": "из 5",
+    "count_note": "604 отзыва, рекомендуют 52%",
+    "source_url": "https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/",
+    "retrieved_at": "2026-07-13"
+  },
+  "top_complaints": [
+    { "complaint": "Отклики без ответа, «стал на 100% бесполезен» для поиска", "source_url": "https://otzovik.com/review_18354699.html" },
+    { "complaint": "Мошеннические вакансии и МЛМ в выдаче", "source_url": "https://otzovik.com/review_18218058.html" },
+    { "complaint": "Платное продвижение резюме не даёт результата", "source_url": "https://setka.ru/posts/0197186e-fcda-44f5-b557-3b09e43d241b" },
+    { "complaint": "Для малого бизнеса дорого", "source_url": "https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/" }
+  ],
+  "funding": [
+    { "event": "Возврат к торгам на Мосбирже после редомициляции, buyback до 10 млрд руб", "date": "2024-09", "source_url": "https://www.cnews.ru/news/top/2024-09-27_headhunter_vernulsya_na_birzhukompaniya" },
+    { "event": "Спецдивиденд ~40 млрд руб; дивидендный гэп −25%", "date": "2024-12", "source_url": "https://www.cnews.ru/news/top/2024-12-10_aktsionery_headhunter_poradovali" },
+    { "event": "Buyback до 15 млрд руб на фоне падения выручки Q1 2026", "date": "2026-05", "source_url": "https://www.kommersant.ru/doc/8656247" }
+  ],
+  "data_gaps": [
+    "Среднесписочная численность ООО «Хэдхантер» — «нет сведений» в открытых данных ФНС",
+    "Абсолютное число активных вакансий/резюме — компания раскрывает только динамику",
+    "Открытые вакансии компании через api.hh.ru — API закрыт с 15.12.2025 (проверено: 403)"
+  ],
+  "sources": ["https://investor.hh.ru", "https://bo.nalog.gov.ru/organizations-card/5205343"],
+  "updated_at": "2026-07-13"
+}

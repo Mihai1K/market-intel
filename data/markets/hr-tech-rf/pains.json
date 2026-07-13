@@ -1,0 +1,701 @@
+{
+  "market": "hr-tech-rf",
+  "updated_at": "2026-07-13",
+  "pains": [
+    {
+      "id": "no-reply-to-applications",
+      "statement": "Отклики на вакансии массово остаются без ответа: по эксперименту с 500 откликами 261 не был просмотрен или остался без ответа, живой контакт с HR — редкость",
+      "role": "соискатель",
+      "mentions_found": 6,
+      "links": [
+        "https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu",
+        "https://habr.com/ru/articles/927698/",
+        "https://otzovik.com/review_18354699.html",
+        "https://quick-offer.ru/news/unanswered-click",
+        "https://hh.ru/blog/pochemu-rabotodatel-ne-otvechaet-na-otklik"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Соискатели платят карьерным консультантам (Careerspace — пакеты до 60 000 ₽ по отзыву https://otzovik.com/review_17847718.html) и за платные услуги hh.ru",
+      "why_unsolved": "Рекрутеры физически не обрабатывают 300-500 откликов на вакансию; hh стимулирует работодателей «Индексом вежливости», но санкций нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Отклики теперь почти не смотрят", "source_url": "https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu" },
+        { "text": "Живых HR почти нет", "source_url": "https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu" },
+        { "text": "HH.ru стал на 100% бесполезен", "source_url": "https://otzovik.com/review_18354699.html" }
+      ]
+    },
+    {
+      "id": "low-conversion-response-to-interview",
+      "statement": "Конверсия из отклика в собеседование упала до 1-2%: чтобы получить интервью, нужно отправить сотни откликов",
+      "role": "соискатель",
+      "mentions_found": 4,
+      "links": [
+        "https://habr.com/ru/articles/927698/",
+        "https://pikabu.ru/story/kak_ya_nedavno_iskal_rabotu_v_it_postrazdumie_13668136",
+        "https://habr.com/ru/articles/993578/",
+        "https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Соискатели платят за автоотклики и продвижение резюме (podustal, Quick Offer: https://quick-offer.ru/info/faq)",
+      "why_unsolved": "Дисбаланс: массовые автоотклики соискателей и автофильтры работодателей взаимно обнуляют друг друга",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 2,
+      "quotes": [
+        { "text": "На hh.ru конверсия из отклика в собес в 1% давно стала нормой", "source_url": "https://habr.com/ru/articles/927698/" }
+      ]
+    },
+    {
+      "id": "employer-ghosting-after-interview",
+      "statement": "Гостинг работодателей: HR пропадает после собеседований и тестовых заданий без обратной связи",
+      "role": "соискатель",
+      "mentions_found": 5,
+      "links": [
+        "https://hh.ru/article/32897",
+        "https://uprav.ru/blog/gosting-posle-sobesedovaniya/",
+        "https://pampadu.ru/blog/9203-chto-takoe-gosting-v-rekrutinge-i-kak-s-nim-borotsya/",
+        "https://www.m24.ru/articles/obshchestvo/22052026/903121"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Напрямую никто; боль частично снимают карьерные консультанты",
+      "why_unsolved": "Отказ с формулировкой несёт юридические риски для работодателя, молчание — бесплатно и безнаказанно",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["telegram"],
+      "difficulty": 4,
+      "quotes": [
+        { "text": "Гостинг может быть оправдан, когда тебе не обещали вернуться с обратной связью", "source_url": "https://hh.ru/article/32897" }
+      ]
+    },
+    {
+      "id": "ghost-vacancies",
+      "statement": "Вакансии-призраки: компании публикуют объявления без реального намерения нанимать (мониторинг зарплат, имитация роста, кадровый резерв) — до 10% вакансий на рынке",
+      "role": "соискатель",
+      "mentions_found": 6,
+      "links": [
+        "https://www.banki.ru/news/daytheme/?id=11023520",
+        "https://habr.com/ru/companies/beeline_cloud/articles/952526/",
+        "https://runews24.ru/society/11/06/2026/prizrachnyie-vakansii-dobivayut-ryinok-truda-pochemu-kompanii-publikuyut-obyavleniya-bez-realnogo-najma",
+        "https://prosto.rabota.ru/post/ghost-jobs/",
+        "https://setka.ru/posts/0197a059-adb2-42b2-8d38-308f88866432"
+      ],
+      "search_period": "2022-2026",
+      "who_pays_now": "Никто не платит за решение; соискатели тратят время впустую",
+      "why_unsolved": "Джоб-борды зарабатывают на публикациях и не заинтересованы удалять «висящие» вакансии",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "extension"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Откликаюсь на вакансии, но в ответ — тишина", "source_url": "https://www.banki.ru/news/daytheme/?id=11023520" },
+        { "text": "Замечали, что на HH масса фейковых вакансий?", "source_url": "https://setka.ru/posts/0197a059-adb2-42b2-8d38-308f88866432" }
+      ]
+    },
+    {
+      "id": "scam-and-mlm-vacancies",
+      "statement": "Мошеннические вакансии и сетевой маркетинг: под видом работы выманивают деньги, уводят в Telegram-боты, врут про зарплату",
+      "role": "соискатель",
+      "mentions_found": 5,
+      "links": [
+        "https://otvet.mail.ru/question/242218457",
+        "https://otzovik.com/review_18218058.html",
+        "https://hh.ru/article/rabotodatyeli-moshyenniki-v-tyelyegram-botakh",
+        "https://u-mama.ru/forum/women/job/1004050/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "hh.ru сам инвестирует в верификацию работодателей (значок «проверено»), соискатели не платят",
+      "why_unsolved": "Мошенники легально покупают доступ к базе резюме и постоянно меняют схемы",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Сервис сдавший позиции и ставший меккой для мошенников", "source_url": "https://otzovik.com/review_18218058.html" }
+      ]
+    },
+    {
+      "id": "spam-calls-after-resume-posting",
+      "statement": "После публикации резюме соискателя заваливают спам-звонками от страховых, сетевого маркетинга и нерелевантными предложениями",
+      "role": "соискатель",
+      "mentions_found": 3,
+      "links": [
+        "https://otvet.mail.ru/question/232842661",
+        "https://hh.ru/article/27112",
+        "https://otzovik.com/review_18354699.html"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Никто; единственная защита — скрыть резюме и потерять входящие предложения",
+      "why_unsolved": "Контакты в резюме доступны всем, кто оплатил доступ к базе; модерация не отличает МЛМ от найма",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 4,
+      "quotes": [
+        { "text": "Постоянно звонят, подскажите как скрыть резюме на хх.ру?", "source_url": "https://otvet.mail.ru/question/232842661" }
+      ]
+    },
+    {
+      "id": "hidden-salaries",
+      "statement": "Скрытые зарплаты: 42% россиян принципиально не откликаются на вакансии «по договорённости», но работодатели продолжают их скрывать",
+      "role": "соискатель",
+      "mentions_found": 4,
+      "links": [
+        "https://huntflow.media/skryvat-zarplatu-v-vakansii/",
+        "https://ria.ru/20260424/zarplata-2088663315.html",
+        "https://hh.ru/article/2071"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Никто; частично закрывают зарплатные калькуляторы hh/Хабр Карьеры (бесплатно)",
+      "why_unsolved": "60% рекрутеров определяют зарплату «по итогам собеседования» и боятся раскрыть вилки текущим сотрудникам",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "extension"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "resume-fails-auto-filters",
+      "statement": "Резюме отсеивается ИИ/автофильтрами до того, как его увидит человек; автоотказы приходят за 1-2 минуты",
+      "role": "соискатель",
+      "mentions_found": 5,
+      "links": [
+        "https://vc.ru/life/2794664-hh-ru-i-ii-skrining-kak-oboyti-avtomaticheskie-otkazy",
+        "https://habr.com/ru/articles/945766/",
+        "https://habr.com/ru/news/1009354/",
+        "https://habr.com/ru/articles/841744/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Соискатели платят за ATS-оптимизацию резюме и аудит (podustal: https://podustal.ru/blog/optimizaciya-rezyume-pod-ats-sistemy, эксперты hh)",
+      "why_unsolved": "Скрининговые алгоритмы непрозрачны; известен кейс, когда рецепт пельменей в резюме прошёл ИИ-фильтр",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 2,
+      "quotes": [
+        { "text": "Разработчик добавил рецепт пельменей в резюме для проверки ИИ-фильтра", "source_url": "https://habr.com/ru/news/1009354/" }
+      ]
+    },
+    {
+      "id": "too-many-interview-stages",
+      "statement": "Слишком долгий и многоэтапный найм: встречаются до 12 этапов собеседований, кандидаты не видят конечной точки",
+      "role": "соискатель",
+      "mentions_found": 4,
+      "links": [
+        "https://habr.com/ru/news/570864/",
+        "https://www.m24.ru/articles/obshchestvo/22052026/903121",
+        "https://www.kellyservices.ru/blog/2021/05/chto-razdrazhaiet-rossiian-pri-poiskie-raboty-riezultaty-issliedovaniia"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Никто со стороны соискателя",
+      "why_unsolved": "Компании перестраховываются при найме; ответственность за решение размыта между этапами",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "mass-applying-blocked",
+      "statement": "Массовые отклики стали труднодоступны: hh.ru закрыл публичный API для соискателей 15.12.2025, автоотклик-боты умерли, ручной лимит — 200 откликов/день",
+      "role": "соискатель",
+      "mentions_found": 5,
+      "links": [
+        "https://habr.com/ru/articles/976476/",
+        "https://habr.com/ru/articles/1004214/",
+        "https://setka.ru/posts/019b1fa3-f9f1-7632-931b-15152090c400",
+        "https://podustal.ru/blog/avtootkliki-posle-zakrytiya-api-hh"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Соискатели платили сервисам автооткликов (jojob, Quick Offer, podustal); часть сервисов перешла на браузерную эмуляцию — это нарушение правил hh",
+      "why_unsolved": "hh.ru борется с ботами в интересах работодателей; легального массового канала больше нет. Решения в обход правил hh мы не рассматриваем",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        { "text": "Массовые автоотклики умерли окончательно", "source_url": "https://podustal.ru/blog/avtootkliki-posle-zakrytiya-api-hh" }
+      ]
+    },
+    {
+      "id": "paid-promotion-useless",
+      "statement": "Платное продвижение резюме на hh не даёт результата: «поднятие» действует пару часов, просмотров не прибавляется",
+      "role": "соискатель",
+      "mentions_found": 4,
+      "links": [
+        "https://setka.ru/posts/0197186e-fcda-44f5-b557-3b09e43d241b",
+        "https://otzovik.com/review_18354699.html",
+        "https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Соискатели платят hh.ru за продвижение/выделение резюме (https://hh.ru/services) — и жалуются, что это не работает",
+      "why_unsolved": "Продвижение не чинит первопричину — перегретую конкуренцию и автофильтры",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        { "text": "похоже не работает ни первое, ни второе", "source_url": "https://setka.ru/posts/0197186e-fcda-44f5-b557-3b09e43d241b" },
+        { "text": "Найти работу. Миссия НЕ выполнима", "source_url": "https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii" }
+      ]
+    },
+    {
+      "id": "unpaid-test-assignments",
+      "statement": "Бесплатные тестовые задания: многочасовая работа без оплаты и без обратной связи, подозрения в использовании результатов",
+      "role": "соискатель",
+      "mentions_found": 5,
+      "links": [
+        "https://vc.ru/life/1146251-testovoe-zadanie-ne-oplachivaetsya-kak-perestat-raspugivat-soiskatelei-i-sostavit-testovoe-kotoroe-budut-delat",
+        "https://habr.com/ru/companies/agima/articles/765556/",
+        "https://finance.mail.ru/article/kak-soiskatelyu-otlichit-testovoe-zadanie-ot-raboty-za-spasibo-69212239/",
+        "https://vc.ru/hr/75579-testovoe-zadanie-pochemu-net"
+      ],
+      "search_period": "2019-2026",
+      "who_pays_now": "Никто; отдельные компании платят за тестовые сами, но это редкость",
+      "why_unsolved": "Доказать «работу за спасибо» юридически почти невозможно (ст. 64 ТК не работает на практике)",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "age-discrimination-45plus",
+      "statement": "Эйджизм: 67% работников старше 45 сталкивались с возрастными барьерами; кандидаты старшего возраста получают заметно меньше приглашений при равных компетенциях",
+      "role": "соискатель",
+      "mentions_found": 5,
+      "links": [
+        "https://www.superjob.ru/research/articles/115235/rossiyan/",
+        "https://sky.pro/wiki/profession/pochemu-posle-45-ne-berut-na-rabotu-6-prichin-i-kak-ih-preodolet/",
+        "https://iz.ru/1632333/sergei-gurianov/predpensionnyi-fond-sokhraniaetsia-li-eidzhizm-na-rynke-truda",
+        "https://quick-offer.ru/news/unanswered-click"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Никто; карьерные консультанты продают «маскировку возраста» в резюме",
+      "why_unsolved": "56% компаний признают, что неофициально учитывают возраст; формальный запрет графы «возраст» проблему не решил",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "juniors-cant-enter-it",
+      "statement": "Джуны в IT не могут войти в профессию: вакансий стало на треть меньше, сотни откликов в никуда, на одну позицию до 2000+ откликов",
+      "role": "соискатель",
+      "mentions_found": 6,
+      "links": [
+        "https://habr.com/ru/articles/1054450/",
+        "https://devby.io/blogs/posts/this-is-lie",
+        "https://proglib.io/p/dzhuny-game-over-ili-novyy-uroven-slozhnosti-2025-04-15",
+        "https://habr.com/ru/articles/993578/",
+        "https://habr.com/ru/companies/diasoft_company/articles/1012420/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Джуны платят курсам за «трудоустройство с гарантией» и менторам; конкретные чеки в источниках не подтверждены",
+      "why_unsolved": "Курсы продолжают выпускать сотни новичков, при этом 64% работодателей жалуются на нехватку именно опытных специалистов",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "months-long-job-search",
+      "statement": "Поиск работы растягивается на месяцы и полгода даже у квалифицированных специалистов; соискатели говорят о «гибели рынка труда»",
+      "role": "соискатель",
+      "mentions_found": 3,
+      "links": [
+        "https://eanews.ru/rossiya/20260128163013/rossiyane-mesyatsami-ne-mogut-nayti-rabotu-i-govoryat-o-gibeli-rynka-truda",
+        "https://www.m24.ru/articles/obshchestvo/22052026/903121",
+        "https://habr.com/ru/articles/1026380/"
+      ],
+      "search_period": "2026",
+      "who_pays_now": "Соискатели платят карьерным сервисам (Careerspace — десятки тысяч рублей, см. https://otzovik.com/review_17847718.html)",
+      "why_unsolved": "Совпали охлаждение рынка, ИИ-скрининг и рост числа откликов на вакансию",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Меня послала ментор после того как я начала задавать конкретные вопросы", "source_url": "https://otzovik.com/review_16752318.html" }
+      ]
+    },
+    {
+      "id": "irrelevant-recommendations",
+      "statement": "Нерелевантная выдача и рекомендации: ИИ-подбор hh предлагает специалистам вакансии грузчика и курьера, фильтры не отсекают лишнее",
+      "role": "соискатель",
+      "mentions_found": 3,
+      "links": [
+        "https://otzovik.com/review_18354699.html",
+        "https://pntr.io/2001-otzivi-na-prilozheniya-hh-ru-v-storah-kak-kompaniya-headhunter-stala",
+        "https://play.google.com/store/apps/details?id=ru.hh.android&hl=en_IN"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Никто",
+      "why_unsolved": "Алгоритм оптимизирован под массовые вакансии, где платят работодатели",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "irrelevant-responses-flood",
+      "statement": "«Цунами» нерелевантных откликов: 250-500 откликов на вакансию, до 80-88% резюме сразу в корзину; ИИ-оптимизированные резюме усилили шум",
+      "role": "рекрутер",
+      "mentions_found": 5,
+      "links": [
+        "https://naimee.ai/hrzavtra/avtomatizatsiya-otbora-rezyume",
+        "https://potok.io/blog/hr-howto/nerelevantnye-otkliki/",
+        "https://devby.io/news/rezume-mozhno-vykinut-v-musorku-rekrutery-ih-bolshe-ne-chitaut",
+        "https://vc.ru/hr/2872781-avtomatizatsiya-rekrutinga-sokraschenie-vremeni-obrabotki-rezyume"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Компании платят за ИИ-скрининг (Naimee AI, Поток Рекрутмент + Just AI: https://corp.cnews.ru/news/line/2026-02-27_just_ai_i_potok_rekrutment)",
+      "why_unsolved": "83% кандидатов оптимизируют резюме через ChatGPT — ключевые слова перестали быть сигналом",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "manual-screening-time",
+      "statement": "Ручной скрининг съедает недели: обработка 500 резюме вручную занимает 25-40 часов, лучшие кандидаты уходят за время разбора",
+      "role": "рекрутер",
+      "mentions_found": 3,
+      "links": [
+        "https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga",
+        "https://vc.ru/hr/2872781-avtomatizatsiya-rekrutinga-sokraschenie-vremeni-obrabotki-rezyume",
+        "https://naimee.ai/hrzavtra/avtomatizatsiya-otbora-rezyume"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Компании платят ATS и ИИ-сервисам (Хантфлоу, Поток, Garmony AI, Naimee)",
+      "why_unsolved": "Системно применяют AI только ~5% компаний; у остальных нет бюджета и доверия к ИИ",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Обработка 500 резюме вручную занимает 33 часа", "source_url": "https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga" }
+      ]
+    },
+    {
+      "id": "hh-resume-db-expensive",
+      "statement": "Дорогой доступ к базе резюме hh: подписка от 25 000 ₽/мес на регион, каждый открытый контакт — 300 ₽, поштучная модель быстро раздувает счёт",
+      "role": "рекрутер",
+      "mentions_found": 4,
+      "links": [
+        "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley",
+        "https://hh.ru/price-list",
+        "https://potok.io/blog/hr-howto/new_tariffs_hh/",
+        "https://vc.ru/services/1743493-razmeshenie-vakansii-na-hhru-rukovodstvo-po-vyboru-novogo-tarifa-dlya-rabotodatelei"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Работодатели платят hh.ru; гайды по экономии на тарифах — отдельный жанр контента (potok.io)",
+      "why_unsolved": "hh — квазимонополия: крупнейшая база резюме в РФ, альтернативы слабее",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "candidate-no-show",
+      "statement": "Кандидаты не приходят на собеседования: пропускается каждое пятое интервью, по оценкам рекрутеров — до 30-40% встреч",
+      "role": "рекрутер",
+      "mentions_found": 5,
+      "links": [
+        "https://hh.ru/article/506100",
+        "https://pro.rabota.ru/no-show",
+        "https://konkurent.ru/article/75842",
+        "https://hrtime.ru/material/pochemu-kandidaty-ne-prikhodiat-na-sobesedovaniia-oshibki-rabotodateley-139335/"
+      ],
+      "search_period": "2015-2026",
+      "who_pays_now": "Компании платят колл-центрам «доведения до собеседования» (https://novacontact.ru/blog/kak-dovesti-do-sobesedovania)",
+      "why_unsolved": "21% не пришедших считают, что предупреждать не нужно — «рекрутеры тоже пропадают»; зеркальный гостинг",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["telegram", "whatsapp"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "candidate-ghosting",
+      "statement": "Гостинг кандидатов на всех этапах: соискатели исчезают после оффера и даже не выходят в первый день; каждый третий работодатель сталкивался",
+      "role": "рекрутер",
+      "mentions_found": 4,
+      "links": [
+        "https://hh.ru/article/25057",
+        "https://motivity.ru/blog/gosting-kandidatov-5-skriptov-chtoby-ponyat-chto-on-ne-vyjdet-eshhe-na-etape-sobesedovaniya/",
+        "https://spectrumdata.ru/blog/proverka-soiskatelya/gosting-na-rabote-pochemu-kandidaty-i-sotrudniki-ischezayut-bez-obyasneniya-prichin/",
+        "https://pampadu.ru/blog/9203-chto-takoe-gosting-v-rekrutinge-i-kak-s-nim-borotsya/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Компании платят за скрипты оценки риска и сервисы проверки кандидатов (SpectrumData)",
+      "why_unsolved": "Рынок кандидата в массовых профессиях: у соискателя несколько офферов одновременно",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["telegram", "whatsapp"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "candidates-in-excel",
+      "statement": "Кандидатов ведут в Excel: 42% компаний до сих пор не имеют ATS, история общения с кандидатами теряется",
+      "role": "рекрутер",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga",
+        "https://kontur.ru/lp/hr-funnel/blog/55404-skrining_resume"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Кто дозрел — платит за ATS (Хантфлоу, Поток, Контур); малый бизнес остаётся в Excel",
+      "why_unsolved": "ATS-подписки рассчитаны на постоянный поток вакансий, у малого бизнеса найм эпизодический",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "42% компаний до сих пор работают в Excel", "source_url": "https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga" }
+      ]
+    },
+    {
+      "id": "hh-too-expensive-for-small-business",
+      "statement": "Для малого бизнеса hh.ru дорог: найм одного сотрудника обходится в 4 700-25 000 ₽ только на публикации и контакты; кейс сети кофеен — счёт 78 400 ₽ за месяц",
+      "role": "работодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://prorecruitment.ru/blog/tarify-hh-ru-dlya-rabotodateley",
+        "https://vc.ru/services/1608664-vsya-pravda-o-hhru-dlya-rabotodatelei-otzyvy-plyusy-i-minusy-obzor-eksperta",
+        "https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Малый бизнес платит hh.ru поштучно; часть уходит на Авито Работу как более дешёвый канал (https://ura.news/news/1053081471)",
+      "why_unsolved": "Поштучная тарификация hh не адаптирована под эпизодический найм; альтернативных баз сопоставимого размера нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        { "text": "Для мелкого бизнеса дороговато", "source_url": "https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/" }
+      ]
+    },
+    {
+      "id": "cant-write-job-descriptions",
+      "statement": "Малый бизнес не умеет писать вакансии: шаблоны, «дружный коллектив», расплывчатые требования — в итоге ноль релевантных откликов",
+      "role": "работодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://kontur.ru/articles/5062",
+        "https://zine.tomoru.ru/errors-vacancies",
+        "https://thehrd.ru/articles/kak-sostavit-tekst-vakansii-chtoby-na-nee-nikto-ne-otkliknulsja/",
+        "https://huntflow.media/kak-pravilno-napisat-vakansiyu/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Платят фрилансерам-HR на hrtime.ru и агентствам; массово — никому (пишут сами по шаблонам)",
+      "why_unsolved": "У бизнеса без HR нет компетенции и обратной связи, почему вакансия не работает",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram"],
+      "difficulty": 1,
+      "quotes": []
+    },
+    {
+      "id": "recruiting-agency-too-expensive",
+      "statement": "Кадровое агентство недоступно малому бизнесу: 10-25% годовой зарплаты кандидата, т.е. ~288 000 ₽ за менеджера с зарплатой 120 000 ₽",
+      "role": "работодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://heaad.ru/blog/skolko-stoit-podbor-personala/",
+        "https://komkad.ru/blog/skolko-stoit-podbor-personala/",
+        "https://novacontact.ru/blog/stoimost-podbora-personala",
+        "https://hrtime.ru/contents/stoimost-podbora-personala-pochemu-takie-tseny/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Средний и крупный бизнес платит агентствам 10-25% годового дохода кандидата; малый бизнес — не может",
+      "why_unsolved": "Экономика агентства не сходится на низких зарплатах и разовых заказах",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "long-time-to-fill",
+      "statement": "Вакансии закрываются месяцами: половина компаний ищет специалиста 1-3 месяца, по массовым и рабочим позициям бизнес не находит людей вообще",
+      "role": "работодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://antaltalent.ru/en/news/methods-lengths-job-search-2025-q3/",
+        "https://investfuture.ru/articles/nikogo-net-pochemu-biznes-mesyatsami-ne-mozhet-nayti-sotrudnikov-dazhe-na-prostye-vakansii",
+        "https://bgstaff.ru/news/Skorost-zakrytiya-vakansii-kak-bystro-najti-kadry-i-spat-spokojno/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Работодатели платят за дополнительные публикации, продвижение вакансий и агентствам",
+      "why_unsolved": "Структурный кадровый дефицит (2,4 млн специалистов) + демография — деньгами полностью не решается",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "owner-does-hiring-himself",
+      "statement": "Собственник малого бизнеса нанимает сам: размещение объявлений, разбор резюме и десятки звонков съедают десятки часов в месяц в ущерб операционке",
+      "role": "работодатель",
+      "mentions_found": 4,
+      "links": [
+        "https://vc.ru/hr/1911148-kak-samostoyatelno-nanimat-sotrudnikov-dlya-malogo-biznesa",
+        "https://spark.ru/startup/bizpeople-family/blog/272370/kak-iskat-sotrudnikov-bez-hr-rabochie-soveti-dlya-predprinimatelya",
+        "https://www.sostav.ru/blogs/282131/85331",
+        "https://allo.tochka.com/find-employee"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Часть отдаёт на HR-аутсорс/фриланс-рекрутерам (hrtime.ru — от нескольких тысяч ₽ за задачу)",
+      "why_unsolved": "Штатный HR не окупается при 5-10 сотрудниках, а агентства слишком дороги",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "telegram", "whatsapp"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "labor-shortage-small-business",
+      "statement": "Кадровый голод в малом бизнесе: на простые вакансии нет откликов, бизнес вынужден нанимать «неидеальных» кандидатов с пробелами в стаже",
+      "role": "работодатель",
+      "mentions_found": 3,
+      "links": [
+        "https://adesk.ru/blog/kadrovyi-golod-kak-malomu-biznesu-s-nim-borotsia/",
+        "https://investfuture.ru/articles/nikogo-net-pochemu-biznes-mesyatsami-ne-mozhet-nayti-sotrudnikov-dazhe-na-prostye-vakansii",
+        "https://finance.mail.ru/article/malyj-biznes-stal-chashe-nanimat-neidealnyh-sotrudnikov-69204649/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Работодатели повышают зарплаты и платят джоб-бордам за охват",
+      "why_unsolved": "Демографическая яма и конкуренция за рабочие руки с курьерскими сервисами и оборонкой",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    }
+  ],
+  "surveys": [
+    {
+      "finding": "Только 18,3% откликов получают хоть какую-то обратную связь от работодателя",
+      "source_name": "hh.ru (пересказ Quick Offer — первоисточник напрямую не проверялся)",
+      "source_url": "https://quick-offer.ru/news/unanswered-click",
+      "period": "2025"
+    },
+    {
+      "finding": "58% HR-специалистов признались, что отвечают менее чем на половину откликов",
+      "source_name": "Зарплата.ру (пересказ Quick Offer)",
+      "source_url": "https://quick-offer.ru/news/unanswered-click",
+      "period": "2024"
+    },
+    {
+      "finding": "Эксперимент: из 500 откликов на hh 261 остался без просмотра/ответа, 134 автоотказа, живой интерес — в 12 случаях (3,5%)",
+      "source_name": "Личный эксперимент, vc.ru",
+      "source_url": "https://vc.ru/story/2261791-rabota-na-hh-ru-v-2025-godu",
+      "period": "2025"
+    },
+    {
+      "finding": "42% россиян принципиально не откликаются на вакансии с зарплатой «по договорённости»",
+      "source_name": "SuperJob (пересказ Huntflow Media)",
+      "source_url": "https://huntflow.media/skryvat-zarplatu-v-vakansii/",
+      "period": "2024-2025"
+    },
+    {
+      "finding": "60% рекрутеров не указывают зарплату, потому что «сумма определяется по итогам собеседования»",
+      "source_name": "Опрос, РИА Новости",
+      "source_url": "https://ria.ru/20260424/zarplata-2088663315.html",
+      "period": "апрель 2026"
+    },
+    {
+      "finding": "Больше всего соискателей раздражает молчание работодателя после отклика (32%) и отсутствие обратной связи по итогам этапов (24%)",
+      "source_name": "Kelly Services",
+      "source_url": "https://www.kellyservices.ru/blog/2021/05/chto-razdrazhaiet-rossiian-pri-poiskie-raboty-riezultaty-issliedovaniia",
+      "period": "2021"
+    },
+    {
+      "finding": "Каждое пятое собеседование кандидаты пропускают; молодёжь до 25 лет получает 3,6 приглашения, приходит на 2,5",
+      "source_name": "Служба исследований HeadHunter (7 640 респондентов; данные 2015 — свежие подтверждения боли: pro.rabota.ru, konkurent.ru 2024-2026)",
+      "source_url": "https://hh.ru/article/506100",
+      "period": "2015"
+    },
+    {
+      "finding": "67% работников старше 45 лет сталкивались с возрастной дискриминацией при трудоустройстве (против 41% среди молодёжи)",
+      "source_name": "SuperJob, 1 600 респондентов (пересказ sky.pro)",
+      "source_url": "https://sky.pro/wiki/profession/pochemu-posle-45-ne-berut-na-rabotu-6-prichin-i-kak-ih-preodolet/",
+      "period": "2024-2025"
+    },
+    {
+      "finding": "Сроки закрытия вакансий: 50% компаний закрывают позиции специалистов за 1-3 месяца; менеджмент — до 4-6 месяцев у 20% компаний",
+      "source_name": "Antal Talent, пульс-опрос",
+      "source_url": "https://antaltalent.ru/en/news/methods-lengths-job-search-2025-q3/",
+      "period": "Q3 2025"
+    },
+    {
+      "finding": "42% компаний ведут кандидатов в Excel; системно применяют AI в найме только 5% компаний",
+      "source_name": "vc.ru (обобщённые рыночные данные, методология не раскрыта)",
+      "source_url": "https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga",
+      "period": "2026"
+    },
+    {
+      "finding": "Прогноз: доля «призрачных» вакансий вырастет до 10% от всех вакансий на российском рынке",
+      "source_name": "RuNews24 со ссылкой на аналитиков рынка труда",
+      "source_url": "https://runews24.ru/society/11/06/2026/prizrachnyie-vakansii-dobivayut-ryinok-truda-pochemu-kompanii-publikuyut-obyavleniya-bez-realnogo-najma",
+      "period": "июнь 2026"
+    },
+    {
+      "finding": "89% кандидатов готовы выполнять бесплатные тестовые задания, но не дольше 2-4 часов",
+      "source_name": "Опрос AGIMA на Хабре",
+      "source_url": "https://habr.com/ru/companies/agima/articles/765556/",
+      "period": "2023"
+    },
+    {
+      "finding": "В IT число вакансий упало на треть, при этом 64% работодателей заявляют о критической нехватке IT-специалистов",
+      "source_name": "Хабр (обзор рынка)",
+      "source_url": "https://habr.com/ru/articles/1054450/",
+      "period": "начало 2026"
+    },
+    {
+      "finding": "Рейтинг hh.ru на Отзовике — 3,1 из 5 при 604 отзывах, рекомендуют 52%",
+      "source_name": "Otzovik",
+      "source_url": "https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/",
+      "period": "июль 2026"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "friendwork",
+  "name": "FriendWork",
+  "legal_name": "ООО «Фрэндворк» (Санкт-Петербург)",
+  "inn": "7811628102",
+  "website": "https://friend.work",
+  "founded": 2012,
+  "segment": "ATS (SMB)",
+  "description": "ATS для среднего бизнеса. Небольшая команда (~19 чел), выручка 133 млн ₽ (2025), после стагнации 2022-2023 вернулась к росту.",
+  "revenue": [
+    { "value": 128.9, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 101.1, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 104.7, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 117.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 133.1, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС; сверено с audit-it", "source_url": "https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 27.1, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 8.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 0.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -1.1, "unit": "млн руб", "period": "2024", "basis": "РСБУ (в отчёте 2025 пересмотрено до +6,8 млн)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 13.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9991109", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 18, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 19, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Базовый", "price": "20 700 ₽/год за рекрутера (1 725 ₽/мес)", "source_url": "https://friend.work/price", "retrieved_at": "2026-07-13" },
+    { "plan": "Стандартный", "price": "47 100 ₽/год за рекрутера", "source_url": "https://friend.work/price", "retrieved_at": "2026-07-13" },
+    { "plan": "Профессиональный", "price": "76 300 ₽/год за рекрутера", "source_url": "https://friend.work/price", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "Раунд $2,5 млн от Prytek (И. Рыбаков и партнёры), инвесторы получили 50,1%", "date": "2020-09", "source_url": "https://vc.ru/finance/164092-servis-avtomatizacii-rekrutinga-friendwork-privlek-2-5-mln-ot-prytek-igorya-rybakova-i-partnerov-u-investorov-50-1" }
+  ],
+  "data_gaps": ["Текущая структура владения после раунда 2020 не раскрыта (по audit-it 100% у основателя)", "Число клиентов не раскрывается"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/9991109"],
+  "updated_at": "2026-07-13"
+}

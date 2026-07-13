@@ -1,0 +1,20 @@
+{
+  "id": "talantix",
+  "name": "Talantix",
+  "legal_name": "Продукт hh.ru, отдельного юрлица нет (оператор — ООО «Хедхантер»)",
+  "inn": "7718620740",
+  "website": "https://talantix.ru",
+  "founded": 2017,
+  "segment": "ATS (SMB, продукт hh)",
+  "description": "CRM для найма от hh.ru — вход hh в сегмент SMB-ATS. Важен как ценовой якорь: 4 000 ₽/мес за рекрутера. Финансы консолидируются в группе HeadHunter и отдельно не раскрываются.",
+  "pricing": [
+    { "plan": "Базовый", "price": "31 000 ₽/год (1 рекрутер, до 5 заказчиков)", "source_url": "https://talantix.ru/promo/price", "retrieved_at": "2026-07-13" },
+    { "plan": "Оптимальный", "price": "48 000 ₽/год за рекрутера (безлимит заказчиков)", "source_url": "https://talantix.ru/promo/price", "retrieved_at": "2026-07-13" }
+  ],
+  "data_gaps": [
+    "Выручка/прибыль продукта не раскрываются — консолидация в МСФО группы HeadHunter",
+    "Число клиентов не раскрывается"
+  ],
+  "sources": ["https://talantix.ru", "https://hh.ru/article/api-talantix"],
+  "updated_at": "2026-07-13"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "e-staff",
+  "name": "E-Staff",
+  "legal_name": "ООО «Датэкс Софтвер»",
+  "inn": "7727534248",
+  "website": "https://e-staff.ru",
+  "founded": 2000,
+  "segment": "ATS (SMB/классика)",
+  "description": "Старейшая российская ATS (с 2000). Образец сверхэффективного микробизнеса: 26 человек, 282 млн ₽ выручки, маржа чистой прибыли >65%. Выручка выросла на 85% в 2024 — вероятно, на волне импортозамещения.",
+  "revenue": [
+    { "value": 84.0, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 89.0, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 134.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 249.2, "unit": "млн руб", "period": "2024", "basis": "РСБУ, +85% г/г", "source_name": "ГИР БО ФНС; сверено с audit-it", "source_url": "https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 282.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 65.5, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 71.2, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 91.6, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 180.3, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 190.8, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/17076", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 24, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 26, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Стандарт", "price": "20 000 ₽/год за рабочее место рекрутера", "source_url": "https://e-staff.ru/", "retrieved_at": "2026-07-13" },
+    { "plan": "Профессиональный", "price": "38 000 ₽/год за рабочее место", "source_url": "https://e-staff.ru/", "retrieved_at": "2026-07-13" },
+    { "plan": "Максимальный", "price": "52 000 ₽/год; пакеты: до 20 рекрутеров — 500 000 ₽/год", "source_url": "https://e-staff.ru/tariffs", "retrieved_at": "2026-07-13" }
+  ],
+  "data_gaps": ["Число клиентов не раскрывается", "Внешние инвестиции не найдены — частная прибыльная компания"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/17076"],
+  "updated_at": "2026-07-13"
+}

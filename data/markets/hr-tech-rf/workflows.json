@@ -1,0 +1,166 @@
+{
+  "market": "hr-tech-rf",
+  "updated_at": "2026-07-13",
+  "workflows": [
+    {
+      "id": "jobseeker",
+      "name": "Процесс соискателя (типичный путь через hh.ru)",
+      "actor": "соискатель",
+      "steps": [
+        {
+          "name": "Составление резюме",
+          "status": "semi",
+          "evidence": "Заполняется вручную в конструкторе hh.ru; существует 13+ русскоязычных AI-генераторов резюме (подписки от ~158 ₽/мес), ИИ-помощник hh умеет дополнять резюме",
+          "evidence_url": "https://craftum.com/blog/nejroseti-dlya-sozdaniya-rezyume/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Поиск вакансий",
+          "status": "semi",
+          "evidence": "Выдача автоматизирована, просмотр ручной: 45% соискателей вводят пустой запрос и листают фильтры, ~80% запросов — 1-2 слова",
+          "evidence_url": "https://hh.ru/article/31506",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Фильтрация и отбор подходящих вакансий",
+          "status": "manual",
+          "evidence": "Конкуренция 5,9 кандидата на вакансию (hh.индекс, июнь 2025), вакансий −25% г/г — отбор из выдачи соискатель делает глазами; семантический AI-матчинг предлагают только сторонние сервисы",
+          "evidence_url": "https://hh.ru/article/rynok-truda-v-2025-godu-pochemu-stalo-trudnee-iskat-rabotu",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Отклики и сопроводительные письма",
+          "status": "manual",
+          "evidence": "Типично вручную (лимит hh: 200 откликов/сутки). Автоматизация в серой зоне: после закрытия API 15.12.2025 боты работают через эмуляцию браузера с риском бана",
+          "evidence_url": "https://habr.com/ru/articles/796529/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Тестовые задания",
+          "status": "manual",
+          "evidence": "Выполняются вручную; со стороны работодателя рассылка тестовых уже автоматизирована («тестовые рассылают роботы, их потом никто не проверяет» — эксперимент с 500 откликами)",
+          "evidence_url": "https://habr.com/ru/companies/agima/articles/765556/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Собеседования",
+          "status": "manual",
+          "evidence": "Живые интервью; автоматизирована только подготовка (тренажёры Сопровод, CVATOR, SobesAI) и реал-тайм подсказки (ENIGMA AI)",
+          "evidence_url": "https://hh.ru/article/chto-umeet-ii-pomoshchnik-dlya-najma",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Офер и переговоры",
+          "status": "manual",
+          "evidence": "Анализ и сравнение оферов продаётся как ручная услуга карьерных консультантов (Careerspace); платформенной автоматизации нет",
+          "evidence_url": "https://careerspace.app/subscription",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Выход на работу / онбординг",
+          "status": "semi",
+          "evidence": "У большинства вручную; Поток.Адаптация автоматизирует треки новичка",
+          "evidence_url": "https://potok.io/onboarding/",
+          "can_ai": true,
+          "can_bot": true,
+          "time_cost": "Поток заявляет ускорение выхода на производительность на 50%",
+          "time_cost_url": "https://potok.io/onboarding/"
+        }
+      ]
+    },
+    {
+      "id": "recruiter",
+      "name": "Процесс рекрутера (типичная компания РФ)",
+      "actor": "рекрутер",
+      "steps": [
+        {
+          "name": "Заявка на подбор от нанимающего менеджера",
+          "status": "semi",
+          "evidence": "В ATS — настраиваемая форма заявки; вне ATS (42% компаний в Excel) — почта и устные брифы",
+          "evidence_url": "https://huntflow.media/gde-zayavku-ostavlyali-tuda-i-idite/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Составление текста вакансии",
+          "status": "semi",
+          "evidence": "Исторически вручную; у hh.ru в проде нейрогенерация: черновик за <3 минут, в 79% случаев минимальные правки",
+          "evidence_url": "https://hh.ru/article/chto-umeet-ii-pomoshchnik-dlya-najma",
+          "can_ai": true,
+          "can_bot": true,
+          "time_cost": "менее 3 минут с нейрогенерацией hh.ru",
+          "time_cost_url": "https://ai-russia.ru/library/hh"
+        },
+        {
+          "name": "Размещение вакансии на площадках",
+          "status": "semi",
+          "evidence": "В вакансиях рекрутёров — ручная обязанность «размещать объявления на различных площадках»; в ATS — мультипостинг одной кнопкой",
+          "evidence_url": "https://www.superjob.ru/vakansii/rekruter.html",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Сорсинг в базе резюме (холодный поиск)",
+          "status": "manual",
+          "evidence": "Прямая ручная обязанность в текстах вакансий: «привлечение кандидатов холодным и тёплым поиском», «активный поиск в базах»; AI-автопоиск только появляется (бета ИИ-помощника hh, Sever.AI)",
+          "evidence_url": "https://www.superjob.ru/vakansii/rekruter.html",
+          "can_ai": true,
+          "can_bot": true,
+          "time_cost": "60% рабочего времени рекрутёров уходит на рутину",
+          "time_cost_url": "https://hh.ru/article/chto-umeet-ii-pomoshchnik-dlya-najma"
+        },
+        {
+          "name": "Скрининг откликов",
+          "status": "semi",
+          "evidence": "В вакансиях — ручная обязанность «разбор откликов»; при 300-500 откликах на вакансию 261 из 500 не просматриваются вовсе. В массовом найме автоматизировано: «Авторазбор» hh обрабатывает до 75% откликов без рекрутера",
+          "evidence_url": "https://hh.ru/article/31249",
+          "can_ai": true,
+          "can_bot": true,
+          "time_cost": "авторазбор hh: отказ за 15 минут, приглашение за 1-2 минуты, подбор короче на 1-2 дня",
+          "time_cost_url": "https://hh.ru/article/31982"
+        },
+        {
+          "name": "Первичные звонки / телефонные интервью",
+          "status": "manual",
+          "evidence": "Ручная обязанность в вакансиях («проведение первичных телефонных интервью»); роботы существуют (Робот Вера от 9 000 ₽, Sever.AI, Naimee), но применяют ~5% компаний",
+          "evidence_url": "https://www.superjob.ru/vakansii/rekruter.html",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Передача кандидатов нанимающему менеджеру",
+          "status": "semi",
+          "evidence": "В ATS — общая воронка и формы обратной связи; вне ATS — отчёты вручную",
+          "evidence_url": "https://huntflow.ru/help/knowledge-base/watcher-101/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Офер",
+          "status": "manual",
+          "evidence": "Финальное решение за людьми даже при полном AI-стеке: «финальные решения о приглашении и найме принимают рекрутеры» (Поток о Sever.AI)",
+          "evidence_url": "https://potok.io/blog/hr-overview/screening-resume/",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Онбординг",
+          "status": "semi",
+          "evidence": "Автоматизируется отдельным классом систем (Поток.Адаптация); hh только планирует добавить в ИИ-помощник",
+          "evidence_url": "https://potok.io/onboarding/",
+          "can_ai": true,
+          "can_bot": true,
+          "time_cost": "Поток: отток новичков на испытательном сроке −50%",
+          "time_cost_url": "https://potok.io/onboarding/"
+        }
+      ]
+    }
+  ]
+}

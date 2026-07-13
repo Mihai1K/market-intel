@@ -1,0 +1,43 @@
+{
+  "id": "careerspace",
+  "name": "Careerspace",
+  "legal_name": "ООО «Карьерное пространство»",
+  "inn": "9715410393",
+  "website": "https://careerspace.app",
+  "segment": "карьерный сервис для соискателей (B2C)",
+  "description": "Карьерное сопровождение «под ключ»: резюме, отклики за клиента, подготовка к интервью, гарантия приглашений. Ориентир для B2C-экономики: 78 млн ₽ выручки при 12 сотрудниках, растущая прибыль. Соискатели платят десятки тысяч рублей за решение боли «отклики без ответа».",
+  "revenue": [
+    { "value": 15.3, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 44.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 72.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 77.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -3.5, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 3.2, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 7.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 16.2, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11727738", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 4, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/karernoe-prostranstvo-1217700587939", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 7, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/karernoe-prostranstvo-1217700587939", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 12, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/karernoe-prostranstvo-1217700587939", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Тарифы сопровождения", "price": "от 7 990 ₽ до 160 000 ₽ (топ-тариф с гарантией результата)", "source_url": "https://careerspace.app/subscription", "retrieved_at": "2026-07-13" }
+  ],
+  "review_rating": {
+    "rating": 4.39,
+    "scale": "из 5",
+    "count_note": "194 отзыва на tutortop",
+    "source_url": "https://tutortop.ru/school-reviews/careerspace/",
+    "retrieved_at": "2026-07-13"
+  },
+  "top_complaints": [
+    { "complaint": "«Цена высокая, нового не открыли» — противоречивые отзывы о ценности", "source_url": "https://tutortop.ru/school-reviews/careerspace/" },
+    { "complaint": "Жалобы на клиентоориентированность и негибкость", "source_url": "https://irecommend.ru/content/lyudi-kotorye-nichego-ne-znayut-o-klientoorientirovannosti" }
+  ],
+  "data_gaps": ["Число клиентов и конверсия в трудоустройство не раскрываются", "Значительная часть команды, вероятно, вне штата (среднесписочная 4-12 чел)"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/11727738"],
+  "updated_at": "2026-07-13"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "zarplata-ru",
+  "name": "Зарплата.ру",
+  "legal_name": "ООО «Зарплата.ру» (с 2022 в группе HeadHunter)",
+  "inn": "7730706401",
+  "website": "https://www.zarplata.ru",
+  "segment": "джоб-борд (регионы, массовые профессии)",
+  "description": "Региональный джоб-борд (Новосибирск), куплен HeadHunter в 2022. Выручка и прибыль снижаются — группа концентрирует трафик на hh.ru.",
+  "revenue": [
+    { "value": 956.8, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 780.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 880.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 836.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 721.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 160.6, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -69.9, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 235.1, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 181.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 3.6, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8522831", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 171, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/zarplata-ru-1147746526817", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 152, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/zarplata-ru-1147746526817", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 110, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/zarplata-ru-1147746526817", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "Приобретена группой HeadHunter", "date": "2022", "source_url": "https://www.kommersant.ru/doc/5081541" }
+  ],
+  "data_gaps": ["Численность за 2021-2022", "Продуктовые метрики не раскрываются отдельно от группы hh"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/8522831"],
+  "updated_at": "2026-07-13"
+}

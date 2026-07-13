@@ -1,0 +1,41 @@
+{
+  "id": "potok",
+  "name": "Поток (Potok, ex-TalentTech)",
+  "legal_name": "ООО «Поток» (холдинг «Севергрупп»)",
+  "inn": "7713444724",
+  "website": "https://potok.io",
+  "founded": 2016,
+  "segment": "ATS + HR-платформа (рекрутмент, адаптация, оценка)",
+  "description": "HR-платформа холдинга Севергрупп (А. Мордашов). Включает Sever.AI (AI-скрининг, обзвоны, видеоинтервью). Группа оценивается Smart Ranking в 1,08 млрд ₽ выручки (2024), при этом основное юрлицо стабильно убыточно.",
+  "revenue": [
+    { "value": 151.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ (ООО «Поток»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 343, "unit": "млн руб", "period": "2022", "basis": "оценка Smart Ranking (РСБУ за 2022 не опубликована)", "source_name": "Potok.io о рейтинге Smart Ranking", "source_url": "https://potok.io/potok-v-rejtinge-luchshih-hr-tech-kompanij-ot-smart-ranking-v-2023-godu/", "retrieved_at": "2026-07-13", "confidence": "low", "method": "estimated" },
+    { "value": 258.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ (из сравнительных данных отчёта 2024)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 368.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ (ООО «Поток»; группа целиком — см. заметку)", "source_name": "ГИР БО ФНС; сверено с audit-it", "source_url": "https://www.audit-it.ru/contragent/1177746741347_ooo-potok", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 390.3, "unit": "млн руб", "period": "2025", "basis": "РСБУ (ООО «Поток»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -659.3, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -148.9, "unit": "млн руб", "period": "2023", "basis": "РСБУ (из сравнительных данных отчёта 2024)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": -152.2, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -250.0, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10311423", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 117, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1177746741347_ooo-potok", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 104, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/1177746741347_ooo-potok", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Все продукты", "price": "публичных цен нет — индивидуальный расчёт через демо", "source_url": "https://potok.io/price/", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "«Севергрупп» А. Мордашова купила 100% Potok.io", "date": "2017-07", "source_url": "https://www.finversia.ru/news/markets/severgrupp-alekseya-mordashova-kupila-hr-platformu-potok-23550" },
+    { "event": "Объединение HRTech-решений TalentTech под брендом «Поток»", "date": "2023-03", "source_url": "https://potok.io/it-holding-talenttech-obedinit-svoi-hrtech-resheniya-pod-brendom-potok/" }
+  ],
+  "data_gaps": [
+    "РСБУ за 2022 не опубликована",
+    "Выручка группы (1,08 млрд по Smart Ranking, 2024) распределена по нескольким юрлицам холдинга — консолидированной отчётности нет",
+    "Sever.AI отдельной отчётности не имеет"
+  ],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10311423", "https://smartranking.ru/ru/analytics/hrtech/hrtech-rynok-v-rossii-vyros-na-38/"],
+  "updated_at": "2026-07-13"
+}

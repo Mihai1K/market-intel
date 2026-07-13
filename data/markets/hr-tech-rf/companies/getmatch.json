@@ -1,0 +1,31 @@
+{
+  "id": "getmatch",
+  "name": "getmatch",
+  "legal_name": "ООО «Джи Бот»",
+  "inn": "7726466595",
+  "website": "https://getmatch.ru",
+  "segment": "джоб-борд (IT) + кадровое агентство",
+  "description": "IT-джоб-маркетплейс с зарплатным калькулятором и Telegram-каналом. Маленькая команда (~25 чел) с высокой маржой: чистая рентабельность 34-58%. Выручка 2025 просела на 25% вместе с охлаждением IT-найма.",
+  "revenue": [
+    { "value": 147.7, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 203.5, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 229.3, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 297.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 224.0, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −25% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 114.6, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 116.9, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 132.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 127.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 75.3, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/11370313", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 24, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/dzhi-bot-1207700270051", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 30, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/dzhi-bot-1207700270051", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 25, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/dzhi-bot-1207700270051", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Разбивка выручки джоб-борд / агентство не раскрывается", "Продуктовые метрики не раскрываются"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/11370313", "https://companies.rbc.ru/id/1207700270051-getmatch/"],
+  "updated_at": "2026-07-13"
+}

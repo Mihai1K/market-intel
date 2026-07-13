@@ -1,0 +1,40 @@
+{
+  "id": "vcv",
+  "name": "VCV",
+  "legal_name": "ООО «Висиви»",
+  "inn": "7703436629",
+  "website": "https://vcv.ru",
+  "founded": 2010,
+  "segment": "AI-скрининг (видеоинтервью)",
+  "description": "Платформа асинхронных видеоинтервью с AI-оценкой. Российский бизнес небольшой и стагнирует (~46-67 млн ₽/год) — показательно: ниша видеоинтервью в РФ так и не взлетела.",
+  "revenue": [
+    { "value": 51.1, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 66.8, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 45.7, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 46.5, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 49.1, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС; сверено с audit-it", "source_url": "https://www.audit-it.ru/contragent/5177746185997_ooo-visivi", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -0.3, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 20.2, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 8.0, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 1.8, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 2.4, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10442709", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 11, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "audit-it.ru", "source_url": "https://www.audit-it.ru/contragent/5177746185997_ooo-visivi", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Пробный", "price": "0 ₽", "source_url": "https://vcv.ru/pricing/", "retrieved_at": "2026-07-13" },
+    { "plan": "Базовый", "price": "2 490 ₽/мес", "source_url": "https://vcv.ru/pricing/", "retrieved_at": "2026-07-13" },
+    { "plan": "Расширенный", "price": "4 490 ₽/мес", "source_url": "https://vcv.ru/pricing/", "retrieved_at": "2026-07-13" }
+  ],
+  "funding": [
+    { "event": "500 Startups, $150 тыс.", "date": "2017", "source_url": "https://vc.ru/25708-vcv-500s" },
+    { "event": "Раунд $1,7 млн, лид — Will Group (Япония)", "date": "2018-2019", "source_url": "https://vc.ru/growth/139674-vcv-kak-500-startups-pomog-vyyti-na-rynok-ameriki-i-zapoluchit-investorov-iz-yaponii" },
+    { "event": "Инвестиция от Рубена Варданяна", "date": "2020-01", "source_url": "https://vc.ru/finance/102859-rossiyskiy-hr-startap-vcv-privlek-investicii-ot-byvshego-sovladelca-troyki-dialog-i-predprinimatelya-rubena-vardanyana" }
+  ],
+  "data_gaps": ["Международная часть бизнеса (vcv.ai) в российской отчётности не отражена"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10442709"],
+  "updated_at": "2026-07-13"
+}

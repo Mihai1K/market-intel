@@ -1,0 +1,31 @@
+{
+  "id": "rabota-ru",
+  "name": "Работа.ру",
+  "legal_name": "ООО «РДВ-Софт» (группа Сбера)",
+  "inn": "7709969870",
+  "website": "https://www.rabota.ru",
+  "segment": "джоб-борд",
+  "description": "Джоб-борд в экосистеме Сбера, владеет продуктом СберПодбор. Стабильно убыточен в 2021-2024 — Сбер субсидирует конкуренцию с hh.",
+  "revenue": [
+    { "value": 991.3, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8985338", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 1200, "unit": "млн руб (округлённо)", "period": "2022", "basis": "РСБУ (через агрегатор, публикация в ГИР БО ограничена)", "source_name": "ЗаЧестныйБизнес", "source_url": "https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 1300, "unit": "млн руб (округлённо)", "period": "2023", "basis": "РСБУ (через агрегатор)", "source_name": "ЗаЧестныйБизнес", "source_url": "https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 1002.3, "unit": "млн руб", "period": "2024", "basis": "РСБУ (через агрегатор)", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/5147746474134-ooo-obschestvo-s-ogranichennoj-otvetstvennostyu-rdv-soft/", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -1426.0, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8985338", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": -368, "unit": "млн руб (округлённо)", "period": "2022", "basis": "РСБУ (через агрегатор)", "source_name": "ЗаЧестныйБизнес", "source_url": "https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": -71.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ (через агрегатор)", "source_name": "ЗаЧестныйБизнес", "source_url": "https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": -363.9, "unit": "млн руб", "period": "2024", "basis": "РСБУ (через агрегатор)", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/5147746474134-ooo-obschestvo-s-ogranichennoj-otvetstvennostyu-rdv-soft/", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 383, "unit": "чел (среднесписочная)", "period": "2021", "basis": "данные ФНС", "source_name": "Rusprofile", "source_url": "https://www.rusprofile.ru/id/7387955", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 323, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Rusprofile", "source_url": "https://www.rusprofile.ru/id/7387955", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": [
+    "Публикация отчётности в ГИР БО ограничена после 2021 (компания группы Сбера) — 2022-2024 только через агрегаторы, 2025 не найдена",
+    "Продуктовые метрики не раскрываются"
+  ],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/8985338"],
+  "updated_at": "2026-07-13"
+}

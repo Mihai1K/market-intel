@@ -1,0 +1,32 @@
+{
+  "id": "habr-career",
+  "name": "Хабр Карьера",
+  "legal_name": "ООО «Хабр»",
+  "inn": "7705756279",
+  "website": "https://career.habr.com",
+  "founded": 2006,
+  "segment": "джоб-борд (IT-ниша)",
+  "description": "IT-джоб-борд и зарплатный калькулятор в составе Хабра. Цифры — по всему ООО «Хабр» (habr.com + career.habr.com), отдельная выручка Карьеры не раскрывается. Растёт против стагнирующего рынка: +26% в 2025.",
+  "revenue": [
+    { "value": 359.4, "unit": "млн руб", "period": "2021", "basis": "РСБУ (всё ООО «Хабр»)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 317.7, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 360.4, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 457.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 577.4, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +26% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 47.2, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 0.39, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 6.0, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 14.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" },
+    { "value": 61.3, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/5186587", "retrieved_at": "2026-07-13", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 43, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/habr-5067746892769", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 47, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/habr-5067746892769", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" },
+    { "value": 55, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/habr-5067746892769", "retrieved_at": "2026-07-13", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Отдельная выручка сервиса Хабр Карьера не раскрывается", "Продуктовые метрики (число вакансий, пользователей) не раскрываются"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/5186587"],
+  "updated_at": "2026-07-13"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "workflows.schema.json",
+  "title": "Workflows",
+  "type": "object",
+  "required": ["market", "workflows", "updated_at"],
+  "properties": {
+    "market": { "type": "string" },
+    "updated_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "workflows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "actor", "steps"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "name": { "type": "string" },
+          "actor": { "type": "string", "description": "чей это процесс: соискатель, рекрутер, владелец..." },
+          "steps": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["name", "status"],
+              "properties": {
+                "name": { "type": "string" },
+                "status": { "enum": ["manual", "semi", "automated"] },
+                "evidence": { "type": "string", "description": "чем подтверждён статус: текст вакансии, статья..." },
+                "evidence_url": { "type": "string", "pattern": "^https?://" },
+                "can_ai": { "type": "boolean" },
+                "can_bot": { "type": "boolean" },
+                "time_cost": { "type": "string", "description": "только при наличии источника" },
+                "time_cost_url": { "type": "string", "pattern": "^https?://" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
