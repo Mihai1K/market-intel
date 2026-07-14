@@ -1,0 +1,33 @@
+{
+  "id": "callibri",
+  "name": "Callibri",
+  "legal_name": "ООО «Колибри» (51% у ВымпелКома/билайн с 2023)",
+  "inn": "6658451500",
+  "website": "https://callibri.ru",
+  "founded": 2014,
+  "segment": "коллтрекинг и виджеты (SaaS, СМБ)",
+  "description": "Екатеринбургский SaaS для СМБ: мультитрекинг от 1 950 ₽/мес — нижний ценовой сегмент против Calltouch. Билайн купил контроль в 2023. Прибыль растёт кратно: 15 → 47 → 101 млн ₽.",
+  "revenue": [
+    { "value": 127, "unit": "млн руб", "period": "2021", "basis": "РСБУ (SaaS)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 179, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 268, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 325, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 15, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 47, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 101, "unit": "млн руб", "period": "2025", "basis": "РСБУ, маржа 31%", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 72, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/kolibri-1146658002974", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "МультиТрекинг / CRM-чат / Аналитика", "price": "1 950 / 4 500 / 1 000 ₽/мес", "source_url": "https://callibri.ru/", "retrieved_at": "2026-07-14" }
+  ],
+  "funding": [
+    { "event": "билайн (ВымпелКом) купил 51%, основатель сохранил 49%", "date": "2023-11", "source_url": "https://www.comnews.ru/content/230343/2023-11-23/2023-w47/1010/bilayn-poluchil-kontrol-nad-callibri" }
+  ],
+  "data_gaps": [],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/8411609/bfo"],
+  "updated_at": "2026-07-14"
+}

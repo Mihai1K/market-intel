@@ -1,0 +1,82 @@
+{
+  "id": "performance-marketing-rf",
+  "name": "Рекламные агентства и performance-маркетинг в России",
+  "description": "Услуги digital-рекламы: контекст (Яндекс Директ — фактический монополист), таргет, retail media (WB/Ozon — взрывной рост), агентства и martech-сервисы (управление, аналитика, коллтрекинг, кешбэк). Рынок замедлился втрое (+8,5% в 2025), маржа агентств сжимается, Яндекс автоматизирует настройку рекламы своим AI.",
+  "scope_assumptions": [
+    "АКАР считает рекламный рынок целиком и сегмент «интернет-сервисы»; АРИР — расширенную интернет-методику (включая продакшн и retail media); ЕРИР — только маркированную рекламу",
+    "Выручка юрлиц агентств и сервисов оплаты часто включает транзит клиентских бюджетов (принципальная модель) — сравнивать с SaaS напрямую нельзя, у карточек это помечено",
+    "Kokoc Group, СберМаркетинг, Ашманов и партнёры — данные собраны частично и не включены; добавить при еженедельном обновлении"
+  ],
+  "segments": [
+    { "id": "context", "name": "Контекстная реклама (Яндекс Директ)", "description": "171 млрд ₽ (38% performance-рынка, Kokoc 2025). Рекламная выручка Яндекса 449,1 млрд ₽ (+13,5%), доля в поиске 69,3% — монополия после ухода Google Ads." },
+    { "id": "target", "name": "Таргетированная реклама", "description": "113 млрд ₽ (25%). VK Ads стагнирует: 98,3 млрд ₽ (+2% в 2025)." },
+    { "id": "retail-media", "name": "Retail media (WB/Ozon/Я.Маркет)", "description": "99 млрд ₽ по Kokoc (22%); по Data Insight рекламная выручка трёх маркетплейсов 500-600 млрд ₽ (2025), расходы селлеров 805 млрд. Самый быстрорастущий сегмент (+133% в 2024 по АРИР)." },
+    { "id": "agencies", "name": "Агентства и фрилансеры", "description": "5 914 активных агентств в ЕРИР (2024). Комиссия 10-20% бюджета, ведение 80-600 тыс ₽/мес; демпинг с бирж от 500 ₽ за настройку." },
+    { "id": "martech", "name": "Martech-сервисы", "description": "Управление и кешбэк (eLama→Яндекс, Click.ru, Vitamin.tools), сквозная аналитика (Roistat, Calltouch), коллтрекинг, антифрод (2,5-7 тыс ₽/мес)." },
+    { "id": "telegram-ads", "name": "Telegram Ads", "description": "Инвестиции выросли в 4 раза за 2025: с 5 до 20 млрд ₽, прогноз 2026 — 35 млрд (Kokoc)." }
+  ],
+  "market_size_rf": {
+    "estimates": [
+      { "value": 981.6, "unit": "млрд руб", "period": "2025", "scope": "весь рекламный рынок РФ, +8,5% (замедление втрое)", "source_name": "АКАР", "source_url": "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/", "retrieved_at": "2026-07-14", "confidence": "high", "method": "estimated" },
+      { "value": 510.1, "unit": "млрд руб", "period": "2025", "scope": "сегмент «интернет-сервисы» АКАР, +9%", "source_name": "АКАР", "source_url": "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/", "retrieved_at": "2026-07-14", "confidence": "high", "method": "estimated" },
+      { "value": 1236, "unit": "млрд руб", "period": "2024", "scope": "интернет-реклама и продвижение по расширенной методике АРИР, +53%", "source_name": "АРИР", "source_url": "https://interactivead.ru/news/arir-obem-rossijskogo-rynka-reklamy-i-prodvizheniya-v-internete-v-2024-godu-vyros-na-53-do-1236-trln-rublej/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "estimated" },
+      { "value": 858.6, "unit": "млрд руб", "period": "2024", "scope": "маркированная интернет-реклама по ЕРИР («белый» рынок)", "source_name": "Роскомнадзор / ЕРИР", "source_url": "https://adpass.ru/858-mlrd-rublej-potracheno-na-internet-reklamu-v-2024-godu/", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+      { "value": 450, "unit": "млрд руб", "period": "2025", "scope": "рынок performance-маркетинга (контекст+таргет+retail media)", "source_name": "Kokoc Performance (YAGLA)", "source_url": "https://yagla.ru/blog/rynok-issledovaniya/issledovanie-kokoc-performance-obem-rynka-performance-marketinga-za-2025-god-dostig-450-mlrd-rubley--2602u106040/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "estimated" }
+    ],
+    "range_note": "Ядро для нас — performance-рынок 450 млрд ₽ (2025) и агентско-сервисный слой над ним: 5 914 агентств, 1,3 млн рекламодателей со средним бюджетом 663,6 тыс ₽/год (ЕРИР). Рост рынка замедлился втрое; деньги перетекают в retail media и Telegram Ads."
+  },
+  "growth": [
+    { "value": 8.5, "unit": "% г/г", "period": "2025", "scope": "весь рекламный рынок (2024: +24%, 2023: +30%) — резкое замедление", "source_name": "АКАР", "source_url": "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/", "retrieved_at": "2026-07-14", "confidence": "high", "method": "estimated" },
+    { "value": 22.17, "unit": "% г/г (CPC Директа)", "period": "09.2024-09.2025", "scope": "медиаинфляция: рост общего CPC при падении CTR на 7,4%", "source_name": "click.ru", "source_url": "https://blog.click.ru/analytics/god-reklamy-v-cifrax-kak-izmenilis-cpc-ctr-i-cpm/", "retrieved_at": "2026-07-14", "confidence": "high", "method": "estimated" },
+    { "value": 16.2, "unit": "% г/г (CPA)", "period": "2025", "scope": "рост стоимости целевого действия (недвижимость +34%), 99 тыс. кампаний", "source_name": "E-Promo Group", "source_url": "https://blog.click.ru/market-news/v-2025-godu-cpa-stoimost-celevogo-dejstviya-vyrosla-na-16/", "retrieved_at": "2026-07-14", "confidence": "high", "method": "estimated" }
+  ],
+  "buying_power": [
+    {
+      "segment": "Малый и средний бизнес (рекламодатели)",
+      "typical_budget": "25-50 тыс ₽/мес на интернет-рекламу (67% микробизнеса — до 25 тыс); ведение у фрилансера 10-25 тыс ₽/мес; аудит 5-35 тыс ₽ разово; антифрод 2,5-7 тыс ₽/мес",
+      "deal_cycle": "дни-недели",
+      "ease_of_purchase": 4,
+      "evidence": [
+        { "note": "исследование бюджетов СМБ", "source_url": "https://adpass.ru/rossijskij-malyj-i-srednij-biznes-tratit-na-internet-reklamu-25-50-tys-rublej-v-mesyats/" },
+        { "note": "цены частных директологов", "source_url": "https://vc.ru/marketing/2122224-chastnyy-direktolog-v-2025-godu" },
+        { "note": "цены аудитов Директа", "source_url": "https://vc.ru/marketing/2177455-audit-reklamnyh-kampanij-yandeks-direkt" }
+      ]
+    },
+    {
+      "segment": "Средний+ бизнес (агентские клиенты)",
+      "typical_budget": "комиссия агентства 10-20% бюджета; ведение performance 80-600 тыс ₽/мес; full-service 350 тыс — 1,5 млн ₽/мес",
+      "deal_cycle": "недели-месяцы, тендеры",
+      "ease_of_purchase": 3,
+      "evidence": [
+        { "note": "вилки агентских цен 2026", "source_url": "https://rostsayt.ru/blog/kak-vybrat-marketingovoe-agentstvo-v-2026-godu-prakticheskiy-gayd-plyus-chek-listy" }
+      ]
+    },
+    {
+      "segment": "Агентства и специалисты (покупатели инструментов)",
+      "typical_budget": "аналитика 6,5-28 тыс ₽/мес (Roistat), коллтрекинг 1-23 тыс ₽/мес, автоотчёты 2,4-20 тыс ₽/мес; кешбэк-сервисы платят ИМ до 18-21% от оборотов",
+      "deal_cycle": "дни, подписка",
+      "ease_of_purchase": 4,
+      "evidence": [
+        { "note": "тарифы Roistat", "source_url": "https://roistat.com/ru/price/" },
+        { "note": "кешбэк Click.ru до 21,5%", "source_url": "https://click.ru/" },
+        { "note": "тарифы автоотчётов ROMI center", "source_url": "https://crmindex.ru/services/romi_center" }
+      ]
+    }
+  ],
+  "events": [
+    { "date": "2024-09", "event": "Директ перевёл кампании на ЕПК — крупнейшее изменение механики; автостратегии и автотаргетинг становятся принудительными", "source_url": "https://yandex.ru/adv/news/teper-kampanii-v-direct-mozhno-obnovit-do-edinoj-perfomans-kampanii" },
+    { "date": "2024-06", "event": "Яндекс купил eLama (оценка 10-15 млрд ₽); ранее — K50 (2020). Платформа поглощает надстройки", "source_url": "https://yandex.ru/company/news/01-13-06-2024" },
+    { "date": "2024-12", "event": "T2 и Ростелеком скупили AdTech-компании (Yabbi, Redllama, Plazkart) — консолидация телекомами", "source_url": "https://www.sostav.ru/publication/sdelka-t2-72227.html" },
+    { "date": "2025-04-01", "event": "Сбор 3% с доходов от интернет-рекламы; за II-III кв. 2025 собрано 7,8 млрд ₽; цены на размещение выросли на 20-25%", "source_url": "https://www.rbc.ru/technology_and_media/16/01/2026/6968f2559a794705a6d04ca9" },
+    { "date": "2025-05", "event": "WB запустил закупку рекламы по CPC, Ozon допустил внешних верификаторов — маркетплейсы достраивают рекламные платформы", "source_url": "https://adindex.ru/news/tendencies/2025/05/20/333604.phtml" },
+    { "date": "2026-03", "event": "Итоги 2025: рекламный рынок 981,6 млрд ₽ (+8,5%, замедление втрое), VK почти не растёт (+2%)", "source_url": "https://adindex.ru/news/ad_budjet/2026/03/24/343495.phtml" },
+    { "date": "2026-04", "event": "ИИ-помощник Яндекс Директа запускает кампании в чате за ~10 минут (+30% конверсий по A/B на 50 тыс. бизнесов) — платформа съедает работу директологов снизу", "source_url": "https://yandex.ru/company/news/15-04-2026-02" }
+  ],
+  "sources": [
+    "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/",
+    "https://interactivead.ru/news/arir-obem-rossijskogo-rynka-reklamy-i-prodvizheniya-v-internete-v-2024-godu-vyros-na-53-do-1236-trln-rublej/",
+    "https://yagla.ru/blog/rynok-issledovaniya/issledovanie-kokoc-performance-obem-rynka-performance-marketinga-za-2025-god-dostig-450-mlrd-rubley--2602u106040/",
+    "https://adpass.ru/858-mlrd-rublej-potracheno-na-internet-reklamu-v-2024-godu/"
+  ],
+  "updated_at": "2026-07-14"
+}

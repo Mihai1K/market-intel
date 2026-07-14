@@ -1,0 +1,27 @@
+{
+  "id": "demis",
+  "name": "Demis Group",
+  "legal_name": "ООО «Маркетинг и онлайн продажи» (основное операционное юрлицо бренда)",
+  "inn": "9705151710",
+  "website": "https://www.demis.ru",
+  "founded": 2004,
+  "segment": "digital-агентство (SEO+performance)",
+  "description": "Независимая группа (самораскрытие: 700+ сотрудников в 4 городах против 48 в юрлице). Выручка юрлица растёт (951 млн ₽ в 2025), но прибыль сжалась до 16 млн — маржинальность агентского бизнеса падает.",
+  "revenue": [
+    { "value": 531, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/9705151710-770501001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 818, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1217700016841-demis-group/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 910, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1217700016841-demis-group/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 951, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "vbankcenter", "source_url": "https://vbankcenter.ru/contragent/1217700016841", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 48, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/9705151710-770501001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 27, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1217700016841-demis-group/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 16, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −41% г/г", "source_name": "vbankcenter", "source_url": "https://vbankcenter.ru/contragent/1217700016841", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 48, "unit": "чел (среднесписочная, только юрлицо)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/marketing-i-onlayn-prodazhi-1217700016841", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Группа из нескольких юрлиц (Дэмис Групп, Диалект Групп), консолидации нет", "~20 млн ₽ выручки на сотрудника — вероятно частичный транзит бюджетов"],
+  "sources": ["https://companies.rbc.ru/id/1217700016841-demis-group/"],
+  "updated_at": "2026-07-14"
+}

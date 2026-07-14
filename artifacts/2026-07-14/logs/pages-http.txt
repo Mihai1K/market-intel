@@ -1,0 +1,11 @@
+Проверка http://localhost:63616
+
+200  /  (85129 байт)
+200  /rating  (73071 байт)
+200  /pains  (331609 байт)
+200  /markets/hr-tech-rf  (281493 байт)
+200  /markets/influencer-marketing-rf  (261350 байт)
+200  /markets/performance-marketing-rf  (204193 байт)
+200  /markets/hr-tech-rf/companies/careerspace  (45009 байт)
+200  /markets/influencer-marketing-rf/companies/brand-analytics  (38918 байт)
+200  /markets/performance-marketing-rf/companies/adventum  (36395 байт)

@@ -91,6 +91,125 @@
       "opportunity_id": "deal-guarantor-direct",
       "launch": 68,
       "scale": 57
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "ai-hiring-for-smb",
+      "launch": 90,
+      "scale": 66
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "resume-tailor-bot",
+      "launch": 88,
+      "scale": 55
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "career-sprint",
+      "launch": 82,
+      "scale": 56
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "interview-trainer",
+      "launch": 76,
+      "scale": 45
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "no-show-guard",
+      "launch": 69,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "vacancy-market-analytics",
+      "launch": 62,
+      "scale": 55
+    },
+    {
+      "date": "2026-07-14",
+      "market": "hr-tech-rf",
+      "opportunity_id": "ghost-vacancy-filter",
+      "launch": 61,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-14",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "ai-media-planner",
+      "launch": 87,
+      "scale": 63
+    },
+    {
+      "date": "2026-07-14",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "influence-agency-crm",
+      "launch": 86,
+      "scale": 68
+    },
+    {
+      "date": "2026-07-14",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "rkn-registration-service",
+      "launch": 86,
+      "scale": 46
+    },
+    {
+      "date": "2026-07-14",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "markirovka-pod-klyuch",
+      "launch": 84,
+      "scale": 52
+    },
+    {
+      "date": "2026-07-14",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "fraud-check-smb",
+      "launch": 78,
+      "scale": 50
+    },
+    {
+      "date": "2026-07-14",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "deal-guarantor-direct",
+      "launch": 68,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-14",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "ai-direct-audit",
+      "launch": 90,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-14",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "micro-budget-direct",
+      "launch": 85,
+      "scale": 56
+    },
+    {
+      "date": "2026-07-14",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "retail-media-sellers",
+      "launch": 78,
+      "scale": 62
+    },
+    {
+      "date": "2026-07-14",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "ai-client-reports",
+      "launch": 80,
+      "scale": 48
     }
   ]
 }

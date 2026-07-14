@@ -1,0 +1,27 @@
+{
+  "id": "adventum",
+  "name": "Adventum",
+  "legal_name": "ООО «Адвентум Консалтинг» (50/50 у основателей)",
+  "inn": "7717720559",
+  "website": "https://www.adventum.ru",
+  "founded": 2009,
+  "segment": "performance-агентство (независимое)",
+  "description": "«Первое performance-агентство РФ» (самоопределение), выросло из отдела маркетинга «Фабрики Окон». Независимое, без M&A. Выручка 2025 −28% при прибыли ×10 — переход от оборота к марже.",
+  "revenue": [
+    { "value": 2452, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит; восстановлено по агрегаторам)", "source_name": "buxbalans/saby", "source_url": "https://buxbalans.ru/7717720559.html", "retrieved_at": "2026-07-14", "confidence": "low", "method": "reported" },
+    { "value": 1714, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1127746176128-digital-agentstvo-adventum/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 1733, "unit": "млн руб", "period": "2024", "basis": "РСБУ (валовая маржа ~132 млн — модель принципала)", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1127746176128-digital-agentstvo-adventum/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 1248, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7717720559-771501001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 21, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7717720559-771501001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 10, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1127746176128-digital-agentstvo-adventum/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 97, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "Checko", "source_url": "https://checko.ru/company/adventum-konsalting-1127746176128", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 102, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/adventum-konsalting-1127746176128", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Данные 2021-2022 восстановлены по агрегаторам с усечением разрядов — confidence low"],
+  "sources": ["https://companies.rbc.ru/id/1127746176128-digital-agentstvo-adventum/"],
+  "updated_at": "2026-07-14"
+}

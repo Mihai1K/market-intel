@@ -1,0 +1,25 @@
+{
+  "id": "ingate",
+  "name": "Ingate Group",
+  "legal_name": "ООО «АИ Маркетинг» (текущее юрлицо бренда; историческое ООО «АП» развивает бренд Another Point)",
+  "inn": "7107545352",
+  "website": "https://ingate.ru",
+  "founded": 2000,
+  "segment": "digital-агентство (SEO+performance)",
+  "description": "Тульская группа Никиты Андросова (95%). В 2024-2025 реструктуризация: бренд Ingate переведён на ООО «АИ Маркетинг» (выручка 10→102→508 млн ₽, штат 5→54→182), старое юрлицо стало Another Point. Самораскрытие масштаба группы: оборот 2,5 млрд ₽, 300 человек.",
+  "revenue": [
+    { "value": 102, "unit": "млн руб", "period": "2024", "basis": "РСБУ (ООО «АИ Маркетинг» — новое юрлицо бренда)", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7107545352-773101001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 508, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7107545352-773101001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 1005, "unit": "млн руб", "period": "2024", "basis": "РСБУ (историческое юрлицо группы ООО «АП», ИНН 7107519497)", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1097154026045-ingate-group/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 19, "unit": "млн руб", "period": "2024", "basis": "РСБУ (АИ Маркетинг)", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7107545352-773101001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 0.8, "unit": "млн руб", "period": "2025", "basis": "РСБУ (АИ Маркетинг)", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7107545352-773101001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 182, "unit": "чел (среднесписочная, АИ Маркетинг)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/ai-marketing-1137154030991", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Финансы группы размазаны по юрлицам (АП, АИ Маркетинг, Ингейт Девелопмент) — консолидации нет", "Модель монетизации не раскрыта"],
+  "sources": ["https://saby.ru/profile/7107545352-773101001", "https://checko.ru/company/ap-1097154026045"],
+  "updated_at": "2026-07-14"
+}

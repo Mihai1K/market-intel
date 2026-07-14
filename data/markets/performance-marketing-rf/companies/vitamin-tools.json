@@ -1,0 +1,29 @@
+{
+  "id": "vitamin-tools",
+  "name": "Vitamin.tools",
+  "legal_name": "ООО «Феникс-Маркетинг» (операционный бизнес, вероятно, переведён на другое юрлицо в 2025)",
+  "inn": "7725812838",
+  "website": "https://vitamin.tools",
+  "founded": 2013,
+  "segment": "кешбэк-сервис закупки рекламы",
+  "description": "Кешбэк до 18% с пополнений рекламы, зарабатывает на агентском вознаграждении площадок. Выручка юрлица (агентское вознаграждение) 319 млн ₽ (2024); в 2025 обвал до 1,1 млн и штат 60→7 — признак смены юрлица, преемник не идентифицирован.",
+  "revenue": [
+    { "value": 157, "unit": "млн руб", "period": "2021", "basis": "РСБУ (агентское вознаграждение)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 217, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 319, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1.1, "unit": "млн руб", "period": "2025", "basis": "РСБУ — вероятен перевод бизнеса на другое юрлицо", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -43, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": -3.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 60, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/feniks-marketing-5137746193239", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Кешбэк с пополнений", "price": "до 18% (уровневая шкала; при малых бюджетах ~5% — «кешбэк на бумаге» по отзыву)", "source_url": "https://vitamin.tools/", "retrieved_at": "2026-07-14" }
+  ],
+  "data_gaps": ["Юрлицо-преемник операционного бизнеса с 2025 не идентифицировано"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/8261050/bfo"],
+  "updated_at": "2026-07-14"
+}

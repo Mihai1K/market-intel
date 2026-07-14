@@ -1,0 +1,28 @@
+{
+  "id": "artics",
+  "name": "Артикс (Artics Internet Solutions)",
+  "legal_name": "ООО «Артикс ИС» (100% у АО «Эмджигруп» — группа MGCom)",
+  "inn": "7723828649",
+  "website": "https://www.artics.ru",
+  "founded": 2000,
+  "segment": "performance-агентство",
+  "description": "Агентство в периметре MGCom с 2018-2019. Выручка сжимается (8,6 → 4,5 млрд ₽ за 2021-2025), прибыль упала с 378 до 5 млн, штат сократился вдвое в 2025 — перераспределение внутри группы.",
+  "revenue": [
+    { "value": 8590, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит бюджетов)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 6337, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 5927, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 4463, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 378, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 5, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 134, "unit": "чел (среднесписочная)", "period": "2024", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/artiks-is-1127746122371", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 66, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/artiks-is-1127746122371", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Модель монетизации не раскрыта", "Не путать с ООО «Артикс» ИНН 7709940247 (другая компания)"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/1357620/bfo"],
+  "updated_at": "2026-07-14"
+}

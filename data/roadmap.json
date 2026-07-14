@@ -3,7 +3,7 @@
   "queue": [
     { "name": "HR-tech и поиск работы", "slug": "hr-tech-rf", "status": "done" },
     { "name": "Influencer marketing и реклама у блогеров", "slug": "influencer-marketing-rf", "status": "done" },
-    { "name": "Рекламные агентства и performance-маркетинг", "slug": null, "status": "todo" },
+    { "name": "Рекламные агентства и performance-маркетинг", "slug": "performance-marketing-rf", "status": "done" },
     { "name": "Автосервисы и авторемонт", "slug": null, "status": "todo" },
     { "name": "Юридические услуги (вкл. банкротство физлиц)", "slug": null, "status": "todo" },
     { "name": "Салоны красоты и бьюти-услуги", "slug": null, "status": "todo" },

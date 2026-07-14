@@ -1,0 +1,36 @@
+{
+  "market": "performance-marketing-rf",
+  "updated_at": "2026-07-14",
+  "workflows": [
+    {
+      "id": "agency",
+      "name": "Ведение клиента агентством контекстной рекламы",
+      "actor": "агентство",
+      "steps": [
+        { "name": "Бриф / пресейл", "status": "manual", "evidence": "Менеджер общается с клиентом, бриф заполняется вручную или со слов клиента", "evidence_url": "https://ppc.world/articles/kak-nachat-rabotu-s-agentstvom-kontekstnoy-reklamy-rukovodstvo-dlya-klientov/", "can_ai": true, "can_bot": true },
+        { "name": "Аудит кампаний и ниши", "status": "manual", "evidence": "Ручной многоэтапный разбор по чек-листу; анализ рынка, аудитории, конкурентов", "evidence_url": "https://convertmonster.ru/blog/kontekstnaya-reklama-blog/audit-reklamnyh-kampanij-i-kak-on-provoditsya/", "can_ai": true, "can_bot": true },
+        { "name": "Медиаплан и смета", "status": "semi", "evidence": "Вакансия директолога: «разработка медиапланов и управление бюджетами» — прогнозаторы систем + ручная сборка в таблице", "evidence_url": "https://www.superjob.ru/vakansii/direktolog-50394780.html", "can_ai": true, "can_bot": true },
+        { "name": "Настройка кампаний", "status": "semi", "evidence": "Семантика, структура, минус-слова, цели, UTM — типовой проект 3-5 рабочих дней; часть автоматизирована платформой (ЕПК, автотаргетинг)", "evidence_url": "https://m-context.ru/blog-monster-context/nastroyka-i-vedenie-yandeks-direkt/", "can_ai": true, "can_bot": true, "time_cost": "настройка одной поисковой кампании 6-8 часов вручную, ~1 час с AI", "time_cost_url": "https://vc.ru/ai/2953854-kak-bystro-nastroit-yandeks-direkt-s-pomoshchyu-ii" },
+        { "name": "Креативы и тексты объявлений", "status": "semi", "evidence": "Нейросеть Директа генерирует до 50 заголовков и ~20 объявлений, картинки — YandexART; человек выбирает и правит", "evidence_url": "https://yagla.ru/blog/kontekstnaya-reklama/kak-ii-yandeks-direkta-pomogaet-reklamodatelyam-obzor-vseh-aktualnyh-vozmojnostey--2602u99735/", "can_ai": true, "can_bot": true },
+        { "name": "Маркировка (ОРД, erid, ЕРИР)", "status": "semi", "evidence": "Внутри Директа автоматически, но контрагенты/договоры/ежемесячная разаллокация — вручную; в агентствах есть выделенный специалист по маркировке", "evidence_url": "https://dhprime.ru/blog/articles/zachem-nuzhen-spetsialist-po-markirovke-reklamy-i-nastroyke-otchetnosti-v-ord/", "can_ai": true, "can_bot": true },
+        { "name": "Ведение и оптимизация", "status": "semi", "evidence": "«Ежедневный мониторинг и корректировка ставок, чистка площадок»; еженедельно 5-15 минус-фраз; ставками управляют автостратегии — чёрный ящик", "evidence_url": "https://www.superjob.ru/vakansii/direktolog-50394780.html", "can_ai": true, "can_bot": true, "time_cost": "настройка — 20% работы, ведение — 80%; без сопровождения эффективность падает за 2-3 недели", "time_cost_url": "https://m-context.ru/blog-monster-context/nastroyka-i-vedenie-yandeks-direkt/" },
+        { "name": "Отчёт клиенту", "status": "semi", "evidence": "46% специалистов собирают отчёты вручную в Excel; выгрузки «по кнопке» есть, интерпретацию пишет человек", "evidence_url": "https://vc.ru/marketing/563051-607-digital-specialistov-besit-otvechat-na-vopros-gde-lidy-issledovanie", "can_ai": true, "can_bot": true },
+        { "name": "Согласование бюджета на след. месяц", "status": "manual", "evidence": "Переговорная работа аккаунт-менеджера, пересогласование медиаплана на период", "evidence_url": "https://ppc.world/articles/plan-reklamnoy-kampanii-kak-sostavit-mediaplan-primery-opyt-agentstv/", "can_ai": true, "can_bot": false },
+        { "name": "Закрывающие документы", "status": "semi", "evidence": "Яндекс формирует счёт/акт автоматически, агентство вручную собирает комплекты по каждому юрлицу", "evidence_url": "https://elama.ru/blog/kak-poluchit-zakryvayuschie-dokumenty-v-yandeks-direkte/", "can_ai": false, "can_bot": true }
+      ]
+    },
+    {
+      "id": "smb-self",
+      "name": "Самостоятельный запуск рекламы малым бизнесом",
+      "actor": "владелец СМБ",
+      "steps": [
+        { "name": "Выбор канала", "status": "manual", "evidence": "Владелец сам выбирает между Директом, Яндекс Бизнесом, VK — сравнительные гайды это подтверждают", "evidence_url": "https://creative.bz/blog/internet-reklama/yandex-business-vs-yandex-direct/", "can_ai": true, "can_bot": false },
+        { "name": "Настройка кабинета", "status": "manual", "evidence": "Регистрация, учётные данные, платёжные реквизиты — руками владельца", "evidence_url": "https://elama.ru/blog/kak-samostoyatelno-nastroit-reklamu-v-direkte-poshagovaya-instrukciya/", "can_ai": false, "can_bot": false },
+        { "name": "Создание кампании", "status": "semi", "evidence": "«Простой старт» — полный автомат (Яндекс настроит сам, можно без сайта); Мастер кампаний — 4 шага; с 04.2026 — ИИ-помощник в чате за ~10 минут", "evidence_url": "https://direct.yandex.ru/base/articles/zapusk-reklamy", "can_ai": true, "can_bot": true },
+        { "name": "Объявления и креативы", "status": "semi", "evidence": "«Объявления от нейросети»: до 50 вариантов текстов, изображения YandexART; пользователь выбирает", "evidence_url": "https://ppc.world/articles/yandexart-dlya-kampaniy-v-direkte-5-sposobov-primeneniya-i-rezultaty-testov/", "can_ai": true, "can_bot": true },
+        { "name": "Бюджет и оплата", "status": "semi", "evidence": "Автостратегия управляет ставками, бюджет и пополнение — вручную", "evidence_url": "https://elama.ru/blog/kak-samostoyatelno-nastroit-reklamu-v-direkte-poshagovaya-instrukciya/", "can_ai": true, "can_bot": false },
+        { "name": "Анализ результатов", "status": "semi", "evidence": "Метрика собирает статистику автоматически, но интерпретация за владельцем; без контроля Мастер кампаний сливает бюджет через автотаргетинг и РСЯ", "evidence_url": "https://reklama.tochka.com/blog/poshagovaja-nastrojka-reklamy-v-jandeks-direkt", "can_ai": true, "can_bot": true }
+      ]
+    }
+  ]
+}

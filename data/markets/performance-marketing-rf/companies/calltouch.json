@@ -1,0 +1,36 @@
+{
+  "id": "calltouch",
+  "name": "Calltouch",
+  "legal_name": "ООО «Колтач Солюшнс» (85% у «Манго Телеком» с 2020)",
+  "inn": "7703388936",
+  "website": "https://www.calltouch.ru",
+  "founded": 2012,
+  "segment": "коллтрекинг + сквозная аналитика (SaaS)",
+  "description": "Коллтрекинг №1: выручка 2,14 млрд ₽ (2025, +34%), прибыль 694 млн (маржа 32%), 386 сотрудников. Куплен «Манго Телеком» в 2020 (>1 млрд ₽) — слух про МТС опровергнут проверкой ЕГРЮЛ.",
+  "revenue": [
+    { "value": 726, "unit": "млн руб", "period": "2021", "basis": "РСБУ (SaaS + телефония)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1096, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1596, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 2140, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +34% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 214, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 265, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 694, "unit": "млн руб", "period": "2025", "basis": "РСБУ, маржа 32%", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 386, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/koltach-solyushns-1157746673040", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Аналитика → Enterprise", "price": "6 900 → 23 200 ₽/мес (+ номера и минуты отдельно)", "source_url": "https://www.calltouch.ru/", "retrieved_at": "2026-07-14" }
+  ],
+  "top_complaints": [
+    { "complaint": "Непрозрачное ценообразование — итоговая цена не видна заранее, нелинейный рост при масштабировании", "source_url": "https://top107.ru/saas/martech/calltouch-obzor/" }
+  ],
+  "funding": [
+    { "event": "«Манго Телеком» купил 100% группы Calltouch (СМИ: >1 млрд ₽); сейчас 85% Манго + 15% Инвестпро", "date": "2020-09", "source_url": "https://www.vedomosti.ru/press_releases/2020/09/24/mango-telekom-priobrel-servis-calltouch" }
+  ],
+  "data_gaps": [],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/9327396/bfo"],
+  "updated_at": "2026-07-14"
+}

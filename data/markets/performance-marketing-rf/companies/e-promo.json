@@ -1,0 +1,30 @@
+{
+  "id": "e-promo",
+  "name": "E-Promo",
+  "legal_name": "ООО «Е-Промо» (основатель 52,25% + АО «Эмджигруп» 42,75%)",
+  "inn": "5260246781",
+  "website": "https://www.e-promo.ru",
+  "founded": 2009,
+  "segment": "performance-агентство",
+  "description": "Нижегородская группа E-Promo Group (~10 брендов, 300+ человек в группе). Их исследования медиаинфляции (CPA +16,2%) — отраслевой стандарт. Численность юрлица падает (87→39) — распределение по юрлицам группы.",
+  "revenue": [
+    { "value": 1749, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1862, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 2820, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 2609, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 73, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 256, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 92, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 39, "unit": "чел (среднесписочная, только юрлицо)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/e-promo-1095260001649", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "2018-2019: вошла в периметр MGCom (сейчас блокирующая доля 42,75% у АО «Эмджигруп»)", "date": "2018-2019", "source_url": "https://www.kommersant.ru/doc/4258674" }
+  ],
+  "data_gaps": ["Консолидация группы E-Promo Group не публикуется"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/1894070/bfo"],
+  "updated_at": "2026-07-14"
+}

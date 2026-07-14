@@ -1,0 +1,33 @@
+{
+  "id": "roistat",
+  "name": "Roistat",
+  "legal_name": "ООО «Бизнес-Аналитика» (резидент Сколково)",
+  "inn": "7709973919",
+  "website": "https://roistat.com",
+  "founded": 2014,
+  "segment": "сквозная аналитика (SaaS)",
+  "description": "Лидер сквозной аналитики: подписочная выручка 1,16 млрд ₽ (2025), 368 сотрудников. Прибыль 2025 −40% при росте выручки. Жалобы клиентов: дорого для малого бизнеса (от 6 500 ₽/мес + опции).",
+  "revenue": [
+    { "value": 706, "unit": "млн руб", "period": "2021", "basis": "РСБУ (SaaS, без транзита)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 923, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1015, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1157, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 159, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 158, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 95, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 368, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/biznes-analitika-1167746871984", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Стартовый → Премиум", "price": "6 500 → 40 400 ₽/мес (годовая скидка до 30%)", "source_url": "https://roistat.com/ru/price/", "retrieved_at": "2026-07-14" }
+  ],
+  "top_complaints": [
+    { "complaint": "Дорого для малого бизнеса; после теста автоматически включается более дорогой тариф", "source_url": "https://crmindex.ru/services/roistat" }
+  ],
+  "data_gaps": [],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/9919061/bfo"],
+  "updated_at": "2026-07-14"
+}

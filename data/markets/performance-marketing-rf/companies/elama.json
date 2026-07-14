@@ -1,0 +1,28 @@
+{
+  "id": "elama",
+  "name": "eLama",
+  "legal_name": "ООО «АДВ-Сервис» (в ликвидации; бизнес переведён в Яндекс)",
+  "inn": "7810704382",
+  "website": "https://elama.ru",
+  "founded": 2008,
+  "segment": "управление рекламой + кешбэк (куплен Яндексом)",
+  "description": "Единый счёт для 25 рекламных систем, автомаркировка, партнёрка до 20% оборота. Куплена Яндексом в июне 2024 (оценка СМИ 10-15 млрд ₽) — эталонный exit сегмента. Юрлицо сворачивается: выручка 28 млрд (2024) → 0,1 млн (2025), штат 135→2.",
+  "revenue": [
+    { "value": 27407, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит рекламных бюджетов)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/10350118/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 39394, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/10350118/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 28088, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/10350118/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 1542, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/10350118/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 1824, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/10350118/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 235, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/adv-servis-1177847285967", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "Яндекс закрыл покупку eLama; оценка СМИ 10-15 млрд ₽", "date": "2024-06", "source_url": "https://yandex.ru/company/news/01-13-06-2024" }
+  ],
+  "data_gaps": ["После сделки клиенты переведены на юрлица Яндекса — метрики продукта внутри Яндекса не раскрываются"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/10350118/bfo"],
+  "updated_at": "2026-07-14"
+}

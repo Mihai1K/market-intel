@@ -1,0 +1,29 @@
+{
+  "id": "k50",
+  "name": "K50",
+  "legal_name": "ООО «К50» (100% у структуры Яндекса с 2020)",
+  "inn": "7729751632",
+  "website": "https://k50.ru",
+  "founded": 2013,
+  "segment": "оптимизатор ставок (куплен Яндексом)",
+  "description": "Оптимизатор для профессионалов, куплен Яндексом в 2020. Юрлицо усыхает (выручка 167→94 млн, штат 38→10) — команда и продукт растворяются в Яндексе. Урок: платформа поглощает надстройки над собой.",
+  "revenue": [
+    { "value": 167, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 138, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 94, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -162, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 33, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 4, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 10, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/k50-1137746863737", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "Яндекс купил 100% K50 у AddVenture и менеджмента", "date": "2020-10", "source_url": "https://www.vedomosti.ru/business/news/2020/10/09/842680-yandeks-soobschil-o-pokupke-reklamnoi-platformi-k50" }
+  ],
+  "data_gaps": ["Цифры юрлица не отражают ценность продукта внутри Яндекса", "Тарифы k50.ru/tariffs не извлеклись (динамическая страница)"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/8099958/bfo"],
+  "updated_at": "2026-07-14"
+}

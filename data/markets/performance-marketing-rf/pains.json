@@ -1,0 +1,494 @@
+{
+  "market": "performance-marketing-rf",
+  "updated_at": "2026-07-14",
+  "pains": [
+    {
+      "id": "sliv-budgeta-bez-lidov",
+      "statement": "СМБ заливает деньги в Директ (часто через подрядчика) и не получает заявок — «потратили 100 тысяч, лидов ноль»; тема стабильно в топе обсуждений vc.ru",
+      "role": "клиент-СМБ",
+      "mentions_found": 12,
+      "links": [
+        "https://vc.ru/marketing/560636-zapustil-yandeks-direkt-slil-byudzhet-a-rezultata-net-chto-delat-i-kto-vinovat",
+        "https://vc.ru/marketing/424644-kak-nastroit-poisk-v-yandeks-direkt-tak-chtoby-ne-slit-byudzhet-ili-zakinul-v-direkt-100-tysyach-a-lidov-ne-poluchil",
+        "https://vc.ru/marketing/2734675-pochemu-b2b-kompanii-terayut-byudjet-v-yandeks-direkte",
+        "https://adwheel.ru/blog/glavnaja-oshibka-ocenki/"
+      ],
+      "search_period": "2022-2026",
+      "who_pays_now": "Аудиторам 5 000-35 000 ₽ за разбор, следующему подрядчику 10 000-25 000 ₽/мес за ведение",
+      "why_unsolved": "Результат зависит от настройки, продукта, сайта и отдела продаж сразу; виноватого не определить, стандарта качества и ответственности подрядчика нет",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 2,
+      "quotes": [
+        { "text": "Запустил рекламу, слил бюджет, а заявок ноль", "source_url": "https://vc.ru/marketing/560636-zapustil-yandeks-direkt-slil-byudzhet-a-rezultata-net-chto-delat-i-kto-vinovat" }
+      ]
+    },
+    {
+      "id": "lidy-est-prodazh-net",
+      "statement": "Подрядчик отчитывается «100 лидов по 500 ₽», но половина заявок нецелевые, продаж нет: директолог считает клики, а не деньги клиента",
+      "role": "клиент-СМБ",
+      "mentions_found": 6,
+      "links": [
+        "https://vc.ru/marketing/2608850-kak-izbezhat-sliv-budjeta-v-yandeks-direkte",
+        "https://adwheel.ru/blog/glavnaja-oshibka-ocenki/",
+        "https://workspace.ru/blog/kak-umenshit-kolichestvo-nekachestvennyh-feykovyh-zayavok-s-reklamy/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Сквозная аналитика: Roistat от 6 500 ₽/мес, Calltouch от 6 900 ₽/мес — для СМБ часто избыточно и дорого",
+      "why_unsolved": "Связка «реклама → CRM → деньги» требует внедрения и дисциплины продаж; подрядчику невыгодно показывать реальную конверсию",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web", "api"], "difficulty": 3,
+      "quotes": [
+        { "text": "Если агентству платят за клики, ему невыгодно думать о сделках", "source_url": "https://adwheel.ru/blog/glavnaja-oshibka-ocenki/" }
+      ]
+    },
+    {
+      "id": "neprozrachnye-otchety-agentstv",
+      "statement": "Отчёты агентств — выгрузки из кабинетов, из которых клиент не понимает, что сделано и какой результат для бизнеса",
+      "role": "клиент-СМБ",
+      "mentions_found": 5,
+      "links": [
+        "https://www.rush-agency.ru/blog/smi/kak-delat-otchety-za-kotorye-ne-stydno/",
+        "https://www.sostav.ru/blogs/284897/70740",
+        "https://vc.ru/marketing/563051-607-digital-specialistov-besit-otvechat-na-vopros-gde-lidy-issledovanie"
+      ],
+      "search_period": "2022-2026",
+      "who_pays_now": "Дашборды и автоотчёты (ROMI center 2 400-20 000 ₽/мес), независимые аудиты от 5 000 ₽",
+      "why_unsolved": "46% специалистов собирают отчёты вручную в Excel; агентствам невыгодно показывать неудобные цифры, стандарта нет",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 2,
+      "quotes": [
+        { "text": "Куда ушли деньги и какой выхлоп она дала бизнесу, остается секретом", "source_url": "https://www.rush-agency.ru/blog/smi/kak-delat-otchety-za-kotorye-ne-stydno/" }
+      ]
+    },
+    {
+      "id": "procent-ot-budgeta-konflikt",
+      "statement": "Агентства берут 10-20% от бюджета и получают вознаграждение от Яндекса — им выгодно наращивать открутку, а не эффективность",
+      "role": "клиент-СМБ",
+      "mentions_found": 5,
+      "links": [
+        "https://ksonline.ru/604325/konflikt-interesov-pochemu-biznes-teryaet-milliony-na-neeffektivnoj-reklame-v-yandeks-direkt/",
+        "https://www.cossa.ru/trends/130133/",
+        "https://vc.ru/legal/172577-kak-digital-agentstvu-na-usn-poluchat-komissiyu-ot-yandeksa-i-davat-klientam-vhodyashii-nds-s-reklamnogo-byudzheta"
+      ],
+      "search_period": "2020-2026",
+      "who_pays_now": "Клиенты переходят на fix-fee/KPI-модели и платят независимым аудиторам 5-35 тыс ₽",
+      "why_unsolved": "Комиссия от бюджета — основа экономики агентств; клиент без экспертизы не оценит, оправдан ли рост бюджета",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 3,
+      "quotes": [
+        { "text": "Конфликт интересов в сфере настройки контекстной рекламы — это системная проблема", "source_url": "https://ksonline.ru/604325/konflikt-interesov-pochemu-biznes-teryaet-milliony-na-neeffektivnoj-reklame-v-yandeks-direkt/" }
+      ]
+    },
+    {
+      "id": "slozhno-proverit-podryadchika",
+      "statement": "У владельца СМБ нет способа проверить качество работы директолога — рынок независимых аудитов существует именно поэтому, но аудитор сам хочет забрать клиента",
+      "role": "клиент-СМБ",
+      "mentions_found": 8,
+      "links": [
+        "https://vc.ru/marketing/2177455-audit-reklamnyh-kampanij-yandeks-direkt",
+        "https://ksonline.ru/604325/konflikt-interesov-pochemu-biznes-teryaet-milliony-na-neeffektivnoj-reklame-v-yandeks-direkt/",
+        "https://vc.ru/marketing/2898386-kak-vybrat-agentstvo-po-yandeks-direkt"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Разовые аудиты 5 000-35 000 ₽; бесплатные аудиты — лид-магниты конкурентов и потому предвзяты",
+      "why_unsolved": "Объективной сертификации подрядчиков нет; каждый аудитор заинтересован в продаже своего ведения",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 2,
+      "quotes": [
+        { "text": "Более 50% компаний сталкивались с неквалифицированными исполнителями", "source_url": "https://ksonline.ru/604325/konflikt-interesov-pochemu-biznes-teryaet-milliony-na-neeffektivnoj-reklame-v-yandeks-direkt/" }
+      ]
+    },
+    {
+      "id": "dorogoy-klik-v-directe",
+      "statement": "Перегретый аукцион Директа: CPC +22% за год (в нишах +20-90%), CTR падает — для многих ниш СМБ экономика рекламы перестала сходиться",
+      "role": "клиент-СМБ",
+      "mentions_found": 9,
+      "links": [
+        "https://blog.click.ru/analytics/god-reklamy-v-cifrax-kak-izmenilis-cpc-ctr-i-cpm/",
+        "https://vc.ru/marketing/2800687-peregretyi-yandeks-direkt-v-2026-godu",
+        "https://www.demis.ru/articles/skolko-stoit-klik-v-yandeks-direkt/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Просто платят Яндексу больше; часть платит за оптимизацию и антифрод, часть уходит в SEO/VK/retail media",
+      "why_unsolved": "Структурная концентрация спроса в одном аукционе при ограниченном инвентаре",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": [
+        { "text": "Средняя цена клика выросла на 20-90% в зависимости от тематики", "source_url": "https://vc.ru/marketing/2800687-peregretyi-yandeks-direkt-v-2026-godu" }
+      ]
+    },
+    {
+      "id": "frod-lidy-i-sklikivanie",
+      "statement": "Боты и фейковые заявки съедают бюджет, ломают аналитику и обучение автостратегий; обострилось с моделью оплаты за конверсии",
+      "role": "клиент-СМБ",
+      "mentions_found": 10,
+      "links": [
+        "https://www.sostav.ru/blogs/280342/57307",
+        "https://workspace.ru/blog/frod-i-dorogie-zayavki-v-yandeks-direkte-chto-delat-poshagovaya-instrukciya-2025-goda/",
+        "https://vc.ru/marketing/1679128-kak-pobedit-frod-v-yandeks-direkte-nuzhno-vsego-lish"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Антифрод-сервисы: Botfaqtor от 2 500 ₽/мес, ClickFraud от 2 900 ₽/мес, средний сегмент 4-7 тыс ₽/мес",
+      "why_unsolved": "Полностью исключить фрод невозможно; Яндекс возвращает лишь часть, площадка зарабатывает на каждом клике",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web", "api"], "difficulty": 3,
+      "quotes": [
+        { "text": "Они съедают бюджет, искажают аналитику и демотивируют команду", "source_url": "https://www.sostav.ru/blogs/280342/57307" }
+      ]
+    },
+    {
+      "id": "zavisimost-ot-directa",
+      "statement": "После ухода Google Ads и Meta бизнес зависит от единственного performance-канала — любое изменение алгоритма Директа бьёт по всей выручке",
+      "role": "клиент-СМБ",
+      "mentions_found": 6,
+      "links": [
+        "https://vc.ru/marketing/2800687-peregretyi-yandeks-direkt-v-2026-godu",
+        "https://blog.click.ru/growthhacking/11-alternativ-yandeks-i-google/",
+        "https://texterra.ru/blog/analogi-yandeks-direkta.html"
+      ],
+      "search_period": "2022-2026",
+      "who_pays_now": "Тесты альтернатив (VK, Avito, Telegram Ads, SEO) через тех же подрядчиков",
+      "why_unsolved": "Сопоставимого горячего поискового спроса в РФ нет; альтернативы холоднее и требуют других компетенций",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "obeschaniya-bez-otvetstvennosti",
+      "statement": "Агентства продают «гарантированный результат», но по договору отвечают только за процесс; в отзывах повторяется «обещали — результата ноль»",
+      "role": "клиент-СМБ",
+      "mentions_found": 5,
+      "links": [
+        "https://workspace.ru/reviews/ppc/",
+        "https://www.calltouch.ru/blog/pravilno-li-davat-garantii-po-privlecheniyu-lidov-i-sdelok/",
+        "https://vc.ru/marketing/756936-garantii-targetologa-ili-kak-vybrat-targetologa-v-2023-godu"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Часть уходит в CPA «оплата за лид», где риск фрода ещё выше",
+      "why_unsolved": "Специалист не контролирует продукт и продажи клиента — честные гарантий не дают, обещают недобросовестные",
+      "automatable": false, "ai_possible": false, "saas_possible": false, "channel": [], "difficulty": 4,
+      "quotes": [
+        { "text": "Обещали результат, рассказывали о имеющемся опыте, а в итоге — результата 0", "source_url": "https://workspace.ru/reviews/ppc/" }
+      ]
+    },
+    {
+      "id": "agentstva-ne-berut-malenkie-budgety",
+      "statement": "С бюджетом 10-50 тыс ₽/мес СМБ неинтересен агентствам: минимальные чеки ведения сопоставимы с самим рекламным бюджетом; остаются Kwork-лотерея или Яндекс Бизнес",
+      "role": "клиент-СМБ",
+      "mentions_found": 5,
+      "links": [
+        "https://vc.ru/marketing/2122224-chastnyy-direktolog-v-2025-godu",
+        "https://elama.ru/blog/reklama-smb-schego-nachat-ikak-zarabatyvat-aneteryat/",
+        "https://vc.ru/marketing/1423004-yandeks-direkt-dlya-malogo-biznesa-kak-effektivno-ispolzovat-ogranichennyi-byudzhet"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Kwork от 500 ₽ за настройку (лотерея), Яндекс Бизнес (отзывы: «ни одного клиента»), курсы «сам себе директолог»",
+      "why_unsolved": "Экономика ручного ведения малых аккаунтов не сходится; автоматические решения Яндекса непрозрачны и сливают бюджет",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web", "telegram"], "difficulty": 2,
+      "quotes": [
+        { "text": "Агентства берут от 30 000 рублей только за запуск", "source_url": "https://vc.ru/marketing/2122224-chastnyy-direktolog-v-2025-godu" }
+      ]
+    },
+    {
+      "id": "blokirovka-akkaunta-direct",
+      "statement": "Яндекс блокирует рекламные аккаунты без объяснения причин; кампании встают, восстановление почти невозможно, апеллировать некуда",
+      "role": "клиент-СМБ",
+      "mentions_found": 7,
+      "links": [
+        "https://ppc.world/articles/pochemu-yandeks-direkt-zablokirovan-prichiny-i-sposoby-vernut-akkaunt/",
+        "https://elama.ru/blog/zablokirovan-akkaunt-v-yandeks-direkte-chto-delat-i-kak-vosstanovit-dostup/",
+        "https://qna.habr.com/q/1084702"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Агентствам/реселлерам за перезапуск и ведение через агентские кабинеты",
+      "why_unsolved": "Монополия площадки: SLA поддержки нет, правила модерации непрозрачны",
+      "automatable": false, "ai_possible": false, "saas_possible": false, "channel": [], "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "vk-reklama-ne-zamenila-metu",
+      "statement": "VK Реклама не заменила ушедший таргет: трафик холодный, лид дороже поискового, малому бизнесу сложно окупиться — даже 1,8 млрд бонусных рублей не помогают",
+      "role": "клиент-СМБ",
+      "mentions_found": 4,
+      "links": [
+        "https://vc.ru/money/2607842-vk-reklama-i-dorogie-lidy",
+        "https://blog.maed.ru/novice/vk-reklama/",
+        "https://www.vedomosti.ru/business/news/2026/02/26/1179231-srednii-malii-biznes"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Таргетологам 10-30 тыс ₽/мес за тесты; VK субсидирует бонусами",
+      "why_unsolved": "VK — развлекательная лента без горячего спроса",
+      "automatable": false, "ai_possible": true, "saas_possible": false, "channel": [], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "krizis-doveriya",
+      "statement": "Кризис доверия клиент-подрядчик: бизнес стал на 33% чаще проверять агентства перед сделкой; отзывы накручиваются, рейтинги монетизируют участников",
+      "role": "клиент-СМБ",
+      "mentions_found": 5,
+      "links": [
+        "https://www.sostav.ru/blogs/285528/81569",
+        "https://skillbox.ru/media/marketing/na-rynke-marketinga-krizis-doveriya-biznes-stal-chasche-proveryat-podryadchikov/",
+        "https://workspace.ru/blog/as-customers-choose-contractors-in-the-digital/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Проверки (Rusprofile, юристы), агентства платят рейтингам за репутацию",
+      "why_unsolved": "Объективной метрики качества подрядчика нет; сайты-отзовики вымогают деньги за удаление негатива",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": [
+        { "text": "Бизнес стал проверять подрядчиков по маркетингу на 33% чаще", "source_url": "https://www.sostav.ru/blogs/285528/81569" }
+      ]
+    },
+    {
+      "id": "rost-cpl-po-vsem-kanalam",
+      "statement": "Стоимость лида растёт по всем каналам быстрее инфляции: CPA +16,2% за 2025 (недвижимость +34%), CPC Директа +22%",
+      "role": "клиент-СМБ",
+      "mentions_found": 8,
+      "links": [
+        "https://blog.click.ru/market-news/v-2025-godu-cpa-stoimost-celevogo-dejstviya-vyrosla-na-16/",
+        "https://blog.click.ru/analytics/god-reklamy-v-cifrax-kak-izmenilis-cpc-ctr-i-cpm/",
+        "https://www.calltouch.ru/blog/bez-tyuninga-realnyj-cpl-v-industrii-avto-issledovanie-calltouch-2025/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Ростом бюджетов; часть перекладывает в CRM-маркетинг (клиент из базы до 18 раз дешевле)",
+      "why_unsolved": "Конкуренция за сжатый инвентарь + налоги/сборы 2025 + удлинение пути клиента",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "demping-i-padenie-marzhi",
+      "statement": "Демпинг (настройка от 500 ₽ на биржах) и рост издержек сжимают маржу агентств; классическая модель перестаёт окупаться, рынок консолидируется",
+      "role": "агентство",
+      "mentions_found": 7,
+      "links": [
+        "https://www.sostav.ru/publication/estestvennyj-otbor-v-brendinge-rynok-prokhodit-stadiyu-strukturnoj-peresborki-84860.html",
+        "https://kwork.ru/land/nastroyka-yandeks-direkt",
+        "https://www.comnews.ru/digital-economy/content/237046/2025-01-09/2025-w02/1012/reyting-runeta-kolichestvo-digital-podryadchikov-rossii-umenshitsya-blizhayshie-dva-goda"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Агентства платят рейтингам и площадкам за лидоген; укрупняются или закрываются",
+      "why_unsolved": "Нулевой порог входа в профессию постоянно воспроизводит демпинг",
+      "automatable": false, "ai_possible": false, "saas_possible": false, "channel": [], "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "kassovye-razryvy-postoplata",
+      "statement": "Агентства платят площадкам авансом, клиенты рассчитываются постоплатой 30-90 дней — хронические кассовые разрывы при дорогом заёмном покрытии",
+      "role": "агентство",
+      "mentions_found": 6,
+      "links": [
+        "https://companies.rbc.ru/news/LB4D6tvNSX/kassovyij-razryiv-v-agentstve-chto-obsudit-s-finansistom/",
+        "https://sberfactoring.ru/blog/kassovye-razryvy-pochemu-oni-voznikayut-i-kak-ikh-ustranit/",
+        "https://adesk.ru/blog/polnyi-gaid-po-kassovym-razryvam-shest-glavnykh-prichin-i-piat-sposobov-ustraneniia/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Факторинг, овердрафты по рыночным ставкам, сервисы финучёта (~3 000 ₽/мес)",
+      "why_unsolved": "Крупные клиенты диктуют отсрочки; при высокой ставке заёмное покрытие съедает маржу",
+      "automatable": true, "ai_possible": false, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": [
+        { "text": "Кассовый разрыв неминуемо бьет по выплатам команде", "source_url": "https://companies.rbc.ru/news/LB4D6tvNSX/kassovyij-razryiv-v-agentstve-chto-obsudit-s-finansistom/" }
+      ]
+    },
+    {
+      "id": "neplatezhi-klientov-frilans",
+      "statement": "Фрилансеры-директологи регулярно остаются без оплаты: заказчик принимает работу и пропадает; работа часто без договора, суммы меньше стоимости взыскания",
+      "role": "специалист",
+      "mentions_found": 8,
+      "links": [
+        "https://vc.ru/yandex_direct/1034492-chto-delat-esli-klient-zakazchik-ne-platit",
+        "https://forum.weblancer.net/obshenie-7/chto-delat-esli-zakazchik-ne-hochet-platity-110857/",
+        "https://news.pressfeed.ru/kak-frilanseru-ne-ostatsya-bez-deneg-ot-zakazchika-istorii-sovety-yuristov-i-poleznye-materialy/"
+      ],
+      "search_period": "2016-2026",
+      "who_pays_now": "Комиссии бирж за «безопасную сделку» (Kwork ~20% с исполнителя); большинство списывает долг",
+      "why_unsolved": "Суммы 10-50 тыс ₽ меньше стоимости суда; предоплата отпугивает клиентов на демпинговом рынке",
+      "automatable": true, "ai_possible": false, "saas_possible": true, "channel": ["web", "telegram"], "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "tekuchka-i-deficit-specialistov",
+      "statement": "Текучка ускорилась до 25%, закрытие вакансии подорожало до 45-350 тыс ₽; агентства теряют людей в инхаус-команды клиентов",
+      "role": "агентство",
+      "mentions_found": 6,
+      "links": [
+        "https://www.cnews.ru/news/line/2025-05-30_tekuchka_kadrov_v_rossijskih",
+        "https://www.sostav.ru/blogs/277256/57663",
+        "https://tenchat.ru/media/3977093-krizis-nayma-2025-pochemu-situatsiya-khuzhe-chem-v-2024-i-chto-budet-k-2030-godu"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "HR-бюджеты, джоб-борды, кадровые агентства",
+      "why_unsolved": "Агентские зарплаты проигрывают инхаусу, 77% работодателей называют причиной выгорание",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "ruchnaya-otchetnost-rutina",
+      "statement": "Специалисты тратят 1-4 часа в день на рутину — отчёты, разметку, ставки; 46% сводят отчёты клиентам вручную в Excel, 93% отмечают вред рутины",
+      "role": "специалист",
+      "mentions_found": 5,
+      "links": [
+        "https://vc.ru/marketing/563051-607-digital-specialistov-besit-otvechat-na-vopros-gde-lidy-issledovanie",
+        "https://www.carrotquest.io/blog/kak-rutinnye-zadachi-mogut-ubit-kareru-marketologa-i-pribyl-ego-kompanii/",
+        "https://target.vk.ru/pro/articles/datafan"
+      ],
+      "search_period": "2022-2026",
+      "who_pays_now": "Автоотчёты: ROMI center 2 400-20 000 ₽/мес, DataFan; дашборды DataLens руками",
+      "why_unsolved": "Данные разбросаны по кабинетам/CRM/коллтрекингу, интеграции ломаются, каждый клиент требует свой формат",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web", "api"], "difficulty": 2,
+      "quotes": [
+        { "text": "60,7% digital-специалистов бесит отвечать на вопрос «Где лиды?»", "source_url": "https://vc.ru/marketing/563051-607-digital-specialistov-besit-otvechat-na-vopros-gde-lidy-issledovanie" }
+      ]
+    },
+    {
+      "id": "klienty-uhodyat-inhouse",
+      "statement": "Рекламодатели забирают маркетинг инхаус ради прозрачности: гибрид вырос до 46% компаний, чистый аутсорс сжался до 22%",
+      "role": "агентство",
+      "mentions_found": 6,
+      "links": [
+        "https://www.sostav.ru/publication/anna-bazdyreva-agency-e-promo-inkhaus-ili-autsors-trendy-digital-rynka-48489.html",
+        "https://www.sostav.ru/blogs/287951/86613",
+        "https://adindex.ru/publication/opinion/digital/2025/08/21/336404.phtml"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Заказчики — зарплатами инхаус-команд; агентства — инвестициями в скорость и сервис",
+      "why_unsolved": "Первично недоверие к прозрачности агентств",
+      "automatable": false, "ai_possible": false, "saas_possible": false, "channel": [], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "rost-cpc-lomaet-kpi",
+      "statement": "Трафик дорожает быстрее бюджетов клиентов: агентство не выполняет прошлогодние KPI по CPL, клиент считает это плохой работой подрядчика",
+      "role": "агентство",
+      "mentions_found": 5,
+      "links": [
+        "https://blog.click.ru/market-news/v-2025-godu-cpa-stoimost-celevogo-dejstviya-vyrosla-na-16/",
+        "https://m.seonews.ru/events/kak-izmenilas-tsena-klika-i-tselevogo-deystviya-v-pervom-kvartale-2025-goda-issledovanie/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Временем на пересогласование KPI и удержание клиентов",
+      "why_unsolved": "Инфляция аукциона — внешний фактор, за который подрядчик отвечает перед клиентом",
+      "automatable": false, "ai_possible": true, "saas_possible": false, "channel": [], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "avtostrategii-chernyi-yaschik",
+      "statement": "Автостратегии Директа — чёрный ящик: изменение отправляет кампанию на переобучение, опыт обнуляется, заявки пропадают внезапно; у СМБ не хватает конверсий для обучения ML",
+      "role": "специалист",
+      "mentions_found": 8,
+      "links": [
+        "https://habr.com/ru/articles/794662/",
+        "https://habr.com/ru/articles/764008/",
+        "https://yagla.ru/blog/kontekstnaya-reklama/glavnye-slojnosti-v-rabote-direktologa-i-kak-ih-preodolet--2408u99870/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Обучением и консультациями; бизнес — сливами на «переобучении»; сервисы виртуальных конверсий",
+      "why_unsolved": "Яндекс сознательно закрывает логику алгоритмов и убирает ручной контроль",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": [
+        { "text": "Предыдущий опыт обнулился", "source_url": "https://habr.com/ru/articles/794662/" }
+      ]
+    },
+    {
+      "id": "avtomatizaciya-otbiraet-rabotu",
+      "statement": "Директ принудительно автоматизируется (автостратегии, автотаргетинг, ИИ-помощник запускает кампании в чате) — ценность ручного труда директолога падает",
+      "role": "специалист",
+      "mentions_found": 6,
+      "links": [
+        "https://yagla.ru/blog/kontekstnaya-reklama/kak-ii-yandeks-direkta-pomogaet-reklamodatelyam-obzor-vseh-aktualnyh-vozmojnostey--2602u99735/",
+        "https://on-context.ru/articles/avtostrategiya-direkt-byit-ili-ne-byit-ruchnomu-upravleniyu",
+        "https://yandex.ru/company/news/15-04-2026-02"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Переквалификацией: курсы 30-150 тыс ₽; смещение в стратегию, аналитику, креатив",
+      "why_unsolved": "Автоматизация выгодна Яндексу — тренд необратим",
+      "automatable": false, "ai_possible": false, "saas_possible": false, "channel": [], "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "markirovka-kazhdogo-kreativa",
+      "statement": "Маркировка каждого креатива через ОРД (токены, ККТУ, отчёты ЕРИР) — постоянная ручная нагрузка; ОРД стали платными (1% бюджета, мин. 5-7 тыс ₽/мес), штрафы до 500 тыс ₽",
+      "role": "агентство",
+      "mentions_found": 9,
+      "links": [
+        "https://ppc.world/articles/tarify-raznyh-ord-na-markirovku-reklamy-chem-otlichayutsya-i-kak-vybrat/",
+        "https://blog.click.ru/markirovka-reklamy/skolko-stoyat-uslugi-ord/",
+        "https://ppc.world/news/pri-registracii-kreativa-teper-nuzhno-ukazyvat-kod-kktu-v-reklame/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "ОРД-тарифы + часы аккаунт-менеджеров; в агентствах — выделенный специалист по маркировке",
+      "why_unsolved": "Требование закона, правила растут (ККТУ с 2025); посевы и блогеров маркируют руками",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web", "api"], "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "sbor-3-procenta",
+      "statement": "Сбор 3% с дохода от интернет-рекламы лёг на цепочку «площадка-агентство-клиент»; вместе с маркировкой поднял цены на 10-25% и урезал маржу",
+      "role": "агентство",
+      "mentions_found": 7,
+      "links": [
+        "https://elama.ru/blog/faq-po-sboru-3-za-dohod-ot-reklamy-otvechayut-eksperty-elama/",
+        "https://www.comnews.ru/content/238559/2025-04-01/2025-w14/1008/stoimost-razmescheniya-reklamy-internete-vyrastet-20-25-2025-g",
+        "https://www.sostav.ru/publication/po-tsepochke-kto-platit-3-obyazatelnykh-otchislenij-ot-reklamy-77147.html"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "В итоге рекламодатель: агентства перевыставляют 3% плюс 1-2% «за риски»",
+      "why_unsolved": "Государственный сбор; спорные вопросы базы расчёта создают налоговые риски",
+      "automatable": true, "ai_possible": false, "saas_possible": true, "channel": ["web"], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "klienty-trebuyut-garantiy",
+      "statement": "Клиенты требуют гарантий лидов, но специалист не контролирует продукт и продажи — честный отказ проигрывает обещаниям недобросовестных",
+      "role": "специалист",
+      "mentions_found": 5,
+      "links": [
+        "https://www.calltouch.ru/blog/pravilno-li-davat-garantii-po-privlecheniyu-lidov-i-sdelok/",
+        "https://vc.ru/marketing/756936-garantii-targetologa-ili-kak-vybrat-targetologa-v-2023-godu"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Бесплатными тестами и скидками; часть уходит к лидогенераторам с оплатой за результат",
+      "why_unsolved": "Информационная асимметрия до первой траты бюджета",
+      "automatable": false, "ai_possible": true, "saas_possible": false, "channel": [], "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "slozhno-prodavat-uslugi",
+      "statement": "Главная сложность директолога — не настройка, а продажа своих услуг на рынке, переполненном выпускниками курсов; биржи усиливают ценовую конкуренцию",
+      "role": "специалист",
+      "mentions_found": 5,
+      "links": [
+        "https://yagla.ru/blog/kontekstnaya-reklama/glavnye-slojnosti-v-rabote-direktologa-i-kak-ih-preodolet--2408u99870/",
+        "https://habr.com/ru/articles/781038/",
+        "https://vc.ru/services/162498-lichnyi-opyt-poisk-klientov-cherez-birzhi-dlya-frilanserov"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Комиссии бирж (~20%), платное продвижение, личный бренд (время)",
+      "why_unsolved": "Предложение растёт быстрее спроса; биржи конкурируют ценой, а не экспертизой",
+      "automatable": false, "ai_possible": true, "saas_possible": true, "channel": ["web", "telegram"], "difficulty": 3,
+      "quotes": [
+        { "text": "Биржа неумолима и любая конкуренция порождает демпинг", "source_url": "https://vc.ru/services/162498-lichnyi-opyt-poisk-klientov-cherez-birzhi-dlya-frilanserov" }
+      ]
+    },
+    {
+      "id": "retail-media-ottyagivaet-budgety",
+      "statement": "Маркетплейсы заработали на рекламе 500-600 млрд ₽ (2025) и оттягивают бюджеты у классического performance; селлерам внутри WB/Ozon нужны другие компетенции, клик там тоже +20-30%",
+      "role": "агентство",
+      "mentions_found": 7,
+      "links": [
+        "https://www.sostav.ru/publication/wildberries-ozon-i-yandeks-market-zarabotali-na-reklame-do-600-mlrd-rublej-83105.html",
+        "https://oborot.ru/news/summarnaya-reklamnaya-vyruchka-wildberries-ozon-i-yandeks-market-v-2025-godu-prevysila-500-mlrd-rublej-i267915.html",
+        "https://adpass.ru/marketpleisy-zarabotali-na-reklame-500-mldr/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Селлеры: 805 млрд ₽ расходов на e-retail media за 2025; Ozon поднял минимальный недельный бюджет продвижения до 14 000 ₽",
+      "why_unsolved": "Трафик и покупка внутри маркетплейсов; классическим агентствам там мало места — компетенция только формируется",
+      "automatable": true, "ai_possible": true, "saas_possible": true, "channel": ["web", "api"], "difficulty": 3,
+      "quotes": [
+        { "text": "Площадки монетизируют уже сформированный трафик, продавая селлерам видимость", "source_url": "https://www.sostav.ru/publication/wildberries-ozon-i-yandeks-market-zarabotali-na-reklame-do-600-mlrd-rublej-83105.html" }
+      ]
+    }
+  ],
+  "surveys": [
+    { "finding": "93% специалистов отмечают вред рутины; 60,7% бесит вопрос «Где лиды?»; 46% собирают отчёты вручную в Excel", "source_name": "Roistat + MAED (239 респондентов)", "source_url": "https://vc.ru/marketing/563051-607-digital-specialistov-besit-otvechat-na-vopros-gde-lidy-issledovanie", "period": "2022" },
+    { "finding": "CPC Директа +22,17% за год, поиск — самая дорогая площадка (48,34 ₽)", "source_name": "click.ru", "source_url": "https://blog.click.ru/analytics/god-reklamy-v-cifrax-kak-izmenilis-cpc-ctr-i-cpm/", "period": "09.2024-09.2025" },
+    { "finding": "CPA +16,2% за год (недвижимость +34,1%); 99 тыс. кампаний, 8+ млрд ₽ бюджета", "source_name": "E-Promo Group", "source_url": "https://blog.click.ru/market-news/v-2025-godu-cpa-stoimost-celevogo-dejstviya-vyrosla-na-16/", "period": "2025" },
+    { "finding": "Рекламная выручка WB+Ozon+Я.Маркета 500-600 млрд ₽; 80,5% e-retail media; расходы селлеров 805 млрд ₽", "source_name": "Data Insight (Sostav)", "source_url": "https://www.sostav.ru/publication/wildberries-ozon-i-yandeks-market-zarabotali-na-reklame-do-600-mlrd-rublej-83105.html", "period": "2025" },
+    { "finding": "Бизнес стал на 33% чаще проверять маркетинговых подрядчиков перед сделкой", "source_name": "Rusprofile (Sostav)", "source_url": "https://www.sostav.ru/blogs/285528/81569", "period": "начало 2026" },
+    { "finding": "Гибридная модель маркетинга — 46% компаний, чистый аутсорс сжался до 22%; 92% инхаус-команд всё же работают с агентствами", "source_name": "Sostav", "source_url": "https://www.sostav.ru/blogs/287951/86613", "period": "2025-2026" },
+    { "finding": "СМБ тратит на интернет-рекламу 25-50 тыс ₽/мес; 66% нарастили digital-бюджеты в 2025", "source_name": "ADPASS / Sostav", "source_url": "https://adpass.ru/rossijskij-malyj-i-srednij-biznes-tratit-na-internet-reklamu-25-50-tys-rublej-v-mesyats/", "period": "2025" },
+    { "finding": "Количество digital-подрядчиков в России сократится в ближайшие два года — консолидация на фоне падения маржи", "source_name": "Рейтинг Рунета (ComNews)", "source_url": "https://www.comnews.ru/digital-economy/content/237046/2025-01-09/2025-w02/1012/reyting-runeta-kolichestvo-digital-podryadchikov-rossii-umenshitsya-blizhayshie-dva-goda", "period": "2025" },
+    { "finding": "97% российских рекламных агентств уже используют нейросети в работе", "source_name": "АКАР (click.ru)", "source_url": "https://blog.click.ru/neiroseti/nejroseti-dlya-direktologa/", "period": "2025" }
+  ]
+}

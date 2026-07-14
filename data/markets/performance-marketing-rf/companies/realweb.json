@@ -1,0 +1,30 @@
+{
+  "id": "realweb",
+  "name": "Риалвеб / RW+ (Realweb)",
+  "legal_name": "ООО «ИА РиалВеб» (75% у АО «Киви» с 2023)",
+  "inn": "7813323882",
+  "website": "https://realweb.ru",
+  "founded": 1998,
+  "segment": "performance-агентство (группа RW+)",
+  "description": "Старейшее агентство (СПб, 1998), куплено Qiwi в 2022-2023 (~79% за 1,77 млрд ₽ при оценке 2,24 млрд — при выручке группы ~24 млрд: экономика определяется комиссией, не оборотом). 2025: выручка юрлица −58%, убыток 431 млн — реструктуризация в RW+.",
+  "revenue": [
+    { "value": 10743, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит бюджетов)", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7813323882-781301001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 13025, "unit": "млн руб", "period": "2023", "basis": "РСБУ (по отчёту за 2024; агрегаторы расходятся: saby давал 15 136 — вероятна корректировка отчётности)", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1057811290767-ooo-ia-rialveb/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 15966, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1057811290767-ooo-ia-rialveb/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 6748, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −58% — вероятен перевод направлений на другие юрлица группы RW+", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7813323882-781301001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 355, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7813323882-781301001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 267, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1057811290767-ooo-ia-rialveb/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": -431, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7813323882-781301001", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 543, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/ia-rialveb-1057811290767", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "Qiwi купила ~79% (вкл. Centra и Realweb Latvia) за 1,77 млрд ₽; ребрендинг группы в RW+ 02.2025", "date": "2022-2025", "source_url": "https://adindex.ru/news/marketing/2023/04/4/311692.phtml" }
+  ],
+  "data_gaps": ["Консолидированная отчётность группы RW+ не публикуется", "Расхождения агрегаторов по выручке 2023-2024"],
+  "sources": ["https://saby.ru/profile/7813323882-781301001"],
+  "updated_at": "2026-07-14"
+}

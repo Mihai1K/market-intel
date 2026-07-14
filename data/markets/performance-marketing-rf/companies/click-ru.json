@@ -1,0 +1,30 @@
+{
+  "id": "click-ru",
+  "name": "Click.ru",
+  "legal_name": "ООО «Клик.ру» (группа SEOPULT LTD, Кипр — общая с PromoPult)",
+  "inn": "7743771327",
+  "website": "https://click.ru",
+  "founded": 2010,
+  "segment": "управление рекламой + кешбэк",
+  "description": "Главный независимый агрегатор закупки рекламы после ухода eLama в Яндекс: мастер-аккаунты, кешбэк до 21,5%, AI-инструменты. Выручка 18,8 млрд ₽ (2025, включая транзит), прибыль 573 млн — стабильный рост, бенефициар сделки Яндекс-eLama.",
+  "revenue": [
+    { "value": 7260, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит бюджетов)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 12097, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 15806, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 18814, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +19% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 299, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 410, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 573, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 97, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/klik-ru-1107746150126", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Партнёрская программа", "price": "возврат до 21,5% от рекламных расходов (максимум); лендинг партнёрки — до 18%", "source_url": "https://partners.click.ru/", "retrieved_at": "2026-07-14" }
+  ],
+  "data_gaps": ["Бренд PromoPult — та же группа, его отдельное юрлицо нерепрезентативно (24 млн ₽, 0 сотрудников)"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/4594420/bfo"],
+  "updated_at": "2026-07-14"
+}

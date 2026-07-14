@@ -1,0 +1,30 @@
+{
+  "id": "mgcom",
+  "name": "MGCom",
+  "legal_name": "ООО «ЭмДжиКом» (100% у АО «Эмджигруп»)",
+  "inn": "7725560073",
+  "website": "https://mgcom.ru",
+  "founded": 2006,
+  "segment": "performance-агентство (лидер)",
+  "description": "Крупнейшее независимое performance-агентство: выручка 24,2 млрд ₽ (2025, включает транзит бюджетов — валовая маржа отрицательная, прибыль формируют бонусы площадок). Группа владеет Артикс и долей E-Promo.",
+  "revenue": [
+    { "value": 20562, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит бюджетов)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 21362, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 24036, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 24153, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 1310, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 10, "unit": "млн руб", "period": "2024", "basis": "РСБУ — обвал маржи", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" },
+    { "value": 129, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo", "retrieved_at": "2026-07-14", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 280, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "ЗаЧестныйБизнес", "source_url": "https://zachestnyibiznes.ru/company/ul/1067746216548_7725560073_OOO-EMDGhIKOM", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "2018-2019: владелец MGCom (Chenchele Ltd) купил E-Promo, Smart Media и Artics; сейчас 100% у российского АО «Эмджигруп»", "date": "2018-2019", "source_url": "https://www.kommersant.ru/doc/4258674" }
+  ],
+  "data_gaps": ["Консолидированная отчётность группы (5-7 дочерних) не публикуется", "Модель монетизации официально не раскрыта"],
+  "sources": ["https://bo.nalog.gov.ru/nbo/organizations/6528130/bfo"],
+  "updated_at": "2026-07-14"
+}

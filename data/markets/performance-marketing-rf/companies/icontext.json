@@ -1,0 +1,30 @@
+{
+  "id": "icontext",
+  "name": "iConText",
+  "legal_name": "ООО «Ай Контекст» (группа iConText Group)",
+  "inn": "7704626742",
+  "website": "https://www.icontext.ru",
+  "founded": 2002,
+  "segment": "performance-агентство (агентская модель)",
+  "description": "Одно из старейших контекстных агентств (2002, Мария Черницкая). Редкий пример чистой агентской модели: выручка 692 млн (2024) при себестоимости 17,8 млн — комиссия без транзита бюджетов. 2025: выручка −41%, управление вернулось к сооснователям.",
+  "revenue": [
+    { "value": 422, "unit": "млн руб", "period": "2022", "basis": "РСБУ (агентская модель — комиссия, без транзита)", "source_name": "buxbalans", "source_url": "https://buxbalans.ru/7704626742.html", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 366, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "buxbalans/РБК", "source_url": "https://companies.rbc.ru/id/1067760471822-ooo-aj-kontekst/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 692, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1067760471822-ooo-aj-kontekst/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 405, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −41% г/г", "source_name": "vbankcenter", "source_url": "https://vbankcenter.ru/contragent/1067760471822", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 10, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "buxbalans", "source_url": "https://buxbalans.ru/7704626742.html", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 16, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "РБК Компании", "source_url": "https://companies.rbc.ru/id/1067760471822-ooo-aj-kontekst/", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" },
+    { "value": 7, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "Checko", "source_url": "https://checko.ru/company/ay-kontekst-1067760471822", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 132, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/ay-kontekst-1067760471822", "retrieved_at": "2026-07-14", "confidence": "medium", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "2008: ru-Net Богуславского вошёл в капитал; 2013: iTech Capital ~25%; 03.2025: управление вернулось к сооснователям", "date": "2008-2025", "source_url": "https://adindex.ru/news/agencies/2025/03/10/331534.phtml" }
+  ],
+  "data_gaps": ["2021 противоречив (разовая прибыль 145 млн при выручке 57 млн) — не использовать", "Другие юрлица группы (Registratura, iSEO, CPAExchange) не анализировались"],
+  "sources": ["https://companies.rbc.ru/id/1067760471822-ooo-aj-kontekst/"],
+  "updated_at": "2026-07-14"
+}
