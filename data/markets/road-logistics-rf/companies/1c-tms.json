@@ -1,0 +1,6 @@
+{
+  "id": "1c-tms", "name": "1С:TMS Логистика", "website": "https://solutions.1c.ru/catalog/tms", "segment": "коробочная TMS", "description": "Прикладное решение 1С для управления перевозками и транспортной логистикой.",
+  "pricing": [{ "plan": "Электронная поставка", "price": "119 500 ₽", "source_url": "https://solutions.1c.ru/catalog/tms/buy", "retrieved_at": "2026-07-17" }],
+  "ai_readiness": { "score": 50, "formula": "25 баллов за цифровой процесс + 25 за интеграции в экосистеме 1С", "signals": [{ "signal": "Решение автоматизирует управление транспортом и интегрируется с учётом 1С", "evidence_url": "https://solutions.1c.ru/catalog/tms", "direction": "+" }] },
+  "data_gaps": ["Продажи продукта отдельно от экосистемы 1С не раскрыты"], "sources": ["https://solutions.1c.ru/catalog/tms", "https://solutions.1c.ru/catalog/tms/buy"], "updated_at": "2026-07-17"
+}

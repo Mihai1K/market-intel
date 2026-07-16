@@ -1,0 +1,5 @@
+{
+  "id": "loginet", "name": "Loginet", "website": "https://loginet.ru/", "segment": "цифровая логистическая платформа и TMS", "description": "Платформа для организации перевозок, тендеров и взаимодействия грузовладельцев с перевозчиками.",
+  "ai_readiness": { "score": 50, "formula": "25 баллов за цифровой заказ + 25 за интеграционный TMS-процесс", "signals": [{ "signal": "Компания включена в исследование российских разработчиков TMS", "evidence_url": "https://logistics360.ru/research/rynok-tms-v-rossii-2024-2025/", "direction": "+" }] },
+  "data_gaps": ["Открытые финансовые показатели не связывались без надёжной идентификации юрлица"], "sources": ["https://loginet.ru/", "https://logistics360.ru/research/rynok-tms-v-rossii-2024-2025/"], "updated_at": "2026-07-17"
+}

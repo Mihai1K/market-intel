@@ -1,0 +1,6 @@
+{
+  "id": "delovye-linii", "name": "Деловые Линии", "legal_name": "ООО «Деловые Линии»", "inn": "7826156685", "website": "https://www.dellin.ru/", "founded": 2002, "segment": "LTL/FTL и терминальная логистика", "description": "Крупный оператор сборных и выделенных перевозок.",
+  "revenue": [{ "value": 92.5, "unit": "млрд руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/delovye-linii-1027810306259", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "net_profit": [{ "value": 2.1, "unit": "млрд руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/delovye-linii-1027810306259", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "data_gaps": ["Открытые CAC, LTV и экономика рейса не публикуются"], "sources": ["https://www.dellin.ru/", "https://checko.ru/company/delovye-linii-1027810306259"], "updated_at": "2026-07-17"
+}

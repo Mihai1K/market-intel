@@ -1,0 +1,6 @@
+{
+  "id": "monopoly-online", "name": "Монополия", "legal_name": "ООО «Монополия.Онлайн»", "inn": "7810384750", "website": "https://monopoly.ru/", "founded": 2015, "segment": "цифровой экспедитор и FTL", "description": "Цифровая платформа и оператор магистральных грузоперевозок.",
+  "revenue": [{ "value": 56.9, "unit": "млрд руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/monopoliya-onlayn-1157847343345", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "net_profit": [{ "value": 430.3, "unit": "млн руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/monopoliya-onlayn-1157847343345", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "data_gaps": ["Доля цифровой платформы в общей выручке не раскрыта"], "sources": ["https://monopoly.ru/", "https://checko.ru/company/monopoliya-onlayn-1157847343345"], "updated_at": "2026-07-17"
+}

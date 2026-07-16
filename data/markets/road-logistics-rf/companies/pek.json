@@ -1,0 +1,6 @@
+{
+  "id": "pek", "name": "ПЭК", "legal_name": "ООО «Первая Экспедиционная Компания»", "inn": "7721823853", "website": "https://pecom.ru/", "founded": 2014, "segment": "LTL/FTL и e-commerce логистика", "description": "Федеральный оператор перевозки сборных грузов и доставки для бизнеса.",
+  "revenue": [{ "value": 36.8, "unit": "млрд руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/pehk-1147746182748", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "net_profit": [{ "value": 15.5, "unit": "млн руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/pehk-1147746182748", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "data_gaps": ["Нет открытой экономики отдельной доставки"], "sources": ["https://pecom.ru/", "https://checko.ru/company/pehk-1147746182748"], "updated_at": "2026-07-17"
+}

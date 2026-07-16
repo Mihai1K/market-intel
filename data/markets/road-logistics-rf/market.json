@@ -1,0 +1,41 @@
+{
+  "id": "road-logistics-rf",
+  "name": "Автогрузоперевозки и последняя миля в России",
+  "description": "Коммерческие автомобильные грузоперевозки FTL/LTL, экспедирование, цифровые биржи и TMS, курьерская доставка и последняя миля e-commerce. Рынок велик, но поляризован: перевозчики работают под давлением топлива, лизинга и простоев, а цифровой слой и обязательный ЭПД растут.",
+  "scope_assumptions": [
+    "Денежная вилка относится к коммерческим автомобильным перевозкам по территории РФ; складская недвижимость, железная дорога, море и авиация исключены",
+    "Последняя миля учитывается как отдельный смежный сегмент: собственные службы маркетплейсов не складываются с выручкой независимых перевозчиков",
+    "Открытые оценки рынка различаются из-за включения экспедиторской наценки, международных плеч и перевозок собственным транспортом"
+  ],
+  "segments": [
+    { "id": "ftl", "name": "Магистральные FTL-перевозки", "description": "Полная машина, высокая фрагментация, биржи грузов, чувствительность к топливу, лизингу и обратной загрузке." },
+    { "id": "ltl", "name": "Сборные LTL-перевозки", "description": "Терминальные сети Деловых Линий, ПЭК и других операторов; сложная тарификация и претензионная работа." },
+    { "id": "last-mile", "name": "Последняя миля e-commerce", "description": "Курьерская доставка, ПВЗ и постаматы; 91,2% посылок контролируются собственными службами магазинов и платформ." },
+    { "id": "freight-platforms", "name": "Биржи грузов и цифровые экспедиторы", "description": "ATI.SU, Монополия и цифровые тендерные площадки; поиск грузов, проверка контрагентов, ставки и документооборот." },
+    { "id": "tms", "name": "TMS, маршрутизация и телематика", "description": "Российские системы управления транспортом, интеграции с 1С, ГИС ЭПД и операторами электронных документов." }
+  ],
+  "market_size_rf": {
+    "estimates": [
+      { "value": 2630, "unit": "млрд руб", "period": "2025", "scope": "выручка компаний, осуществляющих коммерческие автогрузоперевозки по России", "source_name": "M.A.Research", "source_url": "https://ma-research.ru/stati/item/410-v-usloviyakh-izbytochnogo-predlozheniya-i-snizheniya-tarifov-rynok-avtomobilnykh-gruzoperevozok-v-2025-g-voshel-v-stagnatsiyu.html", "retrieved_at": "2026-07-17", "confidence": "medium", "method": "estimated" },
+      { "value": 2730, "unit": "млрд руб", "period": "2026 прогноз", "scope": "рынок автомобильных грузоперевозок РФ", "source_name": "РБК / Европлан", "source_url": "https://europlan.ru/storagedfile/show/static/rbk-post", "retrieved_at": "2026-07-17", "confidence": "medium", "method": "estimated" }
+    ],
+    "range_note": "Рабочая денежная вилка ядра рынка — 2,63-2,73 трлн ₽. Это не означает высокую маржу: предложение транспорта избыточно, затраты растут, часть парков простаивает."
+  },
+  "growth": [
+    { "value": 0.7, "unit": "% г/г (выручка)", "period": "2025 прогноз", "scope": "коммерческие автогрузоперевозки по РФ", "source_name": "M.A.Research", "source_url": "https://ma-research.ru/stati/item/410-v-usloviyakh-izbytochnogo-predlozheniya-i-snizheniya-tarifov-rynok-avtomobilnykh-gruzoperevozok-v-2025-g-voshel-v-stagnatsiyu.html", "retrieved_at": "2026-07-17", "confidence": "medium", "method": "estimated" },
+    { "value": 21, "unit": "% г/г (выручка участников рейтинга)", "period": "2025", "scope": "30 разработчиков и внедренцев TMS", "source_name": "Логистика 360", "source_url": "https://logistics360.ru/news/novyj-rejting-razrabotchikov-tms-ot-logistiki-360/", "retrieved_at": "2026-07-17", "confidence": "medium", "method": "estimated" },
+    { "value": 20, "unit": "% г/г (заказы)", "period": "2025", "scope": "заказы российской интернет-торговли", "source_name": "Data Insight via Forbes", "source_url": "https://www.forbes.ru/biznes/556942-blize-i-doroze-pocemu-v-rossii-nabiraet-popularnost-dostavka-poslednej-mili", "retrieved_at": "2026-07-17", "confidence": "medium", "method": "estimated" }
+  ],
+  "buying_power": [
+    { "segment": "Перевозчики с парком 5-100 машин", "typical_budget": "TMS от десятков тысяч рублей в месяц либо 119,5 тыс ₽ за коробочную 1С:TMS; аудит рейсов и внедрение ЭПД покупаются как разовая услуга", "deal_cycle": "дни-недели", "ease_of_purchase": 4, "evidence": [{ "note": "Розничная цена 1С:TMS — 119 500 ₽", "source_url": "https://solutions.1c.ru/catalog/tms/buy" }] },
+    { "segment": "Грузовладельцы и экспедиторы", "typical_budget": "Лицензии бирж, TMS, ЭДО и интеграции; бюджет зависит от числа пользователей и перевозок", "deal_cycle": "недели-месяцы", "ease_of_purchase": 3, "evidence": [{ "note": "ATI.SU продаёт лицензии, статистику ставок, проверки и API-интеграции", "source_url": "https://ati.su/prices/" }] },
+    { "segment": "Интернет-магазины и продавцы D2C", "typical_budget": "Оплата доставки за отправление, надбавки и возвраты; независимые службы конкурируют за оставшиеся вне платформы посылки", "deal_cycle": "дни-недели", "ease_of_purchase": 3, "evidence": [{ "note": "Data Insight: собственные службы магазинов контролируют 91,2% посылок", "source_url": "https://datainsight.ru/Russian_online_shopping_market_with_delivery_2025" }] }
+  ],
+  "events": [
+    { "date": "2026-09-01", "event": "Обязательный переход коммерческих грузоперевозок на электронные перевозочные документы через ГИС ЭПД", "source_url": "https://www.mintrans.gov.ru/press-center/news/12779" },
+    { "date": "2026-02-11", "event": "Страны ЕАЭС начали отслеживать часть перевозок навигационными пломбами", "source_url": "https://mintrans.gov.ru/press-center/news/12493" },
+    { "date": "2026-07-13", "event": "Рейтинг TMS за 2025 год: совокупная выручка участников превысила 21 млрд ₽ и выросла примерно на 21%", "source_url": "https://logistics360.ru/news/novyj-rejting-razrabotchikov-tms-ot-logistiki-360/" }
+  ],
+  "sources": ["https://rosstat.gov.ru/statistics/transport", "https://ma-research.ru/stati/item/410-v-usloviyakh-izbytochnogo-predlozheniya-i-snizheniya-tarifov-rynok-avtomobilnykh-gruzoperevozok-v-2025-g-voshel-v-stagnatsiyu.html", "https://datainsight.ru/Russian_online_shopping_market_with_delivery_2025", "https://www.mintrans.gov.ru/press-center/news/12779"],
+  "updated_at": "2026-07-17"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "axelot", "name": "AXELOT", "website": "https://www.axelot.ru/", "founded": 1998, "segment": "TMS/WMS и внедрение", "description": "Разработчик и интегратор решений управления транспортной и складской логистикой.",
+  "ai_readiness": { "score": 50, "formula": "25 баллов за цифровую TMS + 25 за интеграционную модель", "signals": [{ "signal": "AXELOT TMS автоматизирует широкий спектр транспортных процессов", "evidence_url": "https://www.axelot.ru/news/axelot-tms-lider-sredi-universalnyh-sistem-s-shirokim-funkczionalom-po-upravleniyu-transportnoj-logistikoj/", "direction": "+" }] },
+  "data_gaps": ["Финансы продуктовой группы не отделены от связанных юрлиц"], "sources": ["https://www.axelot.ru/", "https://www.axelot.ru/news/axelot-tms-lider-sredi-universalnyh-sistem-s-shirokim-funkczionalom-po-upravleniyu-transportnoj-logistikoj/"], "updated_at": "2026-07-17"
+}

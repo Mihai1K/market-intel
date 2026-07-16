@@ -1,13 +1,15 @@
-Проверка http://localhost:61225
+Проверка http://localhost:3001
 
-200  /  (89791 байт)
-200  /rating  (93570 байт)
-200  /pains  (431666 байт)
-200  /markets/fuel-azs-rf  (217181 байт)
+200  /  (94337 байт)
+200  /rating  (111865 байт)
+200  /pains  (479902 байт)
+200  /markets/fuel-azs-rf  (217191 байт)
 200  /markets/hr-tech-rf  (281493 байт)
 200  /markets/influencer-marketing-rf  (286764 байт)
 200  /markets/performance-marketing-rf  (204193 байт)
+200  /markets/road-logistics-rf  (218778 байт)
 200  /markets/fuel-azs-rf/companies/benzuber  (34927 байт)
 200  /markets/hr-tech-rf/companies/careerspace  (45009 байт)
 200  /markets/influencer-marketing-rf/companies/brand-analytics  (38918 байт)
 200  /markets/performance-marketing-rf/companies/adventum  (36395 байт)
+200  /markets/road-logistics-rf/companies/1c-tms  (23815 байт)

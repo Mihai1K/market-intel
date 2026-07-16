@@ -1,0 +1,54 @@
+{
+  "market": "road-logistics-rf",
+  "updated_at": "2026-07-17",
+  "workflows": [
+    {
+      "id": "carrier-order-cycle",
+      "name": "Рейс от поиска груза до оплаты",
+      "actor": "малый перевозчик",
+      "steps": [
+        { "name": "Найти груз и проверить заказчика", "status": "semi", "evidence": "Биржа автоматизирует поиск и паспорт участника, но выбор и проверка остаются за диспетчером", "evidence_url": "https://help.ati.su/mobile/android/proverka-kontragenta-mob.html", "can_ai": true, "can_bot": true },
+        { "name": "Рассчитать ставку и маржу рейса", "status": "manual", "evidence": "Индекс ATI.SU даёт рыночный ориентир, но не индивидуальную себестоимость машины", "evidence_url": "https://ati.su/analytics", "can_ai": true, "can_bot": true },
+        { "name": "Назначить водителя и передать условия", "status": "semi", "evidence": "Заказы и сообщения цифровые, но часть коммуникации уходит во внешние мессенджеры", "evidence_url": "https://ati.su/landings/ati-2025/", "can_ai": true, "can_bot": true },
+        { "name": "Выполнить рейс и фиксировать события", "status": "semi", "evidence": "GPS автоматизирован, а простои, фото и отклонения часто фиксируются вручную", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": true },
+        { "name": "Собрать перевозочные документы", "status": "manual", "evidence": "До обязательного перехода на ЭПД бумажные документы продолжают участвовать в процессе", "evidence_url": "https://www.mintrans.gov.ru/eye/press-center/news/12098", "can_ai": true, "can_bot": true },
+        { "name": "Закрыть рейс, выставить счёт и получить оплату", "status": "semi", "evidence": "Споры и неоплаты оформляются претензиями; комплект доказательств собирается участником", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": true }
+      ]
+    },
+    {
+      "id": "epd-transition",
+      "name": "Переход компании на обязательные ЭПД",
+      "actor": "владелец перевозчика / бухгалтер",
+      "steps": [
+        { "name": "Описать текущие документы и роли", "status": "manual", "evidence": "Форматы основаны на действующих бумажных бланках, но процесс каждой компании различается", "evidence_url": "https://www.mintrans.gov.ru/press-center/news/12779", "can_ai": true, "can_bot": false },
+        { "name": "Выбрать оператора ИС ЭПД", "status": "manual", "evidence": "Для обмена требуется оператор негосударственной информационной системы", "evidence_url": "https://www.consultant.ru/document/cons_doc_LAW_475214/6c8b92d4f98a67ec9f22a34b4155baf00903538a/", "can_ai": true, "can_bot": false },
+        { "name": "Настроить учётную систему и подписи", "status": "semi", "evidence": "Нужны интеграция, учётные записи и электронные подписи участников", "evidence_url": "https://www.mintrans.gov.ru/press-center/news/12779", "can_ai": true, "can_bot": true },
+        { "name": "Обучить диспетчеров и водителей", "status": "manual", "evidence": "Водитель и офис должны подписывать события перевозки в цифровом процессе", "evidence_url": "https://mintrans.zo.gov.ru/novosti/o-neobxodimosti-perexoda-na-obyazatelnoe-oformlenie-perevozochnyix-dokumentov-v-elektronnom-vide-s-01.09.2026.html", "can_ai": true, "can_bot": true },
+        { "name": "Провести тестовый рейс и исправить ошибки", "status": "manual", "evidence": "Переход обязателен с 1 сентября 2026 года; до запуска нужен практический тест", "evidence_url": "https://www.mintrans.gov.ru/press-center/news/12779", "can_ai": true, "can_bot": true }
+      ]
+    },
+    {
+      "id": "freight-claim",
+      "name": "Претензия по неоплате, простою или повреждению",
+      "actor": "перевозчик / экспедитор",
+      "steps": [
+        { "name": "Определить нарушение и договорное основание", "status": "manual", "evidence": "ATI.SU рекомендует направлять досудебную претензию стороне договора", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": false },
+        { "name": "Собрать накладные, фото, GPS и переписку", "status": "manual", "evidence": "Для обращения нужны документы и доказательства события", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": true },
+        { "name": "Рассчитать сумму требования", "status": "manual", "evidence": "Сумма зависит от договора, простоя, стоимости груза и подтверждённых расходов", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": true },
+        { "name": "Сформировать и отправить претензию", "status": "semi", "evidence": "Претензию можно выставить через ATI.SU, но текст и приложения готовит участник", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": true },
+        { "name": "Контролировать срок и эскалацию", "status": "manual", "evidence": "При отсутствии результата участник самостоятельно обращается в суд или полицию", "evidence_url": "https://ati.su/landings/security/security-breaches/", "can_ai": true, "can_bot": true }
+      ]
+    },
+    {
+      "id": "last-mile-invoice-control",
+      "name": "Контроль стоимости последней мили интернет-магазина",
+      "actor": "операционный менеджер интернет-магазина",
+      "steps": [
+        { "name": "Передать заказы службе доставки", "status": "automated", "evidence": "Рынок последней мили построен вокруг интегрированных собственных и внешних служб", "evidence_url": "https://datainsight.ru/Russian_online_shopping_market_with_delivery_2025", "can_ai": false, "can_bot": true },
+        { "name": "Отследить статусы и неудачные доставки", "status": "semi", "evidence": "Статусы цифровые, но причины срыва и повторный контакт требуют ручной работы", "evidence_url": "https://www.forbes.ru/biznes/556942-blize-i-doroze-pocemu-v-rossii-nabiraet-popularnost-dostavka-poslednej-mili", "can_ai": true, "can_bot": true },
+        { "name": "Сверить счёт, тариф и надбавки", "status": "manual", "evidence": "Каналы доставки и тарифы фрагментированы между собственными и внешними службами", "evidence_url": "https://datainsight.ru/Russian_online_shopping_market_with_delivery_2025", "can_ai": true, "can_bot": true },
+        { "name": "Оспорить корректировки и возвраты", "status": "manual", "evidence": "Проверка начислений требует сопоставления заказа, статуса и тарифного правила", "evidence_url": "https://datainsight.ru/Russian_online_shopping_market_with_delivery_2025", "can_ai": true, "can_bot": true }
+      ]
+    }
+  ]
+}

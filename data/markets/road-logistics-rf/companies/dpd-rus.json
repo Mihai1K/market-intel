@@ -1,0 +1,6 @@
+{
+  "id": "dpd-rus", "name": "DPD Россия", "legal_name": "АО «ДПД РУС»", "inn": "7713215523", "website": "https://www.dpd.ru/", "founded": 1999, "segment": "посылочная доставка и последняя миля", "description": "Оператор доставки посылок и грузов для бизнеса и e-commerce.",
+  "revenue": [{ "value": 14.5, "unit": "млрд руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/dpd-rus-1027739074142", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "net_profit": [{ "value": 1.3, "unit": "млрд руб", "period": "2024", "source_name": "ФНС/Росстат via Checko", "source_url": "https://checko.ru/company/dpd-rus-1027739074142", "retrieved_at": "2026-07-17", "confidence": "high", "method": "reported" }],
+  "data_gaps": ["Доля последней мили и число отправлений не раскрыты в БФО"], "sources": ["https://www.dpd.ru/", "https://checko.ru/company/dpd-rus-1027739074142"], "updated_at": "2026-07-17"
+}

@@ -371,6 +371,48 @@
       "opportunity_id": "ai-client-reports",
       "launch": 80,
       "scale": 48
+    },
+    {
+      "date": "2026-07-16",
+      "market": "road-logistics-rf",
+      "opportunity_id": "epd-transition-service",
+      "launch": 85,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-16",
+      "market": "road-logistics-rf",
+      "opportunity_id": "trip-margin-audit",
+      "launch": 83,
+      "scale": 67
+    },
+    {
+      "date": "2026-07-16",
+      "market": "road-logistics-rf",
+      "opportunity_id": "freight-claims-recovery",
+      "launch": 78,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-16",
+      "market": "road-logistics-rf",
+      "opportunity_id": "loading-fraud-guard",
+      "launch": 77,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-16",
+      "market": "road-logistics-rf",
+      "opportunity_id": "last-mile-invoice-audit",
+      "launch": 78,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-16",
+      "market": "road-logistics-rf",
+      "opportunity_id": "small-fleet-dispatcher-copilot",
+      "launch": 71,
+      "scale": 55
     }
   ]
 }

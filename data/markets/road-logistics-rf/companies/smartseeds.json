@@ -1,0 +1,5 @@
+{
+  "id": "smartseeds", "name": "Smartseeds", "website": "https://smartseeds.ru/", "segment": "цифровая логистика агрогрузов", "description": "Отраслевая цифровая платформа заказа и управления перевозками сельскохозяйственных грузов.",
+  "ai_readiness": { "score": 50, "formula": "25 баллов за цифровой заказ + 25 за отраслевую автоматизацию", "signals": [{ "signal": "Платформа относится к российскому рынку онлайн-грузов и TMS-площадок", "evidence_url": "https://www.rbgmedia.ru/files/rbg-338.pdf", "direction": "+" }] },
+  "data_gaps": ["Открытые БФО и операционные метрики продукта не найдены в рамках итерации"], "sources": ["https://smartseeds.ru/", "https://www.rbgmedia.ru/files/rbg-338.pdf"], "updated_at": "2026-07-17"
+}
