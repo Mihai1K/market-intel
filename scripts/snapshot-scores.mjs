@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const HISTORY = join(ROOT, "data", "score-history.json");
-const today = new Date().toISOString().slice(0, 10);
+const today = new Date().toLocaleDateString("sv"); // локальная дата YYYY-MM-DD, не UTC
 
 const history = existsSync(HISTORY)
   ? JSON.parse(readFileSync(HISTORY, "utf8"))

@@ -20,7 +20,7 @@ const portArg = process.argv.indexOf("--port");
 const PORT = portArg > -1 ? process.argv[portArg + 1] : process.env.PORT ?? "3000";
 const BASE = `http://localhost:${PORT}`;
 
-const stamp = new Date().toISOString().slice(0, 10);
+const stamp = new Date().toLocaleDateString("sv"); // локальная дата YYYY-MM-DD, не UTC
 const DIR = join(ROOT, "artifacts", stamp);
 for (const d of ["validation", "logs", "screenshots"]) mkdirSync(join(DIR, d), { recursive: true });
 

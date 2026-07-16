@@ -60,7 +60,9 @@ async function check(url) {
     res.body?.cancel?.();
     const s = res.status;
     if (s === 401 || s === 403 || s === 429) return { url, status: s, verdict: "blocked" };
-    if (s === 404 || s === 410 || s >= 500) return { url, status: s, verdict: "broken" };
+    // 5xx — сайт временно лежит, страница не удалена: транзиент, не битая
+    if (s >= 500) return { url, status: s, verdict: "blocked" };
+    if (s === 404 || s === 410) return { url, status: s, verdict: "broken" };
     return { url, status: s, verdict: "ok" };
   } catch (e) {
     const msg = String(e?.cause?.code ?? e?.name ?? e);
@@ -106,7 +108,7 @@ const section = (title, items, note) => {
 };
 section("Битые — требуют замены источника", broken);
 section("Таймаут — перепроверить вручную", timeout);
-section("Антибот/закрыто", blocked, "401/403/429 или сброс соединения. Ссылка, скорее всего, живая, но сайт не пускает роботов — не считается битой.");
+section("Антибот/временно недоступно", blocked, "401/403/429/5xx или сброс соединения. Ссылка, скорее всего, живая: сайт не пускает роботов или временно лежит — не считается битой. Повторяющиеся из прогона в прогон — проверить вручную.");
 lines.push(`## Живые (${ok.length})`, "", ...ok.map((r) => `- [${r.status}] ${r.url}`), "");
 
 mkdirSync(dirname(OUT), { recursive: true });
