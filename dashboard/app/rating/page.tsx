@@ -23,7 +23,7 @@ export default function RatingPage() {
         исследованного рынка.
       </p>
 
-      {marketsCount < 5 && (
+      {marketsCount < 10 && (
         <div className="mb-6 rounded-xl border border-amber-900/60 bg-amber-950/20 p-4 text-sm text-amber-200">
           Исследовано рынков: {marketsCount}. Рейтинг станет осмысленным для выбора «куда идти»
           после 10–15 рынков — пока это лучший вариант среди исследованного, а не среди всего.
