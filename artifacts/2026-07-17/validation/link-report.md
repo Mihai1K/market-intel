@@ -1,55 +1,10 @@
-# Отчёт проверки ссылок — 2026-07-16 23:00
+# Отчёт проверки ссылок — 2026-07-16 23:06
 
-Всего уникальных URL: **769** · живых: **639** · антибот/закрыто: **112** · битых: **18** · таймаут: **0**
+Всего уникальных URL: **769** · живых: **654** · антибот/закрыто: **115** · битых: **0** · таймаут: **0**
 
-## Битые — требуют замены источника (18)
+## Антибот/временно недоступно (115)
 
-- [521] https://irecommend.ru/content/durov-verni-stenu-vk-adblogger-otdai-dengi-moya-popytka-dostuchatsya-do-ii-i-beg-po-krugu
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [521] https://irecommend.ru/content/lyudi-kotorye-nichego-ne-znayut-o-klientoorientirovannosti
-  - используется в: data/markets/hr-tech-rf/companies/careerspace.json
-- [521] https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [521] https://irecommend.ru/content/yandeks-zapravka-na-moi-dengi-zapravili-druguyu-mashinu
-  - используется в: data/markets/fuel-azs-rf/companies/yandex-zapravki.json
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [503] https://itoil.ru
-  - используется в: data/markets/fuel-azs-rf/companies/itoil.json
-- [503] https://itoil.ru/company/
-  - используется в: data/markets/fuel-azs-rf/companies/itoil.json
-- [507] https://otzovik.com/review_14130335.html
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [507] https://otzovik.com/review_15468335.html
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [507] https://otzovik.com/review_15848621.html
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [507] https://otzovik.com/review_17847718.html
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [507] https://otzovik.com/review_17887216.html
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [507] https://otzovik.com/review_18218058.html
-  - используется в: data/markets/hr-tech-rf/companies/hh.json
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [507] https://otzovik.com/review_18354699.html
-  - используется в: data/markets/hr-tech-rf/companies/hh.json
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [507] https://otzovik.com/reviews/agentstvo_perfluence/
-  - используется в: data/markets/influencer-marketing-rf/companies/perfluence.json
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [507] https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/
-  - используется в: data/markets/hr-tech-rf/companies/hh.json
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [507] https://otzovik.com/reviews/toplivnaya_karta_e100/
-  - используется в: data/markets/fuel-azs-rf/companies/e1-card.json
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [507] https://otzovik.com/reviews/toplivnaya_karta_petrol_plyus/
-  - используется в: data/markets/fuel-azs-rf/companies/ppr.json
-- [507] https://otzovik.com/reviews/yandex_zapravki-programma_dlya_android/
-  - используется в: data/markets/fuel-azs-rf/pains.json
-
-## Антибот/закрыто (112)
-
-> 401/403/429 или сброс соединения. Ссылка, скорее всего, живая, но сайт не пускает роботов — не считается битой.
+> 401/403/429/5xx или сброс соединения. Ссылка, скорее всего, живая: сайт не пускает роботов или временно лежит — не считается битой. Повторяющиеся из прогона в прогон — проверить вручную.
 
 - [UND_ERR_CONNECT_TIMEOUT] https://actualtraffic.ru/site/telega-in/otzyvy/
   - используется в: data/markets/influencer-marketing-rf/pains.json
@@ -151,31 +106,67 @@
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [403] https://habr.com/ru/articles/976476/
   - используется в: data/markets/hr-tech-rf/pains.json
-- [ERR_SSL_WRONG_VERSION_NUMBER] https://habr.com/ru/articles/984410/
-  - используется в: data/markets/influencer-marketing-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://investfuture.ru/articles/nikogo-net-pochemu-biznes-mesyatsami-ne-mozhet-nayti-sotrudnikov-dazhe-na-prostye-vakansii
   - используется в: data/markets/hr-tech-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://ircity.ru/text/transport/2026/06/24/76492983/
+- [521] https://irecommend.ru/content/durov-verni-stenu-vk-adblogger-otdai-dengi-moya-popytka-dostuchatsya-do-ii-i-beg-po-krugu
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [521] https://irecommend.ru/content/lyudi-kotorye-nichego-ne-znayut-o-klientoorientirovannosti
+  - используется в: data/markets/hr-tech-rf/companies/careerspace.json
+- [521] https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [521] https://irecommend.ru/content/yandeks-zapravka-na-moi-dengi-zapravili-druguyu-mashinu
+  - используется в: data/markets/fuel-azs-rf/companies/yandex-zapravki.json
   - используется в: data/markets/fuel-azs-rf/pains.json
+- [503] https://itoil.ru
+  - используется в: data/markets/fuel-azs-rf/companies/itoil.json
+- [503] https://itoil.ru/company/
+  - используется в: data/markets/fuel-azs-rf/companies/itoil.json
 - [403] https://iz.ru/1237226/dmitrii-alekseev/komu-ne-kapaet-kak-reshit-problemy-nezavisimykh-azs
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [403] https://iz.ru/1632333/sergei-gurianov/predpensionnyi-fond-sokhraniaetsia-li-eidzhizm-na-rynke-truda
   - используется в: data/markets/hr-tech-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://komtorgtranse.ru/news/nezavisimost-kak-nedostatok-pochemu-po-vsey-rossii-zakryvayutsya-azs-/
-  - используется в: data/markets/fuel-azs-rf/pains.json
 - [CERT_HAS_EXPIRED] https://m.seonews.ru/events/kak-izmenilas-tsena-klika-i-tselevogo-deystviya-v-pervom-kvartale-2025-goda-issledovanie/
   - используется в: data/markets/performance-marketing-rf/pains.json
 - [401] https://marketolog.mts.ru/blog/top-8-oshibok-v-integratsiyah-s-blogerami-i-kak-ih-izbezhat
   - используется в: data/markets/influencer-marketing-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://neftegaz.ru/analisis/economy/619143-krazha-topliva-populyarnye-metody-moshennichestva-na-chastnykh-predpriyatiyakh-i-kommercheskikh-azs/
   - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://neftegaz.ru/news/finance/889979-obem-vyplat-neftyanikam-po-dempferu-v-2025-g-sokratitsya-do-2-6-trln-rub/
+- [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://neftegaz.ru/news/finance/889979-obem-vyplat-neftyanikam-po-dempferu-v-2025-g-sokratitsya-do-2-6-trln-rub/
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://neftegaz.ru/news/neftechim/901614-prostoi-na-rossiyskikh-npz-dostigli-rekordnogo-urovnya-do-38-moshchnostey/
   - используется в: data/markets/fuel-azs-rf/market.json
+- [507] https://otzovik.com/review_14130335.html
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [507] https://otzovik.com/review_15468335.html
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [507] https://otzovik.com/review_15848621.html
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [507] https://otzovik.com/review_17847718.html
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [507] https://otzovik.com/review_17887216.html
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [507] https://otzovik.com/review_18218058.html
+  - используется в: data/markets/hr-tech-rf/companies/hh.json
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [507] https://otzovik.com/review_18354699.html
+  - используется в: data/markets/hr-tech-rf/companies/hh.json
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [507] https://otzovik.com/reviews/agentstvo_perfluence/
+  - используется в: data/markets/influencer-marketing-rf/companies/perfluence.json
+  - используется в: data/markets/influencer-marketing-rf/pains.json
+- [507] https://otzovik.com/reviews/hh_ru-internet-servis_po_podboru_personala_i_poisku_raboti/
+  - используется в: data/markets/hr-tech-rf/companies/hh.json
+  - используется в: data/markets/hr-tech-rf/pains.json
+- [507] https://otzovik.com/reviews/toplivnaya_karta_e100/
+  - используется в: data/markets/fuel-azs-rf/companies/e1-card.json
+  - используется в: data/markets/fuel-azs-rf/pains.json
+- [507] https://otzovik.com/reviews/toplivnaya_karta_petrol_plyus/
+  - используется в: data/markets/fuel-azs-rf/companies/ppr.json
+- [507] https://otzovik.com/reviews/yandex_zapravki-programma_dlya_android/
+  - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://pampadu.ru/blog/9203-chto-takoe-gosting-v-rekrutinge-i-kak-s-nim-borotsya/
   - используется в: data/markets/hr-tech-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://partnerkin.com/blog/articles/proverka-nakrutki-inst
+- [ECONNRESET] https://partnerkin.com/blog/articles/proverka-nakrutki-inst
   - используется в: data/markets/influencer-marketing-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://perfluence.net
   - используется в: data/markets/influencer-marketing-rf/companies/perfluence.json
@@ -185,10 +176,6 @@
   - используется в: data/markets/influencer-marketing-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://pravo.ru/story/246333/
   - используется в: data/markets/influencer-marketing-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://ria.ru/20251001/azs-2045642226.html
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://riarating.ru/infografika/20260608/630297426.html
-  - используется в: data/markets/fuel-azs-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://rosstat.gov.ru/statistics/transport
   - используется в: data/markets/road-logistics-rf/market.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://scout-gps.ru/o-kompanii/stati/effektivnye-metody-zashchity-avtoparka-ot-vorovstva-topliva-slivov/
@@ -197,9 +184,7 @@
   - используется в: data/markets/hr-tech-rf/pains.json
 - [403] https://tgstat.ru/p/prices
   - используется в: data/markets/influencer-marketing-rf/opportunities.json
-- [UND_ERR_CONNECT_TIMEOUT] https://tn-group.net/blog/pereboi-s-postavkami-topliva-kak-kontrolirovat-raskhod
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://vgudok.com/lenta/deficit-topliva-na-yuge-rossii-ne-vyderzhal-stolknoveniya-s-realnostyu-rosneft-lukoyl-i
+- [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://vgudok.com/lenta/deficit-topliva-na-yuge-rossii-ne-vyderzhal-stolknoveniya-s-realnostyu-rosneft-lukoyl-i
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1057746255005_ooo-dateks-softver
   - используется в: data/markets/hr-tech-rf/companies/e-staff.json
@@ -213,21 +198,9 @@
   - используется в: data/markets/hr-tech-rf/companies/huntflow.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/5177746185997_ooo-visivi
   - используется в: data/markets/hr-tech-rf/companies/vcv.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.business-gazeta.ru/article/706631
-  - используется в: data/markets/fuel-azs-rf/pains.json
 - [401] https://www.dellin.ru/
   - используется в: data/markets/road-logistics-rf/companies/delovye-linii.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.forbes.ru/biznes/496011-prodazi-topliva-na-azs-stali-ubytocnymi-na-fone-rekordnyh-birzevyh-cen-na-benzin
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.garant.ru/news/1527774/
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.gazeta.ru/auto/2025/10/01/21788678.shtml
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.glavbukh.ru/art/386893-mojno-li-prinyat-k-vychetu-nds-po-gsm-na-osnovanii-kassovogo-cheka
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.klerk.ru/buh/news/483260/
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.kommersant.ru/doc/8080036
+- [TypeError] https://www.glavbukh.ru/art/386893-mojno-li-prinyat-k-vychetu-nds-po-gsm-na-osnovanii-kassovogo-cheka
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.list-org.com/company/12474087/report
   - используется в: data/markets/influencer-marketing-rf/companies/yoloco.json
@@ -253,8 +226,6 @@
   - используется в: data/markets/hr-tech-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.otzyvru.com/toplivnaya-karta-e100
   - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.petrolplus.ru/fuelindex/regions/
-  - используется в: data/markets/fuel-azs-rf/pains.json
 - [401] https://www.rbc.ru/business/02/04/2026/69ce116b9a794776bde4a720
   - используется в: data/markets/fuel-azs-rf/market.json
 - [401] https://www.rbc.ru/business/12/10/2025/68eb90d19a7947a32a3b0b59
@@ -271,12 +242,8 @@
   - используется в: data/markets/performance-marketing-rf/market.json
 - [401] https://www.rbc.ru/technology_and_media/30/11/2023/656733669a794740fd8a3188
   - используется в: data/markets/influencer-marketing-rf/market.json
-- [UND_ERR_CONNECT_TIMEOUT] https://zen.ati.su/article/2026/07/07/dizel-dorozhaet-tarif-ne-speshit-kak-tseny-na-toplivo-vlijajut-na-stavki-perevozchikov-410030/
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://zen.ati.su/article/2026/07/15/stoimost-gruzoperevozok-v-rossii-vyrosla-pochti-na-tret-na-fone-defitsita-topliva-891498/
-  - используется в: data/markets/fuel-azs-rf/pains.json
 
-## Живые (639)
+## Живые (654)
 
 - [200] http://dalnoboi.org/blog/2015/07/31/stoyanki-dlya-dalnobojshhikov/
 - [200] http://government.ru/news/49564/
@@ -476,6 +443,7 @@
 - [200] https://habr.com/ru/articles/841744/
 - [200] https://habr.com/ru/articles/927698/
 - [200] https://habr.com/ru/articles/945766/
+- [200] https://habr.com/ru/articles/984410/
 - [200] https://habr.com/ru/articles/993578/
 - [200] https://habr.com/ru/companies/agima/articles/765556/
 - [200] https://habr.com/ru/companies/beeline_cloud/articles/952526/
@@ -523,6 +491,7 @@
 - [200] https://investor.hh.ru
 - [200] https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf
 - [200] https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf
+- [200] https://ircity.ru/text/transport/2026/06/24/76492983/
 - [200] https://is1c.ru/about/pc/article/uchet-topliva-po-putevym-listam-pri-oplate-toplivnoy-kartoy-v-1s-bukhgalteriya-predpriyatiya/
 - [200] https://itek.ru/news/vlasti-obyazali-novye-azs-v-rossii-vozvodit-zaryadki-dlya-elektromobilej/
 - [200] https://its.1c.ru/db/hoosn/content/381/hdoc
@@ -534,6 +503,7 @@
 - [200] https://k50.ru
 - [200] https://kokocgroup.ru/blog/sovladelets-kokoc-group-kupil-85-blogerskogo-agentstva-players-teamntstva-players-team
 - [200] https://komkad.ru/blog/skolko-stoit-podbor-personala/
+- [200] https://komtorgtranse.ru/news/nezavisimost-kak-nedostatok-pochemu-po-vsey-rossii-zakryvayutsya-azs-/
 - [200] https://konkurent.ru/article/75842
 - [200] https://konsol.pro/blog/reklama-u-blogerov-ord
 - [200] https://kontur.ru/articles/5062
@@ -636,7 +606,9 @@
 - [200] https://rg.ru/2025/04/21/probeg-gruzovikov-vyros-na-17-procentov-iz-za-vesennej-prosushki-dorog.html
 - [200] https://rg.ru/amp/2025/12/11/rossijskij-rynok-lizinga-upal-na-38-procentov-chast-kompanij-zakrylas.html
 - [200] https://ria.ru/20230815/servis-1890223705.html
+- [200] https://ria.ru/20251001/azs-2045642226.html
 - [200] https://ria.ru/20260424/zarplata-2088663315.html
+- [200] https://riarating.ru/infografika/20260608/630297426.html
 - [200] https://rizz.market/kak-najti-blogera-dlya-reklamy-luchshie-metody-i-instrumenty
 - [200] https://roistat.com
 - [200] https://roistat.com/ru/price/
@@ -695,6 +667,7 @@
 - [200] https://texterra.ru/blog/operatory-reklamnykh-dannykh-vse-tarify.html
 - [200] https://thehrd.ru/articles/kak-najti-i-motivirovat-sotrudnikov-seti-azs/
 - [200] https://thehrd.ru/articles/kak-sostavit-tekst-vakansii-chtoby-na-nee-nikto-ne-otkliknulsja/
+- [200] https://tn-group.net/blog/pereboi-s-postavkami-topliva-kak-kontrolirovat-raskhod
 - [200] https://toolfox.ru/blog/stoimost-monitoringa-transporta
 - [200] https://top107.ru/saas/martech/calltouch-obzor/
 - [200] https://topazelectro.ru
@@ -786,6 +759,7 @@
 - [200] https://www.banki.ru/news/daytheme/?id=10990910
 - [200] https://www.banki.ru/news/daytheme/?id=11023520
 - [200] https://www.business-gazeta.ru/article/613097
+- [200] https://www.business-gazeta.ru/article/706631
 - [200] https://www.calltouch.ru
 - [200] https://www.calltouch.ru/
 - [200] https://www.calltouch.ru/blog/bez-tyuninga-realnyj-cpl-v-industrii-avto-issledovanie-calltouch-2025/
@@ -822,6 +796,7 @@
 - [200] https://www.finversia.ru/news/markets/severgrupp-alekseya-mordashova-kupila-hr-platformu-potok-23550
 - [200] https://www.fontanka.ru/2025/06/27/75649559/
 - [200] https://www.fontanka.ru/2026/06/22/76490853/
+- [200] https://www.forbes.ru/biznes/496011-prodazi-topliva-na-azs-stali-ubytocnymi-na-fone-rekordnyh-birzevyh-cen-na-benzin
 - [200] https://www.forbes.ru/biznes/556942-blize-i-doroze-pocemu-v-rossii-nabiraet-popularnost-dostavka-poslednej-mili
 - [200] https://www.forbes.ru/forbeslife/486861-associacia-blogerov-i-agentstv-sozdali-cernyj-spisok-influenserov
 - [200] https://www.forbes.ru/svoi-biznes/521951-headhunter-polucil-kontrol-v-hrlink-za-bolee-cem-1-mlrd-rublej
@@ -829,17 +804,21 @@
 - [200] https://www.forbes.ru/svoi-biznes/550372-stalo-sloznee-i-doroze-cto-proishodit-na-rynke-posle-zapreta-reklamy-v-instagram
 - [200] https://www.forbes.ru/tekhnologii/485882-vk-kupila-kontrol-nyj-paket-kompanii-influens-marketinga-didenok-team
 - [200] https://www.forbes.ru/tekhnologii/528210-truba-zamedlennogo-dejstvia-cto-slucilos-s-youtube-v-rossii-i-cto-budet-dal-se
+- [200] https://www.garant.ru/news/1527774/
 - [200] https://www.garant.ru/products/ipo/prime/doc/413133863/
+- [200] https://www.gazeta.ru/auto/2025/10/01/21788678.shtml
 - [200] https://www.gdemoi.ru/blog/sliv-topliva-mahinatsii-gsm/
 - [200] https://www.gostinfo.ru/InformationOfStandardization/Details/220
 - [200] https://www.icontext.ru
 - [200] https://www.interfax.ru/business/978459
 - [200] https://www.interfax.ru/world/1099294
 - [200] https://www.kellyservices.ru/blog/2021/05/chto-razdrazhaiet-rossiian-pri-poiskie-raboty-riezultaty-issliedovaniia
+- [200] https://www.klerk.ru/buh/news/483260/
 - [200] https://www.kommersant.ru/doc/4258674
 - [200] https://www.kommersant.ru/doc/4638082
 - [200] https://www.kommersant.ru/doc/5081541
 - [200] https://www.kommersant.ru/doc/5098050
+- [200] https://www.kommersant.ru/doc/8080036
 - [200] https://www.kommersant.ru/doc/8080328
 - [200] https://www.kommersant.ru/doc/8399528
 - [200] https://www.kommersant.ru/doc/8481423
@@ -854,6 +833,7 @@
 - [200] https://www.omnicomm.ru
 - [200] https://www.omnicomm.ru/solutions/kontrol-raskhoda-topliva/
 - [200] https://www.petrolplus.ru
+- [200] https://www.petrolplus.ru/fuelindex/regions/
 - [200] https://www.rabota.ru
 - [200] https://www.raiffeisen-media.ru/biznes/top-15-toplivnyh-kart-dlya-ip-i-ooo-v-2025-godu-vse-usloviya-komissii-keshbek-limity/
 - [200] https://www.rbgmedia.ru/files/rbg-338.pdf
@@ -917,3 +897,5 @@
 - [200] https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT
 - [200] https://zarplata.ru
 - [200] https://zen.ati.su/article/2022/11/10/stojanki-dlja-dalnobojschikov-na-vse-sluchai-zhizni-124486/
+- [200] https://zen.ati.su/article/2026/07/07/dizel-dorozhaet-tarif-ne-speshit-kak-tseny-na-toplivo-vlijajut-na-stavki-perevozchikov-410030/
+- [200] https://zen.ati.su/article/2026/07/15/stoimost-gruzoperevozok-v-rossii-vyrosla-pochti-na-tret-na-fone-defitsita-topliva-891498/
