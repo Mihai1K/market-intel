@@ -1,0 +1,30 @@
+{
+  "id": "omnicomm",
+  "name": "Omnicomm",
+  "legal_name": "ООО «Омникомм Технологии» (бренд с 1998, продажи через дилеров)",
+  "inn": "5050125910",
+  "website": "https://www.omnicomm.ru",
+  "founded": 2016,
+  "segment": "контроль топлива автопарков (ДУТ + платформа)",
+  "description": "Лидер контроля топлива: ДУТ точностью >99,5%, заявленная экономия ГСМ 15-25%. Но выручка юрлица падает (650→383 млн за 2023-2025, штат 56→33) — модель железо+дилеры стагнирует, при том что боль автопарков растёт. Разрыв между болью и решением = возможность.",
+  "revenue": [
+    { "value": 630.5, "unit": "млн руб", "period": "2021", "basis": "РСБУ (часть продаж через дилеров вне юрлица)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 650, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 559.4, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 383, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −32% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 89.9, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 191.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 115.9, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9794985", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 33, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/omnikomm-tekhnologii-1165050053024", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "ДУТ LLS-4/5 (через дилеров)", "price": "~13,7-14,9 тыс ₽ + установка/тарировка; абонплата ~350-500 ₽/объект/мес", "source_url": "https://rasxodomer.org/hardware/fuel-gauge/datchik-urovnya-topliva-omnicomm-lls-5-l-700-mm/", "retrieved_at": "2026-07-16" }
+  ],
+  "data_gaps": ["Продажи дилеров не консолидируются", "Официальный прайс — «по запросу»"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/9794985"],
+  "updated_at": "2026-07-16"
+}

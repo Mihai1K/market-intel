@@ -1,0 +1,27 @@
+{
+  "id": "evrotrans",
+  "name": "ЕвроТранс (АЗС «Трасса»)",
+  "legal_name": "ПАО «ЕвроТранс» (MOEX: EUTR; розница — ООО «Трасса ГСМ»)",
+  "inn": "5029169023",
+  "website": "https://trassagk.ru",
+  "founded": 2012,
+  "segment": "независимая сеть АЗК (публичная)",
+  "description": "Крупнейшая независимая сеть Мосрегиона (54 АЗК, рестораны, ЭЗС), IPO 2023 (13,5 млрд ₽). Выручка ПАО 224,5 млрд ₽ (2025, включая опт), прибыль 5,5 млрд — доказательство, что модель «АЗК + еда + ЭЗС» работает даже в кризис.",
+  "revenue": [
+    { "value": 49043, "unit": "млн руб", "period": "2021", "basis": "РСБУ ПАО (включая опт)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 106966, "unit": "млн руб", "period": "2023", "basis": "РСБУ ПАО", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 156710, "unit": "млн руб", "period": "2024", "basis": "РСБУ ПАО", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 224548, "unit": "млн руб", "period": "2025", "basis": "РСБУ ПАО, +43% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 2793, "unit": "млн руб", "period": "2023", "basis": "РСБУ ПАО", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 4412, "unit": "млн руб", "period": "2024", "basis": "РСБУ ПАО", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 5497, "unit": "млн руб", "period": "2025", "basis": "РСБУ ПАО", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/7622478", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "funding": [
+    { "event": "IPO на Мосбирже (EUTR), привлечено 13,5 млрд ₽", "date": "2023-11", "source_url": "https://www.moex.com/n65539" }
+  ],
+  "data_gaps": ["Персонал ГК распределён по юрлицам", "РСБУ ПАО включает внутригрупповые обороты"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/7622478"],
+  "updated_at": "2026-07-16"
+}

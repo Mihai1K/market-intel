@@ -1,0 +1,24 @@
+{
+  "id": "neftmagistral",
+  "name": "Нефтьмагистраль",
+  "legal_name": "ООО «ТД НМ» (семейный бизнес Ерастовых, 50/50)",
+  "inn": "7722582752",
+  "website": "https://neftm.ru",
+  "founded": 2006,
+  "segment": "независимая сеть АЗК (Мосрегион)",
+  "description": "Независимая сеть АЗК Московского региона (розница + опт). Выручка 72,7 млрд ₽ (2025), прибыль в кризисный 2025 выросла в 3,7 раза до 3,1 млрд — сильные независимые зарабатывают на волатильности.",
+  "revenue": [
+    { "value": 46709, "unit": "млн руб", "period": "2021", "basis": "РСБУ (розница + опт)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 54438, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 68515, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 72726, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 682, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 844, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 3135, "unit": "млн руб", "period": "2025", "basis": "РСБУ, ×3,7 г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/2876817", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "data_gaps": ["Численность не публикуется", "B2B-тарифы не публикуются"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/2876817"],
+  "updated_at": "2026-07-16"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "e1-card",
+  "name": "E1 Card (экс-Е100)",
+  "legal_name": "ООО «Онлайн Кардс» (Смоленск; MBO у международного холдинга Е100 в 2022-2023)",
+  "inn": "6732075238",
+  "website": "https://e1-card.ru",
+  "founded": 2014,
+  "segment": "топливные карты B2B (перевозчики)",
+  "description": "Мультибрендовая карта для перевозчиков (20 000+ АЗС, включая СНГ и Турцию). Растёт взрывообразно на топливном кризисе: выручка 34,6 → 92,8 млрд ₽ за 2021-2025, прибыль ×11 (до 3,2 млрд). Обратная сторона — худшие отзывы клиентов в сегменте.",
+  "revenue": [
+    { "value": 34579, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит топливных платежей)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8594383", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 66403, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8594383", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 81425, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8594383", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 92800, "unit": "млн руб", "period": "2025", "basis": "РСБУ (агрегатор)", "source_name": "Checko", "source_url": "https://checko.ru/company/onlayn-kards-1146733011105", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 1204, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8594383", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 1786, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/8594383", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 3200, "unit": "млн руб", "period": "2025", "basis": "РСБУ (агрегатор)", "source_name": "Checko", "source_url": "https://checko.ru/company/onlayn-kards-1146733011105", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "top_complaints": [
+    { "complaint": "Платежи не зачисляются, поддержка не отвечает, «списывают больше чем обещают»", "source_url": "https://otzovik.com/reviews/toplivnaya_karta_e100/" }
+  ],
+  "data_gaps": ["Комиссии не публикуются", "Численность юрлица — только самораскрытие «500+ по группе»"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/8594383"],
+  "updated_at": "2026-07-16"
+}

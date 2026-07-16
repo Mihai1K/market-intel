@@ -18,7 +18,8 @@ const outArg = process.argv.indexOf("--out");
 const OUT = outArg > -1 ? process.argv[outArg + 1] : join(ROOT, "artifacts", "link-report.md");
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
-const URL_RE = /https?:\/\/[^\s"'\\)\]}>,]+/g;
+// «)» разрешена внутри URL (Википедия: ..._(с_2025)); непарные хвостовые скобки срезаются на очистке
+const URL_RE = /https?:\/\/[^\s"'\\\]}>,]+/g;
 
 function* walkFiles(dir) {
   for (const name of readdirSync(dir)) {
@@ -34,7 +35,10 @@ for (const dir of ["data", "research"].map((d) => join(ROOT, d))) {
   for (const file of walkFiles(dir)) {
     const text = readFileSync(file, "utf8");
     for (const raw of text.match(URL_RE) ?? []) {
-      const url = raw.replace(/[.,;:»)]+$/, "");
+      let url = raw.replace(/[.,;:»]+$/, "");
+      // закрывающую скобку срезаем только если она непарная — URL Википедии вида ..._(с_2025) легальны
+      const count = (s, ch) => s.split(ch).length - 1;
+      while (url.endsWith(")") && count(url, ")") > count(url, "(")) url = url.slice(0, -1);
       if (!urlFiles.has(url)) urlFiles.set(url, new Set());
       urlFiles.get(url).add(relative(ROOT, file));
     }

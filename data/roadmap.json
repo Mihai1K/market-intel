@@ -4,7 +4,7 @@
     { "name": "HR-tech и поиск работы", "slug": "hr-tech-rf", "status": "done" },
     { "name": "Influencer marketing и реклама у блогеров", "slug": "influencer-marketing-rf", "status": "done" },
     { "name": "Рекламные агентства и performance-маркетинг", "slug": "performance-marketing-rf", "status": "done" },
-    { "name": "Топливо, АЗС и придорожный сервис", "slug": null, "status": "todo" },
+    { "name": "Топливо, АЗС и придорожный сервис", "slug": "fuel-azs-rf", "status": "done" },
     { "name": "Логистика последней мили и грузоперевозки", "slug": null, "status": "todo" },
     { "name": "Недвижимость: агенты и аренда", "slug": null, "status": "todo" },
     { "name": "Автосервисы и авторемонт", "slug": null, "status": "todo" },

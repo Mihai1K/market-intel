@@ -1,0 +1,86 @@
+{
+  "id": "fuel-azs-rf",
+  "name": "Топливо, АЗС и придорожный сервис в России",
+  "description": "Розничный топливный рынок (27 764 АЗС), B2B топливные карты и контроль ГСМ автопарков, нетопливный ритейл на АЗС, придорожный сервис. Рынок в структурном кризисе: атаки на НПЗ выбили до 41% производства бензина, дефицит в 61 регионе (июнь 2026), маржа независимых АЗС отрицательная, 451 станция закрылась за 2025. Первый событийный полигон платформы.",
+  "scope_assumptions": [
+    "Оценки числа АЗС расходятся по методике: ОМТ-Консалт ~29 тыс. (без новых регионов), BusinesStat 31,3 тыс. (с газо- и электрозаправками)",
+    "Денежная оценка рынка по сути одна открытая (ГидМаркет via TAdviser) + производная от ОМТ-Консалт/Ведомостей — помечено",
+    "Комиссии топливных карт операторы не публикуют — только по индивидуальному запросу",
+    "События 2026 по атакам на НПЗ агрегированы Википедией с опорой на Reuters — первоисточники платные"
+  ],
+  "segments": [
+    { "id": "fuel-retail", "name": "Розница топлива", "description": "95,4% кассы АЗС (Q1 2026, NTech), 85%+ выручки. ВИНК: ~32% станций, но >60% объёма продаж; средняя прокачка 7 т/сутки (у ВИНК 10-18). Средняя выручка АЗС ~462 тыс ₽/сутки." },
+    { "id": "non-fuel", "name": "Нетопливный ритейл (магазин/кафе)", "description": "10-25% выручки, но 35-40% валовой маржи и до 80% прибыли в кризис; маржинальность сопутки 80-90%; кофе >25% нетопливных продаж (капучино на АЗС 262 ₽ против 86 в ритейле); рост 30%+/год." },
+    { "id": "b2b-cards", "name": "B2B топливные карты и контроль ГСМ", "description": "ППР/Вездеход (куплен Kismet Таврина у Fleetcor, 2023), Е1 Card, РН-Карт, Ликард, ОПТИ 24 + телематика (Omnicomm, СКАУТ). Объём рынка в ₽ не публикуется." },
+    { "id": "wholesale-marketplace", "name": "Мелкооптовые маркетплейсы топлива", "description": "OPEN OIL MARKET: 80,7 тыс. т на 5,76 млрд ₽ GMV (2024, +13%); 77% спроса — дизель." },
+    { "id": "roadside", "name": "Придорожный сервис и МФЗ", "description": "~100 полноценных МФЗ на страну при потребности ~570; на М-12 интервалы АЗС 130-140 км; Концепция автотуризма-2035 — цель 50 млн автопоездок/год." },
+    { "id": "ev-gas", "name": "ЭЗС и газомоторное топливо", "description": "7 000+ зарядных станций (67 электромобилей на 1 ЭЗС против 2150 авто на 1 АЗС); с 01.03.2026 новые АЗС обязаны ставить ЭЗС ≥44 кВт; субсидия АГНКС повышена до 50 млн ₽/объект (04.2026)." }
+  ],
+  "market_size_rf": {
+    "estimates": [
+      { "value": 3564, "unit": "млрд руб", "period": "2024", "scope": "рынок АЗС РФ, +18,5% к 2023", "source_name": "ГидМаркет (via TAdviser)", "source_url": "https://www.tadviser.ru/index.php/Статья:Автомобильные_заправочные_станции_(АЗС)_в_России", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "estimated" },
+      { "value": 3720, "unit": "млрд руб", "period": "2025", "scope": "рынок АЗС РФ, +4,4% — рост полностью инфляционный, физспрос −3,6%", "source_name": "ГидМаркет (via TAdviser)", "source_url": "https://www.tadviser.ru/index.php/Статья:Автомобильные_заправочные_станции_(АЗС)_в_России", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "estimated" },
+      { "value": 3950, "unit": "млрд руб", "period": "2024", "scope": "производная оценка: средняя выручка АЗС ~462 тыс ₽/сутки × 23,5 тыс. АЗС × 365", "source_name": "ОМТ-Консалт/НТС (Ведомости), расчёт наш", "source_url": "https://www.vedomosti.ru/analytics/krupnyy_plan/articles/2024/08/13/1055625-skolko-zarabativayut-azs-v-rossii", "retrieved_at": "2026-07-16", "confidence": "low", "method": "derived", "formula": "462 000 ₽/сутки × 23 500 АЗС × 365 дней ≈ 3,96 трлн ₽" }
+    ],
+    "range_note": "Крупнейший рынок в базе: ~3,6-4,0 трлн ₽. Но деньги сконцентрированы у ВИНК; для нас релевантны слои: B2B-контроль ГСМ автопарков (потери от сливов и фрода), нетопливный ритейл (вся прибыль АЗС в кризис), сервисный/информационный слой кризиса (наличие топлива, комплаенс)."
+  },
+  "growth": [
+    { "value": 4.4, "unit": "% г/г (деньги)", "period": "2025", "scope": "рост инфляционный: физический спрос на топливо −3,6%", "source_name": "ГидМаркет (via TAdviser)", "source_url": "https://www.tadviser.ru/index.php/Статья:Автомобильные_заправочные_станции_(АЗС)_в_России", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "estimated" },
+    { "value": 30, "unit": "% г/г (нетопливная выручка активных сетей)", "period": "2024", "scope": "готовая еда на АЗС +24,4% в 2025", "source_name": "Ведомости / NTech", "source_url": "https://www.vedomosti.ru/analytics/krupnyy_plan/articles/2024/08/13/1055625-skolko-zarabativayut-azs-v-rossii", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "estimated" },
+    { "value": -1.6, "unit": "% г/г (число АЗС)", "period": "2025", "scope": "закрылась 451 АЗС (~411 независимых) — первое сокращение сети, минимум за 6 лет (27 764)", "source_name": "ОМТ-Консалт (Эксперт)", "source_url": "https://expert.ru/promishlennost/azs-slivayutsya-s-rynka", "retrieved_at": "2026-07-16", "confidence": "high", "method": "estimated" }
+  ],
+  "buying_power": [
+    {
+      "segment": "Автопарки (B2B — самые платёжеспособные)",
+      "typical_budget": "телематика+ДУТ: 6,5-25 тыс ₽/машина разово + 350-700 ₽/мес за ТС; топливные карты — скидки 2-19% при непрозрачных комиссиях; ПО учёта ГСМ — модули 1С",
+      "deal_cycle": "недели",
+      "ease_of_purchase": 4,
+      "evidence": [
+        { "note": "цены мониторинга и ДУТ", "source_url": "https://toolfox.ru/blog/stoimost-monitoringa-transporta" },
+        { "note": "обзор условий топливных карт 2025", "source_url": "https://www.raiffeisen-media.ru/biznes/top-15-toplivnyh-kart-dlya-ip-i-ooo-v-2025-godu-vse-usloviya-komissii-keshbek-limity/" }
+      ]
+    },
+    {
+      "segment": "Независимые АЗС",
+      "typical_budget": "ПО: Топаз-АЗС 38,5-63,5 тыс ₽ (+раб. место 20,9 тыс), Нефтебаза 245 тыс; кассы 17-40 тыс + ФН/ОФД ежегодно; поверка каждой ТРК ежегодно; НО платёжеспособность подорвана отрицательной маржой",
+      "deal_cycle": "недели-месяцы, покупают только обязательное",
+      "ease_of_purchase": 2,
+      "evidence": [
+        { "note": "прайс ПО для АЗС", "source_url": "https://azsmentor.ru/catalog/programmy-dlya-azs-po" },
+        { "note": "операционные затраты АЗС 6-7 ₽/л при отрицательной марже", "source_url": "https://ru.themoscowtimes.com/2025/10/23/marzha-azs-v-rf-uvelichilas-osenyu-no-ostaetsya-otritsatelnoy-raschet-reyter-a178084" }
+      ]
+    },
+    {
+      "segment": "Водители (B2C)",
+      "typical_budget": "заправка 3-5 тыс ₽; кофе 215-262 ₽; приложения и карты наличия — бесплатны (монетизация через платформы); в кризис платят переплатой до 300-400 ₽/л на чёрном рынке",
+      "deal_cycle": "импульс",
+      "ease_of_purchase": 3,
+      "evidence": [
+        { "note": "цены нетоплива на АЗС (NTech)", "source_url": "https://peterburg2.ru/news/pochemu-kofe-i-vypechka-na-azs-stoyat-v-razy-dorozhe-magazinov-223191.html" },
+        { "note": "чёрный рынок топлива в Крыму 300→400 ₽/л", "source_url": "https://dailystorm.ru/detali/perekupshchiki-za-nedelyu-povysili-ceny-na-benzin-v-krymu-do-400-rubley-za-litr" }
+      ]
+    }
+  ],
+  "events": [
+    { "date": "2023-09", "event": "Первый шок: рекорд АИ-95 на бирже (76,9 тыс ₽/т) → запрет экспорта бензина и ДТ (21.09) → демпфер восстановлен, заградительная пошлина перекупщикам. Окно взяли оптовые перекупщики и трейдеры (ДТ аграриям по 135-140 ₽/л)", "source_url": "http://government.ru/news/49564/" },
+    { "date": "2024-03", "event": "Дроновая кампания-2024: выбито ~7% мощностей переработки к 25.03 (к маю — до 25%); запрет экспорта бензина на 6 месяцев", "source_url": "https://forbes.ua/ru/news/rosiya-z-pochatku-roku-vtratila-7-naftopererobnikh-potuzhnostey-cherez-ataki-ukrainskikh-droniv-reuters-25032024-20109" },
+    { "date": "2025-08", "event": "АИ-95 впервые выше 80 тыс ₽/т; ≥58 ударов по ТЭК за месяц, выбито до 21% мощностей; дефицит в Приморье (130 из 295 АЗС)", "source_url": "https://www.rbc.ru/economics/08/08/2025/6896012a9a79475d9cc6ccdb" },
+    { "date": "2025-09", "event": "Рекорд простоя: 38% мощностей первичной переработки; дефицит в 57+ регионах; Крым — лимиты 20 л и талоны; чёрный рынок до 300 ₽/л", "source_url": "https://neftegaz.ru/news/neftechim/901614-prostoi-na-rossiyskikh-npz-dostigli-rekordnogo-urovnya-do-38-moshchnostey/" },
+    { "date": "2025-10-12", "event": "Указ: мораторий на обнуление демпфера до 01.05.2026 (не продлён — с мая 2026 качели вернулись)", "source_url": "https://www.rbc.ru/business/12/10/2025/68eb90d19a7947a32a3b0b59" },
+    { "date": "2026-04", "event": "Полный запрет экспорта бензина (позже и ДТ); с начала 2026 выведено из строя 13 крупных НПЗ; за 1П2026 — 194 удара (в 11 раз больше 1П2025)", "source_url": "https://www.rbc.ru/business/02/04/2026/69ce116b9a794776bde4a720" },
+    { "date": "2026-05", "event": "Переработка — минимум за 16 лет (4,28 млн барр/сутки); остановлены мощности до 41% бензина и 44% ДТ", "source_url": "https://novayagazeta.eu/articles/2026/06/17/posle-ukrainskikh-udarov-po-npz-v-rossii-ostanovleny-moshchnosti-proizvodiashchie-do-44-dizelnogo-topliva-i-41-benzina-news" },
+    { "date": "2026-06", "event": "Пик кризиса: ограничения в ~61 из 89 регионов, Крым полностью остановил продажу топлива, цены пробили 100 ₽/л, розничные продажи по чётным/нечётным номерам в Нижегородской обл.", "source_url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" },
+    { "date": "2026-06-23", "event": "Монетизация окна: канистры на WB +228% г/г (1427 заказов/день, чек ×2); ФАС запретила перепродажу топлива на Авито/Ozon/WB — продавцы маскируют лоты", "source_url": "https://forbes.kz/articles/chto-pokazyvayut-prodazhi-toplivnyh-kanistr-na-marketpleysah-rossii-i-kazahstana-684bf4" },
+    { "date": "2026-07-08", "event": "ПЛАТФОРМЫ ЗАКРЫЛИ B2C-НИШУ КАРТ ТОПЛИВА: Яндекс открыл карту наличия и очередей (10 тыс+ АЗС) всем, Сбер (~23 тыс АЗС) и Т-Банк (20 тыс+) — аналогичные; параллельно 60+ фишинговых «карт бензина»", "source_url": "https://www.cnews.ru/news/top/2026-07-09_yandeks_sozdal_kartu_ocheredej" },
+    { "date": "2026-07", "event": "Разворот к импорту: бензин из Белоруссии, Китая, Индии; нулевые пошлины ЕАЭС до середины 2027; обсуждается допуск Евро-2; прогноз нормализации — август 2026", "source_url": "https://www.interfax.ru/world/1099294" },
+    { "date": "2026-03-01", "event": "Комплаенс-окно: все новые АЗС обязаны ставить ЭЗС ≥44 кВт (ПП от 30.07.2025); маркировка моторных масел обязательна с 09.2025, поэкземплярный учёт с 2026", "source_url": "https://itek.ru/news/vlasti-obyazali-novye-azs-v-rossii-vozvodit-zaryadki-dlya-elektromobilej/" },
+    { "date": "2026-07-07", "event": "Сдвиг поведения: ночные заправки +50-280%, «дробление» заправок, чек в Крыму −41% (T-Data); 26% автотуристов отменили поездки (АТОР)", "source_url": "https://new-retail.ru/novosti/retail/kak_toplivnyy_krizis_izmenil_povedenie_avtomobilistov/" }
+  ],
+  "sources": [
+    "https://www.tadviser.ru/index.php/Статья:Автомобильные_заправочные_станции_(АЗС)_в_России",
+    "https://www.vedomosti.ru/analytics/krupnyy_plan/articles/2024/08/13/1055625-skolko-zarabativayut-azs-v-rossii",
+    "https://expert.ru/promishlennost/azs-slivayutsya-s-rynka",
+    "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+  ],
+  "updated_at": "2026-07-16"
+}

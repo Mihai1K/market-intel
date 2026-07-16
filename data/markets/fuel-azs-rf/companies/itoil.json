@@ -1,0 +1,28 @@
+{
+  "id": "itoil",
+  "name": "АйТи-Ойл",
+  "legal_name": "ООО «АйТи-Ойл» (100% у А. Федина)",
+  "inn": "7725497135",
+  "website": "https://itoil.ru",
+  "founded": 2018,
+  "segment": "ПО для АЗС (вкл. безоператорные)",
+  "description": "Чистый софтверный вендор АЗС: 2 000+ станций под управлением, включая полностью автоматические (без операторов — ответ на кадровый голод). 13 человек, выручка 143 млн ₽ (2025, +26%), прибыль 25 млн.",
+  "revenue": [
+    { "value": 104.9, "unit": "млн руб", "period": "2021", "basis": "РСБУ (софт)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10784272", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 114.2, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10784272", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 143.1, "unit": "млн руб", "period": "2025", "basis": "РСБУ, +26% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10784272", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 6.6, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10784272", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 25.2, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/10784272", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 13, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/ayti-oyl-1187746798425", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "АСУ АЗС / безоператорные АЗС", "price": "цены не публикуются", "source_url": "https://itoil.ru/company/", "retrieved_at": "2026-07-16" }
+  ],
+  "data_gaps": ["Цены только по запросу"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/10784272"],
+  "updated_at": "2026-07-16"
+}

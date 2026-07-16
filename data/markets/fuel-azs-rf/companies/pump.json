@@ -1,0 +1,27 @@
+{
+  "id": "pump",
+  "name": "PUMP (доставка топлива)",
+  "legal_name": "ООО «ПАМП»",
+  "inn": "7702405829",
+  "website": "https://pump.today",
+  "founded": 2016,
+  "segment": "доставка топлива (B2B/B2C)",
+  "description": "Мобильная заправка и доставка топлива (Москва, МО, СПб). Отрезвляющий факт против хайпа «доставка топлива = золото кризиса»: выручка ПАДАЕТ два года подряд (735→318 млн ₽), 2025 — убыток. Ниша сложнее, чем кажется (ДОПОГ, логистика, юнит-экономика).",
+  "revenue": [
+    { "value": 680, "unit": "млн руб", "period": "2021", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 735.5, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 405.7, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 317.5, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": -26, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 1.6, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": -24.1, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/9908421", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 18, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/pamp-1167746843175", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "data_gaps": ["Для сравнения: ТК «Мостранснефть» (70 бензовозов, B2B) — выручка 3,6 млрд ₽ (2025) при прибыли 34 млн — B2B-доставка работает, B2C — нет"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/9908421"],
+  "updated_at": "2026-07-16"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ppr",
+  "name": "ППР / Petrol Plus",
+  "legal_name": "ООО «ППР» (куплен Kismet Capital Group Ивана Таврина у FleetCor, 2023)",
+  "inn": "7743036465",
+  "website": "https://www.petrolplus.ru",
+  "founded": 2001,
+  "segment": "топливные карты B2B (лидер)",
+  "description": "Крупнейший независимый оператор топливных карт (80 000+ юрлиц, карта «Вездеход», 18-20 тыс. АЗС). Выручка 184,6 млрд ₽ (2023, включая транзит топливных платежей), прибыль 5 млрд. С 2024 скрыт из публичного ГИР БО. Владеет Benzuber.",
+  "revenue": [
+    { "value": 96400, "unit": "млн руб", "period": "2021", "basis": "РСБУ (включает транзит топливных платежей)", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7743036465-774301001", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" },
+    { "value": 116500, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7743036465-774301001", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" },
+    { "value": 184556, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/83024", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 2000, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "СБИС/saby", "source_url": "https://saby.ru/profile/7743036465-774301001", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" },
+    { "value": 5023, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "list-org", "source_url": "https://www.list-org.com/company/83024", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 372, "unit": "чел (среднесписочная)", "period": "2023", "basis": "данные ФНС", "source_name": "list-org", "source_url": "https://www.list-org.com/company/83024", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Комиссии не публикуются; из отзывов", "price": "инфосбор ~1% от оборота, наценки к стеле до 10-11%, комиссия 5-5,5% за сопутствующие платежи", "source_url": "https://otzovik.com/reviews/toplivnaya_karta_petrol_plyus/", "retrieved_at": "2026-07-16" }
+  ],
+  "top_complaints": [
+    { "complaint": "Односторонние наценки: по стеле 65,55 ₽ — списывают 72,98 ₽", "source_url": "https://otzovik.com/reviews/toplivnaya_karta_petrol_plyus/" }
+  ],
+  "funding": [
+    { "event": "Kismet Capital Group (Иван Таврин) купила 100% у американской FleetCor", "date": "2023-08", "source_url": "https://ria.ru/20230815/servis-1890223705.html" }
+  ],
+  "data_gaps": ["Отчётность 2024-2025 скрыта из публичного ГИР БО", "Тарифы — только индивидуальные договоры"],
+  "sources": ["https://www.list-org.com/company/83024"],
+  "updated_at": "2026-07-16"
+}

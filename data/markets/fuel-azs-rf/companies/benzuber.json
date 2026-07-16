@@ -1,0 +1,31 @@
+{
+  "id": "benzuber",
+  "name": "Benzuber",
+  "legal_name": "ООО ТД «Смарт-Технологии» (100% у ППР с 2021)",
+  "inn": "6670285874",
+  "website": "https://benzuber.ru",
+  "founded": 2010,
+  "segment": "мобильная оплата топлива (агрегатор независимых АЗС)",
+  "description": "Оплата из приложения на 13 500+ АЗС (450 брендов, в основном независимые сети). Куплен группой ППР в 2021. Выручка ×2,8 в 2023 (16,2 млрд ₽, транзит платежей). Отчётность 2024-2025 не опубликована.",
+  "revenue": [
+    { "value": 4210, "unit": "млн руб", "period": "2021", "basis": "РСБУ (транзит топливных платежей)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4681017", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 5731, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4681017", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 16245, "unit": "млн руб", "period": "2023", "basis": "РСБУ, ×2,8 г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4681017", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 7.2, "unit": "млн руб", "period": "2022", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4681017", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 108.7, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/4681017", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "Для бизнеса (виртуальная топливная карта)", "price": "без абонплаты и платы за карты, пополнение без комиссии", "source_url": "https://benzuber.ru/business/", "retrieved_at": "2026-07-16" }
+  ],
+  "top_complaints": [
+    { "complaint": "Позволяет оплатить топливо, которого нет на заправке — данные о наличии неверные", "source_url": "https://www.rustore.ru/catalog/app/ru.benzuber.benzuber_rus/reviews" }
+  ],
+  "funding": [
+    { "event": "100% у ООО «ППР» (группа Petrol Plus)", "date": "2021-12", "source_url": "https://checko.ru/company/td-smart-tekhnologii-1106670006772" }
+  ],
+  "data_gaps": ["Отчётность 2024-2025 не опубликована", "Комиссия для АЗС не раскрывается"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/4681017"],
+  "updated_at": "2026-07-16"
+}

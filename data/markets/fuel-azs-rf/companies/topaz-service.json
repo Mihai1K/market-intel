@@ -1,0 +1,30 @@
+{
+  "id": "topaz-service",
+  "name": "Топаз-сервис",
+  "legal_name": "ООО «Топаз-сервис» (Волгодонск; 3 физлица по 33,3%)",
+  "inn": "6143047015",
+  "website": "https://topazelectro.ru",
+  "founded": 2000,
+  "segment": "ПО и оборудование для АЗС",
+  "description": "Главный вендор АСУ АЗС (софт «Топаз-АЗС» + электроника). Пик 2023-2024 (3,4-3,5 млрд ₽, маржа до 32%), в 2025 выручка −40% — кризис АЗС ударил по их поставщикам. 368 сотрудников.",
+  "revenue": [
+    { "value": 1281, "unit": "млн руб", "period": "2021", "basis": "РСБУ (софт + оборудование)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 3390, "unit": "млн руб", "period": "2023", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 3545, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 2117, "unit": "млн руб", "period": "2025", "basis": "РСБУ, −40% г/г", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "net_profit": [
+    { "value": 1087, "unit": "млн руб", "period": "2023", "basis": "РСБУ (маржа 32%)", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 759.6, "unit": "млн руб", "period": "2024", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" },
+    { "value": 186.8, "unit": "млн руб", "period": "2025", "basis": "РСБУ", "source_name": "ГИР БО ФНС", "source_url": "https://bo.nalog.gov.ru/organizations-card/6963396", "retrieved_at": "2026-07-16", "confidence": "high", "method": "reported" }
+  ],
+  "headcount": [
+    { "value": 368, "unit": "чел (среднесписочная)", "period": "2025", "basis": "данные ФНС", "source_name": "Checko", "source_url": "https://checko.ru/company/topaz-servis-1026101933725", "retrieved_at": "2026-07-16", "confidence": "medium", "method": "reported" }
+  ],
+  "pricing": [
+    { "plan": "ПО «Топаз-АЗС» (дилерский прайс)", "price": "38,5-63,5 тыс ₽ + раб. место 20,9 тыс; «Нефтебаза» 245 тыс ₽", "source_url": "https://azsmentor.ru/catalog/programmy-dlya-azs-po", "retrieved_at": "2026-07-16" }
+  ],
+  "data_gaps": ["Разбивка софт/железо не раскрывается"],
+  "sources": ["https://bo.nalog.gov.ru/organizations-card/6963396"],
+  "updated_at": "2026-07-16"
+}

@@ -1,0 +1,36 @@
+{
+  "market": "fuel-azs-rf",
+  "updated_at": "2026-07-16",
+  "workflows": [
+    {
+      "id": "fleet",
+      "name": "Управление ГСМ в автопарке (10-100 машин)",
+      "actor": "автопарк",
+      "steps": [
+        { "name": "Выбор поставщика топливных карт", "status": "manual", "evidence": "Логист вручную сравнивает карты по покрытию АЗС на маршрутах, скидкам, отсрочке, возврату НДС", "evidence_url": "https://ftcard.ru/articles/reyting-toplivnykh-kart-dlya-yuridicheskikh-lits/", "can_ai": true, "can_bot": true },
+        { "name": "Выдача карт водителям", "status": "manual", "evidence": "Приказ о закреплении + акт передачи + лимиты в ЛК оператора; материальная ответственность водителя", "evidence_url": "https://assistentus.ru/forma/prikaz-o-zakreplenii-toplivnyh-kart-za-voditelyami/", "can_ai": true, "can_bot": true },
+        { "name": "Заправки в рейсе", "status": "semi", "evidence": "Водитель ищет АЗС сети по локатору, транзакция в ЛК автоматически; ночной логист консультирует водителей по ГСМ (из текста вакансии)", "evidence_url": "https://hh.ru/vacancy/134721249", "can_ai": true, "can_bot": true },
+        { "name": "Контроль сливов и фрода", "status": "semi", "evidence": "ДУТ+телематика фиксируют слив автоматически, но разбор инцидентов и «левых» чеков — вручную; типовой фрод: слив шлангом, поддельные чеки, скрутка одометра", "evidence_url": "https://www.omnicomm.ru/solutions/kontrol-raskhoda-topliva/", "can_ai": true, "can_bot": true },
+        { "name": "Сверка транзакций карт с чеками и путевыми листами", "status": "semi", "evidence": "Бухгалтер вручную сверяет реестр оператора с путевыми листами; в 1С есть «Сверка заправок», но стыковка ручная", "evidence_url": "https://is1c.ru/about/pc/article/uchet-topliva-po-putevym-listam-pri-oplate-toplivnoy-kartoy-v-1s-bukhgalteriya-predpriyatiya/", "can_ai": true, "can_bot": true },
+        { "name": "Учёт ГСМ в 1С", "status": "semi", "evidence": "Документ «Путевой лист» в 1С; реестр и счёт-фактура от оператора карт загружаются, у ОПТИ 24/РН-Карт есть экспорт в 1С/ЭДО", "evidence_url": "https://its.1c.ru/db/hoosn/content/381/hdoc", "can_ai": true, "can_bot": true },
+        { "name": "Возмещение НДС", "status": "semi", "evidence": "Счёт-фактура/УПД с НДС 20% → книга покупок → декларация до 25 числа после квартала", "evidence_url": "https://e1-card.ru/blog/biznes/kak-zayavit-k-vychetu-nds-raskhody-po-toplivnoj-karte", "can_ai": true, "can_bot": false },
+        { "name": "Аналитика расхода топлива", "status": "semi", "evidence": "Сравнение факта с нормами Минтранса АМ-23-р, разбор перерасходов по водителям вручную — типовая обязанность бухгалтера по ГСМ", "evidence_url": "https://www.superjob.ru/vakansii/buhgalter-po-uchetu-gsm.html", "can_ai": true, "can_bot": true, "time_cost": "Omnicomm заявляет экономию ГСМ 15-25% при внедрении контроля", "time_cost_url": "https://www.omnicomm.ru/solutions/kontrol-raskhoda-topliva/" }
+      ]
+    },
+    {
+      "id": "azs-owner",
+      "name": "Операционка независимой АЗС",
+      "actor": "владелец АЗС",
+      "steps": [
+        { "name": "Закупка топлива (биржа/опт)", "status": "manual", "evidence": "Закупка у ВИНК/трейдеров/на СПбМТСБ; с 21.07.2026 биржа допускает к покупке бензина только конечных потребителей (сети АЗС остаются)", "evidence_url": "https://www.fontanka.ru/2026/06/22/76490853/", "can_ai": true, "can_bot": false },
+        { "name": "Логистика бензовозом", "status": "manual", "evidence": "Наёмный или свой бензовоз с нефтебазы; при ж/д биржевой поставке от покупки до станции — 2 недели-месяц", "evidence_url": "https://trans-neftnn.ru/services/pokupka-nefteproduktov-napryamuyu-cherez-birzhu-spbmtsb/kupit-benzin-optom-napryamuyu-s-birzhi-spbmtsb/", "can_ai": true, "can_bot": false, "time_cost": "от покупки на бирже до прихода топлива — 2 недели-месяц", "time_cost_url": "https://trans-neftnn.ru/services/pokupka-nefteproduktov-napryamuyu-cherez-birzhu-spbmtsb/kupit-benzin-optom-napryamuyu-s-birzhi-spbmtsb/" },
+        { "name": "Приёмка и учёт топлива", "status": "manual", "evidence": "Проверка пломб, отстой ~20 мин, замеры метроштоком дважды, слив 30-60 мин — регламент ГОСТ Р 58404", "evidence_url": "https://www.azsk74.ru/news/pravila-priema-benzovoza-na-azs/", "can_ai": false, "can_bot": false },
+        { "name": "Ценообразование (ежедневное)", "status": "manual", "evidence": "Владелец ежедневно балансирует между оптом, конкурентами и ФАС; маржа АИ-92 в 2026: 6,1 руб/л (январь) → 0,3 руб/л (июнь) — Петромаркет", "evidence_url": "https://expert.ru/tek/nezavisimym-azs-trebuetsya-dozapravka", "can_ai": true, "can_bot": true },
+        { "name": "Смены операторов", "status": "manual", "evidence": "Оператор: касса, отпуск топлива, сопутка, приёмка бензовоза, сменные отчёты (типовые обязанности из вакансий)", "evidence_url": "https://jobers.ru/blog/dolzhnostnye-obyazannosti-operatora-azs/", "can_ai": true, "can_bot": false },
+        { "name": "Нетопливные продажи (кафе/магазин)", "status": "manual", "evidence": "Магазин/кафе дают 10-25% выручки, но 35-40% валовой маржи; кофе >25% нетопливных продаж; ассортимент и закупки вручную", "evidence_url": "http://www.rfu.ru/1800-skolko-zarabatyvayut-azs-v-rossii-ekonomika-zapravki-zavisit-ot-lokatsii-biznes-modeli-i-razvitiya-netoplivnogo-segmenta.html", "can_ai": true, "can_bot": false },
+        { "name": "Отчётность (онлайн-кассы, Честный знак)", "status": "semi", "evidence": "54-ФЗ: касса передаёт чеки в ОФД автоматически; маркировка товаров магазина — коды в чеке, штрафы юрлицам 100-500 тыс ₽", "evidence_url": "https://pay.yandex.ru/blog/articles/chto-takoe-chestnyj-znak", "can_ai": true, "can_bot": true },
+        { "name": "Проверки (Росстандарт: качество и недолив)", "status": "manual", "evidence": "Нарушения выявлены на 1113 АЗС, штрафы 22+ млн ₽; план — каждая десятая АЗС; штраф за недолив 1% годовой выручки (мин 500 тыс ₽)", "evidence_url": "https://www.gostinfo.ru/InformationOfStandardization/Details/220", "can_ai": true, "can_bot": false }
+      ]
+    }
+  ]
+}
