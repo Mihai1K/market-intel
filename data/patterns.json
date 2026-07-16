@@ -1,0 +1,70 @@
+{
+  "description": "Кросс-рыночные паттерны возможностей. Обновляется после каждого рынка (Промпт 2) и дайджестом. Правило сигнала: паттерн в 4-5 независимых рынках = сильный сигнал для продукта, переживающего отдельные рынки.",
+  "updated_at": "2026-07-14",
+  "patterns": [
+    {
+      "id": "productized-fixed-price-service",
+      "name": "Продуктизированная услуга за фикс (вместо агентства за % или самостоятельных мучений)",
+      "description": "Клиент платит фикс за результат процесса, AI делает 80% производства. Работает там, где агентства дороги, а DIY — лотерея.",
+      "count": 3,
+      "evidence": [
+        { "market": "hr-tech-rf", "items": ["ai-hiring-for-smb (закрытие вакансии за 19 900 ₽ против агентства за 288 000)"] },
+        { "market": "influencer-marketing-rf", "items": ["rkn-registration-service", "markirovka-pod-klyuch", "ai-media-planner (медиаплан за 24 часа)"] },
+        { "market": "performance-marketing-rf", "items": ["ai-direct-audit (аудит за 9 900 ₽)", "micro-budget-direct (ведение за фикс 9 900 ₽/мес)"] }
+      ]
+    },
+    {
+      "id": "independent-trust-verification",
+      "name": "Независимая проверка / инструмент доверия",
+      "description": "Рынок не доверяет сам себе: проверка подрядчика, накруток, фейков. Продаётся страх потерять деньги. Сильнейшая версия — «мы не продаём то, что проверяем» (нет конфликта интересов).",
+      "count": 3,
+      "evidence": [
+        { "market": "performance-marketing-rf", "items": ["ai-direct-audit — лидер рынка (Launch 90)", "боль krizis-doveriya: проверки подрядчиков +33%"] },
+        { "market": "influencer-marketing-rf", "items": ["fraud-check-smb (проверка накруток)", "deal-guarantor-direct", "боли nakrutki-*"] },
+        { "market": "hr-tech-rf", "items": ["ghost-vacancy-filter (слабый Launch 61 — здесь никто не платит, важный контрпример: паттерн работает только там, где проверяющий рискует своими деньгами)"] }
+      ]
+    },
+    {
+      "id": "crm-instead-of-excel",
+      "name": "Отраслевая CRM/операционка вместо Excel-таблиц",
+      "description": "Профессионалы ведут сделки в «таблицах смерти», универсальные CRM не знают отраслевых сущностей.",
+      "count": 3,
+      "evidence": [
+        { "market": "influencer-marketing-rf", "items": ["influence-agency-crm (лучший Scale в базе — 68)", "боль ruchnoi-podbor-tablica-smerti"] },
+        { "market": "hr-tech-rf", "items": ["боль candidates-in-excel (42% компаний ведут кандидатов в Excel)", "no-show-guard как зародыш мини-ATS"] },
+        { "market": "performance-marketing-rf", "items": ["боль ruchnaya-otchetnost-rutina (46% отчётов в Excel)", "ai-client-reports"] }
+      ]
+    },
+    {
+      "id": "compliance-as-service",
+      "name": "Регуляторный комплаенс под ключ",
+      "description": "Каждый новый закон = новый слой обязательной рутины = платящий спрос. Бенчмарк: ОРД МедиаСкаут — 641 млн ₽ выручки за 3 года на одной маркировке.",
+      "count": 2,
+      "evidence": [
+        { "market": "influencer-marketing-rf", "items": ["markirovka-pod-klyuch", "rkn-registration-service", "боли strah-shtrafov, reestr-rkn-otkazy"] },
+        { "market": "performance-marketing-rf", "items": ["боли markirovka-kazhdogo-kreativa, sbor-3-procenta"] }
+      ]
+    },
+    {
+      "id": "platform-eats-tools",
+      "name": "АНТИ-паттерн: платформа поглощает надстройки над собой",
+      "description": "Риск-паттерн для скоринга: строить бизнес поверх монопольной платформы опасно — она либо закрывает API (hh), либо покупает (Яндекс: K50, eLama), либо копирует бесплатно (ИИ-помощник Директа, AI hh).",
+      "count": 3,
+      "evidence": [
+        { "market": "hr-tech-rf", "items": ["hh закрыл API 15.12.2025 — смерть автооткликов", "AI-помощник hh против сторонних AI-сервисов"] },
+        { "market": "performance-marketing-rf", "items": ["Яндекс купил K50 и eLama", "ИИ-помощник Директа против директологов"] },
+        { "market": "influencer-marketing-rf", "items": ["AI бирж заперт в своих каталогах; биржи автоматизируют маркировку только внутри себя"] }
+      ]
+    },
+    {
+      "id": "b2c-ai-copilot",
+      "name": "Массовый B2C AI-помощник с низким чеком",
+      "description": "AI-инструмент для массовой аудитории (200-1000 ₽): быстрый MVP, дешёвый трафик, но низкий moat и угроза бесплатного AI платформ.",
+      "count": 2,
+      "evidence": [
+        { "market": "hr-tech-rf", "items": ["resume-tailor-bot (88)", "interview-trainer (76)"] },
+        { "market": "influencer-marketing-rf", "items": ["fraud-check-smb per-check модель"] }
+      ]
+    }
+  ]
+}

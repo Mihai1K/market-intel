@@ -31,6 +31,8 @@ const ALLOWED_NUMERIC_KEYS = new Set([
   "score", "total", "weight", "rating",
   // Market Timeline (снимки скорингов)
   "launch", "scale",
+  // Паттерны (patterns.json) и дайджест (digest/*.json)
+  "count", "rank_product",
   // Experiment Database — собственные данные экспериментов (first-party, источник — сам эксперимент)
   "budget_rub", "spend_rub", "impressions", "clicks", "leads", "sales",
   "revenue_rub", "cac_rub", "cpl_rub", "days",
