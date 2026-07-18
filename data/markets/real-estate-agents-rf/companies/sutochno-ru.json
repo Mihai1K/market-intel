@@ -1,0 +1,115 @@
+{
+  "id": "sutochno-ru",
+  "name": "Суточно.ру",
+  "legal_name": "АО «СУТОЧНО» (до 11.2024 — ООО «Суточно»)",
+  "inn": "7300037501",
+  "website": "https://sutochno.ru",
+  "founded": 2012,
+  "segment": "платформа посуточной аренды",
+  "description": "Лидер специализированной посуточной аренды после ухода Airbnb: 151 тыс арендодателей, 391 тыс объектов, GMV 63,1 млрд ₽ за 2025. Высокоприбыльна — редкость для российского PropTech.",
+  "revenue": [
+    {
+      "value": 7400,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +38% г/г, АО «СУТОЧНО»",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/sutochno-1247300009560",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 3200,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ, +87% г/г, предшественник ООО «Суточно» (ИНН 7709908155)",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/sutochno-1127746571150",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 2800,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +40% г/г",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/sutochno-1247300009560",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 464.4,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ, ООО «Суточно»",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/sutochno-1127746571150",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "disclosed_metrics": [
+    {
+      "value": 63.1,
+      "unit": "млрд руб",
+      "period": "2025",
+      "source_name": "Коммерсантъ (перепечатка finance.mail)",
+      "source_url": "https://finance.mail.ru/article/sutki-zamedlyayut-beg-69203467/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported",
+      "metric": "GMV (стоимость бронирований)"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия с физлиц-хозяев: предоплата гостя 17-25% от стоимости проживания удерживается платформой, хозяину компенсируется бонусами на продвижение (вывести нельзя)",
+      "price": "17-25%",
+      "source_url": "https://sutochno.ru/help/arendodateli/bronirovanie/predoplata-razmer",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    {
+      "complaint": "Платформа не отвечает за действия арендодателей — поддержка «не имеет механизмов влияния»",
+      "source_url": "https://otzovik.com/reviews/sutochno_ru-servis_bronirovaniya_zhilya_posutochno/"
+    },
+    {
+      "complaint": "Отмены брони накануне заезда при внесённой предоплате",
+      "source_url": "https://otzovik.com/review_6329011.html"
+    },
+    {
+      "complaint": "Хозяева недовольны комиссией «только за размещение» и невыводимыми бонусами",
+      "source_url": "https://otzovik.com/reviews/sutochno_ru-servis_bronirovaniya_zhilya_posutochno/"
+    }
+  ],
+  "ai_readiness": {
+    "score": 25,
+    "formula": "25 баллов за алгоритмическое «умное ценообразование»; публичных genAI-продуктов не найдено",
+    "signals": [
+      {
+        "signal": "«Умная цена»: алгоритм сам решает, поднять или опустить цену и на какие даты",
+        "evidence_url": "https://sutochno.ru/blog/flathome24",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Точная комиссия для ИП/юрлиц (10-14% по вторичным пересказам) — официальная страница SPA не отдаёт HTML",
+    "Разбивка GMV по сегментам; LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://checko.ru/company/sutochno-1247300009560",
+    "https://checko.ru/company/sutochno-1127746571150",
+    "https://finance.mail.ru/article/sutki-zamedlyayut-beg-69203467/",
+    "https://sutochno.ru/help/arendodateli/bronirovanie/predoplata-razmer"
+  ],
+  "updated_at": "2026-07-18"
+}

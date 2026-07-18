@@ -1,0 +1,109 @@
+{
+  "id": "realtycalendar",
+  "name": "RealtyCalendar",
+  "legal_name": "ООО «Апартмент Системс»",
+  "inn": "7729748911",
+  "website": "https://new.realtycalendar.ru",
+  "founded": 2013,
+  "segment": "channel-менеджер посуточной аренды",
+  "description": "Лидер посуточной автоматизации: единая шахматка, синхронизация цен и доступности с площадками, «Автопилот» для горничных; официальные интеграции с Авито Путешествиями и Яндекс Путешествиями. Классический growth-at-all-costs: выручка +121% при убытке — фаза земельного захвата ниши.",
+  "revenue": [
+    {
+      "value": 484.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +121% г/г",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7729748911",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 219,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7729748911",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -41.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; отрицательный собственный капитал −80,4 млн ₽; 155 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7729748911",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": -70.9,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7729748911",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "«Базовый» (шахматка, модуль бронирования) — от 55 ₽/сутки; «Стандартный» (+Channel Manager) — от 75 ₽/сутки; «ВИП» (+amoCRM/Bitrix24) — от 105 ₽/сутки; минимум 3 месяца, цена зависит от числа объектов",
+      "price": "55-105 ₽/сутки",
+      "source_url": "https://new.realtycalendar.ru/price",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "disclosed_metrics": [
+    {
+      "value": 19000,
+      "unit": "пользователей",
+      "period": "2026",
+      "source_name": "RealtyCalendar (сайт)",
+      "source_url": "https://new.realtycalendar.ru/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported",
+      "metric": "Пользователи платформы (также ~125 тыс объектов, 16 тыс+ броней/день)"
+    }
+  ],
+  "top_complaints": [
+    {
+      "complaint": "Слабое мобильное приложение",
+      "source_url": "https://otzovik.com/reviews/realtycalendar_ru-servis_posutochnogo_bronirovaniya/"
+    },
+    {
+      "complaint": "Задержки синхронизации с площадками",
+      "source_url": "https://otzovik.com/reviews/realtycalendar_ru-servis_posutochnogo_bronirovaniya/"
+    }
+  ],
+  "ai_readiness": {
+    "score": 25,
+    "formula": "25 баллов за автоматизацию операций (Автопилот для горничных, фискализация, интеграции по API); полноценного AI revenue-management нет",
+    "signals": [
+      {
+        "signal": "«Автопилот» для координации горничных, фискализация платежей, официальные API-интеграции с Авито и Яндекс Путешествиями",
+        "evidence_url": "https://new.realtycalendar.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Churn/LTV не раскрываются"
+  ],
+  "sources": [
+    "https://checko.ru/search?query=7729748911",
+    "https://new.realtycalendar.ru/price",
+    "https://host.avito.com/"
+  ],
+  "updated_at": "2026-07-18"
+}

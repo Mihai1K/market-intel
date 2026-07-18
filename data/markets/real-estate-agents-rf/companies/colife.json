@@ -1,0 +1,79 @@
+{
+  "id": "colife",
+  "name": "Colife",
+  "legal_name": "ООО «КОЛИВИНГ»",
+  "inn": "9703094739",
+  "website": "https://colife.ru",
+  "founded": 2022,
+  "segment": "доверительное управление и коливинги",
+  "description": "Управление квартирами по модели «гарантированного дохода»: собственнику обещают 100% рыночной ставки и «+30% к доходу», максимум простоя 35 дней/год. Выручка валовая (модель субаренды): 1,2 млрд ₽ при 6 сотрудниках и почти нулевой прибыли.",
+  "revenue": [
+    {
+      "value": 1200,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +25% г/г; валовая выручка модели субаренды",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=9703094739",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 960,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ, округлённо",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=9703094739",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 1.5,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — маржа почти нулевая при валовой модели",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=9703094739",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Процент комиссии публично не раскрыт — модель «гарантированного дохода» (выплата 100% рыночной ставки собственнику, обещание +30% к доходу, максимум простоя 35 дней/год)",
+      "price": "не публикуется",
+      "source_url": "https://colife.ru/doveritelnoe-upravlenie-nedvigimostyu",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Подозрения в заказных отзывах", "source_url": "https://otzovik.com/reviews/arenda_zhilya_colife_russia_moscow/" },
+    { "complaint": "Медленный ремонт и шумоизоляция в коливингах", "source_url": "https://2gis.ru/moscow/firm/70000001044730019/tab/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 15,
+    "formula": "15 баллов за цифровую операционную модель (6 сотрудников на 1,2 млрд валовой выручки); AI-продуктов не заявлено",
+    "signals": [
+      {
+        "signal": "Онлайн-модель управления с минимальным штатом",
+        "evidence_url": "https://colife.ru/doveritelnoe-upravlenie-nedvigimostyu",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Фактическая маржа/комиссия не раскрыты",
+    "Финансы второго юрлица ООО «КОЛАЙФ» не собраны"
+  ],
+  "sources": [
+    "https://checko.ru/search?query=9703094739",
+    "https://colife.ru/doveritelnoe-upravlenie-nedvigimostyu"
+  ],
+  "updated_at": "2026-07-18"
+}

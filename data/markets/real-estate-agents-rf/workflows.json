@@ -1,0 +1,219 @@
+{
+  "market": "real-estate-agents-rf",
+  "updated_at": "2026-07-18",
+  "workflows": [
+    {
+      "id": "sale-deal-cycle",
+      "name": "Сделка купли-продажи через агента: от лида до комиссии (цикл 2,5-3 месяца)",
+      "actor": "агент / агентство недвижимости",
+      "steps": [
+        {
+          "name": "Привлечь лида (классифайд, реклама, холодный прозвон собственников)",
+          "status": "semi",
+          "evidence": "Автовыгрузка объявлений из CRM автоматизирована, но значимая доля лидов — живой холодный обзвон собственников по базам Авито/ЦИАН: вакансия «60-80 звонков ежедневно, 200 ₽ за назначенную консультацию»",
+          "evidence_url": "https://work-zilla.com/vacancies/менеджер_по_холодным_звонкам_недвижимость_/340547",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Квалифицировать обращение и провести первый звонок",
+          "status": "semi",
+          "evidence": "У массы АН — ручной колл-центр (вакансия оператора АН «ФЛЭТ»: первичная консультация, назначение встреч); у лидеров уже AI: чат-бот Самолет Плюс отвечает, собирает данные и назначает встречи",
+          "evidence_url": "https://www.cnews.ru/news/line/2025-04-02_samolet_plyus_zapustil",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Подобрать объекты и провести показы",
+          "status": "manual",
+          "evidence": "Показы физические, организует агент/ассистент: вакансия «Помощник риэлтора» ИНКОМ — «организовывать показы недвижимости, искать объекты в корпоративной системе»",
+          "evidence_url": "https://www.superjob.ru/vakansii/pomoschnik-rieltora-31972184.html",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Переговоры по цене с собственником и покупателем",
+          "status": "manual",
+          "evidence": "Торг ручной; появилась копайлот-аналитика для аргументации цены (Циан.Оценка — «подтвердить позицию по цене цифрами»)",
+          "evidence_url": "https://promo.cian.site/report",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Ипотека клиента: заявка и одобрение объекта",
+          "status": "automated",
+          "evidence": "Самый оцифрованный шаг: онлайн-заявка, ML-скоринг, онлайн-одобрение объекта на Домклик; агент вручную «водит» клиента между банками при отказах",
+          "evidence_url": "https://blog.domclick.ru/voprosy-i-otvety/podgotovka-k-sdelke/dopolnitelnye-uslugi/elektronnaya-registraciya",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Юридическая проверка объекта",
+          "status": "semi",
+          "evidence": "Выписки и правовое заключение заказываются онлайн (Домклик), но анализ рисков (банкротство продавца, аресты, история переходов) юрист делает вручную",
+          "evidence_url": "https://blog.domclick.ru/voprosy-i-otvety/podgotovka-k-sdelke/dopolnitelnye-uslugi/elektronnaya-registraciya",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Аванс/задаток",
+          "status": "manual",
+          "evidence": "Бумажное соглашение об авансе/задатке — обычай делового оборота; срыв после аванса означает потерянные недели экспозиции",
+          "evidence_url": "https://www.dvitex.ru/poleznoe/nedvizhimost/sdelki-s-nedvizhimostyu/zadatok-ili-avans-za-kvartiru-razlichiya-plyusy-i-minusy/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Сделка и регистрация в Росреестре",
+          "status": "automated",
+          "evidence": "Электронная регистрация без МФЦ (Домклик), сроки регистрации 5-12 рабочих дней; очные подписания остаются в сложных сделках (нотариус, доли)",
+          "evidence_url": "https://onreg.domclick.ru/",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Получить комиссию и закрыть сделку в учёте",
+          "status": "manual",
+          "evidence": "Оплата по факту закрытия, учёт в CRM (документооборот и финансы в INTRUM); главный риск шага — обход агента сторонами сделки",
+          "evidence_url": "https://www.intrumnet.com/",
+          "can_ai": false,
+          "can_bot": true
+        }
+      ]
+    },
+    {
+      "id": "long-term-rent-cycle",
+      "name": "Сдача квартиры в долгосрочную аренду: от оценки до ротации жильцов",
+      "actor": "собственник и агент по аренде",
+      "steps": [
+        {
+          "name": "Оценить арендную ставку",
+          "status": "automated",
+          "evidence": "Нейросетевой калькулятор доходности аренды Домклик: по адресу и метражу, база ~4 млн квартир, заявленная точность 81%",
+          "evidence_url": "https://realty.rbc.ru/news/69f86f049a7947e685f27344",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Снять фото и составить объявление",
+          "status": "semi",
+          "evidence": "Яндекс Аренда высылает фотографа и делает 3D-тур бесплатно; тексты объявлений уже генерируют нейросети (анонс ЦИАН)",
+          "evidence_url": "https://arenda.yandex.ru/journal/post/sdayom-kvartiru-prosto-bystro-ibezopasno/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Разместить на площадках",
+          "status": "automated",
+          "evidence": "Автовыгрузка из CRM на 200+ сайтов в один клик (JoyWork); вручную — 2-3 классифайда с платными поднятиями",
+          "evidence_url": "https://joywork.ru/avtovygruzka-nedvizhimosti-na-avito.php",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Отфильтровать отклики и провести показы",
+          "status": "manual",
+          "evidence": "У частников и агентов — ручной перебор откликов; в Яндекс Аренде менеджеры сами общаются с кандидатами, 90%+ договоров заключаются онлайн благодаря 3D-турам",
+          "evidence_url": "https://arenda.yandex.ru/journal/post/chto-takoe-yandeks-arenda-izachem-myeyopridumali/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Проверить жильца",
+          "status": "semi",
+          "evidence": "Сервисы проверки (CheckPerson: долги ФССП, банкротство, розыск МВД, паспорт) и проверка по базам с Госуслугами внутри Яндекс Аренды; частники по-прежнему верят «на глаз»",
+          "evidence_url": "https://blog.domclick.ru/nedvizhimost/post/arenda-kak-proverit-kvartirosemshika",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Заключить договор",
+          "status": "semi",
+          "evidence": "Конструкторы договоров (FreshDoc — опросный лист → документ), у Яндекс Аренды договор цифровой в личном кабинете; частники берут случайные шаблоны",
+          "evidence_url": "https://www.freshdoc.ru/dogovor/dogovory_arendy/nedvizhimosti/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Передать квартиру и составить опись",
+          "status": "manual",
+          "evidence": "Очная передача ключей, акт и опись на бумаге; автоопись имущества по фото на рынке не найдена — белое пятно",
+          "evidence_url": "https://arenda.yandex.ru/preimushestva-arendy/",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Собирать платежи и решать бытовые вопросы",
+          "status": "manual",
+          "evidence": "У частников — переводы на карту и напоминания вручную; Яндекс Аренда платит собственнику день в день даже при задержке жильца (финзащита)",
+          "evidence_url": "https://arenda.yandex.ru/journal/post/finzashchita-chto-eto-i-kak-rabotaet-v-yandeks-arende/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Выселение и ротация жильцов",
+          "status": "manual",
+          "evidence": "Переговоры, при конфликте — суд; простой между жильцами и юридические издержки; Яндекс Аренда компенсирует до 15 дней простоя",
+          "evidence_url": "https://yandex.ru/support/arenda/insurance.html",
+          "can_ai": false,
+          "can_bot": false
+        }
+      ]
+    },
+    {
+      "id": "daily-rent-business",
+      "name": "Посуточная аренда как бизнес (хост с 2-10 объектами)",
+      "actor": "посуточный хост",
+      "steps": [
+        {
+          "name": "Вести календари на 2-4 площадках",
+          "status": "automated",
+          "evidence": "Channel-менеджеры (RealtyCalendar: единая шахматка, синхронизация цен и доступности; официальные интеграции Авито и Яндекс Путешествий); без инструмента — двойные брони",
+          "evidence_url": "https://host.avito.com/",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Ценообразование по сезону и спросу",
+          "status": "semi",
+          "evidence": "Правила «сезон/день недели» в channel-менеджерах и «умная цена» Суточно.ру; полноценного AI revenue-management для квартир нет — белое пятно (Hotellab работает только с отелями)",
+          "evidence_url": "https://welcometimes.ru/opinions/10-luchshih-servisov-dlya-avtomatizacii-posutochnoy-arendy-nedvizhimosti",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Заселение гостей",
+          "status": "semi",
+          "evidence": "Умные замки TTLock: код на период брони с автоаннулированием, интеграция в RealtyCalendar/WeRent; у мелких хостов — очная выдача ключей",
+          "evidence_url": "https://www.ttlock.ru/ttlockapp",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Уборка между гостями",
+          "status": "semi",
+          "evidence": "Физически ручная, координация автоматизируется («Автопилот» для горничных в RealtyCalendar)",
+          "evidence_url": "https://new.realtycalendar.ru/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Отзывы и рейтинг на площадках",
+          "status": "manual",
+          "evidence": "Ответы пишет хост вручную; генерация ответов AI — очевидный кандидат (Авито развивает genAI-сценарии платформы)",
+          "evidence_url": "https://globalcio.ru/projectoftheyear/list/54351/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Отчётность и налоги",
+          "status": "semi",
+          "evidence": "Самозанятость: чеки и автоначисление налога в «Мой налог»; ручная сверка платежей между площадками при 2-10 объектах остаётся",
+          "evidence_url": "https://npd.nalog.ru/",
+          "can_ai": true,
+          "can_bot": true
+        }
+      ]
+    }
+  ]
+}

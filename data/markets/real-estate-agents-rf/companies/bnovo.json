@@ -1,0 +1,70 @@
+{
+  "id": "bnovo",
+  "name": "Bnovo",
+  "legal_name": "ООО «БИНОВО»",
+  "inn": "7840065782",
+  "website": "https://bnovo.ru",
+  "founded": 2017,
+  "segment": "PMS и channel-менеджер (отели + апартаменты)",
+  "description": "Второй игрок посуточной автоматизации, шире по сегменту (отели + апарты). Штат утроился за два года (77 → 218), выручка +36%, но компания ушла в убыток — гонка с RealtyCalendar за нишу.",
+  "revenue": [
+    {
+      "value": 514.5,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +36% г/г",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7840065782",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -34.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ (в 2024 была прибыль); 218 сотрудников против 77 в 2023",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7840065782",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "«Старт» 300 ₽/номер/мес (210 ₽ при годовой оплате); «Рост» 400 ₽ (включает динамическое ценообразование); «Максимум» 450 ₽ + 1% с модуля бронирования; скидка 30% за год",
+      "price": "210-450 ₽/номер/мес",
+      "source_url": "https://bnovo.ru/tarif/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Ошибки выгрузки цен и незакрытые даты — овербукинги", "source_url": "https://crmindex.ru/products/bnovo/reviews" },
+    { "complaint": "Долгие ответы поддержки, «футбол» между отделами", "source_url": "https://crmindex.ru/products/bnovo/reviews" },
+    { "complaint": "Баги живут годами", "source_url": "https://crmindex.ru/products/bnovo/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 30,
+    "formula": "30 баллов за алгоритмический модуль динамического ценообразования в тарифе «Рост» (официально AI не позиционируется)",
+    "signals": [
+      {
+        "signal": "Динамическое ценообразование включено в тариф «Рост»",
+        "evidence_url": "https://bnovo.ru/tarif/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Число объектов/клиентов не раскрывается",
+    "Разбивка отели/апартаменты недоступна"
+  ],
+  "sources": [
+    "https://checko.ru/search?query=7840065782",
+    "https://bnovo.ru/tarif/",
+    "https://crmindex.ru/products/bnovo/reviews"
+  ],
+  "updated_at": "2026-07-18"
+}

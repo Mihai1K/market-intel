@@ -1,0 +1,51 @@
+{
+  "id": "zipal",
+  "name": "Zipal",
+  "legal_name": "ООО «Зипал»",
+  "inn": "7736681898",
+  "website": "https://zipal.ru",
+  "segment": "автовыгрузка объявлений (умирающая ниша)",
+  "description": "Живой памятник поглощённой нише: сервис автовыгрузки объявлений на 149 площадок с падающей вдвое выручкой и одним сотрудником. Функция автовыгрузки съедена CRM (INTRUM, JoyWork, RECRM включают фиды бесплатно) — пятно данных для анти-паттерна «платформа поглощает надстройки».",
+  "revenue": [
+    {
+      "value": 3.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, падение вдвое; 1 сотрудник",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7736681898",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 7.7,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7736681898",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "За 7 дней размещения (Москва): «Стартовый» 590 ₽, «Оптимальный» 980 ₽, «Лидер» 1900 ₽; заявлено 149 площадок",
+      "price": "590-1900 ₽ за 7 дней",
+      "source_url": "https://zipal.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Число активных клиентов не раскрывается",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/search?query=7736681898",
+    "https://zipal.ru/"
+  ],
+  "updated_at": "2026-07-18"
+}

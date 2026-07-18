@@ -1,0 +1,85 @@
+{
+  "id": "ndv",
+  "name": "НДВ Супермаркет недвижимости",
+  "legal_name": "ООО «НДВ - Супермаркет Недвижимости»",
+  "inn": "5038131026",
+  "website": "https://www.ndv.ru",
+  "founded": 2017,
+  "segment": "московское агентство (исторически сильно в новостройках)",
+  "description": "Наглядное сжатие классического АН-бизнеса в заморозку 2024-2025: выручка упала с 756 млн ₽ (2023) до 228 млн (2025), компания ушла в убыток, штат сократился со 117 до 89 человек.",
+  "revenue": [
+    {
+      "value": 228,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; 89 сотрудников (117 в 2024)",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/ndv-supermarket-nedvizhimosti-1175050011597",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 756,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ (снапшот зеркала)",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1175050011597_5038131026_OOO-NDV--SUPERMARKET-NEDVIGhIMOSTI",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -26.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/ndv-supermarket-nedvizhimosti-1175050011597",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 59.5,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ (снапшот зеркала)",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1175050011597_5038131026_OOO-NDV--SUPERMARKET-NEDVIGhIMOSTI",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    {
+      "complaint": "Некомпетентность сотрудников",
+      "source_url": "https://otzovik.com/reviews/agentstvo_nedvizhimosti_ndv_russia_moscow/"
+    },
+    {
+      "complaint": "Задержка выдачи документов более 6 месяцев",
+      "source_url": "https://www.restate.ru/companies/ndvsupermarket-nedvizhimosti-1904/opinion/"
+    }
+  ],
+  "review_rating": {
+    "rating": 3.9,
+    "scale": "из 5",
+    "source_url": "https://www.novostroy.ru/agencies/ndv-nedvizhimost-3/",
+    "retrieved_at": "2026-07-18"
+  },
+  "data_gaps": [
+    "Выручка 2021-2022 и 2024 не сняты с бесплатных зеркал",
+    "Причины падения выручки не раскрываются",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/ndv-supermarket-nedvizhimosti-1175050011597",
+    "https://zachestnyibiznes.ru/company/ul/1175050011597_5038131026_OOO-NDV--SUPERMARKET-NEDVIGhIMOSTI"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "avito-nedvizhimost",
+  "name": "Авито Недвижимость",
+  "legal_name": "ООО «КЕХ еКоммерц»",
+  "inn": "7710668349",
+  "website": "https://www.avito.ru/rossiya/nedvizhimost",
+  "founded": 2007,
+  "segment": "классифайд №1 по аудитории, вертикаль недвижимости",
+  "description": "Крупнейший по объявлениям конкурент ЦИАН. С 27.10.2025 — платные подписки для профи «Агент/Профи/Лидер» (видео в карточках, аналитика, CRM-интеграция). Самая агрессивная AI-стратегия рынка: собственные модели A-Vibe/A-Vision, 12 млрд ₽ инвестиций в genAI до 2028.",
+  "revenue": [
+    {
+      "value": 100900,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ, вся компания (не только недвижимость); РСБУ 2024-2025 в ГИР БО не опубликован",
+      "source_name": "ГИР БО ФНС (зеркала Checko/Saby)",
+      "source_url": "https://checko.ru/company/kekh-ekommerc-5077746422859",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 43100,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ, вся компания",
+      "source_name": "ГИР БО ФНС (зеркало Saby)",
+      "source_url": "https://saby.ru/profile/7710668349-771001001",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 39300,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ, вся компания",
+      "source_name": "ГИР БО ФНС (зеркала Checko/Saby)",
+      "source_url": "https://checko.ru/company/kekh-ekommerc-5077746422859",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Оплата размещения на 30 дней (цена зависит от региона/категории); с 27.10.2025 подписки для профи «Агент/Профи/Лидер» (видео, блок об агентстве, аналитика, у «Лидера» CRM-интеграция и трансляция рыночной цены по API) — цены не публичны; для новостроек — только оплата за целевые действия",
+      "price": "по регионам, в личном кабинете",
+      "source_url": "https://rg.ru/2025/10/27/avito-nedvizhimost-predstavila-novye-instrumenty-dlia-professionalov-rynka.html",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Блокировки аккаунтов и объявлений без объяснений при списанных деньгах", "source_url": "https://otzovik.com/reviews/internet-sayt_www_avito_ru/" },
+    { "complaint": "Навязывание платного продвижения", "source_url": "https://otzovik.com/review_7256374.html" },
+    { "complaint": "Фейковые объявления в недвижимости и шаблонные ответы поддержки", "source_url": "https://vc.ru/services/2822173-avito-blokiruet-otzyvy-po-realnym-sdelkam" }
+  ],
+  "ai_readiness": {
+    "score": 85,
+    "formula": "50 баллов за собственные LLM в проде (A-Vibe — 1-е место в MERA среди лёгких моделей, open source) + 25 за ИИ-ассистентов «Ави»/«Ави Pro» в тесте + 10 за ML-модерацию и колл-трекинг с транскрибацией",
+    "signals": [
+      {
+        "signal": "Собственные модели A-Vibe (текст) и A-Vision (мультимодальная); план: 12 млрд ₽ в genAI до 2028, выручка от ИИ 21+ млрд ₽ к 2028",
+        "evidence_url": "https://www.cnews.ru/news/line/2025-04-07_avito_obognal_openai_i_google",
+        "direction": "+"
+      },
+      {
+        "signal": "Тест ИИ-ассистентов «Ави» (покупатели) и «Ави Pro» (профессиональные продавцы) с декабря 2025",
+        "evidence_url": "https://www.vedomosti.ru/business/news/2025/12/26/1166734-testirovanie-ii-assistentov",
+        "direction": "+"
+      },
+      {
+        "signal": "В интервью руководителя вертикали (07.2026) агентская автоматизация не упомянута — AI повёрнут к покупателю и модерации",
+        "evidence_url": "https://dvizhenie.ru/media/7431/dmitrij-alekseev-avito-nedvizhimost-fokusiruemsya-na-razrabotke-svoego-ii",
+        "direction": "-"
+      }
+    ]
+  },
+  "data_gaps": [
+    "РСБУ 2024-2025 не опубликован в ГИР БО",
+    "Выручка вертикали «Недвижимость» отдельно не раскрывается",
+    "Рублёвые тарифы по регионам — только в личном кабинете"
+  ],
+  "sources": [
+    "https://checko.ru/company/kekh-ekommerc-5077746422859",
+    "https://saby.ru/profile/7710668349-771001001",
+    "https://rg.ru/2025/10/27/avito-nedvizhimost-predstavila-novye-instrumenty-dlia-professionalov-rynka.html",
+    "https://dvizhenie.ru/media/7431/dmitrij-alekseev-avito-nedvizhimost-fokusiruemsya-na-razrabotke-svoego-ii"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "incom-nedvizhimost",
+  "name": "Инком-Недвижимость",
+  "legal_name": "Союз содействия развитию рынка недвижимости «ИНКОМ-НЕДВИЖИМОСТЬ» (некоммерческая ассоциация; исторические коммерческие юрлица ликвидированы)",
+  "inn": "7719020591",
+  "website": "https://www.incom.ru",
+  "founded": 1991,
+  "segment": "классическое московское агентство (вторичка, загородка, аренда)",
+  "description": "Старейшее московское АН: 29 офисов, 29 банков-партнёров, ТОП-3 агентств Москвы по версиям ЦИАН и М2 (self-reported). Структурный факт: группа работает через сеть неидентифицируемых операционных юрлиц — консолидированной отчётности в открытом доступе нет, что типично для классических АН.",
+  "revenue": [],
+  "net_profit": [],
+  "pricing": [
+    {
+      "plan": "Комиссия % от сделки, публично не фиксирована",
+      "price": "не публикуется",
+      "source_url": "https://www.incom.ru/o-kompanii/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    {
+      "complaint": "Объявления-приманки с заниженной ценой",
+      "source_url": "https://otzovik.com/reviews/korporaciya_inkom-nedvizhimost_russia_moscow/"
+    },
+    {
+      "complaint": "Заработок на авансах и доп. услугах, высокие комиссии",
+      "source_url": "https://otzovik.com/review_6009070.html"
+    },
+    {
+      "complaint": "Недостоверная информация об объектах",
+      "source_url": "https://otzovik.com/reviews/korporaciya_inkom-nedvizhimost_russia_moscow/"
+    }
+  ],
+  "data_gaps": [
+    "Финансовая отчётность группы 2021-2025 отсутствует в открытом доступе (ЗАО «Корпорация ИНКОМ» ликвидировано в 2015, ООО — в 2020)",
+    "Число агентов не раскрывается",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://www.incom.ru/o-kompanii/",
+    "https://checko.ru/company/inkom-nedvizhimost-1117799004245",
+    "https://checko.ru/company/korporaciya-inkom-nedvizhimost-1027700120227"
+  ],
+  "updated_at": "2026-07-18"
+}

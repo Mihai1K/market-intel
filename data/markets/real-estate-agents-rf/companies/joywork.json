@@ -1,0 +1,41 @@
+{
+  "id": "joywork",
+  "name": "JoyWork",
+  "legal_name": "юрлицо в открытых источниках не указано",
+  "website": "https://joywork.ru",
+  "segment": "CRM для агентств недвижимости",
+  "description": "Растущий претендент в фрагментированной нише CRM для АН: автовыгрузка на 200+ площадок, парсер ЦИАН/Авито/Домклик/Яндекс, чаты площадок внутри CRM. Заявлено 500+ подключённых компаний.",
+  "pricing": [
+    {
+      "plan": "До 6 сотрудников — 1200 ₽/мес за пользователя; до 20 — 619 ₽; до 100 — 297 ₽; всё включено (поддержка, обучение)",
+      "price": "297-1200 ₽/пользователь/мес",
+      "source_url": "https://joywork.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Нет мобильного приложения", "source_url": "https://crmindex.ru/products/joywork/reviews" },
+    { "complaint": "Недоступность функций во время техработ", "source_url": "https://crmindex.ru/products/joywork/reviews" },
+    { "complaint": "Сложно отвязать интеграции при отключении", "source_url": "https://crmindex.ru/products/joywork/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 30,
+    "formula": "30 баллов за встроенные нейросетевые функции (удаление вотермарок, автоподбор) — редкость среди CRM для АН",
+    "signals": [
+      {
+        "signal": "Нейросеть удаляет водяные знаки с фото «в 1 клик»; автоподбор объектов по параметрам",
+        "evidence_url": "https://joywork.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Юрлицо/ИНН/финансы не раскрыты",
+    "Число клиентов — только self-reported (500+ компаний)"
+  ],
+  "sources": [
+    "https://joywork.ru/",
+    "https://crmindex.ru/products/joywork/reviews"
+  ],
+  "updated_at": "2026-07-18"
+}

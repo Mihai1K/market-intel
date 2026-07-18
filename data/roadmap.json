@@ -6,7 +6,7 @@
     { "name": "Рекламные агентства и performance-маркетинг", "slug": "performance-marketing-rf", "status": "done" },
     { "name": "Топливо, АЗС и придорожный сервис", "slug": "fuel-azs-rf", "status": "done" },
     { "name": "Логистика последней мили и грузоперевозки", "slug": "road-logistics-rf", "status": "done" },
-    { "name": "Недвижимость: агенты и аренда", "slug": null, "status": "todo" },
+    { "name": "Недвижимость: агенты и аренда", "slug": "real-estate-agents-rf", "status": "done" },
     { "name": "Автосервисы и авторемонт", "slug": null, "status": "todo" },
     { "name": "Юридические услуги (вкл. банкротство физлиц)", "slug": null, "status": "todo" },
     { "name": "Салоны красоты и бьюти-услуги", "slug": null, "status": "todo" },

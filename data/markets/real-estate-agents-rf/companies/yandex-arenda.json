@@ -1,0 +1,46 @@
+{
+  "id": "yandex-arenda",
+  "name": "Яндекс Аренда",
+  "legal_name": "ООО «Яндекс.Вертикали» (юрлицо смешанное — включает Авто.ру и др.; финансы вертикали недвижимости не выделяются)",
+  "inn": "7704340327",
+  "website": "https://arenda.yandex.ru",
+  "segment": "вертикализованное управление долгосрочной арендой",
+  "description": "«Убийца агента по аренде»: фотограф и 3D-тур бесплатно, отбор и проверка жильцов по базам МВД/ФССП с верификацией через Госуслуги, цифровой договор, гарантированные выплаты день в день, финзащита до 300-350 тыс ₽. Для собственника бесплатно — сервисный сбор зашит в ставку жильца. 40 000+ сдач за 4 года (self-reported). Прямой конкурент и агентов, и классического ДУ.",
+  "pricing": [
+    {
+      "plan": "Собственнику — 0%; сервисный сбор в ставке жильца: собственник хочет 30 000 ₽ — жилец видит 33 000 ₽ (~10%)",
+      "price": "~10% сверху ставки, платит жилец",
+      "source_url": "https://arenda.yandex.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Жилец платит комиссию сервиса, повышенную ставку и депозит — дороже, чем напрямую", "source_url": "https://vc.ru/services/2657253-kak-rabotayet-yandeks-arenda-i-ee-preimushchestva" }
+  ],
+  "ai_readiness": {
+    "score": 70,
+    "formula": "40 баллов за полностью цифровой процесс сдачи (проверка жильцов по базам, онлайн-договор, автоплатежи) + 30 за AI-помощник классифайда Яндекс Недвижимости",
+    "signals": [
+      {
+        "signal": "Проверка кандидатов по базам МВД/ФССП с верификацией через Госуслуги, 90%+ договоров заключаются онлайн благодаря 3D-турам",
+        "evidence_url": "https://arenda.yandex.ru/journal/post/chto-takoe-yandeks-arenda-izachem-myeyopridumali/",
+        "direction": "+"
+      },
+      {
+        "signal": "«Недвижимость AI» — первый в РФ ИИ-помощник классифайда (запуск 18.03.2026): свободные запросы, сравнение, статистика; 50 000+ чатов в тесте",
+        "evidence_url": "https://www.sostav.ru/publication/yandeks-nedvizhimost-zapustila-pervogo-v-rossii-ii-pomoshchnika-82408.html",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Отдельные финансы сервиса не раскрываются (внутри Яндекса)",
+    "Точный процент сервисного сбора с жильца официально не публикуется (страницы за капчей)"
+  ],
+  "sources": [
+    "https://arenda.yandex.ru/",
+    "https://vc.ru/services/2657253-kak-rabotayet-yandeks-arenda-i-ee-preimushchestva",
+    "https://www.sostav.ru/publication/yandeks-nedvizhimost-zapustila-pervogo-v-rossii-ii-pomoshchnika-82408.html"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,438 @@
+{
+  "market": "real-estate-agents-rf",
+  "updated_at": "2026-07-18",
+  "pains": [
+    {
+      "id": "classifieds-tariff-squeeze",
+      "statement": "Классифайды душат тарифами: расходы агентств на размещение и продвижение растут кратно быстрее доходов (тарифы ЦИАН в Москве +109% за 2022-2024), дошло до коллективной жалобы в ФАС",
+      "role": "агент и руководитель АН",
+      "mentions_found": 4,
+      "links": [
+        "https://realty.rbc.ru/news/69a964249a79470393276091",
+        "https://www.interfax.ru/moscow/1076544",
+        "https://www.cnews.ru/news/top/2026-03-10_rieltory_zhaluyutsya_na_tsian",
+        "https://eanews.ru/rossiya/20260322150814/rieltory-rasskazali-o-roste-tarifov-na-onlayn-ploschadkah"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Агентства — сотнями тысяч рублей в месяц за размещение и продвижение; коллективный ответ — жалоба AREA и Гильдии риелторов Москвы в ФАС (март 2026)",
+      "why_unsolved": "Дуополия ЦИАН/Авито, альтернативных каналов лидов с сопоставимым охватом нет; решение ФАС не вынесено",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "С 2022 по 2024 год тарифы на размещение объявлений на «Циан» в столичном регионе выросли на 109%",
+          "source_url": "https://realty.rbc.ru/news/69a964249a79470393276091"
+        }
+      ]
+    },
+    {
+      "id": "client-bypasses-agent",
+      "statement": "Клиент уходит после показа или стороны сделки договариваются мимо агента — комиссия теряется, юридически защититься почти невозможно",
+      "role": "агент",
+      "mentions_found": 2,
+      "links": [
+        "https://smartagent.ru/stati/analitika/pochemu-ot-rieltora-uxodit-klient",
+        "https://realty.ria.ru/20201021/rieltory-1580691382.html"
+      ],
+      "search_period": "2020-2026",
+      "who_pays_now": "Агенты — потерянной комиссией; защита — эксклюзивные договоры с неустойкой и контроль контактов сторон",
+      "why_unsolved": "Суды по неустойкам дороги, доверие клиентов к агентам низкое, «молчание агента» само провоцирует уход",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "На первое место можно смело поставить отсутствие доверия… Молчание агента — причина №1 для ухода",
+          "source_url": "https://smartagent.ru/stati/analitika/pochemu-ot-rieltora-uxodit-klient"
+        }
+      ]
+    },
+    {
+      "id": "private-broker-dumping",
+      "statement": "Демпинг частных маклеров и падение комиссий: вход в профессию свободный, агентства теряют маржу и уходят в смежные услуги",
+      "role": "агент и руководитель АН",
+      "mentions_found": 2,
+      "links": [
+        "https://urban-media.ru/blog/vnikaem/agentskie-komissii-kak-rieltory-uvodyat-klientov-za-voznagrazhdenie/",
+        "https://realty.rbc.ru/news/67a22c8d9a79474de47563ee"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Агентства — снижением маржи; риелторы массово переключаются на аренду при замёрзшей купле-продаже",
+      "why_unsolved": "Лицензирования нет, закон о риелторской деятельности не принят; на первичке комиссию платит застройщик, что искажает мотивацию",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "manual-cold-calling-burnout",
+      "statement": "Холодный прозвон собственников вручную: 30-80 звонков в день, конверсия 2-3%, выгорание — при этом прозвон остаётся главным способом добычи эксклюзивов",
+      "role": "агент",
+      "mentions_found": 2,
+      "links": [
+        "https://realty.ria.ru/20201105/vygoranie-1583113143.html",
+        "https://rechka.ai/blog/holodnye-zvonki-rieltora/"
+      ],
+      "search_period": "2020-2026",
+      "who_pays_now": "Агент — временем и психикой; АН — скриптами, тренингами, IP-телефонией, наймом прозвонщиков по 200 ₽ за назначенную встречу",
+      "why_unsolved": "Конверсия холодного прозвона структурно низкая, но альтернативные каналы лидов дороги (см. тарифы классифайдов)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["voice", "bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Из 100 звонков только 2-3 приведут к результату",
+          "source_url": "https://rechka.ai/blog/holodnye-zvonki-rieltora/"
+        }
+      ]
+    },
+    {
+      "id": "multi-platform-listing-routine",
+      "statement": "Ведение объявлений на 3-5 площадках вручную: 40-60 минут на один объект на каждой площадке, форматы фидов постоянно меняются",
+      "role": "агент и руководитель АН",
+      "mentions_found": 2,
+      "links": [
+        "https://smartagent.ru/stati/instrumenty/avtopublikaciya-obyavlenij-nedvizhimosti",
+        "https://citrus-soft.ru/blog/vygruzka-obektov-nedvizhimosti-na-avito-tsian-domklik-ya-nedvizhimost-vkontakte-i-odnoklassniki/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "АН — подпиской на CRM с XML-фидами; частники работают руками",
+      "why_unsolved": "Решения существуют, но фрагментированы и платны; рынок автовыгрузки уже конкурентный",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "mortgage-rejections-kill-deals",
+      "statement": "Сделки срываются из-за ипотечных отказов, урезания лимитов в день сделки и лопающихся рассрочек: расторжения ДДУ достигли рекордных 3% продаж (155 млрд ₽ за 2025)",
+      "role": "агент и покупатель",
+      "mentions_found": 4,
+      "links": [
+        "https://realty.rbc.ru/news/6977824e9a79475c6688ffe7",
+        "https://www.banki.ru/services/questions-answers/question/898962/",
+        "https://www.forbes.ru/club/548139-nedvizimost-na-tormozah-vysokaa-stavka-i-nizkij-spros-zagonaut-rynok-v-krizis",
+        "https://www.novostroy.ru/articles/market/rynok-nedvizhimosti-v-20242025-godakh-kak-vysokaya-stavka-izmenila-pravila-igry-i-kto-okazalsya-v-vyigryshe/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Покупатель — задатками и штрафами; агент — бесплатной переработкой; ипотечные брокеры берут 1-3% за «прохождение» банка",
+      "why_unsolved": "Ставка и скоринг банков вне контроля участников, банки не объясняют отказы",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "18.11.2025 Банк еще понижает мне лимит до 3.2 млн руб. Причин я не понимаю",
+          "source_url": "https://www.banki.ru/services/questions-answers/question/898962/"
+        }
+      ]
+    },
+    {
+      "id": "rookie-agent-churn",
+      "statement": "Текучка агентов: до 84% в год, новички уходят за 3-4 месяца без дохода до первой сделки — АН бесконечно рекрутируют и обучают «в трубу»",
+      "role": "руководитель АН и агент-новичок",
+      "mentions_found": 3,
+      "links": [
+        "https://www.irn.ru/articles/37559.html",
+        "https://evo.spb.ru/stati/stoit-li-rabotat-rieltorom-v-2026-godu-ekspertnyj-vzglyad-agentstva-evo/",
+        "https://salesap.ru/blog/kak-nabrat-rieltorov-v-agentstvo-nedvizhimosti"
+      ],
+      "search_period": "2014-2026",
+      "who_pays_now": "АН — затратами на рекрутинг и обучение; новичок — месяцами жизни без дохода (только процент, без оклада)",
+      "why_unsolved": "Нет системного образования и зарплатной подушки; длинный цикл первой сделки при высокой ставке усугубил",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Текучесть кадров в недвижимости входит в ТОП-3 среди других отраслей и достигает 84%",
+          "source_url": "https://salesap.ru/blog/kak-nabrat-rieltorov-v-agentstvo-nedvizhimosti"
+        }
+      ]
+    },
+    {
+      "id": "agents-steal-client-base",
+      "statement": "Агенты уводят базу и проводят сделки мимо кассы агентства: скрывают входящие звонки, забирают клиентов при увольнении",
+      "role": "руководитель АН",
+      "mentions_found": 1,
+      "links": [
+        "https://www.intrumnet.com/blog/kak_uvodiat_bazy_klientov_v_agentstvah_nedvizhimosti-721"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "АН — потерянными комиссиями; платят за CRM с разграничением прав, запись звонков, маскировку номеров",
+      "why_unsolved": "База юридически слабо защитима, CRM саботируется агентами из страха контроля",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Агент принял входящий от потенциального клиента и скрыл информацию о звонке, не занес полученные данные в базу (взял объект себе)",
+          "source_url": "https://www.intrumnet.com/blog/kak_uvodiat_bazy_klientov_v_agentstvah_nedvizhimosti-721"
+        }
+      ]
+    },
+    {
+      "id": "call-quality-control-impossible",
+      "statement": "Контроль качества звонков вручную невозможен: РОП прослушивает 5-15% из 200-300 звонков в день на офис, остальное — слепая зона",
+      "role": "руководитель АН",
+      "mentions_found": 1,
+      "links": [
+        "https://blog.salesai.ru/skachat-polnyy-chek-list-kontrolya-kachestva-zvonkov-nedvizhimost"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Крупные АН — отделом контроля качества или речевой аналитикой (SalesAI, TWIN); середина рынка — никак",
+      "why_unsolved": "Ручная прослушка не масштабируется, аналитика требует внедрённой CRM",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["api", "web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "nonpaying-tenant-eviction",
+      "statement": "Неплательщика нельзя выселить месяцами: жилище неприкосновенно, суд занимает 4-7+ месяцев, депозит в один месяц ущерб не покрывает",
+      "role": "арендодатель",
+      "mentions_found": 2,
+      "links": [
+        "https://t-j.ru/ask/arendator-ne-platit/",
+        "https://arenda.yandex.ru/journal/post/arendator-ne-platit-i-ne-sezzhaet-instrukciya-po-bezopasnomu-vyseleniyu/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Собственник — потерянной арендой и юристами; частично — гарантированными выплатами платформ (Яндекс Аренда продаёт решение именно этой боли)",
+      "why_unsolved": "Самовыселение незаконно, при долгосрочном найме закон требует терпеть до 6 месяцев неплатежей",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "По закону жилище неприкосновенно, поэтому даже при грубом нарушении договора выселить человека «силой» нельзя",
+          "source_url": "https://arenda.yandex.ru/journal/post/arendator-ne-platit-i-ne-sezzhaet-instrukciya-po-bezopasnomu-vyseleniyu/"
+        }
+      ]
+    },
+    {
+      "id": "manual-tenant-vetting",
+      "statement": "Проверка жильца — ручная и ненадёжная: разрозненные базы ФССП/судов/банкротств, «серые» доходы не видны, единого скоринга арендаторов нет",
+      "role": "арендодатель и агент по аренде",
+      "mentions_found": 1,
+      "links": [
+        "https://arenda.yandex.ru/journal/post/kak-proverit-arendatora-kvartiry/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Собственник — временем на ручной прогон по базам или 300-500 ₽ за отчёт CheckPerson, либо месяцем аренды агенту «за подбор»",
+      "why_unsolved": "Нет аналога кредитного бюро для аренды; 152-ФЗ ограничивает агрегацию персональных данных",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Фальшивые справки, «серые» доходы, кредиты и долги, которые могут быть скрыты из сети",
+          "source_url": "https://arenda.yandex.ru/journal/post/kak-proverit-arendatora-kvartiry/"
+        }
+      ]
+    },
+    {
+      "id": "shadow-rental-tax-pressure",
+      "statement": "80-95% рынка аренды в тени, но ФНС строит цифровой колпак: матчинг объявлений Авито/ЦИАН с Росреестром, обсуждается налоговый вычет арендатору как стимул «доносить»",
+      "role": "арендодатель",
+      "mentions_found": 2,
+      "links": [
+        "https://realty.rbc.ru/news/69241d739a7947abc80984cf",
+        "https://t-j.ru/news/opros-domrf/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Легальные — 4% НПД как самозанятые; нелегальные — риском доначисления НДФЛ 13% плюс штраф 20-40%",
+      "why_unsolved": "Выгода тени пока выше ожидаемого штрафа; инфраструктура принуждения только строится — ниша легализации растёт",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Доля неофициальной аренды — 80-95% всего найма (оценка Дом.РФ)",
+          "source_url": "https://realty.rbc.ru/news/69241d739a7947abc80984cf"
+        }
+      ]
+    },
+    {
+      "id": "trust-management-fear",
+      "statement": "Доверительное управление: дорого (10-25% дохода плюс потеря НПД — НДФЛ 13%) и страшно отдавать ключи — недобросовестные УК пересдают квартиры посуточно втихую",
+      "role": "арендодатель (в т.ч. удалённый)",
+      "mentions_found": 1,
+      "links": [
+        "https://arenda.yandex.ru/journal/post/kak-rabotaet-doveritelnoe-upravlenie-kvartiroy-plyusy-minusy-i-riski/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Собственник — процентом управляющему; рынок УК не стандартизован, рейтингов нет",
+      "why_unsolved": "Нет прозрачности и стандартов; датчики/умные замки и отчётность только появляются",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Собственник при внезапном визите обнаружил в квартире 10 незадекларированных жильцов (кейс из разбора)",
+          "source_url": "https://arenda.yandex.ru/journal/post/kak-rabotaet-doveritelnoe-upravlenie-kvartiroy-plyusy-minusy-i-riski/"
+        }
+      ]
+    },
+    {
+      "id": "double-bookings-channel-chaos",
+      "statement": "Посуточно: двойные брони при ручной синхронизации календарей между площадками, комиссии площадок до 15% (до 30% с продвижением), маржа сегмента сжалась с x2 до x1.5 к долгосроку",
+      "role": "посуточный хост",
+      "mentions_found": 2,
+      "links": [
+        "https://welcometimes.ru/opinions/10-luchshih-servisov-dlya-avtomatizacii-posutochnoy-arendy-nedvizhimosti",
+        "https://vc.ru/travel/1693835-rynok-kratkosrochnoi-arendy-kvartir-rossii-na-rubezhe-2024-i-2025-godov"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Хост — комиссией площадкам и подпиской на channel-менеджер (RealtyCalendar, Bnovo); мелкие хосты ведут Excel",
+      "why_unsolved": "Для хостов с 1-2 квартирами подписка кажется дорогой; после ухода Airbnb конкуренция площадок снизилась",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Стандартная выручка от краткосрочной аренды была х2 к долгосрочной, на данный момент порядка х1.5",
+          "source_url": "https://vc.ru/travel/1693835-rynok-kratkosrochnoi-arendy-kvartir-rossii-na-rubezhe-2024-i-2025-godov"
+        }
+      ]
+    },
+    {
+      "id": "daily-rent-regulatory-fog",
+      "statement": "Регуляторный туман посуточной аренды: 436-ФЗ, эксперимент по гостевым домам (127-ФЗ с 01.09.2025 до 2027), противоречивые трактовки — хосты боятся запрета и уходят с рынка",
+      "role": "посуточный хост",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/eglit_m/2181762-zapret-na-posutochnuyu-arendu-v-rossii",
+        "https://new.realtycalendar.ru/blog/zakony-o-posutochnoj-arende-chto-izmenilos-v-2025-godu-i-chego-zhdat-dalshe"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Хосты — юристам и консультантам, налогами при легализации (ИП/самозанятость)",
+      "why_unsolved": "Законодательство меняется на ходу, нормы трактуются противоречиво, инфошум подогревают сами консультанты",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Для тех, кто сдавал квартиры «по-тихому» через объявления — риски выросли",
+          "source_url": "https://vc.ru/eglit_m/2181762-zapret-na-posutochnuyu-arendu-v-rossii"
+        }
+      ]
+    },
+    {
+      "id": "fake-listings-scams",
+      "statement": "Фейковые объявления и «информационные агентства»: предоплаты за несуществующие квартиры, свежий виток — AI-генерация фото (2026); полиция дел почти не заводит",
+      "role": "арендатор",
+      "mentions_found": 3,
+      "links": [
+        "https://pikabu.ru/story/avito_kakie_moshenniki_tam_obitayut_4081336",
+        "https://ria.ru/20260527/zhile-2095139298.html",
+        "https://www.restate.ru/forum/10/52511.html"
+      ],
+      "search_period": "2016-2026",
+      "who_pays_now": "Арендатор — 2-15 тыс ₽ «за базу собственников» или фейковый залог; площадки — модерацией",
+      "why_unsolved": "Дефицит дешёвого жилья толкает на «слишком хорошие» объявления; мошенники мигрируют в соцсети, где модерации нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Аферисты для привлечения внимания используют красивые фотографии, украденные из реальных объявлений или сгенерированные нейросетями",
+          "source_url": "https://ria.ru/20260527/zhile-2095139298.html"
+        }
+      ]
+    },
+    {
+      "id": "tenant-pays-commission-anger",
+      "statement": "«Почему комиссию плачу я?» — арендатор платит 50-100% месячной ставки агенту, которого нанял собственник; платформы уже перекладывают комиссию на собственника",
+      "role": "арендатор",
+      "mentions_found": 2,
+      "links": [
+        "https://t-j.ru/hate/realtor-commission-hate/",
+        "https://spbdnevnik.ru/news/2023-11-29/eksperty-obyasnili-pochemu-za-uslugi-rieltora-platit-arendator-a-ne-vladelets-kvartiry"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Арендатор — комиссией; сдвиг: в 2024-2025 растёт доля объявлений «без комиссии» через платформы прямой аренды",
+      "why_unsolved": "Дефицитный рынок аренды — условия диктует собственник; традиция делового оборота",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "rental-discrimination",
+      "statement": "Дискриминация арендаторов («только славянам», без детей, без животных) ушла из текстов объявлений в телефонные фильтры — треть предложений закрыта для «нежелательных» профилей",
+      "role": "арендатор",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/opinions/254336-tolko-slavyanam-kak-snyat-zhile-esli-vam-nikto-ne-rad",
+        "https://realty.rbc.ru/news/61f948f19a79478d7e2d3942"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Арендатор — временем и переплатой за лояльных собственников",
+      "why_unsolved": "Запрет действует только на текст объявления, отбор перешёл в звонки, санкций к собственнику нет",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "chain-deals-collapse",
+      "statement": "Альтернативные цепочки сделок разваливаются от одного звена: нет механизма атомарной сделки, Росреестр регистрирует звенья независимо, ипотечные одобрения живут 90 дней",
+      "role": "покупатель, продавец и агент",
+      "mentions_found": 1,
+      "links": [
+        "https://www.irn.ru/articles/42147-pokupka-i-prodazha-kvartiry-po-alternativnoy.html"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Участники — задатками и сроками; юристы берут 30-100 тыс ₽ за сопровождение; агент пересобирает цепочку бесплатно",
+      "why_unsolved": "Инфраструктурная задача уровня банков и Росреестра — эскроу на всю цепочку не существует",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Чем больше лиц участвует в схеме, тем больше вероятность того, что сделка сорвется",
+          "source_url": "https://www.irn.ru/articles/42147-pokupka-i-prodazha-kvartiry-po-alternativnoy.html"
+        }
+      ]
+    }
+  ]
+}

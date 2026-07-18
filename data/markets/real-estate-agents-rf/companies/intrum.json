@@ -1,0 +1,41 @@
+{
+  "id": "intrum",
+  "name": "INTRUM",
+  "legal_name": "юрлицо в открытых источниках не указано",
+  "website": "https://www.intrumnet.com",
+  "segment": "CRM для агентств недвижимости",
+  "description": "Старожил ниши CRM для АН: чаты Авито/ЦИАН из CRM, документооборот, телефония. Репутация подпорчена качеством: тормоза, сырое мобильное приложение, медленные исправления багов.",
+  "pricing": [
+    {
+      "plan": "При годовой оплате ~968 ₽/чел/мес (5 сотрудников), 458-379 ₽ при 50-100; помесячно ~+25%; допы: АТС 1265 ₽/мес, WhatsApp-линия 880 ₽/мес; триал 14 дней",
+      "price": "379-968 ₽/чел/мес",
+      "source_url": "https://www.intrumnet.com/cost/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Тормоза и зависания, особенно финансовый модуль", "source_url": "https://crmindex.ru/products/intrumcrm/reviews" },
+    { "complaint": "Перегруженность и сложность настройки", "source_url": "https://crmindex.ru/products/intrumcrm/reviews" },
+    { "complaint": "Сырое мобильное приложение, медленные исправления багов", "source_url": "https://eto-razvod.ru/review/intrumnet/" }
+  ],
+  "ai_readiness": {
+    "score": 10,
+    "formula": "10 баллов за цифровой процесс (интеграции, телефония); AI-функций не найдено",
+    "signals": [
+      {
+        "signal": "Чаты Авито/ЦИАН и документооборот внутри CRM — интеграционная зрелость без AI",
+        "evidence_url": "https://www.intrumnet.com/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Юрлицо/ИНН/финансы не раскрыты",
+    "Число клиентов не публикуется"
+  ],
+  "sources": [
+    "https://www.intrumnet.com/cost/",
+    "https://crmindex.ru/products/intrumcrm/reviews"
+  ],
+  "updated_at": "2026-07-18"
+}

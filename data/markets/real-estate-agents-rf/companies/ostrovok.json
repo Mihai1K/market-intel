@@ -1,0 +1,92 @@
+{
+  "id": "ostrovok",
+  "name": "Островок",
+  "legal_name": "ООО «Бронирование гостиниц»",
+  "inn": "7703389880",
+  "website": "https://ostrovok.ru",
+  "founded": 2015,
+  "segment": "платформа бронирования (отели + посуточное жильё)",
+  "description": "Второй игрок онлайн-бронирования РФ (21,5% рынка против 29,2% у Яндекс Путешествий). Убыточен, отрицательный капитал; Emerging Travel Group выставила компанию на продажу — сделку планируют закрыть до конца 2026 (претенденты: Яндекс, экосистемы). Возможная консолидация перекроит комиссии для хостов.",
+  "revenue": [
+    {
+      "value": 7600,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +12% г/г",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/bronirovanie-gostinic-1157746695644",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 6800,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/bronirovanie-gostinic-1157746695644",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -1200,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; отрицательный собственный капитал −1,7 млрд ₽",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/bronirovanie-gostinic-1157746695644",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": -900,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/bronirovanie-gostinic-1157746695644",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия для хостов публично не раскрывается (подключение через extranet); отраслевой блог заявляет 15-25% + динамическая наценка — использовать как тему жалоб, не как тариф",
+      "price": "не публикуется",
+      "source_url": "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Отельеры: задержки выплат до двух месяцев", "source_url": "https://www.tbank.ru/reviews/company/ostrovok-ru/1328/" },
+    { "complaint": "Наценки поверх тарифа без контроля объекта размещения", "source_url": "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/" },
+    { "complaint": "Гости: незаселение и невозврат средств", "source_url": "https://vc.ru/travel/1130601-moi-otzyv-ob-ostrovke-i-bukinge-po-faktam" }
+  ],
+  "ai_readiness": {
+    "score": 15,
+    "formula": "15 баллов за исследовательскую активность в AI-трендах; собственных AI-продуктов для хостов не анонсировано",
+    "signals": [
+      {
+        "signal": "Совместное исследование с Мегафоном: трафик к нейросетям для планирования путешествий +25% г/г (начало 2026)",
+        "evidence_url": "https://www.librahospitality.com/company/news/iskusstvennyy-intellekt-v-gostinichnom-biznese-rossii--trendy-2026-goda-i-keys-neyrokonsultanta-nika/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Комиссия для хостов не публична",
+    "Доля апартаментов/квартир в GMV не раскрывается"
+  ],
+  "sources": [
+    "https://checko.ru/company/bronirovanie-gostinic-1157746695644",
+    "https://profi.travel/news/63693/details",
+    "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/"
+  ],
+  "updated_at": "2026-07-18"
+}

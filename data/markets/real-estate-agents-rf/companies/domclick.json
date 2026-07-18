@@ -1,0 +1,102 @@
+{
+  "id": "domclick",
+  "name": "Домклик",
+  "legal_name": "ООО «Домклик» (100% дочка ПАО Сбербанк)",
+  "inn": "7736249247",
+  "website": "https://domclick.ru",
+  "founded": 2015,
+  "segment": "экосистемный классифайд + ипотечная воронка Сбера",
+  "description": "Классифайд на ипотечной воронке Сбера: 20 млн пользователей/мес (self-reported), электронная регистрация, безопасные расчёты, подписки для агентств. Сильный AI: GigaChat-подбор, ML-оценка по реальным ипотечным сделкам, нейрокалькулятор доходности аренды.",
+  "revenue": [
+    {
+      "value": 13940,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ, +13% г/г; отчётность 2023-2025 в ГИР БО не опубликована",
+      "source_name": "ГИР БО ФНС (зеркала Checko/Saby)",
+      "source_url": "https://checko.ru/company/domklik-1157746652150",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 12350,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/domklik-1157746652150",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 7280,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркала Checko/Saby)",
+      "source_url": "https://checko.ru/company/domklik-1157746652150",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 7140,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/domklik-1157746652150",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Подписки для агентств с 01.2024: «Стандарт/Оптимум/Максимум» (скидки на размещение, доступ к завершённым сделкам, ускоренная аккредитация для ипотечной скидки 0,3%); цена индивидуальна, порог от 20 объявлений",
+      "price": "индивидуально",
+      "source_url": "https://www.cnews.ru/news/line/2024-01-16_domklik_zapustil_podpiski",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Навязывание «Домклик Плюс»/страхования как условия сохранения ипотечной ставки", "source_url": "https://www.banki.ru/services/responses/bank/response/12610483/" },
+    { "complaint": "Менеджеры пропадают после оплаты услуг сделки", "source_url": "https://www.banki.ru/services/responses/bank/response/12179111/" },
+    { "complaint": "Снятие объявлений без возврата денег за платные пакеты", "source_url": "https://www.banki.ru/services/responses/bank/response/12459879/" }
+  ],
+  "ai_readiness": {
+    "score": 75,
+    "formula": "30 баллов за GigaChat-подбор в проде + 25 за ML-оценку стоимости по реальным сделкам Сбера + 20 за нейрокалькулятор аренды (4 млн квартир, точность 81%)",
+    "signals": [
+      {
+        "signal": "Подбор недвижимости нейросетью GigaChat (с 10.2024); тест ИИ-агента подбора («ускорение сделки в 3 раза»)",
+        "evidence_url": "https://www.cnews.ru/news/line/2024-10-18_domklik_zapustil_podbor",
+        "direction": "+"
+      },
+      {
+        "signal": "Нейрокалькулятор доходности аренды по адресу и метражу (база ~4 млн квартир, точность 81%)",
+        "evidence_url": "https://realty.rbc.ru/news/69f86f049a7947e685f27344",
+        "direction": "+"
+      },
+      {
+        "signal": "Массовый IT-найм: backend/data-ML/DevOps на career.domclick.ru",
+        "evidence_url": "https://career.domclick.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "РСБУ 2023-2025 не опубликован (сберовские структуры не раскрывают)",
+    "Выручка по направлениям и независимый MAU не собраны"
+  ],
+  "sources": [
+    "https://checko.ru/company/domklik-1157746652150",
+    "https://www.cnews.ru/news/line/2024-01-16_domklik_zapustil_podpiski",
+    "https://career.domclick.ru/"
+  ],
+  "updated_at": "2026-07-18"
+}

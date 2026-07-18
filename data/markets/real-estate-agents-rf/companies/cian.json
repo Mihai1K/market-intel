@@ -1,0 +1,147 @@
+{
+  "id": "cian",
+  "name": "ЦИАН",
+  "legal_name": "МКПАО «ЦИАН» (операционное — ООО «Айриэлтор», ИНН 7718935772)",
+  "inn": "3900031141",
+  "website": "https://www.cian.ru",
+  "founded": 2001,
+  "segment": "классифайд недвижимости №1 по монетизации",
+  "description": "Публичная компания (MOEX: CNRU), редомицилирована с Кипра в Калининград (2024). Главный канал лидов и главная статья расходов агентств: тарифы Мосрегиона +109% за 2022-2024 и ещё +43% к февралю 2026 — в марте 2026 риелторы подали жалобу в ФАС на «двойную монетизацию». В июле 2026 объявила buyback.",
+  "revenue": [
+    {
+      "value": 15200,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "МСФО группы, +17% г/г (РСБУ ООО «Айриэлтор»: 14,8 млрд, ЧП 4,0 млрд)",
+      "source_name": "Smart-Lab (агрегатор отчётности эмитента)",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 13000,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 11600,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 8270,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 6030,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 2660,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1700,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": -2860,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "МСФО группы",
+      "source_name": "Smart-Lab",
+      "source_url": "https://smart-lab.ru/q/CNRU/f/y/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Официальный прайс закрыт капчей; по СМИ: размещение для профи от 1476 ₽ (Москва), месячное размещение до 2,9 тыс ₽ (+55%); тарифы +109% за 2022-2024, +43% за май 2025 — февраль 2026; продвижение отдельными платежами (+62% по отдельным услугам)",
+      "price": "динамика из СМИ, прайс за антиботом",
+      "source_url": "https://realty.rbc.ru/news/69a964249a79470393276091",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Спам-звонки после обращения (до 10 в день) и передача контактов", "source_url": "https://otzovik.com/reviews/agentsvo_nedvizhimosti_cian_rossiya_moskva/" },
+    { "complaint": "Агенты: «двойная монетизация» — платишь за размещение и отдельно за продвижение, иначе объявление в конце выдачи", "source_url": "https://www.interfax.ru/moscow/1076544" },
+    { "complaint": "Модерация не реагирует на фейковые объявления мошенников", "source_url": "https://otzovik.com/reviews/agentsvo_nedvizhimosti_cian_rossiya_moskva/" }
+  ],
+  "ai_readiness": {
+    "score": 70,
+    "formula": "40 баллов за работающий genAI-продукт с массовой аудиторией + 20 за нейрогенерацию объявлений + 10 за AR-поиск; весь AI повёрнут к покупателю, не к агенту",
+    "signals": [
+      {
+        "signal": "«Циан-Помощник» — генеративный ИИ-чатбот поиска (первый среди классифайдов РФ, апрель 2024): годовая аудитория 3,9 млн",
+        "evidence_url": "https://www.cnews.ru/news/line/2025-03-27_tsian_39_mln_chelovek_polzuyutsya",
+        "direction": "+"
+      },
+      {
+        "signal": "Поиск объявлений через AR-камеру (бета июнь 2025)",
+        "evidence_url": "https://www.forbes.ru/tekhnologii/540486-cian-zapustil-servis-poiska-ob-avlenij-o-nedvizimosti-cerez-umnuu-ar-kameru",
+        "direction": "+"
+      },
+      {
+        "signal": "Автоматизации агентского цикла (обзвон, документы, сопровождение) не даёт — агенты докупают сторонние сервисы",
+        "evidence_url": "https://realty.rbc.ru/news/69a964249a79470393276091",
+        "direction": "-"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Разбивка выручки по сегментам (листинги/лидоген/ипотека) не собрана",
+    "LTV/CAC/churn не раскрываются"
+  ],
+  "sources": [
+    "https://smart-lab.ru/q/CNRU/f/y/",
+    "https://checko.ru/company/ayriehltor-1137746481190",
+    "https://realty.rbc.ru/news/69a964249a79470393276091",
+    "https://www.cnews.ru/news/top/2026-07-08_tsian_vykupit_sobstvennye"
+  ],
+  "updated_at": "2026-07-18"
+}

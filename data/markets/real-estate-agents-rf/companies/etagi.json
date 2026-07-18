@@ -1,0 +1,109 @@
+{
+  "id": "etagi",
+  "name": "Этажи",
+  "legal_name": "ООО «ЭТАЖИ» (головное юрлицо франшизы; выручка ≠ оборот сети)",
+  "inn": "7202106387",
+  "website": "https://etagi.com",
+  "founded": 2000,
+  "segment": "крупнейшая франчайзинговая сеть агентств",
+  "description": "Сеть из 300+ филиалов в 247 городах и 14-15 странах (франшиза с 2012). Головное ООО собирает роялти: выручка 1,6 млрд ₽ (+53%) при 490 сотрудниках. Самый технологичный из классических АН: ИИ-ассистент первичных обращений поднял конверсию ночных заявок с 3% до 18%.",
+  "revenue": [
+    {
+      "value": 1600,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ головного ООО (роялти и услуги сети), +53% г/г; 490 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало Checko) + ura.news",
+      "source_url": "https://checko.ru/company/ehtazhi-1027200835661",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1010,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ головного ООО",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/ehtazhi-1027200835661",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 678,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ головного ООО",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/ehtazhi-1027200835661",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 281.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ головного ООО",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/ehtazhi-1027200835661",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 139.9,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ головного ООО",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/ehtazhi-1027200835661",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия со сделок (собственные офисы) + роялти франчайзи + ипотечный брокеридж (партнёрство с ВТБ)",
+      "price": "% от сделки, публично не фиксирован",
+      "source_url": "https://franshiza.ru/franchise/read/etagi/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Юридические недоработки: скрытые наследники, срыв сделки в последний момент", "source_url": "https://otzovik.com/reviews/agentstvo_nedvizhimosti_etazhi_moscow/" },
+    { "complaint": "Неопытные агенты, качество разнится по городам", "source_url": "https://otzovik.com/reviews/agenstvo_nedvizhimosti_etazhi_russia_tyumen/" },
+    { "complaint": "Навязывание доп. услуг собственникам", "source_url": "https://otzovik.com/reviews/agentstvo_nedvizhimosti_etazhi_moscow/" }
+  ],
+  "ai_readiness": {
+    "score": 55,
+    "formula": "35 баллов за работающий ИИ-ассистент первичных обращений (конверсия ночных заявок 3% → 18%, вторичный источник) + 20 за нейросети в контенте и рекомендательную ленту",
+    "signals": [
+      {
+        "signal": "ИИ-ассистент квалифицирует первичные обращения, подбирает объекты и передаёт менеджеру; конверсия ночных заявок выросла с 3% до 18%",
+        "evidence_url": "https://totdom.com/news/ii_dlya_agentstv_nedvizhimosti_kak_tekhnologii_menyayut_otrasl/",
+        "direction": "+"
+      },
+      {
+        "signal": "Нейросети для текстов объявлений и сезонной обработки фото, рекомендательная лента по всей стране",
+        "evidence_url": "https://www.beboss.ru/journal/3656-marketing-agentstva-nedvizimosti",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Консолидированный оборот сети не публикуется",
+    "Число агентов сети не раскрывается",
+    "Первоисточник кейса ИИ-ассистента (пресс-релиз Этажей) не найден — источник вторичный"
+  ],
+  "sources": [
+    "https://checko.ru/company/ehtazhi-1027200835661",
+    "https://ura.news/articles/1053082330",
+    "https://franshiza.ru/franchise/read/etagi/"
+  ],
+  "updated_at": "2026-07-18"
+}

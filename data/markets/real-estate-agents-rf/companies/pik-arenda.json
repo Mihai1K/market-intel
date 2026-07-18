@@ -1,0 +1,101 @@
+{
+  "id": "pik-arenda",
+  "name": "ПИК-Аренда",
+  "legal_name": "ООО «ПИК Аренда» (владелец — ООО «УК КВАРТА»)",
+  "inn": "7707414760",
+  "website": "https://pik-arenda.ru",
+  "founded": 2018,
+  "segment": "доверительное управление долгосрочной арендой",
+  "description": "Выжившая платформа ДУ: растёт и прибыльна (438 млн ₽ выручки, 70 млн прибыли в 2025), но с отрицательным собственным капиталом −469 млн ₽ после убыточных лет. Доказательство: за управление арендой платят, когда процесс берут под ключ.",
+  "revenue": [
+    {
+      "value": 438.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +45% г/г",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7707414760",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 302.3,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7707414760",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 240,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ, округлённо",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7707414760",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 70.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; отрицательный собственный капитал −469,3 млн ₽",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7707414760",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 23.9,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/search?query=7707414760",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия на лендинге не указана (заявлена бесплатная страховка собственнику)",
+      "price": "не публикуется",
+      "source_url": "https://pik-arenda.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Качество проверки жильцов («Заселили дезертира»)", "source_url": "https://otzovik.com/reviews/agenstvo_nedvizhimosti_pik-arenda_russia_moscow/" }
+  ],
+  "ai_readiness": {
+    "score": 30,
+    "formula": "30 баллов за цифровой процесс сдачи и проверки жильцов; genAI-фич не анонсировано",
+    "signals": [
+      {
+        "signal": "Онлайн-платформа сдачи с проверкой жильцов и страховкой",
+        "evidence_url": "https://pik-arenda.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Тарифы/комиссия не публикуются",
+    "Число квартир под управлением не раскрывается"
+  ],
+  "sources": [
+    "https://checko.ru/search?query=7707414760",
+    "https://pik-arenda.ru/",
+    "https://otzovik.com/reviews/agenstvo_nedvizhimosti_pik-arenda_russia_moscow/"
+  ],
+  "updated_at": "2026-07-18"
+}

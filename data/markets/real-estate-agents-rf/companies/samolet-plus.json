@@ -1,0 +1,117 @@
+{
+  "id": "samolet-plus",
+  "name": "Самолет Плюс",
+  "legal_name": "ООО «САМОЛЕТ ПЛЮС» (АО «Плюс» — 95,44%)",
+  "inn": "7729551344",
+  "website": "https://samoletplus.ru",
+  "founded": 2006,
+  "segment": "франчайзинговая сеть агентств + PropTech-платформа",
+  "description": "Сервисная сеть от ГК «Самолет», масштабировавшаяся под IPO: 1600 офисов (план 5000), 14,6 тыс агентов, 186 тыс сделок за 2024; pre-IPO июль 2024 — 825 млн ₽ при оценке ~21,2 млрд. В 2025 юрлицо сжалось вдвое, но вышло в прибыль. Запустила «первую в РФ ИИ-платформу для риелторов» AI Plus.",
+  "revenue": [
+    {
+      "value": 2500,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ ООО (сжатие после пика 2024; расхождение зеркал 2,5-2,7 млрд)",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/samolet-plyus-1067746757704",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 5260,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ ООО (зеркала расходятся: 5,26-6,8 млрд); выручка группы за 2024 — 7,9 млрд ₽ (×6,7 к 2023, Интерфакс)",
+      "source_name": "ГИР БО ФНС (зеркала)",
+      "source_url": "https://checko.ru/company/samolet-plyus-1067746757704",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 1100,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ ООО",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1067746757704_7729551344_OOO-SAMOLET-PLYuS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 225.7,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ ООО — первый прибыльный год",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/samolet-plyus-1067746757704",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": -1600,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ ООО — пик убытков экспансии",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1067746757704_7729551344_OOO-SAMOLET-PLYuS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "funding": [
+    {
+      "value": 825,
+      "unit": "млн руб (pre-IPO, оценка ~21,2 млрд ₽)",
+      "period": "2024-07",
+      "source_name": "РБК / Forbes",
+      "source_url": "https://www.forbes.ru/investicii/517978-servis-samolet-plus-privlek-825-mln-rublej-v-hode-pre-ipo",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза (паушальный/роялти — публично не фиксированы) + комиссии со сделок + платформа AI Plus (открыта всем риелторам, максимум — в связке с CRM Topnlab)",
+      "price": "не публикуется",
+      "source_url": "https://samoletplus.ru/journal/samolet-plyus-zapustil-pervuyu-v-rossii-ii-platformu-dlya-rielterov/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Высокая комиссия при низком качестве исполнения, ошибки в договорах", "source_url": "https://www.otzyvru.com/samolet-plyus" },
+    { "complaint": "Скрытые комиссии — озвучивают не всё, потом выставляют счета", "source_url": "https://otzyvy.kitabi.ru/kompaniya/samolet-plus" },
+    { "complaint": "Навязчивые звонки и давление менеджеров", "source_url": "https://2gis.ru/spb/firm/70000001067533818/tab/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 75,
+    "formula": "50 баллов за платформу AI Plus в проде (генерация контента, чат-бот, анализ переписок; 2000+ агентов в пилоте) + 25 за интеграцию с CRM и экономию до 30% времени агента",
+    "signals": [
+      {
+        "signal": "AI Plus — «первая в РФ ИИ-платформа для риелторов» (04.2025): генерация контента, чат-бот назначает встречи, анализ переписок с рекомендациями; экономия до 30% времени",
+        "evidence_url": "https://samoletplus.ru/journal/samolet-plyus-zapustil-pervuyu-v-rossii-ii-platformu-dlya-rielterov/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "МСФО группы не публикуется (IPO намечалось на конец 2025 — начало 2026)",
+    "Экономика франшизы не раскрыта",
+    "Расхождение зеркал по выручке 2024-2025"
+  ],
+  "sources": [
+    "https://checko.ru/company/samolet-plyus-1067746757704",
+    "https://zachestnyibiznes.ru/company/ul/1067746757704_7729551344_OOO-SAMOLET-PLYuS",
+    "https://www.forbes.ru/investicii/517978-servis-samolet-plus-privlek-825-mln-rublej-v-hode-pre-ipo",
+    "https://www.interfax-russia.ru/realty/company_news/samolet-plyus-v-2024-g-poluchil-7-9-mlrd-rub-vyruchki-podtverzhdaet-plany-ipo"
+  ],
+  "updated_at": "2026-07-18"
+}
