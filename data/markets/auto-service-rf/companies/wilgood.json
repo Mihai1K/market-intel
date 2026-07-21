@@ -1,0 +1,83 @@
+{
+  "id": "wilgood",
+  "name": "Вилгуд (сеть)",
+  "legal_name": "ООО «Вилгуд Сервис» (франчайзинг/IP; ≠ оборот сети)",
+  "inn": "7724435560",
+  "website": "https://wilgood.ru",
+  "founded": 2018,
+  "segment": "сеть «умных автосервисов» по франшизе",
+  "description": "Сеть на жёсткой процессной автоматизации (Wilgood IS: балльная оплата труда, камеры сверяют госномера в цехе с заказ-нарядами, алерты владельцу в Telegram). Головное юрлицо убыточно два года подряд (−44,3 млн ₽ в 2025); данные о размере сети противоречивы: 90+ сервисов на сайте против «50+ партнёров» на франч-лендинге.",
+  "revenue": [
+    {
+      "value": 107.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ ООО «Вилгуд Сервис» (роялти/IP, не оборот сети)",
+      "source_name": "ГИР БО ФНС (зеркала RBC Companies / List-Org)",
+      "source_url": "https://companies.rbc.ru/id/1187746366807-ooo-vilgud-servis/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 82.3,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало RBC Companies)",
+      "source_url": "https://companies.rbc.ru/id/1187746366807-ooo-vilgud-servis/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -44.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — убыточна два последних года",
+      "source_name": "ГИР БО ФНС (зеркало RBC Companies)",
+      "source_url": "https://companies.rbc.ru/id/1187746366807-ooo-vilgud-servis/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный 490-590 тыс ₽, роялти регрессивное 6% → 2%, инвестиции от 1,5 млн ₽, запуск 2 мес, окупаемость 18 мес; обещания: выручка точки 5,6 млн ₽/мес, прибыль 750 тыс ₽/мес, чек 18 195 ₽",
+      "price": "паушальный 490-590 тыс ₽ + роялти 2-6%",
+      "source_url": "https://franchise.wilgood.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Завышенные цены (замена бензонасоса за 45 000 ₽ при рынке 3,5-8 тыс)", "source_url": "https://zoon.ru/msk/autoservice/network/vilgud_avtoservisy/" },
+    { "complaint": "Срыв сроков и работа без документов (нет заказ-наряда/акта)", "source_url": "https://zoon.ru/msk/autoservice/network/vilgud_avtoservisy/" },
+    { "complaint": "Ошибочная диагностика и отказ переделывать за свой счёт", "source_url": "https://www.drive2.ru/o/Wilgood-service/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 45,
+    "formula": "45 баллов за глубокую процессную автоматизацию (балльная система оплаты, компьютерная сверка госномеров с заказ-нарядами, Telegram-алерты владельцу); заявлений о нейросетях нет",
+    "signals": [
+      {
+        "signal": "Камеры фиксируют госномера в цехе и сверяют с заказ-нарядами, расхождения — алерт владельцу в Telegram",
+        "evidence_url": "https://www.forbes.ru/biznes/346317-moment-scepleniya-kak-it-sistema-pomogla-seti-avtoservisov-vyrasti-v-chetyre-raza-za",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Противоречие размера сети: 90+ сервисов (wilgood.ru) против «50+ партнёров» (франч-лендинг) — обе цифры сняты 2026-07-18",
+    "РСБУ 2021-2023 недоступен на зеркалах; структура группы юрлиц не восстановлена",
+    "Оборот сети не раскрывается"
+  ],
+  "sources": [
+    "https://companies.rbc.ru/id/1187746366807-ooo-vilgud-servis/",
+    "https://www.list-org.com/company/11790247",
+    "https://franchise.wilgood.ru/",
+    "https://wilgood.ru/"
+  ],
+  "updated_at": "2026-07-18"
+}

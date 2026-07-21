@@ -1,0 +1,73 @@
+{
+  "id": "mosautoshina",
+  "name": "Мосавтошина",
+  "legal_name": "ООО «МОСАВТОШИНА»",
+  "inn": "7716761626",
+  "website": "https://mosautoshina.ru",
+  "founded": 2013,
+  "segment": "шинные центры и онлайн-ритейл шин (граница сегмента)",
+  "description": "Гибрид «интернет-магазин шин + 25+ собственных шинных центров» (шиномонтаж, сезонное хранение): выручка 14,1 млрд ₽ (+37%) при прибыли 549 млн и 175 сотрудниках — редкий пример прибыльного масштабирования в сервисной рознице. Сегмент шиномонтажа всего рынка — 46,8 млрд ₽.",
+  "revenue": [
+    {
+      "value": 14134,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +37% г/г; 175 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/7768479",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 10339,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало RBC Companies)",
+      "source_url": "https://companies.rbc.ru/id/5137746157478-ooo-mosavtoshina/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 549.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/7768479",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Переносы сроков доставки", "source_url": "https://www.drive2.ru/o/Mosautoshina/reviews" },
+    { "complaint": "Хранение шин «на улице, в воде»", "source_url": "https://www.drive2.ru/o/Mosautoshina/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 10,
+    "formula": "10 баллов за омниканальную платформу (онлайн-магазин + запись в центры); AI-сигналов нет",
+    "signals": [
+      {
+        "signal": "Онлайн-магазин с записью на шиномонтаж и сезонным хранением в 25+ центрах",
+        "evidence_url": "https://mosautoshina.ru/about/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Связь с Колесо.ру (слухи о M&A) не подтверждена ни одним URL",
+    "Разбивка выручки ритейл/сервис не публикуется"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/7768479",
+    "https://companies.rbc.ru/id/5137746157478-ooo-mosavtoshina/",
+    "https://mosautoshina.ru/about/"
+  ],
+  "updated_at": "2026-07-18"
+}

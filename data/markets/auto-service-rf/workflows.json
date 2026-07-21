@@ -1,0 +1,156 @@
+{
+  "market": "auto-service-rf",
+  "updated_at": "2026-07-18",
+  "workflows": [
+    {
+      "id": "client-journey-sto",
+      "name": "Клиент в независимом СТО: от обращения до повторного визита",
+      "actor": "независимое СТО (мастер-приёмщик + владелец)",
+      "steps": [
+        {
+          "name": "Привлечь клиента (карты, агрегаторы, сарафан)",
+          "status": "semi",
+          "evidence": "76% автовладельцев ищут СТО через Яндекс Карты и 2ГИС, 67% не поедут без отзывов, порог топ-3 — рейтинг 4,3+; ведение карточек — ручной труд владельца или агентства",
+          "evidence_url": "https://myreviews.ru/prodvizhenie-avtservisa",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Записать на ремонт (звонок/онлайн)",
+          "status": "semi",
+          "evidence": "Автосервисы теряют до 25% обращений ещё до общения с мастером-приёмщиком (пропущенные звонки); даже у сети FIT Service онлайн-каналы дали лишь 40% записей — у независимых доля ниже, типичный кейс «15 сотрудников на личных мобильных, Google-календарь и Excel»",
+          "evidence_url": "https://www.mtt.ru/solutions/dlya-otrasley/kommunikatsionnye-resheniya-dlya-avtoservisov/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Принять авто и провести диагностику",
+          "status": "manual",
+          "evidence": "Осмотр руками мастера-приёмщика (вакансия: «прием клиентов, выяснение причины обращения»); цифровой чек-лист на планшете — стандарт сетей, не независимых",
+          "evidence_url": "https://www.boomer.ru/content/master-priemshchik-servisnyy-konsultant-sto",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Составить дефектовку и смету",
+          "status": "semi",
+          "evidence": "Смета собирается вручную из трёх источников: нормы времени (продаются отдельно), прайс работ и цены запчастей; в 1С есть документ, но заполняет человек",
+          "evidence_url": "https://solutions.1c.ru/catalog/autoservice/features",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Согласовать работы с клиентом",
+          "status": "manual",
+          "evidence": "Ядро ручного труда отрасли: приёмщик дозванивается, пока машина занимает подъёмник; 82 вакансии мастеров-приёмщиков в Москве с з/п до 300 тыс ₽ — «согласование работ и стоимости с клиентом»",
+          "evidence_url": "https://hh.ru/vacancies/master-priemschik-avtoservisa",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Заказать запчасти и дождаться поставки",
+          "status": "semi",
+          "evidence": "Проценка по API 100+ поставщиков (Exist, Autodoc, Emex, Rossko...) есть, но выбор «цена/срок/надёжность» делает человек — в СТО существует отдельная штатная роль «менеджер по подбору запчастей» (100-210 тыс ₽/мес в Москве)",
+          "evidence_url": "https://autodealer.ru/online/percentage",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Выполнить ремонт",
+          "status": "manual",
+          "evidence": "Физический труд; софт даёт только распределение исполнителей и хронометраж операций (стандарты Вилгуд)",
+          "evidence_url": "https://biz360.ru/materials/umnye-avtoservisy-kak-oblachnye-tekhnologii-pomogayut-upravlyat-kompaniey-v-krizis/",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Проконтролировать качество",
+          "status": "manual",
+          "evidence": "У сетей контроль этапов зашит в софт (Wilgood IS: сотрудник не получает новую задачу, пока не закрыл текущую); у независимых стандартизированного ОТК не найдено — рейтинг ниже 4,3 выбивает из топ-3 карт",
+          "evidence_url": "https://biz360.ru/materials/umnye-avtoservisy-kak-oblachnye-tekhnologii-pomogayut-upravlyat-kompaniey-v-krizis/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Выдать авто и принять оплату",
+          "status": "semi",
+          "evidence": "Оплата через СБП/ЮKassa в 1С:Автосервис; электронная подпись доп. работ кодом из СМС (F.Doc, ПЭП по 63-ФЗ) существует, но бумажные акты — норма",
+          "evidence_url": "https://fdoc.ru/blog/chto-takoe-zakaz-naryad-na-remont-avtomobilya/",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Напомнить о ТО и вернуть на повторный визит",
+          "status": "manual",
+          "evidence": "Главная дыра неавтоматизированных СТО: повторный визит не инициируется никем, хотя постоянные клиенты дают 55-70% выручки; авто-напоминания по пробегу — только у сетей (FIT Service) и в CRM",
+          "evidence_url": "https://loyabonus.app/industry/auto-service",
+          "can_ai": true,
+          "can_bot": true
+        }
+      ]
+    },
+    {
+      "id": "sto-owner-operations",
+      "name": "Операционка владельца независимого СТО",
+      "actor": "владелец СТО (2-10 постов)",
+      "steps": [
+        {
+          "name": "Загрузка постов и расписание механиков",
+          "status": "semi",
+          "evidence": "Планировщики есть в софте (Вилгуд, 1С), но массовая практика до внедрения — Google-календарь и Excel (кейс «Хансервис»)",
+          "evidence_url": "https://www.uiscom.ru/blog/case-avtoservisa-khanservis/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Закупка запчастей у поставщиков (прайсы, кроссы)",
+          "status": "semi",
+          "evidence": "Каталоги по VIN (Laximo: 45+ марок, кроссы 3500+ брендов, API) и проценка автоматизированы, решение о поставщике принимает человек",
+          "evidence_url": "https://laximo.ru/",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Ценообразование нормо-часа",
+          "status": "manual",
+          "evidence": "Считается «на коленке» по формуле расходы+прибыль/часы; себестоимость нормо-часа 2025 ≈ 1700-1800 ₽ при «справедливой» цене 2-3 тыс ₽ (оценка вендора софта)",
+          "evidence_url": "https://www.yclients.com/journal/normo-chasy-v-avtoservise-tonkosti-i-nyuansy",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Зарплаты механиков (сделка/оклад)",
+          "status": "semi",
+          "evidence": "Типовая схема — процент от выработки (по разборам практиков — 25-40% от стоимости работ) плюс минимальная гарантия; расчёт в софте или Excel",
+          "evidence_url": "https://www.drive2.ru/b/611134402314915102/",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Учёт заказов и склада",
+          "status": "manual",
+          "evidence": "«В некоторых автосервисах склад ведётся в тетрадке или в Excel» — массовая практика по признанию вендоров; по РФ в целом CRM используют лишь ~14% компаний",
+          "evidence_url": "https://interlogika.ru/blog/tpost/8rg9o0yyu1-avtomatiziruem-uchyot-v-avtoservise",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Маркетинг: карточки на картах и реклама",
+          "status": "manual",
+          "evidence": "Карточки Яндекс Карт/2ГИС ведутся руками или отдаются агентствам — существует целая ниша агентств продвижения СТО",
+          "evidence_url": "https://zvenom.ru/uslugi/prodvizhenie-avtoservisa.html",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Работа с отзывами",
+          "status": "manual",
+          "evidence": "Ответы пишутся вручную; появляются горизонтальные AI-инструменты (MyReviews: единая лента, QR на приёмке, AI-генератор ответов) — в отраслевых CRM для СТО этого нет",
+          "evidence_url": "https://myreviews.ru/prodvizhenie-avtservisa",
+          "can_ai": true,
+          "can_bot": true
+        }
+      ]
+    }
+  ]
+}

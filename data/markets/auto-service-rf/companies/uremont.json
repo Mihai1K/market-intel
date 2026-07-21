@@ -1,0 +1,82 @@
+{
+  "id": "uremont",
+  "name": "Uremont (Уремонт)",
+  "legal_name": "ООО «Юремонт»",
+  "inn": "7722475214",
+  "website": "https://uremont.com",
+  "founded": 2019,
+  "segment": "агрегатор записи на ремонт (тендерная модель)",
+  "description": "Единственный выживший федеральный агрегатор записи: автовладельцу бесплатно, СТО платит 400-1000 ₽ за принятую заявку + 5% от ремонта (максимум 3000 ₽). Аномально высокая рентабельность (ЧП ~70% выручки в 2023-2024) и падение выручки на 30% в 2025 — модель под вопросом. Заявки СТО обрабатывают перезвоном вручную.",
+  "revenue": [
+    {
+      "value": 142.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, −30% г/г; 59 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1197746323675_7722475214_OOO-YuREMONT",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 203,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ — пик",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1197746323675_7722475214_OOO-YuREMONT",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 68.5,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; рентабельность ЧП/выручка ~70% в 2023-2024 аномальна для агрегатора — возможны не-агрегаторские доходы",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1197746323675_7722475214_OOO-YuREMONT",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Для СТО: фикс 400-1000 ₽ за принятую заявку + 5% от суммы ремонта, но не более 3000 ₽ суммарно; заявлено «1200+ заявок в день»",
+      "price": "400-3000 ₽ за заявку",
+      "source_url": "https://uremont.com/FAQ",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Онлайн-оплата «не доехала» до СТО — на месте требуют наличные", "source_url": "https://www.drive2.ru/l/526260900743610826/" },
+    { "complaint": "Мало партнёров в регионах: на заявку отвечают 1-2 сервиса без отзывов", "source_url": "https://www.drive2.ru/l/526260900743610826/" },
+    { "complaint": "Итоговый счёт выше первичной оценки; агрегатор дистанцируется от споров", "source_url": "https://pikabu.ru/story/rassledovanie_vol2_uremont_kak_yeto_rabotaet_i_gde_tut_podvokh_5499092" }
+  ],
+  "ai_readiness": {
+    "score": 10,
+    "formula": "10 баллов за тендерную онлайн-платформу; AI-сигналов нет, заявки обрабатываются перезвоном СТО вручную",
+    "signals": [
+      {
+        "signal": "Модель требует ручного перезвона сотрудников СТО клиенту",
+        "evidence_url": "https://uremont.com/FAQ",
+        "direction": "-"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Число реально активных СТО-партнёров («16 000» не верифицировано первоисточником)",
+    "GMV и churn СТО не раскрываются",
+    "Причина падения выручки 2025"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1197746323675_7722475214_OOO-YuREMONT",
+    "https://uremont.com/FAQ",
+    "https://uremont.com/register-service"
+  ],
+  "updated_at": "2026-07-18"
+}

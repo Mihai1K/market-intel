@@ -1,0 +1,100 @@
+{
+  "id": "fit-service",
+  "name": "FIT Service",
+  "legal_name": "ООО «ФИТ Автосервис» (франчайзинговая УК; выручка ≠ оборот сети)",
+  "inn": "5403342038",
+  "website": "https://fran.fitauto.ru",
+  "founded": 2012,
+  "segment": "крупнейшая франчайзинговая сеть независимых СТО",
+  "description": "346 станций в РФ и Казахстане, оборот сети 12,15 млрд ₽ (+8,5% за 2025), средний чек 23,7 тыс ₽ (+15%). УК зарабатывает роялти 1,6 млрд ₽ при прибыли 160 млн. Агрессивная экспансия на вымывании слабых одиночек: 60 открытий за 2025, план 55 точек на 2026, запуск станции за месяц. Цифровизация процессная (ЭДО, приложение, контакт-центр 35 тыс звонков/мес) — публичных AI-внедрений нет.",
+  "revenue": [
+    {
+      "value": 1600,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ УК (роялти и услуги, не оборот сети); 198 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1125476176011_5403342038_OOO-FIT-AVTOSERVIS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 479,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ УК — рост ×3,3 за 4 года",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1125476176011_5403342038_OOO-FIT-AVTOSERVIS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 159.7,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ УК",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1125476176011_5403342038_OOO-FIT-AVTOSERVIS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "disclosed_metrics": [
+    {
+      "value": 12.15,
+      "unit": "млрд руб",
+      "period": "2025",
+      "metric": "оборот сети (пресс-данные, +8,5% г/г; 346 станций, 60 открытий за год)",
+      "source_name": "Коммерсантъ",
+      "source_url": "https://www.kommersant.ru/doc/8364283",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный 500 тыс ₽, роялти 4,8% (мин 4,2% при закупе у ROSSKO), инвестиции от 10 млн ₽, окупаемость от 22 мес; обещанная прибыль точки 420-850 тыс ₽/мес",
+      "price": "паушальный 500 тыс ₽ + роялти 4,8%",
+      "source_url": "https://fran.fitauto.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Навязывание работ после бесплатной диагностики — «раздувание» рекомендаций", "source_url": "https://www.drive2.ru/b/518871083093328643/" },
+    { "complaint": "Некачественный ремонт и игнорирование претензий", "source_url": "https://www.drive2.ru/l/669069594127773730/" }
+  ],
+  "ai_readiness": {
+    "score": 40,
+    "formula": "25 баллов за процессную цифровизацию (ЭДО F.Doc, приложение с авто-напоминаниями о ТО по пробегу, контакт-центр) + 15 за онлайн-каналы записи (40% записей); публичных AI/LLM-внедрений не найдено",
+    "signals": [
+      {
+        "signal": "Клиентский ЭДО по всей сети (F.Doc), приложение «8 из 10 клиентов», авто-напоминания о ТО по среднему пробегу",
+        "evidence_url": "https://www.cnews.ru/news/line/2023-02-28_fit_service_perehodit_na_tsifrovoj",
+        "direction": "+"
+      },
+      {
+        "signal": "Онлайн-каналы дали 40% записей (Q1 2024) — но живой колл-центр остаётся (вакансии операторов)",
+        "evidence_url": "https://logistics.ru/avtomobili-i-zapchasti/issledovanie-64-rossiyskikh-voditeley-khotyat-zapisyvatsya-na-avtoservis",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Аудированной консолидации оборота сети нет — только пресс-релизы",
+    "Расхождение «220+ партнёров» (франч-лендинг) и «346 станций» (Ъ) не расшифровано",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1125476176011_5403342038_OOO-FIT-AVTOSERVIS",
+    "https://www.kommersant.ru/doc/8364283",
+    "https://fran.fitauto.ru/",
+    "https://www.retail.ru/news/set-fit-service-otkroet-55-novykh-tochek-24-aprelya-2026-277104/"
+  ],
+  "updated_at": "2026-07-18"
+}

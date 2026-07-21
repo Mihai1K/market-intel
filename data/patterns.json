@@ -6,78 +6,296 @@
       "id": "productized-fixed-price-service",
       "name": "Продуктизированная услуга за фикс (вместо агентства за % или самостоятельных мучений)",
       "description": "Клиент платит фикс за результат процесса, AI делает 80% производства. Работает там, где агентства дороги, а DIY — лотерея.",
-      "count": 5,
+      "count": 6,
       "evidence": [
-        { "market": "hr-tech-rf", "items": ["ai-hiring-for-smb (закрытие вакансии за 19 900 ₽ против агентства за 288 000)"] },
-        { "market": "influencer-marketing-rf", "items": ["rkn-registration-service", "markirovka-pod-klyuch", "ai-media-planner (медиаплан за 24 часа)"] },
-        { "market": "performance-marketing-rf", "items": ["ai-direct-audit (аудит за 9 900 ₽)", "micro-budget-direct (ведение за фикс 9 900 ₽/мес)"] },
-        { "market": "road-logistics-rf", "items": ["epd-transition-service (внедрение обязательных ЭПД за фикс)", "trip-margin-audit (аудит рейсов за фикс)"] },
-        { "market": "real-estate-agents-rf", "items": ["agency-lead-engine (88): лиды за фикс против растущих тарифов ЦИАН", "guest-house-compliance (78): классификация за фикс 49 900 ₽", "call-audit-service (75): отчёт-пилот за 9 900 ₽"] }
+        {
+          "market": "hr-tech-rf",
+          "items": [
+            "ai-hiring-for-smb (закрытие вакансии за 19 900 ₽ против агентства за 288 000)"
+          ]
+        },
+        {
+          "market": "influencer-marketing-rf",
+          "items": [
+            "rkn-registration-service",
+            "markirovka-pod-klyuch",
+            "ai-media-planner (медиаплан за 24 часа)"
+          ]
+        },
+        {
+          "market": "performance-marketing-rf",
+          "items": [
+            "ai-direct-audit (аудит за 9 900 ₽)",
+            "micro-budget-direct (ведение за фикс 9 900 ₽/мес)"
+          ]
+        },
+        {
+          "market": "road-logistics-rf",
+          "items": [
+            "epd-transition-service (внедрение обязательных ЭПД за фикс)",
+            "trip-margin-audit (аудит рейсов за фикс)"
+          ]
+        },
+        {
+          "market": "real-estate-agents-rf",
+          "items": [
+            "agency-lead-engine (88): лиды за фикс против растущих тарифов ЦИАН",
+            "guest-house-compliance (78): классификация за фикс 49 900 ₽",
+            "call-audit-service (75): отчёт-пилот за 9 900 ₽"
+          ]
+        },
+        {
+          "market": "auto-service-rf",
+          "items": [
+            "sto-client-pipeline (84): клиентский конвейер за фикс с оплатой за результат",
+            "norm-hour-audit (74): аудит юнит-экономики за 14 900 ₽"
+          ]
+        }
       ]
     },
     {
       "id": "independent-trust-verification",
       "name": "Независимая проверка / инструмент доверия",
       "description": "Рынок не доверяет сам себе: проверка подрядчика, накруток, фейков. Продаётся страх потерять деньги. Сильнейшая версия — «мы не продаём то, что проверяем» (нет конфликта интересов).",
-      "count": 6,
+      "count": 7,
       "evidence": [
-        { "market": "performance-marketing-rf", "items": ["ai-direct-audit — лидер рынка (Launch 90)", "боль krizis-doveriya: проверки подрядчиков +33%"] },
-        { "market": "influencer-marketing-rf", "items": ["fraud-check-smb (проверка накруток)", "deal-guarantor-direct", "боли nakrutki-*"] },
-        { "market": "hr-tech-rf", "items": ["ghost-vacancy-filter (слабый Launch 61 — здесь никто не платит, важный контрпример: паттерн работает только там, где проверяющий рискует своими деньгами)"] },
-        { "market": "fuel-azs-rf", "items": ["fleet-fuel-audit (79) — проверка своих же водителей и операторов карт: сливы, обнал, скрытые наценки; подтверждает контрпример HR: платят, когда рискуют своими деньгами (парки), не платят, когда чужими (водители против недолива)"] },
-        { "market": "road-logistics-rf", "items": ["trip-margin-audit (83): независимая проверка рейсов и клиентов на убыточность", "loading-fraud-guard (77): повторная проверка водителя и машины перед погрузкой"] },
-        { "market": "real-estate-agents-rf", "items": ["call-audit-service (75): руководитель АН проверяет своих агентов — рискует своей комиссией", "боль manual-tenant-vetting: собственники платят 300-500 ₽ CheckPerson за проверку жильца — рискуют квартирой", "Яндекс Аренда продаёт проверку жильцов и финзащиту как ядро сервиса. СИГНАЛ 6/6 рынков"] }
+        {
+          "market": "performance-marketing-rf",
+          "items": [
+            "ai-direct-audit — лидер рынка (Launch 90)",
+            "боль krizis-doveriya: проверки подрядчиков +33%"
+          ]
+        },
+        {
+          "market": "influencer-marketing-rf",
+          "items": [
+            "fraud-check-smb (проверка накруток)",
+            "deal-guarantor-direct",
+            "боли nakrutki-*"
+          ]
+        },
+        {
+          "market": "hr-tech-rf",
+          "items": [
+            "ghost-vacancy-filter (слабый Launch 61 — здесь никто не платит, важный контрпример: паттерн работает только там, где проверяющий рискует своими деньгами)"
+          ]
+        },
+        {
+          "market": "fuel-azs-rf",
+          "items": [
+            "fleet-fuel-audit (79) — проверка своих же водителей и операторов карт: сливы, обнал, скрытые наценки; подтверждает контрпример HR: платят, когда рискуют своими деньгами (парки), не платят, когда чужими (водители против недолива)"
+          ]
+        },
+        {
+          "market": "road-logistics-rf",
+          "items": [
+            "trip-margin-audit (83): независимая проверка рейсов и клиентов на убыточность",
+            "loading-fraud-guard (77): повторная проверка водителя и машины перед погрузкой"
+          ]
+        },
+        {
+          "market": "real-estate-agents-rf",
+          "items": [
+            "call-audit-service (75): руководитель АН проверяет своих агентов — рискует своей комиссией",
+            "боль manual-tenant-vetting: собственники платят 300-500 ₽ CheckPerson за проверку жильца — рискуют квартирой",
+            "Яндекс Аренда продаёт проверку жильцов и финзащиту как ядро сервиса. СИГНАЛ 6/6 рынков"
+          ]
+        },
+        {
+          "market": "auto-service-rf",
+          "items": [
+            "second-opinion-bot (78): проверка сметы ремонта — автовладелец рискует чеком 13+ тыс ₽",
+            "fleet-repair-audit (65): аудит заказ-нарядов для парков",
+            "Автотека — самый прибыльный бизнес цепочки: 3,6 млрд ₽ выручки при марже ~55% на продаже доверия. СИГНАЛ 7/7 рынков"
+          ]
+        }
       ]
     },
     {
       "id": "crm-instead-of-excel",
       "name": "Отраслевая CRM/операционка вместо Excel-таблиц",
       "description": "Профессионалы ведут сделки в «таблицах смерти», универсальные CRM не знают отраслевых сущностей.",
-      "count": 5,
+      "count": 6,
       "evidence": [
-        { "market": "influencer-marketing-rf", "items": ["influence-agency-crm (лучший Scale в базе — 68)", "боль ruchnoi-podbor-tablica-smerti"] },
-        { "market": "hr-tech-rf", "items": ["боль candidates-in-excel (42% компаний ведут кандидатов в Excel)", "no-show-guard как зародыш мини-ATS"] },
-        { "market": "performance-marketing-rf", "items": ["боль ruchnaya-otchetnost-rutina (46% отчётов в Excel)", "ai-client-reports"] },
-        { "market": "road-logistics-rf", "items": ["small-fleet-dispatcher-copilot", "боли tms-too-heavy и messenger-chaos: малый парк остаётся между тяжёлой TMS и набором Excel/1С/чатов"] },
-        { "market": "real-estate-agents-rf", "items": ["ниша CRM для АН существует, но фрагментирована без лидера (INTRUM/JoyWork/RECRM); боль agents-steal-client-base — CRM саботируется агентами; мелкие посуточные хосты ведут шахматку в Excel (боль double-bookings-channel-chaos)"] }
+        {
+          "market": "influencer-marketing-rf",
+          "items": [
+            "influence-agency-crm (лучший Scale в базе — 68)",
+            "боль ruchnoi-podbor-tablica-smerti"
+          ]
+        },
+        {
+          "market": "hr-tech-rf",
+          "items": [
+            "боль candidates-in-excel (42% компаний ведут кандидатов в Excel)",
+            "no-show-guard как зародыш мини-ATS"
+          ]
+        },
+        {
+          "market": "performance-marketing-rf",
+          "items": [
+            "боль ruchnaya-otchetnost-rutina (46% отчётов в Excel)",
+            "ai-client-reports"
+          ]
+        },
+        {
+          "market": "road-logistics-rf",
+          "items": [
+            "small-fleet-dispatcher-copilot",
+            "боли tms-too-heavy и messenger-chaos: малый парк остаётся между тяжёлой TMS и набором Excel/1С/чатов"
+          ]
+        },
+        {
+          "market": "real-estate-agents-rf",
+          "items": [
+            "ниша CRM для АН существует, но фрагментирована без лидера (INTRUM/JoyWork/RECRM); боль agents-steal-client-base — CRM саботируется агентами; мелкие посуточные хосты ведут шахматку в Excel (боль double-bookings-channel-chaos)"
+          ]
+        },
+        {
+          "market": "auto-service-rf",
+          "items": [
+            "боли notebook-accounting-leaks и unit-economics-blindness: заезды в тетради, «левак» мимо кассы",
+            "вся ниша специализированных CRM для СТО — ~535 млн ₽/год на 31 продукт, прибылен один АвтоДилер"
+          ]
+        }
       ]
     },
     {
       "id": "compliance-as-service",
       "name": "Регуляторный комплаенс под ключ",
       "description": "Каждый новый закон = новый слой обязательной рутины = платящий спрос. Бенчмарк: ОРД МедиаСкаут — 641 млн ₽ выручки за 3 года на одной маркировке.",
-      "count": 5,
+      "count": 6,
       "evidence": [
-        { "market": "influencer-marketing-rf", "items": ["markirovka-pod-klyuch", "rkn-registration-service", "боли strah-shtrafov, reestr-rkn-otkazy"] },
-        { "market": "performance-marketing-rf", "items": ["боли markirovka-kazhdogo-kreativa, sbor-3-procenta"] },
-        { "market": "fuel-azs-rf", "items": ["azs-compliance (68): поверки ТРК, маркировка масел (Честный знак с 09.2025), обязательные ЭЗС ≥44 кВт с 03.2026"] },
-        { "market": "road-logistics-rf", "items": ["epd-transition-service (85): обязательные электронные перевозочные документы с 01.09.2026 создают срочный спрос на внедрение"] },
-        { "market": "real-estate-agents-rf", "items": ["guest-house-compliance (78): без записи в реестре гостевой дом с 01.01.2026 не может работать и рекламироваться", "white-rent-bot (66): легализация аренды под цифровым давлением ФНС", "на подходе закон о риелторах (реестр, стандарт договора) — следующее комплаенс-окно"] }
+        {
+          "market": "influencer-marketing-rf",
+          "items": [
+            "markirovka-pod-klyuch",
+            "rkn-registration-service",
+            "боли strah-shtrafov, reestr-rkn-otkazy"
+          ]
+        },
+        {
+          "market": "performance-marketing-rf",
+          "items": [
+            "боли markirovka-kazhdogo-kreativa, sbor-3-procenta"
+          ]
+        },
+        {
+          "market": "fuel-azs-rf",
+          "items": [
+            "azs-compliance (68): поверки ТРК, маркировка масел (Честный знак с 09.2025), обязательные ЭЗС ≥44 кВт с 03.2026"
+          ]
+        },
+        {
+          "market": "road-logistics-rf",
+          "items": [
+            "epd-transition-service (85): обязательные электронные перевозочные документы с 01.09.2026 создают срочный спрос на внедрение"
+          ]
+        },
+        {
+          "market": "real-estate-agents-rf",
+          "items": [
+            "guest-house-compliance (78): без записи в реестре гостевой дом с 01.01.2026 не может работать и рекламироваться",
+            "white-rent-bot (66): легализация аренды под цифровым давлением ФНС",
+            "на подходе закон о риелторах (реестр, стандарт договора) — следующее комплаенс-окно"
+          ]
+        },
+        {
+          "market": "auto-service-rf",
+          "items": [
+            "маркировка автозапчастей: эксперимент до 31.08.2026, обязательная возможно с 01.12.2026 — созревающее комплаенс-окно",
+            "маркировка моторных масел обязательна с 09.2025"
+          ]
+        }
       ]
     },
     {
       "id": "platform-eats-tools",
       "name": "АНТИ-паттерн: платформа поглощает надстройки над собой",
       "description": "Риск-паттерн для скоринга: строить бизнес поверх монопольной платформы опасно — она либо закрывает API (hh), либо покупает (Яндекс: K50, eLama), либо копирует бесплатно (ИИ-помощник Директа, AI hh).",
-      "count": 6,
+      "count": 7,
       "evidence": [
-        { "market": "hr-tech-rf", "items": ["hh закрыл API 15.12.2025 — смерть автооткликов", "AI-помощник hh против сторонних AI-сервисов"] },
-        { "market": "performance-marketing-rf", "items": ["Яндекс купил K50 и eLama", "ИИ-помощник Директа против директологов"] },
-        { "market": "influencer-marketing-rf", "items": ["AI бирж заперт в своих каталогах; биржи автоматизируют маркировку только внутри себя"] },
-        { "market": "fuel-azs-rf", "items": ["Яндекс+Сбер+Т-Банк закрыли B2C-нишу карт наличия топлива за один месяц кризиса (07.2026) — см. decision от 2026-07-16. СИГНАЛ 4/4: паттерн подтверждён на всех исследованных рынках"] },
-        { "market": "road-logistics-rf", "items": ["ATI.SU контролирует поиск, ставки, проверки и API; собственные службы магазинов и платформ выполняют 91,2% e-commerce-посылок. Новую биржу грузов и массовую B2C-доставку не строить"] },
-        { "market": "real-estate-agents-rf", "items": ["Zipal (автовыгрузка) умирает: выручка вдвое вниз, 1 сотрудник — фиды поглощены CRM бесплатно", "Яндекс Аренда поглощает агентскую аренду целиком (собственнику бесплатно)", "Авито тестирует ИИ-ассистента «Ави Pro» для профи — сторонним AI-надстройкам над классифайдами угрожает копирование. СИГНАЛ 6/6"] }
+        {
+          "market": "hr-tech-rf",
+          "items": [
+            "hh закрыл API 15.12.2025 — смерть автооткликов",
+            "AI-помощник hh против сторонних AI-сервисов"
+          ]
+        },
+        {
+          "market": "performance-marketing-rf",
+          "items": [
+            "Яндекс купил K50 и eLama",
+            "ИИ-помощник Директа против директологов"
+          ]
+        },
+        {
+          "market": "influencer-marketing-rf",
+          "items": [
+            "AI бирж заперт в своих каталогах; биржи автоматизируют маркировку только внутри себя"
+          ]
+        },
+        {
+          "market": "fuel-azs-rf",
+          "items": [
+            "Яндекс+Сбер+Т-Банк закрыли B2C-нишу карт наличия топлива за один месяц кризиса (07.2026) — см. decision от 2026-07-16. СИГНАЛ 4/4: паттерн подтверждён на всех исследованных рынках"
+          ]
+        },
+        {
+          "market": "road-logistics-rf",
+          "items": [
+            "ATI.SU контролирует поиск, ставки, проверки и API; собственные службы магазинов и платформ выполняют 91,2% e-commerce-посылок. Новую биржу грузов и массовую B2C-доставку не строить"
+          ]
+        },
+        {
+          "market": "real-estate-agents-rf",
+          "items": [
+            "Zipal (автовыгрузка) умирает: выручка вдвое вниз, 1 сотрудник — фиды поглощены CRM бесплатно",
+            "Яндекс Аренда поглощает агентскую аренду целиком (собственнику бесплатно)",
+            "Авито тестирует ИИ-ассистента «Ави Pro» для профи — сторонним AI-надстройкам над классифайдами угрожает копирование. СИГНАЛ 6/6"
+          ]
+        },
+        {
+          "market": "auto-service-rf",
+          "items": [
+            "Автотека (данные Авито+1600 дилеров) убивает независимый Автокод: у того −26% выручки и первый убыток в 2025",
+            "Авто.ру «Гараж» оцифровывает заказ-наряды компьютерным зрением — классифайд заходит в историю обслуживания",
+            "агрегатор CarFix умер ещё в 2019, списав $5 млн Mail.ru. СИГНАЛ 7/7"
+          ]
+        }
       ]
     },
     {
       "id": "b2c-ai-copilot",
       "name": "Массовый B2C AI-помощник с низким чеком",
       "description": "AI-инструмент для массовой аудитории (200-1000 ₽): быстрый MVP, дешёвый трафик, но низкий moat и угроза бесплатного AI платформ.",
-      "count": 3,
+      "count": 4,
       "evidence": [
-        { "market": "hr-tech-rf", "items": ["resume-tailor-bot (88)", "interview-trainer (76)"] },
-        { "market": "influencer-marketing-rf", "items": ["fraud-check-smb per-check модель"] },
-        { "market": "real-estate-agents-rf", "items": ["white-rent-bot (66/67): бот легализации аренды за 2 990 ₽ — Scale выше Launch, спрос созревает вместе с давлением ФНС"] }
+        {
+          "market": "hr-tech-rf",
+          "items": [
+            "resume-tailor-bot (88)",
+            "interview-trainer (76)"
+          ]
+        },
+        {
+          "market": "influencer-marketing-rf",
+          "items": [
+            "fraud-check-smb per-check модель"
+          ]
+        },
+        {
+          "market": "real-estate-agents-rf",
+          "items": [
+            "white-rent-bot (66/67): бот легализации аренды за 2 990 ₽ — Scale выше Launch, спрос созревает вместе с давлением ФНС"
+          ]
+        },
+        {
+          "market": "auto-service-rf",
+          "items": [
+            "second-opinion-bot (78/65): проверка сметы за 299 ₽ — модель Автотеки (329 ₽/отчёт) перенесённая на ремонт"
+          ]
+        }
       ]
     }
   ]

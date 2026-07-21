@@ -1,0 +1,56 @@
+{
+  "id": "rolf-service",
+  "name": "Рольф (сервисное направление)",
+  "legal_name": "АО «Рольф» (дилерский холдинг — граница сегмента)",
+  "website": "https://www.rolf.ru",
+  "founded": 1991,
+  "segment": "дилерский сервис, мигрирующий на поляну независимых СТО",
+  "description": "Крупнейший дилер РФ разворачивается в сервис: доля сервиса в прибыли выросла с 22% (2021-2024) до 33% (2025), стратегия-2030 объявляет сервис и запчасти (свой бренд РОСПАРТ) ядром бизнеса, а продажу авто — «входом в экосистему». Средний срок владения авто у клиентов 7,5 лет, 68% парка старше 10 лет — дилеры больше не могут жить с продаж и идут в постгарантийный ремонт против независимых СТО.",
+  "revenue": [
+    {
+      "value": 245000,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "суммарная выручка холдинга (self-reported, предварительные итоги); 2024: 283,8 млрд, из них сервис 36,95 млрд",
+      "source_name": "Рольф (пресс-релиз)",
+      "source_url": "https://www.rolf.ru/news/rolf-podvel-predvaritelnye-itogi-2025-goda-i-predstavil-strategiyu-razvitiya-do-2030-goda/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 36950,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "выручка сервисного направления (self-reported)",
+      "source_name": "Рольф (пресс-релиз)",
+      "source_url": "https://www.rolf.ru/news/rolf-vnov-vozglavlyet-reyting-rossii-po-summarnoy-vyruchke-v-2024-godu/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [],
+  "pricing": [],
+  "top_complaints": [],
+  "ai_readiness": {
+    "score": 20,
+    "formula": "20 баллов за экосистемную стратегию (свой бренд запчастей, сервис как ядро); публичных AI-внедрений в сервисе не найдено",
+    "signals": [
+      {
+        "signal": "Стратегия-2030: сервис и запчасти — ядро бизнеса, EBITDA 8,6 млрд ₽, доля сервиса в прибыли 33%",
+        "evidence_url": "https://www.rolf.ru/news/rolf-podvel-predvaritelnye-itogi-2025-goda-i-predstavil-strategiyu-razvitiya-do-2030-goda/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "РСБУ юрлиц холдинга не собирался (граница сегмента — карточка для фиксации конкурентного давления дилеров)",
+    "Доля постгарантийного ремонта в сервисной выручке не раскрывается"
+  ],
+  "sources": [
+    "https://www.rolf.ru/news/rolf-podvel-predvaritelnye-itogi-2025-goda-i-predstavil-strategiyu-razvitiya-do-2030-goda/",
+    "https://www.rolf.ru/news/rolf-vnov-vozglavlyet-reyting-rossii-po-summarnoy-vyruchke-v-2024-godu/"
+  ],
+  "updated_at": "2026-07-18"
+}

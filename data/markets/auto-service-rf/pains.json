@@ -1,0 +1,453 @@
+{
+  "market": "auto-service-rf",
+  "updated_at": "2026-07-18",
+  "pains": [
+    {
+      "id": "mechanic-shortage",
+      "statement": "Дефицит механиков — главная структурная боль отрасли: ежегодно не хватает ~100 тыс специалистов (нужно 150 тыс, выпускается 50 тыс), зарплаты топов выросли со 100 до 150-250 тыс ₽, сервисы перекупают людей друг у друга",
+      "role": "владелец СТО",
+      "mentions_found": 4,
+      "links": [
+        "https://www.kommersant.ru/doc/6775653",
+        "https://www.autonews.ru/news/67dc075e9a7947b719f47a3e",
+        "https://www.autostat.ru/articles/48632/",
+        "https://auto.mail.ru/article/97568-soyuz-avtoservisov-soobschil-o-peregruzke-moschnostej-avtoservisov-v-moskve/"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Владелец — переиндексацией зарплат (ФОТ 30-50% себестоимости) и обучением «в полях»; Вилгуд открыл собственное кадровое агентство; клиент — ростом цен",
+      "why_unsolved": "Колледжи выпускают теоретиков (2-4% с практическими навыками), демографическая яма, отток в гаражи и курьеры",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Молодежь приходит неопытная и недоученная. Приходится обучать прямо в полях",
+          "source_url": "https://www.kommersant.ru/doc/6775653"
+        }
+      ]
+    },
+    {
+      "id": "post-idle-client-drain",
+      "statement": "Падение загрузки: средний доход одной СТО упал на ~18%, клиенты откладывают несрочный ремонт, кузовные потеряли до 2/3 клиентов с 2021 — за 2025 закрылось 6% СТО (со 116,6 до 109,2 тыс)",
+      "role": "владелец СТО",
+      "mentions_found": 4,
+      "links": [
+        "https://www.zr.ru/content/news/981413-avtoservisy-v-rossii-nachali-te/",
+        "https://kuzovport.ru/globalnyj-krizis-v-avtoservisah-2025-goda-prichiny-pochemu-klientov-stalo-menshe-i-chto-s-etim-delat/",
+        "https://dvizhok.su/parts/avtoservisnaya-otrasl-v-2025-godu-itogi-i-perspektivyi",
+        "https://www.retail.ru/news/fit-service-kak-2025-god-menyaet-rynok-avtoservisov-v-rossii-2-dekabrya-2025-272080/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Владелец — демпингом, скидками, возвратом «в полугаражный формат» или закрытием",
+      "why_unsolved": "Макропричины (доходы, ставки) плюс у малых СТО нет инструментов прогноза загрузки и маркетинга",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Автовладельцы всё чаще сравнивают цены, экономят на ремонте и откладывают часть работ или вовсе отказываются от несрочного ремонта",
+          "source_url": "https://www.zr.ru/content/news/981413-avtoservisy-v-rossii-nachali-te/"
+        }
+      ]
+    },
+    {
+      "id": "parts-supply-chaos",
+      "statement": "Запчасти подорожали на 100-200% с 2022, поставки из Китая идут неделями-месяцами, детали не бьются по VIN — сервис срывает сроки и морозит посты машинами-«ждунами»",
+      "role": "владелец СТО и автовладелец",
+      "mentions_found": 4,
+      "links": [
+        "https://www.kommersant.ru/doc/8232122",
+        "https://kuzovport.ru/globalnyj-krizis-v-avtoservisah-2025-goda-prichiny-pochemu-klientov-stalo-menshe-i-chto-s-etim-delat/",
+        "https://www.autonews.ru/news/682726529a7947221355550f",
+        "https://autodealer.ru/blog/a-kitaycev-my-ne-berem"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Владелец — заморозкой оборотки в складе и постах; клиент — ожиданием и переплатой",
+      "why_unsolved": "Санкционная логистика; единых каталогов на китайские модели зачастую просто не существует",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Если запчасть необходимо заказывать из Китая, срок ожидания увеличивается до 2-3 недель",
+          "source_url": "https://www.autonews.ru/news/682726529a7947221355550f"
+        }
+      ]
+    },
+    {
+      "id": "client-own-parts",
+      "statement": "Клиенты массово везут запчасти с маркетплейсов (лишь 23% независимых СТО запрещают) — сервис теряет 20-40% маржи на деталях и несёт гарантийные риски за чужой контрафакт",
+      "role": "владелец СТО",
+      "mentions_found": 3,
+      "links": [
+        "https://www.drive2.ru/c/677523739033736790/",
+        "https://www.autonews.ru/news/642bcf7b9a79472e4d4c6f73",
+        "https://www.avtovzglyad.ru/prilavok/service/69102-2025-12-24-sosvoim-nelzya-stoitli-pri-remonte-avto-nasto-samomu-pokupat-detali/"
+      ],
+      "search_period": "2023-2026",
+      "who_pays_now": "Владелец — потерей маржи на детали или потерей клиента при отказе, юристами при спорах",
+      "why_unsolved": "Ценовой разрыв «маркетплейс против прайса СТО» растёт; правовая рамка мутная",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Гарантия на установку «чужой» запчасти фактически сводится к нулю",
+          "source_url": "https://www.avtovzglyad.ru/prilavok/service/69102-2025-12-24-sosvoim-nelzya-stoitli-pri-remonte-avto-nasto-samomu-pokupat-detali/"
+        }
+      ]
+    },
+    {
+      "id": "shadow-competition-vat",
+      "statement": "Налоговый пресс (НДС с 2026) при демпинге теневого сектора: треть предпринимателей называет налоги главным барьером, часть сервисов сама возвращается «в полугаражный формат»",
+      "role": "владелец СТО",
+      "mentions_found": 3,
+      "links": [
+        "https://finance.rambler.ru/business/56761110-rynok-avtoservisov-pod-davleniem-nalogi-kadry-i-rost-tenevogo-sektora/",
+        "https://www.kommersant.ru/doc/8232122",
+        "https://www.zr.ru/content/news/981413-avtoservisy-v-rossii-nachali-te/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Легальный владелец — маржой и клиентами, уходящими к гаражникам за низкой ценой",
+      "why_unsolved": "Госрегулирование не дотягивается до гаражей; клиент голосует рублём",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Когда легальный бизнес несет все издержки, а теневой сектор работает без правил, это не просто нечестно",
+          "source_url": "https://finance.rambler.ru/business/56761110-rynok-avtoservisov-pod-davleniem-nalogi-kadry-i-rost-tenevogo-sektora/"
+        }
+      ]
+    },
+    {
+      "id": "unit-economics-blindness",
+      "statement": "Себестоимость нормо-часа считают «на глаз» или не считают вовсе — владельцы берут заказы и контракты со страховыми в убыток",
+      "role": "владелец СТО",
+      "mentions_found": 2,
+      "links": [
+        "https://abreview.ru/ab/success/zachem_schitat_sebestoimost_normochasa/",
+        "https://pikabu.ru/story/yekonomika_avtoservisa_ili_a_pochemu_tak_dorogo_14025333"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Владелец — работой в минус на отдельных работах; консультантами и курсами «прибыльный автосервис»",
+      "why_unsolved": "Нет финансовой грамотности и простых инструментов, учёт фрагментирован",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Сервис — это производство, то есть мы не покупаем нормо-часы — мы их производим сами",
+          "source_url": "https://abreview.ru/ab/success/zachem_schitat_sebestoimost_normochasa/"
+        }
+      ]
+    },
+    {
+      "id": "notebook-accounting-leaks",
+      "statement": "Учёт в тетради/Excel и утечки выручки: заезды оформляются задним числом, работы остаются «устными», сотрудники проводят «левак» мимо кассы",
+      "role": "владелец СТО",
+      "mentions_found": 3,
+      "links": [
+        "https://interlogika.ru/blog/tpost/8rg9o0yyu1-avtomatiziruem-uchyot-v-avtoservise",
+        "https://xeev.tech/kontrol-masterov-i-priemshchikov-avtoservisa",
+        "https://abiznews.net/articles/barno-tursunova-reshenie-5-problem-servisa/"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Владелец — потерянной выручкой и временем на ручной контроль; внедрением CRM с сопротивлением персонала",
+      "why_unsolved": "Персонал сопротивляется прозрачности, у малых СТО нет ресурса на внедрение",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Автомобиль может заехать на быстрый вопрос, попасть на пост… а документ в 1С или CRM появится позже, с неполной суммой или не появится вовсе",
+          "source_url": "https://xeev.tech/kontrol-masterov-i-priemshchikov-avtoservisa"
+        }
+      ]
+    },
+    {
+      "id": "expensive-leads-platform-dependence",
+      "statement": "Привлечение клиентов дорожает: объявления тонут среди конкурентов, агрегаторы и маркетплейсы берут комиссию за клиентов и снижают маржу",
+      "role": "владелец СТО",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/marketing/1819649-keis-kak-prodvinut-avtoservis-na-avito-i-poluchat-klientov-po-94-rublya-v-2025-godu",
+        "https://www.zr.ru/content/news/981413-avtoservisy-v-rossii-nachali-te/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Владелец — бюджетами на Авито/карты/подрядчиков (пакеты от 15-30 тыс ₽/мес), комиссиями агрегаторов",
+      "why_unsolved": "Малый СТО не умеет в маркетинг; площадки монополизируют трафик и повышают тарифы",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Объявления терялись в общей массе конкурентов. Минимальная активность пользователей",
+          "source_url": "https://vc.ru/marketing/1819649-keis-kak-prodvinut-avtoservis-na-avito-i-poluchat-klientov-po-94-rublya-v-2025-godu"
+        }
+      ]
+    },
+    {
+      "id": "retention-repeat-visits",
+      "statement": "Удержание провалено: клиент становится постоянным только после третьего визита, но СТО не объясняют ремонт, не напоминают о ТО и не реактивируют базу — хотя постоянные дают 55-70% выручки",
+      "role": "владелец СТО",
+      "mentions_found": 2,
+      "links": [
+        "https://avtoservice-profit.ru/blog/276789",
+        "https://www.drom.ru/info/misc/83435.html"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Владелец — постоянной покупкой новых дорогих лидов вместо удержания; ручным прозвоном «спящих»",
+      "why_unsolved": "Нет CRM-дисциплины; коммуникация «Готово!» без объяснений убивает лояльность",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Мастер ничего не объяснил, просто сказал: «Готово!»",
+          "source_url": "https://www.drom.ru/info/misc/83435.html"
+        }
+      ]
+    },
+    {
+      "id": "verbal-approval-conflicts",
+      "statement": "Согласование работ — бутылочное горлышко: перегруженный приёмщик договаривается устно по телефону, расхождения превращаются в конфликты и суды",
+      "role": "мастер-приёмщик",
+      "mentions_found": 3,
+      "links": [
+        "https://xeev.tech/kontrol-masterov-i-priemshchikov-avtoservisa",
+        "https://www.drom.ru/info/misc/83435.html",
+        "https://pikabu.ru/story/avtoservis_i_spravedlivost_11311602"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Сервис — потерей выручки и репутации; клиент — нервами и судами; частично закрывается курсами приёмщиков",
+      "why_unsolved": "Процесс согласования не цифровизован — время машины в боксе не сходится с суммой заказ-наряда",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Я в итоге судился с сервисом, выиграл в суде, но денег так и не получил",
+          "source_url": "https://pikabu.ru/story/avtoservis_i_spravedlivost_11311602"
+        }
+      ]
+    },
+    {
+      "id": "mechanic-piecework-instability",
+      "statement": "Механик на сделке (30-50% от работ) живёт с нестабильным доходом: зимние простои, серый найм, задержки выплат при увольнении — уходит в гаражи или из профессии",
+      "role": "механик",
+      "mentions_found": 2,
+      "links": [
+        "https://t-j.ru/car-service-disappointment/",
+        "https://www.drive2.ru/b/611134402314915102/"
+      ],
+      "search_period": "2021-2026",
+      "who_pays_now": "Механик — сменой работы; владелец — текучкой, усиливающей дефицит",
+      "why_unsolved": "Сдельная модель выгодна владельцу при недозагрузке; выравнивание загрузки не решено",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Постоянный поиск компромисса между совестью и планом продаж",
+          "source_url": "https://t-j.ru/car-service-disappointment/"
+        }
+      ]
+    },
+    {
+      "id": "china-cars-no-expertise",
+      "statement": "По китайским маркам нет спецов, софта и каталогов: дилерское ПО не видит «серые» машины, мануалов на русском нет — сервисы отвечают «а китайцев мы не берём»",
+      "role": "механик и владелец СТО",
+      "mentions_found": 3,
+      "links": [
+        "https://autodealer.ru/blog/a-kitaycev-my-ne-berem",
+        "https://www.drive2.ru/o/b/667473653000065744/",
+        "https://www.autonews.ru/news/682726529a7947221355550f"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "СТО — покупкой универсальных китайских сканеров и самообучением; клиент — отказами и очередями к редким спецам",
+      "why_unsolved": "Китайские бренды не отдают документацию и ПО, учебные центры без доступа к оборудованию",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Тех, кто готов работать с новыми моделями из Китая, можно пересчитать по пальцам",
+          "source_url": "https://autodealer.ru/blog/a-kitaycev-my-ne-berem"
+        }
+      ]
+    },
+    {
+      "id": "distrust-upselling",
+      "statement": "Недоверие автовладельцев: 64% боятся навязывания ненужных работ, 56% вообще боятся отдавать машину в сервис; типовая схема — замена узла в сборе вместо ремонта детали",
+      "role": "автовладелец",
+      "mentions_found": 3,
+      "links": [
+        "https://www.autostat.ru/articles/20432/",
+        "https://110km.ru/art/kakie-uslugi-avtoservisy-navyazyvayut-chasche-vsego-mnenie-eksperta-i-realnye-primery-178198.html",
+        "https://www.newsler.ru/auto/2026/04/24/rossiyane-perestali-boyatsya-avtoservisov"
+      ],
+      "search_period": "2015-2026",
+      "who_pays_now": "Автовладелец — переплатой за узлы в сборе, «вторым мнением» у знакомых; сервисы — торможением чека из-за недоверия",
+      "why_unsolved": "Асимметрия информации: клиент не может проверить дефектовку; в 2026 фиксируется рост доверия только к прозрачным сервисам",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Одна из самых распространённых схем — предложение заменить целый узел в сборе вместо ремонта отдельной детали",
+          "source_url": "https://110km.ru/art/kakie-uslugi-avtoservisy-navyazyvayut-chasche-vsego-mnenie-eksperta-i-realnye-primery-178198.html"
+        }
+      ]
+    },
+    {
+      "id": "repair-price-inflation",
+      "statement": "Ремонт дорожает двузначными темпами: +~30% за 2025, +11% за 1П2026 (средний чек перевалил за 13 тыс ₽), прогноз на 2026 — ещё +20-25%",
+      "role": "автовладелец",
+      "mentions_found": 4,
+      "links": [
+        "https://www.kommersant.ru/doc/8232122",
+        "https://www.zr.ru/content/news/983116-remont-avtomobilej-v-rossii-pr/",
+        "https://www.autonews.ru/news/6970de9a9a7947991aefe377",
+        "https://www.retail.ru/news/fit-service-kak-2025-god-menyaet-rynok-avtoservisov-v-rossii-2-dekabrya-2025-272080/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Автовладелец — деньгами и ездой на неисправном авто; при этом парк стареет (15,5 лет, 61% старше 10 лет) — спрос структурно растёт",
+      "why_unsolved": "Курс, логистика, НДС, дефицит кадров — структурно",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Средний чек на СТО перевалил за 13 тысяч рублей, побив прошлогодний максимум",
+          "source_url": "https://www.zr.ru/content/news/983116-remont-avtomobilej-v-rossii-pr/"
+        }
+      ]
+    },
+    {
+      "id": "booking-queues",
+      "statement": "Очереди в крупных городах: запись на значимый ремонт 2-3 недели, кузов — до месяца; парадоксально сосуществует с недозагрузкой эконом-СТО — проблема матчинга спроса и мощностей",
+      "role": "автовладелец",
+      "mentions_found": 1,
+      "links": [
+        "https://auto.mail.ru/article/97568-soyuz-avtoservisov-soobschil-o-peregruzke-moschnostej-avtoservisov-v-moskve/"
+      ],
+      "search_period": "2024-2026",
+      "who_pays_now": "Автовладелец — простоем машины; СТО — потерей «горячих» клиентов, уходящих к конкурентам",
+      "why_unsolved": "Физический дефицит постов и рук в загруженном сегменте при пустых постах в слабом",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Можем записать только через две недели, до этого времени все окна заняты",
+          "source_url": "https://auto.mail.ru/article/97568-soyuz-avtoservisov-soobschil-o-peregruzke-moschnostej-avtoservisov-v-moskve/"
+        }
+      ]
+    },
+    {
+      "id": "china-owner-waiting-months",
+      "statement": "Владелец китайского авто: каждый четвёртый ждал запчасти дольше месяца, ремонт затягивается до полугода, дилеры формально отказывают в гарантии",
+      "role": "автовладелец",
+      "mentions_found": 3,
+      "links": [
+        "https://www.autonews.ru/news/6939715d9a794706f471a69e",
+        "https://110km.ru/art/deficit-zapchastey-i-dolgiy-remont-pochemu-kitayskie-avto-v-rossii-teryayut-populyarnost-178256.html",
+        "https://www.autonews.ru/news/682726529a7947221355550f"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Автовладелец — простоем и судами (кейс возврата 3 млн ₽ через суд), потерей остаточной стоимости",
+      "why_unsolved": "Молодые бренды без складов и дилерской плотности; запчасти +16,3% г/г",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Детали для ремонта могут доставляться из Китая несколько месяцев, а дилеры не всегда готовы взять на себя ответственность",
+          "source_url": "https://110km.ru/art/deficit-zapchastey-i-dolgiy-remont-pochemu-kitayskie-avto-v-rossii-teryayut-populyarnost-178256.html"
+        }
+      ]
+    },
+    {
+      "id": "counterfeit-parts-fear",
+      "statement": "Контрафакт: 60% автовладельцев в 2025 столкнулись с поддельными деталями (масла — 71% случаев), доля контрафакта выросла на 30%+ за три года, основной канал — маркетплейсы",
+      "role": "автовладелец и владелец СТО",
+      "mentions_found": 3,
+      "links": [
+        "https://rg.ru/2025/06/05/dolia-kontrafaktnoj-produkcii-na-rynke-zapchastej-vyrosla-na-30.html",
+        "https://dvizhok.su/business/stalo-izvestno%2C-skolko-rossiyan-stolknulis-s-kontrafaktnyimi-zapchastyami-v-2025-godu",
+        "https://www.avtovzglyad.ru/prilavok/service/69102-2025-12-24-sosvoim-nelzya-stoitli-pri-remonte-avto-nasto-samomu-pokupat-detali/"
+      ],
+      "search_period": "2025-2026",
+      "who_pays_now": "Автовладелец — повторным ремонтом и авариями; СТО — гарантийными случаями по чужим деталям",
+      "why_unsolved": "Онлайн-каналы без верификации, спрос на дешевизну",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Большинство подделок попадает на рынок через частные объявления, маркетплейсы, мелкие торговые точки",
+          "source_url": "https://dvizhok.su/business/stalo-izvestno%2C-skolko-rossiyan-stolknulis-s-kontrafaktnyimi-zapchastyami-v-2025-godu"
+        }
+      ]
+    },
+    {
+      "id": "fleet-repair-opacity",
+      "statement": "Корпоративные парки переплачивают СТО-подрядчикам: затраты «дробятся и распределяются по статьям» при устных согласованиях; цифровой контроль даёт −10-15% OPEX и −14% на запчастях",
+      "role": "менеджер корпоративного парка",
+      "mentions_found": 2,
+      "links": [
+        "https://noosoft.ru/blog/top-5-nevidimyh-rashodov-avtoparka-i-kak-ih-zakryt-czifrovymi-resheniyami",
+        "https://gipix-lite.ru/blog/corporate-clients-fleet-autoservice/"
+      ],
+      "search_period": "2026",
+      "who_pays_now": "Компания — переплатой за «примерный» учёт; телематикой и ручными аудитами заказ-нарядов",
+      "why_unsolved": "Данные СТО и парка не связаны, сверка ручная",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "api"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Без системного анализа компания стабильно переплачивает за запчасти и работы, которые дробятся, растягиваются во времени и распределяются по разным статьям",
+          "source_url": "https://noosoft.ru/blog/top-5-nevidimyh-rashodov-avtoparka-i-kak-ih-zakryt-czifrovymi-resheniyami"
+        }
+      ]
+    }
+  ]
+}

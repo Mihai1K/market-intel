@@ -1,0 +1,80 @@
+{
+  "id": "euroauto",
+  "name": "ЕвроАвто",
+  "legal_name": "ООО «Автокомплекс «ЕвроАвто» (группа юрлиц без консолидации)",
+  "inn": "7801386207",
+  "website": "https://euroauto.ru",
+  "founded": 1994,
+  "segment": "сеть «запчасти + СТО» (в т.ч. б/у с авторазборки)",
+  "description": "Петербургская сеть «запчасти (включая б/у с собственной разборки) + СТО + ПВЗ», франшиза с 2018 (70 точек, паушальный 300 тыс ₽, роялти 3,5%). Видимое юрлицо растёт (277 млн ₽, +37%), но реальный оборот сети (1000+ сотрудников) через малые юрлица не виден. Отдаёт данные обслуживания в Автотеку.",
+  "revenue": [
+    {
+      "value": 277,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ ООО «Автокомплекс «ЕвроАвто» (одно из юрлиц группы); 82 сотрудника",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1057811850436_7801386207_OOO-AVTOKOMPLEKS-EVROAVTO",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 130,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ того же юрлица",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1057811850436_7801386207_OOO-AVTOKOMPLEKS-EVROAVTO",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 36.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ ООО «Автокомплекс «ЕвроАвто»",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1057811850436_7801386207_OOO-AVTOKOMPLEKS-EVROAVTO",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный 300 тыс ₽, роялти 3,5%, инвестиции от 5 млн ₽, окупаемость до 3 лет; форматы СТО+магазин+ПВЗ (от 5 постов, от 300 м²)",
+      "price": "паушальный 300 тыс ₽ + роялти 3,5%",
+      "source_url": "https://franshiza.ru/franchise/read/euroauto/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Срывы сроков доставки запчастей — заказы «зависают» у поставщика", "source_url": "https://irecommend.ru/content/evroavto-euroauto-set-magazinov-avtozapchastei-sankt-peterburg" },
+    { "complaint": "Брак и несоответствие запчастей (в т.ч. б/у), сложные возвраты", "source_url": "https://irecommend.ru/content/evroavto-euroauto-set-magazinov-avtozapchastei-sankt-peterburg" }
+  ],
+  "ai_readiness": {
+    "score": 15,
+    "formula": "15 баллов за цифровой каталог б/у запчастей с разборки и партнёрство с Автотекой (данные обслуживания); AI-сигналов нет",
+    "signals": [
+      {
+        "signal": "Передаёт данные обслуживания в отчёты Автотеки (в списке 500 СТО-партнёров)",
+        "evidence_url": "https://autoteka.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Консолидированная выручка группы не видна (второе юрлицо свёрнуто до 3 млн ₽)",
+    "Собственный сайт вакансий за антиботом (401)"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1057811850436_7801386207_OOO-AVTOKOMPLEKS-EVROAVTO",
+    "https://franshiza.ru/franchise/read/euroauto/",
+    "https://www.superjob.ru/clients/evroavto-660512.html"
+  ],
+  "updated_at": "2026-07-18"
+}

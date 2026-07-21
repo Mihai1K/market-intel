@@ -1,0 +1,98 @@
+{
+  "id": "yclients",
+  "name": "YCLIENTS",
+  "legal_name": "ООО «УАЙКЛАЕНТС» (100% — ООО «Компания ВК»)",
+  "inn": "7708274185",
+  "website": "https://www.yclients.com",
+  "founded": 2015,
+  "segment": "универсальная онлайн-запись и CRM (вертикаль «Авто»)",
+  "description": "Лидер универсальной онлайн-записи (55 000 компаний-клиентов всех отраслей, принадлежит VK): выручка ×3,3 за 4 года, первый устойчивый плюс в 2025. Для СТО закрывает лёгкий сегмент (запись, мойки, шиномонтаж), давит на специализированные CRM сверху. Собственного AI нет — вокруг API вырос слой сторонних ИИ-администраторов.",
+  "revenue": [
+    {
+      "value": 2000.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +42% г/г",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/2792505/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1404.1,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/2792505/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 614.3,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/2792505/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 302.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — первый устойчивый плюс (2024: −23,1 млн)",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/2792505/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "До 3 сотрудников: 890 ₽/мес при оплате за год (10 680 ₽/год), 1590 ₽/мес за 4 мес; цена растёт с числом сотрудников; внедрение от 15 000 ₽; отраслевая страница автосервисов — «от 960 ₽/мес»",
+      "price": "890-1590 ₽/мес (до 3 сотрудников)",
+      "source_url": "https://www.yclients.com/ru/info/pricing",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Сбои и «выбрасывает из системы» — жалобы на потерю клиентов из-за сервиса", "source_url": "https://pikabu.ru/story/otzyiv_o_yclients__polzovateli_zhaluyutsya_chto_servis_rabotaet_plokho_i_izza_nego_teryayut_klientov_13417897" },
+    { "complaint": "Поддержка отвечает «отписками»", "source_url": "https://otzovik.com/reviews/yclients-platforma_avtomatizaciy_sferi_uslug/" },
+    { "complaint": "Смена интерфейса без согласия пользователей", "source_url": "https://otzovik.com/reviews/yclients-platforma_avtomatizaciy_sferi_uslug/" }
+  ],
+  "ai_readiness": {
+    "score": 30,
+    "formula": "20 баллов за открытый API, вокруг которого вырос слой сторонних ИИ-администраторов записи + 10 за цифровой процесс; собственного AI не найдено",
+    "signals": [
+      {
+        "signal": "Сторонние ИИ-администраторы поверх API: Jivo AI + YCLIENTS, IntellectDialog — платформа отдаёт AI партнёрам",
+        "evidence_url": "https://www.jivo.ru/help/integrations/ai-for-yclients.html",
+        "direction": "+"
+      },
+      {
+        "signal": "Собственного ИИ-ассистента на продуктовых страницах нет",
+        "evidence_url": "https://www.yclients.com/auto-service",
+        "direction": "-"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Доля автосервисов в базе 55 000 клиентов не раскрывается",
+    "Тарифы для 4+ сотрудников — только в JS-конфигураторе",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/2792505/report",
+    "https://www.yclients.com/ru/info/pricing",
+    "https://www.yclients.com/auto-service"
+  ],
+  "updated_at": "2026-07-18"
+}

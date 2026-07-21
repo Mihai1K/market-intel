@@ -1,0 +1,66 @@
+{
+  "id": "wilgood-soft",
+  "name": "Wilgood Soft (Wilgood IS)",
+  "legal_name": "ООО «Вилгуд ИТ»",
+  "inn": "7724434171",
+  "website": "https://promo.wilgoodsoft.ru",
+  "founded": 2018,
+  "segment": "софт «умного автосервиса» (продукт сети Вилгуд)",
+  "description": "Софт сети Вилгуд, продаваемый внешним СТО: контроль всех этапов от звонка до выдачи, хронометраж операций, KPI-баллы. Глубоко дотационный бизнес: убыточен 7 из 8 лет, в 2025 расходы вдвое выше выручки — жёсткая процессная автоматизация без нейросетей продаётся тяжело.",
+  "revenue": [
+    {
+      "value": 83.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +55,5% за 3 года; 20 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1187746320497",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -85.6,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ (расходы 168,8 млн при выручке 83,2 млн); убыточна 7 из 8 лет",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1187746320497",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "«Оптимальный» — 8000 ₽/мес (внедрение от 1 недели); «Максимальный» — 12 000 ₽/мес (от 2 недель)",
+      "price": "8000-12 000 ₽/мес",
+      "source_url": "https://promo.wilgoodsoft.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "ai_readiness": {
+    "score": 35,
+    "formula": "35 баллов за глубокую процессную автоматизацию (контроль этапов, хронометраж, автоподбор работ и деталей по VIN, определение работ по коду ошибки); генеративного AI нет",
+    "signals": [
+      {
+        "signal": "«Бот Wilgood» на всех этапах: сотрудник не получает следующую задачу, пока не закрыл текущую; автоподбор работ по VIN и коду ошибки",
+        "evidence_url": "https://a.wilgoodsoft.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Актуальное число внешних клиентов 2026 (последнее публичное: 50+ компаний, 2020)",
+    "Churn; публичных жалоб мало"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1187746320497",
+    "https://promo.wilgoodsoft.ru/",
+    "https://a.wilgoodsoft.ru/"
+  ],
+  "updated_at": "2026-07-18"
+}

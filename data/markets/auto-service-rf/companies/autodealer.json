@@ -1,0 +1,100 @@
+{
+  "id": "autodealer",
+  "name": "АвтоДилер",
+  "legal_name": "ООО «Компания Автодилер»",
+  "inn": "6662127289",
+  "website": "https://autodealer.ru",
+  "founded": 1997,
+  "segment": "специализированная CRM/учёт для СТО",
+  "description": "Единственный стабильно прибыльный специализированный разработчик софта для СТО: выручка растёт с 103 до 283 млн ₽ за 5 лет при марже ~23% и 28 сотрудниках. Резидент Сколково, ПО в реестре Минцифры. Проценка по API 100+ поставщиков запчастей — ядро продукта.",
+  "revenue": [
+    {
+      "value": 282.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +30% г/г; 28 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1026605420687",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 217,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1026605420687",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 103,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1026605420687",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 65.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — маржа ~23%",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1026605420687",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 25.7,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1026605420687",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "АвтоДилер Онлайн: 2999 ₽/мес за пользователя (со скидками до 1499 ₽); 10 пользователей — 29 990 → 14 995 ₽/мес; валюта на странице геозависима (есть казахстанская версия) — рублёвую сетку перепроверить с РФ-IP",
+      "price": "~1500-3000 ₽/пользователь/мес",
+      "source_url": "https://autodealer.ru/online",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "ai_readiness": {
+    "score": 20,
+    "formula": "20 баллов за глубокие интеграции (проценка 100+ поставщиков, нормы времени, телефония Mango); AI-функций не анонсировано",
+    "signals": [
+      {
+        "signal": "Проценка: цены и сроки из Exist, Autodoc, Autopiter, Berg, Emex, Rossko в одном окне",
+        "evidence_url": "https://autodealer.ru/online/percentage",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Число клиентов не публикуется",
+    "Публичных жалоб мало — профиль недовольства не собран",
+    "AI Readiness сигналов генеративного AI нет"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1026605420687",
+    "https://autodealer.ru/online",
+    "https://autodealer.ru/it_accreditation"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,230 @@
+{
+  "id": "auto-service-rf",
+  "name": "Автосервисы и авторемонт в России",
+  "description": "Сервисные услуги для легковых автомобилей: ТО и ремонт плюс сопутствующие (мойка, шиномонтаж, кузовной). Рынок на структурном попутном ветре: парк стареет (15,5 лет, 70% машин старше 10 лет), продажи новых авто обвалились в 2025 на 15%, утильсбор индексируется до 2030 — люди чинят старые машины, и рынок вырос до 1,2 трлн ₽ (+20% за 2025). При этом отрасль сжимает клещами: дефицит ~150 тыс механиков, НДС с 2026, демпинг гаражного сектора (54% сегмента ТО-ремонта — частники и самостоятельный ремонт) и волна китайских машин, которые никто не умеет чинить.",
+  "scope_assumptions": [
+    "Три независимые оценки объёма имеют РАЗНЫЙ скоуп и не смешиваются: Автостат (все сервисные услуги, включая мойки/шиномонтаж), AnalyticResearchGroup (только платные услуги населению), «Индекс» (услуги СТО в aftersales). Рабочая вилка 2024: 0,6-1,0 трлн ₽; 2025: 0,7-1,2 трлн ₽.",
+    "Противоречие источников по числу сервисов: счёт точек Автостата вырос 117,5 → 130,2 тыс за 2025, при этом FIT Service+Автостат заявляют «−6% сервисов за 2025» — вероятно, разные базы (все точки против активных юрлиц). Оба факта даны как есть.",
+    "Вне скоупа: дилерский сервис (8,5% сегмента ТО-ремонта — граница), розница запчастей (смежный рынок ~1,1 трлн ₽ потребительских трат), страховой ремонт как отдельная экономика, грузовой сервис."
+  ],
+  "segments": [
+    {
+      "id": "independent-sto",
+      "name": "Независимые универсальные СТО",
+      "description": "32,1% точек и 37% денег сегмента ТО-ремонта (267,4 млрд ₽ в 2025). Ядро рынка и главный клиент любых B2B-решений: от 2-3 постов до сетей."
+    },
+    {
+      "id": "network-franchise",
+      "name": "Сети и франшизы",
+      "description": "FIT Service (346 станций, выручка сети 12,15 млрд ₽), Вилгуд и др. Франшиза: инвестиции 3,5-13,5 млн ₽, роялти 4,8-6%. Сети растут на вымывании слабых одиночек."
+    },
+    {
+      "id": "specialized",
+      "name": "Узкоспециализированные точки",
+      "description": "63,6% всех точек: шиномонтаж (46,8 млрд ₽), кузовные (217,2 млрд), мойки (221 млрд), детейлинг (~20-25 млрд, оценка 2023), автостёкла."
+    },
+    {
+      "id": "garage-sector",
+      "name": "Гаражный/теневой сектор",
+      "description": "54,5% денег сегмента ТО-ремонта (391 млрд ₽) — частники и самостоятельный ремонт. Демпингует против легальных СТО, усиливается с ростом НДС."
+    },
+    {
+      "id": "sto-software-aggregators",
+      "name": "Софт и агрегаторы для СТО",
+      "description": "1С:Автосервис, YCLIENTS, АвтоДилер, Wilgood IS; агрегатор Uremont (16 тыс+ партнёров, выручка 203 млн ₽). Массовая практика отрасли — всё ещё тетрадь и Excel."
+    }
+  ],
+  "market_size_rf": {
+    "estimates": [
+      {
+        "value": 1204.1,
+        "unit": "млрд руб",
+        "period": "2025",
+        "scope": "все сервисные услуги для легковых (ТО и ремонт 719,1 + мойка 221 + кузовной 217,2 + шиномонтаж 46,8), 69 регионов",
+        "source_name": "АВТОСТАТ",
+        "source_url": "https://www.autostat.ru/infographics/61565/",
+        "retrieved_at": "2026-07-18",
+        "confidence": "high",
+        "method": "estimated"
+      },
+      {
+        "value": 1002,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "та же методика Автостата — рост +20% за 2025",
+        "source_name": "АВТОСТАТ",
+        "source_url": "https://www.autostat.ru/infographics/59238/",
+        "retrieved_at": "2026-07-18",
+        "confidence": "high",
+        "method": "estimated"
+      },
+      {
+        "value": 600.7,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "только платные услуги автосервисов населению (+17,2% г/г; прогноз 2025 — свыше 700 млрд)",
+        "source_name": "AnalyticResearchGroup (via Sostav)",
+        "source_url": "https://www.sostav.ru/blogs/264343/66235",
+        "retrieved_at": "2026-07-18",
+        "confidence": "medium",
+        "method": "estimated"
+      },
+      {
+        "value": 870,
+        "unit": "млрд руб",
+        "period": "2024",
+        "scope": "услуги СТО внутри aftersales-TAM 1543 млрд ₽ (независимая методика)",
+        "source_name": "Агентство «Индекс» (via Движок)",
+        "source_url": "https://dvizhok.su/parts/rossijskij-ryinok-posleprodazhnogo-obsluzhivaniya.-situacziya-v-sfere-aftersales-s-tochki-zreniya-sto",
+        "retrieved_at": "2026-07-18",
+        "confidence": "medium",
+        "method": "estimated"
+      }
+    ],
+    "range_note": "Рабочая вилка 2025: 0,7-1,2 трлн ₽ в зависимости от скоупа (только услуги населению против всех сервисных услуг). Деньги распределены неравномерно: из сегмента ТО-ремонта 54,5% — гаражники и самостоятельный ремонт, независимым легальным СТО достаётся 267 млрд ₽."
+  },
+  "growth": [
+    {
+      "value": 20,
+      "unit": "% г/г",
+      "period": "2025",
+      "scope": "все сервисные услуги (Автостат: 1002 → 1204 млрд ₽) — рост в основном ценовой",
+      "source_name": "АВТОСТАТ (via logistics.ru)",
+      "source_url": "https://logistics.ru/avtomobili-i-zapchasti/rynok-avtoservisov-v-rossii-na-podyome-chto-menyaetsya-dlya-vladelcev",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 13.4,
+      "unit": "% CAGR",
+      "period": "2020-2025",
+      "scope": "среднегодовой рост рынка сервисных услуг",
+      "source_name": "расчёт по данным Автостата",
+      "source_url": "https://www.autostat.ru/infographics/61565/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "derived",
+      "formula": "(1204/642)^(1/5)−1 по ряду 642 млрд (2020) → 1204 млрд (2025)"
+    },
+    {
+      "value": 15,
+      "unit": "% г/г (средний чек)",
+      "period": "10 мес 2025",
+      "scope": "средний чек заказ-наряда FIT Service достиг 11 745 ₽; рынок в целом: +15-25% к ценам обслуживания за год к июню 2026",
+      "source_name": "FIT Service + АВТОСТАТ",
+      "source_url": "https://www.retail.ru/news/fit-service-kak-2025-god-menyaet-rynok-avtoservisov-v-rossii-2-dekabrya-2025-272080/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 53,
+      "unit": "% г/г (визиты китайских авто)",
+      "period": "8 мес 2025",
+      "scope": "визиты китайских автомобилей в сервисы сети FIT Service — самый быстрорастущий подсегмент спроса",
+      "source_name": "FIT Service",
+      "source_url": "https://www.retail.ru/news/fit-service-kolichestvo-vizitov-kitayskikh-avto-v-servisy-vyroslo-na-53-15-sentyabrya-2025-269095/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": -15.6,
+      "unit": "% г/г (продажи новых авто)",
+      "period": "2025",
+      "scope": "1,326 млн новых легковых за 2025 — обвал продаж кормит сервис старых машин; H1 2026 разворот: +14,8%",
+      "source_name": "АВТОСТАТ",
+      "source_url": "https://www.autostat.ru/press-releases/61576/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "buying_power": [
+    {
+      "segment": "Владелец независимого СТО (2-10 постов, ~110-130 тыс точек в отрасли)",
+      "typical_budget": "Софт: YCLIENTS 694-6750 ₽/мес по числу сотрудников, 1С:Автосервис коробкой; агрегаторы и реклама (пакеты Авито 15-30 тыс ₽/мес); чек на софт 10-50 тыс ₽/год",
+      "deal_cycle": "1-4 недели",
+      "ease_of_purchase": 4,
+      "evidence": [
+        {
+          "note": "Тарифы YCLIENTS по числу сотрудников; внедрение от 15 000 ₽",
+          "source_url": "https://www.yclients.com/ru/info/pricing"
+        }
+      ]
+    },
+    {
+      "segment": "Сети и франчайзи (FIT Service, Вилгуд)",
+      "typical_budget": "Франшиза: инвестиции 3,5-13,5 млн ₽, паушальный 300-590 тыс ₽, роялти 4,8-6% от выручки; собственные IT-платформы (~100 млн ₽ инвестиций у FIT)",
+      "deal_cycle": "2-6 месяцев",
+      "ease_of_purchase": 2,
+      "evidence": [
+        {
+          "note": "Условия франшизы FIT Service: роялти 4,8% (мин 4,2% при закупе у ROSSKO)",
+          "source_url": "https://franshiza.ru/franchise/read/fit_service/"
+        }
+      ]
+    },
+    {
+      "segment": "Автовладелец",
+      "typical_budget": "Средний чек визита ~11,7 тыс ₽ (+15% г/г), ~2 визита/год, годовые расходы домохозяйства на ТО и ремонт ~38,8 тыс ₽",
+      "deal_cycle": "дни (поломка = немедленный спрос)",
+      "ease_of_purchase": 5,
+      "evidence": [
+        {
+          "note": "Расходы домохозяйства 38 775 ₽/год, 2,02 визита в год, 14,7 запчастей на заказ-наряд",
+          "source_url": "https://dvizhok.su/parts/rossijskij-ryinok-posleprodazhnogo-obsluzhivaniya.-situacziya-v-sfere-aftersales-s-tochki-zreniya-sto"
+        }
+      ]
+    },
+    {
+      "segment": "Корпоративные автопарки",
+      "typical_budget": "Объём сегмента в открытых источниках отсутствует; закупки тендерные, цифровой контроль ремонтов даёт −10-15% OPEX (вендорская оценка)",
+      "deal_cycle": "3-12 месяцев",
+      "ease_of_purchase": 2,
+      "evidence": [
+        {
+          "note": "Сегмент выделен Автостатом в отдельную отраслевую конференцию",
+          "source_url": "https://www.autostat.ru/news/60056/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    { "date": "2024-10-01", "event": "Утильсбор +70-85% (ПП №1255) с ежегодной индексацией +10-20% до 2030 — новые авто дорожают, парк стареет, спрос смещается в ремонт", "source_url": "https://www.interfax.ru/business/981969" },
+    { "date": "2025-01-13", "event": "Автостат: рынок автосервиса за 2024 достиг 1,002 трлн ₽", "source_url": "https://www.autostat.ru/infographics/59238/" },
+    { "date": "2025-02-24", "event": "Средний возраст парка достиг 15,5 лет (динамика: 13,9 в 2021 → 15,5 в 2025), 70,5% машин старше 10 лет", "source_url": "https://www.kommersant.ru/doc/7533650" },
+    { "date": "2025-02-25", "event": "Старт эксперимента по маркировке автозапчастей (ПП №202); продлён до 31.08.2026, обязательная — возможно с 01.12.2026 (комплаенс-окно)", "source_url": "https://kontur.ru/markirovka/spravka/55894-obyazatelnaya_markirovka_avtozapchastey" },
+    { "date": "2025-06-20", "event": "Продажи автозапчастей на маркетплейсах выросли ~вдвое с начала года (WB +100%, Ozon +60%) — усиливает боль «клиент со своими запчастями» и контрафакт", "source_url": "https://www.retail.ru/news/pochti-2-raza-uvelichilis-prodazhi-avtozapchastey-na-marketpleysakh-20-iyunya-2025-265977/" },
+    { "date": "2025-09-01", "event": "Обязательная маркировка моторных масел для производителей и импортёров", "source_url": "https://kontur.ru/markirovka/spravka/55409-obyazatelnaya_markirovka_motornyh_masel" },
+    { "date": "2025-09-15", "event": "FIT Service: визиты китайских авто в сервисы +53% г/г — волна китайского парка докатилась до постгарантийного сервиса", "source_url": "https://www.retail.ru/news/fit-service-kolichestvo-vizitov-kitayskikh-avto-v-servisy-vyroslo-na-53-15-sentyabrya-2025-269095/" },
+    { "date": "2025-12-01", "event": "Утильсбор пересчитан по мощности (ПП №1713): 160+ л.с. теряют льготу физлиц, мощные авто до +355% — параллельный импорт сжимается", "source_url": "https://www.consultant.ru/legalnews/29989/" },
+    { "date": "2025-12-02", "event": "FIT Service+Автостат: чек +15%, доля сложных ремонтов растёт, число сервисов −6% — «вымывание слабых игроков без процессов»", "source_url": "https://www.retail.ru/news/fit-service-kak-2025-god-menyaet-rynok-avtoservisov-v-rossii-2-dekabrya-2025-272080/" },
+    { "date": "2026-01-05", "event": "Итоги 2025: продажи новых легковых −15,2% (1,317 млн) — второй год подряд рынок ремонта кормится обвалом продаж", "source_url": "https://www.interfax.ru/russia/1066407" },
+    { "date": "2026-01-12", "event": "Автостат: рынок автосервиса за 2025 превысил 1,2 трлн ₽ (+20%)", "source_url": "https://www.autostat.ru/infographics/61565/" },
+    { "date": "2026-01-18", "event": "150 тыс незакрытых вакансий в автосервисах (~30% потребности, в столицах до 40%); механики уходят в «серую» самозанятость", "source_url": "https://www.mk.ru/editions/daily/2026/01/18/remontniki-ukhodyat-v-sumrak-v-rossii-nablyudaetsya-deficit-rabotnikov-avtoservisov.html" },
+    { "date": "2026-01-01", "event": "НДС для автосервисов (налоговая реформа 2026) — легальные СТО повышают цены, часть уходит «в полугаражный формат»", "source_url": "https://www.kommersant.ru/doc/8232122" },
+    { "date": "2026-04-22", "event": "РОАД: возврат западных брендов — только прогнозы (Kia/Hyundai первыми, 6+ мес сертификации); фактических анонсов нет", "source_url": "https://www.autonews.ru/news/69e89f2a9a7947c55eeac46b" },
+    { "date": "2026-06-11", "event": "Обслуживание авто подорожало на 15-25% за год (Camry +30%); средний чек по рынку перевалил за 13 тыс ₽", "source_url": "https://www.kommersant.ru/doc/8736486" },
+    { "date": "2026-07-01", "event": "«Июльский разворот» цен: параллельные иномарки +8%, ремонт/запчасти +1-2%; старт проверок маркировки шин", "source_url": "https://www.zr.ru/content/news/982796-iyulskij-razvorot-tseny-pojdut/" },
+    { "date": "2026-07-03", "event": "H1 2026: продажи новых авто +14,8% (июнь +29%) — разворот рынка новых машин, через 2-3 года ослабит поток в независимый сервис", "source_url": "https://www.kommersant.ru/doc/8796078" },
+    { "date": "2026-07-11", "event": "ОСАГО: новые правила расчёта ремонта (исключены дешёвые аналоги, одноразовые детали полностью) — средняя выплата вырастет ~на 10%, кузовным сервисам плюс", "source_url": "https://auto.rambler.ru/novosti/56684767-strahovschiki-menyayut-pravila-vyplat-po-osago-chto-novogo-zhdet-avtovladeltsev-s-iyulya/" },
+    { "date": "2026-07-15", "event": "Опрос 7000 предпринимателей из 88 регионов: налоги — главный барьер отрасли, теневой сектор растёт", "source_url": "https://finance.rambler.ru/business/56761110-rynok-avtoservisov-pod-davleniem-nalogi-kadry-i-rost-tenevogo-sektora/" }
+  ],
+  "sources": [
+    "https://www.autostat.ru/infographics/61565/",
+    "https://www.autostat.ru/infographics/61553/",
+    "https://www.autostat.ru/infographics/59238/",
+    "https://www.sostav.ru/blogs/264343/66235",
+    "https://dvizhok.su/parts/rossijskij-ryinok-posleprodazhnogo-obsluzhivaniya.-situacziya-v-sfere-aftersales-s-tochki-zreniya-sto",
+    "https://www.kommersant.ru/doc/7533650",
+    "https://www.kommersant.ru/doc/8736486",
+    "https://www.retail.ru/news/fit-service-kak-2025-god-menyaet-rynok-avtoservisov-v-rossii-2-dekabrya-2025-272080/",
+    "https://www.mk.ru/editions/daily/2026/01/18/remontniki-ukhodyat-v-sumrak-v-rossii-nablyudaetsya-deficit-rabotnikov-avtoservisov.html",
+    "https://logistics.ru/avtomobili-i-zapchasti/rynok-avtoservisov-v-rossii-na-podyome-chto-menyaetsya-dlya-vladelcev",
+    "https://www.interfax.ru/business/981969",
+    "https://www.autostat.ru/press-releases/61576/"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "avtocod",
+  "name": "Автокод",
+  "legal_name": "ООО «Авторапорт»",
+  "inn": "9701071800",
+  "website": "https://avtocod.ru",
+  "founded": 2017,
+  "segment": "проверка истории авто (№2 в дуополии)",
+  "description": "Второй игрок проверки авто проигрывает Автотеке: в 2025 выручка −26% и первый убыток (−36 млн ₽) на фоне взлёта конкурента с закрытыми данными Авито и дилеров. Наглядно: в «инфраструктуре доверия» выигрывает тот, у кого эксклюзивные данные, а не парсинг открытых источников.",
+  "revenue": [
+    {
+      "value": 1242.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, −26% г/г",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9726552/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1682.2,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ — пик перед падением",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9726552/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -36.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — первый убыток (2024: +456 млн)",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9726552/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "1 отчёт — 499 ₽; пакеты от 114 ₽/отчёт; 20 млн проверок/год, 70+ источников (self-reported)",
+      "price": "114-499 ₽/отчёт",
+      "source_url": "https://avtocod.ru/package/1",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Пустые» и неполные отчёты", "source_url": "https://otzovik.com/reviews/avtocod_ru-servis_proverki_istorii_avtomobilya/" },
+    { "complaint": "Отказ в возврате за неинформативный отчёт", "source_url": "https://otzovik.com/review_14162224.html" }
+  ],
+  "ai_readiness": {
+    "score": 15,
+    "formula": "15 баллов за новые продуктовые функции (поиск дублей объявлений); генеративного AI не анонсировано",
+    "signals": [
+      {
+        "signal": "Поиск дублей объявления по ссылке на всех досках (11.2025)",
+        "evidence_url": "https://www.cnews.ru/news/line/2025-11-20_avtokod_zapustil_poisk",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Причины падения выручки 2025 не раскрываются"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/9726552/report",
+    "https://avtocod.ru/",
+    "https://avtocod.ru/soglashenie-avtocod"
+  ],
+  "updated_at": "2026-07-18"
+}

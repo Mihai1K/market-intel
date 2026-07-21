@@ -7,7 +7,7 @@
     { "name": "Топливо, АЗС и придорожный сервис", "slug": "fuel-azs-rf", "status": "done" },
     { "name": "Логистика последней мили и грузоперевозки", "slug": "road-logistics-rf", "status": "done" },
     { "name": "Недвижимость: агенты и аренда", "slug": "real-estate-agents-rf", "status": "done" },
-    { "name": "Автосервисы и авторемонт", "slug": null, "status": "todo" },
+    { "name": "Автосервисы и авторемонт", "slug": "auto-service-rf", "status": "done" },
     { "name": "Юридические услуги (вкл. банкротство физлиц)", "slug": null, "status": "todo" },
     { "name": "Салоны красоты и бьюти-услуги", "slug": null, "status": "todo" },
     { "name": "Общепит: кафе и доставка", "slug": null, "status": "todo" },

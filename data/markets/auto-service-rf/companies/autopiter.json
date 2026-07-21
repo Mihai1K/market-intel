@@ -1,0 +1,70 @@
+{
+  "id": "autopiter",
+  "name": "Автопитер",
+  "legal_name": "ООО «АВТОПИТЕР»",
+  "inn": "7820046291",
+  "website": "https://autopiter.ru",
+  "founded": 2015,
+  "segment": "онлайн-ритейл запчастей (граница рынка)",
+  "description": "Региональный игрок, обогнавший федералов: единственный из большой тройки вырос в 2025 (26 млрд ₽, больше Emex и Autodoc), но прибыль упала в 11 раз — ценовая война. 500 млн позиций, 600 городов, 1500 ПВЗ.",
+  "revenue": [
+    {
+      "value": 26019.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +2% г/г (рост с 10,4 млрд в 2021)",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/1691716/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 25557.4,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/1691716/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 93.6,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — падение в 11 раз (2024: 1,08 млрд) при росте выручки: ценовая война",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/1691716/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Подмены позиций и состояние упаковки", "source_url": "https://otzovik.com/reviews/autopiter_ru-internet-magazin_zapchastey_dlya_inomarok/" }
+  ],
+  "ai_readiness": {
+    "score": 10,
+    "formula": "10 баллов за цифровую платформу с каталогом 500 млн позиций; AI-функций не анонсировано",
+    "signals": [
+      {
+        "signal": "Каталог 500 млн позиций, 1500 ПВЗ — операционная платформа без AI-слоя",
+        "evidence_url": "https://autopiter.ru/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Стратегия и причины удержания роста не раскрываются"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/1691716/report",
+    "https://autopiter.ru/"
+  ],
+  "updated_at": "2026-07-18"
+}

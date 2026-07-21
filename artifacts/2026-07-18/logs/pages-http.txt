@@ -1,14 +1,16 @@
-Проверка http://localhost:59835
+Проверка http://localhost:60963
 
-200  /  (99365 байт)
-200  /rating  (134013 байт)
-200  /pains  (548120 байт)
+200  /  (104538 байт)
+200  /rating  (153077 байт)
+200  /pains  (619285 байт)
+200  /markets/auto-service-rf  (269458 байт)
 200  /markets/fuel-azs-rf  (217959 байт)
 200  /markets/hr-tech-rf  (281493 байт)
 200  /markets/influencer-marketing-rf  (286764 байт)
 200  /markets/performance-marketing-rf  (204193 байт)
 200  /markets/real-estate-agents-rf  (283091 байт)
 200  /markets/road-logistics-rf  (218778 байт)
+200  /markets/auto-service-rf/companies/1c-avtoservis  (25049 байт)
 200  /markets/fuel-azs-rf/companies/benzuber  (34927 байт)
 200  /markets/hr-tech-rf/companies/careerspace  (45009 байт)
 200  /markets/influencer-marketing-rf/companies/brand-analytics  (38918 байт)

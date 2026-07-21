@@ -1,0 +1,96 @@
+{
+  "id": "autoteka",
+  "name": "Автотека",
+  "legal_name": "ООО «АБД» (УК — «Авито Менеджмент»)",
+  "inn": "9710013723",
+  "website": "https://autoteka.ru",
+  "founded": 2016,
+  "segment": "проверка истории авто (инфраструктура доверия)",
+  "description": "Самый прибыльный бизнес в цепочке авторемонта: 3,6 млрд ₽ выручки при чистой марже ~55%. Продаёт доверие: отчёты по VIN на данных 1600+ дилеров и 500 СТО (FIT Service, Вилгуд, ЕвроАвто отдают свои данные). Глубокая AI-интеграция через LLM Авито A-Vibe. Прямое подтверждение паттерна «независимая проверка»: покупатель авто рискует своими деньгами — и платит.",
+  "revenue": [
+    {
+      "value": 3592,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9133704/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 3038.7,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ (рост с 1,62 млрд в 2021)",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9133704/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 1984.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — чистая маржа ~55%",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9133704/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 224.8,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ — прибыль ×9 за 4 года",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/9133704/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "1 отчёт — 329 ₽; пакет 5 — 885 ₽; пакет 10 — 1330 ₽; пакет 50 — 5750 ₽ (115 ₽/отчёт); пакеты действуют 180 дней; B2B-тарифы не публикуются",
+      "price": "115-329 ₽/отчёт",
+      "source_url": "https://autoteka.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Неполные отчёты и несовпадение пробегов", "source_url": "https://otzovik.com/reviews/autoteka_ru-servis_proverki_istorii_avtomobilya_po_vin/" },
+    { "complaint": "Отчёт не приходит после оплаты", "source_url": "https://otzovik.com/reviews/autoteka_ru-servis_proverki_istorii_avtomobilya_po_vin/" }
+  ],
+  "ai_readiness": {
+    "score": 80,
+    "formula": "50 баллов за LLM A-Vibe в проде (ИИ-выводы в отчётах, интерактивная схема повреждений) + 20 за ИИ-советы «ехать ли на осмотр» + 10 за ИИ-оценку стоимости в «Гараже»",
+    "signals": [
+      {
+        "signal": "LLM A-Vibe генерирует выводы отчётов и интерактивную схему повреждений",
+        "evidence_url": "https://www.cnews.ru/news/line/2025-07-28_avtoteka_sovershenstvuet",
+        "direction": "+"
+      },
+      {
+        "signal": "ИИ-советы «стоит ли ехать на осмотр» в отчётах (02.2025)",
+        "evidence_url": "https://www1.ru/news/2025/02/26/servis-avtoteka-ot-avito-dobavil-sovety-iskusstvennogo-intellekta-v-otcety-po-avto.html",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "B2B-тарифы и число отчётов в год не раскрываются"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/9133704/report",
+    "https://autoteka.ru/",
+    "https://autoteka.ru/forpartners",
+    "https://www.cnews.ru/news/line/2025-07-28_avtoteka_sovershenstvuet"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "autodoc",
+  "name": "Autodoc.ru",
+  "legal_name": "ООО «АВТОДОК»",
+  "inn": "7714345645",
+  "website": "https://autodoc.ru",
+  "founded": 1998,
+  "segment": "онлайн-ритейл запчастей (граница рынка)",
+  "description": "Федеральный онлайн-продавец запчастей в стагнации: выручка −22% в 2025 (10,8 млрд ₽), прибыль падает 4 года подряд до маржи 0,4% — маркетплейсы (WB +100%, Ozon +60% в запчастях) выжимают специализированную розницу. Смежный сегмент: показывает, куда уходит маржа цепочки.",
+  "revenue": [
+    {
+      "value": 10840.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, −22% г/г",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/8213634/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 13957.4,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/8213634/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 40.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — маржа 0,4%, прибыль падает 4 года подряд (2021: 275 млн)",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/8213634/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Систематические задержки: «сроки не соблюдаются в 90% случаев»", "source_url": "https://otzovik.com/review_8397461.html" },
+    { "complaint": "Контрафакт и невозвраты", "source_url": "https://otzovik.com/reviews/autodoc_ru-internet-magazin_avtozapchastey_na_vse_avtomobili/" }
+  ],
+  "ai_readiness": {
+    "score": 20,
+    "formula": "20 баллов за «робота» точного подбора запчастей по VIN и гаражу",
+    "signals": [
+      {
+        "signal": "Робот подбора запчастей по VIN",
+        "evidence_url": "https://www.zr.ru/content/news/930865-autodoc.ru-ispolzuet-robota-d/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Причины падения выручки не раскрываются (давление маркетплейсов — вывод из отраслевых данных)"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/8213634/report",
+    "https://ru.wikipedia.org/wiki/Автодок_(российская_компания)"
+  ],
+  "updated_at": "2026-07-18"
+}

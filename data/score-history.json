@@ -619,6 +619,48 @@
     },
     {
       "date": "2026-07-18",
+      "market": "auto-service-rf",
+      "opportunity_id": "sto-client-pipeline",
+      "launch": 84,
+      "scale": 63
+    },
+    {
+      "date": "2026-07-18",
+      "market": "auto-service-rf",
+      "opportunity_id": "second-opinion-bot",
+      "launch": 78,
+      "scale": 65
+    },
+    {
+      "date": "2026-07-18",
+      "market": "auto-service-rf",
+      "opportunity_id": "ai-receptionist-sto",
+      "launch": 78,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-18",
+      "market": "auto-service-rf",
+      "opportunity_id": "norm-hour-audit",
+      "launch": 74,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-18",
+      "market": "auto-service-rf",
+      "opportunity_id": "fleet-repair-audit",
+      "launch": 65,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-18",
+      "market": "auto-service-rf",
+      "opportunity_id": "china-car-knowledge",
+      "launch": 64,
+      "scale": 63
+    },
+    {
+      "date": "2026-07-18",
       "market": "fuel-azs-rf",
       "opportunity_id": "fleet-fuel-audit",
       "launch": 79,

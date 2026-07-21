@@ -1,0 +1,79 @@
+{
+  "id": "stocrm",
+  "name": "STOCRM",
+  "legal_name": "ООО «Система продаж»",
+  "inn": "7728463656",
+  "website": "https://stocrm.ru",
+  "founded": 2019,
+  "segment": "специализированная CRM для СТО",
+  "description": "Растущий нишевый игрок: 2000+ клиентов, реестр российского ПО, «лучшая CRM для СТО» MIMS Automobility 2023. Выручка выросла с 28,9 до 94,5 млн ₽ за три года, но компания балансирует около нуля (убыточна 6 из 7 лет) — иллюстрация крошечной экономики всей ниши софта для СТО.",
+  "revenue": [
+    {
+      "value": 94.5,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; 42 сотрудника",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1197746177122_7728463656_OOO-SISTEMA-PRODAGh",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 28.9,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1197746177122_7728463656_OOO-SISTEMA-PRODAGh",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -4.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; убыточна 6 из 7 лет",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1197746177122_7728463656_OOO-SISTEMA-PRODAGh",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "«От 490 ₽/пользователь/мес»; тарифы Master/Expert/Shop считаются в JS-калькуляторе — полная сетка не публикуется статикой",
+      "price": "от 490 ₽/пользователь/мес",
+      "source_url": "https://stocrm.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Смешанные отзывы пользователей о стабильности и поддержке", "source_url": "https://otzovik.com/reviews/stocrm_ru-programma_dlya_avtoservisa/" }
+  ],
+  "ai_readiness": {
+    "score": 15,
+    "formula": "15 баллов за цифровой продукт в реестре ПО; AI-функций не анонсировано",
+    "signals": [
+      {
+        "signal": "2000+ клиентов, победа MIMS Automobility 2023 — зрелый продукт без AI-слоя",
+        "evidence_url": "https://www.to-inform.ru/index.php/news/15991-stocrm-priznana-luchshei-crm-sistemoi-dlia-sto",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Точная тарифная сетка (JS-калькулятор)",
+    "Churn/LTV не публикуются"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1197746177122_7728463656_OOO-SISTEMA-PRODAGh",
+    "https://stocrm.ru/",
+    "https://www.to-inform.ru/index.php/news/15991-stocrm-priznana-luchshei-crm-sistemoi-dlia-sto"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "emex",
+  "name": "Emex",
+  "legal_name": "ООО «ЭМЕКС.РУ»",
+  "inn": "5027213485",
+  "website": "https://emex.ru",
+  "founded": 2014,
+  "segment": "онлайн-ритейл запчастей (граница рынка)",
+  "description": "Исторически крупнейший онлайн-продавец запчастей сжимается: выручка −21% в 2025 (13,4 млрд ₽), прибыль упала втрое. Вместе с падением Autodoc и коллапсом Exist — картина консолидации сегмента под давлением маркетплейсов.",
+  "revenue": [
+    {
+      "value": 13414.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, −21% г/г",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/7924748/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 17008.5,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ — пик",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/7924748/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 158.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ (2024: 509 млн — падение втрое)",
+      "source_name": "ГИР БО ФНС (зеркало List-Org)",
+      "source_url": "https://www.list-org.com/company/7924748/report",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Снятие оплаченных заказов с требованием доплаты", "source_url": "https://otzovik.com/reviews/emex_ru-internet-magazin_avtozapchastey/" },
+    { "complaint": "Отсутствие техподдержки и проблемные возвраты", "source_url": "https://www.otzyvru.com/emexru" }
+  ],
+  "ai_readiness": {
+    "score": 10,
+    "formula": "10 баллов за платформу с API проценки, используемую CRM автосервисов; AI-функций не анонсировано",
+    "signals": [
+      {
+        "signal": "API прайсов Emex — стандартный источник проценки в CRM для СТО",
+        "evidence_url": "https://autodealer.ru/online/percentage",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Причины сжатия не раскрываются; сайт отдаёт 403 на запросы из-за рубежа (геоблок)"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/7924748/report",
+    "https://saby.ru/profile/5027213485-502701001"
+  ],
+  "updated_at": "2026-07-18"
+}
