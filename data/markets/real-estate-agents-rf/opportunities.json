@@ -124,7 +124,15 @@
         "budget": "20 тыс ₽",
         "success_criteria": "5 заявок на консультацию и 2 предоплаты пилота за 7 дней"
       },
-      "status": "candidate"
+      "status": "candidate",
+      "data_flywheel": {
+        "new_client_increases_value": "partial",
+        "dataset_after_each_deal": true,
+        "benchmarks_buildable": true,
+        "improves_automatically": false,
+        "verdict": "flywheel-provider-side",
+        "note": "Статистика CPL по районам копится и удешевляет продажу следующему клиенту, но это плейбук исполнителя, а не самообучающийся продукт для всех сразу."
+      }
     },
     {
       "id": "guest-house-compliance",
@@ -613,7 +621,15 @@
         "budget": "10 тыс ₽",
         "success_criteria": "CPL до 300 ₽ и 10 оплат за 7 дней"
       },
-      "status": "candidate"
+      "status": "candidate",
+      "data_flywheel": {
+        "new_client_increases_value": false,
+        "dataset_after_each_deal": false,
+        "benchmarks_buildable": false,
+        "improves_automatically": false,
+        "verdict": "no",
+        "note": "Растёт база подписчиков (дистрибуция), а не датасет, улучшающий продукт — не флайвил, несмотря на формулировку «накопленная база» в Moat."
+      }
     },
     {
       "id": "flat-rms",
@@ -731,7 +747,15 @@
         "budget": "5 тыс ₽",
         "success_criteria": "5 хостов на пилоте за 7 дней"
       },
-      "status": "candidate"
+      "status": "candidate",
+      "data_flywheel": {
+        "new_client_increases_value": true,
+        "dataset_after_each_deal": true,
+        "benchmarks_buildable": true,
+        "improves_automatically": true,
+        "verdict": "flywheel",
+        "note": "Классический RMS-паттерн: чем больше объектов под управлением, тем точнее модель спроса по городу."
+      }
     }
   ]
 }
