@@ -1,0 +1,79 @@
+{
+  "id": "pravoteh",
+  "name": "ПравоТех (Casebook→ПравоДела, Caselook→ПравоПрактика)",
+  "legal_name": "АО «ПравоТех»",
+  "inn": "7708095468",
+  "website": "https://pravo.tech",
+  "founded": 2003,
+  "segment": "консолидированная экосистема юртеха: проверка контрагентов, поиск судебной практики, подача документов",
+  "description": "Фактическая олигополия сегмента: под одним юрлицом консолидированы Casebook (ребрендинг в «ПравоДела» — проверка контрагентов, мониторинг дел) и Caselook (в «ПравоПрактика» — поиск по 150+ млн судебных актов), плюс интеграция с «Мой Арбитр». Выручка выросла на 73% за 2022-2025, прибыль подскочила ×4,2 в последний год.",
+  "revenue": [
+    {
+      "value": 2200,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +29% г/г; 490 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/pravoteh-1037739182557",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 788,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ — рост выручки ×2,8 за 4 года",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/pravoteh-1037739182557",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 97.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, ×4,2 к 2024 году",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/pravoteh-1037739182557",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "ПравоДела (экс-Casebook): Standard 78 000 ₽/год за место (проверка контрагентов, мониторинг), Pro 108 000 ₽/год (+подача в «Мой Арбитр»); ПравоПрактика (экс-Caselook): 72 000 ₽/год за место",
+      "price": "72 000-108 000 ₽/год за рабочее место",
+      "source_url": "https://casebook.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Интерфейс «мог бы быть удобнее» — в остальном оценки нейтрально-положительные", "source_url": "https://hf.ru/services/casebook" }
+  ],
+  "ai_readiness": {
+    "score": 70,
+    "formula": "40 баллов за встроенный ИИ-ассистент анализа судебных дел и рисков + 30 за консолидацию нескольких AI-продуктов под одной экосистемой",
+    "signals": [
+      {
+        "signal": "ИИ-ассистент для анализа судебных дел встроен в экосистему ПравоТех",
+        "evidence_url": "https://pravo.tech/blog/article/iskusstvennyj-intellekt-dlya-yuristov-obzor-rynka-2025",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "LTV/CAC/churn не публикуются",
+    "Расхождение тарифов между официальным сайтом и сторонним агрегатором (60 000 против 78 000 ₽/год) — вероятно устаревшая цена до ребрендинга"
+  ],
+  "sources": [
+    "https://checko.ru/company/pravoteh-1037739182557",
+    "https://casebook.ru/",
+    "https://pravo.tech/product/praktika"
+  ],
+  "updated_at": "2026-07-18"
+}

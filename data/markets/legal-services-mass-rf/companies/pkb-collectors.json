@@ -1,0 +1,68 @@
+{
+  "id": "pkb-collectors",
+  "name": "ПКБ (Первое клиентское бюро)",
+  "legal_name": "НАО ПКО «ПКБ»",
+  "inn": "2723115222",
+  "website": "https://www.audit-it.ru/contragent/1092723000446_nao-pko-pkb",
+  "founded": 2009,
+  "segment": "крупнейшее коллекторское агентство РФ (цессия)",
+  "description": "Лидер рынка взыскания долгов: выручка выросла на 168% за 2022-2025, прибыльна все годы, торгует облигациями на Мосбирже без дефолтов. Часть консолидации топ-6 игроков, контролирующих 80%+ купленных портфелей.",
+  "revenue": [
+    {
+      "value": 25.6,
+      "unit": "млрд руб",
+      "period": "2025",
+      "basis": "РСБУ, +62% г/г; 1978 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://www.audit-it.ru/contragent/1092723000446_nao-pko-pkb",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 7.8,
+      "unit": "млрд руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Audit-it)",
+      "source_url": "https://www.audit-it.ru/contragent/1092723000446_nao-pko-pkb",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 7.2,
+      "unit": "млрд руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало Audit-it)",
+      "source_url": "https://www.audit-it.ru/contragent/1092723000446_nao-pko-pkb",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Модель цессии — выкуп проблемных портфелей долгов у банков/МФО, монетизация через собственное взыскание",
+      "price": "не розничная услуга",
+      "source_url": "https://napca.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Топ-жалобы отдельно не собраны в этом проходе",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)",
+    "Корпоративный сайт компании (pkb.ru и распространённые варианты доменов) не резолвится — не удалось найти рабочий официальный сайт"
+  ],
+  "sources": [
+    "https://www.audit-it.ru/contragent/1092723000446_nao-pko-pkb",
+    "https://napca.ru/",
+    "https://hh.ru/vacancy/129169824"
+  ],
+  "updated_at": "2026-07-18"
+}

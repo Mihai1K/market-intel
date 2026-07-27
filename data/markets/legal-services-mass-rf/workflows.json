@@ -1,0 +1,195 @@
+{
+  "market": "legal-services-mass-rf",
+  "updated_at": "2026-07-18",
+  "workflows": [
+    {
+      "id": "bankruptcy-filing-to-discharge",
+      "name": "Банкротство физлица: от обращения до списания долгов",
+      "actor": "юрист/компания-сопровождающий",
+      "steps": [
+        {
+          "name": "Первичная консультация и оценка перспектив",
+          "status": "semi",
+          "evidence": "Живая консультация остаётся нормой, но уже есть AI-боты для сбора вводных (сумма долга, банки/МФО, доход, имущество, аресты, регион) — решение о перспективах всё равно принимает юрист; клиент часто получает противоречивые оценки от разных фирм",
+          "evidence_url": "https://riabot.ru/business-solutions/b2b-uslugi/bankrotstvo-fizlic",
+          "can_ai": true,
+          "can_bot": true
+        },
+        {
+          "name": "Сбор документов о доходах/имуществе/долгах",
+          "status": "manual",
+          "evidence": "Форма заявления в МФЦ заполняется вручную, ошибки не исправляются — нужно переписывать заново; клиент физически ходит по банкам/ЗАГС/Росреестру за справками",
+          "evidence_url": "https://fcbg.ru/zayavlenie-v-mfc-o-bankrotstve",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Подготовка заявления в суд",
+          "status": "semi",
+          "evidence": "AI-генерация исковых уже существует (Doczilla AI, ИСКРА Гаранта), но юрфирмы закладывают полное время юриста в стоимость (60-100 тыс ₽), хотя черновик мог бы готовить AI",
+          "evidence_url": "https://doczilla.pro/ai-sud/",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Выбор и утверждение финансового управляющего",
+          "status": "manual",
+          "evidence": "Должник указывает СРО, а не конкретную кандидатуру — СРО коллегиально определяет кандидата; дефицит управляющих, готовых работать за фиксированное вознаграждение, типично затягивает дело на месяцы",
+          "evidence_url": "https://www.garant.ru/afb-info/guide/finansovyj-upravlyayushhij-bankrotstvo/",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Публикация в ЕФРСБ",
+          "status": "semi",
+          "evidence": "Технически ввод формы автоматизирован (902,51 ₽ за запись, публикация на следующий день после оплаты), но контент готовит человек; при большом числе кредиторов расходы на публикации накапливаются за счёт должника",
+          "evidence_url": "https://www.klerk.ru/blogs/fedresurs/687546/",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Работа с кредиторами и реестром требований",
+          "status": "manual",
+          "evidence": "Юрист/управляющий вручную готовит возражения на требования кредиторов; споры о включении в реестр реально затягивают процедуру сверх плановых 6 месяцев",
+          "evidence_url": "https://hh.ru/vacancy/135522056",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Торги по имуществу (если есть)",
+          "status": "semi",
+          "evidence": "Электронные площадки (м-ets.ru, fabrikant.ru) ведут торги онлайн — механика автоматизирована, оценка и подготовка лота остаются ручными",
+          "evidence_url": "https://zakupki.kontur.ru/site/articles/79439-torgi_bankrotov_po_127_fz",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Завершение процедуры и списание долгов",
+          "status": "manual",
+          "evidence": "Решение суда; статистика Федресурса 2025 — 73% дел с нулевым удовлетворением требований кредиторов, 568 тыс граждан признаны банкротами (+31,5% г/г), внесудебное банкротство +22,9%; полная процедура 8+ месяцев, чек клиента 150-300+ тыс ₽",
+          "evidence_url": "https://companies.rbc.ru/news/bfyHPPIguU/statistika-bankrotstva-fizicheskih-lits-za-2025-god/",
+          "can_ai": false,
+          "can_bot": false
+        }
+      ]
+    },
+    {
+      "id": "llc-registration-turnkey",
+      "name": "Регистрация ООО/ИП под ключ",
+      "actor": "сервис регистрации (банк-партнёр ФНС)",
+      "steps": [
+        {
+          "name": "Консультация по форме бизнеса и налоговому режиму",
+          "status": "semi",
+          "evidence": "Банки консультируют бесплатно при регистрации (СберБизнес, Т-Банк) — решение о форме и налоговом режиме принимает человек, но услуга уже бесплатная у банков",
+          "evidence_url": "https://www.sberbank.com/ru/s_m_business/registraciya/besplatnaya-registraciya-ooo",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Подготовка устава и документов",
+          "status": "automated",
+          "evidence": "Документы для типового ООО (1 учредитель) формируются автоматически через банк; нетиповые случаи (несколько учредителей, корпоративный договор) требуют ручной доработки",
+          "evidence_url": "https://www.sravni.ru/biznes-registration/ooo-cherez-banki/",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Подача в ФНС онлайн через банк/Госуслуги",
+          "status": "automated",
+          "evidence": "Банки, уполномоченные ФНС, отправляют пакет документов с КЭП удалённо, без похода в ФНС или МФЦ",
+          "evidence_url": "https://service.nalog.ru/gosreg/intro.html?sfrd=21001&mode=bank",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Получение решения",
+          "status": "automated",
+          "evidence": "Официальный срок 3 рабочих дня, авто-проверка на формальные основания отказа; при отсутствии проблем — регистрация в тот же день",
+          "evidence_url": "https://www.moedelo.org/club/registratsiya-biznesa/registratsiya-ip-v-nalogovoj",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Открытие расчётного счёта",
+          "status": "automated",
+          "evidence": "Открытие счёта — часть банковского пакета «под ключ», бесплатно и одновременно с регистрацией",
+          "evidence_url": "https://www.reg.ru/web-tools/registration-sberbank",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Постановка на налоговый учёт",
+          "status": "automated",
+          "evidence": "ИНН присваивается одновременно с регистрацией в ФНС автоматически, отдельного обращения не требуется",
+          "evidence_url": "https://www.consultant.ru/document/cons_doc_LAW_19671/a7996b6662403761dc20fe3481794c2614d18234/",
+          "can_ai": false,
+          "can_bot": false
+        }
+      ]
+    },
+    {
+      "id": "debt-collection-enforcement",
+      "name": "Взыскание долга и исполнительное производство",
+      "actor": "взыскатель/юрист",
+      "steps": [
+        {
+          "name": "Претензионная работа",
+          "status": "manual",
+          "evidence": "Досудебная работа с должником — переписка, переговоры, ручная подготовка претензии",
+          "evidence_url": "https://www.dvitex.ru/poleznoe/biznes/vzyskanie-debitorskoy-zadolzhennosti/vzyskanie-dolga-s-fizicheskogo-litsa/",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Подача иска / заявления о судебном приказе",
+          "status": "automated",
+          "evidence": "Электронная подача через ГАС «Правосудие»; упрощённый приказной порядок доступен при долге до 500 тыс ₽ — ускоряет процесс",
+          "evidence_url": "https://ej.sudrf.ru/info/poryadok",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Получение исполнительного листа",
+          "status": "manual",
+          "evidence": "По закону 3 рабочих дня после вступления решения в силу, но на практике сроки нередко затягивают из-за загруженности канцелярии суда",
+          "evidence_url": "https://favorit-consult.ru/article/sroki-vydachi-ispolnitelnogo-lista/",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Подача приставу",
+          "status": "semi",
+          "evidence": "Подаётся напрямую в территориальный отдел ФССП или через Госуслуги; публичного API банка данных ИП не обнаружено",
+          "evidence_url": "https://fssp.gov.ru/iss/ip",
+          "can_ai": false,
+          "can_bot": true
+        },
+        {
+          "name": "Розыск имущества/счетов должника",
+          "status": "manual",
+          "evidence": "ГЛАВНОЕ УЗКОЕ МЕСТО РЫНКА: на одного пристава — до 6 тыс исполнительных производств в год при норме 200 (данные апрель 2025), всего 130,6 млн производств в работе ФССП за 2025; официально признанная низкая эффективность системы",
+          "evidence_url": "https://vmeste-rf.tv/news/glava-fsssp-tekuchest-kadrov-snizilas-no-nagruzka-ostaetsya-vysokoy/",
+          "can_ai": true,
+          "can_bot": false
+        },
+        {
+          "name": "Арест и реализация имущества",
+          "status": "manual",
+          "evidence": "Перегруженные приставы должны инициировать и контролировать процесс реализации",
+          "evidence_url": "https://auction-house.ru/media-portal/news/pravila-provedeniya-torgov-po-realizatsii-imushchestva-dolzhnikov-kak-i-gde-prodayut/",
+          "can_ai": false,
+          "can_bot": false
+        },
+        {
+          "name": "Получение денег взыскателем",
+          "status": "manual",
+          "evidence": "Взыскатель зависит от скорости и качества работы конкретного пристава; многие производства зависают на этапе розыска и не доходят до реального взыскания",
+          "evidence_url": "https://epam.ru/ru/media/view/effektivnost-ispolnitelnogo-proizvodstva-v-rf-nizkaya-naglyadno-pokazyvaet-ofitsialnaya-statistika-fssp",
+          "can_ai": false,
+          "can_bot": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "pravoved-ru",
+  "name": "Правовед.ру",
+  "legal_name": "ООО «Правовед.Ру Лаб» (единственный учредитель — иностранная LEGALEXXI LIMITED, Кипр)",
+  "inn": "7731399633",
+  "website": "https://pravoved.ru",
+  "founded": 2018,
+  "segment": "маркетплейс юридических консультаций онлайн",
+  "description": "Крупнейший маркетплейс юрконсультаций (300 тыс+ пользователей, 3503 юриста), но в серьёзном убытке: выручка упала на 22%, чистый убыток вырос на 236% год к году, штат сократился почти вдвое за 2 года. Второе подтверждение анти-паттерна Marketplace на новом рынке — на этот раз не офлайн-услуга, а онлайн-консультации.",
+  "revenue": [
+    {
+      "value": 494.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, −22% г/г; 19 сотрудников (было 32 в 2023)",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/pravoved-ru-lab-1187746238536",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -85.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, убыток вырос на 236% г/г",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/pravoved-ru-lab-1187746238536",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "disclosed_metrics": [
+    {
+      "value": 300000,
+      "unit": "зарегистрированных пользователей (self-reported; также 3503 юриста на платформе)",
+      "period": "2026",
+      "source_name": "Правовед.ру (сайт)",
+      "source_url": "https://pravoved.ru/lawyers/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported",
+      "metric": "Зарегистрированные пользователи платформы (также 3503 юриста на платформе)"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    {
+      "complaint": "Платные консультации отвечают «самые быстрые», а не самые компетентные юристы",
+      "source_url": "https://eto-razvod.ru/review/pravoved/"
+    },
+    {
+      "complaint": "Шаблонные ответы ради повторной оплаты, непрозрачный рейтинг юристов",
+      "source_url": "https://eto-razvod.ru/review/pravoved/"
+    }
+  ],
+  "ai_readiness": {
+    "score": 10,
+    "formula": "10 баллов за упоминания «робота-юриста» на странице вопросов; точная дата запуска и наблюдаемая механика не подтверждены",
+    "signals": [
+      {
+        "signal": "«Робот-юрист» отвечает на типовые вопросы, обучен на 100 тыс+ вопросов пользователей (дата запуска не установлена по открытым источникам)",
+        "evidence_url": "https://pravoved.ru/questions/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Тарифы/комиссии для юристов-исполнителей не раскрываются публично",
+    "Полные финансовые ряды 2021-2024 недоступны бесплатно"
+  ],
+  "sources": [
+    "https://checko.ru/company/pravoved-ru-lab-1187746238536",
+    "https://pravoved.ru/lawyers/",
+    "https://eto-razvod.ru/review/pravoved/"
+  ],
+  "updated_at": "2026-07-18"
+}

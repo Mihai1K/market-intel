@@ -1,0 +1,53 @@
+{
+  "id": "eus-yurist24",
+  "name": "Юрист24 / ЕЮС (Европейская Юридическая Служба)",
+  "legal_name": "ООО «ЕЮС»",
+  "inn": "7703722933",
+  "website": "https://www.vtb.ru/malyj-biznes/servisy-v-pomoshch-biznesu/yurist24/",
+  "segment": "B2B2C юридическая подписка (white-label через банки)",
+  "description": "Один из крупнейших игроков модели «юрподписка через банк» (встроена в пакеты ВТБ и других банков) — и самый тревожный сигнал охлаждения сегмента в базе: выручка обвалилась на 58% за год, убыток вырос более чем вдвое.",
+  "revenue": [
+    {
+      "value": 1600,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, −58% г/г (2024: 3,872 млрд ₽)",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/eus",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -157.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, убыток вырос на 117% г/г (2024: −72,7 млн ₽)",
+      "source_name": "ГИР БО ФНС (зеркало Checko)",
+      "source_url": "https://checko.ru/company/eus",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Только в составе банковских пакетов (ВТБ и др.) — отдельных тарифов для конечных клиентов вне банков не найдено",
+      "price": "не публикуется отдельно",
+      "source_url": "https://www.vtb.ru/malyj-biznes/servisy-v-pomoshch-biznesu/yurist24/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Не удалось однозначно развести финансовые показатели между двумя связанными юрлицами группы (ИНН 7710665228 и 7703722933) — возможна внутригрупповая реструктуризация",
+    "Причины резкого падения выручки не раскрываются",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://www.vtb.ru/malyj-biznes/servisy-v-pomoshch-biznesu/yurist24/"
+  ],
+  "updated_at": "2026-07-18"
+}

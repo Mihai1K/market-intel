@@ -1,0 +1,80 @@
+{
+  "id": "fpa-bankrotstvo",
+  "name": "ФПА (Финансово-правовой альянс)",
+  "legal_name": "ООО «ФПА»",
+  "inn": "7838051976",
+  "website": "https://fpa.ru",
+  "founded": 2016,
+  "segment": "сопровождение банкротства физлиц «под ключ»",
+  "description": "Позиционируется как крупнейшая компания отрасли по числу юристов (данные РБК, 10.2023) — и в отличие от КредитаНет прибыльна все 5 лет с устойчивым ростом: выручка +220%, прибыль ×85 за тот же период. Наглядный контрпример в сегменте: рост не обязательно означает убытки.",
+  "revenue": [
+    {
+      "value": 512,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ (расхождение источников 510-515 млн), +50% г/г; 218 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1167847164121_7838051976_OOO-FPA",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 159,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1167847164121_7838051976_OOO-FPA",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 188.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — прибыльна все 5 лет (2021: 2,2 млн)",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1167847164121_7838051976_OOO-FPA",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Цены на сайте скрыты («—» на странице рейтинга); прямая страница тарифов недоступна (антибот)",
+      "price": "не публикуется",
+      "source_url": "https://ratingbankrotstva.ru/companies/finansovo-pravovoy-alyans/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    {
+      "complaint": "«Развод под видом помощи» — обвинение в схеме затягивания процедуры",
+      "source_url": "https://otzovik.com/reviews/yuridicheskaya_kompaniya_finansovo-pravovoy_alyans_russia_sankt-peterburg/"
+    },
+    {
+      "complaint": "Финансовый управляющий забрал ~441 000 ₽ (почти 50% активов), клиента не предупредили заранее об удержании",
+      "source_url": "https://otzovik.com/review_16872687.html"
+    },
+    {
+      "complaint": "Грубое обращение по телефону",
+      "source_url": "https://otzovik.com/reviews/yuridicheskaya_kompaniya_finansovo-pravovoy_alyans_russia_sankt-peterburg/"
+    }
+  ],
+  "data_gaps": [
+    "Точные тарифы не публикуются (капча на fpa.ru)",
+    "Точный масштаб (дела/клиенты совокупно) не подтверждён первичным источником — заявление «крупнейшая в РФ» не проверено",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1167847164121_7838051976_OOO-FPA",
+    "https://ratingbankrotstva.ru/companies/finansovo-pravovoy-alyans/",
+    "https://otzovik.com/reviews/yuridicheskaya_kompaniya_finansovo-pravovoy_alyans_russia_sankt-peterburg/"
+  ],
+  "updated_at": "2026-07-18"
+}

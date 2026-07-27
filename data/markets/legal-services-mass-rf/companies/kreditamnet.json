@@ -1,0 +1,80 @@
+{
+  "id": "kreditamnet",
+  "name": "КредитаНет",
+  "legal_name": "ООО «КРЕДИТАМНЕТ»",
+  "inn": "7726480007",
+  "website": "https://kredita.net",
+  "founded": 2021,
+  "segment": "федеральная сеть сопровождения банкротства физлиц «под ключ»",
+  "description": "103 офиса по РФ, но убыточна все 5 лет существования несмотря на рост выручки ×6,4 за 2022-2025 — классический пример агрессивного роста без экономики: маркетинг и жалобы клиентов (задержки, плохая коммуникация) обгоняют способность компании исполнять обязательства.",
+  "revenue": [
+    {
+      "value": 151.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, +3% г/г; 105 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1217700341980_7726480007_OOO-KREDITAMNET",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 23.4,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ — рост выручки ×6,4 за 3 года",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1217700341980_7726480007_OOO-KREDITAMNET",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -145.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — убыточна все 5 лет с основания (2021: −39,8 млн; 2022: −116,0 млн; 2023: −53,6 млн; 2024: −99,4 млн)",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1217700341980_7726480007_OOO-KREDITAMNET",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Фиксированная цена «под ключ» 89 000 ₽ (заявлена скидка 59% от 218 400 ₽), рассрочка от 3860 ₽/мес; обязательные платежи отдельно (вознаграждение управляющего 25 000 ₽, публикации ЕФРСБ ~15 000 ₽, почта 4-5 тыс ₽) — итого обязательных ~45 000 ₽",
+      "price": "89 000 ₽ + ~45 000 ₽ обязательных платежей",
+      "source_url": "https://kredita.net/yurist-po-bankrotstvu/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    {
+      "complaint": "Медленный сбор документов, нарушение сроков контракта",
+      "source_url": "https://allbankrot.ru/company/kreditamnet/"
+    },
+    {
+      "complaint": "Плохая коммуникация — ответа можно ждать 4 суток",
+      "source_url": "https://allbankrot.ru/company/kreditamnet/"
+    },
+    {
+      "complaint": "Задержка возврата денег после расторжения договора, игнорирование обращений",
+      "source_url": "https://allbankrot.ru/company/kreditamnet/"
+    }
+  ],
+  "data_gaps": [
+    "Точное число активных дел/клиентов не раскрыто",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1217700341980_7726480007_OOO-KREDITAMNET",
+    "https://kredita.net/yurist-po-bankrotstvu/",
+    "https://allbankrot.ru/company/kreditamnet/"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "aydi-kollekt",
+  "name": "АйДи Коллект",
+  "legal_name": "ООО ПКО «АйДи Коллект»",
+  "inn": "7730233723",
+  "website": "https://www.id-collect.ru",
+  "founded": 2017,
+  "segment": "коллекторское агентство (цессия)",
+  "description": "Самый быстрорастущий из трёх коллекторов базы: выручка +471% за 2021-2025. 88% сборов — принудительное взыскание, 12% — добровольное. Кредитный рейтинг Эксперт РА повышен до ruBBB- в августе 2025.",
+  "revenue": [
+    {
+      "value": 13.7,
+      "unit": "млрд руб",
+      "period": "2025",
+      "basis": "РСБУ, +12% г/г",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1177746355225_7730233723_OOO-PKO-AYDI-KOLLEKT",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 2.4,
+      "unit": "млрд руб",
+      "period": "2021",
+      "basis": "РСБУ; 145 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1177746355225_7730233723_OOO-PKO-AYDI-KOLLEKT",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 2.8,
+      "unit": "млрд руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1177746355225_7730233723_OOO-PKO-AYDI-KOLLEKT",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Модель цессии; 88% сборов — принудительное взыскание, 12% — добровольное (9 мес 2024)",
+      "price": "не розничная услуга",
+      "source_url": "https://raexpert.ru/releases/2025/aug01c",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    {
+      "complaint": "Административный штраф 50 000 ₽ за частые звонки должникам (по данным ФССП, 2025) — прямая ссылка на постановление не найдена",
+      "source_url": "https://raexpert.ru/researches/banks/debt_collection_market_2026/"
+    }
+  ],
+  "data_gaps": [
+    "Прямая ссылка на постановление о штрафе не найдена",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1177746355225_7730233723_OOO-PKO-AYDI-KOLLEKT",
+    "https://raexpert.ru/releases/2025/aug01c",
+    "https://raexpert.ru/researches/banks/debt_collection_market_2026/"
+  ],
+  "updated_at": "2026-07-18"
+}

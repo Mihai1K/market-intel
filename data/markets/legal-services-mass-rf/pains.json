@@ -1,0 +1,460 @@
+{
+  "market": "legal-services-mass-rf",
+  "updated_at": "2026-07-18",
+  "pains": [
+    {
+      "id": "account-freeze-during-bankruptcy",
+      "statement": "После подачи на банкротство или введения процедуры банк блокирует все счета и карты должника, включая доступ к зарплате",
+      "role": "должник/банкрот",
+      "mentions_found": 2,
+      "links": [
+        "https://rabotavinternete.forum2x2.ru/t50368-Банкротство-физических-лиц-Отзывы-прошедших",
+        "https://vc.ru/id1214001/2975350-otzyvy-o-yuridicheskoy-kompanii-rosbankrot"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Определение суда о введении реструктуризации/реализации имущества — банк блокирует счета в течение нескольких дней после определения",
+      "who_pays_now": "Юристам-банкротщикам за сопровождение либо никак не решают — просто ждут",
+      "why_unsolved": "Закон формально даёт право на прожиточный минимум, но механика получения через финуправляющего медленная и непрозрачная",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Во время банкротства нет доступа к счетам, а также накладываются ограничения",
+          "source_url": "https://rabotavinternete.forum2x2.ru/t50368-Банкротство-физических-лиц-Отзывы-прошедших"
+        }
+      ]
+    },
+    {
+      "id": "collector-pressure-calls",
+      "statement": "Должника систематически преследуют звонками, СМС и визитами коллекторы, требуя оплаты на грани законности",
+      "role": "должник/банкрот",
+      "mentions_found": 7,
+      "links": [
+        "https://pikabu.ru/story/nuzhna_pomoshch_protiv_spamyashchikh_kollektorov_14156866",
+        "https://pikabu.ru/story/vse_v_dolgakh_a_reshat_nichego_ne_khotyat_14153232",
+        "https://pikabu.ru/story/kollektsioneryi_dolgov_14128888",
+        "https://pikabu.ru/story/kollektoryi_seriya_3_serial_nash_sosedskiy_spetsnaz_14098634",
+        "https://www.banki.ru/forum/?FID=45&MID=3531037&PAGE_NAME=message&TID=278112"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль с локальным обострением при первой просрочке/первом звонке коллектора",
+      "who_pays_now": "Часто никем — терпят; часть уходит к «антиколлекторам» (мошенники) или к банкротным юристам",
+      "why_unsolved": "230-ФЗ о коллекторах слабо контролируется на практике, жалобы в ФССП/Роспотребнадзор долгие",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Спамящих с номера... они звонят, что я должна какую-то сумму",
+          "source_url": "https://pikabu.ru/story/nuzhna_pomoshch_protiv_spamyashchikh_kollektorov_14156866"
+        }
+      ]
+    },
+    {
+      "id": "fear-losing-only-home",
+      "statement": "Должник боится начинать банкротство из-за риска лишиться единственного жилья, хотя с 08.09.2024 действует закон о сохранении ипотечного жилья при продолжении платежей",
+      "role": "должник/банкрот",
+      "mentions_found": 1,
+      "links": [
+        "https://www.garant.ru/afb-info/guide/finansovyj-upravlyayushhij-bankrotstvo/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Вступление 298-ФЗ (08.09.2024) о сохранении ипотечного жилья при банкротстве — новое законодательное окно, о котором люди не знают",
+      "who_pays_now": "Юристам за сопровождение переговоров с залоговым кредитором",
+      "why_unsolved": "Закон новый (менее 2 лет), правоприменительная практика формируется, люди не знают о новых возможностях",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "web"
+      ],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "bankruptcy-procedure-confusion",
+      "statement": "Человек с долгами не понимает, как устроена процедура банкротства, боится первого шага и путает МФЦ/суд/платное-бесплатное",
+      "role": "должник/банкрот",
+      "mentions_found": 4,
+      "links": [
+        "https://rabotavinternete.forum2x2.ru/t50368-Банкротство-физических-лиц-Отзывы-прошедших"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль, обостряется при получении судебного приказа/иска от банка",
+      "who_pays_now": "Платят за консультацию юристам, потому что боятся ошибиться самостоятельно",
+      "why_unsolved": "Юридический язык 127-ФЗ непонятен неюристу, инфопространство забито рекламой платных контор",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Интересуется процедурой реализации имущества при долгах свыше 700 тысяч рублей и возможностью согласования судом такой процедуры",
+          "source_url": "https://rabotavinternete.forum2x2.ru/t50368-Банкротство-физических-лиц-Отзывы-прошедших"
+        }
+      ]
+    },
+    {
+      "id": "expensive-bankruptcy-lawyer",
+      "statement": "Должник вынужден платить сотни тысяч рублей юридической конторе за банкротство, часто с непрозрачным ростом сметы против обещанных сроков",
+      "role": "должник/банкрот",
+      "mentions_found": 3,
+      "links": [
+        "https://2gis.ru/moscow/firm/70000001064638016/tab/reviews",
+        "https://vc.ru/id1214001/2975350-otzyvy-o-yuridicheskoy-kompanii-rosbankrot"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — но усиливается уведомлением банка/иском, требующим решения",
+      "who_pays_now": "Сам должник, часто в рассрочку самой юрфирме",
+      "why_unsolved": "Рынок непрозрачен по ценообразованию, средний чек 100-150 тыс ₽, реальная сумма растёт за счёт допуслуг",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": [
+        "web"
+      ],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Стоимость банкротства была 7900 в месяц + обязательные платежи... 180-200 тысяч рублей на всю процедуру",
+          "source_url": "https://2gis.ru/moscow/firm/70000001064638016/tab/reviews"
+        }
+      ]
+    },
+    {
+      "id": "financial-manager-selection",
+      "statement": "Должник не понимает, как выбирается финансовый управляющий и куда жаловаться на его бездействие; управляющие финансово не мотивированы работать активно при отсутствии активов должника",
+      "role": "должник/банкрот",
+      "mentions_found": 2,
+      "links": [
+        "https://pravo.ru/story/242720/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — обостряется при выборе управляющего в начале процедуры (дедлайн подачи заявления в суд)",
+      "who_pays_now": "Должник оплачивает вознаграждение управляющего (депозит 200 тыс ₽ на процедуру)",
+      "why_unsolved": "Асимметрия интересов: фиксированное вознаграждение 30 тыс ₽/мес не менялось с 2008 года, в 60% дел активов у должника нет",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": [
+        "web"
+      ],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Гарантированные 30 тыс рублей в месяц не менялись с 2008 года... в 60% дел активов нет",
+          "source_url": "https://pravo.ru/story/242720/"
+        }
+      ]
+    },
+    {
+      "id": "fraudulent-debt-relief-scams",
+      "statement": "Мошеннические «конторы по списанию долгов» берут ежемесячную плату (~15 тыс ₽/мес), уговаривают перестать платить банку и переписать имущество на себя, часто вынуждая жертву взять новый кредит для оплаты своих услуг",
+      "role": "должник/банкрот",
+      "mentions_found": 2,
+      "links": [
+        "https://iz.ru/2128387/2026-07-07/ekspert-opisal-novuiu-skhemu-obmana-moshennikov-razdolzhnitelei"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Вступление 332-ФЗ (01.01.2026) об ограничении рекламы банкротных услуг — рынок меняется прямо сейчас; сама схема триггерится первой просрочкой жертвы",
+      "who_pays_now": "Жертва — мошенникам, вместо банка",
+      "why_unsolved": "Низкая финграмотность, нет единого проверенного реестра честных банкротных юристов, агрессивный маркетинг мошенников",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Под видом спокойной жизни без долгов на доверчивых гражданах зарабатывают «раздолжнители»",
+          "source_url": "https://iz.ru/2128387/2026-07-07/ekspert-opisal-novuiu-skhemu-obmana-moshennikov-razdolzhnitelei"
+        }
+      ]
+    },
+    {
+      "id": "fssp-passivity-collection",
+      "statement": "Взыскатель (малый бизнес) получил исполнительный лист, но пристав годами не предпринимает реальных действий по розыску имущества должника — приставы обработали 70 млн производств при нагрузке в 7 раз выше норматива, взыскано лишь 12,2% от требуемой суммы",
+      "role": "кредитор/малый бизнес",
+      "mentions_found": 3,
+      "links": [
+        "https://pravorub.ru/articles/37689.html",
+        "https://xn--c1abvl.xn--p1ai/news/vzyskanie_dolgov/sudebnym_pristavam_propisali_razgruzku_/",
+        "https://pravorub.ru/cases/266.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Приближение 3-летнего срока предъявления исполнительного листа к взысканию — дедлайн действия",
+      "who_pays_now": "Взыскатель — юристу за жалобы на бездействие пристава и/или отдельный иск о взыскании убытков с ФССП",
+      "why_unsolved": "Колоссальная перегрузка приставов, текучка кадров, нет законодательной обязанности оперативно отвечать взыскателю",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "По статистике только 1 из 5 жалоб удовлетворяется",
+          "source_url": "https://pravorub.ru/articles/37689.html"
+        }
+      ]
+    },
+    {
+      "id": "debtor-hides-assets",
+      "statement": "После решения суда выясняется, что у должника формально ничего нет — активы заранее переписаны на родственников или аффилированные компании",
+      "role": "кредитор/малый бизнес",
+      "mentions_found": 2,
+      "links": [
+        "https://www.klerk.ru/user/2651996/698678/",
+        "https://habr.com/ru/articles/1049026/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — обостряется сразу после получения исполнительного листа/отказа пристава найти имущество",
+      "who_pays_now": "Взыскатель — юристу за розыск активов, оспаривание сделок, привлечение к субсидиарной ответственности",
+      "why_unsolved": "Требует дорогого и долгого юридического расследования, пристав сам этим системно не занимается",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "web",
+        "api"
+      ],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "У должника официально отсутствуют деньги и имущество",
+          "source_url": "https://www.klerk.ru/user/2651996/698678/"
+        }
+      ]
+    },
+    {
+      "id": "inheritance-disputes",
+      "statement": "Наследники вступают в затяжной конфликт за имущество умершего родственника, доходящий до суда и растягивающийся на 1,5+ года",
+      "role": "наследник",
+      "mentions_found": 4,
+      "links": [
+        "https://t-j.ru/disputed-inheritance/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Смерть наследодателя и открытие наследства запускает 6-месячный процессуальный дедлайн, внутри которого разгорается конфликт",
+      "who_pays_now": "Каждая сторона своему юристу, часто годами",
+      "why_unsolved": "Эмоциональная вовлечённость, отсутствие медиации как культурной нормы, растянутые сроки судов",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "web"
+      ],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "В вопросах наследства «своих» не бывает",
+          "source_url": "https://t-j.ru/disputed-inheritance/"
+        }
+      ]
+    },
+    {
+      "id": "missed-inheritance-deadline",
+      "statement": "Наследник узнаёт о смерти родственника или о своём праве на наследство слишком поздно и рискует остаться без имущества",
+      "role": "наследник",
+      "mentions_found": 1,
+      "links": [
+        "https://www.advgazeta.ru/ag-expert/advices/propustili-srok-prinyatiya-nasledstva/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Жёсткий процессуальный дедлайн 6 месяцев со дня смерти, после которого путь только через суд",
+      "who_pays_now": "Наследнику — юристу за иск о восстановлении срока",
+      "why_unsolved": "Люди узнают о смерти дальних родственников/о наличии имущества постфактум, нет системы автоуведомления потенциальных наследников",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "conflicted-property-division",
+      "statement": "Бывшие супруги затягивают судебный раздел совместно нажитого имущества на месяцы и годы (в примере — 7 месяцев, издержки ~130 тыс ₽), часто с попытками скрыть активы",
+      "role": "разводящийся",
+      "mentions_found": 4,
+      "links": [
+        "https://ngs.ru/text/relations/2026/03/27/76332781/",
+        "https://pikabu.ru/story/yuristyi_khyelp_14160415",
+        "https://pikabu.ru/story/muzh_11_let_nastaival_chtobyi_zhena_vela_semeynyiy_byudzhet_pered_razvodom_vyiyasnilos_zachem_na_samom_dele_14128378",
+        "https://pikabu.ru/story/10_let_spustya_neozhidannyiy_isk_o_razdele_kvartiryi_14111622"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Подача иска о разводе/получение повестки в суд по разделу имущества",
+      "who_pays_now": "Каждый супруг своему адвокату (15 тыс ₽ за заседание) + госпошлина от кадастровой стоимости",
+      "why_unsolved": "Высокая конфликтность, нет обязательной медиации, суды затягивают заседания",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "web"
+      ],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Развод — война юристов. Государство получает 20 тысяч рублей с одной экс-пары — такую маржу дай бог каждому бизнесу",
+          "source_url": "https://ngs.ru/text/relations/2026/03/27/76332781/"
+        }
+      ]
+    },
+    {
+      "id": "hidden-income-alimony",
+      "statement": "Плательщик алиментов регистрирует ИП на упрощёнке, получает «зарплату в конверте» или сдаёт недвижимость в чёрную, чтобы официально показывать минимальный доход",
+      "role": "разводящийся/получатель алиментов",
+      "mentions_found": 2,
+      "links": [
+        "https://pravo.ru/story/225609/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль, обостряется при каждом пересчёте/невыплате",
+      "who_pays_now": "Получатель алиментов — юристу за доказывание реального дохода",
+      "why_unsolved": "Сведения об участии в ООО найти просто, а выявить скрытых бенефициаров АО — сложно доказать",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "api",
+        "web"
+      ],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Удачные примеры взыскания алиментов — это скорее исключение из общего правила по причине сложности доказывания",
+          "source_url": "https://pravo.ru/story/225609/"
+        }
+      ]
+    },
+    {
+      "id": "registration-address-rejection",
+      "statement": "Предприниматель, регистрируя ООО/ИП самостоятельно, получает отказ ФНС из-за формальных ошибок (адрес не совпадает с ГАР, ОКВЭД, форма Р11001) — каждый отказ = потеря 2-3 недель и повторная пошлина",
+      "role": "предприниматель",
+      "mentions_found": 3,
+      "links": [
+        "https://regforum.ru/posts/5543_esli_adres_budet_ne_kak_v_gar__v_registracii_otkazhut/"
+      ],
+      "search_period": "2023-2026",
+      "economic_trigger": "Дедлайн регистрации бизнеса под конкретный контракт/тендер/открытие точки продаж",
+      "who_pays_now": "Помощь юриста/регистратора либо теряет время и повторно платит пошлину при отказе",
+      "why_unsolved": "Рассинхронизация региональных баз ГАР с реальным адресным фондом, произвольность заполнения ФНС-формы",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Программа ФНС (ППДГР) принимает адреса только из ГАР",
+          "source_url": "https://regforum.ru/posts/5543_esli_adres_budet_ne_kak_v_gar__v_registracii_otkazhut/"
+        }
+      ]
+    },
+    {
+      "id": "abandoned-llc-liability",
+      "statement": "Владелец компании перестаёт вести деятельность, думая, что налоговая просто исключит фирму из реестра — но новая практика ВС РФ делает «забытую» компанию основанием для личной субсидиарной ответственности директора/учредителя",
+      "role": "предприниматель",
+      "mentions_found": 2,
+      "links": [
+        "https://www.klerk.ru/user/2619891/693630/",
+        "https://habr.com/ru/articles/1049026/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Уведомление ФНС о предстоящем исключении компании из ЕГРЮЛ как недействующей (публикуется в Вестнике госрегистрации) — ограниченное окно для реакции",
+      "who_pays_now": "Директор/учредитель — юристу за защиту от субсидиарки либо (при проигрыше) кредитору личными активами",
+      "why_unsolved": "Изменившаяся практика ВС РФ (презумпция вины при «забытой» компании) плохо известна массовому предпринимателю",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot",
+        "web"
+      ],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Сам факт того, что вы «забыли» про компанию, делает вас виновным по умолчанию",
+          "source_url": "https://www.klerk.ru/user/2619891/693630/"
+        }
+      ]
+    },
+    {
+      "id": "115-fz-account-freeze",
+      "statement": "Банк внезапно блокирует расчётный счёт ИП/ООО по подозрению в сомнительных операциях (115-ФЗ), парализуя весь бизнес — 68% таких блокировок приходится на компании с оборотом до 50 млн ₽/год",
+      "role": "предприниматель",
+      "mentions_found": 2,
+      "links": [
+        "https://vc.ru/money/1426532-moi-otzyv-o-razblokirovke-scheta-v-sberbanke-popalas-na-115-fz"
+      ],
+      "search_period": "2024-2026",
+      "economic_trigger": "Сам факт блокировки счёта банком — невозможность платить поставщикам/зарплату/налоги сегодня",
+      "who_pays_now": "Предприниматель — своим временем либо юристу за ускоренную разблокировку",
+      "why_unsolved": "Автоматические алгоритмы комплаенс-систем банков массово блокируют по формальным признакам без учёта специфики бизнеса",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot"
+      ],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Сказать, что я запаниковала — ничего не сказать",
+          "source_url": "https://vc.ru/money/1426532-moi-otzyv-o-razblokirovke-scheta-v-sberbanke-popalas-na-115-fz"
+        }
+      ]
+    },
+    {
+      "id": "wrong-person-account-arrest",
+      "statement": "Пристав ошибочно арестовывает счёт человека, который лишь совпадает по ФИО (иногда и дате рождения) с реальным должником, списывая чужие деньги",
+      "role": "должник (третье лицо, ошибочно задетое)",
+      "mentions_found": 2,
+      "links": [
+        "https://www.klerk.ru/bank/articles/459355/"
+      ],
+      "search_period": "2017-2026",
+      "economic_trigger": "Моментальное обнаружение списания/ареста денег (в банкомате, при попытке оплаты) — требует решения прямо сейчас",
+      "who_pays_now": "Пострадавший — своим временем (сбор документов, поход к приставу) или обращением в СМИ как рычагом давления",
+      "why_unsolved": "Пристав при вынесении постановления не всегда сверяет СНИЛС/ИНН/паспортные данные, а не только ФИО+дата рождения",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": [
+        "bot"
+      ],
+      "difficulty": 1,
+      "quotes": [
+        {
+          "text": "Забыв о своем юридическом образовании, поддалась эмоциям и не могла разобраться, как быть",
+          "source_url": "https://www.klerk.ru/bank/articles/459355/"
+        }
+      ]
+    }
+  ]
+}

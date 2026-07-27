@@ -903,6 +903,335 @@
       "opportunity_id": "small-fleet-dispatcher-copilot",
       "launch": 71,
       "scale": 55
+    },
+    {
+      "date": "2026-07-27",
+      "market": "auto-service-rf",
+      "opportunity_id": "sto-client-pipeline",
+      "launch": 84,
+      "scale": 63
+    },
+    {
+      "date": "2026-07-27",
+      "market": "auto-service-rf",
+      "opportunity_id": "second-opinion-bot",
+      "launch": 78,
+      "scale": 65
+    },
+    {
+      "date": "2026-07-27",
+      "market": "auto-service-rf",
+      "opportunity_id": "ai-receptionist-sto",
+      "launch": 78,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-27",
+      "market": "auto-service-rf",
+      "opportunity_id": "norm-hour-audit",
+      "launch": 74,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-27",
+      "market": "auto-service-rf",
+      "opportunity_id": "fleet-repair-audit",
+      "launch": 65,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-27",
+      "market": "auto-service-rf",
+      "opportunity_id": "china-car-knowledge",
+      "launch": 64,
+      "scale": 63
+    },
+    {
+      "date": "2026-07-27",
+      "market": "fuel-azs-rf",
+      "opportunity_id": "fleet-fuel-audit",
+      "launch": 79,
+      "scale": 61
+    },
+    {
+      "date": "2026-07-27",
+      "market": "fuel-azs-rf",
+      "opportunity_id": "b2b-fuel-route-radar",
+      "launch": 79,
+      "scale": 53
+    },
+    {
+      "date": "2026-07-27",
+      "market": "fuel-azs-rf",
+      "opportunity_id": "fuel-surcharge-toolkit",
+      "launch": 78,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "fuel-azs-rf",
+      "opportunity_id": "azs-compliance",
+      "launch": 68,
+      "scale": 53
+    },
+    {
+      "date": "2026-07-27",
+      "market": "fuel-azs-rf",
+      "opportunity_id": "azs-nonfuel-booster",
+      "launch": 64,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "ai-hiring-for-smb",
+      "launch": 90,
+      "scale": 66
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "resume-tailor-bot",
+      "launch": 88,
+      "scale": 55
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "career-sprint",
+      "launch": 82,
+      "scale": 56
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "interview-trainer",
+      "launch": 76,
+      "scale": 45
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "no-show-guard",
+      "launch": 69,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "vacancy-market-analytics",
+      "launch": 62,
+      "scale": 55
+    },
+    {
+      "date": "2026-07-27",
+      "market": "hr-tech-rf",
+      "opportunity_id": "ghost-vacancy-filter",
+      "launch": 61,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "ai-media-planner",
+      "launch": 87,
+      "scale": 63
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "influence-agency-crm",
+      "launch": 86,
+      "scale": 68
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "rkn-registration-service",
+      "launch": 86,
+      "scale": 46
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "markirovka-pod-klyuch",
+      "launch": 84,
+      "scale": 52
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "fraud-check-smb",
+      "launch": 78,
+      "scale": 50
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "deal-guarantor-direct",
+      "launch": 68,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-27",
+      "market": "influencer-marketing-rf",
+      "opportunity_id": "max-placements-turnkey",
+      "launch": 83,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "legal-services-mass-rf",
+      "opportunity_id": "115fz-unblock-assistant",
+      "launch": 82,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-27",
+      "market": "legal-services-mass-rf",
+      "opportunity_id": "raздолжnitel-scam-checker",
+      "launch": 70,
+      "scale": 56
+    },
+    {
+      "date": "2026-07-27",
+      "market": "legal-services-mass-rf",
+      "opportunity_id": "bailiff-passivity-complaint-bot",
+      "launch": 73,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "legal-services-mass-rf",
+      "opportunity_id": "abandoned-llc-monitor",
+      "launch": 62,
+      "scale": 55
+    },
+    {
+      "date": "2026-07-27",
+      "market": "legal-services-mass-rf",
+      "opportunity_id": "inheritance-deadline-tracker",
+      "launch": 63,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "legal-services-mass-rf",
+      "opportunity_id": "property-division-negotiator",
+      "launch": 64,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "ai-direct-audit",
+      "launch": 90,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-27",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "micro-budget-direct",
+      "launch": 85,
+      "scale": 56
+    },
+    {
+      "date": "2026-07-27",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "retail-media-sellers",
+      "launch": 78,
+      "scale": 62
+    },
+    {
+      "date": "2026-07-27",
+      "market": "performance-marketing-rf",
+      "opportunity_id": "ai-client-reports",
+      "launch": 80,
+      "scale": 48
+    },
+    {
+      "date": "2026-07-27",
+      "market": "real-estate-agents-rf",
+      "opportunity_id": "agency-lead-engine",
+      "launch": 88,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-27",
+      "market": "real-estate-agents-rf",
+      "opportunity_id": "guest-house-compliance",
+      "launch": 78,
+      "scale": 52
+    },
+    {
+      "date": "2026-07-27",
+      "market": "real-estate-agents-rf",
+      "opportunity_id": "an-ai-receptionist",
+      "launch": 78,
+      "scale": 57
+    },
+    {
+      "date": "2026-07-27",
+      "market": "real-estate-agents-rf",
+      "opportunity_id": "call-audit-service",
+      "launch": 75,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "real-estate-agents-rf",
+      "opportunity_id": "white-rent-bot",
+      "launch": 66,
+      "scale": 67
+    },
+    {
+      "date": "2026-07-27",
+      "market": "real-estate-agents-rf",
+      "opportunity_id": "flat-rms",
+      "launch": 60,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-27",
+      "market": "road-logistics-rf",
+      "opportunity_id": "epd-transition-service",
+      "launch": 85,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-27",
+      "market": "road-logistics-rf",
+      "opportunity_id": "trip-margin-audit",
+      "launch": 83,
+      "scale": 67
+    },
+    {
+      "date": "2026-07-27",
+      "market": "road-logistics-rf",
+      "opportunity_id": "freight-claims-recovery",
+      "launch": 78,
+      "scale": 58
+    },
+    {
+      "date": "2026-07-27",
+      "market": "road-logistics-rf",
+      "opportunity_id": "loading-fraud-guard",
+      "launch": 77,
+      "scale": 60
+    },
+    {
+      "date": "2026-07-27",
+      "market": "road-logistics-rf",
+      "opportunity_id": "last-mile-invoice-audit",
+      "launch": 78,
+      "scale": 54
+    },
+    {
+      "date": "2026-07-27",
+      "market": "road-logistics-rf",
+      "opportunity_id": "small-fleet-dispatcher-copilot",
+      "launch": 71,
+      "scale": 55
     }
   ]
 }

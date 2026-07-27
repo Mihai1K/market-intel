@@ -8,7 +8,7 @@
     { "name": "Логистика последней мили и грузоперевозки", "slug": "road-logistics-rf", "status": "done" },
     { "name": "Недвижимость: агенты и аренда", "slug": "real-estate-agents-rf", "status": "done" },
     { "name": "Автосервисы и авторемонт", "slug": "auto-service-rf", "status": "done" },
-    { "name": "Массовые юридические услуги для физлиц и СМБ (банкротство, взыскание долгов, наследство, семейные споры, регистрация и ликвидация бизнеса, исполнительное производство) — тест архетипов Infrastructure of Trust, Compliance, Workflow Automation", "slug": null, "status": "todo" },
+    { "name": "Массовые юридические услуги для физлиц и СМБ (банкротство, взыскание долгов, наследство, семейные споры, регистрация и ликвидация бизнеса, исполнительное производство) — тест архетипов Infrastructure of Trust, Compliance, Workflow Automation", "slug": "legal-services-mass-rf", "status": "done" },
     { "name": "Салоны красоты и бьюти-услуги", "slug": null, "status": "todo" },
     { "name": "Общепит: кафе и доставка", "slug": null, "status": "todo" },
     { "name": "Онлайн-образование и EdTech", "slug": null, "status": "todo" },

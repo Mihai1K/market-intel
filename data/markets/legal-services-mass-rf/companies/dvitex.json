@@ -1,0 +1,66 @@
+{
+  "id": "dvitex",
+  "name": "Двитекс",
+  "legal_name": "ООО «Юридическая фирма «Двитекс»»",
+  "inn": "7722728666",
+  "website": "https://www.dvitex.ru",
+  "founded": 2010,
+  "segment": "регистрация/ликвидация бизнеса, банкротство, взыскание долгов (широкий профиль)",
+  "description": "Стабильная московская юрфирма широкого профиля с прозрачной публичной сеткой цен на все услуги рынка (регистрация, банкротство, взыскание, абонентское обслуживание) — редкий случай в базе, где тарифы не скрыты за капчей.",
+  "revenue": [
+    {
+      "value": 18.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ; 9 сотрудников",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1107746800490_7722728666_OOO-DVITEKS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 14.3,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1107746800490_7722728666_OOO-DVITEKS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 0.817,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ГИР БО ФНС (зеркало ЗаЧестныйБизнес)",
+      "source_url": "https://zachestnyibiznes.ru/company/ul/1107746800490_7722728666_OOO-DVITEKS",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Регистрация ООО от 20 000 ₽, ИП от 7000 ₽; внесудебное банкротство от 30 000 ₽, судебное от 90 000 ₽; взыскание с физлиц от 50 000 ₽, с юрлиц от 55 000 ₽; абонентское юробслуживание от 35 000 ₽/мес",
+      "price": "7000-90 000 ₽ по услугам",
+      "source_url": "https://www.dvitex.ru/tseny/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Свежие независимые жалобы 2025-2026 не найдены",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: наблюдаемых сигналов нет (правило №7 — нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://zachestnyibiznes.ru/company/ul/1107746800490_7722728666_OOO-DVITEKS",
+    "https://www.dvitex.ru/tseny/"
+  ],
+  "updated_at": "2026-07-18"
+}
