@@ -1,0 +1,59 @@
+{
+  "id": "barbarossa",
+  "name": "Барбаросса",
+  "legal_name": "ООО «БАРБАРОССА»",
+  "inn": "9718118125",
+  "website": "https://f-barbarossa.ru/",
+  "founded": 2018,
+  "segment": "барбершоп (небольшая сеть)",
+  "description": "Небольшая барбершоп-сеть с полным 5-летним рядом финансов (редкость для данного рынка) — стабильный рост выручки 2021-2024, но первый убыточный год именно в 2025 несмотря на рост выручки. Штат головного юрлица — всего 5 человек, план развития до 50 франшизных точек — плановая цифра, не факт.",
+  "revenue": [
+    {
+      "value": 44.3,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/barbarossa-1187746872895",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 19.9,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/barbarossa-1187746872895",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -2.8,
+      "unit": "млн руб (убыток, первый год из известного ряда)",
+      "period": "2025",
+      "basis": "РСБУ — прибыльна в 2022-2024 (0,5 / 0,8 / 1,2 млн ₽)",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/barbarossa-1187746872895",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "data_gaps": [
+    "Тарифы франшизы не собраны в этом проходе",
+    "Клиентские жалобы не собраны в этом проходе",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/barbarossa-1187746872895",
+    "https://f-barbarossa.ru/"
+  ],
+  "updated_at": "2026-07-18"
+}

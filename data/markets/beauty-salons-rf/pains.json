@@ -1,0 +1,398 @@
+{
+  "description": "Боли рынка салонов красоты и бьюти-услуг РФ. Собрано 2026-07-18. Research-агент нашёл 19 кластеров (38 верифицированных упоминаний); из них честно исключены: 2 гипотезы без единого найденного источника (недоверие к новому мастеру, долгое ожидание без записи — не натянуты слабой ссылкой) и 2 кластера с реальными цитатами, но выведенные из скоупа как межличностные/психологические, не продуктовые (конфликт мастера-арендатора с администратором за условия аренды; страх мастера испортить работу клиенту). В базе — 16 кластеров, 33 упоминания.",
+  "pains": [
+    {
+      "id": "master-steals-client-base",
+      "statement": "Владелец теряет постоянных клиентов, когда мастер увольняется или уходит работать «на себя» — лояльность в бьюти привязана к мастеру, а не к салону, а контакты клиентов хранятся в личном телефоне/WhatsApp мастера, а не в системе, принадлежащей салону",
+      "role": "владелец салона",
+      "mentions_found": 4,
+      "links": [
+        "https://sberbusiness.live/publications/kak-uberech-bazu-klientov-i-uderzhat-mastera-v-salone-krasoty-instruktsiia",
+        "https://flacon-magazine.com/lyudi/lichny-opyt/8517263-ne-prosto-poschitali-kak-zhivut-salony-krasoty-v-malenkikh-rossyskikh-gorodakh",
+        "https://vk.com/wall-11352649_17444",
+        "https://eva.ru/beauty/messages-3648532.htm"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Момент объявления мастера об увольнении/уходе на аренду — гонка «кто первый заберёт контакты клиентов»; фоновая структурная боль отрасли все 25-30 лет её существования в России",
+      "who_pays_now": "Никто системно не решает — владелец либо теряет базу молча, либо (редко) судится с мастером за переманивание, юридически клиент «ничей»",
+      "why_unsolved": "Телефон и WhatsApp мастера де-факто становятся теневой CRM салона; нет привычки и инструмента изолировать контакт клиента от личного канала мастера",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Чаще всего мастера уводят базу, когда понимают, что им за это ничего не грозит. Увод базы мастером — основная проблема салонов красоты, существующая все 25-30 лет этого бизнеса в России",
+          "source_url": "https://sberbusiness.live/publications/kak-uberech-bazu-klientov-i-uderzhat-mastera-v-salone-krasoty-instruktsiia"
+        },
+        {
+          "text": "Специалист зарекомендовал себя перед гостями в салоне, а потом ушёл работать в тот самый кабинет, забирая часть клиентов",
+          "source_url": "https://flacon-magazine.com/lyudi/lichny-opyt/8517263-ne-prosto-poschitali-kak-zhivut-salony-krasoty-v-malenkikh-rossyskikh-gorodakh"
+        }
+      ]
+    },
+    {
+      "id": "staff-turnover-and-hiring",
+      "statement": "Владельцу сложно находить и удерживать квалифицированных мастеров — дефицит кадров и конкуренция за специалистов между салонами",
+      "role": "владелец салона",
+      "mentions_found": 2,
+      "links": [
+        "https://flacon-magazine.com/lyudi/lichny-opyt/8517263-ne-prosto-poschitali-kak-zhivut-salony-krasoty-v-malenkikh-rossyskikh-gorodakh"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль, обостряется примерно через полгода после открытия салона по наблюдениям владельцев",
+      "who_pays_now": "Никак системно — решают личными связями и переплатой относительно рынка",
+      "why_unsolved": "Малый город/район — узкий локальный рынок труда, формальный HR-скрининг не окупается для 2-10 кресел",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Одним из наиболее сложных аспектов является поиск квалифицированного персонала. В маленьком городе часто сложно объяснить мастерам, что работа на процент может быть даже выгоднее, чем работа на аренде",
+          "source_url": "https://flacon-magazine.com/lyudi/lichny-opyt/8517263-ne-prosto-poschitali-kak-zhivut-salony-krasoty-v-malenkikh-rossyskikh-gorodakh"
+        }
+      ]
+    },
+    {
+      "id": "consumables-theft",
+      "statement": "Персонал ворует расходники (краски, лаки, материалы) — обнаруживается только при инвентаризации, приводит к кассовым разрывам",
+      "role": "владелец салона",
+      "mentions_found": 1,
+      "links": [
+        "https://yookassa.ru/recipes/start-biznesa/kak-uchityvat-raskhodniki-v-salone-krasoty/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, обнаруживается обычно при плановой инвентаризации или кассовом разрыве в конце месяца",
+      "who_pays_now": "Никак системно — рекомендация индустрии: видеокамеры и регулярная инвентаризация",
+      "why_unsolved": "Учёт расходников по чек-листу услуги требует дисциплины ввода данных, которую малые салоны не соблюдают",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "home-master-price-dumping",
+      "statement": "Клиенты массово уходят к самозанятым мастерам на дому, которые на 10-15% дешевле салона — потому что не платят НДС/аренду/штат, разрыв резко увеличился после налоговой реформы 2026",
+      "role": "владелец салона",
+      "mentions_found": 1,
+      "links": [
+        "https://ura.news/news/1053093466"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Вступление в силу налоговой реформы 01.01.2026 — снижение порога освобождения от НДС для УСН до 20 млн ₽/год резко увеличило разрыв цены легального салона-юрлица и самозанятого мастера именно сейчас",
+      "who_pays_now": "Никак не решают структурно — владелец либо снижает маржу, либо теряет клиентов, либо сам уходит в самозанятость",
+      "why_unsolved": "Разница в налоговом режиме — структурное преимущество самозанятых, которое не обойти софтом",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Салоны с оборотом свыше 20 млн рублей «попали» на НДС. Это создало беспрецедентный перекос между работой легального салона красоты и самозанятого мастера. Клиенты голосуют рублём, они закономерно выбирают те [услуги], которые на 10-15% дешевле, чем в салоне",
+          "source_url": "https://ura.news/news/1053093466"
+        }
+      ]
+    },
+    {
+      "id": "notebook-instead-of-crm",
+      "statement": "Запись клиентов ведётся в тетради/блокноте или по памяти — пропущенные звонки, двойные записи на одно время, хаос при росте до 2-3 мастеров",
+      "role": "владелец салона",
+      "mentions_found": 1,
+      "links": [
+        "https://aibusinessbot.ru/ot-haosa-k-poryadku-kak"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, но остро обостряется в момент роста салона до 2-3 мастеров (ручной учёт «превращается в источник хаоса»)",
+      "who_pays_now": "Часть рынка уже платит YCLIENTS/DIKIDI (см. companies) — боль актуальна для оставшихся 48% салонов без онлайн-записи",
+      "why_unsolved": "Владельцы малых салонов недооценивают масштаб потерь до конкретного инцидента (двойная запись, пропущенный звонок)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Я просыпалась от звонка клиента в 7 утра и отвечала на последний звонок в 11 вечера. Однажды к нам пришли две клиентки на одно и то же время к одному мастеру. Я перепутала дни",
+          "source_url": "https://aibusinessbot.ru/ot-haosa-k-poryadku-kak"
+        }
+      ]
+    },
+    {
+      "id": "fake-reviews-from-competitors",
+      "statement": "Конкуренты накручивают негативные отзывы или фейковые аккаунты атакуют карточку салона на агрегаторах, что снижает рейтинг и приток клиентов",
+      "role": "владелец салона",
+      "mentions_found": 1,
+      "links": [
+        "https://minusotzyv.ru/blog/reputaciya-salon-krasoty.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Частично конкретный — всплеск обычно триггерится открытием конкурента по соседству или сезонной акцией",
+      "who_pays_now": "Услуги по управлению репутацией (агентства) — дорого и не системно для малого салона",
+      "why_unsolved": "Нет доступного мониторинга/авто-жалобы для малого бизнеса, только консультационные услуги агентств",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "За последнюю неделю появилось 8 отзывов от новых аккаунтов, ни один из этих людей не записывался к нам",
+          "source_url": "https://minusotzyv.ru/blog/reputaciya-salon-krasoty.html"
+        }
+      ]
+    },
+    {
+      "id": "rospotrebnadzor-fines",
+      "statement": "Штрафы Роспотребнадзора за нарушения СанПиН, отсутствие маркировки, санитарных книжек — от 10 до 200 тыс ₽ в зависимости от статуса (ИП/юрлицо)",
+      "role": "владелец салона",
+      "mentions_found": 1,
+      "links": [
+        "https://nakedtechnologies.org/proverka-v-salone-krasoty-kak-podgotovitsya-i-izbezhat-shtrafov/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Уведомление о плановой проверке за 3 суток до визита Роспотребнадзора — конкретный дедлайн «завтра проверка»",
+      "who_pays_now": "Штраф платится постфактум; превентивно — никак системно, кроме памяти владельца",
+      "why_unsolved": "Нет доступного чек-листа/бота подготовки под конкретный список требований для малого салона",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "chair-rental-vacancy",
+      "statement": "Кресло простаивает и аренда не окупается, когда арендатор-мастер съезжает и забирает свою базу — конфликт между штатными сотрудниками на проценте и арендаторами, у которых иная мотивация",
+      "role": "владелец салона",
+      "mentions_found": 1,
+      "links": [
+        "https://www.daxocrm.ru/blog/arenda-kresla-ili-procent"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, обостряется в момент, когда арендатор объявляет об уходе",
+      "who_pays_now": "Никак системно — владелец ищет нового арендатора вручную, через знакомых/объявления",
+      "why_unsolved": "Нет специализированного маркетплейса подбора временных/постоянных арендаторов кресла",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Если арендатор съезжает, он забирает всю свою базу с собой, и место простаивает. Арендаторы приходят и уходят когда хотят, а штатные сотрудники видят эту «свободу» и начинают демотивироваться",
+          "source_url": "https://www.daxocrm.ru/blog/arenda-kresla-ili-procent"
+        }
+      ]
+    },
+    {
+      "id": "master-unstable-income",
+      "statement": "Мастер-арендатор сам оплачивает материалы и место, даже если сидит без записей — нестабильный доход при фиксированных расходах на аренду",
+      "role": "мастер (арендатор/самозанятый)",
+      "mentions_found": 1,
+      "links": [
+        "https://www.daxocrm.ru/blog/arenda-kresla-ili-procent"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, обостряется в низкий сезон",
+      "who_pays_now": "Мастер платит фиксированной арендой без гарантированного дохода",
+      "why_unsolved": "Нет инструмента предиктивного маркетинга для заполнения пустых окон расписания",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Мастер сам оплачивает материалы, ищет клиентов и платит за место, даже если сидит без записей",
+          "source_url": "https://www.daxocrm.ru/blog/arenda-kresla-ili-procent"
+        }
+      ]
+    },
+    {
+      "id": "new-master-zero-clients",
+      "statement": "У начинающего мастера или мастера, сменившего салон, нет клиентов «с нуля» — приходится нарабатывать базу заново",
+      "role": "мастер (арендатор/самозанятый)",
+      "mentions_found": 2,
+      "links": [
+        "https://www.woman.ru/psycho/career/thread/5744291/",
+        "https://nailart.online/6-prichin-pochemu-net-klientov-u-mastera-manikyura"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "День ухода из найма или смены салона — ноль клиентов «с нуля» начиная с этой даты",
+      "who_pays_now": "Мастер сам продвигается в соцсетях/через сарафанное радио — без системного инструмента",
+      "why_unsolved": "Нет партнёрской программы/лид-магнита для новых мастеров, встроенного в CRM или агрегатор",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Устроилась мастером маникюра в студию, за первый месяц-стажировку приняла около 15...",
+          "source_url": "https://www.woman.ru/psycho/career/thread/5744291/"
+        }
+      ]
+    },
+    {
+      "id": "self-employed-tax-tracking",
+      "statement": "Самозанятому мастеру сложно отслеживать годовой лимит дохода 2,4 млн ₽ и не копится пенсионный стаж на НПД",
+      "role": "мастер (арендатор/самозанятый)",
+      "mentions_found": 1,
+      "links": [
+        "https://ecolespb.ru/blog/poleznye-stati/samozanjatost-kak-bjuti-masteru-oformit-biznes-i-platit-nalogi"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Частично конкретный — приближение к годовому лимиту 2,4 млн ₽ либо дата уплаты налога (25 число месяца)",
+      "who_pays_now": "Никак — мастера следят вручную или узнают о превышении постфактум",
+      "why_unsolved": "Нет простого автоматического трекера лимита, интегрированного с приложением «Мой налог»",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 1,
+      "quotes": []
+    },
+    {
+      "id": "botched-service-result",
+      "statement": "Результат услуги (окрашивание, стрижка, маникюр) не соответствует ожиданиям или испорчен — клиент теряет деньги и время на переделку, а салон не признаёт вину без объективных доказательств",
+      "role": "клиент",
+      "mentions_found": 6,
+      "links": [
+        "https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/",
+        "https://msk.beauty-firmika.ru/__salon_krasoty_otzyvy",
+        "https://otzovikon.com/category/117/salony-krasoty",
+        "https://www.sravni.ru/q/klientka-isportila-pokrytie-i-trebuet-vernut-dengi-51124/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Момент самой процедуры/сразу после неё — «сегодня узнал(а), что результат испорчен»",
+      "who_pays_now": "Клиент — деньгами и временем на переделку в другом месте, часто без возврата",
+      "why_unsolved": "Нет объективного способа доказать вину мастера постфактум — спор превращается в «слово против слова»",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Пришла на покраску бровей... мастер меня уверил, что будут коричневые, итог — брови покрашены все в крапинку и чёрные",
+          "source_url": "https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/"
+        },
+        {
+          "text": "Обкромсали грубо и не так... вместо 50 см шикарных волос имею бесформенные обрубыши",
+          "source_url": "https://otzovikon.com/category/117/salony-krasoty"
+        }
+      ]
+    },
+    {
+      "id": "last-minute-cancellation",
+      "statement": "Салон или мастер отменяет запись в последний момент, часто перед важным для клиента событием — клиент теряет подготовленное время и не успевает найти замену",
+      "role": "клиент",
+      "mentions_found": 2,
+      "links": [
+        "https://msk.beauty-firmika.ru/__salon_krasoty_otzyvy",
+        "https://eva.ru/beauty/messages-3648532.htm"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Отмена перед конкретным важным событием клиента (задокументированный пример — перед Новым годом)",
+      "who_pays_now": "Клиент — потерянным временем; салон — репутацией в отзывах",
+      "why_unsolved": "Нет системы листа ожидания и депозита, которая делала бы отмену дорогой для салона так же, как для клиента",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Администратор позвонила за 2,5 часа до визита и отменила запись, сказав, что краска не пришла — это произошло перед Новым годом, когда клиентка специально ехала из МО",
+          "source_url": "https://msk.beauty-firmika.ru/__salon_krasoty_otzyvy"
+        }
+      ]
+    },
+    {
+      "id": "cant-book-fast",
+      "statement": "Невозможно быстро записаться — нет кнопки онлайн-записи на сайте, дозвониться сложно, а в рабочее время администратор может хамить или не отвечать",
+      "role": "клиент",
+      "mentions_found": 3,
+      "links": [
+        "https://vc.ru/id6040916/3024518-polovina-salonov-krasoty-peterburga-ne-imeet-onlajn-zapisi",
+        "https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — структурная вечнозелёная проблема (48% рынка), но остро ощущается в момент, когда клиенту нужно записаться срочно",
+      "who_pays_now": "Часть рынка уже платит YCLIENTS/DIKIDI за онлайн-запись — боль актуальна для оставшихся салонов без неё",
+      "why_unsolved": "48% салонов физически не имеют иного канала кроме дозвона в рабочие часы — «немой» отток без сигнала владельцу",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "48% салонов — записаться нельзя. Ни кнопки, ни виджета. Хочешь к мастеру — звони в рабочее время",
+          "source_url": "https://vc.ru/id6040916/3024518-polovina-salonov-krasoty-peterburga-ne-imeet-onlajn-zapisi"
+        }
+      ]
+    },
+    {
+      "id": "hidden-price-upsell-pressure",
+      "statement": "Цена на сайте отличается от фактической в кресле, мастер навязывает дорогостоящий уход под предлогом «как у вас всё запущено» — клиент узнаёт реальную сумму только при оплате",
+      "role": "клиент",
+      "mentions_found": 4,
+      "links": [
+        "https://aif.ru/money/mymoney/razvod_v_parikmaherskoy_kak_salony_krasoty_obmanyvayut_svoih_klientov",
+        "https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/",
+        "https://otzovikon.com/category/117/salony-krasoty"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, вскрывается в момент оплаты «сегодня»",
+      "who_pays_now": "Клиент — переплатой в моменте, узнаёт об этом слишком поздно, чтобы отказаться без конфликта",
+      "why_unsolved": "Нет фиксации прайса в CRM с запретом на устное изменение цены без явного подтверждения клиента",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "В назначенное время вы усаживаетесь поудобнее в кресле, а мастер разводит совсем не ту краску, которая была заявлена... фраза «как у вас всё запущено» в большинстве случаев является лишь поводом добавить к вашему счёту пару-тройку тысяч",
+          "source_url": "https://aif.ru/money/mymoney/razvod_v_parikmaherskoy_kak_salony_krasoty_obmanyvayut_svoih_klientov"
+        }
+      ]
+    },
+    {
+      "id": "rude-administrator",
+      "statement": "Хамство и грубость администратора на ресепшен — перепутанные записи, грубые обвинения клиента, отказ идти навстречу — приводит к уходу постоянных клиентов",
+      "role": "клиент",
+      "mentions_found": 4,
+      "links": [
+        "https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/",
+        "https://msk.beauty-firmika.ru/__salon_krasoty_otzyvy"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная",
+      "who_pays_now": "Никак не решают системно — человеческий фактор, зависит от конкретного администратора",
+      "why_unsolved": "Нет скриптов/рейтинга сотрудников по отзывам, привязанного к мотивации администратора",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Недовольные, отгрызающийся старший администратор на ресепшен. Недовольный, хамоватый админ на втором ресепшен",
+          "source_url": "https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/"
+        },
+        {
+          "text": "Администратор в грубой форме обвинила клиентку: «после Вас всё было изгажено»",
+          "source_url": "https://msk.beauty-firmika.ru/__salon_krasoty_otzyvy"
+        }
+      ]
+    }
+  ]
+}

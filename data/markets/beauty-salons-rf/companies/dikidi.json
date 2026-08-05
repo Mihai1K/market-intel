@@ -1,0 +1,59 @@
+{
+  "id": "dikidi",
+  "name": "DIKIDI",
+  "legal_name": "ООО «Интернет-Технологии»",
+  "inn": "7604249353",
+  "website": "https://dikidi.ru",
+  "founded": 2013,
+  "segment": "CRM/онлайн-запись — главный конкурент YCLIENTS у мелких игроков",
+  "description": "Второй по значимости CRM-игрок рынка, более 100 000 компаний-клиентов, бесплатный безлимитный по числу сотрудников базовый тариф — прямой конкурент любой идеи «booking-бот для мелких салонов». Быстрый рост выручки и прибыли, но нативных AI-функций не анонсировано (явное отставание от экосистемы YCLIENTS+сторонние AI-боты). В 2023 — утечка почти 100 тыс. записей пользователей.",
+  "revenue": [
+    {
+      "value": 632,
+      "unit": "млн руб (+60% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/internet-tekhnologii-1137604014470",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 283.4,
+      "unit": "млн руб (+115% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/internet-tekhnologii-1137604014470",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Базовый тариф — 0 ₽/мес, бессрочно, без ограничения по числу сотрудников (запись, клиентская база, PUSH/SMS/Telegram/WhatsApp-уведомления). Платные тарифы LITE/PRO/VIP — цены не опубликованы на официальных страницах",
+      "price": "0 ₽/мес (базовый)",
+      "source_url": "https://support.dikidi.net/ru/knowledge-bases/4/articles/827-chto-vhodit-v-besplatnyij-bazovyij-tarif-dikidi",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Шаблонные ответы техподдержки, доработки занимают месяцы", "source_url": "https://crmindex.ru/products/dikidi/reviews" },
+    { "complaint": "Утечка 99 999 записей пользователей (имена, телефоны, email, пароли SHA-256) в открытый доступ, 17.10.2023", "source_url": "https://www.anti-malware.ru/news/2023-10-17-111332/42121" }
+  ],
+  "data_gaps": [
+    "Точные цены платных тарифов LITE/PRO/VIP не публикуются",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: официальных анонсов AI-функций не найдено даже в последнем релиз-ноуте (февраль 2026) — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/internet-tekhnologii-1137604014470",
+    "https://support.dikidi.net/ru/knowledge-bases/4/articles/760-kak-rabotaet-servis-dikidi",
+    "https://support.dikidi.net/ru/knowledge-bases/4/articles/1401-reliz-obnovlenij-dikidi-fevral-2026"
+  ],
+  "updated_at": "2026-07-18"
+}

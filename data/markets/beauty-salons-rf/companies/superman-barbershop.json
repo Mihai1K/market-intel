@@ -1,0 +1,71 @@
+{
+  "id": "superman-barbershop",
+  "name": "Супермен (Superman)",
+  "legal_name": "ООО «Супер Стрижки»",
+  "inn": "9717019354",
+  "website": "https://supermancut.ru/",
+  "founded": 2016,
+  "segment": "барбершоп («умный барбершоп»)",
+  "description": "150+ точек в 25 городах РФ. Полный 5-летний ряд финансов показывает устойчивое СНИЖЕНИЕ выручки и прибыли каждый год подряд с 2021 по 2025 — редкий честный пример сети, которая держится на масштабе точек, но теряет экономику головного юрлица год к году.",
+  "revenue": [
+    {
+      "value": 72.5,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/super-strizhki-1167746266929",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 59.0,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — снижение 5 лет подряд: 72,5 → 70,2 → 66,7 → 62,8 → 59,0",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/super-strizhki-1167746266929",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 4.2,
+      "unit": "млн руб",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/super-strizhki-1167746266929",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 0.4,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ — падение прибыли 5 лет подряд: 4,2 → 3,9 → 3,1 → 2,8 → 0,4",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/super-strizhki-1167746266929",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "data_gaps": [
+    "supermancut.ru отвечает на HTTP (301 редирект на HTTPS, домен жив), но прямое HTTPS-соединение не устанавливается в проверяющем окружении — вероятно TLS-несовместимость на стороне проверки, не смерть сайта",
+    "Тарифы франшизы не собраны в этом проходе",
+    "Клиентские жалобы не собраны в этом проходе",
+    "Причина устойчивого 5-летнего снижения выручки/прибыли не исследована (насыщение рынка барбершопов? конкуренция BORODACH/Барбаросса? рост издержек?)",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/super-strizhki-1167746266929"
+  ],
+  "updated_at": "2026-07-18"
+}

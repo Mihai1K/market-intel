@@ -1,0 +1,56 @@
+{
+  "id": "tochka-krasoty",
+  "name": "Точка Красоты",
+  "legal_name": "ООО «Точка» (франчайзор, держатель товарного знака)",
+  "inn": "7705991579",
+  "website": "https://businessmens.ru/franchise/tochka-krasoty-1350",
+  "founded": 2012,
+  "segment": "сеть салонов эконом/бизнес-сегмента (франшиза)",
+  "description": "200+ салонов в 27-30 городах РФ, часть холдинга MONE (25 лет на рынке, своя косметика, академия MONE — 700+ студентов/мес). Финансы ниже — это поток роялти франчайзора (393 лицензионных договора на товарный знак), а НЕ консолидированная выручка сети — её собирают независимые франчайзи-юрлица/ИП в каждом городе отдельно.",
+  "revenue": [
+    {
+      "value": 173.0,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, поток роялти франчайзора (не выручка всей сети салонов)",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/tochka-1127746551107",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 95.7,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, франчайзор",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/tochka-1127746551107",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный взнос 350-700 тыс ₽, роялти 3-5% в зависимости от города, общие инвестиции от 3,5 млн ₽, окупаемость от 24 мес.",
+      "price": "от 3,5 млн ₽ инвестиций",
+      "source_url": "https://businessmens.ru/franchise/tochka-krasoty-1350",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Клиентские жалобы с рабочим URL не подтверждены в рамках сессии (otzovik.com отдавал 507)",
+    "Консолидированная выручка сети (по рейтингу BUYBRAND ~3,9 млрд ₽ за 2025 у всех франчайзи) — независимый источник с методологией не проверен напрямую",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/tochka-1127746551107",
+    "https://businessmens.ru/franchise/tochka-krasoty-1350",
+    "https://franshiza.ru/franchise/read/tochka/"
+  ],
+  "updated_at": "2026-07-18"
+}

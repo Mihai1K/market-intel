@@ -1,0 +1,35 @@
+{
+  "id": "nail-sunny",
+  "name": "Nail Sunny",
+  "legal_name": "ИП Абдуллаева Сюзанна Сергеевна",
+  "inn": "504911255220",
+  "website": "https://franshiza.ru/franchise/read/nail_sunny/",
+  "founded": 2013,
+  "segment": "премиум ногтевой сервис (всемирно известный бренд)",
+  "description": "Премиум-маникюр с мировой известностью через Instagram (рост с 8 до 1100 клиентов/день на пике), 9-11 салонов (Москва, СПб, Лос-Анджелес). Финансы недоступны в принципе — оформлена как ИП, не подаёт отчётность РСБУ в ГИР БО ФНС. Отзывы показывают разрыв между глобальной известностью бренда и реальным качеством обслуживания в конкретных салонах.",
+  "revenue": [],
+  "net_profit": [],
+  "pricing": [
+    {
+      "plan": "Франшиза: формат на 10-15 мастеров, средний чек 2500 ₽, заявленная рентабельность до 45%, минимальный порог входа от 1,9 млн ₽",
+      "price": "от 1,9 млн ₽ порог входа",
+      "source_url": "https://franshiza.ru/franchise/read/nail_sunny/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Низкое качество работы мастеров — неровное покрытие, затёкший лак", "source_url": "https://zoon.ru/msk/beauty/salon_krasoty_nail_sunny_v_rajone_arbat/reviews/" },
+    { "complaint": "Грубое обслуживание — мастер «пропадает», надменное отношение персонала", "source_url": "https://zoon.ru/msk/beauty/salon_krasoty_nail_sunny_v_rajone_arbat/reviews/" },
+    { "complaint": "Антисанитария — грязные полотенца после предыдущих клиентов, грязные инструменты", "source_url": "https://zoon.ru/msk/beauty/salon_krasoty_nail_sunny_v_rajone_arbat/reviews/" }
+  ],
+  "data_gaps": [
+    "Финансы недоступны принципиально — ИП не подаёт отчётность в ГИР БО ФНС",
+    "Жалобы сотрудников на переработки и невыплаченные бонусы найдены на dreamjob.ru, но не включены как top_complaints (это отзывы о работодателе, не о качестве услуги)",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://franshiza.ru/franchise/read/nail_sunny/",
+    "https://zoon.ru/msk/beauty/salon_krasoty_nail_sunny_v_rajone_arbat/reviews/"
+  ],
+  "updated_at": "2026-07-18"
+}

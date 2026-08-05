@@ -1,0 +1,59 @@
+{
+  "id": "zoon",
+  "name": "Zoon.ru",
+  "legal_name": "ООО «ЗУН»",
+  "inn": "7734350788",
+  "website": "https://zoon.ru/",
+  "founded": 2015,
+  "segment": "агрегатор/каталог организаций и отзывов (freemium)",
+  "description": "Универсальный каталог-агрегатор с отзывами, 32,5 млн посетителей/мес, 61 млн отзывов на платформе. Монетизация — freemium: бесплатная карточка + платное продвижение (минимум 3 мес контракта в конкурентных категориях). Как и Профи.ру, пережил разворот из убытка в прибыль (2023→2025), но с системными жалобами на навязчивую продажу продвижения без гарантий результата.",
+  "revenue": [
+    {
+      "value": 1300,
+      "unit": "млн руб (-2% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/zun-1157746291878",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 122.3,
+      "unit": "млн руб (+31% г/г)",
+      "period": "2025",
+      "basis": "РСБУ — 2023 был убыточным (-275,9 млн ₽), 2024 — прибыль 94 млн ₽",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/zun-1157746291878",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Бесплатное размещение карточки + платные премиум-пакеты продвижения (минимум 3 мес в конкурентных категориях). Точные B2B-цены не публикуются на официальной странице (только категории для конечных клиентов)",
+      "price": "не публикуется (B2B)",
+      "source_url": "https://zoon.ru/msk/price/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Навязчивая продажа премиум-продвижения без гарантированного результата, «продают воздух»", "source_url": "https://habr.com/ru/articles/589717/" },
+    { "complaint": "Отсутствие обязательств по факту продвижения в договоре", "source_url": "https://irecommend.ru/content/zoon-ne-rabotaet-v-kachestve-prodvizheniya-vashego-biznesa" }
+  ],
+  "data_gaps": [
+    "Точные B2B-тарифы продвижения не публичны",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness: единственный найденный сигнал — «автоматический анализатор» отзывов на аномалии/накрутки, но неясно, ML это или rule-based антифрод-система (термин неоднозначен в первоисточнике) — оценён консервативно как слабый сигнал"
+  ],
+  "sources": [
+    "https://checko.ru/company/zun-1157746291878",
+    "https://zoon.ru/corp/activation/",
+    "https://zoon.ru/support/otzyvy/pravila_raboty_s_otzyvami_na_zoon/"
+  ],
+  "updated_at": "2026-07-18"
+}

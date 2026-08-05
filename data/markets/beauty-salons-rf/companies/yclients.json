@@ -1,0 +1,61 @@
+{
+  "id": "yclients",
+  "name": "YCLIENTS",
+  "legal_name": "ООО «Уайклаентс»",
+  "inn": "7708274185",
+  "website": "https://www.yclients.com/beauty-salon",
+  "founded": 2015,
+  "segment": "CRM/онлайн-запись — лидер рынка",
+  "description": "Абсолютный лидер CRM/booking-софта для бьюти-индустрии: по собственному заявлению, «90% сетевых салонов красоты в России работают на YCLIENTS», 55 000 клиентов по всем отраслям, GMV клиентов 442 млрд ₽ за 2025 (+20% г/г). Прямое подтверждение архетипа «платформа поглощает надстройки» для этого рынка: почти любая CRM/booking-идея здесь конкурирует не с пустым полем, а с монополистом.",
+  "revenue": [
+    {
+      "value": 2000,
+      "unit": "млн руб (оценка по РСБУ, +43% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/uayklaents-5157746100716",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 302.3,
+      "unit": "млн руб (+1411% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/uayklaents-5157746100716",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Бьюти-тариф от 960 ₽/мес (официальный лендинг); сторонние каталоги (не первоисточник) называют диапазон 412-4971 ₽/мес по тарифам «Мастер»/«Старт»/«Стандарт»/«Лидер»",
+      "price": "от 960 ₽/мес",
+      "source_url": "https://www.yclients.com/beauty-salon",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Беспомощная служба поддержки — переадресует к другой службе в 10 из 10 случаев", "source_url": "https://crmindex.ru/products/yclients/reviews" },
+    { "complaint": "Технический баг с некорректным отображением НДС в чеках не исправляется месяцами — налоговые риски для клиента", "source_url": "https://crmindex.ru/products/yclients/reviews" }
+  ],
+  "data_gaps": [
+    "Точные официальные тарифы всех планов — страница цен рендерится через JS, не извлекается",
+    "LTV/CAC/churn юрлица не публикуются",
+    "Расхождение чистой прибыли 2024 между Checko.ru и audit-it.ru — причина не установлена",
+    "AI Readiness не оценён: наблюдаемых нативных AI-сигналов нет, только сторонние интеграции (Jivo AI, Nextbot) поверх открытого API — правило №7 (нет прямого сигнала вендора, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/uayklaents-5157746100716",
+    "https://www.yclients.com/info/about",
+    "https://www.yclients.com/beauty-salon",
+    "https://crmindex.ru/products/yclients/reviews"
+  ],
+  "updated_at": "2026-07-18"
+}

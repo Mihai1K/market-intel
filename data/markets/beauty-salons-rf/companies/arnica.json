@@ -1,0 +1,57 @@
+{
+  "id": "arnica",
+  "name": "Арника (Arnica)",
+  "legal_name": "ООО «Альянс АйТи Технолоджи»",
+  "inn": "6686015778",
+  "website": "https://arnica.pro/",
+  "founded": 2012,
+  "segment": "CRM для салонов — устойчивый региональный нишевый игрок",
+  "description": "Третий заметный CRM-игрок: 4000 салонов-клиентов в 253 городах РФ и СНГ, 4,3 млн визитов в год. Цены не публикуются — только индивидуальное предложение по заявке. Быстрый рост штата и выручки на фоне устойчивого спроса на автоматизацию учёта расходников.",
+  "revenue": [
+    {
+      "value": 271.1,
+      "unit": "млн руб (+33% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/alyans-ayti-tekhnolodzhi-1126686019239",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 55.2,
+      "unit": "млн руб (+51% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/alyans-ayti-tekhnolodzhi-1126686019239",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Цена зависит от числа мастеров-исполнителей, администраторы работают бесплатно, весь функционал доступен на любом тарифе, есть рассрочка — точные цифры не публикуются, только форма «получить индивидуальное предложение»",
+      "price": "не публикуется",
+      "source_url": "https://arnica.pro/prices",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Топ-жалобы не найдены в открытых источниках за отведённое время сессии",
+    "Точные цены тарифов не публикуются",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/alyans-ayti-tekhnolodzhi-1126686019239",
+    "https://arnica.pro/",
+    "https://arnica.pro/capabilities/uchet"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "4hands",
+  "name": "4hands",
+  "legal_name": "ООО «Маркет Франшиз»",
+  "inn": "5406975977",
+  "website": "https://franshiza.ru/franchise/read/4hands/",
+  "founded": 2008,
+  "segment": "крупнейшая сеть студий маникюра/педикюра РФ",
+  "description": "220+ открытых филиалов в 20+ городах РФ. Заявленная франчайзором экономика точки (выручка ~1,9 млн ₽/мес, прибыль ~458 тыс ₽/мес) выглядит сильной, но выручка и прибыль головного франчайзингового юрлица снижаются год к году (2024→2025) — расхождение между заявленной экономикой точки и трендом франчайзора стоит иметь в виду.",
+  "revenue": [
+    {
+      "value": 118,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ, франчайзор — снижение с 144 млн ₽ в 2024",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/market-franshiz-1175476058196",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 5.1,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/market-franshiz-1175476058196",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: инвестиции от 3,1 млн ₽, открытие «под ключ» за 45 дней, средний чек 2680 ₽, заявленная выручка точки ~1,9 млн ₽/мес, чистая прибыль точки ~458 тыс ₽/мес (данные франчайзора)",
+      "price": "от 3,1 млн ₽ инвестиций",
+      "source_url": "https://businessmens.ru/franchise/4hands---salon-manikyura-i-pedikyura-1286",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Топ-3 клиентские жалобы с рабочим URL не собраны в рамках сессии",
+    "Расхождение между заявленной экономикой точки франчайзором и снижением выручки самого франчайзора год к году не объяснено",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)"
+  ],
+  "sources": [
+    "https://checko.ru/company/market-franshiz-1175476058196",
+    "https://businessmens.ru/franchise/4hands---salon-manikyura-i-pedikyura-1286",
+    "https://franshiza.ru/franchise/read/4hands/"
+  ],
+  "updated_at": "2026-07-18"
+}
