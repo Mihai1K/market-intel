@@ -1,0 +1,53 @@
+{
+  "id": "r-keeper",
+  "name": "r_keeper",
+  "legal_name": "ООО «Компания ЮСИЭС» (UCS)",
+  "inn": "7701723040",
+  "website": "https://rkeeper.ru",
+  "founded": 1992,
+  "segment": "POS/автоматизация ресторанов — второй по значимости игрок",
+  "description": "Второй по значимости, но более медленно растущий игрок после iiko: более 75 000 заведений (заявлено самой компанией), доля рынка снизилась с ~80% (2013) до «более 30%» (2024, по собственной оценке). Разработчик — компания на рынке с 1992 года; в 2015 Rambler&Co приобрела 50% в UCS.",
+  "revenue": [
+    {
+      "value": 651,
+      "unit": "млн руб (+13% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Rusprofile.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.rusprofile.ru/id/257682",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 150.8,
+      "unit": "млн руб (-5% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Rusprofile.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.rusprofile.ru/id/257682",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Постоянно слетают модули, качество не соответствует цене, техподдержки фактически нет", "source_url": "https://a2is.ru/catalog/programmy-dlya-kafe-i-restoranov/rkeeper/reviews-rkeeper" },
+    { "complaint": "До техподдержки не дозвониться — звонок сбрасывается даже при первой позиции в очереди", "source_url": "https://a2is.ru/catalog/programmy-dlya-kafe-i-restoranov/rkeeper/reviews-rkeeper" },
+    { "complaint": "Выезд специалиста для устранения неисправностей занимает более суток", "source_url": "https://a2is.ru/catalog/programmy-dlya-kafe-i-restoranov/rkeeper/reviews-rkeeper" }
+  ],
+  "data_gaps": [
+    "Точные официальные тарифы не найдены — модель, по свидетельству отзывов, единоразовая лицензия, а не подписка",
+    "LTV/CAC/churn не публикуются",
+    "AI Readiness не оценён: официальный блог обсуждает AI на уровне мнений эксперта (вице-президент ФРиО), но конкретного запущенного AI-продукта (аналог Postie у Poster или ИИ-ассистента iiko) не найдено — правило №7 (нет прямого сигнала вендора, нет балла)"
+  ],
+  "sources": [
+    "https://rkeeper.ru/about/",
+    "https://rkeeper.ru/blog/iskusstvennyy-intellekt-v-restorane-khayp-ili-realnyy-instrument/",
+    "https://a2is.ru/catalog/programmy-dlya-kafe-i-restoranov/rkeeper/reviews-rkeeper"
+  ],
+  "updated_at": "2026-07-18"
+}

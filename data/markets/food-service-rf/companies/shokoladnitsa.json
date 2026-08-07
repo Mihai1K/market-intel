@@ -1,0 +1,72 @@
+{
+  "id": "shokoladnitsa",
+  "name": "Шоколадница",
+  "legal_name": "ООО «Галерея-Алекс»",
+  "inn": "7704520601",
+  "website": "https://shoko.ru",
+  "founded": 1964,
+  "segment": "кофейни — сеть в активном сжатии",
+  "description": "Редкий в базе честный пример сети в сжатии: с 270 до 236 заведений за 2025 год, ещё ~40 закрыто за первое полугодие 2026 (осталось ~200 точек). Валовая прибыль растёт (+10,8%), но чистая прибыль обвалилась на 93,1% в 2024 году, а связанное юрлицо «ШОКОЛАДНИЦА» (ИНН 5009051111) уже показывает прямой убыток.",
+  "revenue": [
+    {
+      "value": 8730,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ, ООО «Галерея-Алекс» (основной операционный держатель бренда)",
+      "source_name": "ABN.agency",
+      "source_url": "https://abn.agency/2026/06/02/osnovnoe-yurliczo-shokoladniczy-poluchilo-ubytok-1255-mln-rub-po-itogam-2025-goda/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 6.69,
+      "unit": "млн руб (−93,1% г/г)",
+      "period": "2024",
+      "basis": "РСБУ, ООО «Галерея-Алекс»",
+      "source_name": "ABN.agency",
+      "source_url": "https://abn.agency/2026/06/02/osnovnoe-yurliczo-shokoladniczy-poluchilo-ubytok-1255-mln-rub-po-itogam-2025-goda/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": -125.5,
+      "unit": "млн руб (убыток)",
+      "period": "2025",
+      "basis": "РСБУ, ООО «Галерея-Алекс» — сеть перешла в прямой убыток",
+      "source_name": "ABN.agency",
+      "source_url": "https://abn.agency/2026/06/02/osnovnoe-yurliczo-shokoladniczy-poluchilo-ubytok-1255-mln-rub-po-itogam-2025-goda/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный взнос 2,5 млн ₽, роялти 7% от валовой выручки, инвестиции 13-20 млн ₽, окупаемость 24-36 мес.",
+      "price": "от 13 млн ₽ инвестиций",
+      "source_url": "https://businessmens.ru/franchise/shokoladnica",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Долгое ожидание заказа даже в почти пустом зале (до 45-50 минут)", "source_url": "https://otzovik.com/review_16236818.html" },
+    { "complaint": "Антисанитария: грязная посуда на барной стойке, шатающиеся столики", "source_url": "https://otzovik.com/review_3592402.html" },
+    { "complaint": "Заказ приносят холодным, персонал груб с гостями", "source_url": "https://otzovik.com/review_17196072.html" }
+  ],
+  "data_gaps": [
+    "Официальный сайт shoko.ru не резолвился в проверяющем окружении сессии (DNS резолвится в валидный IP, соединение не устанавливается — вероятно сетевая фильтрация, не подтверждённая смерть сайта)",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)",
+    "LTV/CAC/churn не публикуются",
+    "Причина резкого обвала чистой прибыли при растущей валовой прибыли не детализирована (рост издержек? разовые списания при закрытии точек?)"
+  ],
+  "sources": [
+    "https://abn.agency/2026/06/02/osnovnoe-yurliczo-shokoladniczy-poluchilo-ubytok-1255-mln-rub-po-itogam-2025-goda/",
+    "https://logistics.ru/riteyl-upravlenie-logistikoy-i-kompaniey-upravlenie-operaciyami/posle-zakrytiya-slabykh-tochek",
+    "https://businessmens.ru/franchise/shokoladnica"
+  ],
+  "updated_at": "2026-07-18"
+}

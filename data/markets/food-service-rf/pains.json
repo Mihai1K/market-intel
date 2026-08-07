@@ -1,0 +1,284 @@
+{
+  "description": "Боли рынка общепита РФ. Собрано 2026-07-18. Честно исключены: штрафы Роспотребнадзора (только общие разъяснительные статьи, ни одного живого кейса с суммой за 2025-2026 не найдено), демпинг dark kitchens (гипотеза не подтвердилась — один источник прямо утверждает обратное), плохое обслуживание в зале (только сниппеты без проверяемого URL). Отдельно проверена гипотеза трансфера архетипа «сотрудник уводит отношения с клиентом» (недвижимость → салоны красоты) — подтвердилась лишь частично и честно зафиксирована как более слабая форма (см. chef-team-follows-departure).",
+  "pains": [
+    {
+      "id": "aggregator-commission-squeeze",
+      "statement": "Владелец теряет 30-45% выручки на комиссиях агрегатора доставки (Яндекс.Еда/Купер), при этом реальная эффективная ставка выше официально анонсированной шкалы, а поддержка не идёт на диалог по спорным случаям",
+      "role": "владелец кафе/ресторана",
+      "mentions_found": 9,
+      "links": [
+        "https://vc.ru/food/2132145-komissii-yandeks-eda-dlya-restoranov-v-2025-godu",
+        "https://vc.ru/retail/2180724-yandeks-eda-1100-zakazov-i-1-3-mln",
+        "https://vc.ru/services/512776-muki-vybora-mozhet-li-kafe-otkazatsya-ot-agregatorov-dostavki",
+        "https://www.kommersant.ru/doc/8632851",
+        "https://foodonaut.ru/blog/kak-snizit-komissiyu-agregatorov-18-mln-rub",
+        "https://mobiusapp.ru/blog/snizit-komissiyu-agregatorov-dostavki/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет разового триггера одного дня — ежемесячное обострение при сведении P&L или получении акта/отчёта агрегатора с реальной комиссией выше ожидаемой",
+      "who_pays_now": "Часть рестораторов закладывает комиссию в наценку на позиции в приложении (в ~2 раза дороже, чем в зале); часть платит консультантам 20-30 тыс ₽ за настройку альтернативного канала доставки (foodonaut.ru, mobiusapp.ru)",
+      "why_unsolved": "Фактическая олигополия (Яндекс.Еда + Купер после поглощения Delivery Club VK) — у мелких и региональных заведений нет переговорной позиции; альтернативные каналы требуют трафика, который как раз и даёт агрегатор",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "С каждой тысячи рублей [ресторатору] остаётся 600. Остальное съедают комиссии",
+          "source_url": "https://vc.ru/food/2132145-komissii-yandeks-eda-dlya-restoranov-v-2025-godu"
+        },
+        {
+          "text": "Это партнёрство или кабала?",
+          "source_url": "https://vc.ru/retail/2180724-yandeks-eda-1100-zakazov-i-1-3-mln"
+        },
+        {
+          "text": "Условия сотрудничества с высокой комиссией нам не подходили — наценка на готовые блюда ниже предполагаемых отчислений, доходящих до 40%",
+          "source_url": "https://vc.ru/services/512776-muki-vybora-mozhet-li-kafe-otkazatsya-ot-agregatorov-dostavki"
+        }
+      ]
+    },
+    {
+      "id": "staff-shortage-turnover",
+      "statement": "Владелец не может закрыть смены — острая нехватка поваров, официантов, сушефов; набранный персонал уходит в течение 1-3 месяцев",
+      "role": "владелец кафе/ресторана",
+      "mentions_found": 8,
+      "links": [
+        "https://netmonet.co/ru/blog/kak-snizit-tekuchku-v-restorane",
+        "https://runews24.ru/ekaterinburg/09/06/2026/obshhepit-i-oteli-ekaterinburga-stolknulis-s-deficzitom-povarov",
+        "https://finance.rambler.ru/money/56772767-orlovskomu-obschepitu-trebuyutsya-ofitsianty-administratory-i-povara/",
+        "https://iz.ru/1985944/2025-11-07/v-otelah-i-gostinicah-ne-hvataet-povarov-su-sefov-i-rabotnikov-kuhni"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, обостряется точечно перед высоким сезоном/праздниками либо в момент внезапного ухода ключевого сотрудника без предупреждения",
+      "who_pays_now": "HR-платформы и CRM для мотивации персонала (Нетмонет, restocrm), кадровые агентства — рынок решений уже существует, но фундаментально не решает демографическую проблему",
+      "why_unsolved": "Демографическая яма (спад рождаемости 1990-2004), непрестижность профессии, физически тяжёлый труд за некомпетитивную зарплату",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "В среднем за три месяца до 60% официантов в одном заведении меняют место работы",
+          "source_url": "https://netmonet.co/ru/blog/kak-snizit-tekuchku-v-restorane"
+        }
+      ]
+    },
+    {
+      "id": "vat-reform-margin-squeeze",
+      "statement": "Снижение порога освобождения от НДС для УСН с 60 до 20 млн ₽/год с 01.01.2026 резко увеличило налоговую нагрузку — поставщики и часть операторов общепита поднимают цены не пропорционально росту издержек, теряя маржу",
+      "role": "владелец кафе/ресторана",
+      "mentions_found": 4,
+      "links": [
+        "https://www.kommersant.ru/doc/7944039",
+        "https://shoppers.media/articles/26371_restorany-budut-vynuzdeny-povysit-ceny-v-2026-g",
+        "https://74.ru/text/economics/2026/01/28/76235395/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Вступление в силу налоговой реформы 01.01.2026 — конкретная дата, после которой владелец обязан принять решение о ценах, налоговом режиме или дроблении бизнеса",
+      "who_pays_now": "Никто системно не решает — рестораторы жертвуют маржой, не поднимая цены пропорционально из страха оттока гостей",
+      "why_unsolved": "Регуляторное давление совпало с падением посещаемости; маржинальность отрасли упала с 74,9% до 70,2% прибыльных точек за год",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 3,
+      "quotes": []
+    },
+    {
+      "id": "chef-team-follows-departure",
+      "statement": "При переходе шеф-повара в другой ресторан часть команды кухни иногда следует за ним — но это карьерная лояльность к личности шефа (гости в высокой кухне идут «на имя»), а не конфликтный увод рецептуры, поставщиков или клиентской базы, характерный для трансфера того же архетипа в недвижимости и салонах красоты",
+      "role": "владелец ресторана",
+      "mentions_found": 1,
+      "links": [
+        "https://remykitchenbakery.ru/news/shef-povar-ruslan-polyakov-menya-posadili-za-stol-i-skazali-teper-vse-na-tebe-rabotay/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Момент объявления шефа об уходе в другой ресторан — узкое окно, когда часть команды кухни решает, оставаться или уходить вместе с ним",
+      "who_pays_now": "Никак не решают — индустрия воспринимает это как нормальную практику, а не как проблему для продукта",
+      "why_unsolved": "Честно: не найдено ни одного отраслевого кейса кражи рецептуры, договорённостей с поставщиками или корпоративной клиентской базы в общепите — в отличие от недвижимости (agents-steal-client-base) и салонов красоты (master-steals-client-base), где увод базы задокументирован как конфликтная практика",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "courier-fines-disputes",
+      "statement": "Курьер получает штраф или удержание от агрегатора за конкретный эпизод (потеря сумки, «недоставка», жалоба клиента) и вынужден оспаривать его в одностороннем порядке без гарантии успеха",
+      "role": "курьер",
+      "mentions_found": 7,
+      "links": [
+        "https://100yuristov.com/q/464841/",
+        "https://kurer-msk.ru/blog/shtrafy-kurerov-yandeks-edy/",
+        "https://rabota-kurieru.ru/blog/za-chto-shtrafuyut-kurerov-yandeks-eda-i-kak-ne-po/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Получение штрафа/удержания за конкретный заказ — окно на оспаривание ограничено (у Яндекс.Еды рассмотрение занимает до 15-30 дней)",
+      "who_pays_now": "Курьер сам оспаривает через поддержку/апелляционную комиссию платформы, либо идёт за бесплатной юридической консультацией на форумы вроде 100yuristov.com",
+      "why_unsolved": "Курьер юридически не наёмный работник, а «партнёр»/самозанятый — трудовое право не защищает; решение о штрафе платформа принимает в одностороннем порядке",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Курьер оспаривает штраф 3400 руб. за недоставку при наличии фото/видео доказательств",
+          "source_url": "https://100yuristov.com/q/464841/"
+        }
+      ]
+    },
+    {
+      "id": "courier-rate-cuts",
+      "statement": "Агрегатор снижает тариф/минимальную оплату доставки без предупреждения курьеров",
+      "role": "курьер",
+      "mentions_found": 3,
+      "links": [
+        "https://otzovik.com/reviews/rabota_v_sluzhbe_dostavki_yandeks_eda/",
+        "https://dtf.ru/id1666799/3270332-svezhie-otzyvy-kurerov-yandeks-eda-33-otzyva"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Объявление о снижении тарифа — конкретная дата вступления в силу нового более низкого тарифа (задокументированный пример: минимальная оплата доставки снижена с 199 до 129 ₽)",
+      "who_pays_now": "Никто — курьеры уходят на другую платформу либо терпят снижение дохода",
+      "why_unsolved": "Переизбыток предложения курьеров в крупных городах, отсутствие профсоюзной защиты, платформа меняет тариф в одностороннем порядке",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "courier-physical-burnout",
+      "statement": "Физическая и эмоциональная нагрузка курьера при отсутствии какой-либо поддержки со стороны платформы",
+      "role": "курьер",
+      "mentions_found": 3,
+      "links": [
+        "https://otzovik.com/review_17850244.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль",
+      "who_pays_now": "Никак — модель самозанятости не предполагает обязательств платформы по охране труда",
+      "why_unsolved": "Курьер не является наёмным работником, платформа не несёт формальной ответственности за условия труда",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Ужасно. Всем на тебя всё равно",
+          "source_url": "https://otzovik.com/review_17850244.html"
+        }
+      ]
+    },
+    {
+      "id": "kitchen-staff-wage-delays",
+      "statement": "Задержки или невыплаты зарплаты повару в текущем расчётном периоде — прямой повод к немедленному увольнению без предупреждения работодателя",
+      "role": "повар/персонал кухни",
+      "mentions_found": 4,
+      "links": [
+        "https://nahjob.club/работа/повар"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Задержка/невыплата зарплаты в текущем расчётном периоде — конкретный день, когда деньги не пришли вовремя",
+      "who_pays_now": "Никто системно не решает; повара просто увольняются и переходят к следующему работодателю (job-hopping)",
+      "why_unsolved": "Кассовые разрывы у мелких операторов, неформальная практика найма, слабый контроль трудовой инспекции в отрасли",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Зарплату мне выдали, но ждал неделю! По закону работодатель должен был мне всё выплатить в последний рабочий день",
+          "source_url": "https://nahjob.club/работа/повар"
+        },
+        {
+          "text": "Обещанные 50000-57000 вы будете видеть раз в три месяца",
+          "source_url": "https://nahjob.club/работа/повар"
+        }
+      ]
+    },
+    {
+      "id": "kitchen-staff-harsh-conditions-disrespect",
+      "statement": "Тяжёлые условия труда (многочасовые смены без нормального отдыха) в сочетании с неуважительным отношением руководства к персоналу кухни",
+      "role": "повар/персонал кухни",
+      "mentions_found": 4,
+      "links": [
+        "https://nahjob.club/работа/повар"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль",
+      "who_pays_now": "Никак не решают системно — человеческий фактор конкретного работодателя",
+      "why_unsolved": "Нормализовано в индустрии, нет системного контроля условий труда со стороны трудовой инспекции для малых операторов",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Работать вы будете, стоя на ногах, 11 часов к ряду, отдыхая лишь не более трёх раз по 20 минут максимум",
+          "source_url": "https://nahjob.club/работа/повар"
+        },
+        {
+          "text": "Руководство считает нормой не платить зарплату людям",
+          "source_url": "https://nahjob.club/работа/повар"
+        }
+      ]
+    },
+    {
+      "id": "client-spoiled-food",
+      "statement": "Испорченная или некачественная еда в заказе доставки — клиент обнаруживает проблему в момент получения заказа",
+      "role": "клиент",
+      "mentions_found": 4,
+      "links": [
+        "https://otzovik.com/review_7820173.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Момент получения заказа — клиент прямо сейчас обнаружил испорченную/недоваренную еду",
+      "who_pays_now": "Клиент пишет в поддержку агрегатора/заведения, возврат не гарантирован",
+      "why_unsolved": "Нет контроля качества в реальном времени на стороне тёмных кухонь/агрегатора перед выдачей заказа курьеру",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Как я стала нелюбимым клиентом (о недоваренных куриных крыльях, доставленных через Яндекс.Еду, и некомпетентной поддержке)",
+          "source_url": "https://otzovik.com/review_7820173.html"
+        }
+      ]
+    },
+    {
+      "id": "client-charged-not-delivered",
+      "statement": "Деньги списаны, но заказ не доставлен, либо доставлен чужой заказ",
+      "role": "клиент",
+      "mentions_found": 4,
+      "links": [
+        "https://irecommend.ru/content/uzhasnaya-kompaniya-pochemu-ee-do-sikh-por-ne-zakryli",
+        "https://www.sikayetvar.com/ru/kuper-ru"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Списание денег без доставки происходит прямо в момент заказа — клиент действует немедленно",
+      "who_pays_now": "Клиент добивается возврата через поддержку, часто безуспешно",
+      "why_unsolved": "Автоматизированная/ботовая поддержка при большом масштабе платформы, низкий приоритет мелких споров",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Ужасная компания. Почему её до сих пор не закрыли?",
+          "source_url": "https://irecommend.ru/content/uzhasnaya-kompaniya-pochemu-ee-do-sikh-por-ne-zakryli"
+        }
+      ]
+    }
+  ]
+}

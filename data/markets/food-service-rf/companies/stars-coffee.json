@@ -1,0 +1,71 @@
+{
+  "id": "stars-coffee",
+  "name": "Stars Coffee",
+  "legal_name": "ООО «АРЕНА»",
+  "inn": "9705131922",
+  "website": "https://stars-coffee.ru",
+  "founded": 2019,
+  "segment": "кофейни (бывший Starbucks Russia)",
+  "description": "120 точек (93 франшизные, 27 собственных, 2025). Финансы «в разы ниже», чем у Starbucks в 2021 году (выручка предшественника ~5,2 млрд ₽ против 1,68 млрд ₽ у Stars Coffee в 2024) — импортозамещение бренда не воспроизвело масштаб оригинала, хотя показывает устойчивый рост год к году.",
+  "revenue": [
+    {
+      "value": 1676,
+      "unit": "млн руб (+29% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "63.ru (со ссылкой на отчётность)",
+      "source_url": "https://63.ru/text/business/2025/04/07/75303224/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 1301,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "63.ru",
+      "source_url": "https://63.ru/text/business/2025/04/07/75303224/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 104.4,
+      "unit": "млн руб (+50% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "63.ru",
+      "source_url": "https://63.ru/text/business/2025/04/07/75303224/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный взнос 2,5 млн ₽, роялти 6% от выручки + маркетинговый взнос до 2%, инвестиции 10-17 млн ₽, окупаемость от 14 мес.",
+      "price": "от 10 млн ₽ инвестиций",
+      "source_url": "https://busyspace.ru/franshizy/stars-coffee/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Кофе да! Обслуживание нет!» — жалобы на качество обслуживания при хорошем продукте", "source_url": "https://otzovik.com/review_16601709.html" },
+    { "complaint": "Хамство и невнимательность персонала, отсутствие желания работать", "source_url": "https://irecommend.ru/content/ne-udivilo-no-i-ne-rasstroilo" },
+    { "complaint": "Сотрудники: отсутствие уборщиц (моют полы и посуду сами), низкие зарплаты, обязанности не соответствуют заявленным при найме", "source_url": "https://pravda-sotrudnikov.org/company/stars-coffee-otzyvy-sotrudnikov" }
+  ],
+  "data_gaps": [
+    "Есть омонимичное юрлицо ООО «Арена» с другим ИНН (9717001974, оптовая торговля одеждой) — не связано, зафиксировано во избежание путаницы",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://63.ru/text/business/2025/04/07/75303224/",
+    "https://ru.ruwiki.ru/wiki/Stars_Coffee",
+    "https://busyspace.ru/franshizy/stars-coffee/"
+  ],
+  "updated_at": "2026-07-18"
+}

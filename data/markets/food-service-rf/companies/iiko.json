@@ -1,0 +1,94 @@
+{
+  "id": "iiko",
+  "name": "iiko",
+  "legal_name": "АО «Айко»",
+  "inn": "1655166016",
+  "website": "https://iiko.ru",
+  "founded": 2008,
+  "segment": "POS/автоматизация ресторанов — лидер по темпам роста",
+  "description": "Крупнейшая по темпам роста система автоматизации HoReCa в РФ: ~22 000 активных заведений в 30 странах, ~2000 новых подключений в месяц. Выручка выросла в 2,5 раза за 2 года (2023→2025), с явным AI-фокусом: встроенный ИИ-ассистент для допродаж на кассе и в разработке ИИ-маркетолог. Вместе с r_keeper контролирует ~75% рынка автоматизации касс общепита РФ.",
+  "revenue": [
+    {
+      "value": 6400,
+      "unit": "млн руб (+60% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/ayko-1081690065577",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 2500,
+      "unit": "млн руб (оценка)",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/ayko-1081690065577",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 1500,
+      "unit": "млн руб (+133% г/г)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/ayko-1081690065577",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "iiko «Корнер» (кофе-пойнты, фудтраки) — 2500 ₽/мес; «Кафе» — 5000 ₽/мес; «Профессиональный» — 8600 ₽/мес; «Корпоративный» (сети) — 10 600 ₽/мес; доп. модули 800-5000 ₽/мес",
+      "price": "от 2500 ₽/мес",
+      "source_url": "https://iiko.ru/pricing/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Медленная и некачественная поддержка, долгая установка доп. оборудования", "source_url": "https://a2is.ru/catalog/CRM-sistemy-kafe-restoran/iiko/reviews-iiko" },
+    { "complaint": "Ненадёжность отчётов — расхождения цифр день ото дня, несовпадение финансовых итогов", "source_url": "https://a2is.ru/catalog/CRM-sistemy-kafe-restoran/iiko/reviews-iiko" },
+    { "complaint": "Скрытые доплаты за обновления даже без облачного тарифа", "source_url": "https://a2is.ru/catalog/CRM-sistemy-kafe-restoran/iiko/reviews-iiko" }
+  ],
+  "ai_readiness": {
+    "score": 65,
+    "formula": "35 баллов за встроенный ИИ-ассистент допродаж на кассе (в проде) + 15 за анонсированный ИИ-ассистент общего назначения (бета, 21.07.2026) + 15 за автозаказ поставщику на основе многофакторного прогноза (iikoWeb)",
+    "signals": [
+      {
+        "signal": "Встроенный ИИ-ассистент на кассе: берёт данные из учёта, строит рекомендации, продвигает допродажи и акции",
+        "evidence_url": "https://iiko.ru/news/kassa-iiko-u-vas-v-karmane",
+        "direction": "+"
+      },
+      {
+        "signal": "Новый ИИ-ассистент iiko — анонс 21.07.2026, набор заведений-тестировщиков (бета)",
+        "evidence_url": "https://iiko.ru/",
+        "direction": "+"
+      },
+      {
+        "signal": "iikoWeb: прогноз продаж на 3 недели вперёд (история, сезонность, погода, праздники) с автоформированием заказа поставщику",
+        "evidence_url": "https://lemma-group.ru/articles/prodazhi-v-iikoweb/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Финансы за 2022 год расходятся между источниками (одна выборка показывала убыток 150 млн ₽ за 2022) — использована версия Checko.ru как более консистентная",
+    "LTV/CAC/churn не публикуются",
+    "Вакансии AI/ML не подтверждены напрямую в открытой выдаче hh.ru/career.habr.com",
+    "Пресс-релиз про ~22 000 активных заведений (iiko.ru/about/news/30000.html) отдаёт 404 при повторной проверке — заменён на общую страницу «О компании», конкретная цифра оставлена в описании с пониженной проверяемостью"
+  ],
+  "sources": [
+    "https://checko.ru/company/ayko-1081690065577",
+    "https://iiko.ru/pricing/",
+    "https://iiko.ru/about/",
+    "https://a2is.ru/catalog/CRM-sistemy-kafe-restoran/iiko/reviews-iiko"
+  ],
+  "updated_at": "2026-07-18"
+}

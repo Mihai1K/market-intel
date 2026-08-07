@@ -1,0 +1,73 @@
+{
+  "id": "rostics",
+  "name": "Ростикс (Rostic's)",
+  "legal_name": "ООО «Юнирест»",
+  "inn": "7722561551",
+  "website": "https://rostics.ru",
+  "founded": 2005,
+  "segment": "фастфуд (бывший KFC Russia)",
+  "description": "750 заведений перешло под бренд «Ростикс» при ребрендинге бывшего KFC; в декабре 2024 «Юнирест» консолидировал остаточные 97 ресторанов «Эй Кей Раша» (франчайзи, ранее отказывавшийся от ребрендинга). Ребрендинг «практически завершён» по всей России к январю 2026. Выручка выросла на ~51%, прибыль почти в 4 раза за 2022-2024.",
+  "revenue": [
+    {
+      "value": 25930,
+      "unit": "млн руб (+51% к 2022)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "РБК (агрегация)",
+      "source_url": "https://ru.wikipedia.org/wiki/Ростикс",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 17200,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ",
+      "source_name": "РБК (агрегация)",
+      "source_url": "https://ru.wikipedia.org/wiki/Ростикс",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 5680,
+      "unit": "млн руб (рост почти в 4 раза к 2022)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "РБК (агрегация)",
+      "source_url": "https://ru.wikipedia.org/wiki/Ростикс",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 1300,
+      "unit": "млн руб",
+      "period": "2022",
+      "basis": "РСБУ",
+      "source_name": "РБК (агрегация)",
+      "source_url": "https://ru.wikipedia.org/wiki/Ростикс",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Рост цен на фоне снижения качества еды", "source_url": "https://ru.wikipedia.org/wiki/Ростикс" }
+  ],
+  "data_gaps": [
+    "Данные за 2023 год не собраны отдельно в этом проходе",
+    "Отдельного публичного франчайзингового предложения не найдено — сеть развивается как управляемая консолидация бывших франчайзи KFC",
+    "Прямые URL клиентских жалоб (otzovik.com/irecommend.ru/Яндекс.Карты) не собраны — приведена только агрегированная оценка через Wikipedia",
+    "AI Readiness не оценён: мобильное приложение для заказа — это цифровизация процесса, не AI-сигнал в строгом смысле; правило №7 (нет сигнала, нет балла)",
+    "ОГРН требует финальной сверки через checko.ru напрямую — в разных запросах агента встречались неконсистентные значения"
+  ],
+  "sources": [
+    "https://ru.wikipedia.org/wiki/Ростикс"
+  ],
+  "updated_at": "2026-07-18"
+}

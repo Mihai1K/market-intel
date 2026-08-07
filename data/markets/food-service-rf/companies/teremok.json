@@ -1,0 +1,66 @@
+{
+  "id": "teremok",
+  "name": "Теремок",
+  "legal_name": "АО «Теремок-Инвест»",
+  "inn": "7734506918",
+  "website": "https://teremok.ru",
+  "founded": 2003,
+  "segment": "фастфуд (русская кухня)",
+  "description": "346 точек (2024), рост числа чеков на 11% в 2024. Финансово стабильно растущая сеть, но без публичной франшизы — развивается через собственные инвестиции (заявлен план вложить 3 млрд ₽ в ~100 новых ресторанов).",
+  "revenue": [
+    {
+      "value": 7280,
+      "unit": "млн руб (оборот +27% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Деловая Россия (интервью Михаила Гончарова)",
+      "source_url": "https://deloros.ru/press-centr/novosti/novosti-o-nas/mikhail-goncharov-teremok-po-itogam-2024-goda-uvelichil-oborot-na-27/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 72.5,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Milknews.ru",
+      "source_url": "https://milknews.ru/index/apk-tyeryemok-bliny.html",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 33.7,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Milknews.ru",
+      "source_url": "https://milknews.ru/index/apk-tyeryemok-bliny.html",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Долгое ожидание заказа (до 35 минут), низкий уровень обслуживания", "source_url": "https://otzovik.com/review_17196072.html" },
+    { "complaint": "Ухудшение качества и охлаждение блюд", "source_url": "https://otzovik.com/reviews/set_bistrogo_pitaniya_teremok_russia_moscow/" },
+    { "complaint": "Претензии к составу блюд — мало начинки в мясных блюдах, сомнительная свежесть рыбы", "source_url": "https://otzovik.com/reviews/set_bistrogo_pitaniya_teremok_russia_moscow/" }
+  ],
+  "data_gaps": [
+    "Официальный сайт teremok.ru не резолвился в проверяющем окружении сессии (DNS резолвится в валидный IP, соединение не устанавливается — вероятно сетевая фильтрация, не подтверждённая смерть сайта)",
+    "Публичной франшизы не обнаружено — сеть развивается преимущественно как собственная",
+    "AI Readiness не оценён: поиск по вакансиям не завершён из-за исчерпания лимита WebSearch в сессии агента",
+    "Расхождение в источниках по выручке 2023 года (одна выборка называла 16,6 млрд ₽, вероятно другая методика подсчёта — оборот сети vs выручка юрлица) — не разрешено, не включено как факт",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://deloros.ru/press-centr/novosti/novosti-o-nas/mikhail-goncharov-teremok-po-itogam-2024-goda-uvelichil-oborot-na-27/",
+    "https://milknews.ru/index/apk-tyeryemok-bliny.html",
+    "https://ru.wikipedia.org/wiki/Теремок_(сеть_быстрого_питания)"
+  ],
+  "updated_at": "2026-07-18"
+}

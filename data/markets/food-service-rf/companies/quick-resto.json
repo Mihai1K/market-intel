@@ -1,0 +1,61 @@
+{
+  "id": "quick-resto",
+  "name": "Quick Resto",
+  "legal_name": "ООО «Квик Ресто»",
+  "inn": "7726734798",
+  "website": "https://myquickresto.ru",
+  "founded": 2013,
+  "segment": "POS/автоматизация — доступный сегмент малого общепита",
+  "description": "Альтернатива Poster POS, реально работающая на российском рынке (Poster POS полностью прекратил работу в РФ с 1 марта 2022 года из-за войны в Украине — важный факт для понимания структуры конкурентов малого общепита). С августа 2016 контрольный пакет у «1С». Убыточна в 2024 году несмотря на рост выручки.",
+  "revenue": [
+    {
+      "value": 261.268,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru/List-Org (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:Quick_Resto",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -20.681,
+      "unit": "млн руб (убыток)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru/List-Org (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:Quick_Resto",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "От 2490 ₽/мес; скидка 50% для субъектов МСП",
+      "price": "от 2490 ₽/мес",
+      "source_url": "https://myquickresto.ru/price",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Нет офлайн-синхронизации между терминалами без интернета — система становится нефункциональной", "source_url": "https://otzyvmarketing.ru/quick-resto/" },
+    { "complaint": "С 18 апреля заказы периодически перестают поступать в систему из Delivery Club — критическая ошибка не исправлена за два месяца", "source_url": "https://otzyvmarketing.ru/quick-resto/" },
+    { "complaint": "Техподдержка некомпетентна в базовых вопросах о собственном продукте, проблемы решаются неделями или не решаются вовсе", "source_url": "https://otzyvmarketing.ru/quick-resto/" }
+  ],
+  "data_gaps": [
+    "tadviser.ru (источник финансов) не резолвился напрямую в проверяющем окружении сессии (DNS резолвится, соединение не устанавливается) — содержание не перепроверено повторным независимым источником",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://www.tadviser.ru/index.php/Компания:Quick_Resto",
+    "https://myquickresto.ru/price",
+    "https://myquickresto.ru/msp",
+    "https://vc.ru/services/373314-rabota-12-000-kafe-i-restoranov-rossii-zablokirovana-iz-za-ukrainskoy-sistemy-ucheta"
+  ],
+  "updated_at": "2026-07-18"
+}

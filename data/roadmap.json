@@ -10,7 +10,7 @@
     { "name": "Автосервисы и авторемонт", "slug": "auto-service-rf", "status": "done" },
     { "name": "Массовые юридические услуги для физлиц и СМБ (банкротство, взыскание долгов, наследство, семейные споры, регистрация и ликвидация бизнеса, исполнительное производство) — тест архетипов Infrastructure of Trust, Compliance, Workflow Automation", "slug": "legal-services-mass-rf", "status": "done" },
     { "name": "Салоны красоты и бьюти-услуги — тест трансферного архетипа «сотрудник владеет отношениями с клиентом» (перенос agents-steal-client-base из недвижимости)", "slug": "beauty-salons-rf", "status": "done" },
-    { "name": "Общепит: кафе и доставка", "slug": null, "status": "todo" },
+    { "name": "Общепит: кафе, рестораны и доставка еды — тест marketplace-antipattern на контрпримере победившего консолидатора (Яндекс.Еда) и слабый тест employee-owns-client-relationship (шеф-повар и команда)", "slug": "food-service-rf", "status": "done" },
     { "name": "Онлайн-образование и EdTech", "slug": null, "status": "todo" },
     { "name": "Строительство и ремонт квартир", "slug": null, "status": "todo" },
     { "name": "Фитнес-клубы и студии", "slug": null, "status": "todo" },

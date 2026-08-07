@@ -1,0 +1,75 @@
+{
+  "id": "vkusno-i-tochka",
+  "name": "Вкусно — и точка",
+  "legal_name": "ООО «Система ПБО»",
+  "inn": "7710044140",
+  "website": "https://vkusnoitochka.ru",
+  "founded": 1996,
+  "segment": "фастфуд (бывший McDonald's Russia)",
+  "description": "Крупнейший фастфуд-игрок РФ после выкупа у McDonald's Corp (2022): ~978 из 979 ресторанов работают в 66 регионах. Выручка выросла в 2,1 раза в 2023 году и продолжала расти двузначными темпами до 2025, но чистая прибыль в 2025 году снизилась впервые за постсделочный период.",
+  "revenue": [
+    {
+      "value": 187400,
+      "unit": "млн руб (+20,3% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Retail.ru (via РСБУ-отчётность)",
+      "source_url": "https://www.retail.ru/news/vkusno-i-tochka-uvelichila-pribyl-po-rsbu-na-19-7-v-2024-godu-31-marta-2025-262911/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 218600,
+      "unit": "млн руб (предварительно)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sistema-pbo-1027700251754",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 17000,
+      "unit": "млн руб (+19,7% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Retail.ru",
+      "source_url": "https://www.retail.ru/news/vkusno-i-tochka-uvelichila-pribyl-po-rsbu-na-19-7-v-2024-godu-31-marta-2025-262911/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 14400,
+      "unit": "млн руб (снижение с 17 млрд ₽)",
+      "period": "2025",
+      "basis": "РСБУ, предварительно",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sistema-pbo-1027700251754",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Заказ отмечен в системе как «готов»/«доставлено», но фактически не выдан или не получен клиентом", "source_url": "https://otzovik.com/review_17662217.html" },
+    { "complaint": "Снижение клиентоориентированности сервиса после смены управления", "source_url": "https://otzovik.com/review_17662217.html" }
+  ],
+  "data_gaps": [
+    "Модель франчайзинга публично не предлагается — сеть работает по модели собственных ресторанов, отдельной франшизы не найдено",
+    "AI Readiness не оценён: конкретных публичных сигналов (вакансии AI/ML, AI-функции) не найдено, только классический Telegram-бот без признаков LLM — правило №7 (нет сигнала, нет балла)",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://checko.ru/company/sistema-pbo-1027700251754",
+    "https://gogov.ru/articles/vkusno-i-tochka",
+    "https://www.retail.ru/news/vkusno-i-tochka-uvelichila-pribyl-po-rsbu-na-19-7-v-2024-godu-31-marta-2025-262911/",
+    "https://hh.ru/employer/2624085"
+  ],
+  "updated_at": "2026-07-18"
+}

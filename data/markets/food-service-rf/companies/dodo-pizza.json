@@ -1,0 +1,82 @@
+{
+  "id": "dodo-pizza",
+  "name": "Додо Пицца (Dodo Brands)",
+  "legal_name": "ООО «Додо Франчайзинг» (держатель товарных знаков в РФ)",
+  "inn": "1101140415",
+  "website": "https://dodopizza.ru",
+  "founded": 2013,
+  "segment": "фастфуд (пицца) — единственная в базе де-факто публичная компания",
+  "description": "Dodo Brands — совокупная выручка сети (system-wide, все страны) превысила $1 млрд/год при 1027+ точках в 18+ странах; де-факто публичная компания с добровольным ежеквартальным раскрытием МСФО. Единственная компания рынка с подтверждёнными множественными AI-внедрениями: собственная ИТ-платформа Dodo IS, прогноз расхода ингредиентов на Azure ML совместно с Microsoft, AI-анализ качества интервью при найме.",
+  "revenue": [
+    {
+      "value": 8210,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ, только франчайзинговое юрлицо в РФ — НЕ отражает совокупную выручку сети (system-wide >$1 млрд/год)",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/dodo-franchayzing-1131101001844",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 1260,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ, франчайзинговое юрлицо РФ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/dodo-franchayzing-1131101001844",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: паушальный взнос 500 000 ₽ + НДС, роялти 3,5%+НДС (1-й год) → 5%+НДС (со 2-го), маркетинговый взнос 3%/мес, инвестиции от 22 млн ₽ (по другим форматам доставки/самовывоза — от 4,5-5 млн ₽), окупаемость до 3 лет",
+      "price": "от 4,5 млн ₽ инвестиций",
+      "source_url": "https://franshiza.ru/franchise/read/dodo_pizza/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Холодная пицца при доставке, время доставки дольше заявленного", "source_url": "https://otzovik.com/reviews/dostavka_pizza_dodo_pizza_russia_moscow/" },
+    { "complaint": "Проблемы качества ингредиентов («сырой лук», «жёсткие грибы»)", "source_url": "https://otzovik.com/reviews/dostavka_pizza_dodo_pizza_russia_moscow/" },
+    { "complaint": "Высокие цены при декларируемых скидках/промокодах", "source_url": "https://otzovik.com/reviews/sluzhba_dostavki_dodo_pizza_russia/12/" }
+  ],
+  "ai_readiness": {
+    "score": 85,
+    "formula": "30 баллов за собственную ИТ-платформу Dodo IS (полная автоматизация управления сетью) + 30 за прогноз расхода ингредиентов на Microsoft Azure ML (совместный проект) + 25 за AI-анализ качества интервью при найме (внедрено 2024) — единственная компания рынка с несколькими независимо подтверждёнными AI-внедрениями",
+    "signals": [
+      {
+        "signal": "Собственная ИТ-платформа Dodo IS автоматизирует все процессы управления сетью",
+        "evidence_url": "https://habr.com/ru/company/dodopizzadev/blog/418419/",
+        "direction": "+"
+      },
+      {
+        "signal": "Прогнозирование расхода ингредиентов на базе Microsoft Azure Machine Learning (совместно с Microsoft и Crayon)",
+        "evidence_url": "https://www.sostav.ru/publication/dodo-microsoft-47509.html",
+        "direction": "+"
+      },
+      {
+        "signal": "ИИ для анализа качества интервью при найме персонала, внедрено в 2024 на фоне кадрового голода",
+        "evidence_url": "https://www.cnews.ru/news/line/2024-07-31_set_dodo_pitstsa_pervoj",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Точная дата и параметры фактического IPO/листинга и тикер не подтверждены в доступных источниках",
+    "Выручка юрлица-франчайзора в РФ (8,21 млрд ₽) НЕ отражает совокупную выручку международной сети (>$1 млрд/год) — две разные цифры, не путать",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://checko.ru/company/dodo-franchayzing-1131101001844",
+    "https://companies.rbc.ru/trademark/807756/dodo-brands/",
+    "https://www.retail.ru/news/vyruchka-vsey-seti-dodo-brands-prevysila-1-mlrd-v-god-18-oktyabrya-2024-246397/",
+    "https://franshiza.ru/franchise/read/dodo_pizza/"
+  ],
+  "updated_at": "2026-07-18"
+}

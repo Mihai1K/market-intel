@@ -1,0 +1,48 @@
+{
+  "id": "sbis-presto",
+  "name": "СБИС Presto (Saby Presto)",
+  "legal_name": "ООО «Компания «Тензор»",
+  "inn": "7605016030",
+  "website": "https://saby.ru/presto/price",
+  "founded": 1992,
+  "segment": "POS/автоматизация — часть крупной ГК документооборота",
+  "description": "HoReCa-модуль внутри крупной группы сервисов Saby/СБИС (ЭДО, бухгалтерия и др., переименованы из СБИС в Saby с 20.01.2025). Финансы доступны только по всей группе, не по HoReCa-сегменту отдельно — важное ограничение сравнимости с монопродуктовыми iiko/r_keeper.",
+  "revenue": [
+    {
+      "value": 22250,
+      "unit": "млн руб (+28-29% г/г, вся группа сервисов Saby, не только Presto)",
+      "period": "2025",
+      "basis": "консолидированная отчётность группы «Тензор»",
+      "source_name": "CNews / TAdviser",
+      "source_url": "https://www.cnews.ru/news/top/2025-03-19_vyruchka_rossijskogo_razrabotchika",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [],
+  "pricing": [
+    {
+      "plan": "5 тарифов: Базовый, Оптимальный, Профи, CRM HoReCa, Доставка. Облачное решение «под ключ» от 10 000 ₽/год; скидка 50% для ИП с доходом до 2 млрд ₽/год и штатом до 250 чел.",
+      "price": "от 10 000 ₽/год",
+      "source_url": "https://saby.ru/presto/price",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Не решённая 4 недели проблема с кнопками мобильного официанта, отказ в возврате средств", "source_url": "https://otzovik.com/reviews/saby_sbis_presto-servis_dlya_avtomatizacii_restorana/" },
+    { "complaint": "Плохая работа модуля доставки и мобильного официанта", "source_url": "https://otzovik.com/reviews/saby_sbis_presto-servis_dlya_avtomatizacii_restorana/" },
+    { "complaint": "Недоработка модификаторов, из-за которой заказ набирался неправильно", "source_url": "https://crmindex.ru/products/sbis_presto/reviews" }
+  ],
+  "data_gaps": [
+    "Выручка/прибыль отдельно по HoReCa-сегменту (Presto) не выделяется из консолидированной отчётности группы",
+    "AI Readiness не оценён: сигналов не найдено — правило №7 (нет сигнала, нет балла)",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://saby.ru/presto/price",
+    "https://www.cnews.ru/news/top/2025-03-19_vyruchka_rossijskogo_razrabotchika",
+    "https://otzovik.com/reviews/saby_sbis_presto-servis_dlya_avtomatizacii_restorana/"
+  ],
+  "updated_at": "2026-07-18"
+}
