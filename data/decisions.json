@@ -152,6 +152,20 @@
         "data/markets/fitness-rf/companies/fitmost.json",
         "data/patterns.json#marketplace-antipattern"
       ]
+    },
+    {
+      "date": "2026-07-18",
+      "market": "edtech-rf",
+      "opportunity_id": null,
+      "opportunity_name": "Транзакционный маркетплейс онлайн-курсов (весь класс идей)",
+      "decision": "rejected",
+      "reason": "Пятый тип исхода marketplace-antipattern — несостоявшийся вход: за 10+ лет рынка транзакционный маркетплейс курсов не построил никто (сделка происходит на лендинге школы, оплата через Prodamus/эквайринг). Все живые агрегаторы — CPA-каталоги с выручкой на 3-4 порядка меньше GMV (Инфохит — ООО из Краснотурьинска; tutortop продан как медиа-актив). Двусторонний CAC дорог, инвентарь нестандартизован, а инфраструктурную ренту уже собирает GetCourse (take ~4%).",
+      "revisit": "нет условий пересмотра — строить сервисы ПОВЕРХ инфраструктуры GetCourse (AI-проверка ДЗ, комплаенс, возвраты), а не между школой и учеником",
+      "author": "Михаил + Claude, сессия 2026-08-08 (данные датированы 2026-07-18)",
+      "links": [
+        "data/patterns.json#marketplace-antipattern",
+        "research/edtech-rf.md"
+      ]
     }
   ]
 }

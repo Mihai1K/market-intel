@@ -1,0 +1,68 @@
+{
+  "id": "eduson",
+  "name": "Eduson Academy",
+  "legal_name": "ООО «ЭДЮСОН» (с 28.12.2024 97,93% у ООО «Единая логистическая система» — смена контроля)",
+  "inn": "7729779476",
+  "website": "https://eduson.academy",
+  "founded": 2014,
+  "segment": "ДПО/профессии — самый быстрый органический рост при агрессивных продажах",
+  "description": "Самый быстрый органический рост выборки: 102,7 млн ₽ (2020) → 1 934,5 млн (2025) — ×19 за пять лет с прибылью каждый год кроме 2021 (пик +347,9 млн в 2024). Основатель — Елена Масолова (экс-Groupon); корпклиенты: Сбербанк, Газпром, Яндекс. Маркер агрессивных продаж: вакансия менеджера 150 000-400 000 ₽ — самая высокая вилка продавца на рынке. Оффер «пожизненный доступ»; рассрочка 0% до 24 мес. Смена контроля в конце 2024 (логистическая компания — 97,93%) — сигнал к отслеживанию.",
+  "revenue": [
+    {
+      "value": 1635.7,
+      "unit": "млн руб (+64%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/ehdyuson-1147746925369",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1934.5,
+      "unit": "млн руб (+18%)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/ehdyuson-1147746925369",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 347.9,
+      "unit": "млн руб (2025: +117,2 млн — маржа сжалась с 21% до 6%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/ehdyuson-1147746925369",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "129 курсов: от 7 200 ₽ до 429 000 ₽ (Fullstack Python 158 760, IT-директор 167 760); рассрочка 0% на 12-24 мес от 600 ₽/мес; «пожизненный доступ»",
+      "price": "7,2-429 тыс ₽",
+      "source_url": "https://kurshub.ru/kursy-po-shkolam/eduson-academy-kursy/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Медленные возвраты: «прошло 16 дней вместо обещанных 14, денег нет», ожидания до 1,5 мес", "source_url": "https://sravni.ru/shkola/eduson-academy/otzyvy/646344/" },
+    { "complaint": "«Вместо личного куратора отвечает оператор, который не разбирается в теме»", "source_url": "https://kurshub.ru/reviews/eduson-academy/" }
+  ],
+  "data_gaps": [
+    "Причины и последствия смены контроля (логистическая компания 97,93%) не раскрыты — отслеживать",
+    "AI Readiness не оценён: продуктовых AI-фич не найдено (продают курсы ПРО нейросети) — правило №7"
+  ],
+  "sources": [
+    "https://checko.ru/company/ehdyuson-1147746925369",
+    "https://kurshub.ru/kursy-po-shkolam/eduson-academy-kursy/"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "examus",
+  "name": "Экзамус (Examus)",
+  "legal_name": "ООО «Электронные платформы» (Екатеринбург)",
+  "inn": "6658427850",
+  "website": "https://ru.examus.net",
+  "founded": 2013,
+  "segment": "прокторинг — лидер живого, но карликового рынка",
+  "description": "Лидер рынка онлайн-прокторинга РФ (используется большинством вузов, интеграция с ЕБС, детекция микронаушников): выручка ~122-128 млн ₽ с прибылью 9,8 млн. Показателен масштабом ниши: весь сегмент «цифровых образовательных инструментов» — 2,1 млрд ₽ при EdTech-рынке 144,5 млрд; конкурент ProctorEdu — 6,8 млн ₽ выручки. Урок для скоринга: технологически сложная ниша с обязательным спросом (вузы) может быть карликовой по деньгам.",
+  "revenue": [
+    {
+      "value": 125,
+      "unit": "млн руб (вилка источников 121,9-128,1)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Excheck/ЗаЧестныйБизнес (зеркало ГИР БО ФНС)",
+      "source_url": "https://excheck.pro/company/6658427850-ehlektronnye-platformy",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 9.8,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Excheck (зеркало ГИР БО ФНС)",
+      "source_url": "https://excheck.pro/company/6658427850-ehlektronnye-platformy",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "ai_readiness": {
+    "score": 55,
+    "formula": "55: компьютерное зрение — ядро продукта (наблюдение за экзаменуемым, детекция микронаушников, две камеры, интеграция с Единой биометрической системой) — прокторинг по определению AI-продукт в проде",
+    "signals": [
+      {
+        "signal": "CV-прокторинг: детекция нарушений, микронаушников, биометрическая верификация",
+        "evidence_url": "https://ru.examus.net",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Тарифы не публикуются (B2B-тендеры)",
+    "Клиентские жалобы (студентов на прокторинг) не собраны в этом проходе"
+  ],
+  "sources": [
+    "https://excheck.pro/company/6658427850-ehlektronnye-platformy",
+    "https://ru.examus.net",
+    "https://checko.ru/company/ehlektronnye-platformy-1136658005879"
+  ],
+  "updated_at": "2026-07-18"
+}

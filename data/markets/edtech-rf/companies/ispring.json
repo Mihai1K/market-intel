@@ -1,0 +1,78 @@
+{
+  "id": "ispring",
+  "name": "iSpring",
+  "legal_name": "ООО «Ричмедиа» (Йошкар-Ола; основатель — Юрий Усков)",
+  "inn": "1215139170",
+  "website": "https://ispring.ru",
+  "founded": 2009,
+  "segment": "корпоративный LMS — безусловный лидер сегмента",
+  "description": "Лидер корпоративного LMS РФ: почти половина суммарной выручки топ-5 сегмента (3,5 млрд ₽), 40 000+ клиентов по миру, №1 в рейтинге TheHRD по L&D-провайдерам. Выручка 3 млрд ₽ (+30%) при чистых активах 2,47 млрд — второй «тихий прибыльный» инфраструктурщик из Йошкар-Олы. AI подтверждён в авторинге (iSpring Suite: генерация текста, иллюстраций, вопросов тестов). Модель «за пользователя в месяц» от 100 пользователей.",
+  "revenue": [
+    {
+      "value": 2300,
+      "unit": "млн руб (+3,2%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "TAdviser/РБК Компании",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:ISpring_(Ричмедиа)",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 3004,
+      "unit": "млн руб (+30%; ССЧ 373)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "РБК Компании/Checko",
+      "source_url": "https://companies.rbc.ru/id/1091215001591-ispring/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 61.5,
+      "unit": "млн руб (низкая маржа года экспансии; чистые активы 2,47 млрд)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "РБК Компании",
+      "source_url": "https://companies.rbc.ru/id/1091215001591-ispring/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "iSpring Learn: за пользователя/мес при годовой подписке, ступени 100/300/500/1000/3000 пользователей; точные ставки — по калькулятору",
+      "price": "по калькулятору, вход от 100 пользователей",
+      "source_url": "https://ispring.ru/ispring-learn/pricing",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "ai_readiness": {
+    "score": 45,
+    "formula": "45 за подтверждённый AI в авторинге iSpring Suite/Cloud: генерация текста, генерация иллюстраций, генерация вопросов тестов — заявлено на официальной странице тарифов; в LMS-ядре (Learn) AI не упоминается",
+    "signals": [
+      {
+        "signal": "iSpring Suite: AI-генерация текста, иллюстраций и вопросов тестов",
+        "evidence_url": "https://ispring.ru/ispring-learn/pricing",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Публичных ставок тарифов нет (калькулятор)",
+    "Клиентские жалобы не собраны в этом проходе (в рейтингах негатива мало)",
+    "Разбивка выручки РФ/глобал не публикуется"
+  ],
+  "sources": [
+    "https://www.tadviser.ru/index.php/Компания:ISpring_(Ричмедиа)",
+    "https://companies.rbc.ru/id/1091215001591-ispring/",
+    "https://ispring.ru/ispring-learn/pricing"
+  ],
+  "updated_at": "2026-07-18"
+}

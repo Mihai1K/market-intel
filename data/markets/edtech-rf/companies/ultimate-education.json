@@ -1,0 +1,70 @@
+{
+  "id": "ultimate-education",
+  "name": "Ultimate Education (холдинг)",
+  "legal_name": "ООО «Алтимейт Эдьюкейшн» (управляющая прослойка; школы на отдельных юрлицах); учредитель — АО «АЭ Холдинг»",
+  "inn": "9703014525",
+  "website": "https://ultimate-education.ru",
+  "founded": 2020,
+  "segment": "холдинг ДПО-школ — первое pre-IPO рынка и разворот тренда после него",
+  "description": "Холдинг 7 школ ДПО (Bang Bang Education, Психодемия, Fashion Factory, XYZ School, Moscow Digital School, MAED, МИИН): 800 тыс+ студентов суммарно. Поучительная траектория: рост 1,9 млрд (2023, +72%) → 2,7 млрд (2024, +50%) → первое pre-IPO рынка (12.2024, привлечено 565 млн ₽, планы IPO 2026-2027) → РАЗВОРОТ: −32% выручки до 1,87 млрд с убытком 180 млн ₽ (2025), смена CEO. Инвесторы pre-IPO купили пик. Продуктовых AI-анонсов холдинга не найдено.",
+  "revenue": [
+    {
+      "value": 2700,
+      "unit": "млн руб (вилка источников 2,68-2,74 млрд, +~50%; данные группы, не РСБУ управляющего ООО)",
+      "period": "2024",
+      "basis": "пресса/TAdviser (управляющее ООО показывает лишь 31,8 млн ₽ — прослойка)",
+      "source_name": "TAdviser",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:Ultimate_Education",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 1870,
+      "unit": "млн руб (−32% — разворот после pre-IPO; убыток ~180 млн ₽)",
+      "period": "2025",
+      "basis": "TAdviser (данные группы)",
+      "source_name": "TAdviser",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:Ultimate_Education",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -179.95,
+      "unit": "млн руб (группа)",
+      "period": "2025",
+      "basis": "TAdviser",
+      "source_name": "TAdviser",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:Ultimate_Education",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "BBE: курсы 15-200 тыс ₽, подписка 1 984 ₽/мес; Психодемия: магистерские программы 24 мес; цены часто раскрываются только после лид-формы",
+      "price": "15-200 тыс ₽",
+      "source_url": "https://bangbangeducation.ru/subscription/choose",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Психодемия: «после зачисления кураторы не реагируют на обращения» (рейтинг 4,43 — ниже среднего агрегатора)", "source_url": "https://tutortop.ru/school-reviews/psihodemiya/" },
+    { "complaint": "BBE: непрозрачное ценообразование — «цену узнаёшь только после кнопки Записаться»", "source_url": "https://dtf.ru/uchionline/3653156" }
+  ],
+  "data_gaps": [
+    "Финансы школ холдинга по юрлицам не консолидированы публично",
+    "AI Readiness не оценён: продуктовых AI-анонсов не найдено — правило №7",
+    "Статус планов IPO после разворота 2025 неясен"
+  ],
+  "sources": [
+    "https://www.tadviser.ru/index.php/Компания:Ultimate_Education",
+    "https://www.rbc.ru/quote/news/article/6759456d9a79472e106901fa",
+    "https://checko.ru/company/altimeyt-ehdyukeyshn-1207700253672"
+  ],
+  "updated_at": "2026-07-18"
+}

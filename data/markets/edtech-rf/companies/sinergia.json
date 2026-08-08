@@ -1,0 +1,88 @@
+{
+  "id": "sinergia",
+  "name": "Синергия (университет, онлайн-направление)",
+  "legal_name": "НОЧУ ВО «Московский финансово-промышленный университет «Синергия»",
+  "inn": "7729152149",
+  "website": "https://synergy.ru",
+  "founded": 1995,
+  "segment": "формальное образование — №1 рынка по выручке, крупнейшая продажная машина",
+  "description": "№1 EdTech-рынка по Smart Ranking (16,1 млрд ₽, +26,3%): частный университет с 200 тыс+ студентов одновременно (№1 в РФ), 914 онлайн-программ. Как НКО показывает символическую прибыль (~100 млн на 13,5 млрд оборота). Крупнейшая продажная машина рынка: 460 активных вакансий продавцов на hh (Skyeng — 98, Фоксфорд — 113) — «специалист приёмной комиссии» от 80 тыс ₽ без опыта. Хронические жалобы: ночные звонки ботов, агрессивный маркетинг, невозвраты. Рост сегмента формального образования (+29%) — тренд консолидации EdTech с дипломным образованием.",
+  "revenue": [
+    {
+      "value": 13548.7,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ НОЧУ ВО",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/universitet-sinergiya-1037700232558",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 16300,
+      "unit": "млн руб (+20%; по SR EdTech-выручка — 16,1 млрд, +26,3%, №1 рынка)",
+      "period": "2025",
+      "basis": "TAdviser (в БФО за 2025 на дату сбора не выложено)",
+      "source_name": "TAdviser",
+      "source_url": "https://www.tadviser.ru/index.php/Компания:Синергия_МФПУ",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 100,
+      "unit": "млн руб (НКО — символическая прибыль при миллиардных оборотах)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/universitet-sinergiya-1037700232558",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Дистанционный бакалавриат от 99 300 ₽/год; очные направления от ~190 тыс ₽/год; на онлайн-лендингах цена скрыта за заявкой (колл-центр-модель)",
+      "price": "от 99 300 ₽/год",
+      "source_url": "https://synergy.ru/abiturientam/formyi_obucheniya/online",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Звонки ежедневно, включая ночные звонки с ботом… отвратительный и агрессивный маркетинг»", "source_url": "https://irecommend.ru/content/sinergiya-i-pochemu-ee-ne-stoit-vybirat-v-kachestve-vashego-obrazovaniya" },
+    { "complaint": "«Финансовый отдел занимается отписками по возврату денежных средств в сумме 90 000 рублей»", "source_url": "https://inright.ru/articles/legal/20241019/id_217033" },
+    { "complaint": "«Очень маржинальный бизнес для хозяев, но очень плохое качество обучения для дистанционщиков… материалы — видеоролики 2020 года»", "source_url": "https://otzovik.com/review_9980551.html" }
+  ],
+  "ai_readiness": {
+    "score": 40,
+    "formula": "25 за корпоративную платформу Synergy HUB со встроенной нейросетью (генерация текстов и тематических планов курсов) + 15 за AI-образовательную инфраструктуру («Школа ИИ», бакалавриат «Инженер ИИ», ИИ-лаборатория) — AI в операциях и продуктовой линейке, но не в ядре обучения студентов",
+    "signals": [
+      {
+        "signal": "Synergy HUB — платформа со встроенной нейросетью для генерации учебных материалов",
+        "evidence_url": "https://klerk.ru/buh/articles/581095/",
+        "direction": "+"
+      },
+      {
+        "signal": "Школа ИИ и ИИ-лаборатория",
+        "evidence_url": "https://sa.synergy.ru/school_ai",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "БФО за 2025 не выложено на дату сбора (цифра TAdviser)",
+    "Разбивка выручки онлайн/офлайн не публикуется",
+    "LTV/CAC не раскрываются (460 вакансий продавцов — косвенный маркер высокого CAC)"
+  ],
+  "sources": [
+    "https://checko.ru/company/universitet-sinergiya-1037700232558",
+    "https://www.tadviser.ru/index.php/Компания:Синергия_МФПУ",
+    "https://synergy.ru/about",
+    "https://smartranking.ru/ru/analytics/edtechs/edtech-rynok-vyros-v-2025-godu-na-12/"
+  ],
+  "updated_at": "2026-07-18"
+}

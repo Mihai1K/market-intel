@@ -1,0 +1,59 @@
+{
+  "id": "netology",
+  "name": "Нетология",
+  "legal_name": "ООО «НЕТОЛОГИЯ» (с 10.2024 — актив Сбера, куплена вместе с Фоксфордом у Севергрупп за 4-6 млрд ₽)",
+  "inn": "7726464125",
+  "website": "https://netology.ru",
+  "founded": 2011,
+  "segment": "ДПО/профессии — убыточна 5 лет подряд, куплена Сбером",
+  "description": "Ветеран ДПО (1,5 млн учеников, 278 программ), убыточный все 5 лет на новом юрлице: суммарно −2,1 млрд ₽ убытков за 2020-2024 при выручке 2,5 млрд (2024). В октябре 2024 куплена Сбером вместе с Фоксфордом — банковские экосистемы заходят в EdTech на дне цикла. Продуктовых AI-функций в обучении не найдено — активно продаёт курсы ПРО ИИ («Нейросети для бизнеса», ChatGPT), не учит С ПОМОЩЬЮ ИИ. 0 вакансий на hh на дату проверки.",
+  "revenue": [
+    {
+      "value": 2481.5,
+      "unit": "млн руб (ССЧ 480)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/netologiya-1207700135884",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -265.9,
+      "unit": "млн руб (5-й убыточный год подряд: −56 / −474,6 / −827,4 / −482 / −265,9 за 2020-2024)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/netologiya-1207700135884",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Аналитик данных 75 800 ₽ (7 мес) … Fullstack 178 800 ₽ (20 мес); типичные годовые программы 96-148 тыс ₽; «скидки» 45-60%; рассрочка без первого взноса",
+      "price": "75-179 тыс ₽",
+      "source_url": "https://habr.com/ru/articles/1039574/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Большие проблемы с возвратом денег за обучение в Нетологии» — обещанные 14 дней не соблюдаются", "source_url": "https://sravni.ru/shkola/netologiya/otzyvy/716078/" },
+    { "complaint": "Слабый контент за дорого: «только элементарные модели… потеря времени и денег»", "source_url": "https://kurshub.ru/reviews/netology-ru/" }
+  ],
+  "data_gaps": [
+    "РСБУ 2025 не опубликованы на дату проверки",
+    "AI Readiness не оценён: продуктовых AI-фич в обучении не найдено (честная фиксация) — правило №7",
+    "Интеграция со Сбером (планы после сделки) не раскрыта"
+  ],
+  "sources": [
+    "https://checko.ru/company/netologiya-1207700135884",
+    "https://www.forbes.ru/biznes/523295-sber-zakryl-sdelku-po-pokupke-obrazovatel-nyh-platform-netologia-i-foksford",
+    "https://netology.ru"
+  ],
+  "updated_at": "2026-07-18"
+}

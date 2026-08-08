@@ -1,0 +1,91 @@
+{
+  "id": "yandex-practicum",
+  "name": "Яндекс Практикум",
+  "legal_name": "АНО ДПО «Образовательные Технологии Яндекса» (часть выручки может проходить через ООО «Яндекс» — сегментной разбивки нет)",
+  "inn": "7704282033",
+  "website": "https://practicum.yandex.ru",
+  "founded": 2014,
+  "segment": "ДПО/профессии — самая прибыльная модель рынка",
+  "description": "Самый прибыльный EdTech-бизнес выборки: 5,3 млрд ₽ выручки при прибыли +2,9 млрд (2025) — маржа ~55% на фоне убыточных Skillbox (−1,7 млрд) и Skyeng (−0,5 млрд). №4 рынка по выручке (8,8 млрд ₽ по Smart Ranking с учётом группы). 100 тыс+ выпускников, карьерный центр с ~70% трудоустройством за 3-5 мес. Самые документированные AI-внедрения рынка: YandexGPT находит ошибки в коде студентов (с 12.2023), генеративные подсказки в тренажёре, ИИ-помощники для преподавателей, план обучить 10 тыс. ИИ-специалистов до 2027.",
+  "revenue": [
+    {
+      "value": 5009.6,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ АНО ДПО",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/obrazovatelnye-tekhnologii-yandeksa-1147799006123",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 5286.7,
+      "unit": "млн руб (по Smart Ranking выручка бренда — 8,8 млрд, +6,7%)",
+      "period": "2025",
+      "basis": "РСБУ АНО ДПО",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/obrazovatelnye-tekhnologii-yandeksa-1147799006123",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 2926,
+      "unit": "млн руб (маржа ~55% — лучшая на рынке)",
+      "period": "2025",
+      "basis": "РСБУ АНО ДПО",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/obrazovatelnye-tekhnologii-yandeksa-1147799006123",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Курс «Аналитик данных»: тарифы 113 000 / 177 000 / 283 000 ₽; рассрочка от 4 572 ₽/мес на 36 мес",
+      "price": "113-283 тыс ₽ за профессию",
+      "source_url": "https://practicum.yandex.ru/data-analyst/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Возврат «за время, а не за материал»: «Платите 150 000, материалы не получите, денег не вернем»", "source_url": "https://otzovik.com/review_16534996.html" },
+    { "complaint": "Жёсткий темп и отчисления: «если заболели — рискуете быть отчисленным и потратившим больше 150 тысяч»", "source_url": "https://dtf.ru/id220555/3446233" },
+    { "complaint": "«80% обучения — это самообучение», «здесь вас научат ГУГЛИТЬ за 100 000 ₽»", "source_url": "https://otzovik.com/review_9811354.html" }
+  ],
+  "ai_readiness": {
+    "score": 80,
+    "formula": "35 за YandexGPT-проверку кода студентов в проде с 12.2023 (>70% ошибающихся пользуются подсказками) + 25 за генеративные подсказки/саммари в тренажёре и ИИ-помощники преподавателей (нейро-квизы, детект нейросетей у студентов) + 20 за AI-стратегию (10 тыс. ИИ-специалистов до 2027, ИИ-модули во всех курсах, «Карьерный навигатор» с ИИ)",
+    "signals": [
+      {
+        "signal": "YandexGPT находит ошибки в коде студентов, подсказки без готовых решений (07.12.2023)",
+        "evidence_url": "https://yandex.ru/company/news/01-07-12-2023",
+        "direction": "+"
+      },
+      {
+        "signal": "Линейка ИИ-помощников для преподавателей (03.2025)",
+        "evidence_url": "https://yandex.ru/company/news/01-05-03-2025",
+        "direction": "+"
+      },
+      {
+        "signal": "План: 10 тыс. ИИ-специалистов до конца 2027, ИИ-модули во всех курсах",
+        "evidence_url": "https://yandex.ru/company/news/23-06-2025-02",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Сегментная разбивка выручки бренда (АНО vs ООО «Яндекс») не публикуется",
+    "LTV/CAC/churn не раскрываются"
+  ],
+  "sources": [
+    "https://checko.ru/company/obrazovatelnye-tekhnologii-yandeksa-1147799006123",
+    "https://practicum.yandex.ru/data-analyst/",
+    "https://skillbox.ru/media/edtech/v-2025-godu-rossiyskiy-edtech-vyros-vsego-na-12/"
+  ],
+  "updated_at": "2026-07-18"
+}

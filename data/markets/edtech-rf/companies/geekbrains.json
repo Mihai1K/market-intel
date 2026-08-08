@@ -1,0 +1,62 @@
+{
+  "id": "geekbrains",
+  "name": "GeekBrains",
+  "legal_name": "ООО «ГИКБРЕИНС» (управляющая организация — ООО «Скилбокс»)",
+  "inn": "7726381870",
+  "website": "https://gb.ru",
+  "founded": 2016,
+  "segment": "ДПО/профессии — бренд де-факто свёрнут (выручка −93% от пика)",
+  "description": "Классическая кривая умирания бренда: выручка 3,06 млрд ₽ (пик 2021) → 210 млн (2025, −93%), четыре убыточных года подряд (суммарно −2 млрд), «прибыль» 2025 (+61 млн) — эффект сворачивания расходов. 0 вакансий на hh, бренд управляется Skillbox, формального анонса закрытия нет — но сайт-витрина при схлопнувшейся операционке. Живой экспонат заката модели «профессия с нуля в кредит»: вместе со Skillbox — двойное доказательство, что взрослый ДПО-сегмент венчурной волны не пережил слом рассрочек и рынка джунов.",
+  "revenue": [
+    {
+      "value": 3058.6,
+      "unit": "млн руб — пик (убыток −600,7 млн)",
+      "period": "2021",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/gikbreins-1167746654569",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 210.1,
+      "unit": "млн руб (−93% от пика; «прибыль» +61 млн — эффект сворачивания)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/gikbreins-1167746654569",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -702.8,
+      "unit": "млн руб (2023: −705,6; 2022: −19,6 — четыре убыточных года)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/gikbreins-1167746654569",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "«GeekBrains отказали в возврате денежных средств» — возвращают 75% вместо 100% в первые 14 дней", "source_url": "https://vc.ru/claim/1178786" },
+    { "complaint": "Набор групп без преподавателей, месяцы ожидания старта", "source_url": "https://academy-market.com/school-reviews/geekbrains" }
+  ],
+  "data_gaps": [
+    "Формального анонса закрытия бренда нет — статус «витрина без операционки» зафиксирован по совокупности сигналов",
+    "AI Readiness не оценён: сигналов нет (бренд сворачивается) — правило №7"
+  ],
+  "sources": [
+    "https://checko.ru/company/gikbreins-1167746654569",
+    "https://www.forbes.ru/svoi-biznes/453635-ubytki-sokrasenia-i-bunt-cto-proishodit-v-skillbox-i-geekbrains",
+    "https://www.list-org.com/company/9179498"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "prodamus",
+  "name": "Prodamus",
+  "legal_name": "ООО «Продамус» (Йошкар-Ола)",
+  "inn": "1215156909",
+  "website": "https://prodamus.ru",
+  "founded": 2011,
+  "segment": "платёжная инфраструктура инфобизнеса — «тихий прибыльный» из Йошкар-Олы",
+  "description": "Платёжный сервис инфобизнеса: 120 тыс. платежей ежемесячно, 96% новых клиентов по рекомендации. Выручка ~2,5-2,6 млрд ₽ при чистой марже ~21% — один из самых прибыльных инфраструктурных бизнесов рынка (второй «тихий» игрок из Йошкар-Олы рядом с iSpring). С 2023 строит экосистему против GetCourse: Prodamus.XL (LMS), Teleboss, Prodamus.Kassa — атака на монополиста со стороны платежей. Встроенная рассрочка от Т-Банка (решение за 1,5 мин) — бенефициар слома банковских одобрений.",
+  "revenue": [
+    {
+      "value": 2494.9,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Spark-Interfax/РБК Компании",
+      "source_url": "https://companies.rbc.ru/id/1111215003460-ooo-prodamus/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 2600,
+      "unit": "млн руб (~)",
+      "period": "2025",
+      "basis": "РСБУ (агрегатор)",
+      "source_name": "cio-navigator/Spark",
+      "source_url": "https://cio-navigator.ru/prodamus-1215156909/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 527.1,
+      "unit": "млн руб (маржа ~21%)",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Spark-Interfax/РБК Компании",
+      "source_url": "https://companies.rbc.ru/id/1111215003460-ooo-prodamus/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Подключение 10 000 ₽ единоразово; комиссия 3,5% базово → 2,9% от 1 млн ₽/мес; льготный период 0% на первые 100 тыс ₽ оборота; рассрочка Т-Банка бесплатно",
+      "price": "2,9-3,5% + 10 000 ₽",
+      "source_url": "https://sz.prodamus.ru",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Прибыль 2024-2025 в открытых агрегаторах не зафиксирована",
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Доля рынка платежей инфобизнеса не публикуется"
+  ],
+  "sources": [
+    "https://companies.rbc.ru/id/1111215003460-ooo-prodamus/",
+    "https://sz.prodamus.ru",
+    "https://prodamus.ru/blog/news/prodamus-ekosistema-dlya-onlayn-biznesa"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,313 @@
+{
+  "description": "Боли рынка онлайн-образования РФ. Собрано 2026-07-18. Research-агент выделил 11 кластеров по 4 ролям (владелец школы/эксперт/ученик/куратор). Гипотеза «маркетинг съедает 40-60% выручки» скорректирована вниз по данным (20-50%, медиана ниже); гипотеза «AI обесценивает курсы» подтверждена частично в перевёрнутом виде (AI — перераспределитель спроса, не убийца).",
+  "pains": [
+    {
+      "id": "installment-approvals-collapsed",
+      "statement": "Банки срезали одобрение образовательных кредитов/рассрочек с ~80% до 5-20% — премиальные продукты (100+ тыс ₽), дававшие около половины выручки школ, перестали продаваться; возникают кассовые разрывы",
+      "role": "владелец школы / продюсер",
+      "mentions_found": 6,
+      "links": [
+        "https://www.carrotquest.io/blog/rynok-edtech-2025-2026-trendy/",
+        "https://trends.rbc.ru/trends/amp/news/697880e29a7947740bb14237",
+        "https://smartranking.ru/ru/analytics/edtechs/onlajn-shkoly-perehodyat-na-poetapnoe-obuchenie/",
+        "https://blog.whiteedtech.ru/blog/kak-predlagat-rassrochku-na-kurs-esli-banki-ploho-odobryayut-kredity/",
+        "https://www.finmap.online/ru/blog/launch-100k-info-business-truth"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Обвал одобрений в 2025 (ключевая ставка + ужесточение ЦБ) + 283-ФЗ с 01.04.2026 (BNPL под ЦБ, запрет разных цен) — школа с чеком 100+ тыс теряет продажи в моменте и обязана переоформить рассрочную механику к дедлайну",
+      "who_pays_now": "BNPL-сервисам (Долями, Сплит, Подели — популярность ×3 за 2 года), Mandarin (школа отдаёт ~15-20% чека за банковскую рассрочку), финконсультантам по кассовым разрывам",
+      "why_unsolved": "Внутренняя рассрочка перекладывает кредитный риск на школу; BNPL режет чек; банки не вернут одобрения при высокой ставке; ответ рынка — модульные курсы с поэтапной оплатой (перестройка всей продуктовой линейки)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Премиальный сегмент 100+ тыс ₽ теряет позиции из-за сложностей с банковским кредитованием",
+          "source_url": "https://trends.rbc.ru/trends/amp/news/697880e29a7947740bb14237"
+        }
+      ]
+    },
+    {
+      "id": "traffic-costs-eat-revenue",
+      "statement": "Маркетинг съедает 20-50% выручки школы при падающих конверсиях: выручка рынка 2025 = уровень 2023, привычные каналы схлопнулись (запрет Instagram, 3% сбор с интернет-рекламы, деградация Telegram), 60% горячих лидов из Директа не берут трубку",
+      "role": "владелец школы / продюсер",
+      "mentions_found": 9,
+      "links": [
+        "https://vc.ru/marketing/1657481-analitika-onlain-shkol-2024-kak-vyrasti-na-vysokokonkurentnom-rynke-onlain-obrazovaniya-v-2025-godu",
+        "https://getcourse.ru/magazine/analitika_2025",
+        "https://www.carrotquest.io/blog/rynok-edtech-2025-2026-trendy/",
+        "https://biznesolog.ru/blog/finansovaya-model-online-shkoly",
+        "https://sedov.link/blog/1188374"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "01.09.2025 — полный запрет рекламы в Instagram (главный канал инфобиза) с обязанностью удалить старые посты; школа обязана пересобрать воронку немедленно",
+      "who_pays_now": "Агентствам по Telegram Ads/посевам/SEO, платформам аналитики, консультантам по перезапуску воронок",
+      "why_unsolved": "Каналы схлопываются быстрее, чем школы диверсифицируются; органика требует 6-12 месяцев; аудитория «выжжена» бесплатными марафонами",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "В 2025 году школы получили такую же выручку, как и в 2023-м",
+          "source_url": "https://getcourse.ru/magazine/analitika_2025"
+        },
+        {
+          "text": "Примерно 60% горячих лидов из Яндекс Директа просто не берут трубку",
+          "source_url": "https://www.carrotquest.io/blog/rynok-edtech-2025-2026-trendy/"
+        }
+      ]
+    },
+    {
+      "id": "refunds-lawsuits-wave",
+      "statement": "Волна возвратов и судов: ВС РФ обязал школы отвечать за качество (а не только «предоставление доступа»), суды взыскивают цену курса + проценты по кредиту ученика + неустойку + штраф 50%, есть прецедент взыскания долга лично с руководителей школы; посадки инфобизнесменов легитимизировали требование «верните деньги»",
+      "role": "владелец школы / продюсер",
+      "mentions_found": 8,
+      "links": [
+        "https://pravo.ru/story/239457/",
+        "https://els24.com/article/2177-vernut-dengi-za-onlayn-kursy/",
+        "https://ppt.ru/amp/columns/o-prave-v-onlayne/my-prosto-pereveli-obuchenie-na-ip-sud-vzyskal-dolg-lichno-s-rukovoditeley-onlayn-shkoly",
+        "https://m.business-gazeta.ru/news/699871",
+        "https://rapsinews.ru/judicial_news/20241114/310406440.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Позиции ВС РФ (11.2024 и 06.2025: возврат в т.ч. за «доступные, но непройденные уроки») + приговор Шабутдинову 31.10.2025 — потребительский экстремизм получил юридическую опору; просрочка ответа на претензию 10 дней увеличивает взыскания",
+      "who_pays_now": "Юристам по офертам и претензионке (обе стороны: школы — за защиту, ученики — за взыскание), сервисам-шаблонам договоров",
+      "why_unsolved": "Ст. 32 ЗоЗПП даёт потребителю право отказа в любой момент; договорные уловки суды ломают; малые школы без юриста в штате; расчёт возврата по прогрессу ученика делается вручную, хотя данные лежат в LMS",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Суды регулярно требуют от школ не только вернуть деньги за онлайн-обучение, но и компенсировать клиентам проценты по кредиту, неустойку и штрафы",
+          "source_url": "https://els24.com/article/2177-vernut-dengi-za-onlayn-kursy/"
+        }
+      ]
+    },
+    {
+      "id": "regulatory-tax-press",
+      "statement": "Регуляторно-налоговый пресс со всех сторон: НДС-порог УСН 20 млн ₽ с 2026 (под него попадает почти любая живая школа), охота ФНС на дробление (Блиновская — 1,4 млрд доначислений и 5 лет), маркировка рекламы (штрафы до 500 тыс ₽; 228 из 344 штрафов РКН — за «забытый erid»), реестр блогеров РКН, риск переквалификации самозанятых кураторов в штат, уголовные прецеденты за «качество курсов»",
+      "role": "владелец школы / продюсер",
+      "mentions_found": 12,
+      "links": [
+        "https://www.rbc.ru/society/24/04/2024/6628f6119a794786568deec7",
+        "https://ppt.ru/art/droblenie-biznesa/delo-blinovskoy-kak-biznes-na-marafonakh-stal-prichinoy-milliardnykh-donachisleniy",
+        "https://incrussia.ru/news/sud-prigovoril-ayaza-shabutdinova-k-7-godam-za-moshennichestvo-s-onlajn-kursami/",
+        "https://getcourse.ru/magazine/nalogovaya_i_yuridicheskaya_bezopasnost_chto_zhdet_onlayn_obrazovanie_v_2025_2026_gg",
+        "https://soldimarketing.ru/zametki/syurprizy-markirovki-reklamy/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Конкретные даты: НДС-порог 20 млн с 01.01.2026 (15 млн — 2027, 10 млн — 2028), 283-ФЗ с 01.04.2026; лицензия избавляет от НДС (ст. 149 НК) — выданных лицензий 293 → 1140+ за год: массовое комплаенс-окно открыто прямо сейчас",
+      "who_pays_now": "Налоговым консультантам, бухфирмам, юристам по лицензированию (garantx, pobedaprava — платные услуги), сервисам маркировки (ОРД)",
+      "why_unsolved": "Правила меняются каждые полгода; грань «образование/консультация/инфоуслуга» размыта; страх выборочного правоприменения после посадок",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Налоговая готовит досье, проверяет банковские выписки и вызывает самозанятых на допросы… опасный маркер — если ИП без единого сотрудника привлекает 30+ самозанятых",
+          "source_url": "https://getcourse.ru/magazine/nalogovaya_i_yuridicheskaya_bezopasnost_chto_zhdet_onlayn_obrazovanie_v_2025_2026_gg"
+        }
+      ]
+    },
+    {
+      "id": "expert-producer-base-split",
+      "statement": "Эксперт и продюсер делят аудиторию при разрыве: типовой сценарий — эксперт, раскрученный продюсером, уходит и запускается сам, унося подписчиков своей личности; юристы специально зашивают в договоры владение базой/аккаунтами/контентом — форма архетипа «сотрудник владеет отношениями с клиентом» уровня «1:аудитория»",
+      "role": "владелец школы / продюсер (зеркально — эксперт)",
+      "mentions_found": 6,
+      "links": [
+        "https://vc.ru/legal/1092807-prodyuser-ekspert-kto-kogo",
+        "https://vc.ru/legal/669871-dogovor-eksperta-i-prodyusera-7-obyazatelnyh-uslovii",
+        "https://vc.ru/opinions/761207-prodyuser-eto-pro-podoit-a-ne-pro-vyrastit-chto-byvaet-kogda-ekspert-vpervye-ishet-prodyusera",
+        "https://navika.pro/infobiznes/posts/prodyuser-onlajnshkol--chestnye-istorii-provalov-i-uspexov",
+        "https://zenclass.ru/ponyatno/producer-vc-expert"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная; обостряется в момент успешного запуска (появляется что делить) и при падении рынка (50/50 перестаёт кормить обоих)",
+      "who_pays_now": "Юристам за договоры эксперт↔продюсер (готовый рынок шаблонов «7 обязательных условий»); при разрыве — чаще никому: расходятся без суда, теряя базу",
+      "why_unsolved": "Аудитория «именная» — подписана на личность эксперта; non-compete в РФ слабо исполним; юридически удержать подписчиков личности невозможно; громких публичных судов «эксперт увёл базу» не найдено — конфликт не судится, а проживается",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Продюсеры эти, они же только доят эксперта, и сбегают",
+          "source_url": "https://vc.ru/opinions/761207-prodyuser-eto-pro-podoit-a-ne-pro-vyrastit-chto-byvaet-kogda-ekspert-vpervye-ishet-prodyusera"
+        }
+      ]
+    },
+    {
+      "id": "producer-scammers-burn-experts",
+      "statement": "Эксперт не умеет отличить продюсера-профессионала от афериста: типичные потери — 350 тыс ₽ за негодный лендинг, 700+ тыс ₽ убытков за запуск, «выжигание» аудитории; нет рейтингов, эскроу и стандартов для продюсеров",
+      "role": "эксперт / автор курса",
+      "mentions_found": 5,
+      "links": [
+        "https://navika.pro/rassledovaniye/posts/raspoznat-aferista-kak-prodyusery-i-marketologi-obmanyvayut-ekspertov",
+        "https://vc.ru/money/882576-poshagovoe-rukovodstvo-dlya-ekspertov-v-2023-godu-kak-naiti-prodyusera-chtoby-vyvesti-vash-zapusk-v-minus",
+        "https://vc.ru/id1185861/419613-gde-moi-milliony-na-zapuskah-chestnyi-razbor-pribyl-rashody-chem-zanimaetsya-prodyuser-a-chem-ekspert"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная; цена ошибки выросла кратно вместе со стоимостью трафика",
+      "who_pays_now": "Продюсерам (40-50% выручки), таргетологам; после ожога — юристам и новым подрядчикам по второму кругу",
+      "why_unsolved": "Рынок непрозрачен, кейсы не проверяемы, договор часто отсутствует",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Специалист «выжигает» аудиторию и уходит; нереальные обещания — признак выпускника онлайн-школ",
+          "source_url": "https://navika.pro/rassledovaniye/posts/raspoznat-aferista-kak-prodyusery-i-marketologi-obmanyvayut-ekspertov"
+        }
+      ]
+    },
+    {
+      "id": "legal-entry-expensive-for-experts",
+      "statement": "Легальный вход в инфобиз для малого эксперта стал дорогим и страшным: реестр РКН с 10 тыс подписчиков (иначе запрет рекламы и репостов), потеря Instagram как канала с 01.09.2025, обязательная маркировка (штрафы до 500 тыс ₽), лимит самозанятости 2,4 млн ₽",
+      "role": "эксперт / автор курса",
+      "mentions_found": 7,
+      "links": [
+        "https://vc.ru/marketing/1937274-registraciya-blogerov-s-10-000-podpischikov-v-rkn",
+        "https://elama.ru/blog/registraciya-blogerov-v-roskomnadzore-gayd-po-novomu-zakonu/",
+        "https://mastera.academy/ban-ads/",
+        "https://www.unisender.com/ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "01.09.2025 — запрет рекламы в Instagram + обязанность удалить старые рекламные посты до 31.08.2025: эксперты, годами растившие Instagram, в один день потеряли легальную монетизацию",
+      "who_pays_now": "Юристам-«блогерским» консультантам, сервисам регистрации в РКН «под ключ», агентствам перелива аудитории в Telegram",
+      "why_unsolved": "Правила множатся быстрее коробочных решений; страх штрафов несоразмерен доходам малого блога",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Все рекламные посты, включая старые, необходимо удалить до 31 августа 2025 года",
+          "source_url": "https://mastera.academy/ban-ads/"
+        }
+      ]
+    },
+    {
+      "id": "cant-refund-course",
+      "statement": "Ученик не может вернуть деньги за курс: оферта-ловушка «услуга оказана с момента предоставления доступа», удержания 25%+, месяцы ожидания; возврат реально получить чаще только через претензию/суд",
+      "role": "ученик B2C",
+      "mentions_found": 10,
+      "links": [
+        "https://otzovik.com/review_8697904.html",
+        "https://otzovik.com/review_15310098.html",
+        "https://azpp.ru/otdal-138-tysyach-za-onlajn-kurs",
+        "https://pravo.ru/story/239457/",
+        "https://vc.ru/legal/1064779"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Отказ школы в возврате (часто на фоне действующего кредита) — деньги 60-150 тыс ₽ под риском; судебная практика на стороне ученика (штраф 50% сверху), но идти в суд страшно и долго",
+      "who_pays_now": "Юристам по защите прав потребителей (готовая индустрия шаблонов претензий); потребительские иски без госпошлины",
+      "why_unsolved": "Асимметрия сил: у школы типовая оферта и юрист, у ученика эмоции; часть судов всё ещё встаёт на сторону школ («доступ предоставлен»)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Из 120 000 рублей вернули только 34 000… 33 дня ждал возврат, вернули с удержанием 25%",
+          "source_url": "https://otzovik.com/reviews/skillbox-onlayn_obrazovanie/5/"
+        },
+        {
+          "text": "За непройденные 95% курса (133 023 ₽) предложили 20 330 ₽ — клиент выиграл суд",
+          "source_url": "https://vc.ru/legal/1064779"
+        }
+      ]
+    },
+    {
+      "id": "installment-is-credit-trap",
+      "statement": "«Рассрочка» оказывается банковским кредитом: при недовольстве курсом или закрытии школы ученик продолжает платить банку; банк отвечает «мы только кредитор», школа — «идите в банк»",
+      "role": "ученик B2C",
+      "mentions_found": 6,
+      "links": [
+        "https://els24.com/article/2177-vernut-dengi-za-onlayn-kursy/",
+        "https://harant.ru/questions/q-52759/",
+        "https://vkusnovk.ru/blog/zakrytie-onlain-shkol",
+        "https://vc.ru/life/1955102"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Волна закрытий школ 2024-2025 + агрессивный дожим в кредит тех, кого банк ещё одобряет; ежемесячный платёж идёт прямо сейчас",
+      "who_pays_now": "Банку — ежемесячный платёж; юристам за расторжение связанного кредита",
+      "why_unsolved": "Связка «договор услуги + кредитный договор» юридически разорвана; ученик не читает документы на вебинарной эйфории",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "То, что преподносилось как «рассрочка», оказалось кредитным договором",
+          "source_url": "https://otzovik.com/reviews/skillbox-onlayn_obrazovanie/5/"
+        }
+      ]
+    },
+    {
+      "id": "course-no-job",
+      "statement": "Курс не конвертируется в работу: работодатели потеряли интерес к джунам с онлайн-курсов, поиск работы выпускником удлинился с 2-3 до 4-6 месяцев (данные самих школ), рынок завален однотипными резюме; обещание «профессия + трудоустройство» не исполняется",
+      "role": "ученик B2C",
+      "mentions_found": 5,
+      "links": [
+        "https://www.forbes.ru/svoi-biznes/473717-dzuny-ne-nuzny-pocemu-vypusknikam-it-kursov-stalo-sloznee-najti-rabotu",
+        "https://www.cnews.ru/news/top/2024-12-24_it-kursy_bolshe_ne_nuzhny",
+        "https://habr.com/ru/news/681468/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Схлопывание найма джунов 2024-2025: ученик, заканчивающий курс сегодня, обнаруживает, что оффера нет, а кредит есть → триггер к возврату/иску",
+      "who_pays_now": "Снова школам (переобучение на ИИ-курсы), карьерным консультантам, платным менторам по трудоустройству",
+      "why_unsolved": "Школы структурно мотивированы обещать трудоустройство (иначе не продать чек 100+ тыс), но не контролируют рынок труда",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Работодатели потеряли интерес к джунам с онлайн-курсов, предпочитая выпускников профильных вузов",
+          "source_url": "https://www.cnews.ru/news/top/2024-12-24_it-kursy_bolshe_ne_nuzhny"
+        }
+      ]
+    },
+    {
+      "id": "curators-sweatshop-burnout",
+      "statement": "Кураторы онлайн-школ работают на сдельщине 10-25 тыс ₽/мес (ЕГЭ-сегмент) со штрафами «за молчание в беседе», обязаны отвечать в течение 30 минут по 12 часов в день; оплата стимулирует объём, а не качество проверки; типичный исход — выгорание за 6 месяцев",
+      "role": "методист / куратор",
+      "mentions_found": 4,
+      "links": [
+        "https://t-j.ru/exam-tutor/",
+        "https://www.kadrof.ru/profession-curator",
+        "https://hh.ru/vacancy/129284166"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная; сезонное обострение — весенний пик перед ЕГЭ (50-70 ДЗ в день)",
+      "who_pays_now": "Никто не решает боль куратора за деньги; кураторы «лечат» её параллельной работой в нескольких школах — что снижает качество и усиливает текучку",
+      "why_unsolved": "Юнит-экономика школ не оставляет бюджета на сопровождение (маркетинг съедает 20-50%); кураторы — самозанятые без гарантий; при этом LLM-проверка ДЗ стоит копейки против 10-25 тыс ₽/мес — главное белое пятно рынка",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Штрафов было много — например, за молчание в беседе или не проверенные в срок задания… Выигрывали не те, кто проверял качественно, а те, кто проверял много",
+          "source_url": "https://t-j.ru/exam-tutor/"
+        }
+      ]
+    }
+  ]
+}

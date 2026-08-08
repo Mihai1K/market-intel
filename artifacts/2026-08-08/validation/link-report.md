@@ -1,48 +1,61 @@
-# Отчёт проверки ссылок — 2026-08-08 20:42
+# Отчёт проверки ссылок — 2026-08-08 21:05
 
-Всего уникальных URL: **1730** · живых: **1378** · антибот/закрыто: **343** · битых: **5** · таймаут: **4**
+Всего уникальных URL: **1902** · живых: **1486** · антибот/закрыто: **401** · битых: **5** · таймаут: **10**
 
 ## Битые — требуют замены источника (5)
 
+- [404] https://forbes.ru/svoi-biznes/453635
+  - используется в: data/graveyard.json
+  - используется в: data/markets/edtech-rf/companies/geekbrains.json
 - [404] https://sky.pro/wiki/profession/pochemu-posle-45-ne-berut-na-rabotu-6-prichin-i-kak-ih-preodolet/
   - используется в: data/markets/hr-tech-rf/pains.json
-- [404] https://www.forbes.ru/biznes/552561
-  - используется в: data/markets/fitness-rf/companies/sssr-fitness.json
-- [404] https://www.forbes.ru/tekhnologii/559516
-  - используется в: data/markets/fitness-rf/companies/fitstars.json
 - [404] https://www.restate.ru/companies/ndvsupermarket-nedvizhimosti-1904/opinion/
   - используется в: data/markets/real-estate-agents-rf/companies/ndv.json
 - [404] https://www.restate.ru/forum/10/52511.html
   - используется в: data/markets/real-estate-agents-rf/pains.json
+- [ENOTFOUND] https://www.superjob.ru/clients/evroavto-660512.html
+  - используется в: data/markets/auto-service-rf/companies/euroauto.json
 
-## Таймаут — перепроверить вручную (4)
+## Таймаут — перепроверить вручную (10)
 
+- [—] https://aif.ru/realty/house/znak-masterstva-avito-uslugi-zapustili-premiyu-v-otrasli-remonta
+  - используется в: data/markets/apartment-renovation-rf/companies/avito-uslugi.json
+  - используется в: data/markets/apartment-renovation-rf/market.json
+- [—] https://bangbangeducation.ru/subscription/choose
+  - используется в: data/markets/edtech-rf/companies/ultimate-education.json
 - [—] https://fitstars.ru
   - используется в: data/markets/fitness-rf/companies/fitstars.json
+- [—] https://freedome-realty.ru/blog/doveritelnoe-upravlenie/komissiya-za-doveritelnoe-upravlenie-nedvizhimostyu-analiz-rynka-moskvy-i-mirovoy-praktiki/
+  - используется в: data/markets/real-estate-agents-rf/market.json
+- [—] https://gdezapravka.ru/
+  - используется в: data/markets/fuel-azs-rf/pains.json
+- [—] https://ispring.ru/ispring-learn/pricing
+  - используется в: data/markets/edtech-rf/companies/ispring.json
+  - используется в: data/markets/edtech-rf/market.json
 - [—] https://sib.fm/amp/news/2026/07/07/chto-s-benzinom-v-rossii-otvechaem-na-glavnye-voprosy-o-situatsii-s-defitsitom-topliva
   - используется в: data/markets/fuel-azs-rf/pains.json
-- [—] https://uprav.ru/blog/gosting-posle-sobesedovaniya/
-  - используется в: data/markets/hr-tech-rf/pains.json
-- [—] https://www.comnews.ru/content/238559/2025-04-01/2025-w14/1008/stoimost-razmescheniya-reklamy-internete-vyrastet-20-25-2025-g
-  - используется в: data/markets/performance-marketing-rf/pains.json
+- [—] https://sravni.ru/shkola/eduson-academy/otzyvy/646344/
+  - используется в: data/markets/edtech-rf/companies/eduson.json
+- [—] https://www.cnews.ru/news/top/2024-09-27_headhunter_vernulsya_na_birzhukompaniya
+  - используется в: data/markets/hr-tech-rf/companies/hh.json
+  - используется в: data/markets/hr-tech-rf/market.json
+- [—] https://www.glavbukh.ru/art/386893-mojno-li-prinyat-k-vychetu-nds-po-gsm-na-osnovanii-kassovogo-cheka
+  - используется в: data/markets/fuel-azs-rf/pains.json
 
-## Антибот/временно недоступно (343)
+## Антибот/временно недоступно (401)
 
 > 401/403/429/5xx или сброс соединения. Ссылка, скорее всего, живая: сайт не пускает роботов или временно лежит — не считается битой. Повторяющиеся из прогона в прогон — проверить вручную.
 
 - [UND_ERR_CONNECT_TIMEOUT] https://actualtraffic.ru/site/telega-in/otzyvy/
   - используется в: data/markets/influencer-marketing-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://adpass.ru/stoimost-reklamy-v-telegram-vyrosla-v-2025/
-  - используется в: data/markets/influencer-marketing-rf/pains.json
 - [403] https://aff1.ru/ad-networks/getblogger/
   - используется в: data/markets/influencer-marketing-rf/companies/getblogger.json
+- [UND_ERR_CONNECT_TIMEOUT] https://arenda.yandex.ru/journal/post/arendator-ne-platit-i-ne-sezzhaet-instrukciya-po-bezopasnomu-vyseleniyu/
+  - используется в: data/markets/real-estate-agents-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://autodoc.ru
   - используется в: data/markets/auto-service-rf/companies/autodoc.json
 - [403] https://basicdecor.ru/journal/post/pochemu-realizaciya-interera-mozhet-otlichatsya-ot-proekta/
   - используется в: data/markets/apartment-renovation-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://blog.click.ru/analytics/god-reklamy-v-cifrax-kak-izmenilis-cpc-ctr-i-cpm/
-  - используется в: data/markets/performance-marketing-rf/market.json
-  - используется в: data/markets/performance-marketing-rf/pains.json
 - [401] https://blog.domclick.ru/nedvizhimost/post/arenda-kak-proverit-kvartirosemshika
   - используется в: data/markets/real-estate-agents-rf/workflows.json
 - [401] https://blog.domclick.ru/voprosy-i-otvety/podgotovka-k-sdelke/dopolnitelnye-uslugi/elektronnaya-registraciya
@@ -129,20 +142,28 @@
   - используется в: data/markets/hr-tech-rf/companies/friendwork.json
 - [UND_ERR_CONNECT_TIMEOUT] https://cccp.fitness
   - используется в: data/markets/fitness-rf/companies/sssr-fitness.json
-- [429] https://checko.ru
-  - используется в: data/markets/apartment-renovation-rf/opportunities.json
+- [429] https://checko.ru/company/a-grupp-1117847374226
+  - используется в: data/markets/fitness-rf/companies/alex-fitness.json
 - [429] https://checko.ru/company/adv-servis-1177847285967
   - используется в: data/markets/performance-marketing-rf/companies/elama.json
+- [429] https://checko.ru/company/adventum-konsalting-1127746176128
+  - используется в: data/markets/performance-marketing-rf/companies/adventum.json
 - [429] https://checko.ru/company/ai-marketing-1137154030991
   - используется в: data/markets/performance-marketing-rf/companies/ingate.json
+- [429] https://checko.ru/company/altimeyt-ehdyukeyshn-1207700253672
+  - используется в: data/markets/edtech-rf/companies/ultimate-education.json
+- [429] https://checko.ru/company/alyans-ayti-tekhnolodzhi-1126686019239
+  - используется в: data/markets/beauty-salons-rf/companies/arnica.json
 - [429] https://checko.ru/company/ap-1097154026045
   - используется в: data/markets/performance-marketing-rf/companies/ingate.json
+- [429] https://checko.ru/company/artiks-is-1127746122371
+  - используется в: data/markets/performance-marketing-rf/companies/artics.json
 - [429] https://checko.ru/company/ay-kontekst-1067760471822
   - используется в: data/markets/performance-marketing-rf/companies/icontext.json
-- [429] https://checko.ru/company/ayko-1081690065577
-  - используется в: data/markets/food-service-rf/companies/iiko.json
 - [429] https://checko.ru/company/ayriehltor-1137746481190
   - используется в: data/markets/real-estate-agents-rf/companies/cian.json
+- [429] https://checko.ru/company/ayti-oyl-1187746798425
+  - используется в: data/markets/fuel-azs-rf/companies/itoil.json
 - [429] https://checko.ru/company/barbarossa-1187746872895
   - используется в: data/markets/beauty-salons-rf/companies/barbarossa.json
 - [429] https://checko.ru/company/biznes-analitika-1167746871984
@@ -163,27 +184,40 @@
   - используется в: data/markets/hr-tech-rf/companies/getmatch.json
 - [429] https://checko.ru/company/e-promo-1095260001649
   - используется в: data/markets/performance-marketing-rf/companies/e-promo.json
+- [429] https://checko.ru/company/ehlektronnye-platformy-1136658005879
+  - используется в: data/markets/edtech-rf/companies/examus.json
 - [429] https://checko.ru/company/ehtazhi-1027200835661
   - используется в: data/markets/real-estate-agents-rf/companies/etagi.json
 - [429] https://checko.ru/company/eus
   - используется в: data/markets/legal-services-mass-rf/companies/eus-yurist24.json
 - [429] https://checko.ru/company/feniks-marketing-5137746193239
   - используется в: data/markets/performance-marketing-rf/companies/vitamin-tools.json
+- [429] https://checko.ru/company/fitmost-1157746727533
+  - используется в: data/markets/fitness-rf/companies/fitmost.json
+- [429] https://checko.ru/company/foksford-1207700135125
+  - используется в: data/markets/edtech-rf/companies/foxford.json
 - [429] https://checko.ru/company/fundament-1227700609773
   - используется в: data/markets/apartment-renovation-rf/companies/fundament.json
   - используется в: data/markets/apartment-renovation-rf/market.json
 - [429] https://checko.ru/company/gektaro-1227700115994
   - используется в: data/markets/apartment-renovation-rf/companies/gectaro.json
+- [429] https://checko.ru/company/gikbreins-1167746654569
+  - используется в: data/graveyard.json
+  - используется в: data/markets/edtech-rf/companies/geekbrains.json
 - [429] https://checko.ru/company/grand-smeta-msk-1137746207114
   - используется в: data/markets/apartment-renovation-rf/companies/grand-smeta.json
 - [429] https://checko.ru/company/habr-5067746892769
   - используется в: data/markets/hr-tech-rf/companies/habr-career.json
 - [429] https://checko.ru/company/ia-rialveb-1057811290767
   - используется в: data/markets/performance-marketing-rf/companies/realweb.json
+- [429] https://checko.ru/company/ilon-5187746002824
+  - используется в: data/markets/fitness-rf/companies/ddx-fitness.json
 - [429] https://checko.ru/company/inflyu-1237800073961
   - используется в: data/markets/influencer-marketing-rf/companies/wowblogger.json
 - [429] https://checko.ru/company/inkom-nedvizhimost-1117799004245
   - используется в: data/markets/real-estate-agents-rf/companies/incom-nedvizhimost.json
+- [429] https://checko.ru/company/internet-tekhnologii-1137604014470
+  - используется в: data/markets/beauty-salons-rf/companies/dikidi.json
 - [429] https://checko.ru/company/k50-1137746863737
   - используется в: data/markets/performance-marketing-rf/companies/k50.json
 - [429] https://checko.ru/company/karernoe-prostranstvo-1217700587939
@@ -191,6 +225,14 @@
 - [429] https://checko.ru/company/kekh-ekommerc-5077746422859
   - используется в: data/markets/apartment-renovation-rf/companies/avito-uslugi.json
   - используется в: data/markets/real-estate-agents-rf/companies/avito-nedvizhimost.json
+- [429] https://checko.ru/company/klaborg-grupp-1155018002655
+  - используется в: data/markets/beauty-salons-rf/companies/borodach.json
+- [429] https://checko.ru/company/klik-ru-1107746150126
+  - используется в: data/markets/performance-marketing-rf/companies/click-ru.json
+- [429] https://checko.ru/company/kolibri-1146658002974
+  - используется в: data/markets/performance-marketing-rf/companies/callibri.json
+- [429] https://checko.ru/company/koltach-solyushns-1157746673040
+  - используется в: data/markets/performance-marketing-rf/companies/calltouch.json
 - [429] https://checko.ru/company/korporaciya-inkom-nedvizhimost-1027700120227
   - используется в: data/markets/real-estate-agents-rf/companies/incom-nedvizhimost.json
 - [429] https://checko.ru/company/lans-grupp-1187746101322
@@ -203,6 +245,16 @@
   - используется в: data/markets/road-logistics-rf/companies/monopoly-online.json
 - [429] https://checko.ru/company/ndv-supermarket-nedvizhimosti-1175050011597
   - используется в: data/markets/real-estate-agents-rf/companies/ndv.json
+- [UND_ERR_CONNECT_TIMEOUT] https://checko.ru/company/netologiya-1207700135884
+  - используется в: data/markets/edtech-rf/companies/netology.json
+- [429] https://checko.ru/company/obrazovatelnye-tekhnologii-yandeksa-1147799006123
+  - используется в: data/markets/edtech-rf/companies/yandex-practicum.json
+- [429] https://checko.ru/company/omnikomm-tekhnologii-1165050053024
+  - используется в: data/markets/fuel-azs-rf/companies/omnicomm.json
+- [429] https://checko.ru/company/onlayn-kards-1146733011105
+  - используется в: data/markets/fuel-azs-rf/companies/e1-card.json
+- [429] https://checko.ru/company/pamp-1167746843175
+  - используется в: data/markets/fuel-azs-rf/companies/pump.json
 - [429] https://checko.ru/company/parsek-1117847057008
   - используется в: data/markets/fitness-rf/companies/fitstars.json
 - [429] https://checko.ru/company/pehk-1147746182748
@@ -223,34 +275,49 @@
   - используется в: data/markets/fitness-rf/companies/spirit-fitness.json
 - [429] https://checko.ru/company/remell-1089848063865
   - используется в: data/markets/apartment-renovation-rf/companies/remelle.json
-- [429] https://checko.ru/company/remontnik-ru-1117746558577
-  - используется в: data/markets/apartment-renovation-rf/market.json
 - [429] https://checko.ru/company/rerums-1157746076487
   - используется в: data/markets/apartment-renovation-rf/companies/rerooms.json
 - [429] https://checko.ru/company/samolet-plyus-1067746757704
   - используется в: data/markets/real-estate-agents-rf/companies/samolet-plus.json
 - [429] https://checko.ru/company/shkola-idealnogo-tela-msk-1157746408720
   - используется в: data/graveyard.json
-- [UND_ERR_CONNECT_TIMEOUT] https://checko.ru/company/sistema-pbo-1027700251754
-  - используется в: data/markets/food-service-rf/companies/vkusno-i-tochka.json
+- [429] https://checko.ru/company/sistema-getkurs-1197746675170
+  - используется в: data/markets/edtech-rf/companies/getcourse.json
+  - используется в: data/markets/edtech-rf/market.json
+- [429] https://checko.ru/company/skaeng-1187700001686
+  - используется в: data/markets/edtech-rf/companies/skyeng.json
+- [UND_ERR_CONNECT_TIMEOUT] https://checko.ru/company/skilboks-1177746566140
+  - используется в: data/markets/edtech-rf/companies/skillbox.json
 - [429] https://checko.ru/company/sm-grupp-1187746480404
   - используется в: data/markets/fitness-rf/companies/sm-stretching.json
-- [429] https://checko.ru/company/sport-forum-1067746218176
-  - используется в: data/markets/fitness-rf/companies/world-class.json
 - [429] https://checko.ru/company/super-strizhki-1167746266929
   - используется в: data/markets/beauty-salons-rf/companies/superman-barbershop.json
+- [429] https://checko.ru/company/superdzhob-1027700404797
+  - используется в: data/markets/hr-tech-rf/companies/superjob.json
 - [429] https://checko.ru/company/sutochno-1127746571150
   - используется в: data/markets/real-estate-agents-rf/companies/sutochno-ru.json
 - [429] https://checko.ru/company/sutochno-1247300009560
   - используется в: data/markets/real-estate-agents-rf/companies/sutochno-ru.json
-- [429] https://checko.ru/company/telekot-1237700464671
-  - используется в: data/markets/influencer-marketing-rf/companies/telega-in.json
+- [429] https://checko.ru/company/td-smart-tekhnologii-1106670006772
+  - используется в: data/markets/fuel-azs-rf/companies/benzuber.json
+- [429] https://checko.ru/company/tochka-1127746551107
+  - используется в: data/markets/beauty-salons-rf/companies/tochka-krasoty.json
+- [429] https://checko.ru/company/topaz-servis-1026101933725
+  - используется в: data/markets/fuel-azs-rf/companies/topaz-service.json
 - [429] https://checko.ru/company/uayklaents-5157746100716
   - используется в: data/markets/beauty-salons-rf/companies/yclients.json
+- [429] https://checko.ru/company/uchi-ru-1127747152940
+  - используется в: data/markets/edtech-rf/companies/uchi-ru.json
+- [UND_ERR_CONNECT_TIMEOUT] https://checko.ru/company/universitet-sinergiya-1037700232558
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
+- [UND_ERR_CONNECT_TIMEOUT] https://checko.ru/company/vebinar-tekhnologii-1157746417575
+  - используется в: data/markets/edtech-rf/companies/mts-link.json
 - [429] https://checko.ru/company/yoloko-1197746671231
   - используется в: data/markets/influencer-marketing-rf/companies/yoloco.json
 - [429] https://checko.ru/company/yunikosmetik-1027810260620
   - используется в: data/markets/beauty-salons-rf/companies/estel.json
+- [429] https://checko.ru/company/zapravki-1187746812725
+  - используется в: data/markets/fuel-azs-rf/companies/yandex-zapravki.json
 - [429] https://checko.ru/company/zarplata-ru-1147746526817
   - используется в: data/markets/hr-tech-rf/companies/zarplata-ru.json
 - [429] https://checko.ru/company/zun-1157746291878
@@ -268,43 +335,50 @@
   - используется в: data/markets/real-estate-agents-rf/companies/bnovo.json
 - [429] https://checko.ru/search?query=9703094739
   - используется в: data/markets/real-estate-agents-rf/companies/colife.json
+- [UND_ERR_CONNECT_TIMEOUT] https://cio-navigator.ru/prodamus-1215156909/
+  - используется в: data/markets/edtech-rf/companies/prodamus.json
+- [UND_ERR_CONNECT_TIMEOUT] https://citrus-soft.ru/blog/vygruzka-obektov-nedvizhimosti-na-avito-tsian-domklik-ya-nedvizhimost-vkontakte-i-odnoklassniki/
+  - используется в: data/markets/real-estate-agents-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://classbe.ru/school/foksford/
+  - используется в: data/markets/edtech-rf/companies/foxford.json
 - [UND_ERR_CONNECT_TIMEOUT] https://cofix.ru
   - используется в: data/markets/food-service-rf/companies/cofix.json
+- [UND_ERR_CONNECT_TIMEOUT] https://companies.rbc.ru/id/1111215003460-ooo-prodamus/
+  - используется в: data/markets/edtech-rf/companies/prodamus.json
 - [401] https://domclick.ru
   - используется в: data/markets/real-estate-agents-rf/companies/domclick.json
-- [UND_ERR_CONNECT_TIMEOUT] https://e1-card.ru
-  - используется в: data/markets/fuel-azs-rf/companies/e1-card.json
-- [UND_ERR_CONNECT_TIMEOUT] https://e1-card.ru/blog/biznes/sliv-topliva-voditelyami
-  - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://eanews.ru/rossiya/20260128163013/rossiyane-mesyatsami-ne-mogut-nayti-rabotu-i-govoryat-o-gibeli-rynka-truda
   - используется в: data/markets/hr-tech-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://eanews.ru/rossiya/20260322150814/rieltory-rasskazali-o-roste-tarifov-na-onlayn-ploschadkah
   - используется в: data/markets/real-estate-agents-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://els24.com/article/2111-kak-vernut-dengi-za-fitnes-abonement/
   - используется в: data/markets/fitness-rf/workflows.json
+- [UND_ERR_CONNECT_TIMEOUT] https://els24.com/article/2177-vernut-dengi-za-onlayn-kursy/
+  - используется в: data/markets/edtech-rf/opportunities.json
+  - используется в: data/markets/edtech-rf/pains.json
 - [401] https://euroauto.ru
   - используется в: data/markets/auto-service-rf/companies/euroauto.json
-- [UND_ERR_CONNECT_TIMEOUT] https://finance.rambler.ru/business/56761110-rynok-avtoservisov-pod-davleniem-nalogi-kadry-i-rost-tenevogo-sektora/
-  - используется в: data/markets/auto-service-rf/market.json
-  - используется в: data/markets/auto-service-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://finance.rambler.ru/money/51975051-rynok-bankrotstva-fizicheskih-lits-v-rf-tendentsii-i-perspektivy-razvitiya/
-  - используется в: data/markets/legal-services-mass-rf/market.json
-- [UND_ERR_CONNECT_TIMEOUT] https://finance.rambler.ru/money/56772767-orlovskomu-obschepitu-trebuyutsya-ofitsianty-administratory-i-povara/
-  - используется в: data/markets/food-service-rf/pains.json
 - [403] https://forum.weblancer.net/obshenie-7/chto-delat-esli-zakazchik-ne-hochet-platity-110857/
   - используется в: data/markets/performance-marketing-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://getblogger.ru
-  - используется в: data/markets/influencer-marketing-rf/companies/getblogger.json
+- [401] https://foxford.ru
+  - используется в: data/markets/edtech-rf/companies/foxford.json
+- [UND_ERR_CONNECT_TIMEOUT] https://franshiza.ru/franchise/read/dodo_pizza/
+  - используется в: data/markets/food-service-rf/companies/dodo-pizza.json
+  - используется в: data/markets/food-service-rf/market.json
 - [UND_ERR_CONNECT_TIMEOUT] https://gogov.ru/articles/vkusno-i-tochka
   - используется в: data/markets/food-service-rf/companies/vkusno-i-tochka.json
+- [UND_ERR_CONNECT_TIMEOUT] https://habr.com/ru/articles/1039574/
+  - используется в: data/markets/edtech-rf/companies/netology.json
 - [403] https://habr.com/ru/articles/976476/
   - используется в: data/markets/hr-tech-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://hf.ru/services/casebook
   - используется в: data/markets/legal-services-mass-rf/companies/pravoteh.json
-- [UND_ERR_CONNECT_TIMEOUT] https://hh.ru/article/chto-umeet-ii-pomoshchnik-dlya-najma
-  - используется в: data/markets/hr-tech-rf/workflows.json
 - [403] https://hotellab.io/ru/blog/14
   - используется в: data/markets/real-estate-agents-rf/opportunities.json
+- [UND_ERR_CONNECT_TIMEOUT] https://inright.ru/articles/legal/20241019/id_217033
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
+- [UND_ERR_CONNECT_TIMEOUT] https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf
+  - используется в: data/markets/hr-tech-rf/companies/hh.json
 - [521] https://irecommend.ru
   - используется в: data/markets/food-service-rf/companies/kroshka-kartoshka.json
   - используется в: data/markets/food-service-rf/companies/tanuki.json
@@ -314,12 +388,20 @@
   - используется в: data/markets/auto-service-rf/companies/euroauto.json
 - [521] https://irecommend.ru/content/lyudi-kotorye-nichego-ne-znayut-o-klientoorientirovannosti
   - используется в: data/markets/hr-tech-rf/companies/careerspace.json
+- [521] https://irecommend.ru/content/moshenniki-1432
+  - используется в: data/markets/edtech-rf/companies/skyeng.json
 - [521] https://irecommend.ru/content/naiti-rabotu-missiya-ne-vypolnima-moi-neveselye-istorii
   - используется в: data/markets/hr-tech-rf/pains.json
 - [521] https://irecommend.ru/content/ne-udivilo-no-i-ne-rasstroilo
   - используется в: data/markets/food-service-rf/companies/stars-coffee.json
 - [521] https://irecommend.ru/content/pochemu-silno-pomenyalos-moe-otnoshenie-k-fitmostu
   - используется в: data/markets/fitness-rf/companies/fitmost.json
+- [521] https://irecommend.ru/content/sait-uchiru-uchiru-interaktivnaya-obrazovatelnaya-onlain-platforma
+  - используется в: data/markets/edtech-rf/companies/uchi-ru.json
+- [UND_ERR_CONNECT_TIMEOUT] https://irecommend.ru/content/sinergiya-i-pochemu-ee-ne-stoit-vybirat-v-kachestve-vashego-obrazovaniya
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
+- [521] https://irecommend.ru/content/skrytye-usloviya-ne-vozvrashchayut-dengi
+  - используется в: data/markets/edtech-rf/companies/skyeng.json
 - [521] https://irecommend.ru/content/spisali-dengi-bez-moego-soglasiya-i-vozvrashchat-otkazalis
   - используется в: data/markets/fitness-rf/pains.json
 - [521] https://irecommend.ru/content/spisanie-deneg-s-kart-bez-preduprezhdeniya
@@ -334,19 +416,16 @@
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [521] https://irecommend.ru/content/zoon-ne-rabotaet-v-kachestve-prodvizheniya-vashego-biznesa
   - используется в: data/markets/beauty-salons-rf/companies/zoon.json
+- [UND_ERR_CONNECT_TIMEOUT] https://ispring.ru
+  - используется в: data/markets/edtech-rf/companies/ispring.json
 - [503] https://itoil.ru
   - используется в: data/markets/fuel-azs-rf/companies/itoil.json
 - [503] https://itoil.ru/company/
   - используется в: data/markets/fuel-azs-rf/companies/itoil.json
 - [403] https://iz.ru/1237226/dmitrii-alekseev/komu-ne-kapaet-kak-reshit-problemy-nezavisimykh-azs
   - используется в: data/markets/fuel-azs-rf/pains.json
-- [403] https://iz.ru/1632333/sergei-gurianov/predpensionnyi-fond-sokhraniaetsia-li-eidzhizm-na-rynke-truda
-  - используется в: data/markets/hr-tech-rf/pains.json
 - [403] https://iz.ru/1985944/2025-11-07/v-otelah-i-gostinicah-ne-hvataet-povarov-su-sefov-i-rabotnikov-kuhni
   - используется в: data/markets/food-service-rf/pains.json
-- [403] https://iz.ru/2128387/2026-07-07/ekspert-opisal-novuiu-skhemu-obmana-moshennikov-razdolzhnitelei
-  - используется в: data/markets/legal-services-mass-rf/market.json
-  - используется в: data/markets/legal-services-mass-rf/pains.json
 - [SELF_SIGNED_CERT_IN_CHAIN] https://journal.tinkoff.ru/omg/remont-s-zalivom/
   - используется в: data/markets/apartment-renovation-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://joywork.ru
@@ -357,6 +436,8 @@
   - используется в: data/markets/real-estate-agents-rf/workflows.json
 - [ERR_TLS_CERT_ALTNAME_INVALID] https://kartoshka.com
   - используется в: data/markets/food-service-rf/companies/kroshka-kartoshka.json
+- [UND_ERR_CONNECT_TIMEOUT] https://kurshub.ru/reviews/netology-ru/
+  - используется в: data/markets/edtech-rf/companies/netology.json
 - [UND_ERR_CONNECT_TIMEOUT] https://lemanapro.ru
   - используется в: data/markets/apartment-renovation-rf/companies/lemana-pro.json
 - [UND_ERR_CONNECT_TIMEOUT] https://lemanapro.ru/kluch-karta-pro/
@@ -365,16 +446,22 @@
   - используется в: data/markets/apartment-renovation-rf/workflows.json
 - [401] https://marketolog.mts.ru/blog/top-8-oshibok-v-integratsiyah-s-blogerami-i-kak-ih-izbezhat
   - используется в: data/markets/influencer-marketing-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://mts-link.ru
+  - используется в: data/markets/edtech-rf/companies/mts-link.json
+- [UND_ERR_CONNECT_TIMEOUT] https://mts-link.ru/tariffs/
+  - используется в: data/markets/edtech-rf/companies/mts-link.json
+- [UND_ERR_CONNECT_TIMEOUT] https://navika.pro/rassledovaniye/posts/raspoznat-aferista-kak-prodyusery-i-marketologi-obmanyvayut-ekspertov
+  - используется в: data/markets/edtech-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://neftegaz.ru/analisis/economy/619143-krazha-topliva-populyarnye-metody-moshennichestva-na-chastnykh-predpriyatiyakh-i-kommercheskikh-azs/
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://neftegaz.ru/news/finance/889979-obem-vyplat-neftyanikam-po-dempferu-v-2025-g-sokratitsya-do-2-6-trln-rub/
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://neftegaz.ru/news/neftechim/901614-prostoi-na-rossiyskikh-npz-dostigli-rekordnogo-urovnya-do-38-moshchnostey/
   - используется в: data/markets/fuel-azs-rf/market.json
+- [UND_ERR_CONNECT_TIMEOUT] https://netology.ru
+  - используется в: data/markets/edtech-rf/companies/netology.json
 - [UND_ERR_CONNECT_TIMEOUT] https://ocenkaexp.ru/priemka-kvartir-v-novostrojkah/zastrojshhik-ne-puskaet-ekspertov
   - используется в: data/markets/apartment-renovation-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://onreg.domclick.ru/
-  - используется в: data/markets/real-estate-agents-rf/workflows.json
 - [507] https://otzovik.com/review_13194382.html
   - используется в: data/markets/fitness-rf/companies/fitness-house.json
 - [507] https://otzovik.com/review_14040422.html
@@ -390,12 +477,16 @@
 - [507] https://otzovik.com/review_15139028.html
   - используется в: data/markets/fitness-rf/companies/world-class.json
   - используется в: data/markets/fitness-rf/pains.json
+- [507] https://otzovik.com/review_15310098.html
+  - используется в: data/markets/edtech-rf/pains.json
 - [507] https://otzovik.com/review_15468335.html
   - используется в: data/markets/influencer-marketing-rf/pains.json
 - [507] https://otzovik.com/review_15848621.html
   - используется в: data/markets/influencer-marketing-rf/pains.json
 - [507] https://otzovik.com/review_16236818.html
   - используется в: data/markets/food-service-rf/companies/shokoladnitsa.json
+- [507] https://otzovik.com/review_16534996.html
+  - используется в: data/markets/edtech-rf/companies/yandex-practicum.json
 - [507] https://otzovik.com/review_16601709.html
   - используется в: data/markets/food-service-rf/companies/stars-coffee.json
 - [507] https://otzovik.com/review_16625273.html
@@ -439,8 +530,14 @@
   - используется в: data/markets/fitness-rf/companies/alex-fitness.json
 - [507] https://otzovik.com/review_8397461.html
   - используется в: data/markets/auto-service-rf/companies/autodoc.json
+- [507] https://otzovik.com/review_8697904.html
+  - используется в: data/markets/edtech-rf/pains.json
 - [507] https://otzovik.com/review_961099.html
   - используется в: data/markets/fitness-rf/companies/world-class.json
+- [507] https://otzovik.com/review_9811354.html
+  - используется в: data/markets/edtech-rf/companies/yandex-practicum.json
+- [UND_ERR_CONNECT_TIMEOUT] https://otzovik.com/review_9980551.html
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
 - [507] https://otzovik.com/reviews/agenstvo_nedvizhimosti_etazhi_russia_tyumen/
   - используется в: data/markets/real-estate-agents-rf/companies/etagi.json
 - [507] https://otzovik.com/reviews/agenstvo_nedvizhimosti_pik-arenda_russia_moscow/
@@ -491,6 +588,8 @@
   - используется в: data/markets/fitness-rf/companies/world-class.json
 - [507] https://otzovik.com/reviews/set_sportivnih_klubov_fitnes_haus_russia_sankt-peterburg/
   - используется в: data/markets/fitness-rf/pains.json
+- [507] https://otzovik.com/reviews/skillbox-onlayn_obrazovanie/5/
+  - используется в: data/markets/edtech-rf/pains.json
 - [507] https://otzovik.com/reviews/sluzhba_dostavki_dodo_pizza_russia/12/
   - используется в: data/markets/food-service-rf/companies/dodo-pizza.json
 - [507] https://otzovik.com/reviews/stocrm_ru-programma_dlya_avtoservisa/
@@ -508,16 +607,14 @@
   - используется в: data/markets/auto-service-rf/companies/yclients.json
 - [507] https://otzovik.com/reviews/yuridicheskaya_kompaniya_finansovo-pravovoy_alyans_russia_sankt-peterburg/
   - используется в: data/markets/legal-services-mass-rf/companies/fpa-bankrotstvo.json
-- [UND_ERR_CONNECT_TIMEOUT] https://otzyvmarketing.ru/epicstars/
-  - используется в: data/markets/influencer-marketing-rf/companies/epicstars.json
 - [UND_ERR_CONNECT_TIMEOUT] https://otzyvy.kitabi.ru/kompaniya/samolet-plus
   - используется в: data/markets/real-estate-agents-rf/companies/samolet-plus.json
 - [UND_ERR_CONNECT_TIMEOUT] https://partnerkin.com/blog/articles/proverka-nakrutki-inst
   - используется в: data/markets/influencer-marketing-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://perfluence.net/blog/article/blogery-dlya-malogo-i-srednego-biznesa
-  - используется в: data/markets/influencer-marketing-rf/pains.json
-- [UND_ERR_CONNECT_TIMEOUT] https://pravo.ru/story/242720/
-  - используется в: data/markets/legal-services-mass-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://prodamus.ru
+  - используется в: data/markets/edtech-rf/companies/prodamus.json
+- [UND_ERR_CONNECT_TIMEOUT] https://prodamus.ru/blog/news/prodamus-ekosistema-dlya-onlayn-biznesa
+  - используется в: data/markets/edtech-rf/companies/prodamus.json
 - [UND_ERR_CONNECT_TIMEOUT] https://rerooms.ru
   - используется в: data/markets/apartment-renovation-rf/companies/rerooms.json
 - [UND_ERR_CONNECT_TIMEOUT] https://rerooms.ru/brief
@@ -530,6 +627,8 @@
   - используется в: data/markets/fitness-rf/pains.json
 - [401] https://ru.ruwiki.ru/wiki/Stars_Coffee
   - используется в: data/markets/food-service-rf/companies/stars-coffee.json
+- [UND_ERR_CONNECT_TIMEOUT] https://sa.synergy.ru/school_ai
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://scout-gps.ru/o-kompanii/stati/effektivnye-metody-zashchity-avtoparka-ot-vorovstva-topliva-slivov/
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://service.nalog.ru/gosreg/intro.html?sfrd=21001&mode=bank
@@ -537,6 +636,16 @@
   - используется в: data/markets/legal-services-mass-rf/workflows.json
 - [UND_ERR_CONNECT_TIMEOUT] https://shoko.ru
   - используется в: data/markets/food-service-rf/companies/shokoladnitsa.json
+- [UND_ERR_CONNECT_TIMEOUT] https://sravni.ru/shkola/netologiya/otzyvy/716078/
+  - используется в: data/markets/edtech-rf/companies/netology.json
+- [UND_ERR_CONNECT_TIMEOUT] https://sravni.ru/shkola/skillbox/otzyvy/658722/
+  - используется в: data/markets/edtech-rf/companies/skillbox.json
+- [UND_ERR_CONNECT_TIMEOUT] https://synergy.ru
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
+- [UND_ERR_CONNECT_TIMEOUT] https://synergy.ru/abiturientam/formyi_obucheniya/online
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
+- [UND_ERR_CONNECT_TIMEOUT] https://sz.prodamus.ru
+  - используется в: data/markets/edtech-rf/companies/prodamus.json
 - [401] https://tanuki.ru
   - используется в: data/markets/food-service-rf/companies/tanuki.json
 - [UND_ERR_SOCKET] https://teremok.ru
@@ -545,6 +654,8 @@
   - используется в: data/markets/influencer-marketing-rf/opportunities.json
 - [UND_ERR_CONNECT_TIMEOUT] https://topfranchise.ru/products/franshiza-bystrogo-pitaniya-stardog-s/
   - используется в: data/markets/fuel-azs-rf/opportunities.json
+- [UND_ERR_CONNECT_TIMEOUT] https://tutortop.ru/school-reviews/careerspace/
+  - используется в: data/markets/hr-tech-rf/companies/careerspace.json
 - [UND_ERR_CONNECT_TIMEOUT] https://u-mama.ru/forum/women/job/1004050/
   - используется в: data/markets/hr-tech-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://vbankcenter.ru/contragent/1067760471822
@@ -553,8 +664,12 @@
   - используется в: data/markets/performance-marketing-rf/companies/demis.json
 - [UND_ERR_CONNECT_TIMEOUT] https://vbankcenter.ru/contragent/1227700585067
   - используется в: data/markets/fitness-rf/companies/fora-vision.json
-- [UND_ERR_CONNECT_TIMEOUT] https://vc.ru/finance/26637-admitad-epicstars-100m
-  - используется в: data/markets/influencer-marketing-rf/companies/epicstars.json
+- [UND_ERR_CONNECT_TIMEOUT] https://vc.ru/marketing/718045-kak-ya-zapustil-rabotu-s-blogerami-v-startape-pod-klyuch-za-3-dnya-gotovoe-reshenie-bez-agregatorov-agentstv-i-posrednikov
+  - используется в: data/markets/influencer-marketing-rf/opportunities.json
+  - используется в: data/markets/influencer-marketing-rf/workflows.json
+- [UND_ERR_SOCKET] https://vc.ru/services/1608664-vsya-pravda-o-hhru-dlya-rabotodatelei-otzyvy-plyusy-i-minusy-obzor-eksperta
+  - используется в: data/markets/hr-tech-rf/market.json
+  - используется в: data/markets/hr-tech-rf/pains.json
 - [UNABLE_TO_VERIFY_LEAF_SIGNATURE] https://vgudok.com/lenta/deficit-topliva-na-yuge-rossii-ne-vyderzhal-stolknoveniya-s-realnostyu-rosneft-lukoyl-i
   - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://vmeste-rf.tv/news/glava-fsssp-tekuchest-kadrov-snizilas-no-nagruzka-ostaetsya-vysokoy/
@@ -567,6 +682,8 @@
   - используется в: data/markets/performance-marketing-rf/pains.json
 - [403] https://workspace.ru/reviews/ppc/
   - используется в: data/markets/performance-marketing-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://wowblogger.ru
+  - используется в: data/markets/influencer-marketing-rf/companies/wowblogger.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru
   - используется в: data/markets/food-service-rf/companies/tanuki.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/buh_otchet/7802348846_ooo-std-petrovich
@@ -577,6 +694,8 @@
   - используется в: data/markets/legal-services-mass-rf/companies/pkb-collectors.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1127747085454_ooo-yudu
   - используется в: data/markets/apartment-renovation-rf/companies/youdo.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1127747152940_ooo-uchi-ru
+  - используется в: data/markets/edtech-rf/companies/uchi-ru.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1156658106880_ooo-sfk-brayt-fit
   - используется в: data/markets/fitness-rf/companies/bright-fit.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1167847437306_ooo-frendvork
@@ -589,6 +708,8 @@
   - используется в: data/markets/hr-tech-rf/companies/potok.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1187746568250_ooo-khantflou
   - используется в: data/markets/hr-tech-rf/companies/huntflow.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/1197746675170_ooo-sistema-getkurs
+  - используется в: data/markets/edtech-rf/companies/getcourse.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.audit-it.ru/contragent/5177746185997_ooo-visivi
   - используется в: data/markets/hr-tech-rf/companies/vcv.json
 - [429] https://www.avito.ru/all/predlozheniya_uslug
@@ -597,14 +718,8 @@
   - используется в: data/markets/real-estate-agents-rf/companies/avito-nedvizhimost.json
 - [401] https://www.dellin.ru/
   - используется в: data/markets/road-logistics-rf/companies/delovye-linii.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.drive2.ru/l/669069594127773730/
-  - используется в: data/markets/auto-service-rf/companies/fit-service.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.finversia.ru/news/markets/severgrupp-alekseya-mordashova-kupila-hr-platformu-potok-23550
   - используется в: data/markets/hr-tech-rf/companies/potok.json
-- [UND_ERR_CONNECT_TIMEOUT] https://www.gazeta.ru/auto/2025/10/01/21788678.shtml
-  - используется в: data/markets/fuel-azs-rf/pains.json
-- [TypeError] https://www.glavbukh.ru/art/386893-mojno-li-prinyat-k-vychetu-nds-po-gsm-na-osnovanii-kassovogo-cheka
-  - используется в: data/markets/fuel-azs-rf/pains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.id-collect.ru
   - используется в: data/markets/legal-services-mass-rf/companies/aydi-kollekt.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.kommersant.ru/doc/8481423
@@ -644,6 +759,8 @@
   - используется в: data/markets/fuel-azs-rf/companies/ppr.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.list-org.com/company/9133704/report
   - используется в: data/markets/auto-service-rf/companies/autoteka.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.list-org.com/company/9179498
+  - используется в: data/markets/edtech-rf/companies/geekbrains.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.list-org.com/company/9726552/report
   - используется в: data/markets/auto-service-rf/companies/avtocod.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.list-org.com/company/9813057
@@ -673,8 +790,13 @@
   - используется в: data/markets/fuel-azs-rf/market.json
 - [401] https://www.rbc.ru/economics/09/08/2023/64d0fae89a794743eaf201e5
   - используется в: data/markets/influencer-marketing-rf/pains.json
+- [401] https://www.rbc.ru/quote/news/article/6759456d9a79472e106901fa
+  - используется в: data/markets/edtech-rf/companies/ultimate-education.json
+  - используется в: data/markets/edtech-rf/market.json
 - [401] https://www.rbc.ru/society/22/03/2025/67dec0799a7947133346125d
   - используется в: data/markets/influencer-marketing-rf/market.json
+- [401] https://www.rbc.ru/society/24/04/2024/6628f6119a794786568deec7
+  - используется в: data/markets/edtech-rf/pains.json
 - [401] https://www.rbc.ru/technology_and_media/16/01/2026/6968f2559a794705a6d04ca9
   - используется в: data/markets/performance-marketing-rf/market.json
 - [401] https://www.rbc.ru/technology_and_media/30/11/2023/656733669a794740fd8a3188
@@ -684,8 +806,19 @@
   - используется в: data/markets/legal-services-mass-rf/workflows.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.sikayetvar.com/ru/kuper-ru
   - используется в: data/markets/food-service-rf/pains.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Компания:ISpring_(Ричмедиа)
+  - используется в: data/markets/edtech-rf/companies/ispring.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Компания:Quick_Resto
   - используется в: data/markets/food-service-rf/companies/quick-resto.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Компания:Ultimate_Education
+  - используется в: data/markets/edtech-rf/companies/ultimate-education.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Компания:Синергия_МФПУ
+  - используется в: data/markets/edtech-rf/companies/sinergia.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Продукт:Skyeng
+  - используется в: data/markets/edtech-rf/companies/skyeng.json
+  - используется в: data/markets/edtech-rf/opportunities.json
+- [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Проект:Skillbox_(ИИ)
+  - используется в: data/markets/edtech-rf/companies/skillbox.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Статья:Автомобильные_заправочные_станции_(АЗС)_в_России
   - используется в: data/markets/fuel-azs-rf/market.json
 - [UND_ERR_CONNECT_TIMEOUT] https://www.tadviser.ru/index.php/Статья:Российский_рынок_HR-tech
@@ -698,6 +831,8 @@
   - используется в: data/markets/auto-service-rf/companies/autodealer.json
 - [403] https://zachestnyibiznes.ru/company/ul/1035005516105_5029069967_OOO-LE-MONLID
   - используется в: data/markets/apartment-renovation-rf/companies/lemana-pro.json
+- [403] https://zachestnyibiznes.ru/company/ul/1057747076078_7705664677_AO-ANTIPLAGIAT
+  - используется в: data/markets/edtech-rf/companies/antiplagiat.json
 - [403] https://zachestnyibiznes.ru/company/ul/1057811850436_7801386207_OOO-AVTOKOMPLEKS-EVROAVTO
   - используется в: data/markets/auto-service-rf/companies/euroauto.json
 - [403] https://zachestnyibiznes.ru/company/ul/1067746216548_7725560073_OOO-EMDGhIKOM
@@ -726,23 +861,25 @@
   - используется в: data/markets/fitness-rf/companies/x-fit.json
 - [403] https://zachestnyibiznes.ru/company/ul/5147746474134_7709969870_OOO-RDV-SOFT
   - используется в: data/markets/hr-tech-rf/companies/rabota-ru.json
-- [429] https://zoon.ru/
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/
   - используется в: data/markets/beauty-salons-rf/companies/zoon.json
-- [429] https://zoon.ru/corp/activation/
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/corp/activation/
   - используется в: data/markets/beauty-salons-rf/companies/zoon.json
-- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/msk/autoservice/network/vilgud_avtoservisy/
+- [429] https://zoon.ru/msk/autoservice/network/vilgud_avtoservisy/
   - используется в: data/markets/auto-service-rf/companies/wilgood.json
-- [429] https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/msk/beauty/salon_gorod_krasoty_na_ulitse_garibaldi/reviews/
   - используется в: data/markets/beauty-salons-rf/pains.json
-- [429] https://zoon.ru/msk/beauty/salon_krasoty_nail_sunny_v_rajone_arbat/reviews/
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/msk/beauty/salon_krasoty_nail_sunny_v_rajone_arbat/reviews/
   - используется в: data/markets/beauty-salons-rf/companies/nail-sunny.json
-- [429] https://zoon.ru/msk/price/
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/msk/price/
   - используется в: data/markets/beauty-salons-rf/companies/zoon.json
-- [429] https://zoon.ru/support/otzyvy/pravila_raboty_s_otzyvami_na_zoon/
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/msk/trainings/onlajn-shkola_foksford/reviews/
+  - используется в: data/markets/edtech-rf/companies/foxford.json
+- [UND_ERR_CONNECT_TIMEOUT] https://zoon.ru/support/otzyvy/pravila_raboty_s_otzyvami_na_zoon/
   - используется в: data/markets/beauty-salons-rf/companies/zoon.json
   - используется в: data/markets/beauty-salons-rf/workflows.json
 
-## Живые (1378)
+## Живые (1486)
 
 - [200] http://dalnoboi.org/blog/2015/07/31/stoyanki-dlya-dalnobojshhikov/
 - [200] http://government.ru/news/49564/
@@ -775,11 +912,13 @@
 - [200] https://abiznews.net/articles/barno-tursunova-reshenie-5-problem-servisa/
 - [200] https://abn.agency/2026/06/02/osnovnoe-yurliczo-shokoladniczy-poluchilo-ubytok-1255-mln-rub-po-itogam-2025-goda/
 - [200] https://abreview.ru/ab/success/zachem_schitat_sebestoimost_normochasa/
+- [200] https://academy-market.com/school-reviews/geekbrains
 - [200] https://adesk.ru/blog/kadrovyi-golod-kak-malomu-biznesu-s-nim-borotsia/
 - [200] https://adesk.ru/blog/polnyi-gaid-po-kassovym-razryvam-shest-glavnykh-prichin-i-piat-sposobov-ustraneniia/
 - [200] https://adindex.ru/news/ad_budjet/2026/03/24/343495.phtml
 - [200] https://adindex.ru/news/agencies/2025/03/10/331534.phtml
 - [200] https://adindex.ru/news/digital/2023/05/31/312963.phtml
+- [200] https://adindex.ru/news/digital/2025/08/13/336202.phtml
 - [200] https://adindex.ru/news/digital/2026/07/15/347213.phtml
 - [200] https://adindex.ru/news/marketing/2023/04/4/311692.phtml
 - [200] https://adindex.ru/news/marketing/2024/12/10/328259.phtml
@@ -792,14 +931,15 @@
 - [200] https://adpass.ru/reklama-v-telegram-podorozhala-na-38-v-2025-godu/
 - [200] https://adpass.ru/rossijskij-malyj-i-srednij-biznes-tratit-na-internet-reklamu-25-50-tys-rublej-v-mesyats/
 - [200] https://adpass.ru/skolko-stoit-reklama-u-blogerov-na-raznyh-kanalah-prodvizheniya-v-2025-godu/
+- [200] https://adpass.ru/stoimost-reklamy-v-telegram-vyrosla-v-2025/
 - [200] https://adpass.ru/top-7-oshibok-v-rabote-s-blogerami/
 - [200] https://adwheel.ru/blog/glavnaja-oshibka-ocenki/
 - [200] https://afitness.ru
+- [200] https://ai-exam.ru/
 - [200] https://ai-russia.ru/library/hh
 - [200] https://aibusinessbot.ru/ot-haosa-k-poryadku-kak
 - [200] https://aif.ru/auto/support/zamglavy_rosstandarta_obmanyvaet_kazhdaya_desyataya_azs
 - [200] https://aif.ru/money/mymoney/razvod_v_parikmaherskoy_kak_salony_krasoty_obmanyvayut_svoih_klientov
-- [200] https://aif.ru/realty/house/znak-masterstva-avito-uslugi-zapustili-premiyu-v-otrasli-remonta
 - [200] https://akarussia.ru/news/novosti-akar/rynok-blogerov-v-rossii-ocenili-v-60-mlrd-rublej/
 - [200] https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/
 - [200] https://alexfitness.ru
@@ -808,9 +948,9 @@
 - [200] https://allo.tochka.com/find-employee
 - [200] https://altapress.ru/ekonomika/story/uklon-vpravo-uklon-vlevo-pod-sud-kak-izvestnie-blogeri-drobyat-moyut-i-prosto-tratyat-millioni-chtobi-ne-platit-nalogi-342023
 - [200] https://antaltalent.ru/en/news/methods-lengths-job-search-2025-q3/
+- [200] https://antiplagiat.ru
 - [200] https://arenda.yandex.ru
 - [200] https://arenda.yandex.ru/
-- [200] https://arenda.yandex.ru/journal/post/arendator-ne-platit-i-ne-sezzhaet-instrukciya-po-bezopasnomu-vyseleniyu/
 - [200] https://arenda.yandex.ru/journal/post/chto-takoe-yandeks-arenda-izachem-myeyopridumali/
 - [200] https://arenda.yandex.ru/journal/post/finzashchita-chto-eto-i-kak-rabotaet-v-yandeks-arende/
 - [200] https://arenda.yandex.ru/journal/post/kak-proverit-arendatora-kvartiry/
@@ -847,6 +987,7 @@
 - [200] https://avtoservice-profit.ru/blog/276789
 - [200] https://awwwake.ru/journal/registracija_blogerov_v_rkn
 - [200] https://axdigital.ru/blog/rkn-bloger-reestr-guide/
+- [200] https://azpp.ru/otdal-138-tysyach-za-onlajn-kurs
 - [200] https://azpp.ru/otvet-yurista/tovary-i-uslugi/fitnes-klub-ne-vozvrashchaet-dengi-za-abonement
 - [200] https://azsmentor.ru/catalog/programmy-dlya-azs-po
 - [200] https://benzuber.ru
@@ -856,6 +997,8 @@
 - [200] https://bibimot.ru/14133-m-12-ot-moskvy-do-kazani-realnyj-schet-za-poezdku-i-gde-ne-stoit-zhdat-zapravku.html
 - [200] https://biz360.ru/materials/regulyarno-i-ponemnogu-kak-podpiska-menyaet-povedenie-klientov-i-uvelichivaet-dokhod-fitnes-kluba/
 - [200] https://biz360.ru/materials/umnye-avtoservisy-kak-oblachnye-tekhnologii-pomogayut-upravlyat-kompaniey-v-krizis/
+- [200] https://biznesolog.ru/blog/finansovaya-model-online-shkoly
+- [200] https://blog.click.ru/analytics/god-reklamy-v-cifrax-kak-izmenilis-cpc-ctr-i-cpm/
 - [200] https://blog.click.ru/growthhacking/11-alternativ-yandeks-i-google/
 - [200] https://blog.click.ru/market-news/v-2025-godu-cpa-stoimost-celevogo-dejstviya-vyrosla-na-16/
 - [200] https://blog.click.ru/markirovka-reklamy/skolko-stoyat-uslugi-ord/
@@ -866,6 +1009,7 @@
 - [200] https://blog.promopult.ru/law/registraciya-v-rkn-i-shtrafy-dlya-blogerov-desyatitysyachnikov.html
 - [200] https://blog.salesai.ru/skachat-polnyy-chek-list-kontrolya-kachestva-zvonkov-nedvizhimost
 - [200] https://blog.socialjet.pro/kak-sostavit-idealnyj-brif-dlya-reklamnoj-kampanii-i-izbezhat-poloviny-problem/
+- [200] https://blog.whiteedtech.ru/blog/kak-predlagat-rassrochku-na-kurs-esli-banki-ploho-odobryayut-kredity/
 - [200] https://bloknot-volzhsky.ru/news/vedushchikh-trenerov-ddx-fitness-uvolili-po-tikhom
 - [200] https://bnovo.ru
 - [200] https://bnovo.ru/tarif/
@@ -894,49 +1038,38 @@
 - [200] https://careerspace.app/subscription
 - [200] https://casebook.ru/
 - [200] https://checkindex.ru/issledovaniya/perekus-rosta/
-- [200] https://checko.ru/company/a-grupp-1117847374226
-- [200] https://checko.ru/company/adventum-konsalting-1127746176128
+- [200] https://checko.ru
 - [200] https://checko.ru/company/agentstvo-leybl-ap-1177746860334
-- [200] https://checko.ru/company/alyans-ayti-tekhnolodzhi-1126686019239
-- [200] https://checko.ru/company/artiks-is-1127746122371
-- [200] https://checko.ru/company/ayti-oyl-1187746798425
+- [200] https://checko.ru/company/ayko-1081690065577
 - [200] https://checko.ru/company/didenok-star-1237700054503
 - [200] https://checko.ru/company/dodo-franchayzing-1131101001844
 - [200] https://checko.ru/company/dokzilla-1137746153819
 - [200] https://checko.ru/company/dyuna-1172375067424
 - [200] https://checko.ru/company/dzhast-luk-1115476092687
+- [200] https://checko.ru/company/ehdyuson-1147746925369
 - [200] https://checko.ru/company/ehpikstars-1227700088351
-- [200] https://checko.ru/company/fitmost-1157746727533
 - [200] https://checko.ru/company/getblogger-1167746911837
-- [200] https://checko.ru/company/ilon-5187746002824
-- [200] https://checko.ru/company/internet-tekhnologii-1137604014470
-- [200] https://checko.ru/company/klaborg-grupp-1155018002655
-- [200] https://checko.ru/company/klik-ru-1107746150126
-- [200] https://checko.ru/company/kolibri-1146658002974
-- [200] https://checko.ru/company/koltach-solyushns-1157746673040
 - [200] https://checko.ru/company/mediaskaut-1227700185646
-- [200] https://checko.ru/company/omnikomm-tekhnologii-1165050053024
-- [200] https://checko.ru/company/onlayn-kards-1146733011105
 - [200] https://checko.ru/company/palitrumlab-1137746018156
-- [200] https://checko.ru/company/pamp-1167746843175
 - [200] https://checko.ru/company/perflyuens-1177746601757
 - [200] https://checko.ru/company/pleers-1157746232401
+- [200] https://checko.ru/company/remontnik-ru-1117746558577
+- [200] https://checko.ru/company/sistema-pbo-1027700251754
 - [200] https://checko.ru/company/solar-staff-rus-1157746300964
-- [200] https://checko.ru/company/superdzhob-1027700404797
-- [200] https://checko.ru/company/td-smart-tekhnologii-1106670006772
-- [200] https://checko.ru/company/tochka-1127746551107
-- [200] https://checko.ru/company/topaz-servis-1026101933725
-- [200] https://checko.ru/company/zapravki-1187746812725
+- [200] https://checko.ru/company/sport-forum-1067746218176
+- [200] https://checko.ru/company/telekot-1237700464671
+- [200] https://checkroi.ru/
 - [200] https://chel.aif.ru/sport/otkroveniya_trenerov_kak_nas_obmanyvayut_v_fitnes-klubah_i_sportzalah
 - [200] https://cher-poisk.ru/people-news/otnosheniya/trener-v-fitnes-klube-nachal-unizhat-menya-potomu-chto-otkazalas-pokupat-ego-personalnye-zanyatiya
-- [200] https://citrus-soft.ru/blog/vygruzka-obektov-nedvizhimosti-na-avito-tsian-domklik-ya-nedvizhimost-vkontakte-i-odnoklassniki/
 - [200] https://click.ru
 - [200] https://click.ru/
 - [200] https://colife.ru
 - [200] https://colife.ru/doveritelnoe-upravlenie-nedvigimostyu
 - [200] https://com-stil.com/blogs/zapravka-bez-obmana-kak-vyibrat-azs-i-ne-ostatsya-s-razbavlennyim-dizelem
+- [200] https://companies.rbc.ru/id/1057747076078-nao-antiplagiat/
 - [200] https://companies.rbc.ru/id/1057811290767-ooo-ia-rialveb/
 - [200] https://companies.rbc.ru/id/1067760471822-ooo-aj-kontekst/
+- [200] https://companies.rbc.ru/id/1091215001591-ispring/
 - [200] https://companies.rbc.ru/id/1097154026045-ingate-group/
 - [200] https://companies.rbc.ru/id/1127746176128-digital-agentstvo-adventum/
 - [200] https://companies.rbc.ru/id/1187746366807-ooo-vilgud-servis/
@@ -991,6 +1124,8 @@
 - [200] https://domeo.ru/remont-kvartir-pod-klyuch/
 - [200] https://dsrupt.ru/istochniki/youdo/
 - [200] https://dtf.ru/id1666799/3270332-svezhie-otzyvy-kurerov-yandeks-eda-33-otzyva
+- [200] https://dtf.ru/id220555/3446233
+- [200] https://dtf.ru/uchionline/3653156
 - [200] https://dvizhenie.ru/media/7431/dmitrij-alekseev-avito-nedvizhimost-fokusiruemsya-na-razrabotke-svoego-ii
 - [200] https://dvizhok.su/business/stalo-izvestno%2C-skolko-rossiyan-stolknulis-s-kontrafaktnyimi-zapchastyami-v-2025-godu
 - [200] https://dvizhok.su/parts/avtoservisnaya-otrasl-v-2025-godu-itogi-i-perspektivyi
@@ -999,11 +1134,15 @@
 - [200] https://e-staff.ru
 - [200] https://e-staff.ru/
 - [200] https://e-staff.ru/tariffs
+- [200] https://e1-card.ru
 - [200] https://e1-card.ru/blog/biznes/kak-zayavit-k-vychetu-nds-raskhody-po-toplivnoj-karte
+- [200] https://e1-card.ru/blog/biznes/sliv-topliva-voditelyami
 - [200] https://eadaily.com/ru/news/2026/07/08/nezavisimye-azs-zhmut-na-ceny-pravitelstvo-stavit-na-drugih
 - [200] https://ecolespb.ru/blog/poleznye-stati/samozanjatost-kak-bjuti-masteru-oformit-biznes-i-platit-nalogi
 - [200] https://eda.rambler.ru/media/vsjudu-zhizn/chto-i-gde-edyat-dalnoboyshchiki
 - [200] https://eda.yandex.ru
+- [200] https://edtechs.ru/metodika-sostavleniya-rejtinga/
+- [200] https://eduson.academy
 - [200] https://ej.sudrf.ru/info/poryadok
 - [200] https://elama.ru
 - [200] https://elama.ru/blog/faq-po-sboru-3-za-dohod-ot-reklamy-otvechayut-eksperty-elama/
@@ -1024,12 +1163,14 @@
 - [200] https://epam.ru/ru/media/view/effektivnost-ispolnitelnogo-proizvodstva-v-rf-nizkaya-naglyadno-pokazyvaet-ofitsialnaya-statistika-fssp
 - [200] https://erid.agency/
 - [200] https://etagi.com
+- [200] https://eto-razvod.ru/review/foxford/
 - [200] https://eto-razvod.ru/review/intrumnet/
 - [200] https://eto-razvod.ru/review/petrolplus/
 - [200] https://eto-razvod.ru/review/pravoved/
 - [200] https://europlan.ru/storagedfile/show/static/rbk-post
 - [200] https://eva.ru/beauty/messages-3648532.htm
 - [200] https://evo.spb.ru/stati/stoit-li-rabotat-rieltorom-v-2026-godu-ekspertnyj-vzglyad-agentstva-evo/
+- [200] https://excheck.pro/company/6658427850-ehlektronnye-platformy
 - [200] https://excheck.pro/company/7721707310-laboratoriya-po
 - [200] https://expert.ru/news/bolee-15-fitnes-klubov-v-rf-mogut-zakrytsya-iz-za-nalogovykh-popravok-minfina/
 - [200] https://expert.ru/promishlennost/azs-slivayutsya-s-rynka
@@ -1049,6 +1190,9 @@
 - [200] https://finance.mail.ru/article/kak-soiskatelyu-otlichit-testovoe-zadanie-ot-raboty-za-spasibo-69212239/
 - [200] https://finance.mail.ru/article/malyj-biznes-stal-chashe-nanimat-neidealnyh-sotrudnikov-69204649/
 - [200] https://finance.mail.ru/article/sutki-zamedlyayut-beg-69203467/
+- [200] https://finance.rambler.ru/business/56761110-rynok-avtoservisov-pod-davleniem-nalogi-kadry-i-rost-tenevogo-sektora/
+- [200] https://finance.rambler.ru/money/51975051-rynok-bankrotstva-fizicheskih-lits-v-rf-tendentsii-i-perspektivy-razvitiya/
+- [200] https://finance.rambler.ru/money/56772767-orlovskomu-obschepitu-trebuyutsya-ofitsianty-administratory-i-povara/
 - [200] https://finance.rambler.ru/realty/56872929-dolya-uzkoprofilnyh-masterov-po-remontu-zhilya-sokratilas-vdvoe/
 - [200] https://fingu.ru/registraciya-ooo-pod-kljuch/
 - [200] https://fireseo.ru/blog/12-servisov-dlya-poiska-i-proverki-blogerov/
@@ -1072,24 +1216,32 @@
 - [200] https://franshiza-mall.ru/catalog/health/smstretching
 - [200] https://franshiza.ru/franchise/read/4hands/
 - [200] https://franshiza.ru/franchise/read/Bosh_Avto_Servis/
-- [200] https://franshiza.ru/franchise/read/dodo_pizza/
 - [200] https://franshiza.ru/franchise/read/etagi/
 - [200] https://franshiza.ru/franchise/read/euroauto/
 - [200] https://franshiza.ru/franchise/read/fit_service/
 - [200] https://franshiza.ru/franchise/read/nail_sunny/
 - [200] https://franshiza.ru/franchise/read/tochka/
 - [200] https://franshiza.ru/franchise/read/xfit/
-- [200] https://freedome-realty.ru/blog/doveritelnoe-upravlenie/komissiya-za-doveritelnoe-upravlenie-nedvizhimostyu-analiz-rynka-moskvy-i-mirovoy-praktiki/
 - [200] https://freud-pr.ru/rabota-s-influenserami
 - [200] https://friend.work
 - [200] https://friend.work/price
 - [200] https://fssp.gov.ru/iss/ip
 - [200] https://ftcard.ru/articles/reyting-toplivnykh-kart-dlya-yuridicheskikh-lits/
+- [200] https://garantx.ru/licensing/education/online/
+- [200] https://gb.ru
 - [200] https://gdebenz.ru/
-- [200] https://gdezapravka.ru/
 - [200] https://gectaro.com
 - [200] https://gectaro.com/
 - [200] https://gendalf.ru/news/1s/avtomatizatsiya-obshchepita-na-1s-uchet-/
+- [200] https://getblogger.ru
+- [200] https://getcourse.ru
+- [200] https://getcourse.ru/
+- [200] https://getcourse.ru/magazine/analitika_2025
+- [200] https://getcourse.ru/magazine/nalogovaya_i_yuridicheskaya_bezopasnost_chto_zhdet_onlayn_obrazovanie_v_2025_2026_gg
+- [200] https://getcourse.ru/magazine/pravila-rassrochki-s-1-04-2026
+- [200] https://getcourse.ru/magazine/svezhaya_analitika_ot_getcourse_sentyabr_2025
+- [200] https://getcourse.ru/marketing-blog/1148797/year2024
+- [200] https://getcourse.ru/prices
 - [200] https://getmatch.ru
 - [200] https://gipix-lite.ru/blog/corporate-clients-fleet-autoservice/
 - [200] https://globalcio.ru/projectoftheyear/list/54351/
@@ -1101,6 +1253,7 @@
 - [200] https://h.careers/deals/karernaya-konsultaciya-nikolay-shirinkin
 - [200] https://habr.com/ru/articles/1004214/
 - [200] https://habr.com/ru/articles/1026380/
+- [200] https://habr.com/ru/articles/1039274/
 - [200] https://habr.com/ru/articles/1049026/
 - [200] https://habr.com/ru/articles/1054450/
 - [200] https://habr.com/ru/articles/589717/
@@ -1123,6 +1276,8 @@
 - [200] https://habr.com/ru/news/1009354/
 - [200] https://habr.com/ru/news/1050494/
 - [200] https://habr.com/ru/news/570864/
+- [200] https://habr.com/ru/news/681468/
+- [200] https://harant.ru/questions/q-52759/
 - [200] https://heaad.ru/blog/skolko-stoit-podbor-personala/
 - [200] https://help.ati.su/average-rate
 - [200] https://help.ati.su/mobile/android/proverka-kontragenta-mob.html
@@ -1140,6 +1295,7 @@
 - [200] https://hh.ru/article/32897
 - [200] https://hh.ru/article/506100
 - [200] https://hh.ru/article/api-talantix
+- [200] https://hh.ru/article/chto-umeet-ii-pomoshchnik-dlya-najma
 - [200] https://hh.ru/article/pochemu-ne-nuzhno-boyatsya-ii-pri-poiske-raboty
 - [200] https://hh.ru/article/rabotodatyeli-moshyenniki-v-tyelyegram-botakh
 - [200] https://hh.ru/article/rynok-truda-v-2025-godu-pochemu-stalo-trudnee-iskat-rabotu
@@ -1150,6 +1306,8 @@
 - [200] https://hh.ru/services
 - [200] https://hh.ru/vacancies/master-priemschik-avtoservisa
 - [200] https://hh.ru/vacancy/129169824
+- [200] https://hh.ru/vacancy/129284166
+- [200] https://hh.ru/vacancy/131834273
 - [200] https://hh.ru/vacancy/134721249
 - [200] https://hh.ru/vacancy/135522056
 - [200] https://hh.ru/vacancy/135566239
@@ -1180,6 +1338,7 @@
 - [200] https://incrussia.ru/news/fns-rossii-na-nachalo-goda-obshhee-kolichestvo-yurlits-i-individualnyh-predprinimatelej-sostavilo-bolee-3-2-mln/
 - [200] https://incrussia.ru/news/gettable/
 - [200] https://incrussia.ru/news/rekord-v-stroitelnom-sektore-rossiyane-potratili-526-mlrd-na-remont-v-2024-godu/
+- [200] https://incrussia.ru/news/sud-prigovoril-ayaza-shabutdinova-k-7-godam-za-moshennichestvo-s-onlajn-kursami/
 - [200] https://incrussia.ru/understand/bloggers_u/
 - [200] https://ingate.ru
 - [200] https://interactivead.ru/news/arir-obem-rossijskogo-rynka-reklamy-i-prodvizheniya-v-internete-v-2024-godu-vyros-na-53-do-1236-trln-rublej/
@@ -1188,11 +1347,12 @@
 - [200] https://investfuture.ru/articles/nikogo-net-pochemu-biznes-mesyatsami-ne-mozhet-nayti-sotrudnikov-dazhe-na-prostye-vakansii
 - [200] https://investor.hh.ru
 - [200] https://investor.hh.ru/upload/iblock/0ec/vuzufju3o6b1qqtd1mh1hx6dxsxtkxle/HEAD%20%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7%20IV%20%D0%BA%D0%B2%202025.pdf
-- [200] https://investor.hh.ru/upload/iblock/40a/ajouq6f64jszrz8mzuc413ryvth12phq/HEAD%204q2024%20release%20050324.pdf
 - [200] https://ircity.ru/text/transport/2026/06/24/76492983/
 - [200] https://is1c.ru/about/pc/article/uchet-topliva-po-putevym-listam-pri-oplate-toplivnoy-kartoy-v-1s-bukhgalteriya-predpriyatiya/
 - [200] https://itek.ru/news/vlasti-obyazali-novye-azs-v-rossii-vozvodit-zaryadki-dlya-elektromobilej/
 - [200] https://its.1c.ru/db/hoosn/content/381/hdoc
+- [200] https://iz.ru/1632333/sergei-gurianov/predpensionnyi-fond-sokhraniaetsia-li-eidzhizm-na-rynke-truda
+- [200] https://iz.ru/2128387/2026-07-07/ekspert-opisal-novuiu-skhemu-obmana-moshennikov-razdolzhnitelei
 - [200] https://jobers.ru/blog/dolzhnostnye-obyazannosti-operatora-azs/
 - [200] https://jobturbo.ru/
 - [200] https://joinposter.com/business/cafe
@@ -1201,6 +1361,7 @@
 - [200] https://jump.finance
 - [200] https://jump.finance/
 - [200] https://k50.ru
+- [200] https://klerk.ru/buh/articles/581095/
 - [200] https://kokocgroup.ru/blog/sovladelets-kokoc-group-kupil-85-blogerskogo-agentstva-players-teamntstva-players-team
 - [200] https://komanda.ai/car-service
 - [200] https://komkad.ru/blog/skolko-stoit-podbor-personala/
@@ -1209,6 +1370,7 @@
 - [200] https://konsol.pro/blog/reklama-u-blogerov-ord
 - [200] https://kontur.ru/articles/3090
 - [200] https://kontur.ru/articles/5062
+- [200] https://kontur.ru/articles/513
 - [200] https://kontur.ru/articles/727
 - [200] https://kontur.ru/articles/79634-malomu_biznesu_vybirat_blogerov_dlya_reklamy
 - [200] https://kontur.ru/hotel/spravka/83680-zakon_o_klassifikacii_gostevyh_domov
@@ -1219,6 +1381,8 @@
 - [200] https://kredita.net/yurist-po-bankrotstvu/
 - [200] https://ksonline.ru/604325/konflikt-interesov-pochemu-biznes-teryaet-milliony-na-neeffektivnoj-reklame-v-yandeks-direkt/
 - [200] https://kurer-msk.ru/blog/shtrafy-kurerov-yandeks-edy/
+- [200] https://kurshub.ru/kursy-po-shkolam/eduson-academy-kursy/
+- [200] https://kurshub.ru/reviews/eduson-academy/
 - [200] https://kuzovport.ru/globalnyj-krizis-v-avtoservisah-2025-goda-prichiny-pochemu-klientov-stalo-menshe-i-chto-s-etim-delat/
 - [200] https://kvnews.ru/news-feed/204974
 - [200] https://kwork.ru/land/nastroyka-yandeks-direkt
@@ -1242,6 +1406,7 @@
 - [200] https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/
 - [200] https://loyabonus.app/industry/auto-service
 - [200] https://m-context.ru/blog-monster-context/nastroyka-i-vedenie-yandeks-direkt/
+- [200] https://m.business-gazeta.ru/news/699871
 - [200] https://m.seonews.ru/events/kak-izmenilas-tsena-klika-i-tselevogo-deystviya-v-pervom-kvartale-2025-goda-issledovanie/
 - [200] https://ma-research.ru/stati/item/410-v-usloviyakh-izbytochnogo-predlozheniya-i-snizheniya-tarifov-rynok-avtomobilnykh-gruzoperevozok-v-2025-g-voshel-v-stagnatsiyu.html
 - [200] https://marketing.rbc.ru/articles/15460/
@@ -1250,6 +1415,7 @@
 - [200] https://marketing.rbc.ru/articles/16490/
 - [200] https://marketing.rbc.ru/articles/16611/
 - [200] https://markirovka.ru/community/markirovka-stroitelnykh-materialov/markirovka-stroitelnykh-materialov-v-2025-godu
+- [200] https://mastera.academy/ban-ads/
 - [200] https://mastergrad.com/forums/t241387-podskazhite-mastera-kak-novichku-nayti-zakazy-na-rabotu/
 - [200] https://maxfaq.ru/livedune-obzor-servisa-tarify-i-tseny
 - [200] https://media.kf.expert/lenta_analytics/0/847/Fitness%20centers_msk_rus_04_2025.pdf
@@ -1267,6 +1433,7 @@
 - [200] https://mobiusapp.ru/blog/snizit-komissiyu-agregatorov-dostavki/
 - [200] https://monopoly.ru/
 - [200] https://monuchet.ru/spravochnik/nalogi-dlya-blogerov-i-infobiznesa-2026/
+- [200] https://mooc.ru/company/online-classroom-foxford
 - [200] https://mosautoshina.ru
 - [200] https://mosautoshina.ru/about/
 - [200] https://mosdigitals.ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025-goda-razbor-yurista
@@ -1289,6 +1456,8 @@
 - [200] https://napca.ru/
 - [200] https://nationalfitness.ru/2025/12/30/itogi-2025-goda-obobshhennoe-issledovanie-rynka-fitnes-uslug/
 - [200] https://natiw.ru/baza-znanij/kak-izmerit-effektivnost-reklamy-u-blogerov-klyuchevye-metriki-i-instrumenty
+- [200] https://navika.pro/infobiznes/posts/prodyuser-onlajnshkol--chestnye-istorii-provalov-i-uspexov
+- [200] https://nebogach.ru/money/uchi-ru-snyali-dengi-s-karty-banka-kuda-obrashhatsya/
 - [200] https://neftm.ru
 - [200] https://neftregion.ru/novosti/pochemu-s-azs-propadaet-benzin-ai-98-i-mozhno-li-zamenit-ego-na-ai-100
 - [200] https://netmonet.co/ru/blog/kak-snizit-tekuchku-v-restorane
@@ -1302,6 +1471,7 @@
 - [200] https://news.ati.su/article/2025/04/18/oshibka-stoimostju-v-40-millionov-novaja-shema-moshenichestva-v-gruzoperevozkah-713481/
 - [200] https://news.ati.su/index/
 - [200] https://news.pressfeed.ru/kak-frilanseru-ne-ostatsya-bez-deneg-ot-zakazchika-istorii-sovety-yuristov-i-poleznye-materialy/
+- [200] https://news.pressfeed.ru/kak-ispolzovat-nejroseti-dlya-sozdaniya-kursov-15-instrumentov/
 - [200] https://ngs.ru/text/gorod/2019/12/13/66398437/
 - [200] https://ngs.ru/text/relations/2026/03/27/76332781/
 - [200] https://niksolovov.ru/services/epicstars
@@ -1313,14 +1483,18 @@
 - [200] https://npd.nalog.ru/
 - [200] https://oborot.ru/news/summarnaya-reklamnaya-vyruchka-wildberries-ozon-i-yandeks-market-v-2025-godu-prevysila-500-mlrd-rublej-i267915.html
 - [200] https://office.ru/articles/uproshchyennaya-likvidatsiya-ooo-dlya-malogo-i-srednego-biznesa/
+- [200] https://okursah.ru/s/skillbox
 - [200] https://on-context.ru/articles/avtostrategiya-direkt-byit-ili-ne-byit-ruchnomu-upravleniyu
 - [200] https://online-kassa.ru/blog/avtomatizatsiya-biznesa-tak-li-eto-dorogo-primery-i-raschety/
+- [200] https://onreg.domclick.ru/
 - [200] https://ostrovok.ru
 - [200] https://otvet.mail.ru/question/232842661
 - [200] https://otvet.mail.ru/question/242218457
 - [200] https://otzovikon.com/category/117/salony-krasoty
 - [200] https://otzyvmarketing.ru/1c-fitnes-club/
+- [200] https://otzyvmarketing.ru/epicstars/
 - [200] https://otzyvmarketing.ru/getblogger/
+- [200] https://otzyvmarketing.ru/getcourse/
 - [200] https://otzyvmarketing.ru/quick-resto/
 - [200] https://otzyvmarketing.ru/wowblogger/
 - [200] https://otzyvmarketing.ru/yoloco/
@@ -1332,6 +1506,7 @@
 - [200] https://pecom.ru/
 - [200] https://perfluence.net
 - [200] https://perfluence.net/
+- [200] https://perfluence.net/blog/article/blogery-dlya-malogo-i-srednego-biznesa
 - [200] https://persona-franshiza.ru/
 - [200] https://persona.ru/
 - [200] https://peterburg2.ru/news/pochemu-kofe-i-vypechka-na-azs-stoyat-v-razy-dorozhe-magazinov-223191.html
@@ -1379,10 +1554,18 @@
 - [200] https://ppc.world/articles/yandexart-dlya-kampaniy-v-direkte-5-sposobov-primeneniya-i-rezultaty-testov/
 - [200] https://ppc.world/news/cena-odnogo-reklamnogo-posta-v-telegram-kanale-mozhet-dostigat-15-mln-rubley-issledovanie/
 - [200] https://ppc.world/news/pri-registracii-kreativa-teper-nuzhno-ukazyvat-kod-kktu-v-reklame/
+- [200] https://ppt.ru/amp/columns/o-prave-v-onlayne/my-prosto-pereveli-obuchenie-na-ip-sud-vzyskal-dolg-lichno-s-rukovoditeley-onlayn-shkoly
+- [200] https://ppt.ru/art/droblenie-biznesa/delo-blinovskoy-kak-biznes-na-marafonakh-stal-prichinoy-milliardnykh-donachisleniy
 - [200] https://ppt.ru/obzory/vstupaet-v-silu/federalnyy-zakon-07-06-2025-137-fz
+- [200] https://practicum.yandex.ru
+- [200] https://practicum.yandex.ru/career-center/
+- [200] https://practicum.yandex.ru/data-analyst/
 - [200] https://praktika.plus/blog/pro-remont/kak-poteryat-dengi-pri-remonte-kvartiry/
 - [200] https://pravda-sotrudnikov.org/company/stars-coffee-otzyvy-sotrudnikov
+- [200] https://pravo.ru/news/257632/
 - [200] https://pravo.ru/story/225609/
+- [200] https://pravo.ru/story/239457/
+- [200] https://pravo.ru/story/242720/
 - [200] https://pravo.ru/story/246333/
 - [200] https://pravo.ru/story/254162/
 - [200] https://pravo.tech
@@ -1429,6 +1612,7 @@
 - [200] https://raexpert.ru/researches/housing_const_2025/
 - [200] https://rahmat.ru/blog/rabota/gde-migrantam-zapretili-rabotat-kurerom
 - [200] https://rapsinews.ru/incident_news/20260220/311625202.html
+- [200] https://rapsinews.ru/judicial_news/20241114/310406440.html
 - [200] https://rarus.ru/1c-auto/1c8-avtoservis/
 - [200] https://rarus.ru/publications/20250121-1c-avtoservis-kak-zapisatsya-na-remont-cherez-telegram-727906/
 - [200] https://rasxodomer.org/hardware/fuel-gauge/datchik-urovnya-topliva-omnicomm-lls-5-l-700-mm/
@@ -1493,10 +1677,12 @@
 - [200] https://roistat.com/ru/price/
 - [200] https://room-design.ai/reroom-ai.php
 - [200] https://rostsayt.ru/blog/kak-vybrat-marketingovoe-agentstvo-v-2026-godu-prakticheskiy-gayd-plyus-chek-listy
+- [200] https://rrllc.ru/articles/lic.html
 - [200] https://rt-online.ru
 - [200] https://rtlq.ru/content/2017/3/5/Chek-list-proverki-AZS-kak-samozashhita-ot-shtrafov-i-Rospotrebnadzora/
 - [200] https://rtvi.com/stories/migranty-begut-so-strojki-deficzit-kadrov-v-otrasli-oczenili-v-30/
 - [200] https://ru.epicstars.com
+- [200] https://ru.examus.net
 - [200] https://ru.themoscowtimes.com/2025/10/23/marzha-azs-v-rf-uvelichilas-osenyu-no-ostaetsya-otritsatelnoy-raschet-reyter-a178084
 - [200] https://ru.themoscowtimes.com/2026/06/30/toplivnyy-krizis-v-rf-vpervye-zastavil-roznichnye-tseny-pereshagnut-rubezh-100-rubl-a199549
 - [200] https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BA%D1%80%D0%B8%D0%B7%D0%B8%D1%81_%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_(%D1%81_2025)
@@ -1525,6 +1711,7 @@
 - [200] https://saby.ru/profile/7813323882-781301001
 - [200] https://saby.ru/profile/9705151710-770501001
 - [200] https://safe.cnews.ru/news/line/2021-10-27_recognition_x_razrabotala_biometricheskuyu
+- [200] https://salebot.pro/
 - [200] https://salesap.ru/blog/kak-nabrat-rieltorov-v-agentstvo-nedvizhimosti
 - [200] https://samoletplus.ru
 - [200] https://samoletplus.ru/journal/samolet-plyus-zapustil-pervuyu-v-rossii-ii-platformu-dlya-rielterov/
@@ -1535,6 +1722,7 @@
 - [200] https://sdom-stroy.ru/blog/12-skhem-obmana-pri-remonte.html
 - [200] https://secrets.tbank.ru/blogi-kompanij/skolko-stoit-tekuchka-v-fitnes-industrii/
 - [200] https://secrets.tbank.ru/lichnyj-opyt/fitmost/
+- [200] https://sedov.link/blog/1188374
 - [200] https://seo-aspirant.ru/effektivnost-reklamy-u-blogerov
 - [200] https://serviceinspector.ru/fitnes-kluby-uborka
 - [200] https://setka.ru/posts/0197186e-fcda-44f5-b557-3b09e43d241b
@@ -1543,15 +1731,23 @@
 - [200] https://shoppers.media/articles/26371_restorany-budut-vynuzdeny-povysit-ceny-v-2026-g
 - [200] https://shoppers.media/news/26912_fitness-data-set-fitnes-klubov-ddx-mogla-obognat-world-class-po-vyrucke-v-2025-g
 - [200] https://shoppers.media/news/27019
+- [200] https://siding-rdm.ru/uchiru-snyali-dengi-s-karty/
 - [200] https://simplysmeta.ru/
 - [200] https://sk.ru/news/skolkovo-i-tadviser-opredelili-liderov-rossijskogo-rynka-sistem-upravleniya-transportnoj-logistikoj/
 - [200] https://skillaz.ru
+- [200] https://skillbox.ru
 - [200] https://skillbox.ru/media/design/hateful-seven/
+- [200] https://skillbox.ru/media/edtech/v-2025-godu-rossiyskiy-edtech-vyros-vsego-na-12/
+- [200] https://skillbox.ru/media/edtech/vyruchka-v-sfere-infobiznesa-v-2025-godu-snizilas/
+- [200] https://skillbox.ru/media/education/coursera-izza-sanktsiy-ushla-iz-rossii-ili-eshchye-rabotaet/
 - [200] https://skillbox.ru/media/health/skolko-zarabatyvaet-fitnes-trener-na-individualnyh-trenirovkah-i-v-klube/
 - [200] https://skillbox.ru/media/marketing/na-rynke-marketinga-krizis-doveriya-biznes-stal-chasche-proveryat-podryadchikov/
+- [200] https://skyeng.ru
 - [200] https://smart-lab.ru/q/CNRU/f/y/
 - [200] https://smartagent.ru/stati/analitika/pochemu-ot-rieltora-uxodit-klient
 - [200] https://smartagent.ru/stati/instrumenty/avtopublikaciya-obyavlenij-nedvizhimosti
+- [200] https://smartranking.ru/ru/analytics/edtechs/edtech-rynok-vyros-v-2025-godu-na-12/
+- [200] https://smartranking.ru/ru/analytics/edtechs/onlajn-shkoly-perehodyat-na-poetapnoe-obuchenie/
 - [200] https://smartranking.ru/ru/analytics/hrtech/
 - [200] https://smartranking.ru/ru/analytics/hrtech/ejcharteh-rynok-vyros-na-9-v-i-kvartale-rost-sderzhivaetsya-stagnaciej-podbora-personala/
 - [200] https://smartranking.ru/ru/analytics/hrtech/hrtech-rynok-v-rossii-vyros-na-38/
@@ -1560,7 +1756,9 @@
 - [200] https://smartranking.ru/ru/ranking/company/skillaz/
 - [200] https://smartseeds.ru/
 - [200] https://smstretching.ru
+- [200] https://soholms.com/blog/ai
 - [200] https://solarstaff.com
+- [200] https://soldimarketing.ru/zametki/syurprizy-markirovki-reklamy/
 - [200] https://solutions.1c.ru/catalog/autoservice/features
 - [200] https://solutions.1c.ru/catalog/fitness/features
 - [200] https://solutions.1c.ru/catalog/tms
@@ -1593,10 +1791,13 @@
 - [200] https://sutochno.ru/blog/flathome24
 - [200] https://sutochno.ru/help/arendodateli/bronirovanie/predoplata-razmer
 - [200] https://svoedeloplus.ru/2026/07/01/na-rynke-uslug-kosmetologov-nashli-64-kompanij-kotorye-rabotayut-bez-licz/
+- [200] https://synergy.ru/about
+- [200] https://sz.prodamus.ru/
 - [200] https://t-j.ru/ask/arendator-ne-platit/
 - [200] https://t-j.ru/builders-fraud/
 - [200] https://t-j.ru/car-service-disappointment/
 - [200] https://t-j.ru/disputed-inheritance/
+- [200] https://t-j.ru/exam-tutor/
 - [200] https://t-j.ru/guide/service-cheaters/
 - [200] https://t-j.ru/hate/realtor-commission-hate/
 - [200] https://t-j.ru/news/opros-domrf/
@@ -1619,6 +1820,7 @@
 - [200] https://thehrd.ru/articles/kak-sostavit-tekst-vakansii-chtoby-na-nee-nikto-ne-otkliknulsja/
 - [200] https://tn-group.net/blog/pereboi-s-postavkami-topliva-kak-kontrolirovat-raskhod
 - [200] https://toolfox.ru/blog/stoimost-monitoringa-transporta
+- [200] https://toolfox.ru/services/s/bizon365
 - [200] https://top107.ru/saas/martech/calltouch-obzor/
 - [200] https://topazelectro.ru
 - [200] https://topstretching.com
@@ -1628,12 +1830,17 @@
 - [200] https://trassagk.ru
 - [200] https://trendhero.io/
 - [200] https://trendhero.io/ru/pricing/
+- [200] https://trends.rbc.ru/trends/amp/news/697880e29a7947740bb14237
+- [200] https://trends.rbc.ru/trends/education/698058a59a7947c9b8e82014
 - [200] https://turboservice.ru
-- [200] https://tutortop.ru/school-reviews/careerspace/
+- [200] https://tutortop.ru/school-reviews/psihodemiya/
 - [200] https://twin24.ai/products/realty/
+- [200] https://uchi.ru
 - [200] https://udstrial.ru/uds-beauty.html
+- [200] https://ultimate-education.ru
 - [200] https://universe-soft.ru
 - [200] https://universe-soft.ru/
+- [200] https://uprav.ru/blog/gosting-posle-sobesedovaniya/
 - [200] https://ura.news/articles/1053082330
 - [200] https://ura.news/news/1053081471
 - [200] https://ura.news/news/1053093466
@@ -1641,16 +1848,20 @@
 - [200] https://uremont.com
 - [200] https://uremont.com/FAQ
 - [200] https://uremont.com/register-service
+- [200] https://vakas.ru/articles/getcourse-tarify/
 - [200] https://vc.ru/25708-vcv-500s
 - [200] https://vc.ru/ai/2646757-podbor-pricheski-po-foto-top-25-neyrosetey
 - [200] https://vc.ru/ai/2953854-kak-bystro-nastroit-yandeks-direkt-s-pomoshchyu-ii
+- [200] https://vc.ru/claim/1178786
 - [200] https://vc.ru/claim/162269-remont-ot-kvadrim-kak-poteryat-dengi-i-poluchit-nedodelannuyu-kvartiru
 - [200] https://vc.ru/claim/2931788-neobosnovannyy-shtraf-yandeks-eda
 - [200] https://vc.ru/claim/791049-kak-profi-ru-prosit-oplachivat-zakazy-za-ne-vypolnennuyu-rabotu
+- [200] https://vc.ru/courses/school/skyeng/reviews
 - [200] https://vc.ru/education/2098284-zarplata-fitnes-trenerov-v-2025-godu
 - [200] https://vc.ru/eglit_m/2181762-zapret-na-posutochnuyu-arendu-v-rossii
 - [200] https://vc.ru/finance/102859-rossiyskiy-hr-startap-vcv-privlek-investicii-ot-byvshego-sovladelca-troyki-dialog-i-predprinimatelya-rubena-vardanyana
 - [200] https://vc.ru/finance/164092-servis-avtomatizacii-rekrutinga-friendwork-privlek-2-5-mln-ot-prytek-igorya-rybakova-i-partnerov-u-investorov-50-1
+- [200] https://vc.ru/finance/26637-admitad-epicstars-100m
 - [200] https://vc.ru/finance/58355-headhunter-kupil-dolyu-v-servise-dlya-avtomatizacii-rekrutinga-skillaz
 - [200] https://vc.ru/food/2132145-komissii-yandeks-eda-dlya-restoranov-v-2025-godu
 - [200] https://vc.ru/growth/139674-vcv-kak-500-startups-pomog-vyyti-na-rynok-ameriki-i-zapoluchit-investorov-iz-yaponii
@@ -1659,6 +1870,7 @@
 - [200] https://vc.ru/hr/2853769-avtomatizatsiya-rekrutinga
 - [200] https://vc.ru/hr/2872781-avtomatizatsiya-rekrutinga-sokraschenie-vremeni-obrabotki-rezyume
 - [200] https://vc.ru/hr/75579-testovoe-zadanie-pochemu-net
+- [200] https://vc.ru/id1185861/419613-gde-moi-milliony-na-zapuskah-chestnyi-razbor-pribyl-rashody-chem-zanimaetsya-prodyuser-a-chem-ekspert
 - [200] https://vc.ru/id1214001/2975350-otzyvy-o-yuridicheskoy-kompanii-rosbankrot
 - [200] https://vc.ru/id1377271/937429-2026-kak-rossiyaninu-rabotat-s-solar-staff-4dev-i-arbonum-priem-platezhei-iz-za-rubezha-vyvod-sredstv-i-nalogi-dlya-frilansa
 - [200] https://vc.ru/id1461594/2476683-telega-in-otzyvy-o-komissii
@@ -1668,18 +1880,24 @@
 - [200] https://vc.ru/id6040916/3024518-polovina-salonov-krasoty-peterburga-ne-imeet-onlajn-zapisi
 - [200] https://vc.ru/id6051790/3051623-problemy-s-platnym-prodvizheniem-na-avito
 - [200] https://vc.ru/invest/1988163-kak-prinyat-kvartiru-v-novostroyke-v-2025-godu
+- [200] https://vc.ru/legal/1064779
+- [200] https://vc.ru/legal/1092807-prodyuser-ekspert-kto-kogo
 - [200] https://vc.ru/legal/172577-kak-digital-agentstvu-na-usn-poluchat-komissiyu-ot-yandeksa-i-davat-klientam-vhodyashii-nds-s-reklamnogo-byudzheta
 - [200] https://vc.ru/legal/1920197-top-15-kompaniy-po-bankrotstvu-fizicheskikh-lits-v-moskve-2025-godu
+- [200] https://vc.ru/legal/669871-dogovor-eksperta-i-prodyusera-7-obyazatelnyh-uslovii
 - [200] https://vc.ru/life/1146251-testovoe-zadanie-ne-oplachivaetsya-kak-perestat-raspugivat-soiskatelei-i-sostavit-testovoe-kotoroe-budut-delat
+- [200] https://vc.ru/life/1955102
 - [200] https://vc.ru/life/2794664-hh-ru-i-ii-skrining-kak-oboyti-avtomaticheskie-otkazy
 - [200] https://vc.ru/marketing/1423004-yandeks-direkt-dlya-malogo-biznesa-kak-effektivno-ispolzovat-ogranichennyi-byudzhet
 - [200] https://vc.ru/marketing/1482452-kak-naiti-blogerov-kotorye-ne-vypustili-reklamu-i-ne-vozvrashayut-dengi
+- [200] https://vc.ru/marketing/1657481-analitika-onlain-shkol-2024-kak-vyrasti-na-vysokokonkurentnom-rynke-onlain-obrazovaniya-v-2025-godu
 - [200] https://vc.ru/marketing/1679128-kak-pobedit-frod-v-yandeks-direkte-nuzhno-vsego-lish
 - [200] https://vc.ru/marketing/1711187-kak-pravilno-analizirovat-rezultaty-reklamy-u-blogerov
 - [200] https://vc.ru/marketing/171459-kak-blogery-obmanyvayut-reklamodatelei
 - [200] https://vc.ru/marketing/1819649-keis-kak-prodvinut-avtoservis-na-avito-i-poluchat-klientov-po-94-rublya-v-2025-godu
 - [200] https://vc.ru/marketing/1838038-klienty-na-remont-kvartir-reklama-yandeks-direkt-keis
 - [200] https://vc.ru/marketing/1843960-kak-poluchat-kvallidy-na-remont-kvartir-v-moskve-za-1700-2200-rublei-v-2025-godu
+- [200] https://vc.ru/marketing/1937274-registraciya-blogerov-s-10-000-podpischikov-v-rkn
 - [200] https://vc.ru/marketing/2122224-chastnyy-direktolog-v-2025-godu
 - [200] https://vc.ru/marketing/2133578-poluchenie-zayavok-na-remont-kvartir-iz-yandeks-direkta-v-moskve
 - [200] https://vc.ru/marketing/2177455-audit-reklamnyh-kampanij-yandeks-direkt
@@ -1699,16 +1917,16 @@
 - [200] https://vc.ru/marketing/560636-zapustil-yandeks-direkt-slil-byudzhet-a-rezultata-net-chto-delat-i-kto-vinovat
 - [200] https://vc.ru/marketing/563051-607-digital-specialistov-besit-otvechat-na-vopros-gde-lidy-issledovanie
 - [200] https://vc.ru/marketing/668610-markirovka-reklamy-u-blogerov-pokazyvaem-na-skrinshotah-kak-ne-popast-na-500-000-rublei
-- [200] https://vc.ru/marketing/718045-kak-ya-zapustil-rabotu-s-blogerami-v-startape-pod-klyuch-za-3-dnya-gotovoe-reshenie-bez-agregatorov-agentstv-i-posrednikov
 - [200] https://vc.ru/marketing/756936-garantii-targetologa-ili-kak-vybrat-targetologa-v-2023-godu
 - [200] https://vc.ru/money/1426532-moi-otzyv-o-razblokirovke-scheta-v-sberbanke-popalas-na-115-fz
 - [200] https://vc.ru/money/252792-headhunter-poluchil-kontrol-v-servise-dlya-avtomatizacii-rekrutinga-skillaz
 - [200] https://vc.ru/money/2607842-vk-reklama-i-dorogie-lidy
 - [200] https://vc.ru/money/2959372-prodvizhenie-uslug-na-avito
+- [200] https://vc.ru/money/882576-poshagovoe-rukovodstvo-dlya-ekspertov-v-2023-godu-kak-naiti-prodyusera-chtoby-vyvesti-vash-zapusk-v-minus
 - [200] https://vc.ru/offline/101723-bolshie-skidki-i-dolgi-pochti-na-5-mln-rublei-pochemu-zakrylsya-agregator-fitnes-klubov-onefit
 - [200] https://vc.ru/opinions/254336-tolko-slavyanam-kak-snyat-zhile-esli-vam-nikto-ne-rad
+- [200] https://vc.ru/opinions/761207-prodyuser-eto-pro-podoit-a-ne-pro-vyrastit-chto-byvaet-kogda-ekspert-vpervye-ishet-prodyusera
 - [200] https://vc.ru/retail/2180724-yandeks-eda-1100-zakazov-i-1-3-mln
-- [200] https://vc.ru/services/1608664-vsya-pravda-o-hhru-dlya-rabotodatelei-otzyvy-plyusy-i-minusy-obzor-eksperta
 - [200] https://vc.ru/services/162498-lichnyi-opyt-poisk-klientov-cherez-birzhi-dlya-frilanserov
 - [200] https://vc.ru/services/1743493-razmeshenie-vakansii-na-hhru-rukovodstvo-po-vyboru-novogo-tarifa-dlya-rabotodatelei
 - [200] https://vc.ru/services/203022-16-crm-dlya-digital-agentstv
@@ -1728,6 +1946,7 @@
 - [200] https://vc.ru/transport/1690566-toplivnye-karty-ppr-usloviya-spisok-zapravok-i-otzyvy-klientov
 - [200] https://vc.ru/travel/1130601-moi-otzyv-ob-ostrovke-i-bukinge-po-faktam
 - [200] https://vc.ru/travel/1693835-rynok-kratkosrochnoi-arendy-kvartir-rossii-na-rubezhe-2024-i-2025-godov
+- [200] https://vc.ru/u/884239-rodrick-steal/272818
 - [200] https://vc.ru/yandex_direct/1034492-chto-delat-esli-klient-zakazchik-ne-platit
 - [200] https://vcv.ru
 - [200] https://vcv.ru/pricing/
@@ -1735,6 +1954,8 @@
 - [200] https://vitamin.tools/
 - [200] https://vk.com/wall-11352649_17444
 - [200] https://vkusnoitochka.ru
+- [200] https://vkusnovk.ru/blog/zakrytie-onlain-shkol
+- [200] https://vnedrenie-ii.ru/ii-prodavcy-dlya-biznesa/
 - [200] https://vseotzyvy.ru/item/108741/review/445281/wowblogger-reklama-u-blogerov-v-sotssetyah
 - [200] https://w1do.ru/case/autoservice-automation
 - [200] https://wazzup24.ru/
@@ -1743,7 +1964,6 @@
 - [200] https://wilgood.ru/
 - [200] https://work-zilla.com/vacancies/менеджер_по_холодным_звонкам_недвижимость_/340547
 - [200] https://worldclass-university.ru/blog/s-chego-nachat-formirovaniye-kliyentskoy-bazy-treneru-novichku
-- [200] https://wowblogger.ru
 - [200] https://wowblogger.ru/
 - [200] https://wowblogger.ru/blog/gajd_po_tarifam
 - [200] https://wowblogger.ru/for-bloggers
@@ -1793,15 +2013,18 @@
 - [200] https://www.calltouch.ru/blog/bez-tyuninga-realnyj-cpl-v-industrii-avto-issledovanie-calltouch-2025/
 - [200] https://www.calltouch.ru/blog/pravilno-li-davat-garantii-po-privlecheniyu-lidov-i-sdelok/
 - [200] https://www.carrotquest.io/blog/kak-rutinnye-zadachi-mogut-ubit-kareru-marketologa-i-pribyl-ego-kompanii/
+- [200] https://www.carrotquest.io/blog/rynok-edtech-2025-2026-trendy/
 - [200] https://www.cdek.ru/
 - [200] https://www.cian.ru
 - [200] https://www.cian.ru/novosti-v-2026-godu-remont-pod-kljuch-rezko-podorozhaet-342778/
 - [200] https://www.cian.ru/stati-remont-esli-stroitelnaja-brigada-propala-291128/
 - [200] https://www.cnews.ru/news/line/2023-02-28_fit_service_perehodit_na_tsifrovoj
 - [200] https://www.cnews.ru/news/line/2024-01-16_domklik_zapustil_podpiski
+- [200] https://www.cnews.ru/news/line/2024-03-06_skyeng_razrabotal_ii-servis
 - [200] https://www.cnews.ru/news/line/2024-07-16_investitsionnaya_kompaniya
 - [200] https://www.cnews.ru/news/line/2024-07-31_set_dodo_pitstsa_pervoj
 - [200] https://www.cnews.ru/news/line/2024-10-18_domklik_zapustil_podbor
+- [200] https://www.cnews.ru/news/line/2025-03-11_vyruchka_mts_link_v_2024_godu
 - [200] https://www.cnews.ru/news/line/2025-03-27_tsian_39_mln_chelovek_polzuyutsya
 - [200] https://www.cnews.ru/news/line/2025-04-02_samolet_plyus_zapustil
 - [200] https://www.cnews.ru/news/line/2025-04-07_avito_obognal_openai_i_google
@@ -1812,11 +2035,12 @@
 - [200] https://www.cnews.ru/news/line/2026-04-29_yus_avto_vypustila_gsm_2
 - [200] https://www.cnews.ru/news/line/2026-05-22_ddx_fitness_avtomatizirovala
 - [200] https://www.cnews.ru/news/line/2026-07-14_v_iyune_na_rynke_truda_silnee
+- [200] https://www.cnews.ru/news/line/2026-07-24_skyeng_zapustil_sistemu_personalizirovannyh
 - [200] https://www.cnews.ru/news/line/2026-07-30_avito_uslugi_zapustili
 - [200] https://www.cnews.ru/news/top/2023-05-15_torgovuyu_marku_i_domen_delivery
 - [200] https://www.cnews.ru/news/top/2024-05-21_headhunter_obzhegsya_na_youdo_i_poteryal
-- [200] https://www.cnews.ru/news/top/2024-09-27_headhunter_vernulsya_na_birzhukompaniya
 - [200] https://www.cnews.ru/news/top/2024-12-10_aktsionery_headhunter_poradovali
+- [200] https://www.cnews.ru/news/top/2024-12-24_it-kursy_bolshe_ne_nuzhny
 - [200] https://www.cnews.ru/news/top/2025-03-19_vyruchka_rossijskogo_razrabotchika
 - [200] https://www.cnews.ru/news/top/2025-03-25_v_rossii_poyavilsya_internet-auktsion
 - [200] https://www.cnews.ru/news/top/2026-03-10_rieltory_zhaluyutsya_na_tsian
@@ -1826,10 +2050,12 @@
 - [200] https://www.cnews.ru/reviews/rynok_hr_tech/articles/top-40_krupnejshih_igrokov_v_sfere
 - [200] https://www.comnews.ru/content/230343/2023-11-23/2023-w47/1010/bilayn-poluchil-kontrol-nad-callibri
 - [200] https://www.comnews.ru/content/235562/2024-10-07/2024-w41/1244/petrovich-b2b-sokratil-process-zakaza-stroymaterialov-do-5-minut
+- [200] https://www.comnews.ru/content/238559/2025-04-01/2025-w14/1008/stoimost-razmescheniya-reklamy-internete-vyrastet-20-25-2025-g
 - [200] https://www.comnews.ru/digital-economy/content/237046/2025-01-09/2025-w02/1012/reyting-runeta-kolichestvo-digital-podryadchikov-rossii-umenshitsya-blizhayshie-dva-goda
 - [200] https://www.consultant.ru/document/cons_doc_LAW_19671/a7996b6662403761dc20fe3481794c2614d18234/
 - [200] https://www.consultant.ru/document/cons_doc_LAW_475214/6c8b92d4f98a67ec9f22a34b4155baf00903538a/
 - [200] https://www.consultant.ru/document/cons_doc_LAW_51038/49cb99b1bfe1a09caaf585874de97bdb34fc6d48/
+- [200] https://www.consultant.ru/legalnews/27463/
 - [200] https://www.consultant.ru/legalnews/29989/
 - [200] https://www.cossa.ru/smmashing/234012/
 - [200] https://www.cossa.ru/trends/130133/
@@ -1848,6 +2074,7 @@
 - [200] https://www.drive2.ru/c/493885231107932792/
 - [200] https://www.drive2.ru/c/677523739033736790/
 - [200] https://www.drive2.ru/l/526260900743610826/
+- [200] https://www.drive2.ru/l/669069594127773730/
 - [200] https://www.drive2.ru/o/b/667473653000065744/
 - [200] https://www.drive2.ru/o/Mosautoshina/reviews
 - [200] https://www.drive2.ru/o/Wilgood-service/reviews
@@ -1861,6 +2088,7 @@
 - [200] https://www.e-promo.ru
 - [200] https://www.e1.ru/text/transport/2026/06/18/76483435/
 - [200] https://www.expertiza.expert/stroitelnye/ekspertiza-stroitelnykh-smet/
+- [200] https://www.finmap.online/ru/blog/launch-100k-info-business-truth
 - [200] https://www.fitmost.ru
 - [200] https://www.fitness1c.ru
 - [200] https://www.fitness1c.ru/blog/avtomatizacziya-rynka-fitnes-uslug-rossii-statistika-i-perspektivy/
@@ -1877,7 +2105,9 @@
 - [200] https://www.forbes.ru/biznes/346317-moment-scepleniya-kak-it-sistema-pomogla-seti-avtoservisov-vyrasti-v-chetyre-raza-za
 - [200] https://www.forbes.ru/biznes/489828-pokoroce-i-podesevle-klienty-fitnes-centrov-otkazyvautsa-ot-godovyh-kart
 - [200] https://www.forbes.ru/biznes/496011-prodazi-topliva-na-azs-stali-ubytocnymi-na-fone-rekordnyh-birzevyh-cen-na-benzin
+- [200] https://www.forbes.ru/biznes/523295-sber-zakryl-sdelku-po-pokupke-obrazovatel-nyh-platform-netologia-i-foksford
 - [200] https://www.forbes.ru/biznes/546244-analitiki-avito-sprognozirovali-rost-rynka-posutocnoj-arendy-zil-a-na-22-v-god
+- [200] https://www.forbes.ru/biznes/552561-za-vas-scet-vyrucka-fitnes-klubov-vyrosla-iz-za-povysenia-cen-na-abonementy
 - [200] https://www.forbes.ru/biznes/552754-kolicestvo-zavedenij-obsepita-v-rossii-sokratilos-za-god-na-3-1
 - [200] https://www.forbes.ru/biznes/556942-blize-i-doroze-pocemu-v-rossii-nabiraet-popularnost-dostavka-poslednej-mili
 - [200] https://www.forbes.ru/club/548139-nedvizimost-na-tormozah-vysokaa-stavka-i-nizkij-spros-zagonaut-rynok-v-krizis
@@ -1886,6 +2116,7 @@
 - [200] https://www.forbes.ru/franchises/542049-spirit-fitness-zapustila-pervuu-v-strane-fransizu-fitnes-klubov-s-ezemesacnoj-oplatoj
 - [200] https://www.forbes.ru/investicii/517978-servis-samolet-plus-privlek-825-mln-rublej-v-hode-pre-ipo
 - [200] https://www.forbes.ru/svoi-biznes/448737-pocemu-kismet-prodala-servis-po-remontu-kvartir-sdelano-i-pri-cem-tut-pik
+- [200] https://www.forbes.ru/svoi-biznes/473717-dzuny-ne-nuzny-pocemu-vypusknikam-it-kursov-stalo-sloznee-najti-rabotu
 - [200] https://www.forbes.ru/svoi-biznes/521951-headhunter-polucil-kontrol-v-hrlink-za-bolee-cem-1-mlrd-rublej
 - [200] https://www.forbes.ru/svoi-biznes/544859-zapret-reklamy-v-instagram-s-1-sentabra-cto-mozno-i-nel-za-publikovat
 - [200] https://www.forbes.ru/svoi-biznes/550372-stalo-sloznee-i-doroze-cto-proishodit-na-rynke-posle-zapreta-reklamy-v-instagram
@@ -1893,6 +2124,7 @@
 - [200] https://www.forbes.ru/tekhnologii/485882-vk-kupila-kontrol-nyj-paket-kompanii-influens-marketinga-didenok-team
 - [200] https://www.forbes.ru/tekhnologii/528210-truba-zamedlennogo-dejstvia-cto-slucilos-s-youtube-v-rossii-i-cto-budet-dal-se
 - [200] https://www.forbes.ru/tekhnologii/540486-cian-zapustil-servis-poiska-ob-avlenij-o-nedvizimosti-cerez-umnuu-ar-kameru
+- [200] https://www.forbes.ru/tekhnologii/559516-bodrost-duha-gracia-i-plastika-rynok-onlajn-fitnesa-priblizilsa-k-11-mlrd-rublej
 - [200] https://www.forbes.ru/tekhnologii/565373-andeks-eda-zapustila-ii-hostes-dla-bronirovania-stolikov-v-restoranah
 - [200] https://www.forumhouse.ru/threads/310250/
 - [200] https://www.freshdoc.ru/dogovor/dogovory_arendy/nedvizhimosti/
@@ -1900,6 +2132,7 @@
 - [200] https://www.garant.ru/afb-info/guide/finansovyj-upravlyayushhij-bankrotstvo/
 - [200] https://www.garant.ru/news/1527774/
 - [200] https://www.garant.ru/products/ipo/prime/doc/413133863/
+- [200] https://www.gazeta.ru/auto/2025/10/01/21788678.shtml
 - [200] https://www.gdemoi.ru/blog/sliv-topliva-mahinatsii-gsm/
 - [200] https://www.gostinfo.ru/InformationOfStandardization/Details/220
 - [200] https://www.grandsmeta.ru
@@ -1909,6 +2142,7 @@
 - [200] https://www.inmyroom.ru/posts/35264-chto-besit-dizajnera-8-maksimalno-nepriyatnyh-situacij
 - [200] https://www.inmyroom.ru/posts/4371-osnovnye-oshibki-dizaynerov-pri-avtorskom-nadzore
 - [200] https://www.interfax-russia.ru/realty/company_news/samolet-plyus-v-2024-g-poluchil-7-9-mlrd-rub-vyruchki-podtverzhdaet-plany-ipo
+- [200] https://www.interfax.ru/business/1015601
 - [200] https://www.interfax.ru/business/953608
 - [200] https://www.interfax.ru/business/978459
 - [200] https://www.interfax.ru/business/981969
@@ -1923,6 +2157,7 @@
 - [200] https://www.irn.ru/articles/42147-pokupka-i-prodazha-kvartiry-po-alternativnoy.html
 - [200] https://www.ixbt.com/news/2026/06/22/novyj-uroven-sarafaonnogo-radio-avito-uslugi-zapustili-sosedi-rekomendujut-dlja-poiska-masterov.html
 - [200] https://www.jivo.ru/help/integrations/ai-for-yclients.html
+- [200] https://www.kadrof.ru/profession-curator
 - [200] https://www.kellyservices.ru/blog/2021/05/chto-razdrazhaiet-rossiian-pri-poiskie-raboty-riezultaty-issliedovaniia
 - [200] https://www.klerk.ru/bank/articles/459355/
 - [200] https://www.klerk.ru/blogs/fedresurs/687546/
@@ -1946,6 +2181,7 @@
 - [200] https://www.kommersant.ru/doc/8080036
 - [200] https://www.kommersant.ru/doc/8080328
 - [200] https://www.kommersant.ru/doc/8161513
+- [200] https://www.kommersant.ru/doc/8177821
 - [200] https://www.kommersant.ru/doc/8178728
 - [200] https://www.kommersant.ru/doc/8229581
 - [200] https://www.kommersant.ru/doc/8232122
@@ -1958,6 +2194,7 @@
 - [200] https://www.kommersant.ru/doc/8419419
 - [200] https://www.kommersant.ru/doc/8476333
 - [200] https://www.kommersant.ru/doc/8632851
+- [200] https://www.kommersant.ru/doc/8636047
 - [200] https://www.kommersant.ru/doc/8656247
 - [200] https://www.kommersant.ru/doc/8726987
 - [200] https://www.kommersant.ru/doc/8736486
@@ -2046,6 +2283,7 @@
 - [200] https://www.sostav.ru/publication/padenie-no-ne-krakh-kak-inflyuens-marketing-perezhil-2025-j-i-k-chemu-gotovitsya-v-2026-m-80783.html
 - [200] https://www.sostav.ru/publication/po-tsepochke-kto-platit-3-obyazatelnykh-otchislenij-ot-reklamy-77147.html
 - [200] https://www.sostav.ru/publication/reklama-v-makse-vyrosla-v-11-raz-za-polgoda-85240.html
+- [200] https://www.sostav.ru/publication/rossijskij-rynok-onlajn-obrazovaniya-za-poslednie-pyat-let-vyros-v-10-raz-76083.html
 - [200] https://www.sostav.ru/publication/rynok-inflyuens-marketinga-v-2025-godu-vyrastet-do-57-mlrd-rublej-73682.html
 - [200] https://www.sostav.ru/publication/sdelka-t2-72227.html
 - [200] https://www.sostav.ru/publication/wildberries-ozon-i-yandeks-market-zarabotali-na-reklame-do-600-mlrd-rublej-83105.html
@@ -2055,7 +2293,6 @@
 - [200] https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/
 - [200] https://www.sravni.ru/q/klientka-isportila-pokrytie-i-trebuet-vernut-dengi-51124/
 - [200] https://www.superjob.ru
-- [200] https://www.superjob.ru/clients/evroavto-660512.html
 - [200] https://www.superjob.ru/info/price-list/
 - [200] https://www.superjob.ru/research/articles/115235/rossiyan/
 - [200] https://www.superjob.ru/vakansii/buhgalter-po-uchetu-gsm.html
@@ -2066,6 +2303,7 @@
 - [200] https://www.superstation.pro/kakimi-dolzhny-byt-tualety-na-azs-chtoby-kliyenty-vozvrashchalis/
 - [200] https://www.tatar-inform.ru/news/oborot-obshhepita-v-rossii-v-2025-godu-vyros-pocti-na-9-6016123
 - [200] https://www.tbank.ru/reviews/company/ddx-fitness/104436/
+- [200] https://www.tbank.ru/reviews/company/getcourse/104656/
 - [200] https://www.tbank.ru/reviews/company/ostrovok-ru/1328/
 - [200] https://www.tks.ru/logistics/2026/07/15/0007/perevozchiki-povyishayut-tarifyi-na-fone-rosta-tsen-na-dizelnoe-toplivo/
 - [200] https://www.tks.ru/reviews/2026/07/08/0004/gosduma-odobrila-krupnejshuyu-reformu-bankrotstva-za-poslednie-desyatiletiya/
@@ -2073,6 +2311,8 @@
 - [200] https://www.ttlock.ru/ttlockapp
 - [200] https://www.uiscom.ru/blog/case-avtoservisa-khanservis/
 - [200] https://www.unisender.com/ru/blog/servisy-dlya-raboty-s-samozanyatymi/
+- [200] https://www.unisender.com/ru/blog/zapret-reklamy-v-instagram-s-1-sentyabrya-2025/
+- [200] https://www.unkniga.ru/news/rossiiskii-rynok-korporativnogo-obucheniia-otsenili-v-91-mlrd-rublei.html
 - [200] https://www.vedomosti.ru/analytics/krupnyy_plan/articles/2024/08/13/1055625-skolko-zarabativayut-azs-v-rossii
 - [200] https://www.vedomosti.ru/business/news/2020/10/09/842680-yandeks-soobschil-o-pokupke-reklamnoi-platformi-k50
 - [200] https://www.vedomosti.ru/business/news/2025/12/26/1166734-testirovanie-ii-assistentov
@@ -2105,10 +2345,13 @@
 - [200] https://yagla.ru/blog/rynok-issledovaniya/issledovanie-kokoc-performance-obem-rynka-performance-marketinga-za-2025-god-dostig-450-mlrd-rubley--2602u106040/
 - [200] https://yandex.ru/adv/news/novye-targetingi-dlya-aukcionnoj-videoreklamy-na-connected-tv
 - [200] https://yandex.ru/adv/news/teper-kampanii-v-direct-mozhno-obnovit-do-edinoj-perfomans-kampanii
+- [200] https://yandex.ru/company/news/01-05-03-2025
+- [200] https://yandex.ru/company/news/01-07-12-2023
 - [200] https://yandex.ru/company/news/01-13-06-2024
 - [200] https://yandex.ru/company/news/15-04-2026-02
 - [200] https://yandex.ru/company/news/17-02-2026
 - [200] https://yandex.ru/company/news/18-05-2026-01
+- [200] https://yandex.ru/company/news/23-06-2025-02
 - [200] https://yandex.ru/support/arenda/insurance.html
 - [200] https://yoloco.io
 - [200] https://yoloco.io/ru/pricing
@@ -2119,6 +2362,8 @@
 - [200] https://zen.ati.su/article/2022/11/10/stojanki-dlja-dalnobojschikov-na-vse-sluchai-zhizni-124486/
 - [200] https://zen.ati.su/article/2026/07/07/dizel-dorozhaet-tarif-ne-speshit-kak-tseny-na-toplivo-vlijajut-na-stavki-perevozchikov-410030/
 - [200] https://zen.ati.su/article/2026/07/15/stoimost-gruzoperevozok-v-rossii-vyrosla-pochti-na-tret-na-fone-defitsita-topliva-891498/
+- [200] https://zenclass.ru/ponyatno/chargeback
+- [200] https://zenclass.ru/ponyatno/producer-vc-expert
 - [200] https://zipal.ru
 - [200] https://zipal.ru/
 - [200] https://zvenom.ru/uslugi/prodvizhenie-avtoservisa.html
