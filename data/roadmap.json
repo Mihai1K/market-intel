@@ -65,8 +65,10 @@
     },
     {
       "name": "Фитнес-клубы и студии",
-      "slug": null,
-      "status": "todo"
+      "slug": "fitness-rf",
+      "status": "done",
+      "completed_at": "2026-07-18",
+      "note": "Рынок №13 (12-й собранный). Решающий тест employee-owns-client-relationship — ПОДТВЕРЖДЁН (4-е чистое подтверждение, статус Confirmed): 40% retention после ухода тренера, кейс Волжского, цитата Вишняка $18k→$48k. Marketplace-antipattern: +4 трупа клонов ClassPass, FITMOST — «выживший-карлик». Смена лидера рынка: DDX (подписка) обогнал World Class (годовые карты)."
     },
     {
       "name": "Бухгалтерия и налоги для СМБ",

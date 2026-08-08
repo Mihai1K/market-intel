@@ -1,0 +1,72 @@
+{
+  "id": "fitmost",
+  "name": "FITMOST",
+  "legal_name": "ООО «ФИТМОСТ»",
+  "inn": "9701004306",
+  "website": "https://www.fitmost.ru",
+  "founded": 2015,
+  "segment": "агрегатор (единый абонемент) — единственный выживший из ≥5 попыток",
+  "description": "Ключевой экспонат marketplace-antipattern на этом рынке: единственный выживший агрегатор единого абонемента (OneFit, ClassBoom, ClassFit, MonPass — мертвы) — и то лишь сменив модель: безлимит клона ClassPass сломался («маржа ушла в минус при 8-10 визитах/мес»), с 2018-2019 — баллы с эффективным take rate ~50-60% и антидизинтермедиационным лимитом 3 визита/студию в месяц (главный раздражитель клиентов = главная защита бизнеса). Два прибыльных года (2023-2024), но попытка масштабирования в 2025 (выручка х1,8 до 1,3 млрд ₽, регионы, бьюти) немедленно вернула убыток −135 млн ₽. Формула подтверждена: прибыльный агрегатор офлайн-услуг = маленький агрегатор.",
+  "revenue": [
+    {
+      "value": 711,
+      "unit": "млн руб (ЧП +89 млн — второй прибыльный год)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/fitmost-1157746727533",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1.3,
+      "unit": "млрд руб (х1,8 — рост куплен уходом в убыток)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/fitmost-1157746727533",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -135,
+      "unit": "млн руб (убыток после двух прибыльных лет — при масштабировании экономика агрегатора снова не сошлась)",
+      "period": "2025",
+      "basis": "РСБУ; 99 сотрудников",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/fitmost-1157746727533",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Пакеты баллов от 2 490 ₽ (30 баллов); студиям уходит ~40-50% платежей пользователей (эффективный take rate ~50-60%); лимит 3 занятия/мес в одной студии; B2B-корпабонемент ~23 000 ₽/год",
+      "price": "от 2 490 ₽/мес",
+      "source_url": "https://blog.fitmost.ru/ceo-about-new-fitmost",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Лимит 3 занятия/месяц в одном клубе: «так понравился тренер, хочется ходить хотя бы раз в неделю, ан нет» — антидизинтермедиационный барьер как главный раздражитель", "source_url": "https://sportsotzyv.ru/fitmost/" },
+    { "complaint": "Девальвация баллов: «перевели баллы по невыгодному курсу без предупреждения»", "source_url": "https://irecommend.ru/content/pochemu-silno-pomenyalos-moe-otnoshenie-k-fitmostu" },
+    { "complaint": "Второсортность агрегаторных клиентов: «клубы предпочитают своих обычных клиентов, а не пришедших по единому абонементу»", "source_url": "https://sportsotzyv.ru/fitmost/" }
+  ],
+  "data_gaps": [
+    "Точная текущая комиссия не раскрыта (сайт за капчой для роботов); take rate ~50-60% — расчёт из Forbes-интервью 2020",
+    "AI Readiness не оценён: только базовый рекомендательный алгоритм в CRM-маркетинге — недостаточно сигналов, правило №7",
+    "B2B-доля выручки в 2025 не раскрыта (в 2020 — >30%)"
+  ],
+  "sources": [
+    "https://checko.ru/company/fitmost-1157746727533",
+    "https://www.forbes.ru/forbes-woman/415203-sportivnyy-vezdehod-kak-osnovatelnica-bezlimitnogo-fitnes-abonementa-fitmost",
+    "https://mindbox.ru/journal/experts/intervyu-fitmost/",
+    "https://secrets.tbank.ru/lichnyj-opyt/fitmost/"
+  ],
+  "updated_at": "2026-07-18"
+}

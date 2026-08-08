@@ -1,0 +1,58 @@
+{
+  "id": "mobifitness",
+  "name": "Mobifitness",
+  "legal_name": "ООО «Мобильные технологии»",
+  "inn": "7719464244",
+  "website": "https://mobifitness.ru",
+  "founded": 2014,
+  "segment": "CRM и мобильные приложения для клубов — №3 рынка (12%)",
+  "description": "Третий игрок автоматизации (12% операторов по FitnessData): CRM от 2 540 ₽/мес, мобильные приложения клубов (1 млн+ активных пользователей, 500 тыс.+ записей/мес — самозаявленно), 4 000+ клубов и студий. Выручка 130,4 млн ₽ при марже ~4% — в 2,8 раза меньше 1С:Фитнес и с втрое худшей рентабельностью. AI-сигналов нет — подтверждение тезиса «AI в фитнес-софте РФ отсутствует» (белые пятна возможностей).",
+  "revenue": [
+    {
+      "value": 130.4,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1177746000101_ooo-mobilnye-tekhnologii",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 5.06,
+      "unit": "млн руб (маржа ~4% против ~14% у 1С:Фитнес)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1177746000101_ooo-mobilnye-tekhnologii",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "CRM от 2 540 ₽/мес за клуб; модули от 490 ₽/мес; мобильное приложение от 1 990 ₽/мес; доп. клуб +12% (официальная страница цен отдавала HTTP 500 на дату сессии — тарифы из обзоров)",
+      "price": "от 2 540 ₽/мес",
+      "source_url": "https://picktech.ru/product/mobifitness/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Система может проводить обновления в час пик, во время очереди клиентов»", "source_url": "https://crmindex.ru/products/mobifitness/reviews" }
+  ],
+  "data_gaps": [
+    "«4000+ клубов», «1 млн пользователей» — самозаявления вендора",
+    "AI Readiness не оценён: AI-сигналов на официальном сайте нет (проверено) — правило №7",
+    "РСБУ 2025 не опубликованы на дату сбора"
+  ],
+  "sources": [
+    "https://www.audit-it.ru/contragent/1177746000101_ooo-mobilnye-tekhnologii",
+    "https://mobifitness.ru/",
+    "https://picktech.ru/product/mobifitness/"
+  ],
+  "updated_at": "2026-07-18"
+}

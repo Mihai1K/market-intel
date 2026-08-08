@@ -1,0 +1,93 @@
+{
+  "id": "ddx-fitness",
+  "name": "DDX Fitness",
+  "legal_name": "ООО «ИЛОН» (эмитент облигаций; историческое ООО «Дидиикс» присоединено 20.11.2023)",
+  "inn": "7734418612",
+  "website": "https://www.ddxfitness.ru",
+  "founded": 2018,
+  "segment": "low-cost по подписке — новый лидер рынка",
+  "description": "Главная история рынка: за 7 лет от одного клуба в Бутово до лидера отрасли — 151 клуб в 54 городах, >900 тыс. клиентов, и по итогам 2025 DDX ОБОГНАЛА World Class по выручке (16 vs 15,5 млрд ₽ по FitnessData) — впервые лоукост-подписка сместила премиум с первого места. Модель: только помесячная подписка с автосписанием (от 1 900 ₽/мес), без годовых карт и без франшизы. Единственный AI-игрок рынка: LLM-агент targetai на продлениях (конверсия 47%) и ИИ-тренер в подписке Infinity Plus (с 13.07.2026). Обратная сторона роста: чистый долг 14,7 млрд ₽ (ND/EBITDA 2,3x без аренды) и самая массовая клиентская жалоба рынка — автосписания и невозможность отмены без личного визита.",
+  "revenue": [
+    {
+      "value": 9.6,
+      "unit": "млрд руб",
+      "period": "2024",
+      "basis": "РСБУ ООО «ИЛОН» (после консолидации юрлиц группы); чистая прибыль 1,2-1,29 млрд ₽",
+      "source_name": "Checko/Investfuture (зеркало ГИР БО ФНС + данные эмитента)",
+      "source_url": "https://checko.ru/company/ilon-5187746002824",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 17.6,
+      "unit": "млрд руб (+83%; РСБУ 16,5 млрд; smart-lab даёт 22,5 млрд по иному периметру — расхождение зафиксировано)",
+      "period": "2025",
+      "basis": "данные эмитента облигаций: EBITDA 6,5 млрд (маржа 37%), чистая прибыль 963,6 млн, чистый долг 14,7 млрд",
+      "source_name": "Investfuture/Ведомости (проспект облигаций)",
+      "source_url": "https://investfuture.ru/articles/ddx-fitness-privlekaet-1-mlrd-rub-cherez-obligatsii-s-dokhodnostyu-do-21-9",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 963.6,
+      "unit": "млн руб (EBITDA 6,5 млрд, маржа 37% — лучшая на рынке)",
+      "period": "2025",
+      "basis": "данные эмитента",
+      "source_name": "Investfuture",
+      "source_url": "https://investfuture.ru/articles/ddx-fitness-privlekaet-1-mlrd-rub-cherez-obligatsii-s-dokhodnostyu-do-21-9",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Только помесячная подписка с автосписанием: Light (1 клуб, зал), Smart (+групповые), Infinity (все клубы, спа), Infinity Plus (+ИИ-тренер, InBody); вступительный взнос 2 500-3 000 ₽ невозвратный",
+      "price": "от 1 900 ₽/мес",
+      "source_url": "https://www.ddxfitness.ru",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Автосписания после отмены/заморозки, возврат только личным визитом: «Принципиально отменяю подписку», «Не своевременное списание средств!»", "source_url": "https://otzovik.com/review_17515334.html" },
+    { "complaint": "Заморозка платная и «автоматически закрывает» подписку — клиент платит и теряет доступ", "source_url": "https://forumyuristov.ru/threads/Заморозка-подписки-ddx.65185/" },
+    { "complaint": "Очереди к тренажёрам в прайм-тайм до получаса (оверселлинг зала)", "source_url": "https://2gis.ru/perm/firm/70000001084441016/tab/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 75,
+    "formula": "40 баллов за LLM-агента продлений targetai в проде с измеренным результатом (конверсия 47%, контактность 71%, колл-центр не рос при удвоении сети) + 25 за ИИ-тренера в тарифе Infinity Plus (программа под цель, адаптация по биоимпедансу, чат по технике) + 10 за собственную платформу DDX TECH и AI-вакансии",
+    "signals": [
+      {
+        "signal": "LLM-агент targetai: автообзвон на продление, конверсия 47%, публикация 22.05.2026",
+        "evidence_url": "https://www.cnews.ru/news/line/2026-05-22_ddx_fitness_avtomatizirovala",
+        "direction": "+"
+      },
+      {
+        "signal": "Подписка Infinity Plus с ИИ-тренером в приложении (запуск 13.07.2026)",
+        "evidence_url": "https://corp.cnews.ru/news/line/2026-07-13_ddx_fitness_zapustil_fitnes-podpisku",
+        "direction": "+"
+      },
+      {
+        "signal": "Вакансии IT: «web-сервисы, БД, мобильные приложения, AI-ассистенты»",
+        "evidence_url": "https://hh.ru/employer/3305831",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Расхождение выручки 2025: 16,5 (РСБУ) / 17,6 (эмитент) / 22,5 млрд (smart-lab, иной периметр)",
+    "До 2023 выручка сети размазана по юрлицам — динамика 2021-2023 несопоставима",
+    "LTV/CAC/churn не раскрываются"
+  ],
+  "sources": [
+    "https://checko.ru/company/ilon-5187746002824",
+    "https://investfuture.ru/articles/ddx-fitness-privlekaet-1-mlrd-rub-cherez-obligatsii-s-dokhodnostyu-do-21-9",
+    "https://shoppers.media/news/26912_fitness-data-set-fitnes-klubov-ddx-mogla-obognat-world-class-po-vyrucke-v-2025-g",
+    "https://spark.ru/user/174138/blog/228447/istoriya-ddx-fitness-kak-vsego-na-sedmoj-god-postroit-set-iz-100-fitnes-klubov"
+  ],
+  "updated_at": "2026-07-18"
+}

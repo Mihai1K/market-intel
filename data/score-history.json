@@ -2145,6 +2145,48 @@
     },
     {
       "date": "2026-08-08",
+      "market": "fitness-rf",
+      "opportunity_id": "membership-refund-assist",
+      "launch": 77,
+      "scale": 45
+    },
+    {
+      "date": "2026-08-08",
+      "market": "fitness-rf",
+      "opportunity_id": "ai-renewal-winback-agent",
+      "launch": 75,
+      "scale": 65
+    },
+    {
+      "date": "2026-08-08",
+      "market": "fitness-rf",
+      "opportunity_id": "trainer-defection-shield",
+      "launch": 74,
+      "scale": 62
+    },
+    {
+      "date": "2026-08-08",
+      "market": "fitness-rf",
+      "opportunity_id": "fitness-tax-navigator",
+      "launch": 70,
+      "scale": 50
+    },
+    {
+      "date": "2026-08-08",
+      "market": "fitness-rf",
+      "opportunity_id": "client-churn-predictor",
+      "launch": 64,
+      "scale": 59
+    },
+    {
+      "date": "2026-08-08",
+      "market": "fitness-rf",
+      "opportunity_id": "ai-schedule-optimizer",
+      "launch": 58,
+      "scale": 63
+    },
+    {
+      "date": "2026-08-08",
       "market": "food-service-rf",
       "opportunity_id": "aggregator-commission-xray",
       "launch": 75,

@@ -1,0 +1,66 @@
+{
+  "id": "fitstars",
+  "name": "FitStars",
+  "legal_name": "ООО «ПАРСЕК»",
+  "inn": "7810817393",
+  "website": "https://fitstars.ru",
+  "founded": 2011,
+  "segment": "онлайн-фитнес — лидер с 38% выручки топ-25, прибыльный",
+  "description": "Лидер онлайн-фитнеса РФ: 2,2 млрд ₽ выручки (+83%), прибыль 303,5 млн, ~38% выручки топ-25 сегмента (рынок онлайн-фитнеса ~11 млрд ₽). После экзита инвесторов (август 2025) контроль у гендиректора Ильи Капустина (~80%). Модель: подписка + B2B-продукт для сотрудников; агрессивный маркетинг в Telegram (1557 интеграций за месяц, ROI x4). Контраст с угасшими ковидными звёздами (Sekta, Welps): онлайн-фитнес жив как нишевый прибыльный сегмент ~3% офлайн-рынка, растущий быстрее офлайна.",
+  "revenue": [
+    {
+      "value": 1.1,
+      "unit": "млрд руб (ЧП 198,7 млн)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/parsek-1117847057008",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 2.2,
+      "unit": "млрд руб (+83%; вилка источников 1,9-2,2 млрд)",
+      "period": "2025",
+      "basis": "РСБУ + Smart Ranking/Forbes",
+      "source_name": "Forbes/Smart Ranking",
+      "source_url": "https://www.forbes.ru/tekhnologii/559516-bodrost-duha-gracia-i-plastika-rynok-onlajn-fitnesa-priblizilsa-k-11-mlrd-rublej",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 303.5,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/parsek-1117847057008",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Подписка на тренировки (онлайн, 500-1500 ₽/мес диапазон сегмента); B2B-продукт для сотрудников компаний",
+      "price": "подписка",
+      "source_url": "https://fitstars.ru/subscribe",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "AI Readiness не оценён: заявленных AI-функций в продукте не найдено — правило №7",
+    "Churn подписки не раскрывается"
+  ],
+  "sources": [
+    "https://checko.ru/company/parsek-1117847057008",
+    "https://www.forbes.ru/tekhnologii/559516-bodrost-duha-gracia-i-plastika-rynok-onlajn-fitnesa-priblizilsa-k-11-mlrd-rublej",
+    "https://fitstars.ru"
+  ],
+  "updated_at": "2026-07-18"
+}

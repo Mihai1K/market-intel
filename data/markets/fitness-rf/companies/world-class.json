@@ -1,0 +1,72 @@
+{
+  "id": "world-class",
+  "name": "World Class",
+  "legal_name": "ООО «СПОРТ ФОРУМ» (юрлицо собственных клубов; франчайзинговые — отдельные юрлица, финансы НЕ консолидированы)",
+  "inn": "7728571563",
+  "website": "https://www.worldclass.ru",
+  "founded": 2006,
+  "segment": "премиум-сеть — экс-лидер, уступивший первое место лоукосту",
+  "description": "Флагман премиум-фитнеса РФ: 40+ собственных клубов (Москва, СПб, Сочи, Екатеринбург) + ~90 клубов с франчайзи в 45 городах; совладельцы с 2018 — РФПИ и Mubadala. По итогам 2025 впервые уступил лидерство по выручке лоукост-сети DDX (15,5 vs 16 млрд ₽ по FitnessData) — символический конец эпохи годовых карт. Выручка растёт (+12%), но прибыль снижается (−8%): премиум-модель упирается в потолок платёжеспособного спроса, пока подписка забирает массовый сегмент.",
+  "revenue": [
+    {
+      "value": 13.4,
+      "unit": "млрд руб (только ООО «Спорт Форум», без франчайзи)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sport-forum-1067746218176",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 15,
+      "unit": "млрд руб (+12%; 1462 сотрудника, средняя з/п 197,4 тыс ₽)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sport-forum-1067746218176",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 964.2,
+      "unit": "млн руб (−8% г/г: рост выручки при падении прибыли)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sport-forum-1067746218176",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Годовые абонементы, цены «по запросу»: по акциям 56 500-92 300 ₽/год в зависимости от клуба, топ-клубы до 130 тыс ₽/год; франшиза: паушальный ~3 млн ₽, роялти 4% + маркетинг до 5%",
+      "price": "56-130 тыс ₽/год",
+      "source_url": "https://fitnesstop.ru/blog/cena-abonement-world-class",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Обманщики не возвращают деньги за абонемент 180 дней» — в договоре заморозка средств на полгода вместо 10 дней по ЗоЗПП", "source_url": "https://otzovik.com/review_15139028.html" },
+    { "complaint": "Платность ранее бесплатных занятий, отмены групповых при действующем годовом абонементе", "source_url": "https://otzovik.com/reviews/set_fitness-klubov_world_class/" },
+    { "complaint": "Сервис не соответствует премиум-цене: «Безобразное отношение к клиентам, грязные душевые»", "source_url": "https://otzovik.com/review_961099.html" }
+  ],
+  "data_gaps": [
+    "Консолидированная выручка сети с франчайзи не публикуется",
+    "AI Readiness не оценён: приложение WC 3.0/4.0 — «математическая модель» без явных AI-заявлений, страница «Цифровой фитнес» недоступна (истёкший сертификат) — сигналов недостаточно, правило №7",
+    "Условия франшизы — из каталогов, не из оферты компании"
+  ],
+  "sources": [
+    "https://checko.ru/company/sport-forum-1067746218176",
+    "https://shoppers.media/news/26912_fitness-data-set-fitnes-klubov-ddx-mogla-obognat-world-class-po-vyrucke-v-2025-g",
+    "https://www.worldclass.ru",
+    "https://fitnesstop.ru/blog/cena-abonement-world-class"
+  ],
+  "updated_at": "2026-07-18"
+}

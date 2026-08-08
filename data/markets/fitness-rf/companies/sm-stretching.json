@@ -1,0 +1,67 @@
+{
+  "id": "sm-stretching",
+  "name": "SM Stretching",
+  "legal_name": "ООО «СМ ГРУПП» (головное; студии могут быть на отдельных юрлицах)",
+  "inn": "7706453365",
+  "website": "https://smstretching.ru",
+  "founded": 2018,
+  "segment": "студии растяжки — растущий франшизный игрок с онлайн-направлением",
+  "description": "Сеть студий растяжки Самиры Мустафаевой (чемпионка мира по художественной гимнастике; владение 50/50 с гендиректором Николаем Кондратюком). Головное юрлицо удвоилось за год: 225,8 млн ₽ (+120%), прибыль 14,2 млн. Франшиза от 13 млн ₽ (средний оборот студии 1,5-5 млн ₽/мес), первая студия в Дубае (2024); онлайн-подписка smstretching.live. Иллюстрация студийного бума: личный бренд основательницы как канал привлечения — и как риск employee-owns на уровне целой компании.",
+  "revenue": [
+    {
+      "value": 102.8,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sm-grupp-1187746480404",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 225.8,
+      "unit": "млн руб (+120%; 22 сотрудника — головное юрлицо, студии отдельно)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sm-grupp-1187746480404",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 14.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sm-grupp-1187746480404",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Франшиза: от 13 млн ₽ инвестиций, окупаемость 18-24 мес; онлайн-подписка smstretching.live (7 дней бесплатно)",
+      "price": "франшиза от 13 млн ₽",
+      "source_url": "https://franshiza-mall.ru/catalog/health/smstretching",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Выручка студий (отдельные юрлица/ИП) не консолидирована",
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "LTV/CAC/churn не раскрываются"
+  ],
+  "sources": [
+    "https://checko.ru/company/sm-grupp-1187746480404",
+    "https://franshiza-mall.ru/catalog/health/smstretching",
+    "https://smstretching.ru"
+  ],
+  "updated_at": "2026-07-18"
+}

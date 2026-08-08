@@ -1,0 +1,71 @@
+{
+  "id": "spirit-fitness",
+  "name": "Spirit Fitness",
+  "legal_name": "ООО «РЕКОРД ФИТНЕС»",
+  "inn": "9701064993",
+  "website": "https://spiritfit.ru",
+  "founded": 2017,
+  "segment": "low-cost по подписке — №2 модели, первая франшиза подписочного фитнеса в РФ",
+  "description": "Второй игрок подписочной модели: 41 клуб в 8 городах, ноль закрытий за историю, выручка 4,5 млрд ₽ (+50%) — но убыток −117,7 млн (классика инвестфазы лоукоста: рост куплен деньгами). Мажоритарий — гонконгская Хоум Электроникс Лимитед (~80%). В 2025 запустила первую в стране франшизу клубов с помесячной оплатой (Forbes): вход от 130 млн ₽, рентабельность ~25%, окупаемость 40 мес — тиражирование подписочной модели в города 250 тыс+.",
+  "revenue": [
+    {
+      "value": 3,
+      "unit": "млрд руб (чистый убыток −176,2 млн)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/rekord-fitnes-1177746170964",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 4.5,
+      "unit": "млрд руб (+50%; 448 сотрудников)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/rekord-fitnes-1177746170964",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -117.7,
+      "unit": "млн руб (убыток второй год подряд при росте выручки — инвестфаза)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/rekord-fitnes-1177746170964",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Подписка: Старт от 1 700 ₽/мес (5 визитов), Базовый 2 500 (безлимит 1 клуб), Максимум+Здоровье 3 000 (все клубы + телемедицина); годовой 12+3 мес ≈ 1 833 ₽/мес; франшиза от 130 млн ₽, паушальный 5 млн, роялти 10%",
+      "price": "от 1 700 ₽/мес",
+      "source_url": "https://spiritfit.ru",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Списание денег с карт без предупреждения!»", "source_url": "https://irecommend.ru/content/spisanie-deneg-s-kart-bez-preduprezhdeniya" },
+    { "complaint": "«Отказываются возвращать деньги за абонемент»; отвязать карту можно только личным визитом — люди перевыпускают карты", "source_url": "https://otzovik.com/review_17257605.html" },
+    { "complaint": "Двойные списания в месяц", "source_url": "https://otzovik.com/reviews/fitnes-klub_spiritfitness_russia_moscow/" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: AI-сигналов не найдено — правило №7",
+    "Юнит-экономика франшизы — заявления франчайзера, не проверены",
+    "LTV/CAC/churn не раскрываются"
+  ],
+  "sources": [
+    "https://checko.ru/company/rekord-fitnes-1177746170964",
+    "https://www.forbes.ru/franchises/542049-spirit-fitness-zapustila-pervuu-v-strane-fransizu-fitnes-klubov-s-ezemesacnoj-oplatoj",
+    "https://spiritfit.ru"
+  ],
+  "updated_at": "2026-07-18"
+}

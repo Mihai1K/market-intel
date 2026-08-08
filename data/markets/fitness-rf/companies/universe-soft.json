@@ -1,0 +1,55 @@
+{
+  "id": "universe-soft",
+  "name": "UNIVERSE-Фитнес (Юниверс-Софт)",
+  "legal_name": "ООО «Юниверс-Софт»",
+  "inn": "7017079058",
+  "website": "https://universe-soft.ru",
+  "founded": 2003,
+  "segment": "коробочный софт для клубов — ветеран в убытке",
+  "description": "Один из старейших вендоров фитнес-софта (Томск, с 2003): коробочные решения от 38 500 ₽, фокус на полноформатных клубах со СКУД (свежий блог 2025 — про биометрию по венам ладони, не AI). Выручка 117,7 млн ₽ при убытке −1,2 млн: ветераны коробочной модели проигрывают облачным подпискам (1С +124% роста против стагнации Юниверс). Иллюстрация фрагментации ниши фитнес-софта: живых игроков много, промышленно монетизирован один.",
+  "revenue": [
+    {
+      "value": 117.7,
+      "unit": "млн руб (убыток −1,2 млн)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Rusprofile/Saby (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.rusprofile.ru/id/2619995",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -1.2,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Rusprofile (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.rusprofile.ru/id/2619995",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Коробочная лицензия от 38 500 ₽",
+      "price": "от 38 500 ₽ разово",
+      "source_url": "https://picktech.ru/product/universe-fitnes/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "AI Readiness не оценён: биометрический СКУД — не AI-сигнал по правилам; правило №7",
+    "Число клиентов не раскрывается"
+  ],
+  "sources": [
+    "https://www.rusprofile.ru/id/2619995",
+    "https://universe-soft.ru/",
+    "https://picktech.ru/product/universe-fitnes/"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "1c-fitness-club",
+  "name": "1С:Фитнес клуб",
+  "legal_name": "ООО «Лаборатория ПО» (также развивает 1С:Салон красоты и 1С:Медицина)",
+  "inn": "7721707310",
+  "website": "https://www.fitness1c.ru",
+  "founded": 2010,
+  "segment": "CRM для клубов — лидер с 52% рынка, но НЕ монополист уровня YCLIENTS",
+  "description": "Лидер автоматизации фитнеса: 52% операторов по независимому опросу FitnessData (574 оператора), 6000+ клиентов в 25 странах (самозаявленно). Выручка вендора 365 млн ₽ (+124%!), маржа ~14%. Важное отличие от бьюти-рынка: «YCLIENTS фитнеса» не существует — лидер втрое меньше бьюти-монополиста по выручке, рынок софта фрагментирован (Fitbase 13%, Mobifitness 12%), а YCLIENTS атакует сегмент студий снизу (от 754 ₽/мес). AI — только скриптовый голосовой робот (~100 звонков/мин, без LLM-диалога); встроенного AI-прогноза оттока нет.",
+  "revenue": [
+    {
+      "value": 162.6,
+      "unit": "млн руб",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Excheck (зеркало ГИР БО ФНС)",
+      "source_url": "https://excheck.pro/company/7721707310-laboratoriya-po",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 365.05,
+      "unit": "млн руб (+124%; 36 сотрудников)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Excheck (зеркало ГИР БО ФНС)",
+      "source_url": "https://excheck.pro/company/7721707310-laboratoriya-po",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 49.3,
+      "unit": "млн руб (рентабельность ~14%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Excheck (зеркало ГИР БО ФНС)",
+      "source_url": "https://excheck.pro/company/7721707310-laboratoriya-po",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Облако «Старт» 2 660 ₽/мес (акция; база 3 800), «Бизнес» 7 210 ₽/мес (рекуррентные платежи); коробка «Проф» от 62 700 ₽, «Корп» от 112 900 ₽; мобильное приложение клуба +5 740 ₽/мес",
+      "price": "от 2 660 ₽/мес",
+      "source_url": "https://www.fitness1c.ru/price",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Сложность освоения интерфейса 1С, нет пробного периода", "source_url": "https://a2is.ru/catalog/crm-dlya-upravleniya-fitnes-tsentrom/fitness1c" },
+    { "complaint": "Медленная техподдержка", "source_url": "https://otzyvmarketing.ru/1c-fitnes-club/" },
+    { "complaint": "Негибкая отчётность: «нет отчётов для анализа покупателей в разрезе новых продаж и продлений»", "source_url": "https://startpack.ru/application/1c-fitness-club/reviews" }
+  ],
+  "ai_readiness": {
+    "score": 30,
+    "formula": "30 баллов за голосового робота в проде (обзвон ~100 клиентов/мин, обработка возражений по скрипту, теги по фразам, реактивация «спящих») — автоматизация звонков без LLM-диалога; встроенного AI-прогноза оттока и генеративных функций не найдено",
+    "signals": [
+      {
+        "signal": "Голосовой робот: массовый обзвон, ответы на входящие, результат в CRM",
+        "evidence_url": "https://www.fitness1c.ru/robots",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "«53% рынка» — самозаявление вендора (независимый опрос FitnessData даёт 52% — редкое совпадение, зафиксированы оба)",
+    "РСБУ 2025 не опубликованы на дату сбора",
+    "Выручка от фитнес-вертикали отдельно от салонов/медицины не раскрывается"
+  ],
+  "sources": [
+    "https://excheck.pro/company/7721707310-laboratoriya-po",
+    "https://www.fitness1c.ru/price",
+    "https://www.fitness1c.ru/blog/avtomatizacziya-rynka-fitnes-uslug-rossii-statistika-i-perspektivy/",
+    "https://www.rusprofile.ru/id/5358517"
+  ],
+  "updated_at": "2026-07-18"
+}

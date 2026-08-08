@@ -1,0 +1,63 @@
+{
+  "id": "alex-fitness",
+  "name": "Alex Fitness / A-Fitness (A-Group)",
+  "legal_name": "ООО «А-ГРУПП» (бывш. ООО «АЛЕКС ФИТНЕС»)",
+  "inn": "7804468360",
+  "website": "https://alexfitness.ru",
+  "founded": 2011,
+  "segment": "средний сегмент — сжавшийся экс-гигант с околонулевой прибылью",
+  "description": "Иллюстрация давления лоукостов на классический средний сегмент: сеть сжалась с пиковых ~70+ клубов до 30 (Alex Fitness) + 10 (премиум A-Fitness), экспансия почти остановлена (план — 2 клуба на 2026-2027). Прибыльность околонулевая при миллиардной выручке: 2024 — 323 тыс. ₽ прибыли на 2,4 млрд выручки, 2025 — 1,5 млн на 3 млрд. Многолетний шлейф скандалов с возвратами при закрытии клубов (Новосибирск 03.2026, Казань — компенсация <1000 ₽ за полугодовой абонемент, СПб 2021).",
+  "revenue": [
+    {
+      "value": 2.4,
+      "unit": "млрд руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko/Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/a-grupp-1117847374226",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 3,
+      "unit": "млрд руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/a-grupp-1117847374226",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 1.5,
+      "unit": "млн руб (маржа 0,05% — околонулевая прибыльность при миллиардной выручке)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/a-grupp-1117847374226",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "«Развод на деньги при возврате абонемента ПОЗОР!»", "source_url": "https://otzovik.com/review_7871902.html" },
+    { "complaint": "При закрытии клуба в Казани клиентам предлагали <1000 ₽ компенсации за полугодовой абонемент", "source_url": "https://rt-online.ru" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Точное число закрытых клубов за 2022-2026 не публикуется",
+    "LTV/CAC/churn не раскрываются"
+  ],
+  "sources": [
+    "https://checko.ru/company/a-grupp-1117847374226",
+    "https://alexfitness.ru",
+    "https://afitness.ru"
+  ],
+  "updated_at": "2026-07-18"
+}

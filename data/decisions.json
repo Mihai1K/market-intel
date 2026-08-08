@@ -137,6 +137,21 @@
         "data/graveyard.json#remontnik-ru",
         "data/patterns.json#marketplace-antipattern"
       ]
+    },
+    {
+      "date": "2026-07-18",
+      "market": "fitness-rf",
+      "opportunity_id": null,
+      "opportunity_name": "Новый агрегатор фитнеса / единый абонемент (весь класс идей)",
+      "decision": "rejected",
+      "reason": "4 трупа одной модели (OneFit — убыток больше выручки, ClassBoom, ClassFit, MonPass) + выживший-карлик FITMOST, который держится только на take rate ~50-60%, искусственном лимите 3 визита/студию и немедленно ушёл в убыток −135 млн ₽ при попытке масштабирования (2025). 10-12-й независимые провалы marketplace-antipattern. Формула: прибыльный агрегатор офлайн-услуг = маленький агрегатор.",
+      "revisit": "нет условий пересмотра — транзакционный агрегатор офлайн-услуг закреплён как анти-паттерн; строить сервисы поверх существующей инфраструктуры клубов (винбек, защита базы, churn)",
+      "author": "Михаил + Claude, сессия 2026-08-08 (данные датированы 2026-07-18)",
+      "links": [
+        "data/graveyard.json#onefit",
+        "data/markets/fitness-rf/companies/fitmost.json",
+        "data/patterns.json#marketplace-antipattern"
+      ]
     }
   ]
 }

@@ -1,0 +1,262 @@
+{
+  "description": "Боли рынка фитнеса РФ. Собрано 2026-07-18. Research-агент выделил 9 кластеров по трём ролям (владелец/тренер/клиент) — все вошли в базу. Главная проверяемая гипотеза рынка (тренер владеет отношениями с клиентом) подтверждена 9 независимыми источниками — сильнейшее подтверждение архетипа employee-owns-client-relationship в базе.",
+  "pains": [
+    {
+      "id": "trainer-owns-clients-leaves-with-base",
+      "statement": "Тренер — единственный носитель отношений с клиентом: при уходе (в другой клуб, на аренду, в частную практику) лишь 40% его клиентов остаются в клубе; параллельно тренер проводит персоналки «мимо кассы», отдавая клубу 0% вместо 30-70%",
+      "role": "владелец клуба/студии",
+      "mentions_found": 9,
+      "links": [
+        "https://secrets.tbank.ru/blogi-kompanij/skolko-stoit-tekuchka-v-fitnes-industrii/",
+        "https://www.fitness1c.ru/blog/kak-presech-vorovstvo-i-mahinatsii/",
+        "https://support.fitness365.ru/база-знаний/мошенничество-в-клубе/",
+        "https://bloknot-volzhsky.ru/news/vedushchikh-trenerov-ddx-fitness-uvolili-po-tikhom",
+        "https://promo.fitnesshouse.ru/",
+        "https://www.babyblog.ru/community/3_6_sport/post/3074251"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Тренер объявил об уходе/уволен — окно 2-4 недели, пока его клиенты решают, за кем идти (живой кейс: Волжский, 2026 — после увольнения двух ведущих тренеров DDX ~50 клиентов заявили о желании уйти вслед); Fitness House прямо сейчас зазывает чужих тренеров на аренду",
+      "who_pays_now": "Владельцы платят за CRM с разграничением прав, СКУД, биометрию, турникеты — целые продуктовые линейки построены на этой боли; кейс CEO Александра Вишняка: после ужесточения контроля доход клуба вырос с $18 000 до $48 000 в первый же месяц",
+      "why_unsolved": "Non-compete в РФ юридически ничтожен (разъяснение Минтруда: запрет работать у конкурентов противоречит ТК); отношения 1:1 технически не запретить; перевод тренеров в самозанятые сам бьёт по клубу (дело А56-122617/2022: доначисление 1,07 млн ₽ за 23 «самозанятых» тренеров, ВС отказал клубу)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "После увольнения тренера лишь 40% его клиентов принимают решение перейти к другому специалисту внутри клуба",
+          "source_url": "https://secrets.tbank.ru/blogi-kompanij/skolko-stoit-tekuchka-v-fitnes-industrii/"
+        },
+        {
+          "text": "15 лет назад в коррупционных схемах участвовали все, кроме владельца",
+          "source_url": "https://www.fitness1c.ru/blog/kak-presech-vorovstvo-i-mahinatsii/"
+        },
+        {
+          "text": "Многие ушли, очень многие, особенно с юношескими разрядами",
+          "source_url": "https://www.babyblog.ru/community/3_6_sport/post/3074251"
+        }
+      ]
+    },
+    {
+      "id": "churn-after-3-months-dead-souls-model-breaks",
+      "statement": "Экономика классического клуба строилась на годовых картах и «мёртвых душах» (выручка не зависела от посещений) — модель ломается: 15-20% не продлевают годовые, короткие карты уже ~37% выручки, отток начинается через 3-4 месяца, а возражение «дорого» выросло с 10% до 20-25%",
+      "role": "владелец клуба/студии",
+      "mentions_found": 6,
+      "links": [
+        "https://www.forbes.ru/biznes/489828-pokoroce-i-podesevle-klienty-fitnes-centrov-otkazyvautsa-ot-godovyh-kart",
+        "https://kvnews.ru/news-feed/204974",
+        "https://biz360.ru/materials/regulyarno-i-ponemnogu-kak-podpiska-menyaet-povedenie-klientov-i-uvelichivaet-dokhod-fitnes-kluba/",
+        "https://fitbase.io/zavtrak",
+        "https://gym-one.ru/blog/kak-fitnes-klubu-ne-teryat-klientov-posle-okonchaniya-abonementa/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Сезонный кассовый разрыв: летний спад и посленовогодний провал; экспансия DDX/Spirit отбирает новичков прямо сейчас (DDX: план +60 клубов в 2026)",
+      "who_pays_now": "CRM-вендорам за модули удержания (списки «на продление»), консалтингу продаж; удержание в 5-7 раз дешевле привлечения (лид в Москве 1 200-2 500 ₽, +26-30% к 2022)",
+      "why_unsolved": "Продление — операционно тяжёлая ручная работа (админ звонит по списку), которую малые клубы не тянут; годовая карта фундаментально противоречит поведению клиента (мотивация умирает за 4-6 недель); единственный AI-кейс (DDX+targetai, конверсия 47%) — внутренний enterprise, не продукт для рынка",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Раньше до 10% было отказов по причине «дорого», сейчас — 20-25%",
+          "source_url": "https://kvnews.ru/news-feed/204974"
+        }
+      ]
+    },
+    {
+      "id": "staff-deficit-and-turnover",
+      "statement": "71,4% клубов сообщают о нехватке кадров, с 2019 отрасль потеряла ~20 тыс. тренеров; средний срок работы администратора 3-6 месяцев — каждый уход бьёт по выручке и сервису",
+      "role": "владелец клуба/студии",
+      "mentions_found": 4,
+      "links": [
+        "https://nationalfitness.ru/2025/12/30/itogi-2025-goda-obobshhennoe-issledovanie-rynka-fitnes-uslug/",
+        "https://mobifitness.ru/blog/problemy-fitnes-klubov-s-chem-stalkivaetsya-industriya-i-kak-adaptirovatsya/",
+        "https://start-fit.ru/problemy-fitnes-kluba/",
+        "https://secrets.tbank.ru/blogi-kompanij/skolko-stoit-tekuchka-v-fitnes-industrii/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль (обостряется в сезонные пики найма январь/сентябрь)",
+      "who_pays_now": "hh.ru за вакансии, рекрутёрам; зарплаты тренеров +12% г/г (94 тыс ₽/мес в среднем), индексация у 63% клубов",
+      "why_unsolved": "Демография + отток кадров в смежные отрасли; профессия тренера — трамплин в частную практику (доход на аренде х5-10)",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "club-takes-half-of-pt-revenue",
+      "statement": "Штатный тренер отдаёт клубу 30-70% (типично ~50%) с каждой персональной тренировки; групповик на ставке получает ~32 тыс ₽/мес — при том, что на аренде тот же человек зарабатывает до 320 тыс ₽/мес: уход с клиентской базой экономически рационален",
+      "role": "тренер",
+      "mentions_found": 5,
+      "links": [
+        "https://skillbox.ru/media/health/skolko-zarabatyvaet-fitnes-trener-na-individualnyh-trenirovkah-i-v-klube/",
+        "https://vc.ru/hr/1104108-zarplata-fitnes-trenera-ozhidanie-i-realnost",
+        "https://vc.ru/education/2098284-zarplata-fitnes-trenerov-v-2025-godu",
+        "https://worldclass-university.ru/blog/s-chego-nachat-formirovaniye-kliyentskoy-bazy-treneru-novichku"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Точка перехода — накопленная база 10-15 постоянных клиентов (~60 вводных тренировок, 1-2 месяца работы); доступная аренда (20-90 тыс ₽/мес) и открытый рекрутинг сетей (Fitness House) снижают порог до нуля",
+      "who_pays_now": "Тренеры платят клубам за аренду зала, покупают приложения учёта клиентов и курсы; обратная сторона — вся операционка (запись, оплата, учёт) ложится на самого тренера",
+      "why_unsolved": "Модель 50/50 — основа P&L классического клуба, снизить долю клуб не может; легализация частной практики рискованна (дело А56-122617/2022) — серая зона воспроизводится",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "С тренировки за 1000 рублей тренер получает около 500 — половину забирает клуб",
+          "source_url": "https://skillbox.ru/media/health/skolko-zarabatyvaet-fitnes-trener-na-individualnyh-trenirovkah-i-v-klube/"
+        }
+      ]
+    },
+    {
+      "id": "forced-upsell-pressure-on-trainers",
+      "statement": "Штатного тренера принуждают продавать персоналки и спортпит под KPI («говорить клиенту, что он достиг потолка», «беречь» клиента от прогресса ради удержания в зале), а уволить могут по надуманным основаниям невзирая на рейтинг",
+      "role": "тренер",
+      "mentions_found": 3,
+      "links": [
+        "https://chel.aif.ru/sport/otkroveniya_trenerov_kak_nas_obmanyvayut_v_fitnes-klubah_i_sportzalah",
+        "https://bloknot-volzhsky.ru/news/vedushchikh-trenerov-ddx-fitness-uvolili-po-tikhom"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная боль; обостряется при смене управляющего или ужесточении KPI",
+      "who_pays_now": "Никто напрямую — тренеры уходят в аренду/частную практику (что усиливает боль владельца №1)",
+      "why_unsolved": "Персоналки — главный маржинальный продукт клуба; конфликт интересов зашит в модель оплаты",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Наставник начинает вас «беречь», долго не даёт более сложных упражнений. Это для того, чтобы вы задержались в зале",
+          "source_url": "https://chel.aif.ru/sport/otkroveniya_trenerov_kak_nas_obmanyvayut_v_fitnes-klubah_i_sportzalah"
+        }
+      ]
+    },
+    {
+      "id": "cant-refund-membership",
+      "statement": "Клиент не может вернуть деньги за неиспользованный абонемент (до 80 тыс ₽): клуб тянет время, вписывает карательные условия пересчёта («условная стоимость дня» выше реальной, заморозка средств на 180 дней) или закрывается с деньгами — самая массовая юридически оформленная боль рынка",
+      "role": "клиент",
+      "mentions_found": 10,
+      "links": [
+        "https://vc.ru/tbank/1493482-nesportivnoe-povedenie-kak-fitnes-kluby-obmanyvayut-klientov",
+        "https://azpp.ru/otvet-yurista/tovary-i-uslugi/fitnes-klub-ne-vozvrashchaet-dengi-za-abonement",
+        "https://77.rospotrebnadzor.ru/index.php/napravlenie/zpp/9621-upravlenie-rospotrebnadzora-po-g-moskve-zashchishchaet-prava-potrebitelej-fizkulturno-ozdorovitelnykh-uslug",
+        "https://rskrf.ru/consumer_rights/solutions/leisure_sport/mozhno-li-vernut-dengi-za-abonement-v-fitnes-klub/",
+        "https://otzovik.com/review_15139028.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Всегда событийный: переезд, травма, внезапное закрытие клуба «на ремонт» (волна 2025-2026: ~20% новых объектов, «Кимберли» — долг 180+ млн ₽ перед 3000+ клиентов) — деньги нужно вернуть немедленно",
+      "who_pays_now": "Юристам за претензии/суды (3-10 тыс ₽); Т-Банк построил бесплатный сервис возврата как маркетинг — вернул 1000+ клиентам ~7 млн ₽ за полгода; Роспотребнадзор Москвы: 180+ обращений за 5 месяцев",
+      "why_unsolved": "Асимметрия: клубу выгодно тянуть (невозвраты закрывают кассовый разрыв), клиенту дорого судиться ради 20-50 тыс ₽; при банкротстве клуба взыскивать не с кого; судебная практика при этом на стороне клиента («невозвратность» ничтожна + штраф 50%)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Обманщики не возвращают деньги за абонемент 180 дней",
+          "source_url": "https://otzovik.com/review_15139028.html"
+        },
+        {
+          "text": "В договоре условная стоимость каждого дня была намного выше реальной",
+          "source_url": "https://vc.ru/tbank/1493482-nesportivnoe-povedenie-kak-fitnes-kluby-obmanyvayut-klientov"
+        }
+      ]
+    },
+    {
+      "id": "subscription-autobilling-trap",
+      "statement": "Подписочные сети (DDX, Spirit) списывают деньги после попытки отмены/заморозки; заморозка сама платная и «автоматически закрывает» подписку; отменить или отвязать карту можно только личным визитом в клуб — люди перевыпускают банковские карты, чтобы остановить списания",
+      "role": "клиент",
+      "mentions_found": 7,
+      "links": [
+        "https://pravoved.ru/question/4688142/",
+        "https://forumyuristov.ru/threads/Заморозка-подписки-ddx.65185/",
+        "https://otzovik.com/review_17515334.html",
+        "https://otzovik.com/review_16625273.html",
+        "https://irecommend.ru/content/spisanie-deneg-s-kart-bez-preduprezhdeniya",
+        "https://otzovik.com/review_17257605.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Острейший на рынке: списание уже произошло и будет повторяться каждый месяц (1 900-2 999 ₽), пока клиент не доедет лично до клуба — действовать надо сегодня",
+      "who_pays_now": "Юристам за консультации/претензии; чарджбек через банк; часть просто перевыпускает карту",
+      "why_unsolved": "Friction при отмене — ядро подписочной юнит-экономики (DDX: 17,6 млрд ₽, +83% за год); упрощение отмены напрямую режет выручку; регуляторного требования «отмены в один клик» в РФ нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Сеть ddx fitness отказывается делать оффлайн возврат за автоматическое списание средств с карты. Просят лично подойти, а я не могу",
+          "source_url": "https://pravoved.ru/question/4688142/"
+        },
+        {
+          "text": "Списали деньги без моего согласия и возвращать отказались",
+          "source_url": "https://irecommend.ru/content/spisali-dengi-bez-moego-soglasiya-i-vozvrashchat-otkazalis"
+        }
+      ]
+    },
+    {
+      "id": "lowcost-overcrowding-primetime",
+      "statement": "В подписочных лоукостерах вечером и в январе очереди к тренажёрам до получаса — оверселлинг зала сверх вместимости в прайм-тайм зашит в модель дешёвой подписки",
+      "role": "клиент",
+      "mentions_found": 5,
+      "links": [
+        "https://2gis.ru/perm/firm/70000001084441016/tab/reviews",
+        "https://2gis.ru/spb/firm/70000001088950488/tab/reviews",
+        "https://www.tbank.ru/reviews/company/ddx-fitness/104436/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Сезонно-суточный: январский наплыв новичков (половина клиентов DDX — впервые в фитнесе) + вечерний прайм",
+      "who_pays_now": "Клиенты «платят» переходом в дорогие клубы или сменой времени; клубы — виджетами загруженности в приложении",
+      "why_unsolved": "Оверселлинг — сама модель лоукостера: подписка дешёвая именно потому, что зал продан больше вместимости",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Иногда люди стоят по полчаса в ожидании освобождения тренажеров",
+          "source_url": "https://2gis.ru/perm/firm/70000001084441016/tab/reviews"
+        }
+      ]
+    },
+    {
+      "id": "pt-upsell-pressure-on-clients",
+      "statement": "Клиента прессуют купить персоналки с первой вводной тренировки; отказ ведёт к игнору или унижениям; клуб охраняет монополию на тренерство вплоть до запрета бесплатно помогать друзьям в зале (расторжение договора с клиенткой — суд встал на её сторону, 30 250 ₽)",
+      "role": "клиент",
+      "mentions_found": 5,
+      "links": [
+        "https://chel.aif.ru/sport/otkroveniya_trenerov_kak_nas_obmanyvayut_v_fitnes-klubah_i_sportzalah",
+        "https://cher-poisk.ru/people-news/otnosheniya/trener-v-fitnes-klube-nachal-unizhat-menya-potomu-chto-otkazalas-pokupat-ego-personalnye-zanyatiya",
+        "https://t-j.ru/zaprety-fitnessclub/",
+        "https://otzovik.com/reviews/set_sportivnih_klubov_fitnes_haus_russia_sankt-peterburg/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Частичный: точка прессинга — вводная тренировка в первую неделю после покупки абонемента; в остальном вечнозелёная",
+      "who_pays_now": "Никто напрямую; клиенты уходят в залы без тренеров или в домашний/онлайн-фитнес",
+      "why_unsolved": "Персоналки — главный маржинальный продукт, доход тренера напрямую зависит от допродаж — конфликт интересов зашит в модель (зеркало боли владельца №1)",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": [
+        {
+          "text": "Тренер начал унижать меня, потому что отказалась покупать его персональные занятия",
+          "source_url": "https://cher-poisk.ru/people-news/otnosheniya/trener-v-fitnes-klube-nachal-unizhat-menya-potomu-chto-otkazalas-pokupat-ego-personalnye-zanyatiya"
+        }
+      ]
+    }
+  ]
+}
