@@ -1,0 +1,82 @@
+{
+  "id": "avito-uslugi",
+  "name": "Авито Услуги (сегмент ремонта)",
+  "legal_name": "ООО «КЕХ еКоммерц»",
+  "inn": "7710668349",
+  "website": "https://www.avito.ru/all/predlozheniya_uslug",
+  "founded": 2007,
+  "segment": "фактический победитель консолидации агрегаторов ремонта — с рекламной, не транзакционной моделью",
+  "description": "13+ млн человек ежемесячно ищут мастеров на Авито Услугах (+21% г/г), ~1 млн сделок/мес в стройке и ремонте. Ключ к выживанию там, где умерли Ремонтник.ру и YouDo: монетизация РЕКЛАМНАЯ (размещение/просмотры/целевые действия), а не транзакционная — Авито сознательно продаёт трафик, а не сделку, отказавшись бороться с дезинтермедиацией. Собственная LLM A-Vibe (1-е место среди лёгких моделей в бенчмарке MERA) и ML-алгоритм «Соседи рекомендуют» в категории ремонта.",
+  "revenue": [
+    {
+      "value": 100.9,
+      "unit": "млрд руб (+57% г/г; всё юрлицо, не только услуги)",
+      "period": "2023",
+      "basis": "РСБУ: из выручки — продвижение объявлений 34 млрд, размещение 17 млрд",
+      "source_name": "Checko.ru/Интерфакс",
+      "source_url": "https://checko.ru/company/kekh-ekommerc-5077746422859",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 39.3,
+      "unit": "млрд руб (+230% г/г)",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru/Интерфакс",
+      "source_url": "https://checko.ru/company/kekh-ekommerc-5077746422859",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Монетизация мастеров: оплата размещения объявления (14/30/60 дней), оплата за просмотры (от 1,1 ₽/просмотр в услугах), оплата за целевые действия (звонок/сообщение); пакетные тарифы — только для ИП/юрлиц",
+      "price": "рекламная модель, не комиссия",
+      "source_url": "https://ppc.world/articles/kak-ustroeny-tarify-dlya-biznesa-na-avito/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Слив бюджета на продвижение: «оплаченное недельное продвижение — 0 просмотров», «2000 ₽/день дают 12 просмотров вместо обещанных 100»", "source_url": "https://vc.ru/id6051790/3051623-problemy-s-platnym-prodvizheniem-na-avito" },
+    { "complaint": "Алгоритм выдавливает частников — приоритет «бюджетным гигантам»", "source_url": "https://vc.ru/money/2959372-prodvizhenie-uslug-na-avito" },
+    { "complaint": "Клиентские риски: сети лжемастеров по ремонту (снимают детали и исчезают, смета 20 000 ₽ при реальной цене 3 000 ₽)", "source_url": "https://t-j.ru/guide/service-cheaters/" }
+  ],
+  "ai_readiness": {
+    "score": 70,
+    "formula": "35 баллов за собственную LLM A-Vibe (топ лёгких моделей в MERA, открыта на HuggingFace) + мультимодальную A-Vision + 20 за ML-алгоритм «Соседи рекомендуют» в категории ремонта (тест с 06.2026) + 15 за ML-верификацию объявлений и фильтр «Работа с ИИ»",
+    "signals": [
+      {
+        "signal": "Собственная LLM A-Vibe — 1-е место среди лёгких моделей в бенчмарке MERA (апрель 2025), модель открыта",
+        "evidence_url": "https://huggingface.co/AvitoTech/avibe",
+        "direction": "+"
+      },
+      {
+        "signal": "Алгоритм «Соседи рекомендуют» — ML-подбор мастеров по положительному опыту жителей соседних домов, тест в категории строительства и ремонта",
+        "evidence_url": "https://www.ixbt.com/news/2026/06/22/novyj-uroven-sarafaonnogo-radio-avito-uslugi-zapustili-sosedi-rekomendujut-dlja-poiska-masterov.html",
+        "direction": "+"
+      },
+      {
+        "signal": "ML-модель верификации объявлений и фильтр «Работа с ИИ, нейросетями» (июль 2026)",
+        "evidence_url": "https://www.cnews.ru/news/line/2026-07-30_avito_uslugi_zapustili",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "РСБУ за 2024-2025 в бесплатных агрегаторах не опубликованы на дату сбора",
+    "Доля сегмента услуг/ремонта в выручке юрлица не раскрывается",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://checko.ru/company/kekh-ekommerc-5077746422859",
+    "https://habr.com/ru/news/1050494/",
+    "https://aif.ru/realty/house/znak-masterstva-avito-uslugi-zapustili-premiyu-v-otrasli-remonta",
+    "https://www.interfax.ru/business/953608"
+  ],
+  "updated_at": "2026-07-18"
+}

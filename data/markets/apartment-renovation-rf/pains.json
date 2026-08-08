@@ -1,0 +1,380 @@
+{
+  "description": "Боли рынка ремонта квартир РФ. Собрано 2026-07-18. Research-агент нашёл 18 кластеров; в базу вошло 14 — честно исключены 4 слабых: «заказчик не платит бригаде» и «мастера кидают на оплату» (только общие юридические статьи, живых форумных кейсов не нашлось), «спрос смещается на косметику» (3 упоминания — вплетено в описание рынка как тренд), «откаты дизайнеров» (2 упоминания).",
+  "pains": [
+    {
+      "id": "contractor-vanishes-with-prepayment",
+      "statement": "Подрядчик берёт аванс (часто 30-50% + «на материалы»), затем исчезает или бросает объект недоделанным — вернуть деньги почти невозможно даже через выигранный суд",
+      "role": "заказчик-физлицо",
+      "mentions_found": 7,
+      "links": [
+        "https://t-j.ru/builders-fraud/",
+        "https://www.cian.ru/stati-remont-esli-stroitelnaja-brigada-propala-291128/",
+        "https://praktika.plus/blog/pro-remont/kak-poteryat-dengi-pri-remonte-kvartiry/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Квартира уже разобрана и непригодна для жизни, семья платит за съёмное жильё, деньги внесены — решение нужно в моменте",
+      "who_pays_now": "Юристы по ремонтным спорам, строительная экспертиза для суда; большинство — никому, списывают убыток",
+      "why_unsolved": "Договор часто не заключается или заключён с ИП-пустышкой; суд выигрывается, но исполнение решения нулевое",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Компания написала, что они уволили прораба и не будут доделывать наш объект",
+          "source_url": "https://t-j.ru/builders-fraud/"
+        },
+        {
+          "text": "После оплаты владелец фирмы исчез вместе с семьей, на звонки не отвечал",
+          "source_url": "https://t-j.ru/builders-fraud/"
+        }
+      ]
+    },
+    {
+      "id": "estimate-as-deception-tool",
+      "statement": "Подрядчики системно занижают входную смету на 20-30%, чтобы «зацепить» клиента — итоговый чек оказывается выше на 30-50%, а рост вскрывается посреди ремонта, когда менять подрядчика дороже, чем доплатить",
+      "role": "заказчик-физлицо",
+      "mentions_found": 8,
+      "links": [
+        "https://t-j.ru/builders-fraud/",
+        "https://www.moneytimes.ru/news/family-budget-protection/150120/",
+        "https://www.samara.kp.ru/daily/26960/4015366/",
+        "https://www.fontanka.ru/longreads/69793304/",
+        "https://sdom-stroy.ru/blog/12-skhem-obmana-pri-remonte.html"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Рост сметы вскрывается ПОСРЕДИ ремонта — квартира разобрана, заказчик становится заложником ситуации и вынужден решать сегодня",
+      "who_pays_now": "Технадзор/проверка смет от 4 000 ₽/выезд (279 сметчиков продают проверку смет на Профи.ру), либо молча доплачивают",
+      "why_unsolved": "У заказчика нет независимого эталона цены; детальную смету до договора почти никто не даёт; «профессиональный» язык сметы непроверяем для обывателя",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Иногда сами строители занижают расходы в надежде на то, что вы скорее согласитесь, а потом уже получается, как получается",
+          "source_url": "https://www.moneytimes.ru/news/family-budget-protection/150120/"
+        },
+        {
+          "text": "Я уже 20 лет ремонтами занимаюсь, но сказать цену, просто посмотрев на вашу комнату, не смогу... Заранее платят только лохи",
+          "source_url": "https://www.samara.kp.ru/daily/26960/4015366/"
+        }
+      ]
+    },
+    {
+      "id": "cant-verify-contractor-before-deal",
+      "statement": "Заказчик не может отличить мастера от халтурщика ДО оплаты: фейковые портфолио, накрученные отзывы, «профи с гонором» без ответственности — тотальная информационная асимметрия",
+      "role": "заказчик-физлицо",
+      "mentions_found": 9,
+      "links": [
+        "https://www.forumhouse.ru/threads/310250/",
+        "https://www.rambler.ru/dom/remont_stroyka/56245888-kak-raspoznat-falshivoe-portfolio-stroitelnoy-brigady-i-zaschititsya-ot-obmana-v-remonte/",
+        "https://riamo.ru/news/obschestvo/rossijane-nazvali-glavnye-problemy-pri-remonte-top-3/",
+        "https://stroygaz.ru/news/dwelling/bolshinstvo-rossiyan-ssorilis-iz-za-remonta-issledovanie/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Обостряется в момент выбора подрядчика (старт ремонта, деньги на кону сотни тысяч — миллионы), фоново вечнозелёная",
+      "who_pays_now": "Рынок технадзора уже существует: от 4 000 ₽/выезд до ~40 000 ₽/мес за ведение объекта — прямой прецедент архетипа независимой проверки с платящим спросом",
+      "why_unsolved": "Отзывы накручиваются, агрегаторы монетизируют мастеров (конфликт интересов), репутация не переносима между платформами, «гарантия» бригады умирает вместе с её телефоном",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Уверенно и с гонором продают себя как профи, а по факту никогда не поймёшь",
+          "source_url": "https://www.forumhouse.ru/threads/310250/"
+        },
+        {
+          "text": "Через пол года трубы под стяжкой текут и бывший прораб... по факту никто ни за что не отвечает",
+          "source_url": "https://www.forumhouse.ru/threads/310250/"
+        }
+      ]
+    },
+    {
+      "id": "hidden-work-defects-flood-liability",
+      "statement": "Ошибки в скрытых работах (трубы, стяжка, электрика) всплывают через месяцы заливом соседей — по позиции ВС РФ за ущерб отвечает собственник квартиры, а не бригада, пострадавшие выигрывают 80-90% исков",
+      "role": "заказчик-физлицо",
+      "mentions_found": 6,
+      "links": [
+        "https://www.fontanka.ru/longreads/69793304/",
+        "https://journal.tinkoff.ru/omg/remont-s-zalivom/",
+        "https://favorit-consult.ru/article/vozmeshhenie-ushherba-pri-zatoplenii/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Залив уже случился — претензия от соседей с оценкой ущерба на руках, обязательный досудебный порядок, счёт на сотни тысяч",
+      "who_pays_now": "Собственник из кармана; страховые (полисы ремонта), оценщики ущерба, юристы",
+      "why_unsolved": "Скрытые работы физически не проверяемы после закрытия без вскрытия; акты освидетельствования скрытых работ в частном ремонте почти никто не ведёт",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Сантехник соединил несколько кусков трубы и закрыл штукатуркой. Со временем произошли протечки, повредившие соседей снизу",
+          "source_url": "https://www.fontanka.ru/longreads/69793304/"
+        }
+      ]
+    },
+    {
+      "id": "new-building-acceptance-window",
+      "statement": "Дольщик получает уведомление о готовности квартиры и обязан приступить к приёмке в течение 7 рабочих дней (214-ФЗ), иначе через 2 месяца застройщик составит односторонний акт — при дефектах в 93-99% новостроек приёмщик нужен «сегодня», а ПП №1917 сузило круг легальных специалистов",
+      "role": "заказчик-физлицо (дольщик)",
+      "mentions_found": 10,
+      "links": [
+        "https://t-j.ru/stroit-lu4she/",
+        "https://profi.ru/remont/priemka-kvartiry-ot-zastroischika/price/",
+        "https://vc.ru/invest/1988163-kak-prinyat-kvartiru-v-novostroyke-v-2025-godu",
+        "https://www.consultant.ru/document/cons_doc_LAW_51038/49cb99b1bfe1a09caaf585874de97bdb34fc6d48/",
+        "https://ocenkaexp.ru/priemka-kvartir-v-novostrojkah/zastrojshhik-ne-puskaet-ekspertov"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Получение уведомления о готовности квартиры — жёсткое законодательное окно 7 рабочих дней на старт приёмки, угроза одностороннего акта через 2 месяца",
+      "who_pays_now": "Дольщики платят приёмщикам 4 470-8 150 ₽ (Москва, 260 инженеров на Профи.ру); юристы по ДДУ ведут споры об устранении дефектов",
+      "why_unsolved": "Решено частично: рынок приёмщиков есть, но их качество не верифицируется, а ПП №1917 (требование СРО/НОПРИЗ с 26.12.2024) выдавило часть исполнителей; застройщики препятствуют допуску экспертов",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Застройщики препятствуют присутствию независимых экспертов, потому что эксперты выявляют все дефекты",
+          "source_url": "https://29.ru/text/realty/2021/12/03/70287326/"
+        }
+      ]
+    },
+    {
+      "id": "renovation-price-inflation",
+      "statement": "Стоимость работ растёт на 10-25% в год (прогноз 2026: +20-25% «под ключ») — откладывание ремонта означает гарантированную переплату",
+      "role": "заказчик-физлицо",
+      "mentions_found": 6,
+      "links": [
+        "https://www.mk.ru/economics/2026/01/13/remont-kvartir-v-rossii-prodolzhit-dorozhat-vozmozhen-rost-cen-na-chetvert.html",
+        "https://www.cian.ru/novosti-v-2026-godu-remont-pod-kljuch-rezko-podorozhaet-342778/",
+        "https://www.kommersant.ru/doc/8814162"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Анонсированное повышение НДС и публичный прогноз +20-25% на 2026 создают давление «начинай сейчас — потом дороже»",
+      "who_pays_now": "Никак — заказчики либо стартуют раньше плана, либо дробят ремонт на этапы",
+      "why_unsolved": "Структурная инфляция издержек: НДС 22%, дефицит отделочников (−35% мигрантов за 2 года), рост зарплат до +40% по дефицитным специальностям",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "expensive-lead-falling-demand",
+      "statement": "Квалифицированный лид на ремонт стоит 1 700-2 200 ₽ (до оптимизации — до 9 000 ₽, замер до 80 000 ₽), клик в Директе до 400-700 ₽ — при этом спрос падает (55% россиян откладывают дорогой ремонт против 36% годом ранее), экономика рекламы ломается",
+      "role": "владелец ремонтной компании",
+      "mentions_found": 6,
+      "links": [
+        "https://vc.ru/marketing/1838038-klienty-na-remont-kvartir-reklama-yandeks-direkt-keis",
+        "https://vc.ru/marketing/2133578-poluchenie-zayavok-na-remont-kvartir-iz-yandeks-direkta-v-moskve",
+        "https://habr.com/ru/articles/820141/",
+        "https://www.sostav.ru/blogs/281804/71928"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Спад заказов у отделочных компаний с декабря 2025 при продолжающемся росте стоимости лида — воронка сжимается с двух сторон прямо сейчас",
+      "who_pays_now": "Агентствам контекста/таргета, Авито, агрегаторам, лид-брокерам (пакеты от 40 000 ₽/мес)",
+      "why_unsolved": "Агрегаторы с большими бюджетами выкупают поисковую выдачу («сместить их почти невозможно»), сарафан не масштабируется, конверсия лид→договор низкая",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Топ выдачи по ВЧ-ключам заняли агрегаторы. Сместить их почти невозможно",
+          "source_url": "https://habr.com/ru/articles/820141/"
+        }
+      ]
+    },
+    {
+      "id": "foreman-takes-clients-direct",
+      "statement": "Прораб/мастер, получивший клиента через компанию, предлагает работать напрямую дешевле — компания юридически беззащитна: по прецеденту ВС РФ упущенную выгоду с работника взыскать нельзя",
+      "role": "владелец ремонтной компании",
+      "mentions_found": 4,
+      "links": [
+        "https://habr.com/ru/articles/977792/",
+        "https://www.samara.kp.ru/daily/26960/4015366/",
+        "https://t-j.ru/omg/uvela-klienta/",
+        "https://delo.modulbank.ru/all/take-away"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная структурная боль, обостряется при падении спроса, когда мастера голодны",
+      "who_pays_now": "Никто системно — компании зашивают риск в цену и запрещают мастерам давать личные контакты",
+      "why_unsolved": "Отношения именные 1:1, клиенту напрямую выгоднее (минус наценка компании), суды не защищают: прецедент ВС — упущенную выгоду работник компенсировать не обязан. Честная оговорка: живых публичных кейсов именно ремонтных компаний не найдено — механика подтверждена смежной нишей (ремонт техники, дословная схема обхода) и признанием прораба",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "От конторы такой ремонт будет 4 000 ₽ стоить, но без конторы я могу вам сделать за 3 000 ₽. Только когда вам позвонят из конторы... скажите, что это была диагностика и вы отказались",
+          "source_url": "https://habr.com/ru/articles/977792/"
+        }
+      ]
+    },
+    {
+      "id": "workforce-deficit-rising-wages",
+      "statement": "Квалифицированных отделочников физически не хватает (отток мигрантов −35% за 2 года, запреты в 51 регионе), зарплаты растут быстрее чека: маляры/штукатуры Москвы +40% за год, доля узкопрофильных мастеров упала вдвое (56% → 31%)",
+      "role": "владелец ремонтной компании",
+      "mentions_found": 5,
+      "links": [
+        "https://realty.rbc.ru/news/696763219a7947675299f0e7",
+        "https://finance.rambler.ru/realty/56872929-dolya-uzkoprofilnyh-masterov-po-remontu-zhilya-sokratilas-vdvoe/",
+        "https://rtvi.com/stories/migranty-begut-so-strojki-deficzit-kadrov-v-otrasli-oczenili-v-30/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Действующие миграционные запреты (51 регион к концу 2025) и конкуренция с крупными стройками за руки — дефицит обостряется прямо сейчас",
+      "who_pays_now": "Переплатой мастерам относительно рынка; обучение своими силами не масштабируется",
+      "why_unsolved": "Обучение отделочника долгое, отрасль непрестижна, лучшие мастера уходят в частники (маржа выше)",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "aggregators-milk-masters",
+      "statement": "Агрегаторы берут с мастера деньги ЗА ПОПЫТКУ получить заказ, а не за заказ: Профи.ру — платный отклик (списание сразу, без гарантии просмотра), Авито — платное продвижение со сливом бюджета; фейковые заказы — главная тема жалоб",
+      "role": "мастер-частник",
+      "mentions_found": 8,
+      "links": [
+        "https://vc.ru/claim/791049-kak-profi-ru-prosit-oplachivat-zakazy-za-ne-vypolnennuyu-rabotu",
+        "https://pikabu.ru/story/feykovyie_zakazyi_na_profiru__kak_obmanyivayut_masterov_12338979",
+        "https://vc.ru/money/2959372-prodvizhenie-uslug-na-avito",
+        "https://vc.ru/id6051790/3051623-problemy-s-platnym-prodvizheniem-na-avito"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Платформы недавно перевели мастеров с комиссии на платные отклики/продвижение (смена правил задним числом) при одновременном падении спроса",
+      "who_pays_now": "Мастера платят агрегаторам тысячи ₽/мес без гарантии заказа; часть уходит в обход платформы после первого контакта",
+      "why_unsolved": "У платформ конфликт интересов — зарабатывают на откликах/продвижении, а не на сделках; репутация мастера заперта внутри платформы",
+      "automatable": true,
+      "ai_possible": false,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Фейковые заказы имеют цель заставить мастеров платить за отклики, а затем закрыть заказ, не выбирая никого. Деньги остаются у платформы",
+          "source_url": "https://pikabu.ru/story/feykovyie_zakazyi_na_profiru__kak_obmanyivayut_masterov_12338979"
+        },
+        {
+          "text": "Частные мастера, отдавая 2000 рублей в день за продвижение одного объявления, просто вываливаются из выдачи",
+          "source_url": "https://vc.ru/money/2959372-prodvizhenie-uslug-na-avito"
+        }
+      ]
+    },
+    {
+      "id": "dumping-and-order-drought",
+      "statement": "Демпинг бригад из регионов/СНГ в сочетании с падением спроса оставляет частника без потока заказов — сарафан (60% знакомые мастера + 40% старые клиенты) не спасает в кризис",
+      "role": "мастер-частник",
+      "mentions_found": 4,
+      "links": [
+        "https://mastergrad.com/forums/t241387-podskazhite-mastera-kak-novichku-nayti-zakazy-na-rabotu/",
+        "https://realnoevremya.ru/news/390417-v-rossii-snizilsya-spros-na-uslugi-po-remontu-kvartir"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Спад заказов с декабря 2025 — обострение прямо сейчас",
+      "who_pays_now": "Никак — мастера пережидают, уходят на стройки или демпингуют сами",
+      "why_unsolved": "Демпинг привлекает проблемных клиентов; каналы получения заказов у частника ограничены агрегаторами (см. aggregators-milk-masters) и сарафаном",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "В основном сарафан — 60% знакомые мастера и 40% старые клиенты... мне кажется, сейчас не лучшее время на вольных хлебах в строительстве",
+          "source_url": "https://mastergrad.com/forums/t241387-podskazhite-mastera-kak-novichku-nayti-zakazy-na-rabotu/"
+        }
+      ]
+    },
+    {
+      "id": "endless-revisions-no-pay",
+      "statement": "Клиент даёт «правки ради правок» месяцами при размытом ТЗ — дизайнер не может закрыть этап и получить оплату",
+      "role": "дизайнер интерьеров",
+      "mentions_found": 6,
+      "links": [
+        "https://www.inmyroom.ru/posts/35264-chto-besit-dizajnera-8-maksimalno-nepriyatnyh-situacij",
+        "https://d-e-s-i-g-n.ru/baza_znanij/chast-30-klient-daet-beskonechnye-pravki-a-dizajner-ne-znaet-kak-otkazat/",
+        "https://skillbox.ru/media/design/hateful-seven/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, обостряется при падении чеков",
+      "who_pays_now": "Никак системно — дизайнеры зашивают лимит правок в договор, но исполнение хромает",
+      "why_unsolved": "Асимметрия: клиент не умеет формулировать ТЗ («хочу бежевый в нежных тонах» — заказ ни о чём), дизайнер боится потерять клиента",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Каждый день приносит новые правки... дизайнер теряет мотивацию и хочет завершить проект и забыть",
+          "source_url": "https://d-e-s-i-g-n.ru/baza_znanij/chast-30-klient-daet-beskonechnye-pravki-a-dizajner-ne-znaet-kak-otkazat/"
+        }
+      ]
+    },
+    {
+      "id": "builders-simplify-project",
+      "statement": "Бригада реализует дизайн-проект «по-своему», упрощая решения — дизайнер отвечает репутацией за чужую халтуру, а авторский надзор продаётся плохо из-за недоверия клиента",
+      "role": "дизайнер интерьеров",
+      "mentions_found": 6,
+      "links": [
+        "https://basicdecor.ru/journal/post/pochemu-realizaciya-interera-mozhet-otlichatsya-ot-proekta/",
+        "https://www.inmyroom.ru/posts/4371-osnovnye-oshibki-dizaynerov-pri-avtorskom-nadzore"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "нет — вечнозелёная, вскрывается на этапе реализации проекта",
+      "who_pays_now": "Клиенты платят за авторский надзор (20-60 тыс ₽/мес), но покупают его редко",
+      "why_unsolved": "Три стороны (клиент↔дизайнер↔бригада) без единого координационного инструмента; бригаде проще «как привыкли»",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Строители могут предлагать свои идеи, упрощать проект или неправильно воплощать задуманное",
+          "source_url": "https://basicdecor.ru/journal/post/pochemu-realizaciya-interera-mozhet-otlichatsya-ot-proekta/"
+        }
+      ]
+    },
+    {
+      "id": "procurement-chain-breaks",
+      "statement": "Цепочка комплектации клиент→дизайнер→подрядчик→поставщик рассыпается: никто не отвечает за заказ позиций, сроки едут, материал снимают с производства — объект останавливается",
+      "role": "дизайнер интерьеров",
+      "mentions_found": 4,
+      "links": [
+        "https://basicdecor.ru/journal/post/pochemu-realizaciya-interera-mozhet-otlichatsya-ot-proekta/",
+        "https://vc.ru/services/2207527-oshibki-studiy-dizayna-interyera-v-upravlenii-proyektami"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Частичный — санкционные разрывы поставок и снятие позиций с производства актуальны именно сейчас",
+      "who_pays_now": "Никак системно — потери размазываются между сторонами",
+      "why_unsolved": "Нет единого владельца процесса комплектации; каждая сторона ждёт другую",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Клиент думает, что подрядчик сам всё закажет, подрядчик ждёт решения дизайнера, дизайнер ждёт подтверждения клиента, поставщик меняет сроки — и объект останавливается",
+          "source_url": "https://basicdecor.ru/journal/post/pochemu-realizaciya-interera-mozhet-otlichatsya-ot-proekta/"
+        }
+      ]
+    }
+  ]
+}

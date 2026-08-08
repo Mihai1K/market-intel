@@ -1,0 +1,59 @@
+{
+  "id": "sdelano",
+  "name": "Сделано",
+  "legal_name": "ООО «Сделано. Ремонт»",
+  "inn": "9701149421",
+  "website": "https://sdelano.ru",
+  "founded": 2014,
+  "segment": "фикс-прайс ремонт «под ключ» — пионер модели, венчурный проект фактически умер",
+  "description": "Пионер стандартизированного фикс-прайс ремонта в РФ (основан Ильёй Осколковым-Ценципером, ~$5 млн инвестиций). Ключевой урок юнит-экономики: фактическая валовая маржа 5-7% вместо заявленных 10-20%; Kismet Capital (Таврин) выкупила компанию с дисконтом из-за кассового разрыва (2019), назвала «неудачным опытом венчурного инвестирования» и перепродала (2021). Сейчас бренд жив как лидген-оболочка: заказы исполняет «ПИК-Ремонт», «Сделано» получает гонорар за лидогенерацию, работая «в ноль или с минимальным убытком».",
+  "revenue": [
+    {
+      "value": 285,
+      "unit": "млн руб (пик)",
+      "period": "2018",
+      "basis": "РСБУ исторического юрлица — при этом убыток 105 млн ₽ за тот же год",
+      "source_name": "Forbes",
+      "source_url": "https://www.forbes.ru/svoi-biznes/448737-pocemu-kismet-prodala-servis-po-remontu-kvartir-sdelano-i-pri-cem-tut-pik",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -105,
+      "unit": "млн руб (убыток в пиковый по выручке год)",
+      "period": "2018",
+      "basis": "РСБУ — убытки 4 из 5 первых лет работы",
+      "source_name": "Forbes",
+      "source_url": "https://www.forbes.ru/svoi-biznes/448737-pocemu-kismet-prodala-servis-po-remontu-kvartir-sdelano-i-pri-cem-tut-pik",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "От 15 000 ₽/м²: 1-комн. от 450 тыс ₽, 2-комн. от 700 тыс ₽, 3-комн. от 900 тыс ₽; срок 3,5 мес (панель/монолит); гарантия 2 года; скидка 3% за полную предоплату",
+      "price": "от 15 000 ₽/м²",
+      "source_url": "https://sdelano.ru",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Срывы сроков — «переносили 4+ раза»; итоговая оценка клиента: «Это большая лотерея»", "source_url": "https://rerate.ru/company/sdelano/" },
+    { "complaint": "Качество: кривая плитка, стены, треснувшие плинтусы; ответы на письма 1-3 недели", "source_url": "https://rerate.ru/company/sdelano/" }
+  ],
+  "data_gaps": [
+    "Финотчётность текущего юрлица ООО «Сделано. Ремонт» не публикуется (численность 0 чел. по ФНС за 2021) — операционная модель лидген-оболочки не видна в РСБУ",
+    "AI Readiness не оценён: онлайн-калькулятор и конструктор дизайна без заявленного AI — правило №7 (нет сигнала, нет балла)",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://www.forbes.ru/svoi-biznes/448737-pocemu-kismet-prodala-servis-po-remontu-kvartir-sdelano-i-pri-cem-tut-pik",
+    "https://sdelano.ru",
+    "https://rerate.ru/company/sdelano/"
+  ],
+  "updated_at": "2026-07-18"
+}

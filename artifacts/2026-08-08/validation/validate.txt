@@ -1,0 +1,9 @@
+Проверено рынков: 12, файлов: 200
+
+⚠ Предупреждения (4):
+  data/markets/fitness-rf/market.json :: $ — файл отсутствует
+  data/markets/fitness-rf/pains.json :: $ — файл отсутствует
+  data/markets/fitness-rf/workflows.json :: $ — файл отсутствует
+  data/markets/fitness-rf/opportunities.json :: $ — файл отсутствует
+
+✓ Все проверки достоверности пройдены

@@ -1,0 +1,70 @@
+{
+  "id": "youdo",
+  "name": "YouDo",
+  "legal_name": "ООО «ЮДУ»",
+  "inn": "7704819381",
+  "website": "https://youdo.com",
+  "founded": 2012,
+  "segment": "агрегатор услуг (включая ремонт) — коммерчески провалился",
+  "description": "Ключевой экспонат marketplace-antipattern: $30M+ инвестиций (МТС $12M, Sistema VC, HeadHunter), GMV заданий 8,7 млрд ₽ (2018), 3,5 млн заявленных исполнителей — при выручке юрлица 6,8 млн ₽ (2025), одном сотруднике и отрицательных чистых активах −216 млн ₽ (2023). В мае 2024 HeadHunter списал свою долю в ноль, потеряв 349 млн ₽. Выручка меньше зарплаты трёх разработчиков при заявленных миллионах пользователей — прямой индикатор, что монетизация двусторонней модели не работает: оплата перенесена на этап отклика (до сделки), что само по себе признание невозможности удержать транзакцию.",
+  "revenue": [
+    {
+      "value": 12,
+      "unit": "млн руб (−33% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1127747085454_ooo-yudu",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 6.8,
+      "unit": "млн руб (−43% г/г, 1 сотрудник)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1127747085454_ooo-yudu",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -54.9,
+      "unit": "млн руб (убыток ×2 к 2022; чистые активы −216 млн ₽)",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1127747085454_ooo-yudu",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссии с заказа нет — оплата откликов от 50 ₽ (по отзывам 16-99 ₽ в зависимости от категории), списание сразу при отправке; пакеты 25/50/100 откликов/мес и безлимиты на 15/30/90 дней",
+      "price": "от 50 ₽/отклик",
+      "source_url": "https://dsrupt.ru/istochniki/youdo/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Платные отклики без гарантии заказа (введены в 2016, вызвали «массовое недовольство»)", "source_url": "https://ru.wikipedia.org/wiki/Youdo" },
+    { "complaint": "«Через 10 минут после публикации задания откликаться уже поздно» — новичкам заказы почти недоступны", "source_url": "https://dsrupt.ru/istochniki/youdo/" }
+  ],
+  "data_gaps": [
+    "«Прибыль» 2024 (35,9-38,8 млн ₽ на фоне падения выручки) по характеру похожа на разовые/неоперационные операции — не отражает операционную рентабельность",
+    "Свежая доля ремонтных заказов не публикуется (исторически «ремонт и строительство» — крупнейшая категория)",
+    "AI Readiness не оценён: сигналов не найдено — правило №7"
+  ],
+  "sources": [
+    "https://www.audit-it.ru/contragent/1127747085454_ooo-yudu",
+    "https://www.cnews.ru/news/top/2024-05-21_headhunter_obzhegsya_na_youdo_i_poteryal",
+    "https://ru.wikipedia.org/wiki/Youdo"
+  ],
+  "updated_at": "2026-07-18"
+}

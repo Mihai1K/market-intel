@@ -1,0 +1,55 @@
+{
+  "id": "planoplan",
+  "name": "Планоплан",
+  "legal_name": "ООО «ПЛАНОПЛАН»",
+  "inn": "7806477024",
+  "website": "https://planoplan.com",
+  "founded": 2012,
+  "segment": "3D-планировщик для дизайнеров и застройщиков — самый прибыльный бизнес рынка",
+  "description": "Софт для дизайна зарабатывает больше, чем весь фикс-прайс ремонт вместе взятый: 234,9 млн ₽ выручки при чистой марже ~44% (104,2 млн ₽ прибыли за 2025). Проф. 3D-редактор с 8000+ моделей мебели, облачным рендером и B2B-продуктом для застройщиков; в реестре российского ПО. Подтверждение паттерна «на рынке с несходящейся юнит-экономикой услуг прибылен софт».",
+  "revenue": [
+    {
+      "value": 234.9,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/planoplan-1127847245107",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 104.2,
+      "unit": "млн руб (чистая маржа ~44% — максимум рынка)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/planoplan-1127847245107",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Тарифы Expert/Business Expert по подписке, триал 7 дней; B2B-продукт flat.planoplan.com для застройщиков",
+      "price": "по подписке",
+      "source_url": "https://planoplan.com",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "AI Readiness не оценён: сторонние обзоры заявляют «ИИ, обученный на десятках тысяч квартир», но на официальном сайте AI-функции НЕ анонсированы (проверено) — сигнал маркетинговый, не засчитан по правилу №7",
+    "Клиентские жалобы не собраны в этом проходе",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://checko.ru/company/planoplan-1127847245107",
+    "https://planoplan.com"
+  ],
+  "updated_at": "2026-07-18"
+}

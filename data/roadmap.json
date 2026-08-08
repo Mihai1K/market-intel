@@ -1,20 +1,83 @@
 {
   "description": "Очередь рынков для Coverage Dashboard. Статус: done | in-progress | todo. Порядок изменён 2026-07-15: событийно-насыщенные рынки подняты вверх для проверки слоя Event → Opportunity; банки/платежи и энергетика не включены — слабый Founder Fit (см. decisions.json). С 2026-07-18 (после ревью пользователя, см. research/cross-market-insights.md §7): выбор следующего рынка руководствуется не только очередью, но и тем, какой рынок с наибольшей вероятностью проверит уже найденные архетипы (data/patterns.json) — подтвердит, опровергнет или добавит новый. Полная ревизия системы (архетипы/Launch Score/типы событий → деньги) запланирована после рынка №10.",
   "queue": [
-    { "name": "HR-tech и поиск работы", "slug": "hr-tech-rf", "status": "done" },
-    { "name": "Influencer marketing и реклама у блогеров", "slug": "influencer-marketing-rf", "status": "done" },
-    { "name": "Рекламные агентства и performance-маркетинг", "slug": "performance-marketing-rf", "status": "done" },
-    { "name": "Топливо, АЗС и придорожный сервис", "slug": "fuel-azs-rf", "status": "done" },
-    { "name": "Логистика последней мили и грузоперевозки", "slug": "road-logistics-rf", "status": "done" },
-    { "name": "Недвижимость: агенты и аренда", "slug": "real-estate-agents-rf", "status": "done" },
-    { "name": "Автосервисы и авторемонт", "slug": "auto-service-rf", "status": "done" },
-    { "name": "Массовые юридические услуги для физлиц и СМБ (банкротство, взыскание долгов, наследство, семейные споры, регистрация и ликвидация бизнеса, исполнительное производство) — тест архетипов Infrastructure of Trust, Compliance, Workflow Automation", "slug": "legal-services-mass-rf", "status": "done" },
-    { "name": "Салоны красоты и бьюти-услуги — тест трансферного архетипа «сотрудник владеет отношениями с клиентом» (перенос agents-steal-client-base из недвижимости)", "slug": "beauty-salons-rf", "status": "done" },
-    { "name": "Общепит: кафе, рестораны и доставка еды — тест marketplace-antipattern на контрпримере победившего консолидатора (Яндекс.Еда) и слабый тест employee-owns-client-relationship (шеф-повар и команда)", "slug": "food-service-rf", "status": "done" },
-    { "name": "Онлайн-образование и EdTech", "slug": null, "status": "todo" },
-    { "name": "Строительство и ремонт квартир", "slug": null, "status": "todo" },
-    { "name": "Фитнес-клубы и студии", "slug": null, "status": "todo" },
-    { "name": "Бухгалтерия и налоги для СМБ", "slug": null, "status": "todo" },
-    { "name": "Туризм и путешествия внутри РФ", "slug": null, "status": "todo" }
-  ]
+    {
+      "name": "HR-tech и поиск работы",
+      "slug": "hr-tech-rf",
+      "status": "done"
+    },
+    {
+      "name": "Influencer marketing и реклама у блогеров",
+      "slug": "influencer-marketing-rf",
+      "status": "done"
+    },
+    {
+      "name": "Рекламные агентства и performance-маркетинг",
+      "slug": "performance-marketing-rf",
+      "status": "done"
+    },
+    {
+      "name": "Топливо, АЗС и придорожный сервис",
+      "slug": "fuel-azs-rf",
+      "status": "done"
+    },
+    {
+      "name": "Логистика последней мили и грузоперевозки",
+      "slug": "road-logistics-rf",
+      "status": "done"
+    },
+    {
+      "name": "Недвижимость: агенты и аренда",
+      "slug": "real-estate-agents-rf",
+      "status": "done"
+    },
+    {
+      "name": "Автосервисы и авторемонт",
+      "slug": "auto-service-rf",
+      "status": "done"
+    },
+    {
+      "name": "Массовые юридические услуги для физлиц и СМБ (банкротство, взыскание долгов, наследство, семейные споры, регистрация и ликвидация бизнеса, исполнительное производство) — тест архетипов Infrastructure of Trust, Compliance, Workflow Automation",
+      "slug": "legal-services-mass-rf",
+      "status": "done"
+    },
+    {
+      "name": "Салоны красоты и бьюти-услуги — тест трансферного архетипа «сотрудник владеет отношениями с клиентом» (перенос agents-steal-client-base из недвижимости)",
+      "slug": "beauty-salons-rf",
+      "status": "done"
+    },
+    {
+      "name": "Общепит: кафе, рестораны и доставка еды — тест marketplace-antipattern на контрпримере победившего консолидатора (Яндекс.Еда) и слабый тест employee-owns-client-relationship (шеф-повар и команда)",
+      "slug": "food-service-rf",
+      "status": "done"
+    },
+    {
+      "name": "Онлайн-образование и EdTech",
+      "slug": null,
+      "status": "todo"
+    },
+    {
+      "name": "Строительство и ремонт квартир",
+      "slug": "apartment-renovation-rf",
+      "status": "done",
+      "completed_at": "2026-07-18",
+      "note": "Рынок №12 (11-й собранный). Проверил 7 архетипов: trust-verification 10/11 (три возможности 74+, сегмент проверки прибылен при убыточном ремонте), marketplace-antipattern +2 трупа (Ремонтник.ру, YouDo; Авито выжил рекламной моделью), каветат productized-fixed-price (ломается в многомесячном подряде), employee-owns 3-е подтверждение (прораб уводит клиента)."
+    },
+    {
+      "name": "Фитнес-клубы и студии",
+      "slug": null,
+      "status": "todo"
+    },
+    {
+      "name": "Бухгалтерия и налоги для СМБ",
+      "slug": null,
+      "status": "todo"
+    },
+    {
+      "name": "Туризм и путешествия внутри РФ",
+      "slug": null,
+      "status": "todo"
+    }
+  ],
+  "updated_at": "2026-07-18"
 }

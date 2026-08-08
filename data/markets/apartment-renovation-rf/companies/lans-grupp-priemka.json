@@ -1,0 +1,55 @@
+{
+  "id": "lans-grupp-priemka",
+  "name": "Приёмка.Москва (ЛАНС ГРУПП)",
+  "legal_name": "ООО «ЛАНС ГРУПП»",
+  "inn": "7702428456",
+  "website": "https://priemka-pro.ru/reestr/priemka.moscow",
+  "founded": 2018,
+  "segment": "приёмка квартир у застройщика — редкий прибыльный сегмент рынка",
+  "description": "Профильная компания приёмки квартир: 5 сотрудников, микропредприятие на УСН — и чистая маржа ~23% (4,5 млн ₽ прибыли на 19,6 млн ₽ выручки). Прямое доказательство тезиса рынка: на фоне убыточных ремонтных сервисов прибыльны только сегменты независимой проверки (приёмка/технадзор) и софт.",
+  "revenue": [
+    {
+      "value": 19.6,
+      "unit": "млн руб (−7% г/г)",
+      "period": "2025",
+      "basis": "РСБУ, 5 сотрудников, УСН",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/lans-grupp-1187746101322",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 4.5,
+      "unit": "млн руб (+161% г/г, чистая маржа ~23%)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/lans-grupp-1187746101322",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Рынок приёмки Москвы: 70-120 ₽/м², типовые пакеты 4 470-8 150 ₽, минимальный выезд эксперта ~11 400 ₽",
+      "price": "4 470-8 150 ₽ за приёмку",
+      "source_url": "https://profi.ru/remont/priemka-kvartiry-ot-zastroischika/price/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "data_gaps": [
+    "Сайт приёмка.москва периодически таймаутит (жив по реестрам партнёров Приёмка Про)",
+    "Клиентские жалобы не собраны в этом проходе",
+    "AI Readiness не оценён: сигналов не найдено — правило №7"
+  ],
+  "sources": [
+    "https://checko.ru/company/lans-grupp-1187746101322",
+    "https://priemka-pro.ru/reestr/priemka.moscow"
+  ],
+  "updated_at": "2026-07-18"
+}

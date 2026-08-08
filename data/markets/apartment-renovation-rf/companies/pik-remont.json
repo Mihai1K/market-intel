@@ -1,0 +1,63 @@
+{
+  "id": "pik-remont",
+  "name": "ПИК-Ремонт",
+  "legal_name": "ООО «ПИК-Ремонт»",
+  "inn": "7724435030",
+  "website": "https://checko.ru/company/pik-remont-1187746354696",
+  "founded": 2018,
+  "segment": "ремонт «под ключ» от девелопера №1 — умирающий",
+  "description": "Ключевое доказательство несходимости юнит-экономики фикс-прайс ремонта: даже у крупнейшего девелопера страны с гарантированным потоком заказов (исполняет в том числе заказы бренда «Сделано») ремонтное подразделение показало убыток −173,4 млн ₽ при выручке 741 млн ₽ (−23% чистой маржи) в лучший год, после чего выручка обвалилась до 8,6 млн ₽ — признаки финансовой неустойчивости (коэффициент автономии −1,38).",
+  "revenue": [
+    {
+      "value": 741.2,
+      "unit": "млн руб (пик)",
+      "period": "2022",
+      "basis": "РСБУ, 133 сотрудника",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/pik-remont-1187746354696",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    },
+    {
+      "value": 8.6,
+      "unit": "млн руб (−57% г/г, обвал с пика в 86 раз)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/pik-remont-1187746354696",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -173.4,
+      "unit": "млн руб (убыток, −23% чистой маржи в лучший по выручке год)",
+      "period": "2022",
+      "basis": "РСБУ",
+      "source_name": "Checko.ru (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/pik-remont-1187746354696",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "«С августа ремонтируют вторичную однушку 30 м², сейчас уже январь, ремонт не доделан»", "source_url": "https://rerate.ru/company/pik_remont/" },
+    { "complaint": "«Работа по предоплате, потом не вынете свои деньги»", "source_url": "https://rerate.ru/company/pik_remont/" },
+    { "complaint": "«Стены возведены 8 см, а не 10 см как в проекте»", "source_url": "https://rerate.ru/company/pik_remont/" }
+  ],
+  "data_gaps": [
+    "Причина обвала выручки 2022→2024 публично не объяснена (сворачивание направления? перевод на другие юрлица ПИК?)",
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "LTV/CAC/churn не публикуются"
+  ],
+  "sources": [
+    "https://checko.ru/company/pik-remont-1187746354696",
+    "https://rerate.ru/company/pik_remont/"
+  ],
+  "updated_at": "2026-07-18"
+}

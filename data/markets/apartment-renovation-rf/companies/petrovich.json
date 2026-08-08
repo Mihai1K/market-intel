@@ -1,0 +1,50 @@
+{
+  "id": "petrovich",
+  "name": "Петрович (СТД)",
+  "legal_name": "ООО «СТД «Петрович»",
+  "inn": "7802348846",
+  "website": "https://petrovich.ru",
+  "founded": 2006,
+  "segment": "стройритейл — перехватывает роль агрегатора бригад поверх товарной логистики",
+  "description": "Стройритейлер №2 (ГК: 188,6 млрд ₽ с НДС за 2025) с реальной прибылью 9,75 млрд ₽ — и стратегией захвата роли агрегатора: экосистема «Петрович.Дом» (14 сервисов, выручка сервисов +50% г/г), «биржа профессионалов» (10 000+ заказов за 2024, 25 000+ мастеров и прорабов), Петрович B2B (заказ за 5 минут, EDI, 5000+ укомплектованных объектов). В отличие от чистых маркетплейсов (Ремонтник.ру, YouDo) канал до бригад строится поверх товарной логистики — с работающей экономикой.",
+  "revenue": [
+    {
+      "value": 147.54,
+      "unit": "млрд руб (РСБУ юрлица; ГК управленчески — 181 млрд ₽ с НДС, +17%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/buh_otchet/7802348846_ooo-std-petrovich",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 9.75,
+      "unit": "млрд руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/buh_otchet/7802348846_ooo-std-petrovich",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "data_gaps": [
+    "Рост ГК замедлился в 3,8 раза в 2025 (188,6 млрд, +4,5%) — охлаждение рынка",
+    "Выручка сервисной экосистемы «Петрович.Дом» отдельно не раскрыта (только динамика +50%)",
+    "AI Readiness не оценён: Петрович.BRO — автоматизация, не заявленный AI; правило №7",
+    "Клиентские жалобы не собраны в этом проходе"
+  ],
+  "sources": [
+    "https://www.audit-it.ru/buh_otchet/7802348846_ooo-std-petrovich",
+    "https://www.kommersant.ru/doc/7533747",
+    "https://new-retail.ru/novosti/retail/std_petrovich_podvel_itogi_raboty_ekosistemy_servisov_v_2024_godu/"
+  ],
+  "updated_at": "2026-07-18"
+}
