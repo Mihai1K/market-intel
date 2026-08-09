@@ -1,0 +1,47 @@
+{
+  "id": "101hotels",
+  "name": "101Hotels",
+  "legal_name": "ООО «Онлайн Инновации»",
+  "inn": "7703470348",
+  "website": "https://101hotels.com",
+  "founded": 2019,
+  "segment": "OTA — тихий сверхприбыльный середняк",
+  "description": "Самый маржинальный OTA рынка: выручка 1 073,2 млн ₽ с прибылью 576,1 млн — чистая маржа >50% (уровень Автотеки/Антиплагиата). Четвёртый экспонат прибыльности travel-агрегаторов, снова НЕ лидер рынка — подтверждение структурного вывода: в травеле прибыльны даже игроки №3-5.",
+  "revenue": [
+    {
+      "value": 1073.2,
+      "unit": "млн руб",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko/List-org (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/onlayn-innovacii-1197746079013",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 576.1,
+      "unit": "млн руб (чистая маржа >50% — максимум среди OTA рынка)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/onlayn-innovacii-1197746079013",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Комиссия отелям и доля рынка не зафиксированы в этом проходе"
+  ],
+  "sources": [
+    "https://checko.ru/company/onlayn-innovacii-1197746079013",
+    "https://www.list-org.com/company/12205450"
+  ],
+  "updated_at": "2026-07-18"
+}

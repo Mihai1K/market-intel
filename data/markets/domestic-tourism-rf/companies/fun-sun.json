@@ -1,0 +1,50 @@
+{
+  "id": "fun-sun",
+  "name": "FUN&SUN (экс-TUI Россия)",
+  "legal_name": "ООО «ТТ-Трэвел» (с 10.2025 — актив Wildberries & Russ, куплен у Севергрупп за ~15 млрд ₽)",
+  "inn": "7714775020",
+  "website": "https://fstravel.com",
+  "founded": 2009,
+  "segment": "туроператор №1 — куплен маркетплейсом",
+  "description": "Крупнейший туроператор (~1,9 млн туристов/год, ~700 офисов, ~12 тыс. агентов-партнёров): выручка >104 млрд ₽ (валовая) с прибылью ~5 млрд. В октябре 2025 куплен Wildberries & Russ (~15 млрд ₽) — маркетплейсы заходят в туризм: заявлены персонализация туров на данных клиентов WB и кредитование через банк РВБ (зарегистрировано «РВБ Трэвел»). Параллель с FUN&SUN-паттерном базы: Сбер купил Нетологию/Фоксфорд, WB открыл RWB University — экосистемы скупают вертикали на дне цикла.",
+  "revenue": [
+    {
+      "value": 104000,
+      "unit": "млн руб (валовая, сопоставима со стоимостью турпродукта — не агентская нетто; последний год по datanewton: 133,5 млрд)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Sostav/Datanewton",
+      "source_url": "https://datanewton.ru/contragents/1097746076273",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 5000,
+      "unit": "млн руб (~)",
+      "period": "2024",
+      "basis": "РСБУ (via Sostav)",
+      "source_name": "Sostav",
+      "source_url": "https://www.sostav.ru/publication/wildberries-russ-kupila-turoperatora-fun-sun-79098.html",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "«Туроператор FUN&SUN не возвращает деньги за аннулированный тур по их инициативе»", "source_url": "https://www.sikayetvar.com/ru/fun-sun-ru" },
+    { "complaint": "Отмена брони за 10 часов до вылета с заменой на более дешёвый отель", "source_url": "https://www.sikayetvar.com/ru/fun-sun-ru" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: AI-персонализация на данных WB — план нового владельца, не работающий продукт; правило №7",
+    "Доля внутреннего туризма в выручке не раскрывается"
+  ],
+  "sources": [
+    "https://www.sostav.ru/publication/wildberries-russ-kupila-turoperatora-fun-sun-79098.html",
+    "https://datanewton.ru/contragents/1097746076273"
+  ],
+  "updated_at": "2026-07-18"
+}

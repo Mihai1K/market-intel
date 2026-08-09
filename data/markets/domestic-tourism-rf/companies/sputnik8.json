@@ -1,0 +1,60 @@
+{
+  "id": "sputnik8",
+  "name": "Спутник8",
+  "legal_name": "ООО «Спутник» (с 02.2026 — 80% у ТОО «ХОЛДКО.КЗ», Казахстан; Сергей Ким 20%)",
+  "inn": "7814547081",
+  "website": "https://www.sputnik8.com",
+  "founded": 2012,
+  "segment": "маркетплейс экскурсий №2 — высокоприбыльный",
+  "description": "Второй маркетплейс экскурсий: выручка 968,7 млн ₽ (2025, +38%) при прибыли 163,6 млн (в 2024 маржа была ~50%: 701 млн / 356,5 млн). Пятый экспонат прибыльности travel-агрегаторов — и снова НЕ лидер сегмента (лидер Tripster). Смена контроля в 02.2026 (казахстанский холдинг 80%).",
+  "revenue": [
+    {
+      "value": 701.3,
+      "unit": "млн руб (ЧП 356,5 млн — маржа ~50%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sputnik-1127847461136",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 968.7,
+      "unit": "млн руб (+38%; 138 сотрудников)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sputnik-1127847461136",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 163.6,
+      "unit": "млн руб",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/sputnik-1127847461136",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "Задержки ответов и проблемы коммуникации", "source_url": "https://otzovik.com/reviews/platforma_onlayn-bronirovaniya_ekskursiy_sputnik/" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Причины и условия смены контроля (ХОЛДКО.КЗ 80%) не раскрыты"
+  ],
+  "sources": [
+    "https://checko.ru/company/sputnik-1127847461136",
+    "https://www.rusprofile.ru/id/7234781"
+  ],
+  "updated_at": "2026-07-18"
+}

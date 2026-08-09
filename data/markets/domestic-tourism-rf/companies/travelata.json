@@ -1,0 +1,57 @@
+{
+  "id": "travelata",
+  "name": "Травелата",
+  "legal_name": "ООО «Травелата» (+ АО «Травелата» с 2024)",
+  "inn": "7705956888",
+  "website": "https://travelata.ru",
+  "founded": 2011,
+  "segment": "агрегатор пакетных туров — слабое звено travel-агрегации",
+  "description": "Доказательство границы прибыльности travel-агрегаторов: при онлайн-транзакции, но с комиссией от туроператора всего 6-7% (максимум 12%) экономика еле сходится — убытки 2023-2024 (−63,5 и −72,5 млн ₽), отрицательные чистые активы −344 млн ₽; первый плюс лишь в 2025 (+42,4 млн). Вместе с Level.Travel (около нуля) подтверждает: take rate ниже ~10% убивает модель даже в онлайне. Средний чек тура 70 тыс ₽ (+15%), рост бронирований +20%.",
+  "revenue": [
+    {
+      "value": 85,
+      "unit": "млн руб (×4,9 к 2023 — вероятна смена учёта на агентское вознаграждение; сравнивать с валовыми выручками OTA нельзя)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1117746578355_ooo-travelata",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -72.5,
+      "unit": "млн руб (чистые активы на 31.12.2024: −344 млн ₽; 2025 — первый плюс +42,4 млн)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/1117746578355_ooo-travelata",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Экономика модели: комиссия туроператора агрегатору в среднем 6-7% от стоимости тура, максимум до 12% у нишевых операторов",
+      "price": "маржа 6-7%",
+      "source_url": "https://profi.travel/news/64157/details",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Возврат за отменённый тур затягивается на месяцы вместо 14 рабочих дней", "source_url": "https://www.sikayetvar.com/ru/travelata-ru/travelata-ne-vozvrasaet-dengi-za-otmenennyj-tur-i-zatagivaet-process" },
+    { "complaint": "Робот вместо живой поддержки, неоказанные допуслуги", "source_url": "https://www.tbank.ru/reviews/company/travelata/11941/" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Level.Travel (парный кейс): 2024-2025 расхождения источников от −20 до +32 млн ₽ — около нуля"
+  ],
+  "sources": [
+    "https://www.audit-it.ru/contragent/1117746578355_ooo-travelata",
+    "https://profi.travel/news/64157/details"
+  ],
+  "updated_at": "2026-07-18"
+}

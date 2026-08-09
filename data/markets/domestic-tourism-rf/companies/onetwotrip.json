@@ -1,0 +1,59 @@
+{
+  "id": "onetwotrip",
+  "name": "OneTwoTrip",
+  "legal_name": "ООО «Вайт Тревел» (100% у OTT Service Ltd, Великобритания → Smart Travel Technologies, ОАЭ)",
+  "inn": "7707770166",
+  "website": "https://www.onetwotrip.com",
+  "founded": 2012,
+  "segment": "OTA полного цикла — прибыльный, но стагнирует и продаётся",
+  "description": "OTA полного цикла (авиа+ж/д+отели+туры): прибылен, но стагнирует — выручка 4,3 млрд ₽ (−13%), прибыль сжалась втрое до 46,6 млн. Выставлен на продажу (оценка 2-10 млрд ₽, покупателя ищут ~полгода; среди кандидатов — Суточно.ру). Третий экспонат волны выхода основателей из независимого travel-tech.",
+  "revenue": [
+    {
+      "value": 4900,
+      "unit": "млн руб (ЧП 145 млн)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Checko (зеркало ГИР БО ФНС)",
+      "source_url": "https://checko.ru/company/vayt-trevel-1127746124989",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 4300,
+      "unit": "млн руб (−13%)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ДП/Profi.Travel",
+      "source_url": "https://profi.travel/news/64626/details",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 46.6,
+      "unit": "млн руб (−3x к 2024)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "ДП/Profi.Travel",
+      "source_url": "https://profi.travel/news/64626/details",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Исход продажи неизвестен"
+  ],
+  "sources": [
+    "https://checko.ru/company/vayt-trevel-1127746124989",
+    "https://profi.travel/news/64626/details",
+    "https://ko.ru/news/sutochno-ru-mozhet-kupit-servis-puteshestviy-onetwotrip/"
+  ],
+  "updated_at": "2026-07-18"
+}

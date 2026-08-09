@@ -1,0 +1,62 @@
+{
+  "id": "yandex-travel",
+  "name": "Яндекс Путешествия",
+  "legal_name": "сервис внутри МКПАО «Яндекс» (сегмент «Сервисы объявлений» — сегмент убыточен)",
+  "inn": null,
+  "website": "https://travel.yandex.ru",
+  "founded": 2018,
+  "segment": "OTA — экосистемный консолидатор, поднявший комиссии и получивший бунт",
+  "description": "Классика platform-eats-tools в травеле: за ~3 года после ухода Booking взял №1 рынка OTA (29,2% за 2024), покупая долю деньгами экосистемы (сегмент с Путешествиями: EBITDA −0,7 млрд ₽ только за квартал). С 01.02.2026 поднял базовую комиссию 15% → 17% («Премиум» 20%, «Премиум PRO» 25%) — и получил первый в истории рынка бунт поставщиков: 8 сетей (~50 тыс. номеров) отключили продажи, доля упала до 24,3% (№2 после Островка). Интересовался покупкой Островка. Сильные AI-функции: «Поиск с Алисой», YandexGPT-суммаризация отзывов.",
+  "revenue": [],
+  "net_profit": [
+    {
+      "value": -700,
+      "unit": "млн руб EBITDA сегмента (вместе с Путешествиями) только за I кв. 2025 — покупка доли рынка деньгами экосистемы",
+      "period": "Q1 2025",
+      "basis": "сегментная отчётность Яндекса (via АТОР)",
+      "source_name": "АТОР",
+      "source_url": "https://www.atorus.ru/article/my-s-toboy-dva-berega-u-odnoy-reki-oteli-i-agregatory-v-bitve-za-komissiyu-66278",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия отелю с 01.02.2026: базовая 17% (вкл. НДС), «Премиум» 20%, «Премиум PRO» 25%; реферальная снижена 8% → 7%",
+      "price": "17-25%",
+      "source_url": "https://travel.yandex.ru/pro/komissiya-servisa/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Навязываемые в одностороннем порядке сервисом условия не соответствуют рыночным» — Максим Бродовский (Azimut), отключение 8 сетей", "source_url": "https://www.cnews.ru/news/top/2026-02-06_krupnejshie_rossijskie_oteli" },
+    { "complaint": "«Решение угрожает стабильности всей отрасли внутреннего туризма» — Вадим Трукшин («Мантера»)", "source_url": "https://ru.hotel.report/promotion/seti-otelej-mogut-otklyuchit-yandeks-puteshestviya-esli-servis-ne-otkazhetsya-ot-povysheniya-komissii" }
+  ],
+  "ai_readiness": {
+    "score": 75,
+    "formula": "35 за «Поиск с Алисой» в проде (подбор маршрутов, must-see, ответы в поездке — с 05.2025) + 25 за YandexGPT-суммаризацию отзывов отелей (выжимка из сотен отзывов) + 15 за нейрогенерацию описаний отелей из карточек и отзывов",
+    "signals": [
+      {
+        "signal": "«Поиск с Алисой» в разделе «Моя поездка» (28.05.2025)",
+        "evidence_url": "https://yandex.ru/company/news/04-28-05-2025",
+        "direction": "+"
+      },
+      {
+        "signal": "YandexGPT-суммаризация отзывов отелей",
+        "evidence_url": "https://universus.pro/blog/ii-dlya-puteshestvij/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Выручка сервиса отдельно не раскрывается (внутри сегмента Яндекса)",
+    "GBV: +80% в III кв. 2024 — свежих цифр после бунта нет"
+  ],
+  "sources": [
+    "https://travel.yandex.ru/pro/komissiya-servisa/",
+    "https://www.cnews.ru/news/top/2026-02-06_krupnejshie_rossijskie_oteli",
+    "https://www.atorus.ru/article/my-s-toboy-dva-berega-u-odnoy-reki-oteli-i-agregatory-v-bitve-za-komissiyu-66278"
+  ],
+  "updated_at": "2026-07-18"
+}

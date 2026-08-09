@@ -1,0 +1,47 @@
+{
+  "id": "travelline",
+  "name": "TravelLine",
+  "legal_name": "группа TravelLine (Йошкар-Ола; юрлицо в этом проходе не зафиксировано)",
+  "inn": null,
+  "website": "https://www.travelline.ru",
+  "founded": 2008,
+  "segment": "софт для отельеров — лидер и главный AI-поставщик отрасли",
+  "description": "Лидер отельного софта РФ: 12 тыс+ объектов, полный стек (Channel Manager на 100+ каналов, Booking Engine, PMS, GMS). Главный AI-поставщик отельеров: HotelGPT — БЕСПЛАТНАЯ генерация ответов на отзывы/текстов/иллюстраций, TL:Chat закрывает ~90% рутинных вопросов (−15% звонков, 14-26% броней из чата), TL:Reputation и Booking Engine «NOW WITH AI». Стратегия бесплатного AI — тот же «бесплатный якорь», что у FitBase в фитнесе: занимает нишу до появления независимых AI-продуктов. Третий «тихий» инфраструктурщик из Йошкар-Олы в базе (после Prodamus и iSpring).",
+  "revenue": [],
+  "net_profit": [],
+  "pricing": [
+    {
+      "plan": "Модульная подписка (Channel Manager, Booking Engine, PMS, GMS); переход на модель «% с продаж» (оплата за результат) — точные проценты не раскрыты; HotelGPT бесплатно; TL:Chat бесплатен с модулем бронирования до 31.12.2026",
+      "price": "подписка / % с продаж",
+      "source_url": "https://www.travelline.ru/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [],
+  "ai_readiness": {
+    "score": 75,
+    "formula": "35 за TL:Chat в проде с измеренным результатом (~90% рутинных вопросов без персонала, −15% звонков, 14-26% броней из чата) + 25 за HotelGPT (бесплатная генерация ответов на отзывы, текстов, иллюстраций) + 15 за AI-маркировку всей линейки (Booking Engine, Reputation «NOW WITH AI»)",
+    "signals": [
+      {
+        "signal": "TL:Chat — ИИ-чат отеля: ~90% рутинных вопросов, −15% звонков",
+        "evidence_url": "https://www.travelline.ru/products/tl-hotel/tl-chat/",
+        "direction": "+"
+      },
+      {
+        "signal": "HotelGPT — бесплатный AI-инструментарий отельера",
+        "evidence_url": "https://www.travelline.ru/hotelgpt/",
+        "direction": "+"
+      }
+    ]
+  },
+  "data_gaps": [
+    "Юрлицо/финансы группы не зафиксированы в этом проходе (многоюрлицевая структура)",
+    "Точные проценты модели «оплата за результат» не раскрыты"
+  ],
+  "sources": [
+    "https://www.travelline.ru/",
+    "https://www.travelline.ru/hotelgpt/",
+    "https://www.travelline.ru/products/tl-hotel/tl-chat/"
+  ],
+  "updated_at": "2026-07-18"
+}

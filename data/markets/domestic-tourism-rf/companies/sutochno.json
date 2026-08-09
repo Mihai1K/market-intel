@@ -1,0 +1,70 @@
+{
+  "id": "sutochno",
+  "name": "Суточно.ру",
+  "legal_name": "ООО «Суточно.ру» (в процессе перетока на АО «Суточно» под IPO)",
+  "inn": "7325147009",
+  "website": "https://sutochno.ru",
+  "founded": 2016,
+  "segment": "OTA посуточной аренды — самый прибыльный агрегатор рынка",
+  "description": "Главный контрпример-по-прибыльности для marketplace-antipattern (в границах онлайн-транзакции): выручка 7,1 млрд ₽ (+37%), скорректированная EBITDA 2,8 млрд, рентабельность по EBITDA 39% — при GBV 63,1 млрд ₽, 391 тыс. объектов, 151 тыс. арендодателей. Комиссия 15-25% (типично ~20%) взимается как предоплата гостя. Готовит IPO (пре-IPO фонды ВИМ получили ~16% в 2024); рассматривается как покупатель OneTwoTrip. Основатель — Юрий Кузнецов (Ульяновск).",
+  "revenue": [
+    {
+      "value": 3120,
+      "unit": "млн руб (ЧП 464,4 млн)",
+      "period": "2023",
+      "basis": "РСБУ",
+      "source_name": "Рувики/Checko",
+      "source_url": "https://checko.ru/company/sutochno-ru-1167325064972",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 7100,
+      "unit": "млн руб (+37%; GBV 63,1 млрд, +30%)",
+      "period": "2025",
+      "basis": "данные компании",
+      "source_name": "АБН/TAdviser",
+      "source_url": "https://abn.agency/2026/04/01/sutochno-ru-uvelichil-vyruchku-na-37-v-2025-godu/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 2800,
+      "unit": "млн руб скорректированная EBITDA (+56%, рентабельность 39% — лучшая среди агрегаторов рынка)",
+      "period": "2025",
+      "basis": "данные компании",
+      "source_name": "АБН",
+      "source_url": "https://abn.agency/2026/04/01/sutochno-ru-uvelichil-vyruchku-na-37-v-2025-godu/",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия 15-25% от стоимости брони (взимается как предоплата гостя), типично ~20%",
+      "price": "~20%",
+      "source_url": "https://sutochno.ru/help/arendodateli/bronirovanie/predoplata-razmer",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "«Как Суточно.ру вводит в заблуждение людей и гребёт деньги за полнейшее отсутствие сервиса»", "source_url": "https://vc.ru/id433316/716505-kak-sutochnoru-vvodit-v-zabluzhdenie-lyudei-i-grebet-dengi-za-polneishee-otsutstvie-servisa" },
+    { "complaint": "Роспотребнадзор получает «множество жалоб» на сервис (вместе с Островком)", "source_url": "https://tass.ru/obschestvo/16290789" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "EBITDA — скорректированная по методике компании (не РСБУ)",
+    "Статус IPO на дату сбора не финализирован"
+  ],
+  "sources": [
+    "https://abn.agency/2026/04/01/sutochno-ru-uvelichil-vyruchku-na-37-v-2025-godu/",
+    "https://checko.ru/company/sutochno-ru-1167325064972",
+    "https://www.forbes.ru/investicii/528498-osnovatel-sutocno-ru-dopustil-provedenie-ipo-v-2025-godu"
+  ],
+  "updated_at": "2026-07-18"
+}

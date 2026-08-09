@@ -1,0 +1,34 @@
+{
+  "id": "tripster",
+  "name": "Tripster",
+  "legal_name": "оператор — TRIPSGO PORTAL L.L.C. (Дубай, ОАЭ); российское ООО «Трипстер» ликвидировано 30.04.2020; товарный знак — у Go Travel Un Limited (владелец Авиасейлс)",
+  "inn": null,
+  "website": "https://experience.tripster.ru",
+  "founded": 2012,
+  "segment": "маркетплейс экскурсий — лидер с офшорным оператором",
+  "description": "Лидер экскурсионного сегмента: 15,6 тыс. экскурсий по РФ, 634,9 тыс. отзывов, ~20 тыс. гидов, 2,5 млн путешественников за 2024. Комиссия с гидов 20% официально (по жалобам — 23%) + price parity (мониторят даже соцсети гида — те же механики удержания, что у FITMOST). РСБУ ненаблюдаемы — оператор в ОАЭ. AI-фич не найдено; рекомендации «отстают от ручного поиска».",
+  "revenue": [],
+  "net_profit": [],
+  "pricing": [
+    {
+      "plan": "Комиссия с гидов: 20% от стоимости экскурсии (официальный FAQ; по жалобам гидов фактически 23%); аффилиатам 10% от сделки",
+      "price": "20-23% с гида",
+      "source_url": "https://experience.tripster.ru/about/terms_partners/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Гиды: комиссия 23% при требовании держать на платформе самые низкие цены (price parity, мониторинг соцсетей гида)", "source_url": "https://otzovik.com/review_13726884.html" },
+    { "complaint": "«Сервис подтирает негативные отзывы о гидах, сам отменяет заказы»", "source_url": "https://irecommend.ru/content/servis-podtiraet-negativnye-otzyvy-o-gidakh-sam-otmenyaet-zakazy" }
+  ],
+  "data_gaps": [
+    "РСБУ ненаблюдаемы (оператор в ОАЭ, российское юрлицо ликвидировано) — о прибыльности судить нельзя",
+    "AI Readiness не оценён: публичных AI-фич не найдено — правило №7"
+  ],
+  "sources": [
+    "https://experience.tripster.ru/about/terms_partners/",
+    "https://experience.tripster.ru/destinations/russia/",
+    "https://companies.rbc.ru/trademark/515525/tripster/"
+  ],
+  "updated_at": "2026-07-18"
+}

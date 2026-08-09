@@ -1,0 +1,58 @@
+{
+  "id": "delfin",
+  "name": "Туроператор Дельфин",
+  "legal_name": "ООО «ТО Дельфин» (100% — Сергей Ромашкин)",
+  "inn": "7714368843",
+  "website": "https://www.delfin-tour.ru",
+  "founded": 2015,
+  "segment": "старейший специализированный внутренний туроператор (бренд с 1993)",
+  "description": "Старейший оператор внутреннего туризма (бренд с 1993): >100 тыс. туристов/год, 102 сотрудника. Прибылен: 137 млн ₽ чистой прибыли (2024) при агентской выручке 171 млн; в 2025 — 1,8 млрд выручки с прибылью 273 млн (скачок почти наверняка означает смену учёта с агентской нетто на валовую — помечено). В 2024 крупные внутренние операторы (Дельфин, Алеан, Мультитур) показывали прирост продаж до 60%.",
+  "revenue": [
+    {
+      "value": 171,
+      "unit": "млн руб (агентская нетто; −15,4% г/г)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/5157746261052_ooo-to-delfin",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    },
+    {
+      "value": 1800,
+      "unit": "млн руб (скачок ×10 — почти наверняка смена учёта на валовую выручку; с 2024 несопоставимо)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/5157746261052_ooo-to-delfin",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 273,
+      "unit": "млн руб (2024: ~137 млн)",
+      "period": "2025",
+      "basis": "РСБУ",
+      "source_name": "Audit-it (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.audit-it.ru/contragent/5157746261052_ooo-to-delfin",
+      "retrieved_at": "2026-07-18",
+      "confidence": "medium",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено, подбор туров ручной — правило №7",
+    "Причина скачка выручки 2025 (смена учёта) требует подтверждения"
+  ],
+  "sources": [
+    "https://www.audit-it.ru/contragent/5157746261052_ooo-to-delfin",
+    "https://www.delfin-tour.ru/about/mass_media/3641"
+  ],
+  "updated_at": "2026-07-18"
+}

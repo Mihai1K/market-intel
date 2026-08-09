@@ -1,0 +1,61 @@
+{
+  "id": "ostrovok",
+  "name": "Островок (Ostrovok.ru / Emerging Travel Group)",
+  "legal_name": "группа: ООО «Бронирование Гостиниц» (флагман) + ООО «Агентика Тревэл» (турагентский канал)",
+  "inn": "7703389880",
+  "website": "https://ostrovok.ru",
+  "founded": 2011,
+  "segment": "OTA — №1 по доле рынка, на продаже",
+  "description": "Новый лидер OTA после бунта отелей против Яндекса: доля 25,2% в Q4 2025 (№1), 220 тыс+ прямых контрактов с отелями, 2,9 млн объектов в системе, мировой топ-20 сайтов бронирования. Совокупная выручка двух юрлиц — 9,7 млрд ₽ (+40%), но группа около нуля: флагман −520 млн, Агентика +406 млн. Комиссия: базовая 15% + добровольное продвижение до 25% + непрозрачная динамическая наценка (в разобранном кейсе фактическая доля OTA — 70%+ дельты). ETG продаёт Островок до конца 2026 (оценка 8-35 млрд ₽; интересанты — Яндекс, «Турмашина» Ротенберга) — фаза консолидации рынка.",
+  "revenue": [
+    {
+      "value": 8055.2,
+      "unit": "млн руб (ООО «Бронирование Гостиниц»; +Агентика Тревэл — совокупно 9,7 млрд, +40%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "List-org (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.list-org.com/company/8198759",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": -519.89,
+      "unit": "млн руб (флагман; парная Агентика Тревэл +405,7 млн — группа около нуля при доле №1)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "List-org (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.list-org.com/company/8198759",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Комиссия отелю: базовая 15%, повышается за продвижение в выдаче (диапазон 15-25%) + динамическая наценка к тарифу, не видимая отельеру («не выделяется отдельной строкой в отчётности»)",
+      "price": "15-25% + наценка",
+      "source_url": "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/",
+      "retrieved_at": "2026-07-18"
+    }
+  ],
+  "top_complaints": [
+    { "complaint": "Отели: выплаты «через два месяца», убытки от овербукинга перекладываются на объект", "source_url": "https://vc.ru/services/2919555-ostrovok-otzyvy-plyusy-i-minusy" },
+    { "complaint": "Отели: непрозрачная фактическая комиссия из-за динамических наценок — потеря контроля над ценой", "source_url": "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/" },
+    { "complaint": "Туристы: «Островок.ру всегда на стороне отелей, вас никто не поддержит»", "source_url": "https://irecommend.ru/content/ostrovokru-vsegda-na-storone-otelei-vas-nikto-ne-podderzhit-vy-mozhete-ostatsya-i-bez-deneg" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: внутренняя ML-инженерия подтверждена (инженерный блог, динамическое ценообразование), но публичного клиентского AI-фичесета уровня Яндекса не найдено — правило №7",
+    "Точная базовая комиссия 2025-2026 не подтверждена официально (консенсус 15-20%)",
+    "Исход продажи компании на дату сбора неизвестен"
+  ],
+  "sources": [
+    "https://www.list-org.com/company/8198759",
+    "https://www.forbes.ru/tekhnologii/562862-ostrovok-poglosenia-kak-servis-bronirovania-otelej-okazalsa-vystavlen-na-prodazu",
+    "https://www.cnews.ru/news/top/2026-02-06_krupnejshie_rossijskie_oteli",
+    "https://vc.ru/id4994551/2322301-prodazha-servisa-ostrovok-ot-emerging-travel-group"
+  ],
+  "updated_at": "2026-07-18"
+}

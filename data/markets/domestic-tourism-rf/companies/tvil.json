@@ -1,0 +1,49 @@
+{
+  "id": "tvil",
+  "name": "ТВИЛ.РУ",
+  "legal_name": "ООО «ТВИЛ СОФТ» (Сколково)",
+  "inn": "9731077781",
+  "website": "https://tvil.ru",
+  "founded": 2021,
+  "segment": "OTA частного сектора юга — прибыльный нишевик",
+  "description": "Прибыльный нишевый OTA (юг России, частный сектор): 362 тыс+ вариантов жилья в 1217 городах. Выручка 623,7 млн ₽ с прибылью 294,2 млн (маржа ~47%) — третий экспонат прибыльности агрегаторов травела, причём игрок №4-5 рынка, не лидер: в травеле прибыльны даже нишевики (структурное отличие от офлайн-услуг, где 0 прибыльных маркетплейсов).",
+  "revenue": [
+    {
+      "value": 623.7,
+      "unit": "млн руб (2025: 524 млн)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Rusprofile/Excheck (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.rusprofile.ru/id/1217700160061",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "net_profit": [
+    {
+      "value": 294.2,
+      "unit": "млн руб (маржа ~47%)",
+      "period": "2024",
+      "basis": "РСБУ",
+      "source_name": "Rusprofile (зеркало ГИР БО ФНС)",
+      "source_url": "https://www.rusprofile.ru/id/1217700160061",
+      "retrieved_at": "2026-07-18",
+      "confidence": "high",
+      "method": "reported"
+    }
+  ],
+  "pricing": [],
+  "top_complaints": [
+    { "complaint": "«Нет телефона для связи», «бесплатная отмена только для повторного бронирования»", "source_url": "https://eto-razvod.ru/review/tvil/" }
+  ],
+  "data_gaps": [
+    "AI Readiness не оценён: сигналов не найдено — правило №7",
+    "Комиссия для владельцев жилья не зафиксирована в этом проходе"
+  ],
+  "sources": [
+    "https://www.rusprofile.ru/id/1217700160061",
+    "https://excheck.pro/company/9731077781-tvil-soft"
+  ],
+  "updated_at": "2026-07-18"
+}

@@ -1,0 +1,287 @@
+{
+  "description": "Боли рынка внутреннего туризма РФ. Собрано 2026-07-18. Research-агент выделил 12 кластеров по 4 ролям (отельер/турагент/туроператор/турист); боли ролей замкнуты в цикл: комиссии OTA + комплаенс + ФОТ отельера → рост цен → турист платит +14,5% г/г. Гипотеза «мой турагент уводит базу» (employee-owns) подтверждена живыми кейсами 2026.",
+  "pains": [
+    {
+      "id": "ota-commission-squeeze",
+      "statement": "После ухода Booking отельеры зависят от дуополии Островок+Яндекс: базовая комиссия поднята с 15% до 17-25% (02.2026), а через непрозрачную динамическую наценку фактическая доля OTA может превышать 70% дельты цены — отельер этого не видит и не контролирует",
+      "role": "владелец отеля/базы отдыха",
+      "mentions_found": 9,
+      "links": [
+        "https://www.tourdom.ru/news/krupnye-oteli-obyavili-voynu-yandeksu.html",
+        "https://www.atorus.ru/article/my-s-toboy-dva-berega-u-odnoy-reki-oteli-i-agregatory-v-bitve-za-komissiyu-66278",
+        "https://cosmosgroup.ru/blog/krupnye-gostinicnye-seti-otkazalis-ot-sotrudnicestva-s-andeks-putesestviami-situacia-na-rynke",
+        "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "01.02.2026 — повышение комиссии Яндекса; 8 сетей (~50 тыс. номеров) отключили продажи, конфликт в фазе эскалации; отельеры ссылаются на прецедент такси: «дальше комиссия до 28%»",
+      "who_pays_now": "Отель платит 15-25% комиссии + скрытую наценку; вендорам прямых продаж (TravelLine Booking Engine); доля прямых броней падает: 47% (2023) → 41% (2025)",
+      "why_unsolved": "Дуополия: у одиночного малого отеля нет переговорной силы — бойкот позволили себе только крупные сети; наценка формально законна («NET-тариф не затрагивается»)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Теперь все будут идти по пути эскалации",
+          "source_url": "https://www.tourdom.ru/news/krupnye-oteli-obyavili-voynu-yandeksu.html"
+        },
+        {
+          "text": "Номер за 1000 ₽ при комиссии 25% продан за 1300 ₽ — платформа удержала 550 ₽: 70%+ доля OTA",
+          "source_url": "https://lotele.ru/blog/kak-ostrovok-uvelichivaet-fakticheskuyu-komissiyu-otelej/"
+        }
+      ]
+    },
+    {
+      "id": "classification-2025-compliance",
+      "statement": "Обязательная классификация-2025: самооценка на платформе «Гостеприимство» до 01.09.2025, без записи в реестре работать незаконно (штрафы юрлицам 300-450 тыс ₽), агрегаторам запрещено показывать объекты без ID — не успевшие мгновенно исчезли из поиска и потеряли канал продаж",
+      "role": "владелец отеля/базы отдыха/глэмпинга",
+      "mentions_found": 8,
+      "links": [
+        "https://www.travelline.ru/blog/klassifikatsii-gostinits-polozhenie-i-izmeneniya-s-1-yanvarya-2025-goda/",
+        "https://www.consultant.ru/legalnews/27462/",
+        "https://www.rbc.ru/business/18/08/2025/689f6c639a794703e075f318",
+        "https://robokassa.com/blog/news/s-1-sentyabrya-2025-goda-vse-gostinitsy/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Дедлайн 01.09.2025 прошёл со штрафами с 06.09; за 2 недели до дедлайна прошла лишь половина объектов (паника: 50%→75% за 10 дней); постоянный триггер — обновление записи и риск проверки после любой жалобы гостя",
+      "who_pays_now": "Консультантам по самооценке (рынок ручных услуг), временем владельца; не прошедшие — потерянной выручкой с агрегаторов; классификация на звёзды дорожает",
+      "why_unsolved": "Регуляторика новая и меняется на ходу; малые объекты без юристов; AI-комплаенс-ассистента отельера не существует (белое пятно)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web", "bot"],
+      "difficulty": 2,
+      "quotes": [
+        {
+          "text": "Без записи в реестре оказывать гостиничные услуги с 1 сентября 2025 года незаконно",
+          "source_url": "https://robokassa.com/blog/news/s-1-sentyabrya-2025-goda-vse-gostinitsy/"
+        }
+      ]
+    },
+    {
+      "id": "gray-guest-houses-dumping",
+      "statement": "Легализация гостевых домов буксует (на Кубани зарегистрировано ~3,5 тыс. из десятков тысяч): легальные отели конкурируют с «тенью», которая не несёт налоговой нагрузки и демпингует; владельцы гостевых домов зажаты между сложной легализацией и риском штрафов",
+      "role": "владелец отеля (легального) / владелец гостевого дома",
+      "mentions_found": 6,
+      "links": [
+        "https://www.trn-news.ru/news/211668",
+        "https://www.garant.ru/article/1842322/",
+        "https://realty.rbc.ru/news/68418ab79a7947ad514d02c3"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "С 01.01.2026 реклама гостевого дома без ID реестра запрещена; с 01.09.2026 эксперимент расширяется на 4 новых региона — новые владельцы входят в ту же воронку",
+      "who_pays_now": "Легальный отельер — недополученной выручкой; владелец гостевого дома — риском штрафов за «серую» работу",
+      "why_unsolved": "«Легализоваться по новым правилам сложно из-за пробелов в нормативной базе, а работать в серую опасно» (TRN); нормативка писалась под капитальные отели",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "anapa-second-season-collapse",
+      "statement": "Анапа — второй сезон без туристов после разлива мазута: загрузка упала более чем вдвое, раннее бронирование сезона-2026 −60%, скидки 30-35% не спасают",
+      "role": "владелец отеля/базы отдыха (Черноморское побережье)",
+      "mentions_found": 7,
+      "links": [
+        "https://www.forbes.ru/biznes/541252-takogo-ne-bylo-daze-v-pandemiu-kak-anapa-zivet-bez-turistov",
+        "https://t-j.ru/business-anapa-sochi/",
+        "https://expertsouth.ru/articles/vozvrashchenie-plyazhey-anapy-kak-kurort-gotovitsya-ko-vtoromu-letu-posle-razliva-mazuta/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Сезон лета-2026 (второй после разлива 15.12.2024) — решения о скидках/перепрофилировании принимаются сейчас",
+      "who_pays_now": "Отельеры Анапы — кассовым разрывом («Такого не было даже в пандемию» — Forbes); компенсационные механизмы не развёрнуты",
+      "why_unsolved": "Причина внешняя (экология + репутация курорта)",
+      "automatable": false,
+      "ai_possible": false,
+      "saas_possible": false,
+      "channel": [],
+      "difficulty": 5,
+      "quotes": []
+    },
+    {
+      "id": "hotel-staff-deficit",
+      "statement": "91% отельеров столкнулись с дефицитом персонала (дефицит 30%); средняя предлагаемая зарплата в HoReCa +47% г/г; острее всего — горничные, официанты, повара; к 2030 отрасли нужно +300 тыс. специалистов",
+      "role": "владелец отеля/глэмпинга",
+      "mentions_found": 6,
+      "links": [
+        "https://kubnews.ru/obshchestvo/2025/12/22/defitsit-personala-v-gostinichnoy-otrasli-rossii-dostig-30/",
+        "https://www.e-xecutive.ru/sections/hr-news/news/2098703-bolee-90-rossiiskih-otelerov-stolknulis-s-defitsitom-personala-v-2025-godu"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Сезонный пик найма перед каждым высоким сезоном; зарплатная гонка 2025",
+      "who_pays_now": "Отельер — ФОТ +36-47% г/г; гость — качеством сервиса",
+      "why_unsolved": "Структурный дефицит + сезонность делает постоянный штат нерентабельным",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": false,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": []
+    },
+    {
+      "id": "agent-commission-cut",
+      "statement": "Туроператоры режут агентскую комиссию (наземное размещение: 7% → 5% с 01.2026; за 5-7 лет по выездным: 10% → 6-7%) из-за конкуренции с маркетплейсами и банковскими тревел-сервисами, дающими туристу скидку 7%+; операторы параллельно продают напрямую",
+      "role": "турагент",
+      "mentions_found": 6,
+      "links": [
+        "https://www.tourdom.ru/news/turoperatory-rezhut-komissii-turagentam-iz-za-konkurentsii-s-marketpleysami.html",
+        "https://profi.travel/articles/58076/details",
+        "https://www.tourdom.ru/hotline/obzory-i-analitika/ideya-zapretit-turoperatoram-prodazhu-turov-fizlitsam-nazvana-nerealizuemoy/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Переход на 5% начался в январе 2026 и расползается; риторический дедлайн отрасли: если 5% дойдёт до турпакетов — «банкротства и уход легальных агентств в тень»",
+      "who_pays_now": "Турагент — маржой; сети — закрытием точек",
+      "why_unsolved": "Оператору выгоднее дать туристу скидку 5%, чем платить агенту 10%; запрет прямых продаж юридически нереализуем",
+      "automatable": false,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 4,
+      "quotes": [
+        {
+          "text": "Туристы голосуют рублем. Чтобы продолжали покупать у нас, приходится снижать цены, минимизировать издержки",
+          "source_url": "https://www.tourdom.ru/news/turoperatory-rezhut-komissii-turagentam-iz-za-konkurentsii-s-marketpleysami.html"
+        }
+      ]
+    },
+    {
+      "id": "my-travel-agent-steals-base",
+      "statement": "«Мой турагент»: отношения принадлежат менеджеру, а не фирме — менеджер уходит к конкуренту или открывает своё агентство, постоянные туристы уходят за ним; юридическая защита базы почти не работает; конфликты идут в обе стороны",
+      "role": "владелец турагентства / менеджер",
+      "mentions_found": 4,
+      "links": [
+        "https://igropoisk.com/menedjer-tyragentstva-i-ego-byvshii-rabotodatel-ne-podelili-klientov.html",
+        "https://www.klerk.ru/user/2651996/698860/",
+        "https://profi.travel/news/43681/details"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Живой кейс июня 2026 (менеджер Елена В. vs экс-работодатель); как класс — вечнозелёная боль отрасли именных отношений",
+      "who_pays_now": "Владелец агентства — потерей LTV базы; исторический кейс «Ел Тур»: менеджер при увольнении уносила базу, «методично переставляя цифры в номерах телефонов»",
+      "why_unsolved": "База юридически принадлежит фирме, но доказать неправомерное использование почти невозможно без заранее выстроенного режима коммерческой тайны; отношения нематериальны и неотчуждаемы — 5-е подтверждение архетипа employee-owns-client-relationship (именной 1:1 контакт «мой турагент»)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Туристы, которых менеджер считает «своими», оформляли договоры не с ним, а с его работодателем",
+          "source_url": "https://igropoisk.com/menedjer-tyragentstva-i-ego-byvshii-rabotodatel-ne-podelili-klientov.html"
+        }
+      ]
+    },
+    {
+      "id": "fake-travel-agents",
+      "statement": "Лжетурагенты продают несуществующие туры (Череповец: 4,3 млн ₽, ~30 потерпевших; поддельные ваучеры) — туристы перестают доверять любым агентам, а инструмента онлайн-проверки договора с оператором в момент покупки нет",
+      "role": "турагент (репутационно) / турист (финансово)",
+      "mentions_found": 5,
+      "links": [
+        "https://www.tut-news.ru/proisshestviya/prodazha-falshivyh-turov-na-43-mln-direktor-turfirmy-v-cherepovce-predstanet-pered",
+        "https://lenta.ru/news/2024/08/31/touristsscams/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Пик схем в сезон отпусков; новые процессы 2025-2026 идут сейчас",
+      "who_pays_now": "Турист — потерянными деньгами; честные агенты — конверсией",
+      "why_unsolved": "Нет обязательного публичного реестра турагентов с проверкой договора онлайн",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "gis-ep-compliance-burden",
+      "statement": "ГИС «Электронная путёвка»: ~30 полей на каждую путёвку, три невнесения за три месяца = исключение из реестра (смерть бизнеса); интеграция для среднего оператора «практически невыполнимая миссия»; менее 1% туристов проверяют данные — комплаенс без пользы",
+      "role": "туроператор",
+      "mentions_found": 6,
+      "links": [
+        "https://mag.russpass.ru/business/rubric/biznes/elektronnaya-putevka-otmena-gis-ep-eis",
+        "https://www.tourdom.ru/news/turoperatory-opasayutsya-kollapsa-iz-za-vvedeniya-elektronnoy-putyevki.html",
+        "https://astral.ru/aj/elem/sistema-elektronnaya-putyevka-dlya-turistov-v-rossii/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Двойной: санкции действуют (первый оператор уже исключён из реестра) + окно неопределённости с 10.2025 — правительство рассматривает отмену ЭП для внутреннего туризма: инвестировать ли в интеграцию, неизвестно",
+      "who_pays_now": "Оператор — автоматизацией (СКЗИ 30-50 тыс ₽/место, аттестация ИБ) или ручным вводом; авторешения (Астрал, АтомС) продаются как сервис",
+      "why_unsolved": "Государственная система — отказаться нельзя; данные о реальной цене тура у агента, а не у оператора (структурный дефект)",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["web"],
+      "difficulty": 3,
+      "quotes": [
+        {
+          "text": "Когда среднестатистический туроператор поймет, что ему в конце месяца надо заполнить и отправить тысячу путевок по тридцать полей в каждой, он схватится за голову",
+          "source_url": "https://www.tourdom.ru/news/turoperatory-opasayutsya-kollapsa-iz-za-vvedeniya-elektronnoy-putyevki.html"
+        }
+      ]
+    },
+    {
+      "id": "operator-bankruptcy-returns-5-14-percent",
+      "statement": "Страх «оператор рухнет — деньги пропадут» рационален: при крахе «Музенидис Трэвел» (2021) требования составили 1,2 млрд ₽ при фонде 2,8 млн ₽ — фактические выплаты 5-14% от стоимости туров; система гарантий (фингарантия 500 тыс ₽ у внутренних ТО, ФПО 0,25%) математически не покрывает обязательства",
+      "role": "турист B2C",
+      "mentions_found": 9,
+      "links": [
+        "https://www.tourdom.ru/news/klienty-muzenidis-trevel-prosyat-vozmestit-im-1-2-milliarda-rubley.html",
+        "https://rg.ru/2021/11/23/v-rst-obiasnili-situaciiu-s-vyplatami-klientam-muzenidis-trevel.html",
+        "https://t-j.ru/ask/fraud-turoperator/",
+        "https://lifehacker.ru/bankrotstvo-turoperatora/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Честно: острого триггера сейчас нет — в РФ «затишье» банкротств 2025-2026; фоновая тревожность поддерживается европейской волной (06.2026). Боль вечнозелёная с доказанным историческим ущербом",
+      "who_pays_now": "Турист — невозвратом 86-95% чека при крахе; существуют ручные гайды «как проверить туроператора» (реестр, фингарантии, банкротные базы) — спрос на проверку есть",
+      "why_unsolved": "Математика фондов не сходится: взнос в ФПО 0,25% стоимости путёвки, эвакуационный взнос — 1 ₽; чек крупный, инструмент проверки — ручной гайд",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot", "web"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "hotel-swap-refund-through-court",
+      "statement": "Туроператоры меняют отель/рейс за несколько дней до выезда или уже на месте; односторонняя замена незаконна, но деньги возвращаются в основном через претензию и суд (кейс: тур 107 660 ₽ — отсужено 66 293 ₽ за месяцы); при замене «на аналогичную категорию» суды отказывают",
+      "role": "турист B2C",
+      "mentions_found": 5,
+      "links": [
+        "https://t-j.ru/zamena-otelya/",
+        "https://zpp.rospotrebnadzor.ru/Forum/Appeals/Details/39873",
+        "https://suvorov.legal/kak-podat-v-sud-na-turoperatora/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Для конкретного туриста максимальный: «отель заменили за 3 дня до вылета» — действовать надо немедленно; рыночно — обостряется каждый высокий сезон при овербукинге",
+      "who_pays_now": "Турист — разницей в качестве и месяцами судов; юристам за претензии; оператор — штрафом 50% по ЗоЗПП, если турист дошёл до суда (большинство не доходит)",
+      "why_unsolved": "Договоры содержат ничтожные, но отпугивающие оговорки; досудебный возврат добровольно почти не происходит; AI-обработка претензий в туризме РФ — полное белое пятно",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 2,
+      "quotes": []
+    },
+    {
+      "id": "drone-closures-no-compensation",
+      "statement": "Волны дроновых закрытий аэропортов (485 отменённых рейсов и 43 тыс. вынужденных возвратов за одни выходные) оставляют туриста без компенсации (форс-мажор), а туроператора — с каскадными перебронированиями наземки за свой счёт",
+      "role": "турист B2C / туроператор",
+      "mentions_found": 6,
+      "links": [
+        "https://meduza.io/feature/2025/06/09/iz-za-dronov-v-rossii-otmenyayut-desyatki-reysov-v-mesyats-kak-byt-esli-vy-zastryali-v-aeroportu-i-na-kakuyu-kompensatsiyu-mozhno-rasschityvat",
+        "https://www.atorus.ru/article/vernut-li-turistam-dengi-za-tury-na-otmenennykh-i-zaderzhannykh-reysakh-62035",
+        "https://rosco.su/press/znayte-svoi-prava-chto-delat-passazhiru-pri-zakrytii-aeroporta-iz-za-d/"
+      ],
+      "search_period": "2026-07-18",
+      "economic_trigger": "Повторяющийся: каждая волна закрытий = перебронирование СЕГОДНЯ; сезон-2026 идёт",
+      "who_pays_now": "Оператор — операционным хаосом и возвратами; турист — потерянными днями (ст. 120 ВК не работает при форс-мажоре)",
+      "why_unsolved": "Причина внешняя; страховых продуктов «от закрытия аэропорта» в масштабе нет",
+      "automatable": true,
+      "ai_possible": true,
+      "saas_possible": true,
+      "channel": ["bot"],
+      "difficulty": 3,
+      "quotes": []
+    }
+  ]
+}
